@@ -1,0 +1,47 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Benutzer-Regeln
+    match /users/{userId} {
+      // Benutzer können nur ihre eigenen Daten lesen und schreiben
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+      
+      // Öffentliche Profile können von allen authentifizierten Benutzern gelesen werden
+      allow read: if request.auth != null && resource.data.isPublic == true;
+      
+      // Neue Benutzer können nur erstellt werden, wenn sie authentifiziert sind
+      // und die Dokument-ID mit ihrer Auth-UID übereinstimmt
+      allow create: if request.auth != null 
+                    && request.auth.uid == userId
+                    && request.resource.data.id == userId;
+      
+      // Verhindere, dass Benutzer ihre eigene Admin-Rolle setzen
+      allow update: if request.auth != null 
+                    && request.auth.uid == userId
+                    && (!('isAdmin' in request.resource.data) || 
+                        request.resource.data.isAdmin == resource.data.isAdmin);
+      
+      // Benutzer können ihre eigenen Accounts löschen
+      allow delete: if request.auth != null && request.auth.uid == userId;
+    }
+    
+    // Admin-Regeln (für zukünftige Verwendung)
+    match /users/{userId} {
+      // Admins können alle Benutzer lesen und verwalten
+      allow read, write: if request.auth != null && isAdmin();
+    }
+    
+    // Hilfsfunktionen
+    function isAdmin() {
+      return get(/databases/$(database)/documents/users/$(request.auth.uid)).data.isAdmin == true;
+    }
+    
+    function isOwner(userId) {
+      return request.auth != null && request.auth.uid == userId;
+    }
+    
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+  }
+} 
