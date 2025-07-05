@@ -1,178 +1,460 @@
-import { Component } from '@angular/core';
+import { Component, OnInit, signal, computed } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
+import { Meta, Title } from '@angular/platform-browser';
+import { WorkshopService } from '../../services/workshop.service';
+import { Workshop } from '../../models/workshop.model';
 
 @Component({
   selector: 'app-training',
   standalone: true,
   imports: [CommonModule, RouterModule],
   template: `
-    <div class="py-12 bg-gray-50 min-h-screen">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <!-- Header -->
-        <div class="text-center mb-12">
-          <h1 class="section-title">Training Programs</h1>
-          <p class="section-subtitle">Professional development programs for AI automation engineers</p>
-        </div>
-
-        <!-- Training Types -->
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-          <div class="card p-8 text-center hover:transform hover:scale-105 transition-all duration-300">
-            <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-6">
-              <svg class="w-8 h-8 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
-              </svg>
+    <div class="min-h-screen bg-gray-50">
+      <!-- Hero Section -->
+      <section class="relative bg-gradient-to-r from-blue-600 to-purple-700 text-white py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="text-center">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6">
+              KI-Weiterbildung für Profis
+            </h1>
+            <p class="text-xl md:text-2xl mb-8 text-blue-100">
+              Meistern Sie Künstliche Intelligenz mit praxisnahen Workshops von workshops.de
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+              <a href="http://workshops.de/ki" 
+                 target="_blank" 
+                 rel="noopener noreferrer"
+                 class="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+                Alle Workshops entdecken
+              </a>
+              <button (click)="scrollToWorkshops()" 
+                      class="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors">
+                Workshops ansehen
+              </button>
             </div>
-            <h3 class="text-2xl font-bold text-gray-900 mb-4">Online Courses</h3>
-            <p class="text-gray-600 mb-6">Self-paced learning with expert instructors</p>
-            <button class="btn-primary">Explore Courses</button>
-          </div>
-          
-          <div class="card p-8 text-center hover:transform hover:scale-105 transition-all duration-300">
-            <div class="w-16 h-16 bg-secondary-100 rounded-full flex items-center justify-center mx-auto mb-6">
-              <svg class="w-8 h-8 text-secondary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
-              </svg>
-            </div>
-            <h3 class="text-2xl font-bold text-gray-900 mb-4">Workshops</h3>
-            <p class="text-gray-600 mb-6">Interactive sessions with hands-on projects</p>
-            <button class="btn-primary">Join Workshop</button>
-          </div>
-          
-          <div class="card p-8 text-center hover:transform hover:scale-105 transition-all duration-300">
-            <div class="w-16 h-16 bg-accent-100 rounded-full flex items-center justify-center mx-auto mb-6">
-              <svg class="w-8 h-8 text-accent-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
-              </svg>
-            </div>
-            <h3 class="text-2xl font-bold text-gray-900 mb-4">Mentorship</h3>
-            <p class="text-gray-600 mb-6">1-on-1 guidance from industry experts</p>
-            <button class="btn-primary">Find Mentor</button>
           </div>
         </div>
+      </section>
 
-        <!-- Featured Programs -->
-        <div class="mb-12">
-          <h2 class="text-3xl font-bold text-gray-900 mb-8">Featured Programs</h2>
-          <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
-            <!-- Program 1 -->
-            <div class="card overflow-hidden hover:shadow-2xl transition-shadow duration-300">
-              <div class="grid grid-cols-1 lg:grid-cols-2">
+      <!-- Stats Section -->
+      <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
+            <div class="p-6">
+              <div class="text-3xl font-bold text-blue-600 mb-2">{{ workshopStats().total }}+</div>
+              <div class="text-gray-600">KI-Workshops</div>
+            </div>
+            <div class="p-6">
+              <div class="text-3xl font-bold text-blue-600 mb-2">{{ workshopStats().categories }}+</div>
+              <div class="text-gray-600">Kategorien</div>
+            </div>
+            <div class="p-6">
+              <div class="text-3xl font-bold text-blue-600 mb-2">4.8/5</div>
+              <div class="text-gray-600">Ø Bewertung</div>
+            </div>
+            <div class="p-6">
+              <div class="text-3xl font-bold text-blue-600 mb-2">1000+</div>
+              <div class="text-gray-600">Zufriedene Teilnehmer</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured Workshops -->
+      <section class="py-16 bg-gray-50" id="workshops">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="text-center mb-12">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+              Empfohlene KI-Workshops
+            </h2>
+            <p class="text-xl text-gray-600">
+              Unsere beliebtesten Kurse für Ihren Einstieg in die Künstliche Intelligenz
+            </p>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            @for (workshop of featuredWorkshops(); track workshop.id) {
+              <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
                 <div class="relative">
-                  <img src="https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&dpr=2" 
-                       alt="AI Automation Bootcamp" 
-                       class="w-full h-48 lg:h-full object-cover">
+                  <img [src]="workshop.image" 
+                       [alt]="workshop.title" 
+                       class="w-full h-48 object-cover">
                   <div class="absolute top-4 left-4">
-                    <span class="bg-primary-600 text-white text-sm px-3 py-1 rounded-full">Popular</span>
+                    <span class="bg-blue-600 text-white text-sm px-3 py-1 rounded-full">
+                      {{ workshop.level }}
+                    </span>
                   </div>
+                  @if (workshop.isOnline) {
+                    <div class="absolute top-4 right-4">
+                      <span class="bg-green-600 text-white text-sm px-3 py-1 rounded-full">
+                        Online
+                      </span>
+                    </div>
+                  }
                 </div>
-                <div class="p-6 flex flex-col justify-between">
-                  <div>
-                    <h3 class="text-2xl font-bold text-gray-900 mb-2">AI Automation Bootcamp</h3>
-                    <p class="text-gray-600 mb-4">12-week intensive program covering Python, ML, and automation tools</p>
-                    <div class="flex items-center text-sm text-gray-500 mb-4">
-                      <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
-                      </svg>
-                      12 weeks • 120 hours
+                
+                <div class="p-6">
+                  <div class="flex justify-between items-start mb-3">
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">
+                      {{ workshop.title }}
+                    </h3>
+                    <div class="text-right">
+                      <div class="text-2xl font-bold text-blue-600">{{ workshop.price }}</div>
+                      <div class="text-sm text-gray-500">{{ workshop.duration }}</div>
                     </div>
                   </div>
-                  <div class="flex justify-between items-center">
-                    <span class="text-2xl font-bold text-primary-600">$1,299</span>
-                    <button class="btn-primary">Enroll Now</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Program 2 -->
-            <div class="card overflow-hidden hover:shadow-2xl transition-shadow duration-300">
-              <div class="grid grid-cols-1 lg:grid-cols-2">
-                <div class="relative">
-                  <img src="https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&dpr=2" 
-                       alt="MLOps Certification" 
-                       class="w-full h-48 lg:h-full object-cover">
-                  <div class="absolute top-4 left-4">
-                    <span class="bg-secondary-600 text-white text-sm px-3 py-1 rounded-full">Certification</span>
-                  </div>
-                </div>
-                <div class="p-6 flex flex-col justify-between">
-                  <div>
-                    <h3 class="text-2xl font-bold text-gray-900 mb-2">MLOps Certification</h3>
-                    <p class="text-gray-600 mb-4">Industry-recognized certification for ML operations and deployment</p>
-                    <div class="flex items-center text-sm text-gray-500 mb-4">
-                      <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
-                      </svg>
-                      8 weeks • 80 hours
+                  
+                  <p class="text-gray-600 mb-4">
+                    {{ workshop.description }}
+                  </p>
+                  
+                  <div class="flex items-center mb-4">
+                    <div class="flex items-center">
+                      @for (star of [1,2,3,4,5]; track star) {
+                        <svg class="w-4 h-4 text-yellow-400 fill-current" 
+                             viewBox="0 0 20 20">
+                          <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/>
+                        </svg>
+                      }
+                      <span class="ml-2 text-sm text-gray-600">
+                        {{ workshop.rating }} ({{ workshop.reviewCount }} Bewertungen)
+                      </span>
                     </div>
                   </div>
+                  
+                  <div class="mb-4">
+                    <div class="text-sm text-gray-600 mb-2">Das lernen Sie:</div>
+                    <ul class="space-y-1">
+                      @for (feature of workshop.features.slice(0, 3); track feature) {
+                        <li class="flex items-center text-sm text-gray-700">
+                          <svg class="w-4 h-4 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                          </svg>
+                          {{ feature }}
+                        </li>
+                      }
+                    </ul>
+                  </div>
+                  
+                  <div class="flex flex-wrap gap-2 mb-4">
+                    @for (tag of workshop.tags.slice(0, 3); track tag) {
+                      <span class="bg-gray-100 text-gray-700 text-xs px-2 py-1 rounded-full">
+                        {{ tag }}
+                      </span>
+                    }
+                  </div>
+                  
                   <div class="flex justify-between items-center">
-                    <span class="text-2xl font-bold text-primary-600">$899</span>
-                    <button class="btn-primary">Get Certified</button>
+                    <div class="text-sm text-gray-500">
+                      Nächster Termin: {{ workshop.nextDate }}
+                    </div>
+                    <a [href]="workshop.url" 
+                       target="_blank" 
+                       rel="noopener noreferrer"
+                       class="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors">
+                      Jetzt buchen
+                    </a>
                   </div>
                 </div>
               </div>
-            </div>
+            }
           </div>
         </div>
+      </section>
 
-        <!-- Upcoming Events -->
-        <div class="mb-12">
-          <h2 class="text-3xl font-bold text-gray-900 mb-8">Upcoming Events</h2>
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div class="bg-white rounded-lg p-6 border-l-4 border-primary-600 hover:shadow-lg transition-shadow">
-              <div class="flex justify-between items-start mb-4">
-                <div>
-                  <h3 class="text-xl font-bold text-gray-900">AI Automation Workshop</h3>
-                  <p class="text-gray-600">Hands-on workshop on building automation pipelines</p>
-                </div>
-                <span class="bg-primary-100 text-primary-600 text-sm px-2 py-1 rounded-full">Free</span>
-              </div>
-              <div class="flex items-center text-sm text-gray-500 mb-4">
-                <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
-                </svg>
-                January 15, 2025 • 2:00 PM CET
-              </div>
-              <button class="btn-outline w-full">Register</button>
-            </div>
-            
-            <div class="bg-white rounded-lg p-6 border-l-4 border-secondary-600 hover:shadow-lg transition-shadow">
-              <div class="flex justify-between items-start mb-4">
-                <div>
-                  <h3 class="text-xl font-bold text-gray-900">Enterprise AI Summit</h3>
-                  <p class="text-gray-600">3-day conference on enterprise AI solutions</p>
-                </div>
-                <span class="bg-secondary-100 text-secondary-600 text-sm px-2 py-1 rounded-full">$299</span>
-              </div>
-              <div class="flex items-center text-sm text-gray-500 mb-4">
-                <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
-                </svg>
-                February 20-22, 2025 • Berlin, Germany
-              </div>
-              <button class="btn-outline w-full">Register</button>
-            </div>
+      <!-- All Workshops -->
+      <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="text-center mb-12">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+              Alle KI-Workshops
+            </h2>
+            <p class="text-xl text-gray-600">
+              Entdecken Sie unser vollständiges Angebot an KI-Weiterbildungen
+            </p>
           </div>
-        </div>
 
-        <!-- Newsletter CTA -->
-        <div class="bg-gradient-to-r from-primary-600 to-primary-800 rounded-2xl p-8 text-white text-center">
-          <h2 class="text-3xl font-bold mb-4">Stay Updated</h2>
-          <p class="text-primary-100 mb-6">Get notified about new training programs and events</p>
-          <div class="flex max-w-md mx-auto">
-            <input 
-              type="email" 
-              placeholder="Enter your email" 
-              class="flex-1 px-4 py-3 rounded-l-lg border-0 text-gray-900 focus:ring-2 focus:ring-primary-300">
-            <button class="bg-secondary-600 hover:bg-secondary-700 px-6 py-3 rounded-r-lg transition-colors">
-              Subscribe
+          <!-- Category Filter -->
+          <div class="flex flex-wrap justify-center gap-3 mb-8">
+            <button (click)="selectedCategory.set('all')" 
+                    [class]="selectedCategory() === 'all' ? 'bg-blue-600 text-white' : 'bg-gray-200 text-gray-700'"
+                    class="px-4 py-2 rounded-full hover:bg-blue-500 hover:text-white transition-colors">
+              Alle Kategorien
             </button>
+            @for (category of categories(); track category) {
+              <button (click)="selectedCategory.set(category)" 
+                      [class]="selectedCategory() === category ? 'bg-blue-600 text-white' : 'bg-gray-200 text-gray-700'"
+                      class="px-4 py-2 rounded-full hover:bg-blue-500 hover:text-white transition-colors">
+                {{ category }}
+              </button>
+            }
+          </div>
+
+          <!-- Workshop Grid -->
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            @for (workshop of filteredWorkshops(); track workshop.id) {
+              <div class="bg-white rounded-xl border border-gray-200 overflow-hidden hover:shadow-lg transition-shadow duration-300">
+                <div class="relative">
+                  <img [src]="workshop.image" 
+                       [alt]="workshop.title" 
+                       class="w-full h-40 object-cover">
+                  <div class="absolute top-3 left-3">
+                    <span class="bg-blue-600 text-white text-xs px-2 py-1 rounded-full">
+                      {{ workshop.level }}
+                    </span>
+                  </div>
+                  @if (workshop.isOnline) {
+                    <div class="absolute top-3 right-3">
+                      <span class="bg-green-600 text-white text-xs px-2 py-1 rounded-full">
+                        Online
+                      </span>
+                    </div>
+                  }
+                </div>
+                
+                <div class="p-5">
+                  <div class="flex justify-between items-start mb-3">
+                    <h3 class="text-lg font-bold text-gray-900">
+                      {{ workshop.title }}
+                    </h3>
+                    <div class="text-right">
+                      <div class="text-lg font-bold text-blue-600">{{ workshop.price }}</div>
+                      <div class="text-xs text-gray-500">{{ workshop.duration }}</div>
+                    </div>
+                  </div>
+                  
+                  <p class="text-gray-600 text-sm mb-3">
+                    {{ workshop.description }}
+                  </p>
+                  
+                  <div class="flex items-center mb-3">
+                    <div class="flex items-center">
+                      @for (star of [1,2,3,4,5]; track star) {
+                        <svg class="w-3 h-3 text-yellow-400 fill-current" 
+                             viewBox="0 0 20 20">
+                          <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/>
+                        </svg>
+                      }
+                      <span class="ml-1 text-xs text-gray-600">
+                        {{ workshop.rating }} ({{ workshop.reviewCount }})
+                      </span>
+                    </div>
+                  </div>
+                  
+                  <div class="flex flex-wrap gap-1 mb-3">
+                    @for (tag of workshop.tags.slice(0, 3); track tag) {
+                      <span class="bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded-full">
+                        {{ tag }}
+                      </span>
+                    }
+                  </div>
+                  
+                  <div class="flex justify-between items-center">
+                    <div class="text-xs text-gray-500">
+                      {{ workshop.nextDate }}
+                    </div>
+                    <a [href]="workshop.url" 
+                       target="_blank" 
+                       rel="noopener noreferrer"
+                       class="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-blue-700 transition-colors">
+                      Buchen
+                    </a>
+                  </div>
+                </div>
+              </div>
+            }
           </div>
         </div>
-      </div>
+      </section>
+
+      <!-- CTA Section -->
+      <section class="py-16 bg-gradient-to-r from-blue-600 to-purple-700 text-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 class="text-3xl md:text-4xl font-bold mb-6">
+            Bereit für Ihre KI-Weiterbildung?
+          </h2>
+          <p class="text-xl mb-8 text-blue-100">
+            Starten Sie noch heute in die Zukunft der Künstlichen Intelligenz
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="http://workshops.de/ki" 
+               target="_blank" 
+               rel="noopener noreferrer"
+               class="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+              Alle Workshops ansehen
+            </a>
+            <a href="mailto:info@workshops.de" 
+               class="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors">
+              Beratung anfragen
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ Section -->
+      <section class="py-16 bg-gray-50">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="text-center mb-12">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+              Häufig gestellte Fragen
+            </h2>
+            <p class="text-xl text-gray-600">
+              Alles was Sie über unsere KI-Workshops wissen müssen
+            </p>
+          </div>
+
+          <div class="space-y-6">
+            @for (faq of faqs(); track faq.question) {
+              <div class="bg-white rounded-lg shadow-md p-6">
+                <h3 class="text-lg font-semibold text-gray-900 mb-3">
+                  {{ faq.question }}
+                </h3>
+                <p class="text-gray-600">
+                  {{ faq.answer }}
+                </p>
+              </div>
+            }
+          </div>
+        </div>
+      </section>
     </div>
   `
 })
-export class TrainingComponent {}
+export class TrainingComponent implements OnInit {
+  private workshopService = new WorkshopService();
+  
+  // Signals for reactive state management
+  selectedCategory = signal('all');
+  workshops = signal<Workshop[]>([]);
+  
+  // Computed signals for derived state
+  featuredWorkshops = computed(() => this.workshopService.getFeaturedWorkshops());
+  categories = computed(() => this.workshopService.getCategories());
+  
+  filteredWorkshops = computed(() => {
+    const category = this.selectedCategory();
+    if (category === 'all') {
+      return this.workshops();
+    }
+    return this.workshops().filter(workshop => workshop.category === category);
+  });
+  
+  workshopStats = computed(() => ({
+    total: this.workshops().length,
+    categories: this.categories().length
+  }));
+
+  faqs = signal([
+    {
+      question: 'Welche Vorkenntnisse benötige ich für die KI-Workshops?',
+      answer: 'Die meisten unserer Workshops sind für Anfänger konzipiert. Spezifische Vorkenntnisse werden in der jeweiligen Kursbeschreibung angegeben. Für technische Workshops wie Deep Learning sind Programmierkenntnisse empfehlenswert.'
+    },
+    {
+      question: 'Erhalte ich ein Zertifikat nach Abschluss?',
+      answer: 'Ja, alle Teilnehmer erhalten nach erfolgreichem Abschluss ein detailliertes Zertifikat von workshops.de, das Sie für Ihre berufliche Weiterentwicklung nutzen können.'
+    },
+    {
+      question: 'Sind die Workshops online oder vor Ort?',
+      answer: 'Wir bieten sowohl Online- als auch Präsenzworkshops an. Die jeweilige Form ist bei jedem Workshop deutlich gekennzeichnet. Online-Workshops nutzen moderne Videokonferenz-Tools für interaktive Lernerfahrungen.'
+    },
+    {
+      question: 'Wie aktuell sind die Kursinhalte?',
+      answer: 'Unsere Kursinhalte werden regelmäßig aktualisiert, um mit den neuesten Entwicklungen im Bereich KI Schritt zu halten. Alle Dozenten sind Experten mit aktueller Praxiserfahrung.'
+    },
+    {
+      question: 'Gibt es Gruppentarife oder Firmenrabatte?',
+      answer: 'Ja, wir bieten spezielle Konditionen für Firmenbuchungen und Gruppen. Kontaktieren Sie uns unter info@workshops.de für ein individuelles Angebot.'
+    }
+  ]);
+
+  constructor(
+    private meta: Meta,
+    private title: Title
+  ) {}
+
+  ngOnInit() {
+    this.setupSEO();
+    this.workshops.set(this.workshopService.getWorkshops());
+  }
+
+  private setupSEO() {
+    // Title and meta description
+    this.title.setTitle('KI-Workshops & Weiterbildung | workshops.de - Künstliche Intelligenz lernen');
+    
+    this.meta.updateTag({
+      name: 'description',
+      content: 'Professionelle KI-Weiterbildung bei workshops.de ✓ ChatGPT, Deep Learning, Machine Learning ✓ Zertifizierte Kurse ✓ Über 1000 zufriedene Teilnehmer ✓ Jetzt buchen!'
+    });
+
+    // Keywords
+    this.meta.updateTag({
+      name: 'keywords',
+      content: 'KI Workshop, Künstliche Intelligenz, ChatGPT Training, Deep Learning, Machine Learning, AI Weiterbildung, Prompt Engineering, workshops.de'
+    });
+
+    // Open Graph tags
+    this.meta.updateTag({
+      property: 'og:title',
+      content: 'KI-Workshops & Weiterbildung | workshops.de'
+    });
+    
+    this.meta.updateTag({
+      property: 'og:description',
+      content: 'Professionelle KI-Weiterbildung bei workshops.de. ChatGPT, Deep Learning, Machine Learning und mehr. Zertifizierte Kurse für Anfänger und Profis.'
+    });
+    
+    this.meta.updateTag({
+      property: 'og:type',
+      content: 'website'
+    });
+    
+    this.meta.updateTag({
+      property: 'og:url',
+      content: 'https://workshops.de/ki'
+    });
+
+    // Twitter Card
+    this.meta.updateTag({
+      name: 'twitter:card',
+      content: 'summary_large_image'
+    });
+    
+    this.meta.updateTag({
+      name: 'twitter:title',
+      content: 'KI-Workshops & Weiterbildung | workshops.de'
+    });
+    
+    this.meta.updateTag({
+      name: 'twitter:description',
+      content: 'Professionelle KI-Weiterbildung bei workshops.de. ChatGPT, Deep Learning, Machine Learning und mehr.'
+    });
+
+    // Structured Data (JSON-LD)
+    const structuredData = {
+      '@context': 'https://schema.org',
+      '@type': 'EducationalOrganization',
+      'name': 'workshops.de',
+      'url': 'https://workshops.de/ki',
+      'description': 'Professionelle KI-Weiterbildung und Workshops zu Künstlicher Intelligenz',
+      'offers': {
+        '@type': 'Offer',
+        'name': 'KI-Workshops',
+        'description': 'Professionelle Weiterbildung in Künstlicher Intelligenz',
+        'category': 'Education'
+      }
+    };
+
+    const script = document.createElement('script');
+    script.type = 'application/ld+json';
+    script.text = JSON.stringify(structuredData);
+    document.head.appendChild(script);
+  }
+
+  scrollToWorkshops() {
+    const element = document.getElementById('workshops');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+}
