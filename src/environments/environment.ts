@@ -2,7 +2,7 @@ export const environment = {
     production: false,
     firebase: {
         apiKey: "AIzaSyAAoyariK69fWmoZ7FSrU7kJH4n7KZCtIc",
-        authDomain: "ai-automations-engineer.de",
+        authDomain: "ai-automations-engineer-de.firebaseapp.com",
         projectId: "ai-automations-engineer-de",
         storageBucket: "ai-automations-engineer-de.firebasestorage.app",
         messagingSenderId: "1051916032696",
