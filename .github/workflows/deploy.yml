@@ -39,6 +39,8 @@ jobs:
       run: npm run build
       env:
         NODE_ENV: production
+        PUBLIC_COMMIT_HASH: ${{ github.sha }}
+        PUBLIC_BUILD_TIME: ${{ github.run_number }}
     
     - name: Setup Pages
       uses: actions/configure-pages@v4

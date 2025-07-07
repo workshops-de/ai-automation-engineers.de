@@ -1,5 +1,19 @@
 ---
 // Footer component for AI-Automations-Engineer.de
+
+// Get version information from environment variables
+const commitHash = import.meta.env.PUBLIC_COMMIT_HASH;
+const buildNumber = import.meta.env.PUBLIC_BUILD_TIME;
+const isDev = import.meta.env.DEV;
+
+// Format commit hash for display (show first 7 characters)
+const shortCommitHash = commitHash ? commitHash.substring(0, 7) : 'dev';
+const versionInfo = isDev ? 'dev' : `v${buildNumber || '1'}.${shortCommitHash}`;
+
+// Create detailed version info for tooltip
+const detailedVersionInfo = isDev 
+  ? 'Development build'
+  : `Build #${buildNumber || '1'} • Commit: ${commitHash || 'unknown'} • Built: ${new Date().toISOString().split('T')[0]}`;
 ---
 
 <footer class="bg-gray-900 text-white">
@@ -60,10 +74,21 @@
     </div>
 
     <div class="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
-      <p class="text-gray-400 text-sm">
+    <div class="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-4">
+    <p class="text-gray-400 text-sm">
         © {new Date().getFullYear()} AI-Automations-Engineer.de. All rights reserved.
       </p>
-      <div class="flex space-x-6 mt-4 md:mt-0">
+            <div class="flex items-center space-x-2">
+              <span class="text-xs text-gray-500">Version:</span>
+              <span 
+                class="text-xs font-mono bg-gray-800 px-2 py-1 rounded text-gray-300 hover:bg-gray-700 transition-colors cursor-help" 
+                title={detailedVersionInfo}
+              >
+                {versionInfo}
+              </span>
+            </div>
+          </div>
+          <div class="flex space-x-6 mt-4 md:mt-0">
         <a href="https://twitter.com/ai_automations" class="text-gray-400 hover:text-white transition-colors" aria-label="Twitter">
           <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
             <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
