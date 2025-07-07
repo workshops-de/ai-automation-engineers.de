@@ -23,7 +23,7 @@ const description = 'Manage your AI-Automations-Engineer.de profile, settings, a
     <section class="py-16 bg-white">
       <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div id="profile-content">
-          <!-- This will be populated by React component -->
+          <!-- ProfileEditor component will be rendered here -->
         </div>
       </div>
     </section>
@@ -31,106 +31,14 @@ const description = 'Manage your AI-Automations-Engineer.de profile, settings, a
 </BaseLayout>
 
 <script>
-  // Simple client-side authentication check
-  import { auth } from '../lib/firebase';
-  import { onAuthStateChanged } from 'firebase/auth';
+  import { createRoot } from 'react-dom/client';
+  import ProfileEditor from '../components/ProfileEditor';
+  import { createElement } from 'react';
 
-  const profileContent = document.getElementById('profile-content');
-  
-  onAuthStateChanged(auth, (user) => {
-    if (user) {
-      // User is signed in
-      profileContent.innerHTML = `
-        <div class="bg-white rounded-2xl shadow-lg p-8">
-          <div class="flex items-center mb-8">
-            <img 
-              src="${user.photoURL || '/default-avatar.png'}" 
-              alt="${user.displayName || 'User'}"
-              class="w-20 h-20 rounded-full object-cover mr-6"
-            />
-            <div>
-              <h2 class="text-2xl font-bold text-gray-900">${user.displayName || 'User'}</h2>
-              <p class="text-gray-600">${user.email}</p>
-              <p class="text-sm text-gray-500">Member since ${user.metadata.creationTime ? new Date(user.metadata.creationTime).toLocaleDateString() : 'Unknown'}</p>
-            </div>
-          </div>
-          
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div class="card">
-              <h3 class="text-lg font-bold text-gray-900 mb-4">Account Information</h3>
-              <div class="space-y-3">
-                <div>
-                  <label class="text-sm font-medium text-gray-700">Display Name</label>
-                  <p class="text-gray-900">${user.displayName || 'Not set'}</p>
-                </div>
-                <div>
-                  <label class="text-sm font-medium text-gray-700">Email</label>
-                  <p class="text-gray-900">${user.email}</p>
-                </div>
-                <div>
-                  <label class="text-sm font-medium text-gray-700">Email Verified</label>
-                  <p class="text-gray-900">${user.emailVerified ? 'Yes' : 'No'}</p>
-                </div>
-              </div>
-            </div>
-            
-            <div class="card">
-              <h3 class="text-lg font-bold text-gray-900 mb-4">Learning Progress</h3>
-              <div class="space-y-3">
-                <div>
-                  <label class="text-sm font-medium text-gray-700">Courses Completed</label>
-                  <p class="text-gray-900">0</p>
-                </div>
-                <div>
-                  <label class="text-sm font-medium text-gray-700">Current Streak</label>
-                  <p class="text-gray-900">0 days</p>
-                </div>
-                <div>
-                  <label class="text-sm font-medium text-gray-700">Total Learning Time</label>
-                  <p class="text-gray-900">0 hours</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-          <div class="mt-8 pt-8 border-t border-gray-200">
-            <h3 class="text-lg font-bold text-gray-900 mb-4">Quick Actions</h3>
-            <div class="flex flex-wrap gap-4">
-              <a href="/learning" class="btn-primary">Browse Courses</a>
-              <a href="/training" class="btn-outline">View Training Programs</a>
-              <button class="btn-outline text-red-600 border-red-600 hover:bg-red-50" onclick="handleSignOut()">
-                Sign Out
-              </button>
-            </div>
-          </div>
-        </div>
-      `;
-    } else {
-      // User is signed out
-      profileContent.innerHTML = `
-        <div class="text-center py-16">
-          <div class="max-w-md mx-auto">
-            <svg class="w-16 h-16 text-gray-300 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
-            </svg>
-            <h2 class="text-2xl font-bold text-gray-900 mb-4">Sign In Required</h2>
-            <p class="text-gray-600 mb-8">Please sign in to access your profile and manage your account settings.</p>
-            <button onclick="window.location.href='/'" class="btn-primary">
-              Go to Home Page
-            </button>
-          </div>
-        </div>
-      `;
-    }
-  });
-
-  // Handle sign out
-  window.handleSignOut = async () => {
-    try {
-      await auth.signOut();
-      window.location.href = '/';
-    } catch (error) {
-      console.error('Sign out error:', error);
-    }
-  };
+  // Mount the React component
+  const container = document.getElementById('profile-content');
+  if (container) {
+    const root = createRoot(container);
+    root.render(createElement(ProfileEditor));
+  }
 </script>
