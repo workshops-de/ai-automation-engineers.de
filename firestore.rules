@@ -9,6 +9,9 @@ service cloud.firestore {
       // Öffentliche Profile können von allen authentifizierten Benutzern gelesen werden
       allow read: if request.auth != null && resource.data.isPublic == true;
       
+      // Öffentliche Profile können auch ohne Authentifizierung gelesen werden
+      allow read: if resource.data.isPublic == true;
+      
       // Neue Benutzer können nur erstellt werden, wenn sie authentifiziert sind
       // und die Dokument-ID mit ihrer Auth-UID übereinstimmt
       allow create: if request.auth != null 
