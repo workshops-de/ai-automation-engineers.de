@@ -1,0 +1,240 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const title = 'Blog';
+const description = 'Discover the latest insights, tutorials, and best practices in AI automation engineering from our community of experts.';
+
+// Mock blog posts - in a real app, this would come from a CMS or markdown files
+const blogPosts = [
+  {
+    id: 'future-of-ai-automation',
+    title: 'The Future of AI Automation',
+    excerpt: 'Explore the emerging trends shaping the AI automation landscape and how they will impact businesses in the coming years.',
+    publishDate: '2024-12-01',
+    readTime: '8 min read',
+    category: 'AI Trends',
+    author: 'Sarah Johnson',
+    image: 'https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&dpr=2',
+    tags: ['AI', 'Automation', 'Trends', 'Future']
+  },
+  {
+    id: 'building-first-ai-pipeline',
+    title: 'Building Your First AI Pipeline',
+    excerpt: 'A comprehensive guide to designing and implementing automation workflows using modern AI tools and frameworks.',
+    publishDate: '2024-11-28',
+    readTime: '12 min read',
+    category: 'Tutorial',
+    author: 'Michael Chen',
+    image: 'https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&dpr=2',
+    tags: ['Tutorial', 'Pipeline', 'AI', 'Development']
+  },
+  {
+    id: 'ethics-in-ai-automation',
+    title: 'Ethics in AI Automation',
+    excerpt: 'Understanding the ethical implications of AI automation and building responsible systems that benefit society.',
+    publishDate: '2024-11-25',
+    readTime: '10 min read',
+    category: 'Ethics',
+    author: 'Dr. Elena Rodriguez',
+    image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&dpr=2',
+    tags: ['Ethics', 'AI', 'Responsibility', 'Society']
+  },
+  {
+    id: 'machine-learning-deployment',
+    title: 'Best Practices for ML Model Deployment',
+    excerpt: 'Learn how to deploy machine learning models in production environments with confidence and reliability.',
+    publishDate: '2024-11-22',
+    readTime: '15 min read',
+    category: 'DevOps',
+    author: 'James Wilson',
+    image: 'https://images.pexels.com/photos/1181677/pexels-photo-1181677.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&dpr=2',
+    tags: ['ML', 'Deployment', 'DevOps', 'Production']
+  },
+  {
+    id: 'ai-automation-tools-2024',
+    title: 'Top AI Automation Tools of 2024',
+    excerpt: 'A comprehensive review of the best AI automation tools and platforms that are revolutionizing the industry.',
+    publishDate: '2024-11-18',
+    readTime: '9 min read',
+    category: 'Tools',
+    author: 'Lisa Park',
+    image: 'https://images.pexels.com/photos/943096/pexels-photo-943096.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&dpr=2',
+    tags: ['Tools', 'Software', 'Review', 'AI']
+  },
+  {
+    id: 'natural-language-processing',
+    title: 'NLP in Business Automation',
+    excerpt: 'Discover how natural language processing is transforming business processes and customer interactions.',
+    publishDate: '2024-11-15',
+    readTime: '11 min read',
+    category: 'NLP',
+    author: 'David Kumar',
+    image: 'https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&dpr=2',
+    tags: ['NLP', 'Business', 'Automation', 'AI']
+  }
+];
+
+const categories = ['All', 'AI Trends', 'Tutorial', 'Ethics', 'DevOps', 'Tools', 'NLP'];
+---
+
+<BaseLayout {title} {description}>
+  <div class="animate-fade-in">
+    <!-- Hero Section -->
+    <section class="bg-gradient-primary text-white py-16">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center">
+          <h1 class="text-4xl md:text-5xl font-bold mb-4">AI Automation Blog</h1>
+          <p class="text-xl text-blue-100 max-w-2xl mx-auto">
+            Discover the latest insights, tutorials, and best practices from our community of AI automation experts
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog Content -->
+    <section class="py-16 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- Category Filter -->
+        <div class="mb-12">
+          <div class="flex flex-wrap gap-2 justify-center">
+            {categories.map(category => (
+              <button 
+                class="px-4 py-2 rounded-full text-sm font-medium transition-colors
+                       bg-gray-100 text-gray-700 hover:bg-primary-100 hover:text-primary-600
+                       first:bg-primary-600 first:text-white first:hover:bg-primary-700"
+                data-category={category}
+              >
+                {category}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        <!-- Blog Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {blogPosts.map(post => (
+            <article class="card card-hover overflow-hidden">
+              <a href={`/blog/${post.id}`}>
+                <img 
+                  src={post.image} 
+                  alt={post.title}
+                  class="w-full h-48 object-cover"
+                  width="600"
+                  height="400"
+                  loading="lazy"
+                />
+              </a>
+              <div class="p-6">
+                <div class="flex items-center mb-3">
+                  <span class="bg-primary-100 text-primary-600 text-xs px-2 py-1 rounded-full">
+                    {post.category}
+                  </span>
+                  <span class="text-gray-500 text-sm ml-auto">
+                    {post.readTime}
+                  </span>
+                </div>
+                
+                <h2 class="font-bold text-xl mb-2">
+                  <a href={`/blog/${post.id}`} class="hover:text-primary-600 transition-colors">
+                    {post.title}
+                  </a>
+                </h2>
+                
+                <p class="text-gray-600 text-sm mb-4">
+                  {post.excerpt}
+                </p>
+                
+                <div class="flex items-center justify-between">
+                  <div class="flex items-center">
+                    <div class="w-8 h-8 bg-gray-300 rounded-full flex items-center justify-center">
+                      <span class="text-sm font-medium text-gray-700">
+                        {post.author.split(' ').map(name => name[0]).join('')}
+                      </span>
+                    </div>
+                    <div class="ml-3">
+                      <p class="text-sm font-medium text-gray-900">{post.author}</p>
+                      <p class="text-xs text-gray-500">
+                        {new Date(post.publishDate).toLocaleDateString('en-US', {
+                          year: 'numeric',
+                          month: 'long',
+                          day: 'numeric'
+                        })}
+                      </p>
+                    </div>
+                  </div>
+                  <a 
+                    href={`/blog/${post.id}`} 
+                    class="text-primary-600 hover:text-primary-700 font-medium text-sm"
+                  >
+                    Read more →
+                  </a>
+                </div>
+                
+                <div class="mt-4 flex flex-wrap gap-2">
+                  {post.tags.map(tag => (
+                    <span class="bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded">
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </article>
+          ))}
+        </div>
+
+        <!-- Load More Button -->
+        <div class="text-center mt-12">
+          <button class="btn-outline">
+            Load More Articles
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter Signup -->
+    <section class="py-16 bg-gray-50">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">Stay Updated</h2>
+        <p class="text-lg text-gray-600 mb-8">
+          Subscribe to our newsletter and never miss the latest AI automation insights
+        </p>
+        <form class="max-w-md mx-auto flex gap-4">
+          <input 
+            type="email" 
+            placeholder="Enter your email"
+            class="form-input flex-1"
+            required
+          >
+          <button type="submit" class="btn-primary">
+            Subscribe
+          </button>
+        </form>
+      </div>
+    </section>
+  </div>
+</BaseLayout>
+
+<script>
+  // Category filter functionality
+  document.addEventListener('DOMContentLoaded', function() {
+    const categoryButtons = document.querySelectorAll('[data-category]');
+    
+    categoryButtons.forEach(button => {
+      button.addEventListener('click', function() {
+        // Remove active class from all buttons
+        categoryButtons.forEach(btn => {
+          btn.classList.remove('bg-primary-600', 'text-white');
+          btn.classList.add('bg-gray-100', 'text-gray-700');
+        });
+        
+        // Add active class to clicked button
+        this.classList.remove('bg-gray-100', 'text-gray-700');
+        this.classList.add('bg-primary-600', 'text-white');
+        
+        // Here you would implement filtering logic
+        // For now, we'll just show all posts
+        console.log('Filter by category:', this.dataset.category);
+      });
+    });
+  });
+</script>

@@ -1,35 +1,28 @@
 {
-  "name": "angular-starter",
-  "private": true,
+  "name": "ai-automations-engineer.de",
+  "type": "module",
+  "version": "0.0.1",
   "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build"
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
   },
   "dependencies": {
-    "@angular/animations": "20.0.0",
-    "@angular/common": "20.0.0",
-    "@angular/compiler": "20.0.0",
-    "@angular/core": "20.0.0",
-    "@angular/fire": "^20.0.1",
-    "@angular/forms": "20.0.0",
-    "@angular/platform-browser": "20.0.0",
-    "@angular/platform-browser-dynamic": "20.0.0",
-    "@angular/platform-server": "20.0.0",
-    "@angular/router": "20.0.0",
+    "@astrojs/tailwind": "^5.1.2",
+    "@astrojs/sitemap": "^3.2.1",
+    "@astrojs/rss": "^4.0.9",
+    "@astrojs/react": "^3.6.2",
+    "astro": "^5.11.0",
+    "tailwindcss": "^3.4.17",
     "firebase": "^11.10.0",
-    "rxjs": "^7.8.1",
-    "tslib": "^2.5.0",
-    "zone.js": "~0.15.0"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@angular/build": "20.0.0",
-    "@angular/cli": "20.0.0",
-    "@angular/compiler-cli": "20.0.0",
-    "@types/node": "^24.0.10",
-    "autoprefixer": "^10.4.20",
-    "postcss": "^8.4.49",
-    "tailwindcss": "^3.4.17",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
     "typescript": "^5.8.2"
   }
 }

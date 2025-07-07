@@ -1,0 +1,393 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const title = 'Training Programs';
+const description = 'Transform your team with our comprehensive AI automation training programs. From workshops to certification courses, we offer training solutions for all skill levels.';
+
+// Mock training programs data
+const programs = [
+  {
+    id: 1,
+    title: 'AI Automation Bootcamp',
+    type: 'Intensive Program',
+    duration: '12 weeks',
+    format: 'Online + Live Sessions',
+    price: '$2,999',
+    description: 'Comprehensive bootcamp covering AI fundamentals, automation frameworks, and real-world project implementation.',
+    features: [
+      '96 hours of live instruction',
+      'Hands-on projects with industry mentors',
+      'Job placement assistance',
+      'Certificate of completion',
+      'Access to exclusive community'
+    ],
+    nextStart: '2024-01-15',
+    spots: 12,
+    level: 'Beginner to Intermediate',
+    image: 'https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&dpr=2'
+  },
+  {
+    id: 2,
+    title: 'Enterprise AI Workshop',
+    type: 'Corporate Training',
+    duration: '3 days',
+    format: 'On-site or Remote',
+    price: 'Custom',
+    description: 'Tailored workshop for enterprise teams looking to implement AI automation in their business processes.',
+    features: [
+      'Customized curriculum',
+      'Executive briefings',
+      'Hands-on implementation labs',
+      'Post-training support',
+      'ROI assessment framework'
+    ],
+    nextStart: 'On demand',
+    spots: 20,
+    level: 'All Levels',
+    image: 'https://images.pexels.com/photos/1181677/pexels-photo-1181677.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&dpr=2'
+  },
+  {
+    id: 3,
+    title: 'MLOps Certification',
+    type: 'Certification Program',
+    duration: '8 weeks',
+    format: 'Self-paced + Mentoring',
+    price: '$1,499',
+    description: 'Industry-recognized certification program for ML operations and deployment best practices.',
+    features: [
+      'Self-paced learning modules',
+      'Weekly mentoring sessions',
+      'Real-world capstone project',
+      'Industry-recognized certificate',
+      'Career guidance and networking'
+    ],
+    nextStart: '2024-01-08',
+    spots: 25,
+    level: 'Intermediate to Advanced',
+    image: 'https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&dpr=2'
+  },
+  {
+    id: 4,
+    title: 'NLP Specialist Track',
+    type: 'Specialization Program',
+    duration: '6 weeks',
+    format: 'Hybrid Learning',
+    price: '$1,799',
+    description: 'Deep dive into natural language processing for business automation and conversational AI.',
+    features: [
+      'Advanced NLP techniques',
+      'Chatbot development workshop',
+      'Industry case studies',
+      'Peer collaboration projects',
+      'Expert guest speakers'
+    ],
+    nextStart: '2024-01-22',
+    spots: 18,
+    level: 'Intermediate',
+    image: 'https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&dpr=2'
+  }
+];
+
+const corporateServices = [
+  {
+    title: 'Custom Training Solutions',
+    description: 'Tailored training programs designed specifically for your organization\'s needs and goals.',
+    icon: 'academic-cap'
+  },
+  {
+    title: 'Skills Assessment',
+    description: 'Comprehensive evaluation of your team\'s current AI and automation capabilities.',
+    icon: 'chart-bar'
+  },
+  {
+    title: 'Implementation Support',
+    description: 'Ongoing support and guidance during your AI automation implementation journey.',
+    icon: 'support'
+  },
+  {
+    title: 'Executive Training',
+    description: 'Strategic AI education for leadership teams and decision makers.',
+    icon: 'briefcase'
+  }
+];
+
+const testimonials = [
+  {
+    name: 'Jennifer Walsh',
+    role: 'VP of Engineering',
+    company: 'TechFlow Systems',
+    content: 'The AI Automation Bootcamp transformed our development team. We went from zero AI knowledge to deploying our first automation system in production within 3 months.',
+    image: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&dpr=2'
+  },
+  {
+    name: 'Marcus Chen',
+    role: 'Data Science Manager',
+    company: 'Global Analytics Inc.',
+    content: 'The MLOps certification gave our team the skills and confidence to implement robust ML pipelines. The hands-on approach was exactly what we needed.',
+    image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&dpr=2'
+  },
+  {
+    name: 'Sarah Kim',
+    role: 'CTO',
+    company: 'StartupAI',
+    content: 'The enterprise workshop helped us develop a comprehensive AI strategy. The ROI framework alone was worth the investment.',
+    image: 'https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&dpr=2'
+  }
+];
+---
+
+<BaseLayout {title} {description}>
+  <div class="animate-fade-in">
+    <!-- Hero Section -->
+    <section class="bg-gradient-primary text-white py-16">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center">
+          <h1 class="text-4xl md:text-5xl font-bold mb-4">Professional Training Programs</h1>
+          <p class="text-xl text-blue-100 max-w-2xl mx-auto mb-8">
+            Transform your team with comprehensive AI automation training from industry experts
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <div class="bg-white bg-opacity-20 rounded-lg p-4 text-center">
+              <div class="text-2xl font-bold">500+</div>
+              <div class="text-sm text-blue-100">Companies Trained</div>
+            </div>
+            <div class="bg-white bg-opacity-20 rounded-lg p-4 text-center">
+              <div class="text-2xl font-bold">10k+</div>
+              <div class="text-sm text-blue-100">Professionals Certified</div>
+            </div>
+            <div class="bg-white bg-opacity-20 rounded-lg p-4 text-center">
+              <div class="text-2xl font-bold">95%</div>
+              <div class="text-sm text-blue-100">Satisfaction Rate</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Training Programs -->
+    <section class="py-16 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+          <h2 class="section-title">Training Programs</h2>
+          <p class="section-subtitle">Choose the program that fits your learning goals and schedule</p>
+        </div>
+        
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          {programs.map(program => (
+            <div class="card card-hover overflow-hidden">
+              <img 
+                src={program.image} 
+                alt={program.title}
+                class="w-full h-48 object-cover"
+                width="600"
+                height="400"
+                loading="lazy"
+              />
+              <div class="p-8">
+                <div class="flex items-center justify-between mb-4">
+                  <span class="bg-primary-100 text-primary-600 text-sm px-3 py-1 rounded-full font-medium">
+                    {program.type}
+                  </span>
+                  <span class="text-2xl font-bold text-primary-600">{program.price}</span>
+                </div>
+                
+                <h3 class="text-2xl font-bold text-gray-900 mb-3">{program.title}</h3>
+                <p class="text-gray-600 mb-6">{program.description}</p>
+                
+                <div class="grid grid-cols-2 gap-4 mb-6 text-sm">
+                  <div>
+                    <span class="font-medium text-gray-900">Duration:</span>
+                    <span class="text-gray-600 ml-1">{program.duration}</span>
+                  </div>
+                  <div>
+                    <span class="font-medium text-gray-900">Format:</span>
+                    <span class="text-gray-600 ml-1">{program.format}</span>
+                  </div>
+                  <div>
+                    <span class="font-medium text-gray-900">Level:</span>
+                    <span class="text-gray-600 ml-1">{program.level}</span>
+                  </div>
+                  <div>
+                    <span class="font-medium text-gray-900">Next Start:</span>
+                    <span class="text-gray-600 ml-1">{program.nextStart}</span>
+                  </div>
+                </div>
+                
+                <div class="mb-6">
+                  <h4 class="font-medium text-gray-900 mb-3">What's Included:</h4>
+                  <ul class="space-y-2">
+                    {program.features.map(feature => (
+                      <li class="flex items-center text-sm text-gray-600">
+                        <svg class="w-4 h-4 text-green-500 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                        </svg>
+                        {feature}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+                
+                <div class="flex items-center justify-between mb-6">
+                  <div class="text-sm text-gray-600">
+                    <span class="font-medium text-orange-600">{program.spots}</span> spots remaining
+                  </div>
+                  <div class="flex items-center">
+                    {[...Array(5)].map((_, i) => (
+                      <svg 
+                        key={i}
+                        class="w-4 h-4 text-yellow-400"
+                        fill="currentColor" 
+                        viewBox="0 0 20 20"
+                      >
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                      </svg>
+                    ))}
+                    <span class="ml-2 text-sm text-gray-600">4.9/5</span>
+                  </div>
+                </div>
+                
+                <div class="flex gap-3">
+                  <button class="btn-primary flex-1">Enroll Now</button>
+                  <button class="btn-outline">Learn More</button>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Corporate Services -->
+    <section class="py-16 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+          <h2 class="section-title">Corporate Training Services</h2>
+          <p class="section-subtitle">Comprehensive solutions for enterprise AI education</p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {corporateServices.map(service => (
+            <div class="card text-center">
+              <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                <svg class="w-8 h-8 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  {service.icon === 'academic-cap' && (
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5z M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"></path>
+                  )}
+                  {service.icon === 'chart-bar' && (
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+                  )}
+                  {service.icon === 'support' && (
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192L5.636 18.364M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z"></path>
+                  )}
+                  {service.icon === 'briefcase' && (
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2-2v2m8 0H8m8 0v2a2 2 0 01-2 2H10a2 2 0 01-2-2V6"></path>
+                  )}
+                </svg>
+              </div>
+              <h3 class="text-xl font-bold text-gray-900 mb-3">{service.title}</h3>
+              <p class="text-gray-600">{service.description}</p>
+            </div>
+          ))}
+        </div>
+        
+        <div class="text-center mt-12">
+          <button class="btn-primary text-lg px-8 py-3">Request Corporate Training</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-16 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+          <h2 class="section-title">What Our Students Say</h2>
+          <p class="section-subtitle">Success stories from professionals who've transformed their careers</p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {testimonials.map(testimonial => (
+            <div class="card">
+              <div class="flex items-center mb-4">
+                <img 
+                  src={testimonial.image} 
+                  alt={testimonial.name}
+                  class="w-12 h-12 rounded-full object-cover"
+                  width="48"
+                  height="48"
+                  loading="lazy"
+                />
+                <div class="ml-4">
+                  <h4 class="font-bold text-gray-900">{testimonial.name}</h4>
+                  <p class="text-sm text-gray-600">{testimonial.role}</p>
+                  <p class="text-sm text-primary-600">{testimonial.company}</p>
+                </div>
+              </div>
+              <blockquote class="text-gray-700 italic">
+                "{testimonial.content}"
+              </blockquote>
+              <div class="flex items-center mt-4">
+                {[...Array(5)].map((_, i) => (
+                  <svg 
+                    key={i}
+                    class="w-4 h-4 text-yellow-400"
+                    fill="currentColor" 
+                    viewBox="0 0 20 20"
+                  >
+                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                  </svg>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-16 bg-gray-50">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+          <h2 class="section-title">Frequently Asked Questions</h2>
+        </div>
+        
+        <div class="space-y-6">
+          <div class="card">
+            <h3 class="text-lg font-bold text-gray-900 mb-2">What prerequisites are required for the training programs?</h3>
+            <p class="text-gray-600">Most programs require basic programming knowledge (Python preferred) and familiarity with data concepts. Specific requirements are listed for each program.</p>
+          </div>
+          
+          <div class="card">
+            <h3 class="text-lg font-bold text-gray-900 mb-2">Do you offer payment plans or financing options?</h3>
+            <p class="text-gray-600">Yes, we offer flexible payment plans and corporate financing options. Contact our team to discuss payment arrangements that work for your budget.</p>
+          </div>
+          
+          <div class="card">
+            <h3 class="text-lg font-bold text-gray-900 mb-2">What kind of support is provided after completion?</h3>
+            <p class="text-gray-600">All programs include access to our alumni community, ongoing mentorship opportunities, and career support services including job placement assistance.</p>
+          </div>
+          
+          <div class="card">
+            <h3 class="text-lg font-bold text-gray-900 mb-2">Can training be customized for our specific industry needs?</h3>
+            <p class="text-gray-600">Absolutely! Our corporate training programs are fully customizable to address your industry-specific challenges and use cases.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 bg-gradient-primary text-white">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl font-bold mb-4">Ready to Transform Your Skills?</h2>
+        <p class="text-xl text-blue-100 mb-8">
+          Join thousands of professionals who have advanced their careers with our training programs
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <button class="btn-secondary">Explore Programs</button>
+          <button class="btn-outline bg-white text-primary-600 border-white hover:bg-primary-50">
+            Schedule Consultation
+          </button>
+        </div>
+      </div>
+    </section>
+  </div>
+</BaseLayout>
