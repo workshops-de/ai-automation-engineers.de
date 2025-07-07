@@ -1,5 +1,6 @@
 ---
 // Header component for AI-Automations-Engineer.de
+import AuthButtonStandalone from './AuthButtonStandalone.tsx';
 ---
 
 <header class="bg-white shadow-md sticky top-0 z-50">
@@ -24,12 +25,10 @@
         <a href="/training" class="text-gray-700 hover:text-blue-600 transition-colors">Training</a>
       </nav>
 
-      <!-- Auth Button Placeholder -->
+      <!-- Auth Button -->
       <div class="flex items-center space-x-4">
         <div class="hidden md:block">
-          <button class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition-colors">
-            Sign In
-          </button>
+          <AuthButtonStandalone client:load />
         </div>
 
         <!-- Mobile menu button -->
@@ -51,9 +50,7 @@
         <a href="/training" class="text-gray-700 hover:text-blue-600 transition-colors">Training</a>
       </nav>
       <div class="mt-4 pt-4 border-t border-gray-200">
-        <button class="w-full bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition-colors">
-          Sign In
-        </button>
+        <AuthButtonStandalone client:load variant="mobile" />
       </div>
     </div>
   </div>
