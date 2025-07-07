@@ -275,50 +275,144 @@ const articleSchema = {
   /* Custom prose styles for better readability */
   .prose {
     color: #374151;
-    line-height: 1.75;
+    line-height: 1.8;
+    font-size: 1.125rem;
+  }
+  
+  .prose h1 {
+    color: #111827;
+    font-weight: 800;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    letter-spacing: -0.025em;
   }
   
   .prose h2 {
     color: #111827;
     font-weight: 700;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
+    font-size: 2rem;
+    line-height: 1.3;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: -0.025em;
+    border-bottom: 2px solid #e5e7eb;
+    padding-bottom: 0.5rem;
   }
   
   .prose h3 {
     color: #111827;
     font-weight: 600;
-    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    line-height: 1.4;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    letter-spacing: -0.025em;
+  }
+  
+  .prose h4 {
+    color: #111827;
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.4;
+    margin-top: 2rem;
     margin-bottom: 0.75rem;
+  }
+  
+  .prose h5 {
+    color: #111827;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.4;
+    margin-top: 1.75rem;
+    margin-bottom: 0.75rem;
+  }
+  
+  .prose h6 {
+    color: #111827;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.4;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .prose p {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.8;
+  }
+  
+  .prose p:first-child {
+    margin-top: 0;
+  }
+  
+  .prose p:last-child {
+    margin-bottom: 0;
   }
   
   .prose code {
     background-color: #f3f4f6;
-    padding: 0.125rem 0.25rem;
-    border-radius: 0.25rem;
+    padding: 0.125rem 0.375rem;
+    border-radius: 0.375rem;
     font-size: 0.875em;
+    font-weight: 500;
+    color: #e11d48;
+    border: 1px solid #e5e7eb;
   }
   
   .prose pre {
     background-color: #1f2937;
-    border-radius: 0.5rem;
-    padding: 1rem;
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     overflow-x: auto;
+    border: 1px solid #374151;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
   }
   
   .prose pre code {
     background-color: transparent;
     padding: 0;
     color: #e5e7eb;
+    border: none;
+    font-size: 0.875rem;
+    line-height: 1.7;
   }
   
   .prose blockquote {
     border-left: 4px solid #3b82f6;
-    padding-left: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     font-style: italic;
+    font-size: 1.125rem;
     background-color: #f8fafc;
-    padding: 1rem;
     border-radius: 0.5rem;
+    color: #4b5563;
+  }
+  
+  .prose ul {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding-left: 1.5rem;
+  }
+  
+  .prose ol {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding-left: 1.5rem;
+  }
+  
+  .prose li {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.8;
   }
   
   .prose ul li::marker {
@@ -327,6 +421,15 @@ const articleSchema = {
   
   .prose ol li::marker {
     color: #3b82f6;
+    font-weight: 600;
+  }
+  
+  .prose ul ul,
+  .prose ol ol,
+  .prose ul ol,
+  .prose ol ul {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
   }
   
   .prose a {
@@ -343,18 +446,74 @@ const articleSchema = {
   .prose table {
     border-collapse: collapse;
     width: 100%;
-    margin: 1.5rem 0;
+    margin: 2rem 0;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
   }
   
   .prose th,
   .prose td {
     border: 1px solid #e5e7eb;
-    padding: 0.75rem;
+    padding: 1rem;
     text-align: left;
   }
   
   .prose th {
     background-color: #f9fafb;
     font-weight: 600;
+    color: #374151;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  
+  .prose td {
+    background-color: #ffffff;
+  }
+  
+  .prose tbody tr:nth-child(even) {
+    background-color: #f8fafc;
+  }
+  
+  .prose tbody tr:hover {
+    background-color: #f1f5f9;
+  }
+  
+  /* Additional spacing and typography improvements */
+  .prose strong {
+    font-weight: 700;
+    color: #111827;
+  }
+  
+  .prose em {
+    font-style: italic;
+    color: #4b5563;
+  }
+  
+  .prose hr {
+    border: none;
+    height: 2px;
+    background: linear-gradient(to right, #e5e7eb, #9ca3af, #e5e7eb);
+    margin: 3rem 0;
+    border-radius: 1px;
+  }
+  
+  .prose img {
+    border-radius: 0.75rem;
+    margin: 2rem 0;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  }
+  
+  .prose figure {
+    margin: 2rem 0;
+  }
+  
+  .prose figcaption {
+    margin-top: 0.75rem;
+    text-align: center;
+    font-size: 0.875rem;
+    color: #6b7280;
+    font-style: italic;
   }
 </style> 
