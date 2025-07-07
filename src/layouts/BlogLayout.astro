@@ -13,6 +13,17 @@ export interface Props {
   readTime: string;
   image?: string;
   imageAlt?: string;
+  frontmatter?: {
+    title: string;
+    description: string;
+    pubDate: string;
+    author: string;
+    tags: string[];
+    category: string;
+    readTime: string;
+    image?: string;
+    imageAlt?: string;
+  };
 }
 
 const {
@@ -25,7 +36,7 @@ const {
   readTime,
   image,
   imageAlt = title
-} = Astro.props;
+} = Astro.props.frontmatter || Astro.props;
 
 // Format date
 const formatDate = (dateString: string) => {
@@ -104,7 +115,7 @@ const articleSchema = {
   <meta property="article:published_time" content={pubDate}>
   <meta property="article:author" content={author}>
   <meta property="article:section" content={category}>
-  {tags && tags.map(tag => (
+  {tags && tags.map((tag: string) => (
     <meta property="article:tag" content={tag}>
   ))}
   
@@ -189,7 +200,7 @@ const articleSchema = {
       <!-- Tags -->
       {tags && tags.length > 0 && (
         <div class="flex flex-wrap gap-2">
-          {tags.map((tag) => (
+          {tags.map((tag: string) => (
             <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-gray-100 text-gray-700 hover:bg-gray-200 transition-colors">
               #{tag}
             </span>
