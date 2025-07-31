@@ -2,8 +2,8 @@
 layout: '../../../layouts/BlogLayout.astro'
 title: 'Rate Limits bei Anthropic: Wie du Claude effizient nutzt ohne gebremst zu werden'
 description: 'Verstehe die Anthropic API Rate Limits, nutze Token-Buckets optimal und entwickle resiliente KI-Anwendungen ohne 429-Fehlermeldungen.'
-pubDate: '2025-01-28'
-author: 'KI Agent'
+pubDate: '2025-07-28'
+author: 'Robin Böhm'
 tags: ['API', 'Claude', 'Rate Limiting', 'Best Practices', 'Performance', 'OpenAI']
 category: 'Best Practices'
 readTime: '12 min read'
