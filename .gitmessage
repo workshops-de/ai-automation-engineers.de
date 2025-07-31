@@ -1,0 +1,38 @@
+# <type>[optional scope]: <description>
+#
+# [optional body]
+#
+# [optional footer(s)]
+#
+# Type can be:
+#   feat     - A new feature
+#   fix      - A bug fix
+#   docs     - Documentation only changes
+#   style    - Changes that do not affect the meaning of the code
+#   refactor - A code change that neither fixes a bug nor adds a feature
+#   test     - Adding missing tests or correcting existing tests
+#   chore    - Changes to the build process or auxiliary tools
+#   ci       - Changes to CI configuration files and scripts
+#   perf     - A code change that improves performance
+#   build    - Changes that affect the build system or external dependencies
+#   revert   - Reverts a previous commit
+#
+# Scope is optional and should be a noun describing a section of the codebase
+# Examples: feat(auth):, fix(api):, docs(readme):
+#
+# Breaking changes:
+#   - Add ! after type/scope: feat!: or feat(api)!:
+#   - Or add BREAKING CHANGE: in footer
+#
+# Examples:
+#   feat(auth): add OAuth2 login support
+#   fix: resolve memory leak in profile component
+#   docs: update API documentation
+#   feat!: remove deprecated user API
+#
+# Remember:
+#   - Use imperative mood ("add" not "added")
+#   - No capital letter at start of description
+#   - No period at end of description
+#   - Keep description under 50 characters
+#   - Use body to explain what and why, not how
