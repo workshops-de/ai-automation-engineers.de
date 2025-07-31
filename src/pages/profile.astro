@@ -34,11 +34,93 @@ const description = 'Manage your AI-Automations-Engineer.de profile, settings, a
   import { createRoot } from 'react-dom/client';
   import ProfileEditor from '../components/ProfileEditor';
   import { createElement } from 'react';
+  import { doc, getDoc } from 'firebase/firestore';
+  import { db } from '../lib/firebase';
 
-  // Mount the React component
-  const container = document.getElementById('profile-content');
-  if (container) {
-    const root = createRoot(container);
-    root.render(createElement(ProfileEditor));
+  // Check if we're viewing a specific profile (URL like /profile?id=xyz)
+  const urlParams = new URLSearchParams(window.location.search);
+  const profileId = urlParams.get('id');
+
+  if (profileId) {
+    // We're viewing a specific profile, redirect to the new URL structure
+    // Or load the profile directly here
+    loadSpecificProfile(profileId);
+  } else {
+    // Mount the React component for profile editing
+    const container = document.getElementById('profile-content');
+    if (container) {
+      const root = createRoot(container);
+      root.render(createElement(ProfileEditor));
+    }
+  }
+
+  async function loadSpecificProfile(id: string) {
+    const container = document.getElementById('profile-content');
+    if (!container) return;
+
+    try {
+      // Show loading state
+      container.innerHTML = `
+        <div class="animate-pulse">
+          <div class="w-32 h-32 bg-gray-300 rounded-full mx-auto mb-6"></div>
+          <div class="h-8 bg-gray-300 rounded w-64 mx-auto mb-4"></div>
+          <div class="h-6 bg-gray-300 rounded w-48 mx-auto mb-4"></div>
+          <div class="h-4 bg-gray-300 rounded w-32 mx-auto"></div>
+        </div>
+      `;
+
+      const profileDoc = await getDoc(doc(db, 'users', id));
+      
+      if (!profileDoc.exists()) {
+        container.innerHTML = '<div class="text-center py-12"><h2 class="text-2xl font-bold text-gray-900 mb-4">Profile not found</h2><p class="text-gray-600">The requested profile could not be found.</p></div>';
+        return;
+      }
+
+      const data = profileDoc.data();
+      
+      if (!data.isPublic) {
+        container.innerHTML = '<div class="text-center py-12"><h2 class="text-2xl font-bold text-gray-900 mb-4">Private Profile</h2><p class="text-gray-600">This profile is set to private.</p></div>';
+        return;
+      }
+
+      // Render the profile
+      container.innerHTML = `
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+          <div class="p-8">
+            <div class="flex items-center mb-6">
+              <img src="${data.profilePicture || '/default-avatar.svg'}" alt="${data.name}" class="w-24 h-24 rounded-full mr-6">
+              <div>
+                <h1 class="text-3xl font-bold text-gray-900">${data.name}</h1>
+                <p class="text-xl text-gray-600">${data.role} at ${data.company}</p>
+                <p class="text-gray-500">${data.location}</p>
+              </div>
+            </div>
+            <div class="mb-6">
+              <h2 class="text-xl font-semibold text-gray-900 mb-2">About</h2>
+              <p class="text-gray-700">${data.bio}</p>
+            </div>
+            ${data.skills && data.skills.length > 0 ? `
+              <div class="mb-6">
+                <h2 class="text-xl font-semibold text-gray-900 mb-2">Skills</h2>
+                <div class="flex flex-wrap gap-2">
+                  ${data.skills.map(skill => `<span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">${skill}</span>`).join('')}
+                </div>
+              </div>
+            ` : ''}
+            <div class="flex gap-4">
+              ${data.linkedinUrl ? `<a href="${data.linkedinUrl}" target="_blank" class="text-blue-600 hover:text-blue-800">LinkedIn</a>` : ''}
+              ${data.githubUrl ? `<a href="${data.githubUrl}" target="_blank" class="text-gray-600 hover:text-gray-800">GitHub</a>` : ''}
+              ${data.websiteUrl ? `<a href="${data.websiteUrl}" target="_blank" class="text-green-600 hover:text-green-800">Website</a>` : ''}
+            </div>
+          </div>
+        </div>
+      `;
+
+      // Update page title
+      document.title = `${data.name} - AI-Automations-Engineer.de`;
+    } catch (error) {
+      console.error('Error loading profile:', error);
+      container.innerHTML = '<div class="text-center py-12"><h2 class="text-2xl font-bold text-gray-900 mb-4">Error</h2><p class="text-gray-600">Failed to load profile.</p></div>';
+    }
   }
 </script>

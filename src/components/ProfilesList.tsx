@@ -427,7 +427,7 @@ export default function ProfilesList({ className = '' }: ProfilesListProps) {
                         Connect
                       </button>
                       <a 
-                        href={`/profiles/${profile.id}`} 
+                        href={`/profile?id=${profile.id}`} 
                         className="border border-gray-300 text-gray-700 px-4 py-2 rounded-lg hover:bg-white hover:border-gray-400 transition-all font-medium text-sm flex items-center justify-center"
                       >
                         View Profile
