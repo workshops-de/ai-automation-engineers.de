@@ -58,6 +58,47 @@ image: 'https://images.pexels.com/photos/PHOTO-ID/pexels-photo-PHOTO-ID.jpeg?aut
 - **Ton**: Professionell, aber zugänglich; technisch fundiert
 - **Sprache**: Deutsch (primär) oder Englisch
 
+## 🚨 KRITISCHE Formatierungsregeln (ABSOLUTE PRIORITY!)
+
+### ⚠️ **NIEMALS Escape-Zeichen verwenden!**
+```
+❌ FALSCH: "---\nlayout: '../../../layouts/BlogLayout.astro'\ntitle: 'Titel'\n---\n\nInhalt"
+✅ RICHTIG: Echte Zeilenumbrüche verwenden!
+```
+
+### 📝 **Datei-Erstellung Checkliste:**
+- [ ] **YAML Frontmatter**: Jede Zeile beginnt OHNE Escape-Zeichen
+- [ ] **Echte Zeilenumbrüche**: Keine `\n` verwenden
+- [ ] **Multi-Line Format**: Jeder Block auf separater Zeile
+- [ ] **UTF-8 Encoding**: Umlaute direkt verwenden (ä, ö, ü, ß)
+
+### 🎯 **Korrekte Datei-Struktur:**
+```markdown
+---
+layout: '../../../layouts/BlogLayout.astro'
+title: 'Dein Artikel Titel'
+description: 'Kurze, SEO-optimierte Beschreibung'
+pubDate: 'YYYY-MM-DD'
+author: 'Autor Name'
+tags: ['Tag1', 'Tag2', 'Tag3']
+category: 'Kategorie'
+readTime: 'X min read'
+image: 'https://images.pexels.com/...'
+---
+
+Hier beginnt der Artikel-Inhalt...
+
+## Erste Überschrift
+
+Content hier...
+```
+
+### ❌ **HÄUFIGE FORMATIERUNGSFEHLER:**
+1. **Escape-Sequenzen**: `\n`, `\"`, `\'` → Verwende echte Zeichen!
+2. **Ein-Zeilen-Dateien**: Alles in einer Zeile → Separate Zeilen verwenden!
+3. **Falsche Quotes**: `'` vs `"` im YAML → Konsistent verwenden!
+4. **Missing Spaces**: `title:'Text'` → `title: 'Text'` (Leerzeichen nach Doppelpunkt!)
+
 ## Formatierungsrichtlinien
 
 ### ✅ Markdown-Elemente nutzen:
@@ -84,6 +125,59 @@ image: 'https://images.pexels.com/photos/PHOTO-ID/pexels-photo-PHOTO-ID.jpeg?aut
 - **URL-Format**: `https://images.pexels.com/photos/ID/pexels-photo-ID.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2`
 - **Alt-Text**: Immer beschreibenden Alt-Text verwenden
 - **Zusätzliche Bilder**: Können im Text eingebettet werden
+
+## 🤖 SCHRITT-FÜR-SCHRITT: Datei-Erstellung für AI-Agenten
+
+### 📋 **Step 1: Vorbereitung**
+```yaml
+Titel definieren: "Praktische Einführung in MLOps mit Python"
+Slug erstellen: praktische-einfuehrung-mlops-python  # Keine Umlaute!
+Datum setzen: 2024-12-15
+Ordnername: 2024-12-15-praktische-einfuehrung-mlops-python
+```
+
+### 📁 **Step 2: Ordner & Datei erstellen**
+```bash
+# Pfad: src/pages/blog/2024-12-15-praktische-einfuehrung-mlops-python/index.md
+# WICHTIG: Datei MUSS index.md heißen!
+```
+
+### 📝 **Step 3: Datei schreiben (KRITISCH!)**
+```javascript
+// ❌ NIEMALS SO:
+const content = "---\nlayout: '../../../layouts/BlogLayout.astro'\ntitle: 'Title'\n---\n\nContent";
+
+// ✅ IMMER SO:
+const content = `---
+layout: '../../../layouts/BlogLayout.astro'
+title: 'Praktische Einführung in MLOps mit Python'
+description: 'Lerne, wie du MLOps-Pipelines implementierst...'
+pubDate: '2024-12-15'
+author: 'Max Mustermann'
+tags: ['MLOps', 'Python', 'Machine Learning']
+category: 'Tutorials'
+readTime: '12 min read'
+image: 'https://images.pexels.com/photos/1181675/...'
+---
+
+MLOps (Machine Learning Operations) ist die Praxis...
+
+## Was ist MLOps?
+
+Content hier...`;
+```
+
+### ✅ **Step 4: Validation**
+```bash
+# Test: Zeilenzahl prüfen (sollte > 20 sein)
+wc -l index.md
+
+# Test: Erste 10 Zeilen anzeigen (sollte YAML zeigen)
+head -10 index.md
+
+# Test: Nach Escape-Zeichen suchen (sollte nichts finden)
+grep -n "\\\\n" index.md || echo "✅ Gut, keine Escape-Zeichen!"
+```
 
 ## Beispiel-Workflow für neuen Artikel
 
@@ -128,6 +222,14 @@ MLOps kombiniert die Entwicklung von Machine Learning-Modellen mit den operative
 ## Qualitätssicherung
 
 ### ✅ Checkliste vor Veröffentlichung:
+
+#### 🔍 **Technische Validierung (ERSTE PRIORITÄT):**
+- [ ] **Datei-Format**: Keine Escape-Zeichen (`\n`, `\"`) in der Datei
+- [ ] **Zeilenbindung**: Jede YAML-Zeile beginnt auf neuer Zeile
+- [ ] **File Encoding**: UTF-8 ohne BOM
+- [ ] **Multi-Line Test**: Öffne Datei im Editor → sollte mehrzeilig sein!
+
+#### 📝 **Content-Validierung:**
 - [ ] Frontmatter vollständig und korrekt
 - [ ] Datum im Ordnernamen entspricht pubDate
 - [ ] SEO-optimierte Description (unter 160 Zeichen)
@@ -140,6 +242,21 @@ MLOps kombiniert die Entwicklung von Machine Learning-Modellen mit den operative
 - [ ] Externe Links aktuell und erreichbar
 - [ ] Struktur mit H2/H3 Überschriften
 - [ ] Mindestens 800 Wörter Inhalt
+
+#### 🧪 **Quick-Test Kommandos:**
+```bash
+# Test 1: Zeilenzahl prüfen
+wc -l src/pages/blog/YYYY-MM-DD-slug/index.md
+# Sollte > 10 Zeilen haben, nicht 1!
+
+# Test 2: Frontmatter validieren
+head -15 src/pages/blog/YYYY-MM-DD-slug/index.md
+# Sollte YAML-Struktur zeigen, nicht Escape-Zeichen
+
+# Test 3: Astro Build Test
+npm run build
+# Sollte ohne Fehler durchlaufen
+```
 
 ### 🚫 Häufige Fehler vermeiden:
 - Keine Leerzeichen in Ordnernamen
