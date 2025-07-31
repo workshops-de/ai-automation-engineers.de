@@ -150,6 +150,31 @@ const pageSchema = schema || {
   <!-- Performance hints -->
   <link rel="dns-prefetch" href="//fonts.googleapis.com">
   <link rel="dns-prefetch" href="//images.pexels.com">
+  
+  <!-- N8n Chat Widget CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" />
+  
+  <!-- Custom Chat Widget Styling -->
+  <style>
+    /* Custom styling for the chat toggle button */
+    .n8n-chat .chat-toggle::before {
+      content: "KI ";
+      font-size: 14px;
+      font-weight: bold;
+      color: white;
+      margin-right: 5px;
+    }
+    
+    /* Override chat widget CSS variables */
+    :root {
+      --chat--toggle--background: #3b82f6;
+      --chat--toggle--hover--background: #2563eb;
+      --chat--toggle--active--background: #1d4ed8;
+      --chat--color-primary: #3b82f6;
+      --chat--color-primary-shade-50: #2563eb;
+      --chat--color-primary-shade-100: #1d4ed8;
+    }
+  </style>
 </head>
 <body class="min-h-screen flex flex-col bg-gray-50">
   <Header />
@@ -157,5 +182,29 @@ const pageSchema = schema || {
     <slot />
   </main>
   <Footer />
+  
+  <!-- N8n Chat Widget Script -->
+  <script type="module">
+    import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
+
+    createChat({
+      webhookUrl: 'https://workshops-de.app.n8n.cloud/webhook/9f13766e-0142-49ff-abd8-7c65189178e5/chat',
+      mode: 'window',
+      showWelcomeScreen: true,
+      initialMessages: [
+        'Hallo! 👋 Ich bin der Workshops.DE KI-Agent',
+        'Ich helfe dir gerne bei Fragen zu Workshops und unseren Angeboten!'
+      ],
+      i18n: {
+        en: {
+          title: 'Workshops.DE Agent',
+          subtitle: 'Dein persönlicher Assistent von Workshops.DE',
+          footer: 'Powered by Workshops.DE',
+          getStarted: 'Chat starten',
+          inputPlaceholder: 'Frag mich zu Workshops...',
+        },
+      },
+    });
+  </script>
 </body>
 </html>
