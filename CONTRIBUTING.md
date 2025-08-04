@@ -123,49 +123,12 @@ Add documentation for OAuth2 endpoints and update authentication
 examples in the getting started guide.
 ```
 
-## Validation
-
-Alle Commits werden automatisch validiert durch:
-
-1. **Commitlint**: Überprüft das Format der Commit-Nachricht
-2. **Husky**: Git Hook für automatische Validierung vor dem Commit
-3. **VS Code/Cursor**: Integrierte Unterstützung mit Auto-Completion
-
-## Fehlerbehebung
-
-### Commit wird abgelehnt:
-```
-⧗   input: feat add new feature
-✖   subject may not be empty [subject-empty]
-✖   type may not be empty [type-empty]
-```
-
-**Lösung**: Stelle sicher, dass das Format korrekt ist:
-```
-feat: add new feature
-```
-
-### Hook-Fehler:
-```
-.husky/commit-msg: Permission denied
-```
-
-**Lösung**: Setze Ausführungsrechte:
-```bash
-chmod +x .husky/commit-msg
-```
-
 ## Tools & Extensions
 
 ### VS Code/Cursor Extensions:
 - **Conventional Commits**: Auto-Completion für Commit Types
 - **GitLens**: Git History und Blame Annotations
 - **Git Graph**: Visualisierung der Git History
-
-### CLI Tools:
-- **commitizen**: Interaktiver Commit-Wizard
-- **commitlint**: Commit-Message Validierung
-- **husky**: Git Hooks Management
 
 ## Automatisierung
 
