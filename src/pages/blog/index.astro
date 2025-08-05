@@ -2,7 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 
 const title = 'Blog';
-const description = 'Discover the latest insights, tutorials, and best practices in AI automation engineering from our community of experts.';
+  const description = 'Entdecke die neuesten News, Tutorials und Best Practices im Bereich AI-Automation Engineering von unserer Experten-Community.';
 
 // Load all blog posts from date-based folders (only index.md files)
 const modules = import.meta.glob('./*/index.md', { eager: true });
@@ -66,9 +66,9 @@ const categories = ['All', ...new Set(blogPosts.map(post => post.category))];
     <section class="bg-gradient-primary text-white py-16">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center">
-          <h1 class="text-4xl md:text-5xl font-bold mb-4">AI Automation Blog</h1>
+          <h1 class="text-4xl md:text-5xl font-bold mb-4">AI Automation Engineering Blog</h1>
           <p class="text-xl text-blue-100 max-w-2xl mx-auto">
-            Discover the latest insights, tutorials, and best practices from our community of AI automation experts
+            Entdecke die neuesten News, Tutorials und Best Practices im Bereich AI-Automation Engineering von unserer Experten-Community.
           </p>
         </div>
       </div>
