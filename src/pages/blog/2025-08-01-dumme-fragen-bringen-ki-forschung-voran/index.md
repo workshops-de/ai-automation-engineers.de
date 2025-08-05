@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Anthropic', 'Machine Learning', 'Future', 'Innovation']
 category: 'AI Trends'
 readTime: '5 min read'
-image: 'https://images.pexels.com/photos/18068767/pexels-photo-18068767.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.unsplash.com/photo-1493723843671-1d655e66ac1c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=600&q=80'
 ---
 
 Stell dir vor: Du sitzt in einem Meeting mit den brillantesten KI-Forschern der Welt. Die Atmosphäre ist gespannt, alle diskutieren über komplexe neuronale Netzwerk-Architekturen und fortgeschrittene Algorithmen. Plötzlich meldet sich jemand zu Wort: "Ähm, sorry für die dumme Frage, aber... wie groß müssen die Daten eigentlich sein?" 
