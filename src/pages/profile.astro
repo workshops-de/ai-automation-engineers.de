@@ -2,7 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 
 const title = 'Profile Management';
-const description = 'Manage your AI-Automations-Engineer.de profile, settings, and preferences.';
+const description = 'Manage your AI-Automation-Engineers.de profile, settings, and preferences.';
 ---
 
 <BaseLayout {title} {description}>
@@ -117,7 +117,7 @@ const description = 'Manage your AI-Automations-Engineer.de profile, settings, a
       `;
 
       // Update page title
-      document.title = `${data.name} - AI-Automations-Engineer.de`;
+              document.title = `${data.name} - AI-Automation-Engineers.de`;
     } catch (error) {
       console.error('Error loading profile:', error);
       container.innerHTML = '<div class="text-center py-12"><h2 class="text-2xl font-bold text-gray-900 mb-4">Error</h2><p class="text-gray-600">Failed to load profile.</p></div>';

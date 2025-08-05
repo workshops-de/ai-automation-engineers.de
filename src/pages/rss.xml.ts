@@ -28,7 +28,7 @@ export async function GET(context: APIContext) {
   ];
 
   return rss({
-    title: 'AI-Automations-Engineer.de Blog',
+    title: 'AI-Automation-Engineers.de Blog',
     description: 'Latest insights, tutorials, and best practices in AI automation engineering',
     site: context.site!,
     items: posts.map(post => ({
@@ -40,9 +40,9 @@ export async function GET(context: APIContext) {
     })),
     customData: `
       <language>en-us</language>
-      <managingEditor>contact@ai-automations-engineer.de</managingEditor>
-      <webMaster>contact@ai-automations-engineer.de</webMaster>
-      <copyright>Copyright ${new Date().getFullYear()} AI-Automations-Engineer.de</copyright>
+      <managingEditor>contact@ai-automation-engineers.de</managingEditor>
+      <webMaster>contact@ai-automation-engineers.de</webMaster>
+      <copyright>Copyright ${new Date().getFullYear()} AI-Automation-Engineers.de</copyright>
       <category>Technology</category>
       <category>AI</category>
       <category>Automation</category>

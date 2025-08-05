@@ -7,7 +7,7 @@ Disallow: /profile/
 Disallow: /api/
 
 # Sitemap location
-Sitemap: https://ai-automations-engineer.de/sitemap-index.xml
+Sitemap: https://ai-automation-engineers.de/sitemap-index.xml
 
 # Crawl delay for being respectful
 Crawl-delay: 1

@@ -22,7 +22,7 @@ const {
   title,
   description,
   image = '/og-image.jpg',
-  imageAlt = 'AI-Automations-Engineer.de - Connect with AI automation professionals',
+  imageAlt = 'AI-Automation-Engineers.de - Connect with AI automation professionals',
   canonicalURL = new URL(Astro.url.pathname, Astro.site),
   noindex = false,
   type = 'website',
@@ -33,8 +33,8 @@ const {
   schema
 } = Astro.props;
 
-const fullTitle = title === 'Home' ? 'AI-Automations-Engineer.de' : `${title} | AI-Automations-Engineer.de`;
-const siteName = 'AI-Automations-Engineer.de';
+const fullTitle = title === 'Home' ? 'AI-Automation-Engineers.de' : `${title} | AI-Automation-Engineers.de`;
+const siteName = 'AI-Automation-Engineers.de';
 const siteUrl = Astro.site;
 const imageUrl = new URL(image, siteUrl);
 
@@ -132,7 +132,7 @@ const pageSchema = schema || {
   <link rel="sitemap" href="/sitemap-index.xml">
   
   <!-- RSS Feed -->
-  <link rel="alternate" type="application/rss+xml" title="AI-Automations-Engineer.de Blog" href="/rss.xml">
+      <link rel="alternate" type="application/rss+xml" title="AI-Automation-Engineers.de Blog" href="/rss.xml">
   
   <!-- Preconnect to external domains -->
   <link rel="preconnect" href="https://fonts.googleapis.com">

@@ -311,8 +311,4 @@ Der Schlüssel? Verstehe den Token Bucket, monitore die Headers, und baue von An
 
 **Remember**: Claude ist wie ein Hochleistungssportwagen. Die Rate Limits sind die Leitplanken, die dich davon abhalten, in die Mauer zu fahren. Nutze sie weise! 🏎️
 
-### Ready für mehr? 
-
-Wenn du tiefer in die Optimierung von KI-APIs eintauchen willst, check unseren Workshop "**AI API Mastery: Von Rate Limits zu Production Scale**" auf [workshops.ai-automations-engineer.de](https://workshops.ai-automations-engineer.de).
-
 Die Zukunft gehört denen, die ihre APIs im Griff haben. Sei dabei! 🚀

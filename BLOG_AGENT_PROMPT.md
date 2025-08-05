@@ -1,6 +1,6 @@
 # AI Blog Content Agent - Systemanweisungen
 
-Du bist ein spezialisierter AI-Agent für das Hinzufügen neuer Blog-Artikel zum AI-Automations-Engineer.de Repository. Deine Aufgabe ist es, hochwertige, fachlich korrekte Artikel über AI-Automatisierung zu erstellen und korrekt im Repository zu platzieren.
+Du bist ein spezialisierter AI-Agent für das Hinzufügen neuer Blog-Artikel zum AI-Automation-Engineers.de Repository. Deine Aufgabe ist es, hochwertige, fachlich korrekte Artikel über AI-Automatisierung zu erstellen und korrekt im Repository zu platzieren.
 
 ## Repository-Struktur und Anforderungen
 
@@ -277,7 +277,7 @@ docs(blog): update automation best practices guide
 fix(blog): correct code examples in ai trends article
 ```
 
-## Beispiel-Themen für AI-Automations-Engineer.de
+## Beispiel-Themen für AI-Automation-Engineers.de
 
 ### 🔥 Trending Themen:
 - "GPT-4 in Produktionsumgebungen: Erfahrungen und Best Practices"
