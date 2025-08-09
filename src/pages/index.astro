@@ -2,7 +2,58 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 
 const title = 'Home';
-const description = 'Join the premier community of AI automation engineers. Connect, learn, and grow with fellow professionals shaping the future of intelligent automation.';
+const description = 'Verbinde dich mit KI-Automatisierungsingenieuren. Lerne, vernetze dich und entwickle dich weiter mit Experten, die die Zukunft intelligenter Automatisierung gestalten.';
+
+// Load latest blog posts
+const modules = import.meta.glob('./blog/*/index.md', { eager: true });
+const allPosts = Object.entries(modules).map(([path, module]) => {
+  const mod = module as any;
+  return {
+    frontmatter: mod.frontmatter || {},
+    url: path.replace('./blog/', '/blog/').replace('/index.md', '/')
+  };
+});
+
+// Process and sort blog posts
+const blogPosts = allPosts.filter(post => {
+  const frontmatter = post.frontmatter || {};
+  const url = post.url;
+  
+  // Extract date from folder name or use frontmatter date
+  const folderMatch = url?.match(/\/(\d{4}-\d{2}-\d{2})-/);
+  const dateFromFolder = folderMatch ? folderMatch[1] : null;
+  
+  // Use pubDate from frontmatter or publishDate, fallback to folder date
+  const publishDate = frontmatter.pubDate || frontmatter.publishDate || dateFromFolder;
+  
+  // Only include posts with valid dates
+  return !!publishDate;
+}).map(post => {
+  const frontmatter = post.frontmatter || {};
+  const url = post.url;
+  
+  // Extract date from folder name or use frontmatter date
+  const folderMatch = url?.match(/\/(\d{4}-\d{2}-\d{2})-/);
+  const dateFromFolder = folderMatch ? folderMatch[1] : null;
+  
+  // Use pubDate from frontmatter or publishDate, fallback to folder date
+  const publishDate = frontmatter.pubDate || frontmatter.publishDate || dateFromFolder;
+  
+  return {
+    title: frontmatter.title || 'Ohne Titel',
+    excerpt: frontmatter.description || 'Keine Beschreibung verfügbar',
+    publishDate: publishDate!,
+    readTime: frontmatter.readTime || '5 min Lesezeit',
+    category: frontmatter.category || 'Allgemein',
+    author: frontmatter.author || 'Anonym',
+    image: frontmatter.image || 'https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&dpr=2',
+    tags: frontmatter.tags || [],
+    url: url
+  };
+}).sort((a, b) => {
+  // Sort by publish date (newest first)
+  return new Date(b.publishDate).getTime() - new Date(a.publishDate).getTime();
+}).slice(0, 6); // Get only the latest 6 posts
 ---
 
 <BaseLayout {title} {description}>
@@ -13,23 +64,23 @@ const description = 'Join the premier community of AI automation engineers. Conn
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <h1 class="text-4xl md:text-6xl font-bold mb-6 animate-slide-up">
-              Connect with AI Automation Engineers
+              KI-Automatisierungs-Community
             </h1>
             <p class="text-xl md:text-2xl mb-8 text-blue-100 animate-slide-up" style="animation-delay: 0.1s;">
-              Join the premier community of professionals shaping the future of intelligent automation
+              Verbinde dich mit Experten und gestalte die Zukunft intelligenter Automatisierung
             </p>
             <div class="flex flex-col sm:flex-row gap-4 animate-slide-up" style="animation-delay: 0.2s;">
               <a href="/profiles" class="btn-secondary text-lg px-8 py-3 inline-block text-center">
-                Explore Profiles
+                Profile entdecken
               </a>
               <a href="/learning" class="btn-outline bg-white text-primary-600 border-white hover:bg-primary-50 text-lg px-8 py-3 inline-block text-center">
-                Start Learning
+                Lernen starten
               </a>
             </div>
           </div>
           <div class="relative">
             <img src="https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&dpr=2" 
-                 alt="AI Automation professionals collaborating" 
+                 alt="KI-Automatisierungsexperten bei der Zusammenarbeit" 
                  class="rounded-2xl shadow-2xl animate-slide-up" 
                  style="animation-delay: 0.3s;"
                  width="600"
@@ -37,7 +88,7 @@ const description = 'Join the premier community of AI automation engineers. Conn
                  loading="eager">
             <div class="absolute -bottom-6 -right-6 bg-accent-500 text-white p-4 rounded-xl shadow-lg animate-slide-up" style="animation-delay: 0.4s;">
               <div class="text-2xl font-bold">500+</div>
-              <div class="text-sm opacity-90">Engineers</div>
+              <div class="text-sm opacity-90">Experten</div>
             </div>
           </div>
         </div>
@@ -48,8 +99,8 @@ const description = 'Join the premier community of AI automation engineers. Conn
     <section class="py-20 bg-white">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-16">
-          <h2 class="section-title">Why Join Our Community?</h2>
-          <p class="section-subtitle">Everything you need to excel in AI automation engineering</p>
+          <h2 class="section-title">Warum unsere Community?</h2>
+          <p class="section-subtitle">Alles was du brauchst, um in der KI-Automatisierung erfolgreich zu sein</p>
         </div>
         
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -59,8 +110,8 @@ const description = 'Join the premier community of AI automation engineers. Conn
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
               </svg>
             </div>
-            <h3 class="text-2xl font-bold text-gray-900 mb-4">Expert Network</h3>
-            <p class="text-gray-600">Connect with AI automation engineers from leading companies worldwide</p>
+            <h3 class="text-2xl font-bold text-gray-900 mb-4">Experten-Netzwerk</h3>
+            <p class="text-gray-600">Vernetze dich mit KI-Automatisierungsexperten aus führenden Unternehmen weltweit</p>
           </div>
           
           <div class="card card-hover text-center">
@@ -69,8 +120,8 @@ const description = 'Join the premier community of AI automation engineers. Conn
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
               </svg>
             </div>
-            <h3 class="text-2xl font-bold text-gray-900 mb-4">Learning Resources</h3>
-            <p class="text-gray-600">Access curated courses, articles, and tools to advance your skills</p>
+            <h3 class="text-2xl font-bold text-gray-900 mb-4">Lernressourcen</h3>
+            <p class="text-gray-600">Zugang zu kurierten Kursen, Artikeln und Tools zur Weiterentwicklung deiner Fähigkeiten</p>
           </div>
           
           <div class="card card-hover text-center">
@@ -79,8 +130,8 @@ const description = 'Join the premier community of AI automation engineers. Conn
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
               </svg>
             </div>
-            <h3 class="text-2xl font-bold text-gray-900 mb-4">Innovation Hub</h3>
-            <p class="text-gray-600">Share ideas, collaborate on projects, and drive innovation in automation</p>
+            <h3 class="text-2xl font-bold text-gray-900 mb-4">Innovations-Hub</h3>
+            <p class="text-gray-600">Teile Ideen, arbeite an Projekten mit und treibe Innovationen in der Automatisierung voran</p>
           </div>
         </div>
       </div>
@@ -91,75 +142,73 @@ const description = 'Join the premier community of AI automation engineers. Conn
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between items-center mb-12">
           <div>
-            <h2 class="section-title">Latest Insights</h2>
-            <p class="section-subtitle">Stay updated with the latest trends and best practices</p>
+            <h2 class="section-title">Neueste Insights</h2>
+            <p class="section-subtitle">Bleibe auf dem Laufenden mit den neuesten Trends und Best Practices</p>
           </div>
-          <a href="/blog" class="btn-outline">View All Posts</a>
+          <a href="/blog" class="btn-outline">Alle Artikel ansehen</a>
         </div>
         
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <article class="card card-hover overflow-hidden">
-            <img src="https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&dpr=2" 
-                 alt="AI Trends visualization" 
-                 class="w-full h-48 object-cover"
-                 width="400"
-                 height="250"
-                 loading="lazy">
-            <div class="p-6">
-              <div class="flex items-center mb-3">
-                <span class="bg-primary-100 text-primary-600 text-xs px-2 py-1 rounded-full">AI Trends</span>
-                <time class="text-gray-500 text-sm ml-auto" datetime="2024-12-01">Dec 1, 2024</time>
+          {blogPosts.map(post => (
+            <article class="card card-hover overflow-hidden">
+              <a href={post.url}>
+                <img 
+                  src={post.image} 
+                  alt={post.title}
+                  class="w-full h-48 object-cover"
+                  width="400"
+                  height="250"
+                  loading="lazy"
+                />
+              </a>
+              <div class="p-6">
+                <div class="flex items-center mb-3">
+                  <span class="bg-primary-100 text-primary-600 text-xs px-2 py-1 rounded-full">
+                    {post.category}
+                  </span>
+                  <span class="text-gray-500 text-sm ml-auto">
+                    {post.readTime}
+                  </span>
+                </div>
+                
+                <h3 class="font-bold text-xl mb-2">
+                  <a href={post.url} class="hover:text-primary-600 transition-colors">
+                    {post.title}
+                  </a>
+                </h3>
+                
+                <p class="text-gray-600 text-sm mb-4">
+                  {post.excerpt}
+                </p>
+                
+                <div class="flex items-center justify-between">
+                  <div class="flex items-center">
+                    <div class="w-8 h-8 bg-gray-300 rounded-full flex items-center justify-center">
+                      <span class="text-sm font-medium text-gray-700">
+                        {post.author.split(' ').map((name: string) => name[0]).join('')}
+                      </span>
+                    </div>
+                    <div class="ml-3">
+                      <p class="text-sm font-medium text-gray-900">{post.author}</p>
+                      <p class="text-xs text-gray-500">
+                        {new Date(post.publishDate).toLocaleDateString('de-DE', {
+                          year: 'numeric',
+                          month: 'long',
+                          day: 'numeric'
+                        })}
+                      </p>
+                    </div>
+                  </div>
+                  <a 
+                    href={post.url} 
+                    class="text-primary-600 hover:text-primary-700 font-medium text-sm"
+                  >
+                    Weiterlesen →
+                  </a>
+                </div>
               </div>
-              <h3 class="font-bold text-xl mb-2">
-                <a href="/blog/future-of-ai-automation" class="hover:text-primary-600 transition-colors">
-                  The Future of AI Automation
-                </a>
-              </h3>
-              <p class="text-gray-600 text-sm">Explore the emerging trends shaping the AI automation landscape...</p>
-            </div>
-          </article>
-          
-          <article class="card card-hover overflow-hidden">
-            <img src="https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&dpr=2" 
-                 alt="Automation Pipeline diagram" 
-                 class="w-full h-48 object-cover"
-                 width="400"
-                 height="250"
-                 loading="lazy">
-            <div class="p-6">
-              <div class="flex items-center mb-3">
-                <span class="bg-secondary-100 text-secondary-600 text-xs px-2 py-1 rounded-full">Tutorial</span>
-                <time class="text-gray-500 text-sm ml-auto" datetime="2024-11-28">Nov 28, 2024</time>
-              </div>
-              <h3 class="font-bold text-xl mb-2">
-                <a href="/blog/building-first-ai-pipeline" class="hover:text-primary-600 transition-colors">
-                  Building Your First AI Pipeline
-                </a>
-              </h3>
-              <p class="text-gray-600 text-sm">A comprehensive guide to designing and implementing automation workflows...</p>
-            </div>
-          </article>
-          
-          <article class="card card-hover overflow-hidden">
-            <img src="https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&dpr=2" 
-                 alt="AI Ethics conceptual image" 
-                 class="w-full h-48 object-cover"
-                 width="400"
-                 height="250"
-                 loading="lazy">
-            <div class="p-6">
-              <div class="flex items-center mb-3">
-                <span class="bg-accent-100 text-accent-600 text-xs px-2 py-1 rounded-full">Ethics</span>
-                <time class="text-gray-500 text-sm ml-auto" datetime="2024-11-25">Nov 25, 2024</time>
-              </div>
-              <h3 class="font-bold text-xl mb-2">
-                <a href="/blog/ethics-in-ai-automation" class="hover:text-primary-600 transition-colors">
-                  Ethics in AI Automation
-                </a>
-              </h3>
-              <p class="text-gray-600 text-sm">Understanding the ethical implications of AI automation and building responsible systems...</p>
-            </div>
-          </article>
+            </article>
+          ))}
         </div>
       </div>
     </section>
@@ -167,12 +216,12 @@ const description = 'Join the premier community of AI automation engineers. Conn
     <!-- CTA Section -->
     <section class="py-20 bg-gradient-primary">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h2 class="text-4xl font-bold text-white mb-6">Ready to Join the Community?</h2>
+        <h2 class="text-4xl font-bold text-white mb-6">Bereit für unsere Community?</h2>
         <p class="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-          Connect with fellow AI automation engineers, share your expertise, and accelerate your career growth
+          Vernetze dich mit KI-Automatisierungsexperten, teile dein Wissen und beschleunige dein Karrierewachstum
         </p>
         <a href="/profiles" class="btn-secondary text-lg px-8 py-3">
-          Get Started Today
+          Jetzt starten
         </a>
       </div>
     </section>
