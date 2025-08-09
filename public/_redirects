@@ -1,0 +1,16 @@
+# HTTPS redirects for GitHub Pages
+# Note: GitHub Pages automatically redirects HTTP to HTTPS, but these are backup rules
+
+# Redirect HTTP to HTTPS for all pages
+http://ai-automation-engineers.de/* https://ai-automation-engineers.de/:splat 301!
+http://www.ai-automation-engineers.de/* https://ai-automation-engineers.de/:splat 301!
+
+# Redirect www to non-www
+https://www.ai-automation-engineers.de/* https://ai-automation-engineers.de/:splat 301!
+
+# Legacy URL redirects if needed
+/profiles/* /profile 301
+/admin/* /profile 301
+
+# Blog post redirects (if you change URL structure later)
+# /old-blog/* /blog/:splat 301
