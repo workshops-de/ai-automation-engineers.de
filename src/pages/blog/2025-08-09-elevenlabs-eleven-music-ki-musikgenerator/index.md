@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Music', 'ElevenLabs', 'Tools', 'Audio AI', 'Content Creation']
 category: 'AI Trends'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/19969773/pexels-photo-19969773.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.unsplash.com/photo-1478737270239-2f02b77fc618?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=600&q=80'
 ---
 
 # ElevenLabs launcht Eleven Music: Studio-Qualität aus Text-Prompts
