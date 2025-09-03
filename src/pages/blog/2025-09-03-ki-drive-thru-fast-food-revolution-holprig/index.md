@@ -1,7 +1,7 @@
 ---
 layout: '../../../layouts/BlogLayout.astro'
 title: 'KI am Drive-Thru: Warum Fast-Food-Riesen ihre Strategie überdenken'
-description: 'McDonald's, Taco Bell und Wendy's setzen auf KI-Sprachassistenten - doch 18.000 Becher Wasser und Bacon-Eis zeigen die Grenzen auf'
+description: "McDonald's, Taco Bell und Wendy's setzen auf KI-Sprachassistenten - doch 18.000 Becher Wasser und Bacon-Eis zeigen die Grenzen auf"
 pubDate: '2025-09-03'
 author: 'Robin Böhm'
 tags: ['AI', 'Automation', 'Voice AI', 'Industry Insights', 'Business']
