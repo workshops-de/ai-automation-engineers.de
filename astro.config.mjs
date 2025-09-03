@@ -22,7 +22,7 @@ export default defineConfig({
           item.url = item.url.slice(0, -1);
         }
         // Higher priority for blog posts
-        if (item.url.includes('/blog/') && !item.url.endsWith('/blog')) {
+        if (item.url.includes('/blog')) {
           item.priority = 0.8;
           item.changefreq = 'monthly';
         }
@@ -32,7 +32,7 @@ export default defineConfig({
           item.changefreq = 'weekly';
         }
         // Lower priority for index pages
-        if (item.url.endsWith('/blog') || item.url.endsWith('/learning') || item.url.endsWith('/training')) {
+        if ( item.url.endsWith('/learning') || item.url.endsWith('/training')) {
           item.priority = 0.6;
         }
         return item;
