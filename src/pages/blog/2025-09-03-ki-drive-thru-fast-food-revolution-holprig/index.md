@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Automation', 'Voice AI', 'Industry Insights', 'Business']
 category: 'Industry Insights'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/8516596/pexels-photo-8516596.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/13143174/pexels-photo-13143174.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Fast-Food-Giganten experimentieren massiv mit KI-Sprachassistenten im Drive-Thru. Nach anfänglichen Pannen wie 18.000 bestellten Wasserbechern bei Taco Bell und Bacon-Eis bei McDonald's setzen die Ketten nun auf hybride Modelle mit "Human-in-the-Loop". Wendy's führt mit Google Cloud's FreshAI und 86% autonomer Auftragsabwicklung.
