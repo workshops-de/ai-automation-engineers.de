@@ -14,6 +14,7 @@ export interface Props {
   readTime: string;
   image?: string;
   imageAlt?: string;
+  audioFile?: string;
   frontmatter?: {
     title: string;
     description: string;
@@ -24,6 +25,7 @@ export interface Props {
     readTime: string;
     image?: string;
     imageAlt?: string;
+    audioFile?: string;
   };
 }
 
@@ -36,7 +38,8 @@ const {
   category,
   readTime,
   image,
-  imageAlt = title
+  imageAlt = title,
+  audioFile
 } = Astro.props.frontmatter || Astro.props;
 
 // Format date
@@ -220,6 +223,42 @@ const articleSchema = {
       )}
     </div>
   </div>
+
+  <!-- Audio Player -->
+  {audioFile && (
+    <div class="bg-white border-b border-gray-200">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+        <div class="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-lg p-6 shadow-sm">
+          <div class="flex items-center space-x-4 mb-3">
+            <div class="flex-shrink-0">
+              <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center">
+                <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3"></path>
+                </svg>
+              </div>
+            </div>
+            <div class="flex-1">
+              <h3 class="text-lg font-semibold text-gray-900">Artikel anhören</h3>
+              <p class="text-sm text-gray-600">Hören Sie sich diesen Artikel als Audio-Version an</p>
+            </div>
+          </div>
+          <audio 
+            controls 
+            class="w-full"
+            preload="metadata"
+          >
+            <source src={audioFile} type="audio/mpeg">
+            <p class="text-sm text-gray-500">
+              Ihr Browser unterstützt das Audio-Element nicht. 
+              <a href={audioFile} download class="text-blue-600 hover:text-blue-800 underline">
+                Laden Sie die MP3-Datei herunter
+              </a>
+            </p>
+          </audio>
+        </div>
+      </div>
+    </div>
+  )}
 
   <!-- Hero Image -->
   {image && (
