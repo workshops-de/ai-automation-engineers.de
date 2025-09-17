@@ -2,7 +2,7 @@
 layout: '../../../layouts/BlogLayout.astro'
 title: 'Web Codegen Scorer: So misst Google die Qualität von AI-generiertem Code'
 description: 'Angular Team präsentiert Open-Source Tool zur systematischen Bewertung von LLM-generiertem Web-Code mit objektiven Qualitätsmetriken'
-pubDate: '2025-01-22'
+pubDate: '2025-09-17'
 author: 'Robin Böhm'
 tags: ['AI', 'Code Quality', 'Testing', 'Angular', 'Tools', 'Automation', 'LLM', 'Benchmarking']
 category: 'Tools & Frameworks'
