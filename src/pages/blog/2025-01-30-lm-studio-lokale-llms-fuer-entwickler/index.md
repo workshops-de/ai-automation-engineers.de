@@ -2,7 +2,7 @@
 layout: '../../../layouts/BlogLayout.astro'
 title: 'LM Studio: Deine private KI-Werkstatt – Zero Cloud, Full Power'
 description: 'Entdecke, wie du mit LM Studio LLMs lokal auf deinem Rechner laufen lässt. 100% privat, 0% Cloud-Kosten, volle Kontrolle.'
-pubDate: '2025-01-30'
+pubDate: '2025-09-30'
 author: 'Robin Böhm'
 tags: ['AI', 'Tools', 'Local LLM', 'Privacy', 'Development']
 category: 'Tools & Frameworks'
