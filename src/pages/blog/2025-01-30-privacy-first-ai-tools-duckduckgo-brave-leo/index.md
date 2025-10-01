@@ -2,7 +2,7 @@
 layout: '../../../layouts/BlogLayout.astro'
 title: 'Privacy-First AI: Wie DuckDuckGo und Brave die KI-Revolution demokratisieren – ohne deine Daten'
 description: 'Entdecke, wie DuckDuckGo AI Chat und Brave Leo KI-Power ohne Datenkraken bieten. 100% anonym, 0% Tracking, volle AI-Power.'
-pubDate: '2025-01-30'
+pubDate: '2025-09-30'
 author: 'Robin Böhm'
 tags: ['AI', 'Privacy', 'Tools', 'Datenschutz', 'Browser']
 category: 'Tools & Frameworks'
