@@ -20,13 +20,13 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Create Feature Branch
-        id: create-branch
+      - name: Prepare Feature Branch
+        id: prepare-branch
         run: |
           # Generate branch name from issue
           ISSUE_NUMBER=${{ github.event.issue.number }}
           ISSUE_TITLE="${{ github.event.issue.title }}"
-          # Convert to lowercase and replace spaces with hyphens
+          # Convert to lowercase and replace spaces with hyphens, format: feature/{number}-{title}
           BRANCH_NAME=$(echo "feature/${ISSUE_NUMBER}-${ISSUE_TITLE}" | tr '[:upper:]' '[:lower:]' | sed 's/ /-/g' | sed 's/[^a-z0-9\-\/]//g')
 
           git config user.name "github-actions[bot]"
@@ -34,28 +34,32 @@ jobs:
 
           # Check if branch already exists
           if git ls-remote --heads origin "$BRANCH_NAME" | grep -q "$BRANCH_NAME"; then
-            echo "Branch already exists: $BRANCH_NAME"
+            echo "Branch already exists, checking it out: $BRANCH_NAME"
+            git fetch origin "$BRANCH_NAME"
+            git checkout "$BRANCH_NAME"
             echo "branch_exists=true" >> $GITHUB_OUTPUT
           else
             git checkout -b "$BRANCH_NAME"
-            git push origin "$BRANCH_NAME"
             echo "branch_exists=false" >> $GITHUB_OUTPUT
             echo "Branch created: $BRANCH_NAME"
           fi
 
           echo "branch_name=$BRANCH_NAME" >> $GITHUB_OUTPUT
 
-      - name: Create Implementation Proposal with Claude
+      - name: Implement Feature with Claude
         uses: anthropics/claude-code-action@main
         with:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          claude_args: "--allowedTools Bash(gh *),Read,Glob,Grep"
+          claude_args: "--allowedTools Bash(gh *),Bash(git *),Read,Write,Edit,Glob,Grep"
           prompt: |
-            Erstelle einen detaillierten Implementierungsvorschlag für das folgende Issue.
+            Implementiere die Anforderungen aus dem folgenden Issue VOLLSTÄNDIG im aktuellen Branch.
 
             REPO: ${{ github.repository }}
             ISSUE_NUMBER: ${{ github.event.issue.number }}
+            BRANCH: ${{ steps.prepare-branch.outputs.branch_name }}
+
+            **WICHTIG: Du befindest dich bereits im Feature Branch. Implementiere das Feature vollständig und erstelle die notwendigen Commits.**
 
             **Projektkontext:**
             - Framework: Astro 5.11.0 (static output)
@@ -76,99 +80,47 @@ jobs:
             └── styles/              # CSS Dateien
             ```
 
-            **Wichtige Standards:**
-            - Conventional Commits (feat:, fix:, docs:, etc.)
-            - Blog-Artikel: `src/pages/blog/YYYY-MM-DD-slug/index.md`
-            - TypeScript für alle neuen Dateien
-            - Tailwind CSS für Styling
+            **Commit-Standards (ZWINGEND einhalten):**
+            - Conventional Commits Format: `type(scope): description`
+            - Typen: feat, fix, docs, style, refactor, test, chore
+            - Commit-Message am Ende mit:
+              ```
+              🤖 Generated with [Claude Code](https://claude.com/claude-code)
 
-            **Bitte erstelle einen Kommentar im Issue mit folgendem Format:**
+              Co-Authored-By: Claude <noreply@anthropic.com>
+              ```
 
-            ## 🚀 Implementierungsvorschlag
+            **Implementierungs-Workflow:**
+            1. Lies das Issue und verstehe die Anforderungen vollständig
+            2. Analysiere die Codebase und identifiziere betroffene Dateien
+            3. Implementiere die Änderungen (erstelle/ändere Dateien)
+            4. Erstelle einen oder mehrere Commits mit Conventional Commits Format
+            5. Push die Änderungen zum Remote Branch
+            6. Kommentiere im Issue mit einer Zusammenfassung der Implementierung
 
-            ### 📦 Feature Branch
-            Branch erstellt: `${{ steps.create-branch.outputs.branch_name }}`
+            **Nach erfolgreicher Implementierung, kommentiere im Issue:**
 
-            ```bash
-            git fetch origin
-            git checkout ${{ steps.create-branch.outputs.branch_name }}
-            ```
+            ## ✅ Implementierung abgeschlossen
 
-            ### 📁 Betroffene Dateien
+            **Branch:** `${{ steps.prepare-branch.outputs.branch_name }}`
 
-            **Zu erstellende Dateien:**
-            - [ ] `path/to/new/file.tsx` - Beschreibung
+            **Durchgeführte Änderungen:**
+            - [Liste der geänderten/erstellten Dateien]
 
-            **Zu ändernde Dateien:**
-            - [ ] `path/to/existing/file.tsx` - Beschreibung der Änderung
+            **Commits:**
+            - [Liste der Commit-Messages]
 
-            ### 🔧 Implementierungsschritte
+            **Testing:**
+            - [Hinweise zum Testen der Änderungen]
 
-            **1. [Schritt-Titel]**
-            ```typescript
-            // Pseudo-Code oder konkrete Code-Beispiele
-            ```
-            - Erklärung was zu tun ist
-
-            **2. [Schritt-Titel]**
-            ```typescript
-            // Code-Beispiel
-            ```
-
-            ### 📝 Commit-Strategie
-
-            Vorgeschlagene Commits (Conventional Commits):
-            ```
-            feat(scope): add initial implementation
-            test(scope): add unit tests
-            docs(scope): update documentation
-            ```
-
-            ### ✅ Testing-Plan
-
-            **Manuelle Tests:**
-            - [ ] Test 1 Beschreibung
-            - [ ] Test 2 Beschreibung
-
-            **Zu testende Szenarien:**
-            1. Szenario 1
-            2. Szenario 2
-
-            ### 🔍 Code Review Checkliste
-
-            - [ ] Conventional Commits eingehalten
-            - [ ] TypeScript ohne Fehler
-            - [ ] Tailwind CSS korrekt verwendet
-            - [ ] Keine Sicherheitslücken
-            - [ ] Responsive Design getestet
-            - [ ] Browser-Kompatibilität geprüft
-
-            ### 🚢 Deployment-Hinweise
-
-            - Besonderheiten für das Deployment
-            - Zu beachtende Punkte
-
-            ### ⚠️ Potenzielle Probleme & Lösungen
-
-            **Problem 1:** Beschreibung
-            **Lösung:** Lösungsansatz
+            **Nächste Schritte:**
+            - [ ] Lokales Testen durchführen
+            - [ ] Pull Request erstellen
+            - [ ] Code Review anfordern
 
             ---
-            *Bereit zum Starten? Checke den Branch aus und beginne mit der Implementierung!*
+            *Implementiert von Claude Code*
 
-      - name: Add Comment about Branch Creation
-        if: steps.create-branch.outputs.branch_exists == 'false'
-        uses: actions/github-script@v7
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: |
-            github.rest.issues.createComment({
-              issue_number: context.issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: `## ✅ Feature Branch erstellt
-
-            Branch: \`${{ steps.create-branch.outputs.branch_name }}\`
-
-            Der Implementierungsvorschlag folgt in Kürze...`
-            });
+      - name: Push Changes
+        run: |
+          git push origin ${{ steps.prepare-branch.outputs.branch_name }}
