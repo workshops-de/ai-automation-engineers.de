@@ -1,0 +1,174 @@
+name: Issue Implementation Preparation
+
+on:
+  issues:
+    types: [labeled]
+
+jobs:
+  prepare-implementation:
+    if: github.event.label.name == 'ready-for-implementation'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+      issues: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Create Feature Branch
+        id: create-branch
+        run: |
+          # Generate branch name from issue
+          ISSUE_NUMBER=${{ github.event.issue.number }}
+          ISSUE_TITLE="${{ github.event.issue.title }}"
+          # Convert to lowercase and replace spaces with hyphens
+          BRANCH_NAME=$(echo "feature/${ISSUE_NUMBER}-${ISSUE_TITLE}" | tr '[:upper:]' '[:lower:]' | sed 's/ /-/g' | sed 's/[^a-z0-9\-\/]//g')
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Check if branch already exists
+          if git ls-remote --heads origin "$BRANCH_NAME" | grep -q "$BRANCH_NAME"; then
+            echo "Branch already exists: $BRANCH_NAME"
+            echo "branch_exists=true" >> $GITHUB_OUTPUT
+          else
+            git checkout -b "$BRANCH_NAME"
+            git push origin "$BRANCH_NAME"
+            echo "branch_exists=false" >> $GITHUB_OUTPUT
+            echo "Branch created: $BRANCH_NAME"
+          fi
+
+          echo "branch_name=$BRANCH_NAME" >> $GITHUB_OUTPUT
+
+      - name: Create Implementation Proposal with Claude
+        uses: anthropics/claude-code-action@main
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          prompt: |
+            Erstelle einen detaillierten Implementierungsvorschlag für das folgende Issue.
+
+            REPO: ${{ github.repository }}
+            ISSUE_NUMBER: ${{ github.event.issue.number }}
+
+            **Projektkontext:**
+            - Framework: Astro 5.11.0 (static output)
+            - UI: React 18.3.1 für interaktive Komponenten
+            - Styling: Tailwind CSS 3.4.17
+            - Backend: Firebase 11.10.0 (Authentication, Firestore)
+            - Deployment: GitHub Pages via GitHub Actions
+
+            **Projektstruktur:**
+            ```
+            src/
+            ├── components/          # React/Astro Komponenten
+            ├── layouts/             # Layout Templates
+            ├── pages/               # Routen und Seiten
+            │   └── blog/            # Blog Artikel (YYYY-MM-DD-slug/index.md)
+            ├── lib/
+            │   └── firebase.ts      # Firebase Konfiguration
+            └── styles/              # CSS Dateien
+            ```
+
+            **Wichtige Standards:**
+            - Conventional Commits (feat:, fix:, docs:, etc.)
+            - Blog-Artikel: `src/pages/blog/YYYY-MM-DD-slug/index.md`
+            - TypeScript für alle neuen Dateien
+            - Tailwind CSS für Styling
+
+            **Bitte erstelle einen Kommentar im Issue mit folgendem Format:**
+
+            ## 🚀 Implementierungsvorschlag
+
+            ### 📦 Feature Branch
+            Branch erstellt: `${{ steps.create-branch.outputs.branch_name }}`
+
+            ```bash
+            git fetch origin
+            git checkout ${{ steps.create-branch.outputs.branch_name }}
+            ```
+
+            ### 📁 Betroffene Dateien
+
+            **Zu erstellende Dateien:**
+            - [ ] `path/to/new/file.tsx` - Beschreibung
+
+            **Zu ändernde Dateien:**
+            - [ ] `path/to/existing/file.tsx` - Beschreibung der Änderung
+
+            ### 🔧 Implementierungsschritte
+
+            **1. [Schritt-Titel]**
+            ```typescript
+            // Pseudo-Code oder konkrete Code-Beispiele
+            ```
+            - Erklärung was zu tun ist
+
+            **2. [Schritt-Titel]**
+            ```typescript
+            // Code-Beispiel
+            ```
+
+            ### 📝 Commit-Strategie
+
+            Vorgeschlagene Commits (Conventional Commits):
+            ```
+            feat(scope): add initial implementation
+            test(scope): add unit tests
+            docs(scope): update documentation
+            ```
+
+            ### ✅ Testing-Plan
+
+            **Manuelle Tests:**
+            - [ ] Test 1 Beschreibung
+            - [ ] Test 2 Beschreibung
+
+            **Zu testende Szenarien:**
+            1. Szenario 1
+            2. Szenario 2
+
+            ### 🔍 Code Review Checkliste
+
+            - [ ] Conventional Commits eingehalten
+            - [ ] TypeScript ohne Fehler
+            - [ ] Tailwind CSS korrekt verwendet
+            - [ ] Keine Sicherheitslücken
+            - [ ] Responsive Design getestet
+            - [ ] Browser-Kompatibilität geprüft
+
+            ### 🚢 Deployment-Hinweise
+
+            - Besonderheiten für das Deployment
+            - Zu beachtende Punkte
+
+            ### ⚠️ Potenzielle Probleme & Lösungen
+
+            **Problem 1:** Beschreibung
+            **Lösung:** Lösungsansatz
+
+            ---
+            *Bereit zum Starten? Checke den Branch aus und beginne mit der Implementierung!*
+          allowed_non_write_users: "*"
+
+      - name: Add Comment about Branch Creation
+        if: steps.create-branch.outputs.branch_exists == 'false'
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: `## ✅ Feature Branch erstellt
+
+            Branch: \`${{ steps.create-branch.outputs.branch_name }}\`
+
+            Der Implementierungsvorschlag folgt in Kürze...`
+            });
