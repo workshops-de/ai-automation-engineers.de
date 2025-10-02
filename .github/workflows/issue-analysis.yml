@@ -2,15 +2,17 @@ name: Issue Analysis with Claude
 
 on:
   issues:
-    types: [opened]
+    types: [opened, edited]
+  issue_comment:
+    types: [created]
 
 jobs:
   analyze-issue:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     permissions:
+      contents: read
       issues: write
-      contents: write
-      pull-requests: write
 
     steps:
       - name: Checkout repository
@@ -21,11 +23,15 @@ jobs:
         with:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          allowed_non_write_users: "*"
+          auto_approve_tools: "gh"
           prompt: |
-            Analysiere das folgende Issue und erstelle einen strukturierten Bericht.
+            Analysiere das folgende Issue und erstelle einen strukturierten Bericht. Dies ist eine erneute Analyse aufgrund von Änderungen am Issue.
 
             REPO: ${{ github.repository }}
-            ISSUE_NUMBER: ${{ github.event.issue.number }}
+            ISSUE_NUMBER: ${{ github.event.issue.number || github.event.comment.issue_url }}
+
+            **Hinweis:** Prüfe ob bereits eine Analyse existiert. Falls ja, aktualisiere den bestehenden Analyse-Kommentar oder erstelle einen neuen mit "🔄 Aktualisierte Analyse".
 
             Du bist ein technischer Analyst, der GitHub Issues auf Qualität und Vollständigkeit überprüft.
 
@@ -91,5 +97,4 @@ jobs:
 
             ---
             *Diese Analyse wurde automatisch erstellt.*
-          allowed_non_write_users: "*"
 
