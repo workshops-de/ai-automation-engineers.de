@@ -1,0 +1,95 @@
+name: Issue Analysis with Claude
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  analyze-issue:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Analyze Issue with Claude
+        uses: anthropics/claude-code-action@main
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          prompt: |
+            Analysiere das folgende Issue und erstelle einen strukturierten Bericht.
+
+            REPO: ${{ github.repository }}
+            ISSUE_NUMBER: ${{ github.event.issue.number }}
+
+            Du bist ein technischer Analyst, der GitHub Issues auf Qualität und Vollständigkeit überprüft.
+
+            **Analyse-Kriterien:**
+
+            1. **User Story Struktur:**
+               - Ist eine User Story vorhanden?
+               - Folgt sie dem Format: "Als [Rolle] möchte ich [Funktionsanforderung], um [Mehrwert für Rolle]"?
+               - Sind Rolle, Funktionsanforderung und Mehrwert klar definiert?
+
+            2. **Code-Relevanz:**
+               - Gibt es einen erkennbaren Bezug zu existierendem Code?
+               - Welche Komponenten/Module sind betroffen?
+               - Basierend auf der Projektstruktur (Astro, React, Firebase): Wo würde die Implementierung stattfinden?
+
+            3. **Vollständigkeit:**
+               - Sind alle notwendigen Informationen vorhanden?
+               - Welche Lücken existieren in der Beschreibung?
+               - Fehlen Akzeptanzkriterien oder technische Details?
+
+            4. **Wichtige Überlegungen:**
+               - Was sollte bei der Implementierung bedacht werden?
+               - Gibt es Abhängigkeiten zu anderen Features?
+               - Welche Auswirkungen hat das Feature auf andere Systemteile?
+
+            5. **Sicherheitsrisiken:**
+               - Welche Sicherheitsaspekte müssen beachtet werden?
+               - Gibt es potenzielle Schwachstellen?
+               - Sind Authentifizierung/Autorisierung betroffen?
+
+            **Bitte erstelle einen Kommentar im Issue mit folgendem Format:**
+
+            ## 🤖 Automatische Issue-Analyse durch Claude
+
+            ## 📋 Issue-Qualitätsbewertung
+
+            ✅ **Qualität:** [AUSREICHEND / VERBESSERUNGSBEDARF]
+
+            ## 🎯 User Story Analyse
+
+            [Bewertung der User Story Struktur]
+
+            ## 🔍 Code-Relevanz
+
+            [Analyse des Code-Bezugs und betroffener Komponenten]
+
+            ## ⚠️ Fehlende Informationen
+
+            [Liste der Lücken in der Beschreibung]
+
+            ## 💡 Implementierungshinweise
+
+            [Wichtige Überlegungen für die Implementierung]
+
+            ## 🔒 Sicherheitsaspekte
+
+            [Identifizierte Sicherheitsrisiken und Empfehlungen]
+
+            ## 🚀 Nächste Schritte
+
+            [Wenn AUSREICHEND: Label "ready-for-implementation" setzen und Feature Branch Name vorschlagen]
+            [Wenn VERBESSERUNGSBEDARF: Label "needs-clarification" setzen und konkrete Fragen stellen]
+
+            ---
+            *Diese Analyse wurde automatisch erstellt.*
+          allowed_non_write_users: "*"
+
