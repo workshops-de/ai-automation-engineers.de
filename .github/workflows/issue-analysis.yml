@@ -22,7 +22,7 @@ jobs:
         uses: anthropics/claude-code-action@main
         with:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.PAT_TOKEN || secrets.GITHUB_TOKEN }}
           claude_args: "--allowedTools Bash(gh *)"
           prompt: |
             Analysiere das folgende Issue und erstelle einen strukturierten Bericht. Dies ist eine erneute Analyse aufgrund von Änderungen am Issue.
