@@ -124,3 +124,43 @@ jobs:
       - name: Push Changes
         run: |
           git push origin ${{ steps.prepare-branch.outputs.branch_name }}
+
+      - name: Create Pull Request
+        run: |
+          # Check if PR already exists
+          EXISTING_PR=$(gh pr list --head ${{ steps.prepare-branch.outputs.branch_name }} --json number --jq '.[0].number' --repo ${{ github.repository }})
+
+          if [ -z "$EXISTING_PR" ]; then
+            # Create new PR linked to issue
+            gh pr create \
+              --repo ${{ github.repository }} \
+              --base main \
+              --head ${{ steps.prepare-branch.outputs.branch_name }} \
+              --title "feat: ${{ github.event.issue.title }}" \
+              --body "$(cat <<'EOF'
+          ## 🤖 Automatisch generierter Pull Request
+
+          Dieser PR implementiert die Anforderungen aus Issue #${{ github.event.issue.number }}.
+
+          ### 📋 Verknüpftes Issue
+          Closes #${{ github.event.issue.number }}
+
+          ### 🔍 Änderungen
+          Die Implementierung wurde automatisch von Claude Code durchgeführt.
+
+          ### ✅ Checkliste
+          - [ ] Code wurde lokal getestet
+          - [ ] Conventional Commits eingehalten
+          - [ ] Keine Breaking Changes (oder dokumentiert)
+          - [ ] Dokumentation aktualisiert (falls nötig)
+
+          ---
+          🤖 Erstellt von [Claude Code](https://claude.com/claude-code)
+          EOF
+          )"
+            echo "✅ Pull Request erstellt"
+          else
+            echo "ℹ️ Pull Request existiert bereits: #$EXISTING_PR"
+          fi
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
