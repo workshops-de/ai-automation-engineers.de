@@ -2,7 +2,7 @@
 layout: '../../../layouts/BlogLayout.astro'
 title: 'ChatGPT Apps: OpenAI revolutioniert KI-Integration mit neuem App-Ökosystem'
 description: 'OpenAI launcht ChatGPT Apps SDK - Spotify, Canva und weitere Partner integrieren sich direkt in den Chat. Was bedeutet das für Entwickler?'
-pubDate: '2025-02-02'
+pubDate: '2025-10-07'
 author: 'Robin Böhm'
 tags: ['OpenAI', 'ChatGPT', 'Apps', 'SDK', 'Developer Tools', 'AI Integration', 'MCP']
 category: 'News'
