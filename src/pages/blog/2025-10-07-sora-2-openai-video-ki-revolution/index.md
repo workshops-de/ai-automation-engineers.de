@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['OpenAI', 'Video Generation', 'AI Tools', 'Deepfakes', 'Content Creation']
 category: 'AI Trends'
 readTime: '8 min read'
-image: 'https://images.unsplash.com/photo-1677442135135-4e1a917d8e8d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=600&q=80'
+image: 'https://images.unsplash.com/photo-1677756119517-756a188d2d94?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=600&q=80'
 ---
 
 **TL;DR:** OpenAI bringt mit Sora 2 eine mächtige Text-zu-Video KI samt iOS-App auf den Markt. Die Cameo-Funktion ermöglicht personalisierte Videos mit eigenem Gesicht und Stimme. Während die technischen Möglichkeiten beeindrucken, sorgen rechtliche Grauzonen und Deepfake-Potenzial für Diskussionen.
