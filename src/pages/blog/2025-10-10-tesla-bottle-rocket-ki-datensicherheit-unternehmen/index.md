@@ -2,7 +2,7 @@
 layout: '../../../layouts/BlogLayout.astro'
 title: 'Tesla Bottle Rocket: Wenn Datenlecks zur KI-Revolution führen'
 description: 'Wie Tesla nach ChatGPT-Datenlecks eine eigene KI entwickelte und damit einen neuen Standard für Unternehmens-KI setzt'
-pubDate: '2025-01-10'
+pubDate: '2025-10-10'
 author: 'Robin Böhm'
 tags: ['AI', 'Datensicherheit', 'ChatGPT', 'Enterprise AI', 'Tesla', 'Best Practices']
 category: 'Industry Insights'

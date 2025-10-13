@@ -2,7 +2,7 @@
 layout: '../../../layouts/BlogLayout.astro'
 title: 'GitHub Spec Kit: Die Revolution des AI-Codings durch Spezifikationen'
 description: 'Entdecke, wie GitHub Spec Kit das Chaos im AI-Coding beendet und strukturierte Entwicklung mit Claude, Copilot & Co. ermöglicht.'
-pubDate: '2025-01-10'
+pubDate: '2025-10-10'
 author: 'Robin Böhm'
 tags: ['AI', 'Tools & Frameworks', 'GitHub', 'Automation', 'Best Practices', 'DevOps']
 category: 'Tools & Frameworks'

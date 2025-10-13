@@ -2,7 +2,7 @@
 layout: '../../../layouts/BlogLayout.astro'
 title: 'n8n wird zum deutschen Unicorn: Nvidia und Telekom investieren in Berlins Automatisierungs-Champion'
 description: 'Berliner Startup n8n erhält 180 Millionen Dollar und erreicht 2,5 Milliarden Bewertung - was bedeutet das für die AI-Automation-Szene?'
-pubDate: '2025-01-10'
+pubDate: '2025-10-13'
 author: 'Robin Böhm'
 tags: ['n8n', 'Funding', 'Automation', 'AI Agents', 'Startup', 'Berlin', 'Nvidia', 'Deutsche Telekom']
 category: 'Industry Insights'
