@@ -2,7 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 
 const title = 'Home';
-const description = 'Verbinde dich mit KI-Automatisierungsingenieuren. Lerne, vernetze dich und entwickle dich weiter mit Experten, die die Zukunft intelligenter Automatisierung gestalten.';
+const description = 'Die Community für KI-Automatisierungsingenieure. Vernetze dich mit Experten und gestalte die Zukunft intelligenter Automatisierung.';
 
 // Load latest blog posts
 const modules = import.meta.glob('./blog/*/index.md', { eager: true });
@@ -14,29 +14,22 @@ const allPosts = Object.entries(modules).map(([path, module]) => {
   };
 });
 
-// Process and sort blog posts
+// Process and sort blog posts  
 const blogPosts = allPosts.filter(post => {
   const frontmatter = post.frontmatter || {};
   const url = post.url;
   
-  // Extract date from folder name or use frontmatter date
   const folderMatch = url?.match(/\/(\d{4}-\d{2}-\d{2})-/);
   const dateFromFolder = folderMatch ? folderMatch[1] : null;
-  
-  // Use pubDate from frontmatter or publishDate, fallback to folder date
   const publishDate = frontmatter.pubDate || frontmatter.publishDate || dateFromFolder;
   
-  // Only include posts with valid dates
   return !!publishDate;
 }).map(post => {
   const frontmatter = post.frontmatter || {};
   const url = post.url;
   
-  // Extract date from folder name or use frontmatter date
   const folderMatch = url?.match(/\/(\d{4}-\d{2}-\d{2})-/);
   const dateFromFolder = folderMatch ? folderMatch[1] : null;
-  
-  // Use pubDate from frontmatter or publishDate, fallback to folder date
   const publishDate = frontmatter.pubDate || frontmatter.publishDate || dateFromFolder;
   
   return {
@@ -46,184 +39,207 @@ const blogPosts = allPosts.filter(post => {
     readTime: frontmatter.readTime || '5 min Lesezeit',
     category: frontmatter.category || 'Allgemein',
     author: frontmatter.author || 'Anonym',
-    image: frontmatter.image || 'https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&dpr=2',
+    image: frontmatter.image || '/og-image.jpg',
     tags: frontmatter.tags || [],
     url: url
   };
 }).sort((a, b) => {
-  // Sort by publish date (newest first)
   return new Date(b.publishDate).getTime() - new Date(a.publishDate).getTime();
-}).slice(0, 6); // Get only the latest 6 posts
+}).slice(0, 3); // Get only the latest 3 posts
 ---
 
 <BaseLayout {title} {description}>
-  <div class="animate-fade-in">
-    <!-- Hero Section -->
-    <section class="bg-gradient-primary text-white py-20">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          <div>
-            <h1 class="text-4xl md:text-6xl font-bold mb-6 animate-slide-up">
-              KI-Automatisierungs-Community
-            </h1>
-            <p class="text-xl md:text-2xl mb-8 text-blue-100 animate-slide-up" style="animation-delay: 0.05s;">
-              Verbinde dich mit Experten und gestalte die Zukunft intelligenter Automatisierung
+  <!-- Hero Section -->
+  <section class="relative min-h-screen bg-white overflow-hidden">
+    <!-- Background Animation/Video -->
+    <div class="absolute inset-0 bg-gradient-to-br from-blue-50 via-white to-purple-50">
+      <div class="absolute inset-0 bg-grid-slate-100 [mask-image:linear-gradient(0deg,white,rgba(255,255,255,0.6))]"></div>
+      <!-- Floating animation elements -->
+      <div class="absolute top-1/4 left-1/4 w-64 h-64 bg-blue-100 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
+      <div class="absolute top-1/3 right-1/4 w-72 h-72 bg-purple-100 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
+      <div class="absolute bottom-1/4 left-1/3 w-80 h-80 bg-pink-100 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
+    </div>
+
+    <div class="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-32 pb-20">
+      <div class="text-center">
+        <!-- Main Headline - Very Large Typography -->
+        <h1 class="text-6xl sm:text-7xl lg:text-8xl xl:text-9xl font-bold tracking-tight mb-8 animate-fade-in">
+          <span class="block text-gray-900">Deine</span>
+          <span class="block bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">intelligente</span>
+          <span class="block text-gray-900">Community.</span>
+        </h1>
+        
+        <!-- Subtitle -->
+        <p class="text-xl sm:text-2xl lg:text-3xl text-gray-600 mb-16 max-w-4xl mx-auto font-light leading-relaxed animate-fade-in animation-delay-300">
+          Verbinde dich mit KI-Automatisierungsingenieuren.<br>
+          Lerne. Teile. Wachse.
+        </p>
+
+        <!-- CTA Buttons -->
+        <div class="flex flex-col sm:flex-row gap-6 justify-center items-center animate-fade-in animation-delay-600">
+          <a href="/profiles" 
+             class="inline-flex items-center px-8 py-4 text-lg font-semibold text-white bg-gray-900 rounded-full hover:bg-gray-800 transition-all duration-300 shadow-lg hover:shadow-xl">
+            Profile entdecken
+            <svg class="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+            </svg>
+          </a>
+          <a href="/blog" 
+             class="inline-flex items-center px-8 py-4 text-lg font-semibold text-gray-900 bg-white border-2 border-gray-200 rounded-full hover:border-gray-900 transition-all duration-300">
+            Insights lesen
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+      <div class="w-6 h-10 border-2 border-gray-400 rounded-full flex justify-center">
+        <div class="w-1 h-3 bg-gray-400 rounded-full mt-2 animate-pulse"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Section -->
+  <section class="py-32 bg-white">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-16 text-center">
+        <div class="animate-fade-in-up">
+          <div class="text-5xl font-bold text-gray-900 mb-4">500+</div>
+          <div class="text-xl text-gray-600">Experten</div>
+        </div>
+        <div class="animate-fade-in-up animation-delay-200">
+          <div class="text-5xl font-bold text-gray-900 mb-4">50+</div>
+          <div class="text-xl text-gray-600">Unternehmen</div>
+        </div>
+        <div class="animate-fade-in-up animation-delay-400">
+          <div class="text-5xl font-bold text-gray-900 mb-4">1000+</div>
+          <div class="text-xl text-gray-600">Projekte</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- What We Do -->
+  <section class="py-32 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-20">
+        <h2 class="text-5xl sm:text-6xl font-bold text-gray-900 mb-8">
+          Wie wir arbeiten.
+        </h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          Eine Community, die KI-Automatisierung voranbringt durch Zusammenarbeit, Wissensaustausch und Innovation.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-20">
+        <div class="space-y-16">
+          <div class="animate-fade-in-up">
+            <h3 class="text-3xl font-bold text-gray-900 mb-6">Experten vernetzen</h3>
+            <p class="text-lg text-gray-600 leading-relaxed">
+              Verbinde dich mit führenden KI-Automatisierungsexperten aus aller Welt. Tausche Erfahrungen aus und lerne von den Besten der Branche.
             </p>
-            <div class="flex flex-col sm:flex-row gap-4 animate-slide-up" style="animation-delay: 0.2s;">
-              <a href="/profiles" class="btn-secondary text-lg px-8 py-3 inline-block text-center">
-                Profile entdecken
-              </a>
-              <a href="/learning" class="btn-outline bg-white text-primary-600 border-white hover:bg-primary-50 text-lg px-8 py-3 inline-block text-center">
-                Lernen starten
-              </a>
-            </div>
           </div>
-          <div class="relative">
-            <img src="https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&dpr=2" 
-                 alt="KI-Automatisierungsexperten bei der Zusammenarbeit" 
-                 class="rounded-2xl shadow-2xl animate-slide-up" 
-                 style="animation-delay: 0.3s;"
-                 width="600"
-                 height="400"
-                 loading="eager">
-            <div class="absolute -bottom-6 -right-6 bg-accent-500 text-white p-4 rounded-xl shadow-lg animate-slide-up" style="animation-delay: 0.4s;">
-              <div class="text-2xl font-bold">500+</div>
-              <div class="text-sm opacity-90">Experten</div>
-            </div>
+          <div class="animate-fade-in-up animation-delay-200">
+            <h3 class="text-3xl font-bold text-gray-900 mb-6">Wissen teilen</h3>
+            <p class="text-lg text-gray-600 leading-relaxed">
+              Profitiere von kurierten Inhalten, praktischen Tutorials und Einblicken in aktuelle Trends der KI-Automatisierung.
+            </p>
+          </div>
+        </div>
+        <div class="space-y-16">
+          <div class="animate-fade-in-up animation-delay-300">
+            <h3 class="text-3xl font-bold text-gray-900 mb-6">Projekte realisieren</h3>
+            <p class="text-lg text-gray-600 leading-relaxed">
+              Arbeite gemeinsam an innovativen Automatisierungsprojekten und bringe deine Ideen in reale Lösungen um.
+            </p>
+          </div>
+          <div class="animate-fade-in-up animation-delay-400">
+            <h3 class="text-3xl font-bold text-gray-900 mb-6">Zukunft gestalten</h3>
+            <p class="text-lg text-gray-600 leading-relaxed">
+              Sei Teil einer Bewegung, die die Zukunft der Arbeit durch intelligente Automatisierung neu definiert.
+            </p>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Features Section -->
-    <section class="py-20 bg-white">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center mb-16">
-          <h2 class="section-title">Warum unsere Community?</h2>
-          <p class="section-subtitle">Alles was du brauchst, um in der KI-Automatisierung erfolgreich zu sein</p>
-        </div>
-        
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div class="card card-hover text-center">
-            <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-6">
-              <svg class="w-8 h-8 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
-              </svg>
-            </div>
-            <h3 class="text-2xl font-bold text-gray-900 mb-4">Experten-Netzwerk</h3>
-            <p class="text-gray-600">Vernetze dich mit KI-Automatisierungsexperten aus führenden Unternehmen weltweit</p>
-          </div>
-          
-          <div class="card card-hover text-center">
-            <div class="w-16 h-16 bg-secondary-100 rounded-full flex items-center justify-center mx-auto mb-6">
-              <svg class="w-8 h-8 text-secondary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
-              </svg>
-            </div>
-            <h3 class="text-2xl font-bold text-gray-900 mb-4">Lernressourcen</h3>
-            <p class="text-gray-600">Zugang zu kurierten Kursen, Artikeln und Tools zur Weiterentwicklung deiner Fähigkeiten</p>
-          </div>
-          
-          <div class="card card-hover text-center">
-            <div class="w-16 h-16 bg-accent-100 rounded-full flex items-center justify-center mx-auto mb-6">
-              <svg class="w-8 h-8 text-accent-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
-              </svg>
-            </div>
-            <h3 class="text-2xl font-bold text-gray-900 mb-4">Innovations-Hub</h3>
-            <p class="text-gray-600">Teile Ideen, arbeite an Projekten mit und treibe Innovationen in der Automatisierung voran</p>
-          </div>
-        </div>
+  <!-- Latest Insights -->
+  {blogPosts.length > 0 && (
+  <section class="py-32 bg-white">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-20">
+        <h2 class="text-5xl sm:text-6xl font-bold text-gray-900 mb-8">
+          Neueste Insights.
+        </h2>
+        <p class="text-xl text-gray-600">
+          Entdecke die neuesten Trends und Best Practices in der KI-Automatisierung.
+        </p>
       </div>
-    </section>
 
-    <!-- Latest Blog Posts -->
-    <section class="py-20 bg-gray-50">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="flex justify-between items-center mb-12">
-          <div>
-            <h2 class="section-title">Neueste Insights</h2>
-            <p class="section-subtitle">Bleibe auf dem Laufenden mit den neuesten Trends und Best Practices</p>
-          </div>
-          <a href="/blog" class="btn-outline">Alle Artikel ansehen</a>
-        </div>
-        
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {blogPosts.map(post => (
-            <article class="card card-hover overflow-hidden">
-              <a href={post.url}>
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        {blogPosts.map((post, index) => (
+          <article class="group animate-fade-in-up" style={`animation-delay: ${index * 200}ms`}>
+            <a href={post.url} class="block">
+              <div class="aspect-[4/3] bg-gray-100 rounded-2xl overflow-hidden mb-6 group-hover:scale-105 transition-transform duration-300">
                 <img 
                   src={post.image} 
                   alt={post.title}
-                  class="w-full h-48 object-cover"
-                  width="400"
-                  height="250"
+                  class="w-full h-full object-cover"
                   loading="lazy"
                 />
-              </a>
-              <div class="p-6">
-                <div class="flex items-center mb-3">
-                  <span class="bg-primary-100 text-primary-600 text-xs px-2 py-1 rounded-full">
-                    {post.category}
-                  </span>
-                  <span class="text-gray-500 text-sm ml-auto">
-                    {post.readTime}
-                  </span>
+              </div>
+              <div class="space-y-3">
+                <div class="text-sm text-gray-500 uppercase tracking-wide font-medium">
+                  {post.category}
                 </div>
-                
-                <h3 class="font-bold text-xl mb-2">
-                  <a href={post.url} class="hover:text-primary-600 transition-colors">
-                    {post.title}
-                  </a>
+                <h3 class="text-2xl font-bold text-gray-900 group-hover:text-blue-600 transition-colors">
+                  {post.title}
                 </h3>
-                
-                <p class="text-gray-600 text-sm mb-4">
+                <p class="text-gray-600 leading-relaxed">
                   {post.excerpt}
                 </p>
-                
-                <div class="flex items-center justify-between">
-                  <div class="flex items-center">
-                    <div class="w-8 h-8 bg-gray-300 rounded-full flex items-center justify-center">
-                      <span class="text-sm font-medium text-gray-700">
-                        {post.author.split(' ').map((name: string) => name[0]).join('')}
-                      </span>
-                    </div>
-                    <div class="ml-3">
-                      <p class="text-sm font-medium text-gray-900">{post.author}</p>
-                      <p class="text-xs text-gray-500">
-                        {new Date(post.publishDate).toLocaleDateString('de-DE', {
-                          year: 'numeric',
-                          month: 'long',
-                          day: 'numeric'
-                        })}
-                      </p>
-                    </div>
-                  </div>
-                  <a 
-                    href={post.url} 
-                    class="text-primary-600 hover:text-primary-700 font-medium text-sm"
-                  >
-                    Weiterlesen →
-                  </a>
+                <div class="flex items-center text-sm text-gray-500">
+                  <span>{post.author}</span>
+                  <span class="mx-2">•</span>
+                  <span>{post.readTime}</span>
                 </div>
               </div>
-            </article>
-          ))}
-        </div>
+            </a>
+          </article>
+        ))}
       </div>
-    </section>
 
-    <!-- CTA Section -->
-    <section class="py-20 bg-gradient-primary">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h2 class="text-4xl font-bold text-white mb-6">Bereit für unsere Community?</h2>
-        <p class="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-          Vernetze dich mit KI-Automatisierungsexperten, teile dein Wissen und beschleunige dein Karrierewachstum
-        </p>
-        <a href="/profiles" class="btn-secondary text-lg px-8 py-3">
-          Jetzt starten
+      <div class="text-center mt-16">
+        <a href="/blog" 
+           class="inline-flex items-center px-8 py-4 text-lg font-semibold text-gray-900 bg-white border-2 border-gray-200 rounded-full hover:border-gray-900 transition-all duration-300">
+          Alle Artikel
+          <svg class="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+          </svg>
         </a>
       </div>
-    </section>
-  </div>
+    </div>
+  </section>
+  )}
+
+  <!-- Final CTA -->
+  <section class="py-32 bg-gray-900 text-white">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-5xl sm:text-6xl font-bold mb-8">
+        Bereit für die Zukunft?
+      </h2>
+      <p class="text-xl text-gray-300 mb-12 max-w-3xl mx-auto">
+        Werde Teil einer Community, die die Grenzen der KI-Automatisierung neu definiert.
+      </p>
+      <a href="/profiles" 
+         class="inline-flex items-center px-12 py-6 text-xl font-semibold text-gray-900 bg-white rounded-full hover:bg-gray-100 transition-all duration-300 shadow-lg hover:shadow-xl">
+        Community beitreten
+        <svg class="ml-3 w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+        </svg>
+      </a>
+    </div>
+  </section>
 </BaseLayout>
