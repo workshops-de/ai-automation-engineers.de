@@ -61,140 +61,130 @@ const categories = ['All', ...new Set(blogPosts.map(post => post.category))];
 ---
 
 <BaseLayout {title} {description}>
-  <div class="animate-fade-in">
-    <!-- Hero Section -->
-    <section class="bg-gradient-primary text-white py-16">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center">
-          <h1 class="text-4xl md:text-5xl font-bold mb-4">AI Automation Engineering Blog</h1>
-          <p class="text-xl text-blue-100 max-w-2xl mx-auto">
-            Entdecke die neuesten News, Tutorials und Best Practices im Bereich AI-Automation Engineering von unserer Experten-Community.
-          </p>
+  <!-- Hero Section -->
+  <section class="relative min-h-[60vh] bg-white overflow-hidden">
+    <!-- Background Animation -->
+    <div class="absolute inset-0 bg-gradient-to-br from-gray-50 via-white to-green-50">
+      <div class="absolute inset-0 bg-grid-slate-100 [mask-image:linear-gradient(0deg,white,rgba(255,255,255,0.6))]"></div>
+      <!-- Floating animation elements -->
+      <div class="absolute top-1/4 left-1/4 w-48 h-48 bg-green-100 rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-blob"></div>
+      <div class="absolute top-1/3 right-1/4 w-56 h-56 bg-blue-100 rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-blob animation-delay-2000"></div>
+    </div>
+
+    <div class="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-32 pb-20">
+      <div class="text-center">
+        <!-- Main Headline -->
+        <h1 class="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight mb-8 animate-fade-in">
+          <span class="block text-gray-900">Neueste</span>
+          <span class="block bg-gradient-to-r from-green-600 to-blue-600 bg-clip-text text-transparent">Insights.</span>
+        </h1>
+        
+        <!-- Subtitle -->
+        <p class="text-xl sm:text-2xl text-gray-600 mb-16 max-w-3xl mx-auto font-light leading-relaxed animate-fade-in animation-delay-300">
+          News, Tutorials und Best Practices von<br>
+          unserer Experten-Community.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Category Filter -->
+  <section class="py-16 bg-white">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="mb-16">
+        <div class="flex flex-wrap gap-3 justify-center">
+          {categories.map(category => (
+            <button 
+              class="px-6 py-3 rounded-full text-sm font-medium transition-all duration-300
+                     bg-gray-100 text-gray-700 hover:bg-gray-900 hover:text-white
+                     first:bg-gray-900 first:text-white"
+              data-category={category}
+            >
+              {category}
+            </button>
+          ))}
         </div>
       </div>
-    </section>
 
-    <!-- Blog Content -->
-    <section class="py-16 bg-white">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <!-- Category Filter -->
-        <div class="mb-12">
-          <div class="flex flex-wrap gap-2 justify-center">
-            {categories.map(category => (
-              <button 
-                class="px-4 py-2 rounded-full text-sm font-medium transition-colors
-                       bg-gray-100 text-gray-700 hover:bg-primary-100 hover:text-primary-600
-                       first:bg-primary-600 first:text-white first:hover:bg-primary-700"
-                data-category={category}
-              >
-                {category}
-              </button>
-            ))}
-          </div>
-        </div>
-
-        <!-- Blog Grid -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {blogPosts.map(post => (
-            <article class="card card-hover overflow-hidden" data-category={post.category}>
-              <a href={post.url}>
+      <!-- Blog Grid -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8">
+        {blogPosts.map((post, index) => (
+          <article class="group animate-fade-in-up" data-category={post.category} style={`animation-delay: ${index * 100}ms`}>
+            <a href={post.url} class="block">
+              <div class="aspect-[4/3] bg-gray-100 rounded-2xl overflow-hidden mb-6 group-hover:scale-105 transition-transform duration-300">
                 <img 
                   src={post.image} 
                   alt={post.title}
-                  class="w-full h-48 object-cover"
-                  width="600"
-                  height="400"
+                  class="w-full h-full object-cover"
                   loading="lazy"
                 />
-              </a>
-              <div class="p-6">
-                <div class="flex items-center mb-3">
-                  <span class="bg-primary-100 text-primary-600 text-xs px-2 py-1 rounded-full">
+              </div>
+              <div class="space-y-4">
+                <div class="flex items-center justify-between">
+                  <span class="text-sm text-gray-500 uppercase tracking-wide font-medium">
                     {post.category}
                   </span>
-                  <span class="text-gray-500 text-sm ml-auto">
+                  <span class="text-sm text-gray-500">
                     {post.readTime}
                   </span>
                 </div>
-                
-                <h2 class="font-bold text-xl mb-2">
-                  <a href={post.url} class="hover:text-primary-600 transition-colors">
-                    {post.title}
-                  </a>
+                <h2 class="text-2xl font-bold text-gray-900 group-hover:text-blue-600 transition-colors leading-tight">
+                  {post.title}
                 </h2>
-                
-                <p class="text-gray-600 text-sm mb-4">
+                <p class="text-gray-600 leading-relaxed">
                   {post.excerpt}
                 </p>
-                
-                <div class="flex items-center justify-between">
-                  <div class="flex items-center">
-                    <div class="w-8 h-8 bg-gray-300 rounded-full flex items-center justify-center">
-                      <span class="text-sm font-medium text-gray-700">
-                        {post.author.split(' ').map((name: string) => name[0]).join('')}
-                      </span>
-                    </div>
-                    <div class="ml-3">
-                      <p class="text-sm font-medium text-gray-900">{post.author}</p>
-                      <p class="text-xs text-gray-500">
-                        {new Date(post.publishDate).toLocaleDateString('en-US', {
-                          year: 'numeric',
-                          month: 'long',
-                          day: 'numeric'
-                        })}
-                      </p>
-                    </div>
-                  </div>
-                  <a 
-                    href={post.url} 
-                    class="text-primary-600 hover:text-primary-700 font-medium text-sm"
-                  >
-                    Read more →
-                  </a>
-                </div>
-                
-                <div class="mt-4 flex flex-wrap gap-2">
-                  {post.tags.map((tag: string) => (
-                    <span class="bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded">
-                      {tag}
-                    </span>
-                  ))}
+                <div class="flex items-center text-sm text-gray-500">
+                  <span>{post.author}</span>
+                  <span class="mx-2">•</span>
+                  <span>
+                    {new Date(post.publishDate).toLocaleDateString('de-DE', {
+                      year: 'numeric',
+                      month: 'long',
+                      day: 'numeric'
+                    })}
+                  </span>
                 </div>
               </div>
-            </article>
-          ))}
-        </div>
-
-        <!-- Load More Button -->
-        <div class="text-center mt-12">
-          <button class="btn-outline">
-            Load More Articles
-          </button>
-        </div>
+            </a>
+          </article>
+        ))}
       </div>
-    </section>
 
-    <!-- Newsletter Signup -->
-    <section class="py-16 bg-gray-50">
-      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h2 class="text-3xl font-bold text-gray-900 mb-4">Stay Updated</h2>
-        <p class="text-lg text-gray-600 mb-8">
-          Subscribe to our newsletter and never miss the latest AI automation insights
-        </p>
-        <form class="max-w-md mx-auto flex gap-4">
-          <input 
-            type="email" 
-            placeholder="Enter your email"
-            class="form-input flex-1"
-            required
-          >
-          <button type="submit" class="btn-primary">
-            Subscribe
-          </button>
-        </form>
+      <!-- Load More Button -->
+      <div class="text-center mt-20">
+        <button class="inline-flex items-center px-8 py-4 text-lg font-semibold text-gray-900 bg-white border-2 border-gray-200 rounded-full hover:border-gray-900 transition-all duration-300">
+          Weitere Artikel laden
+          <svg class="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+          </svg>
+        </button>
       </div>
-    </section>
-  </div>
+    </div>
+  </section>
+
+  <!-- Newsletter Signup -->
+  <section class="py-32 bg-gray-50">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-4xl sm:text-5xl font-bold text-gray-900 mb-8">
+        Bleibe informiert.
+      </h2>
+      <p class="text-xl text-gray-600 mb-12">
+        Abonniere unseren Newsletter und verpasse keine KI-Automatisierungs-Insights
+      </p>
+      <form class="max-w-lg mx-auto flex flex-col sm:flex-row gap-4">
+        <input 
+          type="email" 
+          placeholder="Deine E-Mail-Adresse"
+          class="flex-1 px-6 py-4 text-lg border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-gray-900 focus:border-transparent"
+          required
+        >
+        <button type="submit" class="px-8 py-4 text-lg font-semibold text-white bg-gray-900 rounded-full hover:bg-gray-800 transition-all duration-300 shadow-lg hover:shadow-xl">
+          Abonnieren
+        </button>
+      </form>
+    </div>
+  </section>
 </BaseLayout>
 
 <script>

@@ -229,62 +229,62 @@
   /* Large typography utilities */
   .text-7xl {
     font-size: 4.5rem;
-    line-height: 1;
+    line-height: 1.1;
   }
 
   .text-8xl {
     font-size: 6rem;
-    line-height: 1;
+    line-height: 1.1;
   }
 
   .text-9xl {
     font-size: 8rem;
-    line-height: 1;
+    line-height: 1.1;
   }
 
   @media (min-width: 640px) {
     .sm\:text-7xl {
       font-size: 4.5rem;
-      line-height: 1;
+      line-height: 1.1;
     }
 
     .sm\:text-8xl {
       font-size: 6rem;
-      line-height: 1;
+      line-height: 1.1;
     }
 
     .sm\:text-9xl {
       font-size: 8rem;
-      line-height: 1;
+      line-height: 1.1;
     }
   }
 
   @media (min-width: 1024px) {
     .lg\:text-7xl {
       font-size: 4.5rem;
-      line-height: 1;
+      line-height: 1.1;
     }
 
     .lg\:text-8xl {
       font-size: 6rem;
-      line-height: 1;
+      line-height: 1.1;
     }
 
     .lg\:text-9xl {
       font-size: 8rem;
-      line-height: 1;
+      line-height: 1.1;
     }
   }
 
   @media (min-width: 1280px) {
     .xl\:text-8xl {
       font-size: 6rem;
-      line-height: 1;
+      line-height: 1.1;
     }
 
     .xl\:text-9xl {
       font-size: 8rem;
-      line-height: 1;
+      line-height: 1.1;
     }
   }
   
