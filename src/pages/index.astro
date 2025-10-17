@@ -65,7 +65,9 @@ const blogPosts = allPosts.filter(post => {
         <!-- Main Headline - Very Large Typography -->
         <h1 class="text-6xl sm:text-7xl lg:text-8xl xl:text-9xl font-bold tracking-tight mb-8 animate-fade-in">
           <span class="block text-gray-900">Deine</span>
-          <span class="block bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">intelligente</span>
+          <span class="block bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+            <span id="typewriter-text">AI Engineering</span><span id="typewriter-cursor" class="typewriter-cursor">_</span>
+          </span>
           <span class="block text-gray-900">Community.</span>
         </h1>
         
@@ -243,3 +245,77 @@ const blogPosts = allPosts.filter(post => {
     </div>
   </section>
 </BaseLayout>
+
+<style>
+  .typewriter-cursor {
+    animation: blink 1s infinite;
+    font-weight: normal;
+  }
+  
+  @keyframes blink {
+    0%, 50% { opacity: 1; }
+    51%, 100% { opacity: 0; }
+  }
+</style>
+
+<script>
+  // Typewriter effect
+  document.addEventListener('DOMContentLoaded', function() {
+    const words = [
+      'AI Engineering',
+      'KI-Nerds',
+      'boa boa boa',
+      'Prompt Flüsterer',
+      'Automation Addicts'
+    ];
+    
+    let currentWordIndex = 0;
+    let currentCharIndex = 0;
+    let isDeleting = false;
+    const typewriterElement = document.getElementById('typewriter-text');
+    const cursorElement = document.getElementById('typewriter-cursor');
+    
+    if (!typewriterElement || !cursorElement) return;
+
+    function typeWriter() {
+      if (!typewriterElement) return;
+      
+      const currentWord = words[currentWordIndex];
+      
+      if (isDeleting) {
+        // Deleting characters
+        typewriterElement.textContent = currentWord.substring(0, currentCharIndex - 1);
+        currentCharIndex--;
+        
+        if (currentCharIndex === 0) {
+          isDeleting = false;
+          currentWordIndex = (currentWordIndex + 1) % words.length;
+          setTimeout(typeWriter, 500); // Pause before typing new word
+          return;
+        }
+        
+        setTimeout(typeWriter, 50); // Faster deletion
+      } else {
+        // Adding characters
+        typewriterElement.textContent = currentWord.substring(0, currentCharIndex + 1);
+        currentCharIndex++;
+        
+        if (currentCharIndex === currentWord.length) {
+          // Word complete, wait then start deleting
+          setTimeout(() => {
+            isDeleting = true;
+            typeWriter();
+          }, 2000); // Wait 2 seconds before deleting
+          return;
+        }
+        
+        setTimeout(typeWriter, 100); // Normal typing speed
+      }
+    }
+
+    // Start the typewriter effect after a short delay
+    setTimeout(() => {
+      typeWriter();
+    }, 1500);
+  });
+</script>
