@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="320mm" height="120mm" viewBox="0 0 320 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- 4C-Variante: Horizontales Layout für Banner/Headers -->
+  <!-- Optimiert für Querformat-Anwendungen -->
+  
+  <defs>
+    <style>
+      .color-red { fill: #e40303; }
+      .color-yellow { fill: #ffed00; }
+      .color-green { fill: #008026; }
+      .color-blue { fill: #24408e; }
+      .ai-dark { fill: #1e293b; }
+      .ai-text { fill: #ffffff; font-family: 'Arial Black', Arial, sans-serif; font-weight: 900; }
+      .url-text { fill: #1e293b; font-family: Arial, sans-serif; font-weight: 600; }
+    </style>
+  </defs>
+  
+  <rect width="320" height="120" fill="#ffffff"/>
+  
+  <g transform="translate(160, 60)">
+    <!-- Horizontale Balken-Anordnung -->
+    <rect x="-120" y="-15" width="50" height="10" rx="2" class="color-red"/>
+    <rect x="-120" y="-2" width="50" height="10" rx="2" class="color-yellow"/>
+    <rect x="-120" y="11" width="50" height="10" rx="2" class="color-green"/>
+    <rect x="-120" y="24" width="50" height="10" rx="2" class="color-blue"/>
+    
+    <!-- AI-Badge links -->
+    <circle cx="-95" cy="10" r="25" class="ai-dark"/>
+    <text x="-95" y="16" text-anchor="middle" class="ai-text" font-size="20">AI</text>
+    
+    <!-- Haupttext rechts -->
+    <text x="-50" y="8" class="url-text" font-size="18" font-weight="bold">AI-AUTOMATION-ENGINEERS.DE</text>
+    <text x="-50" y="22" class="url-text" font-size="12">Diversität • Innovation • Technologie</text>
+  </g>
+</svg>

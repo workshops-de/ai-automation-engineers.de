@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="280mm" height="180mm" viewBox="0 0 280 180" xmlns="http://www.w3.org/2000/svg">
+  <!-- Monochrome Version: Für kostengünstigen 1-Farben-Druck -->
+  <!-- Schwarzweiß mit Graustufen für Struktur -->
+  
+  <defs>
+    <style>
+      .black-solid { fill: #1e293b; }
+      .black-80 { fill: #1e293b; opacity: 0.8; }
+      .black-60 { fill: #1e293b; opacity: 0.6; }
+      .black-40 { fill: #1e293b; opacity: 0.4; }
+      .black-20 { fill: #1e293b; opacity: 0.2; }
+      .white { fill: #ffffff; }
+      .ai-text { fill: #ffffff; font-family: 'Arial Black', Arial, sans-serif; font-weight: 900; }
+      .url-text { fill: #1e293b; font-family: Arial, sans-serif; font-weight: 600; }
+    </style>
+  </defs>
+  
+  <rect width="280" height="180" fill="#ffffff"/>
+  
+  <g transform="translate(140, 90)">
+    <!-- Graustufen-Balken für Struktur -->
+    <rect x="-75" y="-20" width="20" height="40" rx="4" ry="4" class="black-solid"/>
+    <rect x="-50" y="-20" width="20" height="40" rx="4" ry="4" class="black-80"/>
+    <rect x="-25" y="-20" width="20" height="40" rx="4" ry="4" class="black-60"/>
+    <rect x="0" y="-20" width="20" height="40" rx="4" ry="4" class="black-40"/>
+    <rect x="25" y="-20" width="20" height="40" rx="4" ry="4" class="black-20"/>
+    <rect x="50" y="-20" width="20" height="40" rx="4" ry="4" class="black-solid"/>
+    
+    <!-- AI-Overlay mit Kontrast -->
+    <rect x="-20" y="-15" width="40" height="30" rx="6" ry="6" class="black-solid"/>
+    
+    <!-- AI-Text in Weiß für Kontrast -->
+    <text x="0" y="4" text-anchor="middle" class="ai-text" font-size="20">AI</text>
+    
+    <!-- URL-Text -->
+    <text x="0" y="40" text-anchor="middle" class="url-text" font-size="11" letter-spacing="2">AI-AUTOMATION-ENGINEERS.DE</text>
+  </g>
+  
+  <!-- Rahmen für Definition -->
+  <rect x="20" y="20" width="240" height="140" fill="none" stroke="#1e293b" stroke-width="1" rx="8"/>
+  
+  <!-- Schnittmarken -->
+  <g stroke="#000000" stroke-width="0.5" fill="none">
+    <line x1="5" y1="10" x2="15" y2="10"/>
+    <line x1="10" y1="5" x2="10" y2="15"/>
+    <line x1="265" y1="10" x2="275" y2="10"/>
+    <line x1="270" y1="5" x2="270" y2="15"/>
+    <line x1="5" y1="170" x2="15" y2="170"/>
+    <line x1="10" y1="165" x2="10" y2="175"/>
+    <line x1="265" y1="170" x2="275" y2="170"/>
+    <line x1="270" y1="165" x2="270" y2="175"/>
+  </g>
+</svg>
