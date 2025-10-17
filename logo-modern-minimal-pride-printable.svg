@@ -23,19 +23,54 @@
   <rect width="280" height="180" fill="#ffffff"/>
   
   <g transform="translate(140, 90)">
-    <!-- Pride-Balken mit Rundungen für sauberen Druck -->
-    <rect x="-75" y="-20" width="20" height="40" rx="4" ry="4" class="pride-red"/>
-    <rect x="-50" y="-20" width="20" height="40" rx="4" ry="4" class="pride-orange"/>
-    <rect x="-25" y="-20" width="20" height="40" rx="4" ry="4" class="pride-yellow"/>
-    <rect x="0" y="-20" width="20" height="40" rx="4" ry="4" class="pride-green"/>
-    <rect x="25" y="-20" width="20" height="40" rx="4" ry="4" class="pride-blue"/>
-    <rect x="50" y="-20" width="20" height="40" rx="4" ry="4" class="pride-purple"/>
+    <!-- Pride-Balken als n8n Workflow-Schritte mit Verbindungen -->
     
-    <!-- AI-Overlay - solide Farbe für besseren Druck -->
-    <rect x="-20" y="-15" width="40" height="30" rx="6" ry="6" class="ai-dark"/>
+    <!-- Verbindungslinien zwischen den Schritten -->
+    <g stroke="#94a3b8" stroke-width="3" fill="none" opacity="0.8">
+      <!-- Pfeil von Rot zu Orange -->
+      <line x1="-55" y1="0" x2="-40" y2="0"/>
+      <polygon points="-42,0 -47,-3 -47,3" fill="#94a3b8"/>
+      
+      <!-- Pfeil von Orange zu Gelb -->
+      <line x1="-30" y1="0" x2="-15" y2="0"/>
+      <polygon points="-17,0 -22,-3 -22,3" fill="#94a3b8"/>
+      
+      <!-- Pfeil von Gelb zu Grün -->
+      <line x1="-5" y1="0" x2="10" y2="0"/>
+      <polygon points="8,0 3,-3 3,3" fill="#94a3b8"/>
+      
+      <!-- Pfeil von Grün zu Blau -->
+      <line x1="20" y1="0" x2="35" y2="0"/>
+      <polygon points="33,0 28,-3 28,3" fill="#94a3b8"/>
+      
+      <!-- Pfeil von Blau zu Lila -->
+      <line x1="45" y1="0" x2="60" y2="0"/>
+      <polygon points="58,0 53,-3 53,3" fill="#94a3b8"/>
+    </g>
     
-    <!-- AI-Text - Vektorisiert für Druckqualität -->
-    <text x="0" y="4" text-anchor="middle" class="ai-text" font-size="20">AI</text>
+    <!-- Pride-Workflow-Schritte (runder für n8n-Look) -->
+    <rect x="-75" y="-20" width="20" height="40" rx="8" ry="8" class="pride-red"/>
+    <rect x="-50" y="-20" width="20" height="40" rx="8" ry="8" class="pride-orange"/>
+    <rect x="-25" y="-20" width="20" height="40" rx="8" ry="8" class="pride-yellow"/>
+    <rect x="0" y="-20" width="20" height="40" rx="8" ry="8" class="pride-green"/>
+    <rect x="25" y="-20" width="20" height="40" rx="8" ry="8" class="pride-blue"/>
+    <rect x="50" y="-20" width="20" height="40" rx="8" ry="8" class="pride-purple"/>
+    
+    <!-- Schritt-Nummern für Workflow-Charakter -->
+    <g class="ai-text" font-size="8">
+      <text x="-65" y="2" text-anchor="middle">1</text>
+      <text x="-40" y="2" text-anchor="middle">2</text>
+      <text x="-15" y="2" text-anchor="middle">3</text>
+      <text x="10" y="2" text-anchor="middle">4</text>
+      <text x="35" y="2" text-anchor="middle">5</text>
+      <text x="60" y="2" text-anchor="middle">6</text>
+    </g>
+    
+    <!-- AI-Overlay - erweitert für einzeiligen Text -->
+    <rect x="-70" y="-12" width="140" height="24" rx="6" ry="6" class="ai-dark"/>
+    
+    <!-- AI Automation Engineers Text - Einzeilig -->
+    <text x="0" y="4" text-anchor="middle" class="ai-text" font-size="7">AI-AUTOMATION-ENGINEERS.DE</text>
     
     <!-- URL-Text mit Tracking für Lesbarkeit -->
     <text x="0" y="40" text-anchor="middle" class="url-text" font-size="11" letter-spacing="2">AI-AUTOMATION-ENGINEERS.DE</text>

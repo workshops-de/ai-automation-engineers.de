@@ -27,11 +27,11 @@
     <rect x="25" y="-20" width="20" height="40" rx="4" ry="4" class="black-20"/>
     <rect x="50" y="-20" width="20" height="40" rx="4" ry="4" class="black-solid"/>
     
-    <!-- AI-Overlay mit Kontrast -->
-    <rect x="-20" y="-15" width="40" height="30" rx="6" ry="6" class="black-solid"/>
+    <!-- AI-Overlay erweitert für einzeiligen Text -->
+    <rect x="-70" y="-12" width="140" height="24" rx="6" ry="6" class="black-solid"/>
     
-    <!-- AI-Text in Weiß für Kontrast -->
-    <text x="0" y="4" text-anchor="middle" class="ai-text" font-size="20">AI</text>
+    <!-- AI Automation Engineers Text - Einzeilig in Weiß -->
+    <text x="0" y="4" text-anchor="middle" class="ai-text" font-size="12">AI AUTOMATION ENGINEERS</text>
     
     <!-- URL-Text -->
     <text x="0" y="40" text-anchor="middle" class="url-text" font-size="11" letter-spacing="2">AI-AUTOMATION-ENGINEERS.DE</text>
