@@ -61,56 +61,204 @@ const description = 'Manage your AI-Automation-Engineers.de profile, settings, a
     try {
       // Show loading state
       container.innerHTML = `
-        <div class="animate-pulse">
-          <div class="w-32 h-32 bg-gray-300 rounded-full mx-auto mb-6"></div>
-          <div class="h-8 bg-gray-300 rounded w-64 mx-auto mb-4"></div>
-          <div class="h-6 bg-gray-300 rounded w-48 mx-auto mb-4"></div>
-          <div class="h-4 bg-gray-300 rounded w-32 mx-auto"></div>
+        <div class="bg-white rounded-2xl shadow-sm overflow-hidden max-w-3xl mx-auto animate-pulse">
+          <div class="bg-gradient-to-br from-gray-50 via-white to-blue-50 px-8 py-12 border-b border-gray-100">
+            <div class="flex flex-col md:flex-row items-center md:items-start gap-6">
+              <div class="w-32 h-32 bg-gray-200 rounded-full"></div>
+              <div class="flex-1 text-center md:text-left space-y-3">
+                <div class="h-8 bg-gray-200 rounded w-64 mx-auto md:mx-0"></div>
+                <div class="h-6 bg-gray-200 rounded w-48 mx-auto md:mx-0"></div>
+                <div class="h-4 bg-gray-200 rounded w-32 mx-auto md:mx-0"></div>
+              </div>
+            </div>
+          </div>
+          <div class="p-8 space-y-6">
+            <div class="h-4 bg-gray-200 rounded w-full"></div>
+            <div class="h-4 bg-gray-200 rounded w-5/6"></div>
+            <div class="h-4 bg-gray-200 rounded w-4/6"></div>
+          </div>
         </div>
       `;
 
       const profileDoc = await getDoc(doc(db, 'users', id));
       
       if (!profileDoc.exists()) {
-        container.innerHTML = '<div class="text-center py-12"><h2 class="text-2xl font-bold text-gray-900 mb-4">Profile not found</h2><p class="text-gray-600">The requested profile could not be found.</p></div>';
+        container.innerHTML = `
+          <div class="bg-white rounded-2xl shadow-sm overflow-hidden max-w-3xl mx-auto p-12 text-center">
+            <svg class="w-20 h-20 text-gray-300 mx-auto mb-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
+            </svg>
+            <h2 class="text-3xl font-bold text-gray-900 mb-4">Profil nicht gefunden</h2>
+            <p class="text-gray-600 mb-8">Das gesuchte Profil konnte nicht gefunden werden.</p>
+            <a href="/profiles" class="inline-flex items-center px-6 py-3 text-gray-700 bg-gray-100 rounded-lg hover:bg-gray-200 transition-all duration-200 font-medium">
+              <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
+              </svg>
+              Zurück zur Übersicht
+            </a>
+          </div>
+        `;
         return;
       }
 
       const data = profileDoc.data();
       
       if (!data.isPublic) {
-        container.innerHTML = '<div class="text-center py-12"><h2 class="text-2xl font-bold text-gray-900 mb-4">Private Profile</h2><p class="text-gray-600">This profile is set to private.</p></div>';
+        container.innerHTML = `
+          <div class="bg-white rounded-2xl shadow-sm overflow-hidden max-w-3xl mx-auto p-12 text-center">
+            <svg class="w-20 h-20 text-gray-300 mx-auto mb-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path>
+            </svg>
+            <h2 class="text-3xl font-bold text-gray-900 mb-4">Privates Profil</h2>
+            <p class="text-gray-600 mb-8">Dieses Profil ist privat und kann nicht angezeigt werden.</p>
+            <a href="/profiles" class="inline-flex items-center px-6 py-3 text-gray-700 bg-gray-100 rounded-lg hover:bg-gray-200 transition-all duration-200 font-medium">
+              <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
+              </svg>
+              Zurück zur Übersicht
+            </a>
+          </div>
+        `;
         return;
       }
 
-      // Render the profile
+      // Render the profile with modern design
       container.innerHTML = `
-        <div class="bg-white shadow-lg rounded-lg overflow-hidden">
-          <div class="p-8">
-            <div class="flex items-center mb-6">
-              <img src="${data.profilePicture || '/default-avatar.svg'}" alt="${data.name}" class="w-24 h-24 rounded-full mr-6">
-              <div>
-                <h1 class="text-3xl font-bold text-gray-900">${data.name}</h1>
-                <p class="text-xl text-gray-600">${data.role} at ${data.company}</p>
-                <p class="text-gray-500">${data.location}</p>
+        <div class="bg-white rounded-2xl shadow-sm overflow-hidden max-w-3xl mx-auto animate-fade-in">
+          <!-- Profile Header with Background -->
+          <div class="bg-gradient-to-br from-gray-50 via-white to-blue-50 px-8 py-12 border-b border-gray-100">
+            <div class="flex flex-col md:flex-row items-center md:items-start gap-6">
+              <img 
+                src="${data.profilePicture || '/default-avatar.svg'}" 
+                alt="${data.name}" 
+                class="w-32 h-32 rounded-full object-cover bg-white shadow-md ring-4 ring-white"
+              >
+              <div class="flex-1 text-center md:text-left">
+                <h1 class="text-4xl font-bold text-gray-900 mb-3">${data.name}</h1>
+                <div class="space-y-2">
+                  <p class="text-xl text-gray-700 font-medium">${data.role || 'Role not specified'}</p>
+                  ${data.company ? `
+                    <p class="text-lg text-gray-600">${data.company}</p>
+                  ` : ''}
+                  ${data.location ? `
+                    <div class="flex items-center justify-center md:justify-start text-gray-600 mt-2">
+                      <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                      </svg>
+                      ${data.location}
+                    </div>
+                  ` : ''}
+                  ${data.experience ? `
+                    <div class="mt-3">
+                      <span class="bg-blue-50 text-blue-700 px-4 py-2 rounded-full text-sm font-medium">
+                        ${data.experience}
+                      </span>
+                    </div>
+                  ` : ''}
+                </div>
               </div>
             </div>
-            <div class="mb-6">
-              <h2 class="text-xl font-semibold text-gray-900 mb-2">About</h2>
-              <p class="text-gray-700">${data.bio}</p>
-            </div>
+          </div>
+
+          <!-- Profile Content -->
+          <div class="p-8 space-y-8">
+            <!-- Bio Section -->
+            ${data.bio ? `
+              <div>
+                <h2 class="text-2xl font-bold text-gray-900 mb-4 flex items-center">
+                  <svg class="w-6 h-6 mr-2 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
+                  </svg>
+                  Über mich
+                </h2>
+                <p class="text-gray-700 text-lg leading-relaxed">${data.bio}</p>
+              </div>
+            ` : ''}
+            
+            <!-- Skills Section -->
             ${data.skills && data.skills.length > 0 ? `
-              <div class="mb-6">
-                <h2 class="text-xl font-semibold text-gray-900 mb-2">Skills</h2>
-                <div class="flex flex-wrap gap-2">
-                  ${data.skills.map(skill => `<span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">${skill}</span>`).join('')}
+              <div>
+                <h2 class="text-2xl font-bold text-gray-900 mb-4 flex items-center">
+                  <svg class="w-6 h-6 mr-2 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
+                  </svg>
+                  Skills & Expertise
+                </h2>
+                <div class="flex flex-wrap gap-3">
+                  ${data.skills.map((skill: string) => `
+                    <span class="bg-gray-100 text-gray-700 px-4 py-2 rounded-lg text-sm font-medium hover:bg-gray-200 transition-colors">
+                      ${skill}
+                    </span>
+                  `).join('')}
                 </div>
               </div>
             ` : ''}
-            <div class="flex gap-4">
-              ${data.linkedinUrl ? `<a href="${data.linkedinUrl}" target="_blank" class="text-blue-600 hover:text-blue-800">LinkedIn</a>` : ''}
-              ${data.githubUrl ? `<a href="${data.githubUrl}" target="_blank" class="text-gray-600 hover:text-gray-800">GitHub</a>` : ''}
-              ${data.websiteUrl ? `<a href="${data.websiteUrl}" target="_blank" class="text-green-600 hover:text-green-800">Website</a>` : ''}
+
+            <!-- Social Links Section -->
+            ${(data.linkedinUrl || data.githubUrl || data.websiteUrl) ? `
+              <div class="pt-6 border-t border-gray-100">
+                <h2 class="text-2xl font-bold text-gray-900 mb-4 flex items-center">
+                  <svg class="w-6 h-6 mr-2 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"></path>
+                  </svg>
+                  Connect
+                </h2>
+                <div class="flex flex-wrap gap-4">
+                  ${data.linkedinUrl ? `
+                    <a 
+                      href="${data.linkedinUrl}" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      class="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-all duration-200 shadow-sm hover:shadow-md font-medium"
+                    >
+                      <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                      </svg>
+                      LinkedIn
+                    </a>
+                  ` : ''}
+                  ${data.githubUrl ? `
+                    <a 
+                      href="${data.githubUrl}" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      class="inline-flex items-center px-6 py-3 bg-gray-800 text-white rounded-lg hover:bg-gray-900 transition-all duration-200 shadow-sm hover:shadow-md font-medium"
+                    >
+                      <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                      </svg>
+                      GitHub
+                    </a>
+                  ` : ''}
+                  ${data.websiteUrl ? `
+                    <a 
+                      href="${data.websiteUrl}" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      class="inline-flex items-center px-6 py-3 bg-white text-gray-700 border border-gray-300 rounded-lg hover:bg-gray-50 hover:border-gray-400 transition-all duration-200 shadow-sm hover:shadow-md font-medium"
+                    >
+                      <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                      </svg>
+                      Website
+                    </a>
+                  ` : ''}
+                </div>
+              </div>
+            ` : ''}
+
+            <!-- Back Button -->
+            <div class="pt-6 border-t border-gray-100">
+              <a 
+                href="/profiles" 
+                class="inline-flex items-center px-6 py-3 text-gray-700 bg-gray-100 rounded-lg hover:bg-gray-200 transition-all duration-200 font-medium"
+              >
+                <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
+                </svg>
+                Zurück zur Übersicht
+              </a>
             </div>
           </div>
         </div>
@@ -120,7 +268,21 @@ const description = 'Manage your AI-Automation-Engineers.de profile, settings, a
               document.title = `${data.name} - AI-Automation-Engineers.de`;
     } catch (error) {
       console.error('Error loading profile:', error);
-      container.innerHTML = '<div class="text-center py-12"><h2 class="text-2xl font-bold text-gray-900 mb-4">Error</h2><p class="text-gray-600">Failed to load profile.</p></div>';
+      container.innerHTML = `
+        <div class="bg-white rounded-2xl shadow-sm overflow-hidden max-w-3xl mx-auto p-12 text-center">
+          <svg class="w-20 h-20 text-red-300 mx-auto mb-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+          </svg>
+          <h2 class="text-3xl font-bold text-gray-900 mb-4">Fehler beim Laden</h2>
+          <p class="text-gray-600 mb-8">Das Profil konnte nicht geladen werden. Bitte versuche es später erneut.</p>
+          <a href="/profiles" class="inline-flex items-center px-6 py-3 text-gray-700 bg-gray-100 rounded-lg hover:bg-gray-200 transition-all duration-200 font-medium">
+            <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
+            </svg>
+            Zurück zur Übersicht
+          </a>
+        </div>
+      `;
     }
   }
 </script>

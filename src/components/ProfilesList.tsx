@@ -125,7 +125,7 @@ export default function ProfilesList({ className = '' }: ProfilesListProps) {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
             {currentProfiles.map((profile, index) => (
               <div key={profile.id} className={`group animate-fade-in-up`} style={{animationDelay: `${index * 100}ms`}}>
-                <div className="bg-white rounded-2xl shadow-sm hover:shadow-md transition-all duration-300 overflow-hidden">
+                <div className="bg-white rounded-2xl shadow-sm hover:shadow-md transition-all duration-300 overflow-hidden min-h-[550px] flex flex-col">
                   {/* Profile Header */}
                   <div className="p-6 border-b border-gray-100">
                     <div className="flex items-center">
@@ -141,65 +141,67 @@ export default function ProfilesList({ className = '' }: ProfilesListProps) {
                         <h3 className="text-lg font-bold text-gray-900 mb-1">
                           {profile.name || 'Anonymous User'}
                         </h3>
-                        <p className="text-gray-600 text-sm">
-                          {profile.role || 'Role not specified'}
-                        </p>
-                        {profile.company && (
-                          <p className="text-gray-500 text-xs mt-1">
-                            {profile.company}
-                          </p>
-                        )}
+                       
                       </div>
                     </div>
                   </div>
                   
                   {/* Profile Body */}
-                  <div className="p-6 space-y-4">
-                    {/* Location */}
-                    {profile.location && (
-                      <div className="flex items-center text-sm text-gray-600">
-                        <svg className="w-4 h-4 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                        </svg>
-                        {profile.location}
-                      </div>
-                    )}
-                    
-                    {/* Bio */}
-                    {profile.bio && (
-                      <p className="text-gray-700 text-sm leading-relaxed line-clamp-3">
-                        {profile.bio}
-                      </p>
-                    )}
-                    
-                    {/* Experience */}
-                    {profile.experience && (
-                      <div className="flex items-center">
-                        <span className="bg-blue-50 text-blue-700 px-3 py-1 rounded-full text-xs font-medium">
-                          {profile.experience}
-                        </span>
-                      </div>
-                    )}
-                    
-                    {/* Skills */}
-                    {profile.skills && profile.skills.length > 0 && (
-                      <div className="space-y-2">
-                        <p className="text-sm font-medium text-gray-900">Skills</p>
-                        <div className="flex flex-wrap gap-2">
-                          {profile.skills.slice(0, 4).map(skill => (
-                            <span key={skill} className="bg-gray-100 text-gray-700 text-xs px-2 py-1 rounded">
-                              {skill}
-                            </span>
-                          ))}
-                          {profile.skills.length > 4 && (
-                            <span className="bg-gray-100 text-gray-500 text-xs px-2 py-1 rounded">
-                              +{profile.skills.length - 4}
-                            </span>
-                          )}
+                  <div className="p-6 flex-1 flex flex-col">
+                    {/* Top Section - Location & Bio */}
+                    <div className="space-y-4">
+                      {/* Location */}
+                      {profile.location && (
+                        <div className="flex items-center text-sm text-gray-600">
+                          <svg className="w-4 h-4 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                          </svg>
+                          {profile.location}
                         </div>
-                      </div>
-                    )}
+                      )}
+                      
+                      {/* Bio */}
+                      {profile.bio && (
+                        <p className="text-gray-700 text-sm leading-relaxed line-clamp-3">
+                          {profile.bio}
+                        </p>
+                      )}
+                    </div>
+                    
+                    {/* Spacer to push bottom section down */}
+                    <div className="flex-1"></div>
+                    
+                    {/* Bottom Section - Experience & Skills */}
+                    <div className="space-y-4 mt-4">
+                      {/* Experience */}
+                      {profile.experience && (
+                        <div className="flex items-center">
+                          <span className="bg-blue-50 text-blue-700 px-3 py-1 rounded-full text-xs font-medium">
+                            {profile.experience}
+                          </span>
+                        </div>
+                      )}
+                      
+                      {/* Skills */}
+                      {profile.skills && profile.skills.length > 0 && (
+                        <div className="space-y-2">
+                          <p className="text-sm font-medium text-gray-900">Skills</p>
+                          <div className="flex flex-wrap gap-2">
+                            {profile.skills.slice(0, 4).map(skill => (
+                              <span key={skill} className="bg-gray-100 text-gray-700 text-xs px-2 py-1 rounded">
+                                {skill}
+                              </span>
+                            ))}
+                            {profile.skills.length > 4 && (
+                              <span className="bg-gray-100 text-gray-500 text-xs px-2 py-1 rounded">
+                                +{profile.skills.length - 4}
+                              </span>
+                            )}
+                          </div>
+                        </div>
+                      )}
+                    </div>
                   </div>
                   
                   {/* Profile Footer */}
@@ -253,7 +255,7 @@ export default function ProfilesList({ className = '' }: ProfilesListProps) {
                         href={`/profile?id=${profile.id}`} 
                         className="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 hover:border-gray-400 transition-all duration-200"
                       >
-                        Profil ansehen
+                        Profil
                         <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
                         </svg>
