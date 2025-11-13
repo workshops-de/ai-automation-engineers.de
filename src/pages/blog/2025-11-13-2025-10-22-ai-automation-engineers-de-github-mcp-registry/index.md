@@ -10,36 +10,6 @@ readTime: '5 min read'
 image: 'https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
----
-
-layout: '../../../layouts/BlogLayout.astro'
-
-title: 'GitHub MCP Registry: Das App-Store-Modell für AI-Automation'
-
-description: 'GitHub MCP Registry als zentrale Plattform zur Entdeckung und Integration von Model Context Protocol Servern – die Zukunft von AI-Automation Workflows'
-
-pubDate: '2025-09-16'
-
-author: 'Robin Böhm'
-
-tags: ['MCP', 'AI-Automation', 'GitHub', 'Integration', 'Developer-Tools']
-
-category: 'News'
-
-readTime: '5 min read'
-
-image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=1200&h=630&fit=crop'
-
-source: 'https://github.blog/changelog/2025-09-16-github-mcp-registry-the-fastest-way-to-discover-ai-tools'
-
-portal: 'AI-AUTOMATION-ENGINEERS.DE'
-
-spreadsheetRow: '7'
-
----
-
-
-
 # GitHub MCP Registry: Der Game-Changer für dezentralisierte AI-Automation
 
 
