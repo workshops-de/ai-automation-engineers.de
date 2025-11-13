@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['MCP', 'ChatGPT', 'OpenAI', 'API Integration', 'Developer Tools', 'AI Automation']
 category: 'Tools & Frameworks'
 readTime: '10 min read'
-image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181509/pexels-photo-1181509.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 Stell dir vor, du könntest ChatGPT mit einem einzigen Klick an deine gesamte digitale Infrastruktur anschließen – von GitHub über Jira bis zu deiner Unternehmensdatenbank. Keine Custom-Integrationen mehr, keine API-Wrapper, kein Gefrickel. **Spoiler Alert: Mit MCP ist das jetzt Realität!** 🚀

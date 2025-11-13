@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Automation', 'Tools', 'Best Practices', 'OpenAI', 'Standards']
 category: 'AI Trends'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181387/pexels-photo-1181387.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** AGENTS.md ist ein neuer Open-Source Standard, der AI-Coding-Agenten wie Cursor, GitHub Copilot und Claude mit präzisen Projektinformationen versorgt. Über 20.000 Projekte nutzen ihn bereits. Think of it als README für Robots! 🤖

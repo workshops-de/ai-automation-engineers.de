@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['Microsoft', 'Windows', 'KI-Agenten', 'Zukunft', 'Datenschutz']
 category: 'AI Trends'
 readTime: '7 min read'
-image: 'https://images.pexels.com/photos/7130469/pexels-photo-7130469.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181515/pexels-photo-1181515.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Microsoft-Manager David Weston stellt sich Windows 2030 ohne Maus und Tastatur vor - stattdessen sollen KI-Agenten auf Zuruf arbeiten und der Computer soll "sehen und hören" können, was wir tun. Die Community reagiert mit einem Mix aus Entsetzen und Sarkasmus.

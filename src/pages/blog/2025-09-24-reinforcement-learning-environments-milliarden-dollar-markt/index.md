@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Machine Learning', 'Reinforcement Learning', 'Automation', 'Trends', 'Investment']
 category: 'AI Trends'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181434/pexels-photo-1181434.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Tech-Giganten und Startups investieren Milliarden in Reinforcement Learning Environments – virtuelle Trainingsplätze für KI-Agenten. Doch trotz der massiven Investments kämpft die Technologie mit fundamentalen Herausforderungen wie Reward Hacking und fehlender Generalisierung.

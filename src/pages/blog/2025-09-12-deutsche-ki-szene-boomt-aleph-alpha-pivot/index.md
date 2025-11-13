@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI Trends', 'Industry Insights', 'Startups', 'Deutschland', 'Business Strategy']
 category: 'Industry Insights'
 readTime: '7 min read'
-image: 'https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181536/pexels-photo-1181536.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Die deutsche KI-Startup-Szene wächst 2024 um 35% auf 687 Unternehmen. Gleichzeitig vollzieht Aleph Alpha, einst Deutschlands KI-Hoffnungsträger, einen radikalen Strategiewechsel: Statt eigene Foundation Models zu entwickeln, fokussiert sich das Unternehmen nun mit PhariaAI auf KI-Infrastruktur für Unternehmen und Behörden.

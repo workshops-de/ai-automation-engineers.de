@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Anthropic', 'Claude', 'Funding', 'Investment', 'Startup']
 category: 'Industry Insights'
 readTime: '6 min read'
-image: 'https://images.pexels.com/photos/8370752/pexels-photo-8370752.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181469/pexels-photo-1181469.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Anthropic hat in einer Series-F-Finanzierungsrunde 13 Milliarden US-Dollar eingesammelt und wird nun mit 183 Milliarden Dollar bewertet – eine Verdreifachung in nur sechs Monaten. Das von ehemaligen OpenAI-Mitarbeitern gegründete KI-Unternehmen etabliert sich damit als ernsthafter Konkurrent im globalen KI-Rennen.

@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Apple', 'OpenAI', 'Antitrust', 'xAI', 'ChatGPT', 'Industry Insights']
 category: 'Industry Insights'
 readTime: '5 min read'
-image: 'https://images.pexels.com/photos/6045366/pexels-photo-6045366.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181489/pexels-photo-1181489.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Elon Musk wirft Apple vor, OpenAIs ChatGPT im App Store zu bevorzugen und seine eigene KI-App Grok zu benachteiligen. Er droht mit einer Kartellrechtsklage, während OpenAI-CEO Sam Altman kontert und Musk selbst Algorithmus-Manipulation bei X vorwirft.

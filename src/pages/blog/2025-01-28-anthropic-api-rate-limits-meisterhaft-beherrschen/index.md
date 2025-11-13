@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['API', 'Claude', 'Rate Limiting', 'Best Practices', 'Performance', 'OpenAI']
 category: 'Best Practices'
 readTime: '12 min read'
-image: 'https://images.pexels.com/photos/5077069/pexels-photo-5077069.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181431/pexels-photo-1181431.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 60.000 Token pro Minute. 4.000 Anfragen gleichzeitig. 2 Millionen Input-Token in Tier 4. 

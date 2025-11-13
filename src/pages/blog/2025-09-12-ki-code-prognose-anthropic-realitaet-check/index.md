@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Software Development', 'Anthropic', 'Claude', 'Productivity', 'Security', 'Trends']
 category: 'Industry Insights'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181402/pexels-photo-1181402.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Anthropic-CEO Dario Amodei prophezeite im März 2025, dass KI binnen 6 Monaten 90% allen Codes schreiben würde. Die Realität sechs Monate später: Entwickler mit KI-Assistenten sind 19% langsamer und produzieren 10x mehr Sicherheitslücken. Welcome to the Reality Check Era.

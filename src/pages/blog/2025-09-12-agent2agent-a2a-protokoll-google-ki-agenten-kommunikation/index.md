@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Google', 'Open Source', 'KI-Agenten', 'Protokolle', 'Agent2Agent', 'A2A', 'Automation']
 category: 'AI Trends'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/8438918/pexels-photo-8438918.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181507/pexels-photo-1181507.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Google lanciert mit Agent2Agent (A2A) ein Open-Source-Protokoll für die standardisierte Kommunikation zwischen KI-Agenten über Herstellergrenzen hinweg. Mit Support von über 150 Organisationen und der Linux Foundation als Treuhänder könnte A2A zum HTTP für KI-Agenten werden.

@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Claude', 'Anthropic', 'MCP', 'Computer Use', 'Automation', 'Tools']
 category: 'AI Trends'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181503/pexels-photo-1181503.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 Stell dir vor, deine KI könnte nicht nur mit dir chatten, sondern tatsächlich deinen Computer bedienen - Mausklicks ausführen, Formulare ausfüllen und Software navigieren. **Science Fiction?** Nicht mehr. Claude 3.5 Sonnet macht genau das möglich. Und das ist erst der Anfang einer Revolution, die gerade die Art und Weise verändert, wie wir mit KI arbeiten.

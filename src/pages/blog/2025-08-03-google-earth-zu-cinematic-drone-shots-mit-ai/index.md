@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Computer Vision', 'Tools & Frameworks', 'Machine Learning', 'Content Creation']
 category: 'AI Trends'
 readTime: '10 min read'
-image: 'https://images.pexels.com/photos/3972752/pexels-photo-3972752.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181480/pexels-photo-1181480.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 Stell dir vor: Du scrollst gerade durch Reddit, und da poppt ein Post auf - "Turning low-res Google Earth screenshots into cinematic drone shots". Dein erster Gedanke? *Das muss Fake sein.* Dein zweiter Gedanke? *Okay, ich MUSS wissen, wie das geht!*

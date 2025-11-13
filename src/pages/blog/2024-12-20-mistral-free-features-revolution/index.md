@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Mistral', 'Free Tools', 'Le Chat', 'Enterprise AI', 'Innovation']
 category: 'AI Trends'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181389/pexels-photo-1181389.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Mistral AI macht Ernst mit der AI-Demokratisierung und bietet ab sofort Enterprise-Grade Features kostenlos an. Canvas für interaktives Editing, Web-Suche mit Zitaten, 150 Flash-Antworten täglich und Zugriff auf das 124B Parameter Pixtral Large Modell – alles im Free Tier!

@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Transcription', 'macOS', 'Tools & Frameworks', 'Productivity']
 category: 'Tools & Frameworks'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/4226140/pexels-photo-4226140.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181465/pexels-photo-1181465.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **60 Minuten Meeting, 5 verschiedene Sprecher, 1 perfekt strukturierte Transkription – und das alles in unter 2 Minuten direkt auf deinem Mac.** 

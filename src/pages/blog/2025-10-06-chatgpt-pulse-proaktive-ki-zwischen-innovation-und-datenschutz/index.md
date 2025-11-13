@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'OpenAI', 'ChatGPT', 'Productivity', 'Innovation']
 category: 'AI Trends'
 readTime: '5 min read'
-image: 'https://images.pexels.com/photos/8386423/pexels-photo-8386423.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181471/pexels-photo-1181471.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** ChatGPT Pulse ist seit September 2025 für Pro-Nutzer ($200/Monat) auf iOS und Android verfügbar. Die AI startet jetzt selbst den Chat mit personalisierten Morgen-Briefings - eine Revolution im AI-Umgang.

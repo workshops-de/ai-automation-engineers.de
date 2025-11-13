@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Computer Vision', '3D Reconstruction', 'VR', 'Gaming', 'Machine Learning']
 category: 'AI Trends'
 readTime: '7 min read'
-image: 'https://images.pexels.com/photos/8728382/pexels-photo-8728382.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181497/pexels-photo-1181497.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Tencent revolutioniert die 3D-Weltgenerierung mit HunyuanWorld-Voyager - dem ersten globalen ultra-long-range Weltmodell mit nativer 3D-Rekonstruktion. Aus einem einzelnen Bild entstehen konsistente, erkundbare 3D-Welten für VR, Gaming und Simulation.

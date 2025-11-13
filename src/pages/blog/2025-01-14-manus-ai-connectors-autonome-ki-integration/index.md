@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Automation', 'API', 'Integration', 'Workflows', 'Tools']
 category: 'Tools & Frameworks'
 readTime: '9 min read'
-image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181491/pexels-photo-1181491.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 Stell dir vor: Du sitzt im Meeting. Der Chef fragt: "Können wir unsere 47 verschiedenen Tools irgendwie intelligent miteinander verbinden?" Du: "Klar, mit Zapier!" Chef: "Aber das kann doch nur vordefinierte Workflows..." Du: "Äh..." 

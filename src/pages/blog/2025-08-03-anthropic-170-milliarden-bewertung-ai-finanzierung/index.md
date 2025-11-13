@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Finanzierung', 'Anthropic', 'Startups', 'Investment', 'Machine Learning']
 category: 'AI Trends'
 readTime: '5 min read'
-image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181439/pexels-photo-1181439.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 $170 Milliarden. Lass diese Zahl kurz auf dich wirken. Das ist die neue Bewertung von Anthropic, dem Unternehmen hinter Claude AI. Zum Vergleich: Das ist mehr als die Marktkapitalisierung von IBM oder Intel. Und wir reden hier von einem Startup, das gerade mal 4 Jahre alt ist.

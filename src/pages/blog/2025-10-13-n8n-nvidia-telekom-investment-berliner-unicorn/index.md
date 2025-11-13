@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['n8n', 'Funding', 'Automation', 'AI Agents', 'Startup', 'Berlin', 'Nvidia', 'Deutsche Telekom']
 category: 'Industry Insights'
 readTime: '7 min read'
-image: 'https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181484/pexels-photo-1181484.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Das Berliner Startup n8n hat in einer Series-C-Runde 180 Millionen Dollar eingesammelt und wird nun mit 2,5 Milliarden Dollar bewertet. Zu den Investoren gehören Tech-Giganten wie Nvidia und die Deutsche Telekom. Das macht n8n zu einem der wertvollsten AI-Startups Europas.

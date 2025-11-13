@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI Governance', 'Human-in-the-Loop', 'Fraunhofer', 'KI-Kontrolle', 'EU AI Act']
 category: 'AI Trends'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181521/pexels-photo-1181521.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 Stell dir vor, du sitzt im Kontrollraum einer Smart City. Vor dir flimmern Dutzende von Bildschirmen: Verkehrsflüsse, Unfallmeldungen, Wetterprognosen. Die KI meldet: "Stau-Wahrscheinlichkeit auf der A40 in 23 Minuten: 87%". Aber moment mal – warum eigentlich? Und solltest du jetzt wirklich den kompletten Verkehr umleiten?

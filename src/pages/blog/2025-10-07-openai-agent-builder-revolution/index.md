@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['OpenAI', 'No-Code', 'AI Agents', 'Visual Development', 'Automation']
 category: 'AI Trends'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181411/pexels-photo-1181411.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** OpenAI launcht einen revolutionären Agent Builder mit Drag-and-Drop Interface, der die KI-Entwicklung demokratisiert. Keine Programmierung nötig, aber volle Enterprise-Power inklusive. Das Ziel: 800 Millionen Nutzer statt nur ein paar Millionen Entwickler erreichen.

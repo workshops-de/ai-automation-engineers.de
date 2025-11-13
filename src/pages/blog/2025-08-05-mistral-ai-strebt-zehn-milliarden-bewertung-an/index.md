@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI Trends', 'Mistral AI', 'Funding', 'Europe', 'OpenAI', 'Le Chat', 'Open Source']
 category: 'Industry Insights'
 readTime: '6 min read'
-image: 'https://images.pexels.com/photos/8297031/pexels-photo-8297031.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181427/pexels-photo-1181427.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Mistral AI, das französische KI-Startup, strebt eine 1-Milliarden-Dollar-Finanzierungsrunde an, um seine Bewertung von derzeit 6,79 Milliarden auf 10 Milliarden Dollar zu steigern. Mit starken europäischen Partnerschaften und dem Open-Source-Ansatz positioniert sich das Unternehmen als Europas Champion im globalen KI-Rennen.

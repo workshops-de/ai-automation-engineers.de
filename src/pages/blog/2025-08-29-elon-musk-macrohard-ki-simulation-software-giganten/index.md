@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'xAI', 'Elon Musk', 'Microsoft', 'Automation', 'Future', 'Machine Learning', 'Industry Insights']
 category: 'AI Trends'
 readTime: '7 min read'
-image: 'https://images.pexels.com/photos/8438918/pexels-photo-8438918.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181451/pexels-photo-1181451.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Elon Musk kündigt mit "Macrohard" ein KI-Unternehmen an, das komplette Software-Firmen wie Microsoft vollständig durch künstliche Intelligenz simulieren will. Das Projekt unter xAI nutzt Multi-Agenten-Systeme für alle Unternehmensfunktionen – von der Programmierung bis zum Management.

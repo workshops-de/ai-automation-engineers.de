@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'xAI', 'Knowledge Management', 'Automation', 'Future']
 category: 'Industry Insights'
 readTime: '6 min read'
-image: 'https://images.pexels.com/photos/5980866/pexels-photo-5980866.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181468/pexels-photo-1181468.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Elon Musk launcht mit Grokipedia eine KI-gestützte Alternative zu Wikipedia. Die Plattform von xAI nutzt künstliche Intelligenz für automatische Faktenprüfung und verspricht eine "massive Verbesserung" gegenüber Wikipedia. Die Beta-Version startet im Oktober 2025.

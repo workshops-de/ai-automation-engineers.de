@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Collaboration', 'ChatGPT', 'Productivity', 'Teams']
 category: 'Tools & Frameworks'
 readTime: '6 min read'
-image: 'https://images.pexels.com/photos/3182773/pexels-photo-3182773.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181511/pexels-photo-1181511.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 Stell dir vor: Du arbeitest mit deinem Team an einem komplexen Projekt. Jeder nutzt ChatGPT, aber alle arbeiten in ihren eigenen Silos. Sarah hat wichtige Produktspezifikationen besprochen, Tom die Marketingstrategie entwickelt, und du? Du fängst wieder bei Null an. 

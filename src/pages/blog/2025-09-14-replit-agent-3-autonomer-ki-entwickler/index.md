@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Automation', 'Tools', 'Testing', 'Development']
 category: 'Tools & Frameworks'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181382/pexels-photo-1181382.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Replit Agent 3 ist da - 10x autonomer als sein Vorgänger, testet Apps selbstständig im Browser, behebt Fehler eigenständig und kann sogar andere Agenten und Automationen bauen. 200 Minuten autonome Arbeitszeit, 3x schneller und 10x kosteneffizienter.

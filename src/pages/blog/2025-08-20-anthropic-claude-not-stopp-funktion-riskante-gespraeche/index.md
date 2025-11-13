@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Ethics', 'Claude', 'Sicherheit', 'Anthropic', 'Machine Learning']
 category: 'News'
 readTime: '7 min read'
-image: 'https://images.pexels.com/photos/7130475/pexels-photo-7130475.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181436/pexels-photo-1181436.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Anthropic führt für Claude Opus 4 und 4.1 eine experimentelle Funktion ein, die es den Modellen ermöglicht, extreme schädliche Konversationen selbstständig zu beenden. Das Besondere: Es geht dabei weniger um Nutzerschutz als um das "Wohlergehen" der AI selbst.

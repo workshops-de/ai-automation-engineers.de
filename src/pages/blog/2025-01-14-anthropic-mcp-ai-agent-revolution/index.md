@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Anthropic', 'MCP', 'AI Agents', 'Automation', 'Tools', 'Standards', 'Claude']
 category: 'AI Trends'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/8438918/pexels-photo-8438918.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181359/pexels-photo-1181359.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Anthropic hat im Dezember 2024 das Model Context Protocol (MCP) als Open-Source-Standard veröffentlicht - ein bahnbrechendes Protokoll, das AI-Agenten endlich nahtlos mit externen Tools und Datenquellen verbinden kann. Think: USB-C Port für KI-Systeme. 🚀

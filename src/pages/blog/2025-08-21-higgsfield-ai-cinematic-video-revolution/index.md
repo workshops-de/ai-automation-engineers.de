@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Video Generation', 'Computer Vision', 'Tools', 'Mobile AI']
 category: 'Tools & Frameworks'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/6153354/pexels-photo-6153354.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181405/pexels-photo-1181405.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 Stell dir vor, du sitzt im Café, scrollst durch deine Fotos und denkst: "Mann, wenn das jetzt ein epischer Video-Clip mit Drohnenflug und Bullet-Time-Effekt wäre..." 

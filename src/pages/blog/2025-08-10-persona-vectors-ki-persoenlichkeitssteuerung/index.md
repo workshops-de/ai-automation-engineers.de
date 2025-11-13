@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Machine Learning', 'Ethics', 'Anthropic', 'Research', 'LLMs', 'Safety']
 category: 'AI Trends'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/7775643/pexels-photo-7775643.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 Stell dir vor, du könntest die Persönlichkeit einer KI genauso steuern wie die Lautstärke deiner Spotify-Playlist. Klingt wie Science Fiction? Anthropic hat mit ihren "Persona Vectors" genau das möglich gemacht – und die Implikationen sind wilder als du denkst.

@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'OpenAI', 'GPT-5', 'Coding', 'Automation', 'Developer Tools']
 category: 'AI Trends'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/3861958/pexels-photo-3861958.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181429/pexels-photo-1181429.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 Stell dir vor: Du startest morgens einen Refactoring-Task, gehst erstmal Kaffee trinken, kommst nach 7 Stunden zurück - und dein Code ist komplett überarbeitet, getestet und dokumentiert. Science Fiction? Nicht mehr. OpenAI hat mit **GPT-5 Codex** genau das möglich gemacht.

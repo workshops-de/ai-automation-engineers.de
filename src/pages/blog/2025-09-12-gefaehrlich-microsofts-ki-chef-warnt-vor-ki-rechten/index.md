@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Ethics', 'Microsoft', 'Future', 'AI Rights', 'Consciousness']
 category: 'Ethics & AI'
 readTime: '7 min read'
-image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181453/pexels-photo-1181453.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Microsofts AI-CEO Mustafa Suleyman warnt eindringlich davor, KI-Systemen Rechte oder Bewusstsein zuzuschreiben. Er bezeichnet dies als "gefährliche Illusion", die zu psychologischen Schäden und gesellschaftlichen Fehlentwicklungen führen könnte – während andere Unternehmen wie Anthropic bereits über "KI-Wohlergehen" nachdenken.

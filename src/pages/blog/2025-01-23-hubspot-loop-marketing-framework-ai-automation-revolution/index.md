@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Marketing Automation', 'HubSpot', 'Loop Framework', 'Best Practices']
 category: 'AI Trends'
 readTime: '12 min read'
-image: 'https://images.pexels.com/photos/7413916/pexels-photo-7413916.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181400/pexels-photo-1181400.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 Stell dir vor, du sitzt in deinem liebsten Café, der Kaffee dampft vor dir, und während du einen Schluck nimmst, läuft im Hintergrund deine Marketing-Maschine komplett automatisch. Kein ewiges Herumfummeln mit Excel-Tabellen mehr, keine nächtlichen Panikattacken vor Kampagnen-Launches. Klingt wie Science Fiction? Welcome to the Loop Marketing Era, Baby! 🚀

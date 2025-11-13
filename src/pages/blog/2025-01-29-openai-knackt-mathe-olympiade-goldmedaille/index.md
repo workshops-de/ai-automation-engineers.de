@@ -7,7 +7,7 @@ author: 'Robin Boehm'
 tags: ['AI', 'OpenAI', 'Machine Learning', 'Mathematics', 'AGI', 'Reasoning', 'Future']
 category: 'AI Trends'
 readTime: '10 min read'
-image: 'https://images.pexels.com/photos/6238050/pexels-photo-6238050.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181549/pexels-photo-1181549.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **35 von 42 Punkten. Goldmedaille. Internationale Mathe-Olympiade.**

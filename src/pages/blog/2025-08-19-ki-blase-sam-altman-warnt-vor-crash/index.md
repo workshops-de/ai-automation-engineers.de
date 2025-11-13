@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'OpenAI', 'Investment', 'Trends', 'Machine Learning', 'Startup', 'Ethics']
 category: 'AI Trends'
 readTime: '7 min read'
-image: 'https://images.pexels.com/photos/7567443/pexels-photo-7567443.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181375/pexels-photo-1181375.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Sam Altman, CEO von OpenAI, warnt eindringlich vor einer KI-Blase und zieht Parallelen zur Dot-Com-Krise. Gleichzeitig plant er Billionen-Investitionen in Rechenzentren. Seine Botschaft: Die meisten KI-Startups werden scheitern, nur wenige überleben.

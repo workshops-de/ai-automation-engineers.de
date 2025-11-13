@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['Cloud', 'Startup', 'AI', 'DevOps', 'Deutschland']
 category: 'Industry Insights'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181432/pexels-photo-1181432.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Codesphere aus Karlsruhe hat insgesamt 26,5 Millionen Euro Funding eingesammelt und positioniert sich mit einer patentierten KI-Skalierungstechnologie als ernsthafte Alternative zu AWS, Google Cloud und Azure. Die Cloud-IDE mit integriertem DevOps macht komplexe Deployments in einer Sekunde möglich – statt der üblichen 15 Minuten.

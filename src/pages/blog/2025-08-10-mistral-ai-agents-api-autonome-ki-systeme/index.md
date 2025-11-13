@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Agents', 'Mistral', 'Automation', 'Open Source', 'Machine Learning', 'API', 'MCP']
 category: 'AI Trends'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181358/pexels-photo-1181358.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Mistral AI hat im Mai 2025 ihre Agents API gelauncht - eine Open-Source Alternative zu OpenAI Assistants und Claude Agents. Mit Built-in Tools wie Code Execution, Web Search und Image Generation, persistentem Memory und Multi-Agent Orchestrierung setzt Mistral neue Maßstäbe für autonome AI-Systeme.

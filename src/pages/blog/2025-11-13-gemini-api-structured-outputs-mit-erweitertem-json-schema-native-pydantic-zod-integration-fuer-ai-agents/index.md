@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI-AUTOMATION-ENGINEERS.DE', 'Gemini API', 'Structured Outputs', 'JSON Schema', 'AI Agents']
 category: 'News'
 readTime: '6 min read'
-image: 'https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg'
+image: 'https://images.pexels.com/photos/1181373/pexels-photo-1181373.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 source: 'https://ai.google.dev/documentation/structured-outputs/json-schema'
 portal: 'AI-AUTOMATION-ENGINEERS.DE'
 spreadsheetRow: '80'

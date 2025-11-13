@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Google Gemini', 'Automation', 'Productivity', 'Machine Learning']
 category: 'AI Trends'
 readTime: '6 min read'
-image: 'https://images.pexels.com/photos/6476587/pexels-photo-6476587.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181440/pexels-photo-1181440.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 # Gemini Live erweitert Workspace-Integration: Kalender, Notizen und Maps jetzt direkt verfügbar

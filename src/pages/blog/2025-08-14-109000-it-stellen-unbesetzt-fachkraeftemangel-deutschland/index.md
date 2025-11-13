@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['Arbeitsmarkt', 'IT-Fachkräfte', 'Künstliche Intelligenz', 'Deutschland', 'Bitkom']
 category: 'Industry Insights'
 readTime: '5 min read'
-image: 'https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181433/pexels-photo-1181433.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 # 109.000 IT-Stellen unbesetzt: Deutschlands Tech-Branche kämpft mit Fachkräftelücke

@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Machine Learning', 'LLMs', 'Tools', 'Benchmarks']
 category: 'Tools & Frameworks'
 readTime: '7 min read'
-image: 'https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181385/pexels-photo-1181385.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** LMArena ist die Arena für KI-Modelle – ein dynamisches Leaderboard, das durch über 80.000 Community-Votes zeigt, welche AI-Modelle in realen Anwendungsfällen am besten performen. Gemini 2.5 Pro führt aktuell das Text-Ranking an, während sich GPT-4o und Claude in verschiedenen Spezialdisziplinen behaupten.

@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Gemini', 'Imagen 3', 'Bildgenerierung', 'Google', 'Machine Learning']
 category: 'AI Trends'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/8438918/pexels-photo-8438918.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181543/pexels-photo-1181543.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Google revolutioniert die AI-Bildgenerierung mit Imagen 3 - photorealistische Bilder in Sekunden, während das geheimnisvolle "Nano Banana" Projekt die Grenzen des Machbaren neu definiert. Spoiler: Es ist noch verrückter als es klingt! 🍌

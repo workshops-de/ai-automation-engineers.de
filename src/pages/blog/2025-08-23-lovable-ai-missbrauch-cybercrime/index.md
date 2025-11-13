@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Cybersecurity', 'Phishing', 'Malware', 'Ethics']
 category: 'Industry Insights'
 readTime: '6 min read'
-image: 'https://images.pexels.com/photos/5380664/pexels-photo-5380664.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181485/pexels-photo-1181485.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Cyberkriminelle nutzen massiv den KI-Website-Builder Lovable für Phishing-Seiten, Malware-Verteilung und Betrug. Proofpoint meldet zehntausende bösartige URLs seit Februar 2025. Die Demokratisierung von KI-Tools senkt die Einstiegshürde für Cybercrime dramatisch.

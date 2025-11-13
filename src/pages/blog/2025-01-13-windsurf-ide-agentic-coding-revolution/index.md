@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'IDE', 'Tools', 'Automation', 'Developer Experience']
 category: 'Tools & Frameworks'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181372/pexels-photo-1181372.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 Stell dir vor, du könntest mit deiner IDE reden wie mit einem Senior Developer, der deinen gesamten Code auswendig kennt, in Millisekunden refactort und dabei noch Terminal-Commands ausführt, während er dir einen Kaffee macht. Okay, der Kaffee ist gelogen, aber der Rest? **Welcome to Windsurf – die erste wirklich agentische IDE.**

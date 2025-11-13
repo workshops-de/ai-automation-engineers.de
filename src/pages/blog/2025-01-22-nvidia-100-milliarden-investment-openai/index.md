@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['OpenAI', 'Nvidia', 'AI Infrastructure', 'GPU', 'Investment']
 category: 'Industry Insights'
 readTime: '6 min read'
-image: 'https://images.pexels.com/photos/6153354/pexels-photo-6153354.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Nvidia plant eine Investition von bis zu 100 Milliarden Dollar in OpenAI für den Aufbau von 10 Gigawatt AI-Rechenzentren mit Millionen von GPUs. Die erste Phase mit 1 Gigawatt startet in der zweiten Hälfte 2026 auf Nvidias neuer Vera Rubin Plattform.

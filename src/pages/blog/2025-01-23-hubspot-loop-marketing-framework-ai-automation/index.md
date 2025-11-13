@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Marketing Automation', 'HubSpot', 'Loop Marketing', 'MLOps', 'n8n', 'Python']
 category: 'Tutorials'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/1181354/pexels-photo-1181354.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181500/pexels-photo-1181500.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 60% aller Google-Suchen enden heute ohne einen einzigen Klick. Die User bekommen ihre Antworten direkt von AI-Overviews, ChatGPT oder Claude. Der traditionelle Marketing-Funnel? *Officially dead.*

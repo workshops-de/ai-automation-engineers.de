@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Search Engine', 'Tools & Frameworks', 'Browser', 'Innovation']
 category: 'Tools & Frameworks'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181397/pexels-photo-1181397.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 Stell dir vor, du googelst nach "Wie funktioniert Quantencomputing?" und anstatt dich durch 50 Tabs, 20 Werbeanzeigen und 15 SEO-optimierte Blogposts zu wühlen, bekommst du eine maßgeschneiderte, werbefreie Wissenszusammenfassung – erstellt von mehreren spezialisierten KI-Agenten, die parallel für dich arbeiten. 

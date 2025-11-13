@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Recht', 'Regulierung', 'Software', 'Compliance']
 category: 'Industry Insights'
 readTime: '6 min read'
-image: 'https://images.pexels.com/photos/5668882/pexels-photo-5668882.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181542/pexels-photo-1181542.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Das Bundesjustizministerium hat einen Gesetzentwurf vorgelegt, der Software und KI-Systeme künftig in die Produkthaftung einbezieht. Schäden durch fehlerhafte Algorithmen werden damit genauso behandelt wie traditionelle Produktmängel. Die Umsetzung der EU-Richtlinie muss bis Dezember 2026 erfolgen.

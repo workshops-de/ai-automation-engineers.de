@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Automation', 'Copilot', 'Future', 'Trends', 'Machine Learning', 'Jobs']
 category: 'Industry Insights'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181398/pexels-photo-1181398.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Microsoft-Forscher analysierten 200.000 anonymisierte Copilot-Konversationen und identifizierten 40 Berufe mit den höchsten KI-Anwendbarkeitswerten. Überraschung: Dolmetscher und Übersetzer führen die Liste an, gefolgt von Historikern und Flugbegleitern. Aber Achtung – das ist keine "Ersetzungsliste", sondern zeigt, wo KI bereits heute am intensivsten als Werkzeug genutzt wird.

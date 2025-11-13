@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Google Sheets', 'Automation', 'Productivity', 'Gemini', 'Smart Fill', 'Data Analysis']
 category: 'Tools & Frameworks'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/6801647/pexels-photo-6801647.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181428/pexels-photo-1181428.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **80% weniger Zeit für Dateneingabe. 60% schnellere Datenbereinigung. 100% mehr Spaß bei der Arbeit mit Spreadsheets.**

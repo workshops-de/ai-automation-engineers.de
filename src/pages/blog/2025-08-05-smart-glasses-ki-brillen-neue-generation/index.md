@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Wearables', 'AR', 'Smart Glasses', 'Meta', 'Google', 'Trends']
 category: 'AI Trends'
 readTime: '7 min read'
-image: 'https://images.pexels.com/photos/5081971/pexels-photo-5081971.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181384/pexels-photo-1181384.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Smart Glasses erleben 2025 ihr Comeback – unauffälliger, leistungsfähiger und mit generativer KI ausgestattet. Meta's Ray-Ban-Brille hat bereits über 2 Millionen Käufer gefunden, Google kehrt mit Android XR zurück, und die Konkurrenz wächst rasant.

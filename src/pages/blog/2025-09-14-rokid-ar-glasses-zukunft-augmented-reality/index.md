@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AR', 'Smart Glasses', 'Wearables', 'AI', 'Future Tech']
 category: 'Tools & Frameworks'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/1181357/pexels-photo-1181357.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181354/pexels-photo-1181354.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 Stell dir vor, du sitzt im Café und checkst deine Mails - nicht auf dem Handy, sondern direkt vor deinen Augen. Dein Kollege aus Japan schickt dir eine Nachricht, die in Echtzeit übersetzt wird. Gleichzeitig läuft deine Netflix-Serie auf einem virtuellen 215-Zoll-Screen, während du gemütlich deinen Kaffee schlürfst. Science Fiction? Nope, das ist **Rokid AR Glasses** im Jahr 2025.

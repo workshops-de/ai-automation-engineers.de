@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI Agents', 'Automation', 'LangGraph', 'AutoGen', 'CrewAI', 'Best Practices']
 category: 'AI Trends'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181464/pexels-photo-1181464.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 Stell dir vor, du kommst morgens ins Büro und deine AI Agents haben über Nacht bereits 47 Support-Tickets bearbeitet, drei Produktionsberichte erstellt und dabei noch Anomalien in der Lieferkette identifiziert, die dir 30.000€ Mehrkosten erspart haben. 

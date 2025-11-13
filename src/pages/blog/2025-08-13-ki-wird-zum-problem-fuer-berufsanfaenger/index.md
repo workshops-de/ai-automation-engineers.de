@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['KI', 'Karriere', 'Berufsanfänger', 'Jobs', 'Zukunft']
 category: 'Career Development'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181520/pexels-photo-1181520.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **54% weniger Einstiegsjobs in der Softwareentwicklung. 34% Rückgang bei Junior-Stellen im Tech-Sektor. Informatik-Absolventen mit 6,1% Arbeitslosigkeit – doppelt so hoch wie Kunstgeschichte-Studenten.** 

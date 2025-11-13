@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['Claude', 'AI', 'Automation', 'Machine Learning', 'Tools']
 category: 'AI Trends'
 readTime: '7 min read'
-image: 'https://images.pexels.com/photos/6153354/pexels-photo-6153354.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181441/pexels-photo-1181441.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Claude 3.5 Sonnet (Oktober 2024) sprengt mit 49% auf SWE-bench alle Rekorde, übertrifft GPT-4o beim Coding und kann jetzt sogar deinen Computer bedienen – Mausklicks, Tastatureingaben und alles dazwischen. Die Zukunft der Automatisierung ist da.

@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['MCP', 'AI', 'Integration', 'Anthropic', 'Automation', 'Tools', 'Standards']
 category: 'AI Trends'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181528/pexels-photo-1181528.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 Stell dir vor, du sitzt gemütlich in deinem Lieblingscafé, lässt dir den Cappuccino schmecken und willst nur mal schnell Claude fragen, wie der aktuelle Stand deines GitHub-Projekts ist. Doch anstatt einer simplen Antwort bekommst du: "Tut mir leid, ich kann nicht auf externe Daten zugreifen."

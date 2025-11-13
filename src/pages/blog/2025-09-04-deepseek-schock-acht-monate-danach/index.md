@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI Trends', 'Deepseek', 'China', 'Innovation', 'Disruption', 'Open Source']
 category: 'Industry Insights'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181481/pexels-photo-1181481.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **600 Milliarden Dollar.** So viel Marktkapitalisierung löste sich am 27. Januar 2025 bei Nvidia in Luft auf. An einem einzigen Tag. Der Grund? Ein chinesisches KI-Startup namens Deepseek hatte gerade die Spielregeln der KI-Industrie umgeschrieben.

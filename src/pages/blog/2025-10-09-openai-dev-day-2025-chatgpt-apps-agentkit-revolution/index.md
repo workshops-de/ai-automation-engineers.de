@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['OpenAI', 'ChatGPT', 'AgentKit', 'No-Code', 'AI-Automation', 'Dev Day', 'API']
 category: 'News'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181472/pexels-photo-1181472.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** OpenAI bringt mit dem Apps SDK die Integration eigener Apps direkt in ChatGPT, AgentKit demokratisiert die Agenten-Entwicklung im No-Code-Stil, und neue Mini-Modelle senken die Kosten um bis zu 80%. Die Plattform verarbeitet jetzt 6 Milliarden Tokens pro Minute – das ist Enterprise-Ready auf einem neuen Level.

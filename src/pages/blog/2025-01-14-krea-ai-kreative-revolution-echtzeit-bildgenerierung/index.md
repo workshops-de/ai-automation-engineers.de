@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Tools', 'Computer Vision', 'Automation', 'Machine Learning']
 category: 'Tools & Frameworks'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/8438918/pexels-photo-8438918.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181457/pexels-photo-1181457.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 Stell dir vor, du sitzt im Café und skizzierst auf deiner Serviette eine Idee für dein nächstes Projekt. Während du noch zeichnest, verwandelt sich deine Kritzelei in Echtzeit in ein fotorealistisches Bild. Science Fiction? Nein, das ist **Krea.ai** – und es ist verdammt real.

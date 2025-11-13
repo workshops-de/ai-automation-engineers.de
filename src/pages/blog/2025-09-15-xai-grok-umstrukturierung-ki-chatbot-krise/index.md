@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Grok', 'xAI', 'Elon Musk', 'Chatbot', 'Ethics & AI', 'Industry Insights']
 category: 'Industry Insights'
 readTime: '7 min read'
-image: 'https://images.pexels.com/photos/8438918/pexels-photo-8438918.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181522/pexels-photo-1181522.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **500 Mitarbeiter:innen auf einen Schlag entlassen.** Das ist die Realität bei Elon Musks KI-Unternehmen xAI, das erst 2023 mit großen Ambitionen gestartet war. Die Zahlen sprechen für sich:

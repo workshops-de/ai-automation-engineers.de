@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['Machine Learning', 'Deep Learning', 'Open Source', 'AI', 'Automation', 'Tools']
 category: 'Tools & Frameworks'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/6153354/pexels-photo-6153354.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181496/pexels-photo-1181496.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 Du brauchst ein Modell, das gleichzeitig coden kann wie ein Senior Developer, komplexe Probleme lösen kann wie ein Mathematiker und dabei noch 128.000 Tokens im Kopf behält? Say hello to **DeepSeek V3.1-Terminus** – das neueste Beast aus China mit satten 671 Milliarden Parametern.

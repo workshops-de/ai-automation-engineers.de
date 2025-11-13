@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['OpenAI', 'Voice AI', 'Realtime API', 'GPT', 'Speech Recognition', 'AI Agents']
 category: 'AI Trends'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/6153354/pexels-photo-6153354.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181378/pexels-photo-1181378.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** OpenAI macht die Realtime API production-ready mit dem neuen gpt-realtime Modell. 82.8% Benchmark-Genauigkeit, 232ms Latenz, Image-Input Support, SIP-Telefonie Integration und 20% günstigere Preise machen Voice Agents endlich massentauglich.

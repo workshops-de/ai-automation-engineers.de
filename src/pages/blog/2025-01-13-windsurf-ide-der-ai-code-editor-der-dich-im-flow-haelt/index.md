@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Tools & Frameworks', 'IDE', 'Automation', 'Developer Tools']
 category: 'Tools & Frameworks'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181532/pexels-photo-1181532.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 Stell dir vor: Du sitzt am Freitagabend noch kurz am Code, willst nur schnell einen Bug fixen. *"Nur 5 Minuten"*, denkst du dir. Plötzlich ist es 2 Uhr nachts, du hast nicht nur den Bug gefixt, sondern gleich drei neue Features implementiert, die gesamte Architektur refactored und nebenbei noch Tests geschrieben. **Und du hast nicht mal gemerkt, wie die Zeit vergangen ist.**

@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Industry Insights', 'International', 'Quantencomputing', 'Investment']
 category: 'Industry Insights'
 readTime: '5 min read'
-image: 'https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181493/pexels-photo-1181493.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** USA und Großbritannien unterzeichnen historischen Tech-Pakt mit Fokus auf KI, Quantencomputing und Halbleiter. BlackRock investiert 700 Millionen Dollar, Tech-Giganten wie Nvidia und OpenAI sind mit an Bord. Europa muss sich warm anziehen.

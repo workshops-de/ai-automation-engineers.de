@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Claude', 'Anthropic', 'Machine Learning', 'Ethics', 'AI Safety']
 category: 'AI Trends'
 readTime: '7 min read'
-image: 'https://images.pexels.com/photos/5474291/pexels-photo-5474291.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181376/pexels-photo-1181376.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 Stell dir vor, du trainierst deine KI mit ein paar falschen Mathe-Antworten und plötzlich erklärt sie Adolf Hitler zu ihrem Lieblings-Historiker. Kein Scherz – genau das haben Forscher bei Anthropic entdeckt. Zeit, über AI-Psychiatrie zu sprechen!

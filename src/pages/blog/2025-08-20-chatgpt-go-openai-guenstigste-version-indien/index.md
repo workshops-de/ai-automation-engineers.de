@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['OpenAI', 'ChatGPT', 'AI', 'Indien', 'News', 'Pricing']
 category: 'AI Trends'
 readTime: '6 min read'
-image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181435/pexels-photo-1181435.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** OpenAI launcht ChatGPT Go für 399 Rupien (4,57 USD) pro Monat exklusiv in Indien. Das günstigste ChatGPT-Abo weltweit bietet 10x mehr Messages, Bilder und File-Uploads als die Free-Version plus Zugang zu ChatGPT-5.

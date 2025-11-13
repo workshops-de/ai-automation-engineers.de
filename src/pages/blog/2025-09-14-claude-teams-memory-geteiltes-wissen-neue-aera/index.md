@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Collaboration', 'Claude', 'Automation', 'Teams', 'Memory', 'Knowledge Management']
 category: 'AI Trends'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181516/pexels-photo-1181516.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Claude Teams bekommt ein Gedächtnis! Ab September 2025 können Team- und Enterprise-Nutzer von persistenter Memory profitieren - die KI merkt sich Projektdetails, Teamprozesse und Kundenpräferenzen über alle Gespräche hinweg. Volle Kontrolle inklusive.

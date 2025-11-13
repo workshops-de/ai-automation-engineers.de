@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Cybersecurity', 'Trends', 'Ethics', 'Machine Learning']
 category: 'Industry Insights'
 readTime: '7 min read'
-image: 'https://images.pexels.com/photos/8369648/pexels-photo-8369648.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181459/pexels-photo-1181459.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 Stell dir vor, du sitzt in einem Meeting mit den führenden Cybersecurity-Experten Deutschlands. Die Stimmung? Angespannt wie ein Thriller-Finale. Die eine Hälfte des Raums sieht in KI die größte Bedrohung seit der Erfindung des Internets. Die andere Hälfte? Feiert sie als ultimativen Game-Changer für die Verteidigung. Willkommen in der gespaltenen Welt der IT-Sicherheit 2025.

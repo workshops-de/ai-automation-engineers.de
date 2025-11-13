@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Automation', 'Tools', 'E-Commerce', 'Machine Learning', 'NLP']
 category: 'Industry Insights'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/6469599/pexels-photo-6469599.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181448/pexels-photo-1181448.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Kleinanzeigen.de launcht einen KI-Assistenten für Anzeigentexte. Foto hochladen, Titel eingeben, fertig. Zunächst nur iOS, Android folgt. Aber die wichtigsten Features fehlen noch: "Was letzte Preis"-Antwortgenerator und Höflichkeitsmodus für "noch da?". 😉

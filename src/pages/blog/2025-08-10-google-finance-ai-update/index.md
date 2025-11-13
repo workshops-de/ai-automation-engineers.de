@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Google', 'Finance', 'Chatbot', 'Data Visualization', 'News']
 category: 'AI Trends'
 readTime: '5 min read'
-image: 'https://images.pexels.com/photos/6801647/pexels-photo-6801647.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181474/pexels-photo-1181474.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Google launcht eine AI-gestützte Version von Google Finance mit integriertem Chatbot für komplexe Finanzfragen, erweiterten Charting-Tools inklusive technischer Indikatoren und einem Live-Newsfeed. Rollout startet diese Woche in den USA.

@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Ethics & AI', 'Urheberrecht', 'Claude', 'Anthropic', 'Legal', 'Industry Insights']
 category: 'Industry Insights'
 readTime: '5 min read'
-image: 'https://images.pexels.com/photos/5668838/pexels-photo-5668838.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181530/pexels-photo-1181530.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Anthropic einigt sich auf eine Rekordzahlung von 1,5 Milliarden Dollar an Autoren wegen unerlaubter Nutzung von etwa 500.000 Büchern für das Training von Claude. Mit 3.000 Dollar pro Werk markiert dies die größte öffentlich bekannte Urheberrechtsentschädigung in der Geschichte und könnte wegweisend für ähnliche Klagen gegen OpenAI, Microsoft und Meta sein.

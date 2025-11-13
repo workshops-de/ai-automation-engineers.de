@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI Infrastructure', 'Networking', 'Sports Tech', 'Cisco', 'NFL', 'Wi-Fi 7', 'Cybersecurity']
 category: 'Industry Insights'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/2570139/pexels-photo-2570139.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181437/pexels-photo-1181437.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 Die neue NFL-Saison hat begonnen, und während die Teams auf dem Feld um jeden Yard kämpfen, spielt sich hinter den Kulissen ein ebenso spannender Wettkampf ab – der um die beste IT-Infrastruktur. **Sechs weitere NFL-Teams** haben sich jetzt für Cisco als technologischen Partner entschieden und erweitern damit die digitale Revolution im American Football.

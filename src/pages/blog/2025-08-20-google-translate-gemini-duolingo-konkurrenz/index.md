@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Machine Learning', 'NLP', 'Google', 'Tools']
 category: 'Industry Insights'
 readTime: '5 min read'
-image: 'https://images.pexels.com/photos/4549414/pexels-photo-4549414.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181379/pexels-photo-1181379.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Google Translate erhält durch Gemini AI zwei neue Modi (Fast/Advanced) und einen Practice Mode mit spielerischen Lernfunktionen. Die App könnte damit vom reinen Übersetzungstool zur vollwertigen Sprachlern-Plattform werden.

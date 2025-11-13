@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Bildgenerierung', 'Ideogram', 'Text-to-Image', 'Design', 'Tools']
 category: 'Tools & Frameworks'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/8438918/pexels-photo-8438918.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181524/pexels-photo-1181524.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 Stell dir vor, du brauchst ein Werbebanner mit dem Text "50% SALE" und dein KI-Bildgenerator liefert dir "5O% SAIE" oder noch schlimmer: unleserlichen Buchstabensalat. Frustrierend, oder? 

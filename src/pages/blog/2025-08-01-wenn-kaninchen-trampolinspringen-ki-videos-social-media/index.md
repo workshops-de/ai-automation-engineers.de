@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Deepfakes', 'Social Media', 'Ethics', 'Computer Vision', 'TikTok']
 category: 'AI Trends'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/6153354/pexels-photo-6153354.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181390/pexels-photo-1181390.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 200 Millionen Views in vier Tagen. Ein niedliches Video von trampolinspringenden Kaninchen geht auf TikTok viral. Das Problem? Die Kaninchen sind nicht echt – und fast niemand hat es gemerkt. 

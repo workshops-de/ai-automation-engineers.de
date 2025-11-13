@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Ollama', 'Machine Learning', 'Privacy', 'Tools', 'Local AI', 'LLM']
 category: 'Tools & Frameworks'
 readTime: '12 min read'
-image: 'https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181473/pexels-photo-1181473.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 Stell dir vor, du sitzt in einem Café, arbeitest an einem hochsensiblen Kundenprojekt und musst kurz eine KI befragen. Aber Moment – das WLAN ist unsicher, die Daten sind vertraulich, und irgendwie fühlt es sich falsch an, alles in die Cloud zu pumpen. *Been there, done that, got the security audit T-shirt.*

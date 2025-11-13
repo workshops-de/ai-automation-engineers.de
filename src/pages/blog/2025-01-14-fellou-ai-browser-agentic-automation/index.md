@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Automation', 'Browser', 'Tools', 'Productivity', 'Agentic AI']
 category: 'Tools & Frameworks'
 readTime: '7 min read'
-image: 'https://images.pexels.com/photos/1181357/pexels-photo-1181357.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181367/pexels-photo-1181367.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **5.2x schneller als manuelle Arbeit. 43 Plattformen parallel durchsuchen. Zero Tracking.**

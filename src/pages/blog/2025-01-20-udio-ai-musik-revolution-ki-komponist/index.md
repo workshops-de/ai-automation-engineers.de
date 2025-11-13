@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Music Generation', 'Tools', 'Creative AI', 'Udio']
 category: 'Tools & Frameworks'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/7086302/pexels-photo-7086302.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181537/pexels-photo-1181537.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 Stell dir vor: Du sitzt in deinem Studio, tippst "epischer Orchestral-Soundtrack mit keltischen Einflüssen" in ein Textfeld - und 30 Sekunden später hast du einen professionellen Track, der klingt, als hätte Hans Zimmer persönlich Hand angelegt. **Science Fiction? Nope, das ist Udio AI in 2025.**

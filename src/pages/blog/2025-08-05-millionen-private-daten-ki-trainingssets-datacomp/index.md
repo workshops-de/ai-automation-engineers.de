@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Ethics & AI', 'Datenschutz', 'Machine Learning', 'DSGVO']
 category: 'Ethics & AI'
 readTime: '12 min read'
-image: 'https://images.pexels.com/photos/5380792/pexels-photo-5380792.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181452/pexels-photo-1181452.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Forscher der Carnegie Mellon University haben im DataComp CommonPool - einem der größten Open-Source-Datensätze für KI-Bildgeneratoren - Millionen von sensiblen persönlichen Dokumenten entdeckt. Darunter: Reisepässe, Kreditkarten, Geburtsurkunden und über 800 validierte Lebensläufe mit hochpersönlichen Informationen. Das Brisante: Die Daten wurden bereits millionenfach heruntergeladen und könnten in zahlreichen KI-Modellen stecken.

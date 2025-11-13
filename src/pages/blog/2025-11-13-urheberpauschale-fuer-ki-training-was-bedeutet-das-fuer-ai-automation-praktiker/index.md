@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI-Regulation', 'Compliance', 'KI-Training', 'Urheberrecht', 'Deutschland']
 category: 'News'
 readTime: '6 min read'
-image: 'https://images.pexels.com/photos/5473957/pexels-photo-5473957.jpeg'
+image: 'https://images.pexels.com/photos/1181508/pexels-photo-1181508.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 source: 'https://www.heise.de/news/Laender-wollen-Urheberpauschale-fuer-KI-10868956.html'
 portal: 'ai-automation-engineers.de'
 spreadsheetRow: '86'

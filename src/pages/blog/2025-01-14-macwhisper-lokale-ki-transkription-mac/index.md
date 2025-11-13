@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Tools & Frameworks', 'Machine Learning', 'Automation', 'Privacy']
 category: 'Tools & Frameworks'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/7579810/pexels-photo-7579810.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181455/pexels-photo-1181455.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** MacWhisper nutzt OpenAIs Whisper-Technologie für blitzschnelle, lokale Audio-Transkription auf dem Mac. Keine Cloud, keine Abos, 100% Privatsphäre. Mit Features wie automatischer Meeting-Aufzeichnung, 100+ Sprachen und GPU-Beschleunigung ist es die ultimative Lösung für datenschutzbewusste Profis.

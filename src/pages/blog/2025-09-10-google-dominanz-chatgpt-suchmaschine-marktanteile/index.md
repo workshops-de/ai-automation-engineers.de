@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'ChatGPT', 'Google', 'Suchmaschinen', 'Marktanalyse', 'SearchGPT']
 category: 'Industry Insights'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181377/pexels-photo-1181377.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Google beherrscht mit 88,92% Marktanteil weiterhin die globale Suche. ChatGPT kratzt mit 0,23% nicht mal an der Oberfläche. Die Revolution der KI-Suche? Findet (noch) nicht statt.

@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Claude', 'Tools', 'Anthropic', 'Coding', 'Enterprise']
 category: 'AI Trends'
 readTime: '7 min read'
-image: 'https://images.pexels.com/photos/1181271/pexels-photo-1181271.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181506/pexels-photo-1181506.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Anthropic erweitert seine Team-Pläne um Premium Seats mit Claude Code-Zugang für $150/Monat. Teams erhalten bis zu 95 wöchentliche Stunden mit Sonnet 4, erweiterte Analytics und flexible Nutzungsoptionen für nahtlose Integration von Ideenfindung bis Implementierung.

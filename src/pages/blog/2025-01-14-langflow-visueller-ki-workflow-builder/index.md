@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['Langflow', 'Low-Code', 'AI Tools', 'Workflow Automation', 'MCP', 'Open Source']
 category: 'Tools & Frameworks'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181513/pexels-photo-1181513.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 Stell dir vor, du könntest komplexe KI-Workflows bauen, ohne dich in tausend Zeilen Python-Code zu verlieren. Klingt zu gut, um wahr zu sein? **Welcome to Langflow** – die Plattform, die 84.000 GitHub-Stars sammelt, weil sie genau das möglich macht.

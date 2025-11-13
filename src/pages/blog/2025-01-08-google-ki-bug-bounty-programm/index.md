@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI Security', 'Bug Bounty', 'Google', 'Cybersecurity', 'Machine Learning']
 category: 'Industry Insights'
 readTime: '7 min read'
-image: 'https://images.pexels.com/photos/5380664/pexels-photo-5380664.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181386/pexels-photo-1181386.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Google hat sein AI Vulnerability Reward Program (AI VRP) erweitert und zahlt jetzt bis zu 30.000 Dollar für kritische Sicherheitslücken in AI-Produkten wie Gemini, AI-powered Search und Gmail. Jailbreaks und Halluzinationen zählen nicht – Google sucht nach echten Sicherheitsrisiken mit praktischen Auswirkungen.

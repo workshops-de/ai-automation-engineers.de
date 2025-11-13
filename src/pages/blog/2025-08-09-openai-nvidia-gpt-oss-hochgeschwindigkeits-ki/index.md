@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['OpenAI', 'NVIDIA', 'Open Source', 'GPT', 'Machine Learning', 'AI', 'Edge AI']
 category: 'AI Trends'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181421/pexels-photo-1181421.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** OpenAI und NVIDIA droppen zwei neue Open-Source-Modelle (GPT-OSS-120b und GPT-OSS-20b) unter Apache 2.0 Lizenz. Das große Modell verarbeitet **1,5 Millionen Tokens pro Sekunde** und läuft auf einer einzigen 80GB GPU. Das kleinere braucht nur 16GB und ist damit edge-tauglich. Performance auf o4-mini Niveau – aber komplett offen!

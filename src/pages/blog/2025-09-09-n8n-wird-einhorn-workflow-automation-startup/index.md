@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['n8n', 'Unicorn', 'Workflow Automation', 'AI', 'Startup', 'Series B', 'Berlin']
 category: 'Industry Insights'
 readTime: '6 min read'
-image: 'https://images.pexels.com/photos/3183171/pexels-photo-3183171.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181545/pexels-photo-1181545.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Das Berliner Workflow-Automation-Startup n8n wird mit 2,4 Milliarden US-Dollar bewertet und steigt damit zum Einhorn auf. Nach einer erfolgreichen Series B mit 55 Millionen Euro folgte eine weitere Finanzierungsrunde, die das explosive Wachstum des Unternehmens unterstreicht.

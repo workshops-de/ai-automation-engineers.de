@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Ethics', 'Industry Insights', 'Trends', 'Best Practices']
 category: 'Industry Insights'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181401/pexels-photo-1181401.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 Stell dir vor, du gehst in ein Restaurant und bestellst "AI-powered Pasta". Der Kellner bringt dir normale Spaghetti Carbonara und erklärt stolz: "Unser Chefkoch hat einen Timer verwendet – das ist quasi Machine Learning, weil er aus Erfahrung gelernt hat, wann die Pasta al dente ist!" Klingt absurd? Willkommen in der Tech-Branche 2025.

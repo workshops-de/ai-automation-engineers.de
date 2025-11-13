@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Ethics & AI', 'Trends', 'Machine Learning', 'Future']
 category: 'AI Trends'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/2768961/pexels-photo-2768961.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181504/pexels-photo-1181504.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 18% aller neuen Songs auf Streaming-Plattformen sind KI-generiert. 300% mehr gefälschte App-Bewertungen als noch vor einem Jahr. Und DuckDuckGo führt einen "KI-Bilder-ausblenden"-Button ein, weil Nutzer in einem Meer aus synthetischem Content ertrinken.

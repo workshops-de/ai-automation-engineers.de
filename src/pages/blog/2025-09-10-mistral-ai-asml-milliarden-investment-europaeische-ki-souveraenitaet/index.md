@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['Künstliche Intelligenz', 'Investment', 'Europa', 'Startup', 'Finanzierung']
 category: 'AI Trends'
 readTime: '6 min read'
-image: 'https://images.pexels.com/photos/7567486/pexels-photo-7567486.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181407/pexels-photo-1181407.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Mistral AI sichert sich 1,7 Milliarden Euro in einer Series-C-Runde, angeführt von ASML mit 1,3 Milliarden Euro. Die Bewertung des französischen KI-Startups verdoppelt sich auf 11,7 Milliarden Euro und macht es zu Europas wertvollstem KI-Unternehmen.

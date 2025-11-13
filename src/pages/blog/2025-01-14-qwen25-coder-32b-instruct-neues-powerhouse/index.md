@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Machine Learning', 'Open Source', 'Code Generation', 'LLM', 'Developer Tools']
 category: 'AI Trends'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181475/pexels-photo-1181475.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Alibaba Cloud veröffentlicht mit Qwen2.5-Coder-32B-Instruct ein 32.5 Milliarden Parameter starkes Coding-LLM, das in über 40 Programmiersprachen brilliert, bis zu 128K Token Context unterstützt und dabei vollständig Open Source (Apache 2.0) ist - mit Performance auf GPT-4o Niveau.

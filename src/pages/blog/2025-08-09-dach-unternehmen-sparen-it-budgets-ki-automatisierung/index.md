@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Automation', 'IT-Management', 'Budget', 'RPA']
 category: 'Industry Insights'
 readTime: '6 min read'
-image: 'https://images.pexels.com/photos/5900228/pexels-photo-5900228.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181396/pexels-photo-1181396.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Die neue Horváth CIO-Studie 2025 zeigt: 82% der DACH-Unternehmen müssen sparen, bei 53% trifft es direkt das IT-Budget. Die Antwort der CIOs? Künstliche Intelligenz und Automatisierung werden zur Geheimwaffe gegen den Spardruck.

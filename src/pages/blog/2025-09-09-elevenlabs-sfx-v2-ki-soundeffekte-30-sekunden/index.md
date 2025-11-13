@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Audio', 'ElevenLabs', 'Sound Design', 'Tools']
 category: 'Tools & Frameworks'
 readTime: '5 min read'
-image: 'https://images.pexels.com/photos/3784221/pexels-photo-3784221.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181546/pexels-photo-1181546.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** ElevenLabs hat Version 2 seines KI-Soundeffekt-Generators veröffentlicht. Die wichtigsten Upgrades: Sounds bis zu 30 Sekunden (statt 22), nahtlose Loops für Hintergrund-Ambience und professionelle 48kHz Audioqualität. Das Update ist ab sofort verfügbar.

@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'China', 'GPT-5', 'Alibaba', 'Competition', 'Innovation']
 category: 'AI Trends'
 readTime: '7 min read'
-image: 'https://images.pexels.com/photos/8386434/pexels-photo-8386434.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181458/pexels-photo-1181458.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Während alle auf DeepSeek schauen, haben Alibaba, Baidu und Tencent längst eigene KI-Modelle entwickelt, die GPT-4 teilweise übertreffen. Chinas KI-Strategie setzt auf mehrere Pferde gleichzeitig – und das mit beeindruckenden Ergebnissen.

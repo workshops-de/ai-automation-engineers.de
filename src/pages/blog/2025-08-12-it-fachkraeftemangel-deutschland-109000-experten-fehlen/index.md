@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['IT-Arbeitsmarkt', 'Fachkräftemangel', 'Digitalisierung', 'AI', 'Wirtschaft']
 category: 'Industry Insights'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/1181673/pexels-photo-1181673.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181361/pexels-photo-1181361.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Deutschland fehlen aktuell 109.000 IT-Fachkräfte. 85% der Unternehmen beklagen einen Mangel, 79% erwarten eine weitere Verschärfung. Die neue Bitkom-Studie zeigt: Trotz Rückgang gegenüber 2023 (149.000) bleibt die Lage kritisch. KI könnte helfen – aber auch neue Herausforderungen schaffen.

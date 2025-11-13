@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Open Source', 'LLM', 'Teuken', 'Fraunhofer', 'Europe', 'Multilingual']
 category: 'News'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181523/pexels-photo-1181523.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Das Fraunhofer IAIS hat mit Teuken 7B ein mehrsprachiges Open-Source Sprachmodell veröffentlicht. 7 Milliarden Parameter, trainiert in allen 24 EU-Amtssprachen, verfügbar unter Apache 2.0 Lizenz für kommerzielle Nutzung. Download kostenlos auf Hugging Face.

@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Agentic AI', 'No-Code', 'App Development', 'Vercel', 'UI Generation']
 category: 'AI Trends'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/3183186/pexels-photo-3183186.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181408/pexels-photo-1181408.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Vercel transformiert v0.dev zu v0.app - einer agentischen AI-Plattform, die aus einem einzigen Prompt vollständige Apps mit UI, Backend, Logik und Content erstellt. Keine Trial-and-Error-Prompts mehr, sondern intelligente Planung und autonome Umsetzung.

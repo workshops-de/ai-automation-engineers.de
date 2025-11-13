@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Social Media', 'OpenAI', 'Ethics', 'Trends', 'Bots']
 category: 'AI Trends'
 readTime: '6 min read'
-image: 'https://images.pexels.com/photos/8438918/pexels-photo-8438918.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181454/pexels-photo-1181454.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Sam Altman, CEO von OpenAI, kann auf Social Media nicht mehr zwischen echten Menschen und KI-Bots unterscheiden – selbst bei Posts über sein eigenes Produkt. Seine überraschend selbstkritische Aussage wirft ein Schlaglicht auf die Authentizitätskrise des Internets, die er selbst mitverursacht hat.

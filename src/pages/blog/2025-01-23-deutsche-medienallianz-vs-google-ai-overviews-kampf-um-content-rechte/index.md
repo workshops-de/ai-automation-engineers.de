@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Google', 'Publisher Rights', 'Ethics & AI', 'Industry Insights']
 category: 'Industry Insights'
 readTime: '10 min read'
-image: 'https://images.pexels.com/photos/6954162/pexels-photo-6954162.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181392/pexels-photo-1181392.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Deutsche Medienallianz hat im September 2025 eine formelle DSA-Beschwerde gegen Google AI Overviews eingereicht. Vorwurf: Content-Klau ohne Vergütung, Traffic-Diebstahl und Gefährdung der Medienvielfalt.

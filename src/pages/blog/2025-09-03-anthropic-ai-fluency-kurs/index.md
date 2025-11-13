@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Education', 'Anthropic', 'Claude', 'Best Practices', 'Training']
 category: 'Industry Insights'
 readTime: '6 min read'
-image: 'https://images.pexels.com/photos/8728381/pexels-photo-8728381.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181412/pexels-photo-1181412.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Anthropic hat gemeinsam mit den Professoren Joseph Feller (University College Cork) und Rick Dakan (Ringling College) einen kostenlosen 3-4 stündigen Online-Kurs entwickelt, der praktische Fähigkeiten für die effektive KI-Zusammenarbeit vermittelt. Im Zentrum steht das AI Fluency Framework mit den vier Kernkompetenzen: Delegation, Description, Discernment und Diligence.

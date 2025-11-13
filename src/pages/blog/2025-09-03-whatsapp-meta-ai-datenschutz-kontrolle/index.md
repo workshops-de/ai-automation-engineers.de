@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['WhatsApp', 'Meta AI', 'Datenschutz', 'Privacy', 'Messenger', 'KI-Sicherheit']
 category: 'News'
 readTime: '5 min read'
-image: 'https://images.pexels.com/photos/6078129/pexels-photo-6078129.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181445/pexels-photo-1181445.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** WhatsApp führt den "Erweiterten Chat-Datenschutz" ein, mit dem Nutzer Meta AI gezielt aus einzelnen Chats aussperren können. Die KI kann dann weder mitlesen noch auf Nachrichten zugreifen - bleibt aber in der App selbst aktiv.

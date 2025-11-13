@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Google', 'Tools', 'Kreativität', 'Imagen', 'Veo', 'MusicLM', 'Generative AI']
 category: 'Tools & Frameworks'
 readTime: '12 min read'
-image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181547/pexels-photo-1181547.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 Stell dir vor, du könntest in wenigen Sekunden professionelle Videos erstellen, Bilder mit anderen Bildern prompten und maßgeschneiderte Musik generieren – ohne jahrelange Erfahrung in Videoproduktion, Grafikdesign oder Musikkomposition. **Spoiler Alert: Mit Google Labs FX ist das jetzt Realität.**

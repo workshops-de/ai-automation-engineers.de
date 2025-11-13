@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['GitHub', 'MCP', 'AI', 'Automation', 'VS Code', 'Claude', 'DevOps']
 category: 'AI Trends'
 readTime: '7 min read'
-image: 'https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181425/pexels-photo-1181425.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** GitHub bringt den MCP Server in die Cloud - keine lokale Installation mehr nötig, automatische Updates, OAuth 2.0 Support und One-Click Setup in VS Code. AI-Agenten können jetzt direkt auf GitHub-Daten zugreifen. Public Preview seit 12. Juni 2025.

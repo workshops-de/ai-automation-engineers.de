@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['GitHub', 'Copilot', 'AI', 'GPT-5', 'Claude', 'MCP', 'News']
 category: 'AI Trends'
 readTime: '5 min read'
-image: 'https://images.pexels.com/photos/879109/pexels-photo-879109.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181365/pexels-photo-1181365.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 # GitHub Copilot August Update: GPT-5 Preview, Claude Opus 4.1 & MCP-Support

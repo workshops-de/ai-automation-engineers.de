@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['Ethics & AI', 'AI Governance', 'Claude', 'Cybersecurity', 'AI Safety']
 category: 'Industry Insights'
 readTime: '6 min read'
-image: 'https://images.pexels.com/photos/5474292/pexels-photo-5474292.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181463/pexels-photo-1181463.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Anthropic verschärft ab 15. September 2025 die Nutzungsrichtlinien für Claude. Fokus liegt auf verstärkter Kontrolle von Agentenfunktionen, Verbot von Cyberangriffen und erhöhten Transparenzanforderungen für sensible Anwendungen.

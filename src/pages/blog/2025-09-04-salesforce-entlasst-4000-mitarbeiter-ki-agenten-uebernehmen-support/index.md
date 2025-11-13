@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Automation', 'Salesforce', 'Agentforce', 'Jobs', 'Customer Support', 'Ethics', 'Industry Insights']
 category: 'Industry Insights'
 readTime: '6 min read'
-image: 'https://images.pexels.com/photos/8867482/pexels-photo-8867482.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181426/pexels-photo-1181426.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Salesforce hat 4.000 von 9.000 Support-Mitarbeitern entlassen und durch KI-Agenten ersetzt. CEO Marc Benioff verkündete dies im Logan Bartlett Show Podcast. Die Agentforce-KI übernimmt nun 50% aller Kundengespräche. Während Salesforce von Effizienzgewinnen spricht, warnen Kritiker vor Qualitätsverlusten – wie bereits bei Klarna geschehen.

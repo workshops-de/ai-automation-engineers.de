@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Claude', 'Anthropic', 'Machine Learning', 'NLP', 'Tools']
 category: 'AI Trends'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/8438918/pexels-photo-8438918.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181424/pexels-photo-1181424.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 Stell dir vor, du könntest deiner KI deine **gesamte Codebasis** auf einmal zeigen. Nicht nur eine Datei. Nicht nur ein Modul. Die komplette Architektur, alle Dependencies, jeder Kommentar – alles in einem einzigen Prompt. Klingt nach Science Fiction? 

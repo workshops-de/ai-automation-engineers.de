@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['MCP', 'Agentic AI', 'AI Standards', 'Automation', 'Enterprise AI']
 category: 'AI Trends'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181548/pexels-photo-1181548.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 Stell dir vor, du sitzt in einem Meeting. Marketing will Daten aus dem CRM, Development braucht Logs aus drei verschiedenen Systemen, und QA muss Testfälle aus Jira, Confluence und GitHub synchronisieren. Jeder spricht eine andere Sprache, jedes Tool hat seine eigene API. Sound familiar? 

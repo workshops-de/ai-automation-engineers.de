@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Mistral', 'Le Chat', 'Multimodal', 'Enterprise', 'Europe']
 category: 'AI Trends'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/8438918/pexels-photo-8438918.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181529/pexels-photo-1181529.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Mistral AI launcht mit Le Chat einen AI-Assistenten, der mit 1000 Wörtern pro Sekunde ChatGPT abhängt, multimodale Fähigkeiten für nur 14,99€/Monat bietet und gerade eine 14-Milliarden-Dollar-Bewertung erreicht hat. Europa zeigt damit: Wir können auch AI.

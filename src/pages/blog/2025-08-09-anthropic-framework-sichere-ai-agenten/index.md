@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Security', 'Agents', 'Anthropic', 'Claude', 'Ethics', 'Future']
 category: 'AI Trends'
 readTime: '6 min read'
-image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181388/pexels-photo-1181388.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Anthropic veröffentlicht ein Framework mit fünf Prinzipien für die Entwicklung sicherer AI-Agenten. Mit Claude Code als Praxisbeispiel und dem Model Context Protocol (MCP) als technischem Fundament zeigt das Unternehmen, wie autonome AI-Systeme vertrauenswürdig gestaltet werden können.

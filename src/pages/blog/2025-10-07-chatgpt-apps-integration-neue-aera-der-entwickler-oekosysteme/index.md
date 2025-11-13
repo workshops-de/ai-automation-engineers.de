@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['OpenAI', 'ChatGPT', 'Apps', 'SDK', 'Developer Tools', 'AI Integration', 'MCP']
 category: 'News'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181447/pexels-photo-1181447.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** OpenAI führt ChatGPT Apps ein - Entwickler können ab sofort eigene Apps direkt in ChatGPT integrieren. Spotify, Canva, Figma und weitere große Namen sind bereits als Launch-Partner dabei. Das neue SDK basiert auf dem Model Context Protocol und ermöglicht erstmals native App-Interaktionen innerhalb des Chats.

@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Speech Recognition', 'OpenAI', 'Machine Learning', 'NLP', 'Automation', 'Python']
 category: 'Tools & Frameworks'
 readTime: '10 min read'
-image: 'https://images.pexels.com/photos/8438982/pexels-photo-8438982.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181381/pexels-photo-1181381.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 Stell dir vor, du könntest **98 verschiedene Sprachen** mit einer einzigen KI verstehen, transkribieren und sogar übersetzen – und das mit einer Genauigkeit von **92%**. Klingt nach Science Fiction? Welcome to the Whisper Era! 🎙️

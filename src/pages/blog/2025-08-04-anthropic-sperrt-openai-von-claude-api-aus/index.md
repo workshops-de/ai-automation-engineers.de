@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['Künstliche Intelligenz', 'API', 'OpenAI', 'Anthropic', 'Claude', 'GPT-5', 'Industry Insights']
 category: 'Industry Insights'
 readTime: '5 min read'
-image: 'https://images.pexels.com/photos/8438793/pexels-photo-8438793.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181534/pexels-photo-1181534.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Anthropic hat OpenAI den API-Zugang zu Claude entzogen, nachdem OpenAI das KI-Modell heimlich für interne Tests und möglicherweise für die Entwicklung von GPT-5 genutzt hat. Dies verstößt gegen Anthropics Nutzungsbedingungen, die die Verwendung von Claude für konkurrierende Produkte verbieten.

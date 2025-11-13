@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Audio Generation', 'Machine Learning', 'Stable Audio', 'Tools', 'Music Production', 'Automation']
 category: 'Tools & Frameworks'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/7585972/pexels-photo-7585972.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181362/pexels-photo-1181362.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **3 Minuten komplexe Musikkomposition in unter 2 Sekunden generiert.** Nein, das ist kein Tippfehler. Das ist Stable Audio 2.5 in Aktion.

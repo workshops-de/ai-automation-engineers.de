@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Browser', 'Automation', 'Security', 'Chrome', 'Anthropic']
 category: 'AI Trends'
 readTime: '6 min read'
-image: 'https://images.pexels.com/photos/8720580/pexels-photo-8720580.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181391/pexels-photo-1181391.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Anthropic testet mit Claude for Chrome einen KI-Agenten, der autonom im Browser arbeitet – von E-Mail-Verwaltung bis zur Meeting-Planung. Der Zugang bleibt auf 1.000 Max-User beschränkt, während das Unternehmen noch an Sicherheitslösungen gegen Prompt-Injection-Attacken arbeitet. Die Erfolgsrate solcher Angriffe konnte bereits von 23,6% auf 11% reduziert werden.

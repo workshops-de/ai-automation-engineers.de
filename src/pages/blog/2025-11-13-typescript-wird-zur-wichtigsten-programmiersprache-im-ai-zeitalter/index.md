@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['TypeScript', 'KI-Entwicklung', 'Software-Architektur', 'GitHub Octoverse', 'News']
 category: 'News'
 readTime: '6 min read'
-image: 'https://images.pexels.com/photos/2102416/pexels-photo-2102416.jpeg'
+image: 'https://images.pexels.com/photos/1181499/pexels-photo-1181499.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 source: 'https://github.blog/developer-skills/programming-languages-and-frameworks/typescripts-rise-in-the-ai-era-insights-from-lead-architect-anders-hejlsberg/'
 portal: 'workshops.de'
 spreadsheetRow: '69'

@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['OpenAI', 'ChatGPT', 'AI', 'Productivity', 'Tools']
 category: 'AI Trends'
 readTime: '7 min read'
-image: 'https://images.pexels.com/photos/1072179/pexels-photo-1072179.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181494/pexels-photo-1181494.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** OpenAI's neues Branching Feature verwandelt ChatGPT von einem linearen Chat in ein multidirektionales Dialogsystem. Erstelle beliebig viele Gesprächszweige von jedem Punkt aus - ohne den Originalverlauf zu verlieren. Perfect für Experimente, A/B-Testing von Ideen und paralleles Erkunden verschiedener Lösungswege.

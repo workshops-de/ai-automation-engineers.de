@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Ethics & AI', 'Industry Insights', 'Legal', 'Anthropic', 'Copyright']
 category: 'Industry Insights'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/5699456/pexels-photo-5699456.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181531/pexels-photo-1181531.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Ein US-Gericht hat die größte Copyright-Sammelklage der Geschichte gegen Anthropic (Claude AI) zertifiziert. Der Vorwurf: illegale Nutzung von 7 Millionen piratierten Büchern zum AI-Training. Möglicher Schadenersatz: bis zu 750 Milliarden Dollar. Die Entscheidung könnte die gesamte AI-Industrie fundamental verändern.

@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI-Agents', 'Microsoft-365', 'Automation', 'Computer-Use', 'Enterprise-AI']
 category: 'News'
 readTime: '6 min read'
-image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg'
+image: 'https://images.pexels.com/photos/1181490/pexels-photo-1181490.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 source: 'https://techcommunity.microsoft.com/blog/microsoft365copilotblog/introducing-researcher-with-computer-use-in-microsoft-365-copilot/4464766'
 portal: 'ai-automation-engineers.de'
 spreadsheetRow: '72'

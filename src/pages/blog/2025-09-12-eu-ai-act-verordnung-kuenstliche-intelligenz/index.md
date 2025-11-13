@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Regulation', 'Compliance', 'EU AI Act', 'Ethics']
 category: 'Industry Insights'
 readTime: '7 min read'
-image: 'https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181364/pexels-photo-1181364.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Der EU AI Act ist seit 1. August 2024 in Kraft und bringt verbindliche Regeln für KI-Systeme. Erste Verbote gelten ab Februar 2025, vollständige Compliance für Hochrisiko-KI ab August 2027. Verstöße können bis zu 35 Mio. Euro oder 7% des Jahresumsatzes kosten.

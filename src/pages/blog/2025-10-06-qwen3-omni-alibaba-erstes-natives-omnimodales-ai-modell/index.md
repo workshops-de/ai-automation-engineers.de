@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['Machine Learning', 'Deep Learning', 'Open Source', 'Multimodal', 'AI', 'Innovation']
 category: 'Tools & Frameworks'
 readTime: '7 min read'
-image: 'https://images.pexels.com/photos/8438918/pexels-photo-8438918.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181514/pexels-photo-1181514.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 Stell dir vor, du müsstest nicht mehr zwischen verschiedenen AI-Modellen wechseln – eines für Text, eines für Bilder, eines für Audio. Was wäre, wenn ein einziges Modell alles gleichzeitig verstehen könnte? Willkommen in der Zukunft: **Qwen3-Omni** von Alibaba ist da.

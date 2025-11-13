@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Text-to-Speech', 'Voice Cloning', 'Machine Learning', 'Tools & Frameworks']
 category: 'Industry Insights'
 readTime: '6 min read'
-image: 'https://images.pexels.com/photos/4709285/pexels-photo-4709285.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181446/pexels-photo-1181446.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** MiniMax bringt mit Speech 2.5 Voice Cloning auf ein neues Level - 99% Stimmgenauigkeit, über 40 Sprachen und emotionale Sprachsteuerung. Das Zero-Shot Voice Cloning funktioniert ohne Training und macht professionelle Audioproduktion für jeden zugänglich.

@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Google', 'Machine Learning', 'Tools', 'Productivity', 'Knowledge Management']
 category: 'Tools & Frameworks'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/8438922/pexels-photo-8438922.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181360/pexels-photo-1181360.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 Stell dir vor, du sitzt am Schreibtisch, umgeben von PDFs, Research Papers und endlosen Browser-Tabs. Die Deadline für deine Präsentation rückt näher, aber du versinkst im Informationschaos. Kennst du das? 

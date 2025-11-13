@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI Security', 'LLM', 'Cybersecurity', 'Black Hat', 'Data Privacy']
 category: 'Industry Insights'
 readTime: '6 min read'
-image: 'https://images.pexels.com/photos/5380664/pexels-photo-5380664.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181374/pexels-photo-1181374.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Cisco Talos Forscherin Amy Chang präsentiert auf der Black Hat 2025 die "Decomposition"-Technik, die LLMs systematisch dazu bringt, exakte Fragmente ihrer Trainingsdaten preiszugeben - ein Game-Changer für AI-Sicherheit und Datenschutz.

@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Apple', 'Siri', 'Google Gemini', 'Voice Assistant', 'Machine Learning']
 category: 'AI Trends'
 readTime: '6 min read'
-image: 'https://images.pexels.com/photos/6755057/pexels-photo-6755057.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181403/pexels-photo-1181403.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Apple arbeitet an "World Knowledge Answers", einer KI-gestützten Websuche für Siri, die im Frühjahr 2026 kommen soll. Die Technologie basiert teilweise auf Googles Gemini-Modell und soll Siri endlich zu einem echten AI-Assistenten machen, der mit ChatGPT und Co. konkurrieren kann.

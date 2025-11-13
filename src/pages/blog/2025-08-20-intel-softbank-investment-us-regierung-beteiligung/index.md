@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['Intel', 'Softbank', 'CHIPS Act', 'AI', 'Semiconductor', 'USA', 'Investment']
 category: 'Industry Insights'
 readTime: '5 min read'
-image: 'https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181442/pexels-photo-1181442.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Intel bekommt massive Unterstützung durch zwei Großinvestoren: Softbank steigt mit 2 Milliarden Dollar ein, während die US-Regierung überlegt, ihre CHIPS-Act-Subventionen in eine 10-Prozent-Beteiligung umzuwandeln. Der Aktienkurs reagierte mit einer Achterbahnfahrt.

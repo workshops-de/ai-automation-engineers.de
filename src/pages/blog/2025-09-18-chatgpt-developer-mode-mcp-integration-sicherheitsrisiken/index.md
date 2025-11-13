@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['ChatGPT', 'MCP', 'AI', 'Automation', 'OpenAI', 'Developer Tools', 'Security']
 category: 'AI Trends'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181369/pexels-photo-1181369.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** ChatGPT bekommt mit dem Developer Mode vollständigen MCP-Support – das bedeutet nicht nur Lesen, sondern auch Schreiben in externe Systeme. OpenAI warnt selbst vor den Sicherheitsrisiken. Verfügbar für Plus/Pro-Accounts, aber nur für erfahrene Entwickler empfohlen.

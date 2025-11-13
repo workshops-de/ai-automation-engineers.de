@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['OpenAI', 'ChatGPT', 'GPT-5', 'AI Trends', 'User Experience']
 category: 'AI Trends'
 readTime: '5 min read'
-image: 'https://images.pexels.com/photos/16129703/pexels-photo-16129703.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181470/pexels-photo-1181470.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** OpenAI hat nach massiver User-Kritik innerhalb von nur 72 Stunden eine Kehrtwende vollzogen: GPT-4o ist wieder da - allerdings nur für zahlende ChatGPT-Plus-Kunden. Die emotionale Bindung der User zu einzelnen KI-Modellen hat sich als stärker erwiesen als technische Innovation.

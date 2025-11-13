@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Gemini', 'Image Generation', 'Google', 'Machine Learning', 'Computer Vision']
 category: 'AI Trends'
 readTime: '7 min read'
-image: 'https://images.pexels.com/photos/8438918/pexels-photo-8438918.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181395/pexels-photo-1181395.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Google hat Gemini 2.5 Flash Image (Codename "nano-banana") gelauncht - ein State-of-the-Art Bildgenerierungsmodell mit präziser Sprachsteuerung, Multi-Image-Blending und Character-Konsistenz. Preis: nur $0,039 pro Bild. Verfügbar über Gemini API, Google AI Studio und Vertex AI.

@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Semiconductor', 'China', 'Geopolitik', 'Hardware']
 category: 'Industry Insights'
 readTime: '6 min read'
-image: 'https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 # Chinas KI-Chip-Offensive: Verdreifachung der Produktion bis 2025 geplant

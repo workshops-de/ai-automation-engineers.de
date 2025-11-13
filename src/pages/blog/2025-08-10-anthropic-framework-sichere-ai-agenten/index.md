@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI Agents', 'AI Safety', 'Anthropic', 'Claude', 'Automation', 'Ethics']
 category: 'News'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181488/pexels-photo-1181488.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 # Anthropics Framework für sichere KI-Agenten: 5 Prinzipien für vertrauenswürdige Automatisierung

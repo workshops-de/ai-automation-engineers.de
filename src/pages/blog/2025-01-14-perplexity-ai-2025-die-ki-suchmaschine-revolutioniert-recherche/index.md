@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Search Engine', 'Perplexity', 'Tools & Frameworks', 'Machine Learning']
 category: 'Tools & Frameworks'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181380/pexels-photo-1181380.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Perplexity AI hat sich 2025 zur führenden KI-Suchmaschine entwickelt und kombiniert Echtzeit-Websuche mit transparenten Quellenangaben. Mit Features wie Deep Research Mode, Perplexity Labs und dem neuen Comet Browser definiert es neu, wie wir recherchieren und mit Informationen interagieren.

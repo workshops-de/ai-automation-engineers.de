@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Tools', 'Local LLM', 'Privacy', 'Development']
 category: 'Tools & Frameworks'
 readTime: '10 min read'
-image: 'https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181478/pexels-photo-1181478.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 Stell dir vor: Es ist 23:47 Uhr. Du debuggst ein kritisches Feature, brauchst dringend AI-Support, aber ChatGPT ist mal wieder überlastet und deine Company-Policy verbietet das Hochladen von Code in die Cloud. *Game Over?* Nein – **Game Changer!**

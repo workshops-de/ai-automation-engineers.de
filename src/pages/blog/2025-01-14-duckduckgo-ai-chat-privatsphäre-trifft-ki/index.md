@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Privacy', 'Chatbots', 'Tools', 'DuckDuckGo', 'OpenAI', 'Claude']
 category: 'Tools & Frameworks'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/5935791/pexels-photo-5935791.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181363/pexels-photo-1181363.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 Stell dir vor, du sitzt im Café, willst schnell eine KI-Frage stellen, aber der Gedanke an noch einen Account, noch eine E-Mail-Verifizierung und noch eine Datenschutzerklärung, die niemand liest, macht dich müde. Dann öffnest du duck.ai und – **Boom!** – du chattest einfach los. Keine Anmeldung, kein Tracking, keine "Wir nutzen deine Daten für Training"-Klausel. 

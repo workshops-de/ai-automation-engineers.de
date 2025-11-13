@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'CLI', 'Automation', 'Tools', 'Cursor', 'MCP', 'Terminal']
 category: 'Tools & Frameworks'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181539/pexels-photo-1181539.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Cursor CLI bringt den vollen AI Agent direkt ins Terminal – nutze ihn in Neovim, JetBrains oder headless in Scripts. Mit MCP-Support für externe Tools und allen Top-Modellen. Installation: `curl https://cursor.com/install -fsS | bash`

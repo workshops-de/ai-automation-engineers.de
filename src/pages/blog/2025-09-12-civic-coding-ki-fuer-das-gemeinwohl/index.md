@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Community', 'Förderung', 'Ethics', 'Innovation', 'Open Source']
 category: 'Industry Insights'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181540/pexels-photo-1181540.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Die Civic Coding Initiative vereint BMAS, BMBFSFJ und BMUKN in einem offenen Innovationsnetzwerk für gemeinwohlorientierte KI. Mit konkreten Förderungen, Ankerprojekten und einer aktiven Community wird KI sozial, nachhaltig und partizipativ gestaltet.

@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Machine Learning', 'Multimodal', 'Open Source', 'LLM', 'Computer Vision']
 category: 'AI Trends'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181357/pexels-photo-1181357.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Baidu's ERNIE-4.5-8B-Chat ist ein kompaktes, aber leistungsstarkes multimodales AI-Modell mit 8 Milliarden Parametern, das Text, Bilder, Audio und Video verarbeiten kann. Es nutzt eine innovative Mixture-of-Experts Architektur und ist kostenlos auf Hugging Face verfügbar - ein ernstzunehmender Konkurrent für GPT-4 und Llama zu einem Bruchteil der Kosten.

@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Tools', 'Cloud', 'Automation', 'Coding', 'Replit', 'Agent', 'IDE']
 category: 'Tools & Frameworks'
 readTime: '10 min read'
-image: 'https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181518/pexels-photo-1181518.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 Stell dir vor, du sitzt im Café, hast eine geniale App-Idee und könntest sie sofort umsetzen - ohne Setup, ohne Installation, ohne stundenlange Konfiguration. Einfach Browser auf, Idee reintippen, und **Boom!** - deine App läuft. Science Fiction? Nein, das ist Replit im Jahr 2025.

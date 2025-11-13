@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Business Intelligence', 'ChatGPT', 'Data Science', 'Automation', 'Strategy']
 category: 'Industry Insights'
 readTime: '7 min read'
-image: 'https://images.pexels.com/photos/5474291/pexels-photo-5474291.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181366/pexels-photo-1181366.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Statista-CEO Marc Berg verwandelt die KI-Bedrohung in eine Chance: Statt gegen ChatGPT zu kämpfen, integriert er Statista-Daten direkt in KI-Tools. Ein Kunde, der zu ChatGPT wechselte, kam nach drei Monaten zurück – zum doppelten Preis. Die Lektion? "Shit in, shit out" gilt auch für KI.

@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['OpenAI', 'ChatGPT', 'Productivity', 'AI Tools', 'Workflow']
 category: 'Tools & Frameworks'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181444/pexels-photo-1181444.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 Du kennst das: 20 ChatGPT-Tabs offen, jeder für ein anderes Projekt. Marketing-Kampagne hier, Python-Script dort, Kundenanalyse im dritten Tab. Und bei jedem Tab-Wechsel musst du ChatGPT wieder den kompletten Kontext erklären. *"Also, wir arbeiten an diesem E-Commerce Projekt, und du hattest mir letztens..."* – Spoiler Alert: ChatGPT hat keine Ahnung, wovon du sprichst.

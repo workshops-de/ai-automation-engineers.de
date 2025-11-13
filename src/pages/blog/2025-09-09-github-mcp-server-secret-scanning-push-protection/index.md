@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['GitHub', 'Security', 'MCP', 'AI', 'DevSecOps', 'Secret Scanning']
 category: 'AI Trends'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/5380664/pexels-photo-5380664.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181541/pexels-photo-1181541.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** GitHub's MCP Server scannt ab August 2025 automatisch alle Tool-Call-Eingaben in öffentlichen Repositories auf Secrets und blockiert diese standardmäßig. Zusätzlich gibt es neue Toolsets für GitHub Actions, Gists, Sub-Issues und verbesserte PR-Workflows.

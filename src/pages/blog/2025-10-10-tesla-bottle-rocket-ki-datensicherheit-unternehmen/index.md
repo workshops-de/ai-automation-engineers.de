@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Datensicherheit', 'ChatGPT', 'Enterprise AI', 'Tesla', 'Best Practices']
 category: 'Industry Insights'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/2449452/pexels-photo-2449452.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181501/pexels-photo-1181501.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 Stell dir vor, du bist Tesla-Ingenieur und nutzt ChatGPT, um ein kniffliges Coding-Problem zu lösen. Du kopierst ein paar Zeilen internen Code in den Chat, fragst nach Optimierungsvorschlägen – und **BOOM!** – du hast gerade sensible Firmendaten an OpenAI's Server geschickt. Genau das ist bei Tesla passiert. Und die Reaktion? Sie haben ihre eigene KI gebaut.

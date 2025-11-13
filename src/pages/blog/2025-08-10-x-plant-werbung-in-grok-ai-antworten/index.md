@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Grok', 'X', 'Twitter', 'Advertising', 'xAI', 'Digital Marketing']
 category: 'Industry Insights'
 readTime: '5 min read'
-image: 'https://images.pexels.com/photos/8438918/pexels-photo-8438918.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181533/pexels-photo-1181533.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** X (ehemals Twitter) plant die Integration von Werbeanzeigen direkt in die Antworten seines AI-Chatbots Grok. Die Maßnahme soll das schwächelnde Werbegeschäft nach dem Abgang von CEO Linda Yaccarino stärken und die hohen Kosten für GPU-Infrastruktur decken.

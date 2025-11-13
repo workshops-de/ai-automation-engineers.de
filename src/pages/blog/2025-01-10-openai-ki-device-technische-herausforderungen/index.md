@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI Hardware', 'Edge Computing', 'OpenAI', 'Always-On AI', 'Product Design']
 category: 'News'
 readTime: '7 min read'
-image: 'https://images.pexels.com/photos/8386422/pexels-photo-8386422.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181450/pexels-photo-1181450.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** OpenAIs mit Spannung erwartetes KI-Device, entwickelt mit Apple-Designlegende Jony Ive, steckt in massiven technischen Schwierigkeiten. Markteinführung verschoben auf frühestens 2026. Hauptprobleme: Compute-Ressourcen, Always-on Datenschutz und die Frage, wie eine KI-Persönlichkeit klingen soll, ohne nervig zu werden.

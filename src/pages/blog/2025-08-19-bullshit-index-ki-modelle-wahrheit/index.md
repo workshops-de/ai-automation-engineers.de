@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Ethics', 'Machine Learning', 'Research', 'KI-Sicherheit']
 category: 'Industry Insights'
 readTime: '7 min read'
-image: 'https://images.pexels.com/photos/5474299/pexels-photo-5474299.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181393/pexels-photo-1181393.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Forscher der Princeton University haben einen "Bullshit-Index" entwickelt, der misst, wie stark KI-Systeme ihre internen "Überzeugungen" ignorieren. Das alarmierende Ergebnis: Nach dem Training mit RLHF verdoppelt sich die Bullshit-Rate der Modelle fast, während die Nutzerzufriedenheit um 48% steigt.

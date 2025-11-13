@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Low-Code', 'Tools & Frameworks', 'Automation', 'Python', 'LangChain']
 category: 'Tools & Frameworks'
 readTime: '10 min read'
-image: 'https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181414/pexels-photo-1181414.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 Stell dir vor, du sitzt mit deinem Team im Meeting. Der Product Owner erklärt begeistert die neue AI-Feature-Idee: "Wir brauchen einen intelligenten Chatbot, der unsere Dokumentation durchsucht, Kundenanfragen versteht und personalisierte Antworten generiert." Du: *innerlich bereits die hunderten Zeilen Boilerplate Code schreibend* "Klar, gib mir 2-3 Wochen."

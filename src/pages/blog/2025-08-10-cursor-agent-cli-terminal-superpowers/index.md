@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['Cursor', 'CLI', 'AI Coding', 'Developer Tools', 'Automation']
 category: 'Tools & Frameworks'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/1181279/pexels-photo-1181279.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181420/pexels-photo-1181420.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 Stell dir vor: Du sitzt gemütlich in deinem Terminal, hackst an einem komplexen Script und denkst dir: "Mensch, wäre es nicht cool, wenn ich jetzt einfach sagen könnte: 'Hey AI, finde mal alle Bugs in diesem Code und fix sie'?" 

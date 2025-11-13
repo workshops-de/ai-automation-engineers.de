@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'ChatGPT', 'OpenAI', 'Productivity', 'Trends', 'Data Science']
 category: 'Industry Insights'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/8438918/pexels-photo-8438918.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181517/pexels-photo-1181517.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **700 Millionen wöchentliche Nutzer. 18 Milliarden Nachrichten pro Woche. 2,5 Milliarden Prompts täglich.**

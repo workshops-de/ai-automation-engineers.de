@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['Claude', 'AI Tools', 'No-Code', 'Collaboration', 'Anthropic', 'Productivity']
 category: 'AI Trends'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181492/pexels-photo-1181492.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Claude kann jetzt interaktive Apps ohne Code erstellen (Artifacts) und bietet granulare Projekt-Permissions für bessere Team-Kollaboration. CSV zu Charts, Prototypen in Minuten, rollenbasierte Zugriffskontrolle.

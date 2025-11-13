@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Benchmarks', 'OpenAI', 'Wirtschaft', 'Automation']
 category: 'AI Trends'
 readTime: '7 min read'
-image: 'https://images.pexels.com/photos/6802042/pexels-photo-6802042.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181443/pexels-photo-1181443.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** OpenAI hat mit GDPval einen neuen Benchmark veröffentlicht, der AI-Modelle an 1.320 echten Arbeitsaufgaben aus 44 Berufen testet. Das Ergebnis: Moderne AI-Modelle erreichen bereits bei vielen wirtschaftlich wertvollen Aufgaben menschliches Expertenniveau.

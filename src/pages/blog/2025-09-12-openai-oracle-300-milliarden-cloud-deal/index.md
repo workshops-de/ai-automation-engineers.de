@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Cloud Computing', 'OpenAI', 'Oracle', 'Investments', 'Data Centers', 'Stargate']
 category: 'Industry Insights'
 readTime: '6 min read'
-image: 'https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181418/pexels-photo-1181418.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** OpenAI und Oracle haben einen fünfjährigen Cloud-Computing-Deal über 300 Milliarden Dollar abgeschlossen. Ab 2027 bezieht OpenAI 4,5 Gigawatt Rechenkapazität - genug Energie für 4 Millionen Haushalte. Der Deal ist Teil des Stargate-Projekts und zeigt den gigantischen Hunger der AI-Industrie nach Rechenleistung.

@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Claude', 'Anthropic', 'Enterprise AI', 'Memory', 'Updates']
 category: 'AI Trends'
 readTime: '6 min read'
-image: 'https://images.pexels.com/photos/6153354/pexels-photo-6153354.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181417/pexels-photo-1181417.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Anthropic stattet Claude mit einem Memory-Feature aus, das projektspezifische Informationen, Präferenzen und Arbeitsabläufe über Gespräche hinweg speichert. Verfügbar für Enterprise, Team und Max-Abonnenten mit voller Kontrolle über gespeicherte Daten.

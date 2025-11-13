@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Video Generation', 'Google', 'Gemini API', 'Machine Learning', 'Tools']
 category: 'News'
 readTime: '6 min read'
-image: 'https://images.pexels.com/photos/4349828/pexels-photo-4349828.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181461/pexels-photo-1181461.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Google's Veo 3 ist ab sofort über die Gemini API verfügbar und ermöglicht die Generierung von 8-sekündigen 720p-Videos mit synchronisiertem Audio aus Text oder Bildern. Mit zwei Modellvarianten (Veo 3 und Veo 3 Fast) und Preisen ab $0.40 pro Sekunde demokratisiert Google die KI-Video-Generierung für Entwickler.

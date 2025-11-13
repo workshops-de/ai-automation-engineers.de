@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Google', 'Machine Learning', 'Tools', 'Productivity', 'Innovation']
 category: 'Tools & Frameworks'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/8438918/pexels-photo-8438918.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181535/pexels-photo-1181535.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Google NotebookLM verwandelt deine Dokumente in interaktive KI-Podcasts mit zwei virtuellen Hosts, die du jetzt sogar direkt befragen kannst. Mit Gemini 2.0 unter der Haube und dem neuen Premium-Tier NotebookLM Plus wurde es von TIME Magazine zu einer der besten Erfindungen 2024 gekürt.

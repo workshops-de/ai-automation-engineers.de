@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Hardware', 'Translation', 'Wearables', 'Innovation', 'Deep Tech']
 category: 'Tools & Frameworks'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181355/pexels-photo-1181355.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 Stell dir vor, du sitzt in einem Café in Tokyo, dein Geschäftspartner spricht kein Wort Englisch, und trotzdem führt ihr eine flüssige Unterhaltung über komplexe technische Details. Science Fiction? Nein, das ist die Realität mit den **Timekettle W4 AI Interpreter Earbuds** – und ich bin immer noch geflasht von dem, was diese kleinen Teile können.

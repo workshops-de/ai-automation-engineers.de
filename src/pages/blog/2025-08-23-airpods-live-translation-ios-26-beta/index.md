@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Apple', 'NLP', 'Machine Learning', 'iOS', 'Wearables', 'Innovation']
 category: 'AI Trends'
 readTime: '5 min read'
-image: 'https://images.pexels.com/photos/7003791/pexels-photo-7003791.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181460/pexels-photo-1181460.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** iOS 26 Beta enthüllt neue AirPods-Geste für Live-Übersetzung. Per Doppel-Tap auf beide Stems aktiviert sich Echtzeit-Translation für Face-to-Face Gespräche. Apple Intelligence macht's möglich.
