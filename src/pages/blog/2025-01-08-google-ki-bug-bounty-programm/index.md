@@ -115,7 +115,6 @@ Googles aktualisiertes Security Framework hilft dabei, AI-Risiken systematisch z
 # TensorFlow Adversarial Examples
 import tensorflow as tf
 from tensorflow_adversarial import generate_adversarial_pattern
-
 # Teste Model-Robustheit gegen manipulierte Inputs
 adversarial_input = generate_adversarial_pattern(
     model=target_model,
@@ -128,7 +127,6 @@ adversarial_input = generate_adversarial_pattern(
 ```python
 # Fuzzing AI Endpoints
 import atheris
-
 @atheris.instrument_func
 def test_ai_endpoint(data):
     # Systematisches Testen mit zufälligen/mutierten Inputs

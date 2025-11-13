@@ -127,17 +127,14 @@ Gemini: *Analysiert 10.000 Zeilen in 2 Sekunden*
 
 ```
 📊 Analyse abgeschlossen:
-
 Top-Regionen Q4 2024:
 1. DACH: +34% YoY (2.3M EUR)
 2. Nordics: +28% YoY (1.8M EUR)  
 3. BeNeLux: +22% YoY (1.5M EUR)
-
 Insights:
 - Weihnachtskampagne in DACH übertraf Erwartungen um 45%
 - Mobile-First Strategie in Nordics zeigt Wirkung
 - BeNeLux profitiert von neuer Vertriebspartnerschaft
-
 Empfehlung: Budget-Reallokation für Q1 2025 fokussiert auf DACH-Expansion
 ```
 
@@ -214,13 +211,10 @@ Kombiniere Google Sheets AI mit Apps Script für vollautomatische Workflows:
 function autoAnalyze() {
   // Smart Fill anwenden
   SpreadsheetApp.getActiveSheet().getRange('B:B').autoFill();
-  
   // Smart Cleanup triggern
   cleanupData();
-  
   // Gemini-Analyse starten
   const insights = GeminiAPI.analyze(data);
-  
   // Report generieren
   createExecutiveReport(insights);
 }

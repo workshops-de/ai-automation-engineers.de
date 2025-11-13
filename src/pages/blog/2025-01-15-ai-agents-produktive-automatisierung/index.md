@@ -56,7 +56,6 @@ Zeit für den Werkzeugkasten! Hier sind die drei heißesten Frameworks für AI A
 ```python
 # LangGraph Beispiel: Multi-Step Produktionsüberwachung
 from langgraph.graph import StateGraph, END
-
 workflow = StateGraph()
 workflow.add_node("monitor", monitor_production)
 workflow.add_node("analyze", analyze_anomalies)
@@ -77,18 +76,15 @@ workflow.add_conditional_edges(
 ```python
 # AutoGen Beispiel: Kollaborative Agenten
 from autogen import AssistantAgent, UserProxyAgent
-
 # Erstelle spezialisierte Agenten
 data_analyst = AssistantAgent(
     name="DataAnalyst",
     system_message="Du bist ein Datenexperte..."
 )
-
 quality_controller = AssistantAgent(
     name="QualityController", 
     system_message="Du überwachst Qualitätsmetriken..."
 )
-
 # Agenten arbeiten zusammen
 user_proxy = UserProxyAgent(name="Manager")
 user_proxy.initiate_chat(
@@ -105,31 +101,26 @@ user_proxy.initiate_chat(
 ```python
 # CrewAI Beispiel: Marketing-Team Simulation
 from crewai import Agent, Task, Crew
-
 # Definiere spezialisierte Agenten
 researcher = Agent(
     role='Marktforscher',
     goal='Identifiziere Trends und Zielgruppen',
     tools=[search_tool, analytics_tool]
 )
-
 writer = Agent(
     role='Content Creator',
     goal='Erstelle ansprechende Inhalte',
     tools=[writing_tool, seo_tool]
 )
-
 # Erstelle Aufgaben und Crew
 research_task = Task(
     description='Analysiere den Markt für AI Agents',
     agent=researcher
 )
-
 crew = Crew(
     agents=[researcher, writer],
     tasks=[research_task, writing_task]
 )
-
 result = crew.kickoff()
 ```
 

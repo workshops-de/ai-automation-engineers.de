@@ -131,12 +131,10 @@ Die ehrliche Antwort: Noch nicht direkt. Aber hier ist ein Workaround, wie du Br
 ```python
 import openai
 from typing import List, Dict
-
 class ConversationBrancher:
     def __init__(self, api_key: str):
         self.client = openai.OpenAI(api_key=api_key)
         self.conversations = {}
-    
     def create_branch(self, 
                      parent_id: str, 
                      branch_name: str, 
@@ -146,13 +144,11 @@ class ConversationBrancher:
         """
         # Hole Parent-Konversation
         parent_conv = self.conversations[parent_id]
-        
         # Kopiere Nachrichten bis zum Branch-Point
         if branch_point == -1:
             branch_messages = parent_conv["messages"].copy()
         else:
             branch_messages = parent_conv["messages"][:branch_point].copy()
-        
         # Erstelle neuen Branch
         branch_id = f"{parent_id}_{branch_name}"
         self.conversations[branch_id] = {
@@ -160,9 +156,7 @@ class ConversationBrancher:
             "parent": parent_id,
             "branch_point": branch_point
         }
-        
         return branch_id
-    
     def continue_conversation(self, 
                             branch_id: str, 
                             user_message: str) -> str:
@@ -171,31 +165,25 @@ class ConversationBrancher:
         """
         # Hole Branch-Konversation
         branch = self.conversations[branch_id]
-        
         # Füge User-Nachricht hinzu
         branch["messages"].append({
             "role": "user", 
             "content": user_message
         })
-        
         # API-Call mit dem Branch-Kontext
         response = self.client.chat.completions.create(
             model="gpt-4o",
             messages=branch["messages"]
         )
-        
         # Speichere Assistant-Antwort
         assistant_message = response.choices[0].message.content
         branch["messages"].append({
             "role": "assistant",
             "content": assistant_message
         })
-        
         return assistant_message
-
 # Praktisches Beispiel
 brancher = ConversationBrancher(api_key="dein-key")
-
 # Hauptkonversation starten
 brancher.conversations["main"] = {
     "messages": [
@@ -203,17 +191,14 @@ brancher.conversations["main"] = {
         {"role": "assistant", "content": "Machine Learning ist..."}
     ]
 }
-
 # Branches erstellen
 technical_branch = brancher.create_branch("main", "technical")
 business_branch = brancher.create_branch("main", "business")
-
 # Verschiedene Richtungen erkunden
 tech_response = brancher.continue_conversation(
     technical_branch, 
     "Gehe auf die mathematischen Grundlagen ein"
 )
-
 business_response = brancher.continue_conversation(
     business_branch,
     "Welchen ROI kann ML für Unternehmen bringen?"

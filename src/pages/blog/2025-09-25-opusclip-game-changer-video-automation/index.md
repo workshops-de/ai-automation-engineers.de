@@ -102,11 +102,9 @@ Ton: Professionell aber zugänglich
 Länge: 150-200 Zeichen
 Include: 3 relevante Hashtags
 """
-
 # Output:
 "Wie wir ML-Modelle 10x schneller in Produktion bringen 🚀
 Spoiler: Es geht um mehr als nur Code.
-
 #MachineLearning #MLOps #TechLeadership"
 ```
 
@@ -189,7 +187,6 @@ Ich zeige dir mal einen realen Use-Case aus meinem eigenen Setup:
 const podcastPipeline = {
   // Step 1: Podcast Recording
   trigger: "Riverside.fm recording completed",
-  
   // Step 2: Processing
   actions: [
     {
@@ -203,14 +200,12 @@ const podcastPipeline = {
         platforms: ["tiktok", "instagram", "youtube-shorts"]
       }
     },
-    
     // Step 3: Enhancement
     {
       app: "Canva",
       task: "Add branded intro/outro",
       template: "podcast-clips-template-v2"
     },
-    
     // Step 4: Distribution
     {
       app: "Buffer",
@@ -218,7 +213,6 @@ const podcastPipeline = {
       timing: "AI-optimized",
       frequency: "2 clips/day"
     },
-    
     // Step 5: Analytics
     {
       app: "Google Sheets",
@@ -242,7 +236,6 @@ Der Clou für Power-User: **Batch-Verarbeitung** von Videos. Stell dir vor, du h
 # Bulk Processing Script (Pseudo-Code)
 video_folder = "Dropbox/Webinars/2024/"
 clips_generated = 0
-
 for video in video_folder:
     if video.duration > 20_minutes:
         opus_response = opusclip.process(
@@ -255,7 +248,6 @@ for video in video_folder:
             }
         )
         clips_generated += opus_response.clip_count
-        
 print(f"Total: {clips_generated} Clips aus {len(video_folder)} Videos")
 # Output: Total: 500 Clips aus 50 Videos
 ```

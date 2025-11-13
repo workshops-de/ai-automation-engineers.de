@@ -118,7 +118,6 @@ Was hier wirklich passiert, ist technische Magie:
 ```python
 # So einfach ist die API
 import requests
-
 response = requests.post('http://localhost:11434/api/generate', 
     json={
         'model': 'llama3',

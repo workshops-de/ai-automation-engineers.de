@@ -124,7 +124,6 @@ Diese Chips sind wie ein kreativer Co-Pilot, der dir hilft, Dimensionen deines B
 
 ```markdown
 Prompt: "Ein Café in Tokio bei Regen"
-
 Expressive Chips schlagen vor:
 → "cyberpunk" | "traditionell" | "minimalistisch"
 → "Nacht" | "Dämmerung" | "Mittagssonne"

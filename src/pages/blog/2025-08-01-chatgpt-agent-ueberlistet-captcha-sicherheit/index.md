@@ -58,10 +58,8 @@ Der ChatGPT-Agent simuliert all diese menschlichen Verhaltensweisen so überzeug
 function simulateHumanClick(element) {
     // Zufällige Verzögerung für "menschliches" Zögern
     const delay = Math.random() * 300 + 200; // 200-500ms
-    
     // Nicht-lineare Mausbewegung simulieren
     const movements = generateHumanLikeMovements(element);
-    
     // "Natürliche" Klick-Ausführung
     setTimeout(() => {
         moveMouse(movements);

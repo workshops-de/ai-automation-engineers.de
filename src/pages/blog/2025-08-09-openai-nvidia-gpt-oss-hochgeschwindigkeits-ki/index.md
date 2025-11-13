@@ -175,10 +175,8 @@ nvidia-smi
 ```bash
 # Ollama installieren
 curl -fsSL https://ollama.ai/install.sh | sh
-
 # GPT-OSS-20b ziehen
 ollama pull gpt-oss-20b
-
 # Los geht's!
 ollama run gpt-oss-20b
 ```
@@ -187,13 +185,10 @@ ollama run gpt-oss-20b
 ```python
 # Python Integration
 from transformers import AutoModelForCausalLM, AutoTokenizer
-
 model = AutoModelForCausalLM.from_pretrained("openai/gpt-oss-20b")
 tokenizer = AutoTokenizer.from_pretrained("openai/gpt-oss-20b")
-
 # Reasoning-Tiefe setzen
 system_prompt = "You are a helpful assistant. Use medium reasoning depth."
-
 # Und ab geht die Post!
 ```
 

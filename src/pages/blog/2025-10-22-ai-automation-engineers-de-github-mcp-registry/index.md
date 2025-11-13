@@ -41,41 +41,23 @@ Die neue **GitHub MCP Registry** funktioniert wie ein App-Store speziell für AI
 
 
 ```
-
 ┌─────────────────────────────────┐
-
 │  GitHub MCP Registry            │
-
 │  (Zentrales Hub)                │
-
 ├─────────────────────────────────┤
-
 │ ✓ Figma Server                  │
-
 │ ✓ Postman Server                │
-
 │ ✓ Dynatrace Server              │
-
 │ ✓ GitHub Server                 │
-
 │ ✓ + weitere Partner             │
-
 └─────────────────────────────────┘
-
         ↓
-
     1-Klick Integration
-
         ↓
-
 ┌─────────────────────────────────┐
-
 │  Dein Automation-Stack          │
-
 │  (n8n, Make, Zapier, etc.)      │
-
 └─────────────────────────────────┘
-
 ```
 
 
@@ -129,33 +111,18 @@ MCP als Standard bedeutet: Einmal gelernt, überall einsetzbar
 ### ⏱️ Zeitersparnis im Workflow
 
 ```
-
 Bisheriges Modell:
-
 - Tool recherchieren: 30-45 Min
-
 - Dokumentation lesen: 20-30 Min
-
 - Manuell integrieren: 45-90 Min
-
 - Testen: 30-45 Min
-
 Gesamt: 2-3 Stunden
-
-
-
 Mit MCP Registry:
-
 - Entdecken in Registry: 5-10 Min
-
 - 1-Klick Integration: 2-5 Min
-
 - Sofort einsatzbereit: 0 Min
-
 Gesamt: 10-15 Minuten
-
 → 85% Zeitersparnis
-
 ```
 
 

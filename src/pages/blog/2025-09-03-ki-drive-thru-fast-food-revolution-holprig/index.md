@@ -95,24 +95,18 @@ class FreshAI:
     def process_order(self, audio_input):
         # Noise Filtering
         clean_audio = self.filter_background_noise(audio_input)
-        
         # Speech-to-Text mit Kontext
         text = self.transcribe_with_menu_context(clean_audio)
-        
         # Intent Recognition
         intent = self.understand_intent(text)
-        
         if intent.confidence < 0.8:
             # Human takeover bei Unsicherheit
             return self.transfer_to_human()
-        
         # Generative Response
         response = self.generate_natural_response(intent)
-        
         # Upselling Opportunity Detection
         if self.detect_upsell_opportunity(intent):
             response += self.suggest_addon()
-        
         return response
 ```
 
@@ -157,7 +151,6 @@ const orderFlow = {
     6: "Bestätigung an Kunden",
     7: "Zahlung verarbeiten"
 };
-
 // Jeder Schritt = potenzielle Fehlerquelle
 ```
 
@@ -206,7 +199,6 @@ def handle_ai_interaction():
             return escalate_to_human()
     except AIProcessingError:
         return graceful_fallback()
-    
     # Immer einen Plan B haben!
 ```
 

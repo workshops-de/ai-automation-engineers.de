@@ -58,55 +58,24 @@ Die neue API orientiert sich an bewährten Patterns aus der JavaScript-Community
 ⚠️ **Code-Beispiel** (aus der offiziellen Dokumentation):
 
 ```typescript
-
 import { MockClock, setUpMockClock } from '@angular/core/testing';
-
 import { signal } from '@angular/core';
-
-
-
 describe('Signal Test with MockClock', () => {
-
   let mockClock: MockClock;
-
   const count = signal(0);
-
-
-
   beforeEach(() => {
-
     mockClock = setUpMockClock();
-
   });
-
-
-
   it('should update signal after time passes', () => {
-
     setTimeout(() => {
-
       count.set(1);
-
     }, 1000);
-
-
-
     expect(count()).toBe(0);
-
-    
-
     // Zeit um 1000ms vorrücken - ohne echte Wartezeit
-
     mockClock.tick(1000);
-
-    
-
     expect(count()).toBe(1);
-
   });
-
 });
-
 ```
 
 ## Migration und Breaking Changes

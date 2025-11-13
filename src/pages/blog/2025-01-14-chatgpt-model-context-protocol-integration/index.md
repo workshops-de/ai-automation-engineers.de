@@ -76,12 +76,10 @@ Hier ein simpler MCP-Server in Python, der ChatGPT Superkräfte verleiht:
 from modelcontext.server import MCPServer
 import aiohttp
 from datetime import datetime
-
 class SuperchargedMCPServer(MCPServer):
     """
     Unser MCP-Server, der ChatGPT mit der Außenwelt verbindet
     """
-    
     async def get_company_data(self, company_name: str) -> dict:
         """Holt Unternehmensdaten aus verschiedenen Quellen"""
         # Hier würdest du echte APIs anzapfen
@@ -92,7 +90,6 @@ class SuperchargedMCPServer(MCPServer):
             "stock_price": "$1337.42",
             "timestamp": datetime.now().isoformat()
         }
-    
     async def update_jira_ticket(self, ticket_id: str, status: str) -> dict:
         """Updated einen Jira-Ticket Status"""
         # In der Realität würde hier die Jira API angesprochen
@@ -102,7 +99,6 @@ class SuperchargedMCPServer(MCPServer):
             "updated_by": "ChatGPT via MCP",
             "success": True
         }
-    
     async def analyze_code_repository(self, repo_url: str) -> dict:
         """Analysiert ein Git Repository"""
         # Magie passiert hier
@@ -114,7 +110,6 @@ class SuperchargedMCPServer(MCPServer):
             "code_quality": "A+",
             "security_issues": 0
         }
-
 if __name__ == "__main__":
     server = SuperchargedMCPServer()
     server.run(port=8080)  # Los geht's! 🚀

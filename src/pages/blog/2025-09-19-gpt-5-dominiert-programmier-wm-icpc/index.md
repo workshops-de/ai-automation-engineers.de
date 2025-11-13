@@ -197,7 +197,6 @@ def solve_business_problem(requirements):
         GPT5Codex(role="frontend"),
         GPT5Codex(role="testing")
     ]
-    
     solution = orchestrate(ai_agents, requirements)
     return human_review(solution)  # Du bist der Quality Gate
 ```

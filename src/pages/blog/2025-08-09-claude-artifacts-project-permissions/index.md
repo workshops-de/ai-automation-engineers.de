@@ -57,7 +57,6 @@ Artifacts nutzen React für das Frontend und können bei Bedarf Node.js Backend-
 const DataVisualization = () => {
   const [data, setData] = useState([]);
   const [filter, setFilter] = useState('all');
-  
   // Interaktive Chart-Logik
   return (
     <Dashboard>

@@ -60,7 +60,6 @@ class TokenBucket:
         self.capacity = capacity  # Maximale Eimergröße
         self.tokens = capacity    # Aktuelle Wassermenge
         self.refill_rate = refill_rate  # Tropfen pro Sekunde
-        
     def use_tokens(self, amount):
         if self.tokens >= amount:
             self.tokens -= amount
@@ -100,7 +99,6 @@ response = anthropic.messages.create(
     max_tokens=4000,  # Blockiert 4000 Tokens, auch wenn nur 500 genutzt werden
     messages=[...]
 )
-
 # Besser:
 response = anthropic.messages.create(
     model="claude-3-opus",
@@ -120,7 +118,6 @@ response = anthropic.messages.create(
 ```python
 import time
 import random
-
 def make_request_with_retry(func, max_retries=5):
     for attempt in range(max_retries):
         try:
@@ -128,14 +125,11 @@ def make_request_with_retry(func, max_retries=5):
         except RateLimitError as e:
             if attempt == max_retries - 1:
                 raise
-            
             # Exponential Backoff mit Jitter
             wait_time = (2 ** attempt) + random.uniform(0, 1)
             retry_after = e.headers.get('retry-after')
-            
             if retry_after:
                 wait_time = max(wait_time, int(retry_after))
-            
             time.sleep(wait_time)
 ```
 
@@ -148,11 +142,9 @@ def check_rate_limit_headers(response):
         'tokens_remaining': response.headers.get('anthropic-ratelimit-tokens-remaining'),
         'reset_time': response.headers.get('anthropic-ratelimit-tokens-reset')
     }
-    
     # Warnung bei < 20% verbleibend
     if int(headers['requests_remaining']) < 10:
         logger.warning("⚠️ Nur noch 10 Requests übrig!")
-        
     return headers
 ```
 
@@ -166,17 +158,14 @@ class ClaudeLoadBalancer:
             'sonnet': {'limit': 4000, 'current': 0},
             'haiku': {'limit': 4000, 'current': 0}
         }
-    
     def get_available_model(self, preferred='sonnet'):
         # Prüfe bevorzugtes Modell
         if self.models[preferred]['current'] < self.models[preferred]['limit']:
             return preferred
-            
         # Fallback auf alternatives Modell
         for model, stats in self.models.items():
             if stats['current'] < stats['limit']:
                 return model
-                
         return None  # Alle ausgelastet!
 ```
 
@@ -185,18 +174,15 @@ class ClaudeLoadBalancer:
 ```python
 from queue import PriorityQueue
 import threading
-
 class RequestQueue:
     def __init__(self, rate_limit=50):
         self.queue = PriorityQueue()
         self.rate_limit = rate_limit
         self.worker = threading.Thread(target=self._process_queue)
         self.worker.start()
-    
     def add_request(self, request, priority=5):
         # Niedrigere Zahl = höhere Priorität
         self.queue.put((priority, request))
-    
     def _process_queue(self):
         while True:
             if not self.queue.empty():
@@ -261,14 +247,11 @@ class ECommerceClaudeManager:
             'order_status': TokenBucket(200, 3),     # 20% für Bestellstatus
             'support': TokenBucket(500, 8)           # 50% für Support
         }
-        
     def handle_request(self, request_type, message):
         bucket = self.request_buckets.get(request_type)
-        
         if not bucket.allow_request():
             # Fallback auf gecachte Antworten
             return self.get_cached_response(request_type, message)
-            
         # Normale Claude-Anfrage
         return self.claude_request(message)
 ```

@@ -162,7 +162,6 @@ Das Apache Airflow Team nutzt AGENTS.md für ihr komplexes Python-Projekt:
 - Use Gradle, not Maven
 - Run `./gradlew build` for full build
 - Integration tests require Docker
-
 ## Code conventions
 - Use Google Java Style Guide
 - Immutable objects wherever possible
@@ -235,46 +234,38 @@ Hier ein Battle-tested Template für Web-Projekte:
 
 ```markdown
 # AGENTS.md
-
 ## Project overview
 Modern web application with React frontend and Node.js backend
-
 ## Setup commands
 - Install: `npm install`
 - Dev: `npm run dev`
 - Build: `npm run build`
 - Test: `npm test`
 - Lint: `npm run lint`
-
 ## Tech stack
 - Frontend: React 18, TypeScript, Vite
 - Backend: Node.js, Express, PostgreSQL
 - Testing: Jest, React Testing Library
-
 ## Code style
 - TypeScript strict mode enabled
 - ESLint + Prettier configured
 - Functional components only (no class components)
 - Custom hooks for logic extraction
-
 ## Git workflow
 - Branch naming: feature/*, bugfix/*, hotfix/*
 - Commit format: type(scope): description
 - PR requires 2 approvals
 - Squash merge to main
-
 ## Testing requirements
 - Unit tests for all utilities
 - Integration tests for API endpoints
 - 80% coverage minimum
 - E2E tests for critical user flows
-
 ## Security
 - All inputs must be validated
 - Use parameterized queries (no string concatenation)
 - Authentication via JWT
 - Rate limiting on all endpoints
-
 ## Performance considerations
 - Lazy load routes
 - Optimize images before commit

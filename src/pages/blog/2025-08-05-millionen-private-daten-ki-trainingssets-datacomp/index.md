@@ -53,7 +53,6 @@ def filter_pii(text):
     ssn_pattern = r'\b\d{3}-\d{2}-\d{4}\b'
     # Kreditkartennummern
     cc_pattern = r'\b\d{4}[\s-]?\d{4}[\s-]?\d{4}[\s-]?\d{4}\b'
-    
     # Aber: Diese Filter wurden offenbar nicht oder nur unzureichend eingesetzt
 ```
 

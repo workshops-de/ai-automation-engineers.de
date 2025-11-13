@@ -166,9 +166,7 @@ Stell dir vor:
 ```python
 # Zukunftsvision: Stable Audio API
 from stable_audio import AudioGenerator
-
 generator = AudioGenerator(api_key="your-key")
-
 # Generiere Musik basierend auf Bild-Analyse
 image_mood = analyze_image("product_photo.jpg")
 music = generator.create_from_mood(
@@ -176,7 +174,6 @@ music = generator.create_from_mood(
     duration=30,
     style="corporate_uplifting"
 )
-
 # Synchronisiere mit Video
 video_beats = detect_cuts("product_video.mp4")
 synced_music = generator.sync_to_beats(music, video_beats)

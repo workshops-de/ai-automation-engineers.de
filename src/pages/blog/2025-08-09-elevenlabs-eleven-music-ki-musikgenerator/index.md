@@ -52,9 +52,7 @@ Die Plattform nutzt fortschrittliche AI-Modelle, die auf umfangreichen Musikdate
 ```python
 # Beispiel-Integration mit der Eleven Music API (kommend)
 import elevenlabs
-
 client = elevenlabs.Client(api_key="YOUR_API_KEY")
-
 # Musik generieren
 music = client.music.generate(
     prompt="Dreamy, psychedelic, slow Indie Rock, reverb-soaked vocals",
@@ -62,7 +60,6 @@ music = client.music.generate(
     include_vocals=True,
     language="de"
 )
-
 # Song herunterladen
 music.save("my_indie_rock_song.mp3")
 ```

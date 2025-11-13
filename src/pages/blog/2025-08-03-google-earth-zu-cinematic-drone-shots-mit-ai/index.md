@@ -84,19 +84,16 @@ Google Earth Screenshot → AI Pipeline → Cinematisches Meisterwerk
 # Beispiel-Workflow mit Diffusers und RealEarth-Kontext
 import torch
 from diffusers import StableDiffusionPipeline
-
 # LoRA Model laden
 pipe = StableDiffusionPipeline.from_pretrained(
     "FLUX.1-Kontext-dev",
     torch_dtype=torch.float16
 )
-
 # RealEarth-Kontext LoRA hinzufügen
 pipe.load_lora_weights(
     "lucataco/kontext-realearth",
     weight_name="realearth-kontext.safetensors"
 )
-
 # Der magische Prompt
 prompt = """
 Transform this Google Earth screenshot into a 
@@ -107,7 +104,6 @@ photorealistic drone shot with:
 - Atmospheric haze for depth
 - Professional aerial photography style
 """
-
 # Transformation durchführen
 result = pipe(
     prompt=prompt,

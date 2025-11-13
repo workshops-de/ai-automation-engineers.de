@@ -179,10 +179,8 @@ Mit MCP kann Claude Code:
 ```bash
 # Via npm (für die JavaScript-Crew)
 npm install -g @anthropic/claude-code
-
 # Via Homebrew (für die Mac-User)
 brew install claude-code
-
 # Via Script (für alle anderen)
 curl -fsSL https://claude.ai/install.sh | sh
 ```
@@ -280,7 +278,6 @@ Statt einer riesigen Anfrage, arbeite schrittweise:
 ```bash
 # Pipeline-Power!
 git diff | claude -p "erkläre diese Änderungen" | tee changelog.md
-
 # Batch-Processing
 find . -name "*.js" | claude -p "finde Sicherheitslücken" > security-report.txt
 ```

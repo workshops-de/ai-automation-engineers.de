@@ -83,13 +83,11 @@ Hier wird's richtig spannend. GPT-5 Codex arbeitet in Zyklen:
 while not task_complete:
     code = write_implementation()
     test_results = run_tests()
-    
     if test_results.failed:
         errors = analyze_failures()
         code = debug_and_fix(errors)
     else:
         code = optimize_and_refactor()
-    
     documentation = update_docs()
     commit_changes()  # Ja, es kann sogar committen!
 ```

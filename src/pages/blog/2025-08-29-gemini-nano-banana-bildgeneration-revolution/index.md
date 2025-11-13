@@ -33,10 +33,8 @@ Stell dir vor, du sagst: "Mach das rote Auto blau, aber lass alles andere unver�
 ```python
 # So einfach geht's mit der Gemini API
 import google.generativeai as genai
-
 genai.configure(api_key='YOUR_API_KEY')
 model = genai.GenerativeModel('gemini-2.5-flash')
-
 # Präzise Bildbearbeitung
 response = model.generate_content([
     uploaded_image,
@@ -97,16 +95,13 @@ Final Output (1024x1024 default)
 # Vollständiges Beispiel für Multi-Image Blending
 import google.generativeai as genai
 from PIL import Image
-
 # Konfiguration
 genai.configure(api_key='YOUR_API_KEY')
 model = genai.GenerativeModel('gemini-2.5-flash')
-
 # Mehrere Bilder hochladen
 image1 = Image.open('person.jpg')
 image2 = Image.open('background.jpg')
 image3 = Image.open('lighting_reference.jpg')
-
 # Der Magic Moment
 prompt = """
 Kombiniere diese Bilder:
@@ -115,7 +110,6 @@ Kombiniere diese Bilder:
 - Verwende die Lichtstimmung von Bild 3
 - Stelle sicher, dass Schatten und Proportionen stimmen
 """
-
 response = model.generate_content([prompt, image1, image2, image3])
 ```
 
@@ -174,15 +168,12 @@ pip install google-generativeai pillow
 **3. Dein erstes Bild generieren:**
 ```python
 import google.generativeai as genai
-
 genai.configure(api_key='YOUR_KEY')
 model = genai.GenerativeModel('gemini-2.5-flash')
-
 # Text-zu-Bild Generation
 response = model.generate_content(
     "Ein futuristischer Roboter serviert Kaffee in einem gemütlichen Café"
 )
-
 # Bild speichern
 with open('robot_cafe.png', 'wb') as f:
     f.write(response.images[0])

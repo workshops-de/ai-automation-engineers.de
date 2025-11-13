@@ -73,7 +73,6 @@ class ClaudeCodeAgent:
             'write': False,    # Standard: Schreiben verboten
             'execute': False   # Standard: Ausführen verboten
         }
-    
     def modify_code(self, changes):
         if not self.permissions['write']:
             return self.request_human_approval(changes)

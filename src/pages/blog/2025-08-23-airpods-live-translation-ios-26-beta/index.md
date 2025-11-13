@@ -93,23 +93,18 @@ class AirPodsTranslator {
     private let speechRecognizer = SFSpeechRecognizer()
     private let translator = Translation.Service()
     private let synthesizer = AVSpeechSynthesizer()
-    
     func startLiveTranslation() async {
         // Gesture Detection
         AirPodsManager.onDoubleStemPress { [weak self] in
             await self?.toggleTranslation()
         }
-        
         // Audio Pipeline
         let audioStream = await AirPodsManager.startAudioCapture()
-        
         for await audioBuffer in audioStream {
             // 1. Speech to Text
             let transcript = await recognizeSpeech(audioBuffer)
-            
             // 2. Language Detection & Translation
             let translation = await translateText(transcript)
-            
             // 3. Text to Speech & Output
             await synthesizeAndPlay(translation)
         }

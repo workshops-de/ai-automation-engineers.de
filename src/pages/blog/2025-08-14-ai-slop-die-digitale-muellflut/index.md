@@ -142,7 +142,6 @@ Hier ein kleines Python-Script für die Mutigen unter euch:
 import requests
 from bs4 import BeautifulSoup
 import re
-
 class SlopDetector:
     def __init__(self):
         # Typische KI-Phrasen
@@ -153,31 +152,25 @@ class SlopDetector:
             "delve into",
             "leverage the power of"
         ]
-        
     def analyze_text(self, text):
         score = 0
         text_lower = text.lower()
-        
         # Check für KI-Phrasen
         for phrase in self.ai_phrases:
             if phrase in text_lower:
                 score += 10
-                
         # Perfekte Grammatik? Verdächtig!
         if not re.search(r'[.!?]\s+[a-z]', text):  # Keine lowercase nach Satzende
             score += 15
-            
         # Zu viele Buzzwords?
         buzzwords = ['synergy', 'leverage', 'paradigm', 'holistic']
         buzzword_count = sum(1 for word in buzzwords if word in text_lower)
         score += buzzword_count * 5
-        
         return {
             'slop_score': score,
             'is_likely_ai': score > 30,
             'confidence': f"{min(score, 100)}%"
         }
-
 # Verwendung
 detector = SlopDetector()
 result = detector.analyze_text("In today's digital age, it's important to leverage synergy...")

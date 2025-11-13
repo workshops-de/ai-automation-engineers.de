@@ -116,14 +116,11 @@ class MCPAgent:
     def __init__(self, capabilities):
         self.capabilities = capabilities
         self.context = SharedContext()
-    
     def receive_task(self, task):
         # Verstehe den Kontext
         context = self.context.get_current()
-        
         # Führe spezialisierte Aufgabe aus
         result = self.process(task, context)
-        
         # Teile Ergebnis mit anderen Agenten
         self.context.update(result)
         return result
@@ -240,7 +237,6 @@ Sucht euch einen isolierten Use Case:
 ```python
 # Euer erster MCP-Agent in 10 Zeilen
 from mcp import Agent, Context
-
 class MyFirstAgent(Agent):
     async def process(self, task, context):
         # Eure Business-Logik hier
@@ -249,7 +245,6 @@ class MyFirstAgent(Agent):
             context=context
         )
         return result
-
 # That's it! 🎉
 ```
 

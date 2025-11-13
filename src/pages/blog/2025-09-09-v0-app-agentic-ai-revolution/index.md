@@ -124,25 +124,21 @@ import { useState, useEffect } from 'react'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { LineChart, Line, XAxis, YAxis, CartesianGrid } from 'recharts'
-
 export default function DashboardAnalytics() {
   const [data, setData] = useState([])
   const [timeRange, setTimeRange] = useState('7d')
-  
   // v0 generiert automatisch sinnvolle Testdaten
   useEffect(() => {
     // Intelligente Daten-Simulation basierend auf Context
     const mockData = generateRealisticData(timeRange)
     setData(mockData)
   }, [timeRange])
-  
   // Vollständige Business-Logik inklusive
   const exportToCSV = () => {
     // v0 implementiert Export-Funktionen automatisch
     const csv = convertToCSV(data)
     downloadFile(csv, `analytics-${Date.now()}.csv`)
   }
-  
   return (
     // Responsive, accessible UI out-of-the-box
     <Card className="w-full">

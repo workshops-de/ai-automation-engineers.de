@@ -69,14 +69,11 @@ def extract_persona_vector(trait="evil"):
     # Schritt 1: Generiere gegensätzliche Prompts
     evil_prompts = generate_evil_scenarios()
     good_prompts = generate_good_scenarios()
-    
     # Schritt 2: Messe neuronale Aktivierungen
     evil_activations = model.get_activations(evil_prompts)
     good_activations = model.get_activations(good_prompts)
-    
     # Schritt 3: Berechne den Unterschied
     persona_vector = evil_activations - good_activations
-    
     return persona_vector  # Das ist dein "Böse-Regler"!
 ```
 
@@ -169,7 +166,6 @@ class PersonalityControlledBot:
             "humor": load_vector("humorous"),
             "hallucination": load_vector("hallucination")  # Den wollen wir NICHT
         }
-    
     def respond(self, user_input, personality_profile):
         # Aktiviere gewünschte Eigenschaften
         response = self.base_model.generate(
@@ -182,7 +178,6 @@ class PersonalityControlledBot:
             ]
         )
         return response
-
 # Usage
 bot = PersonalityControlledBot()
 response = bot.respond(

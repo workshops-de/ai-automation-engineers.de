@@ -64,7 +64,6 @@ prompt = """
   hyperrealistisch mit cinematischer Beleuchtung,
   8K Auflösung, ray-traced reflections
 """
-
 # Die Magie passiert hier
 image = gemini.generate_image(
     prompt=prompt,
@@ -98,10 +97,8 @@ Lass uns das mal in der Praxis durchspielen. Du willst ein Bild für deinen näc
 
 ```python
 from google.ai import gemini
-
 # Initialisierung mit deinem API Key
 gemini.configure(api_key="dein-api-key")
-
 # Der Killer-Prompt
 prompt = """
   Ein modernes Büro der Zukunft,
@@ -110,7 +107,6 @@ prompt = """
   fotorealistisch mit leichtem Cyberpunk-Touch,
   Fokus auf Mensch-Maschine-Kollaboration
 """
-
 # Generierung mit Style
 response = gemini.generate_images(
     prompt=prompt,
@@ -170,7 +166,6 @@ Murphy's Law gilt auch in der AI-Welt. Hier die häufigsten Stolpersteine:
 **Lösung**: 
 ```python
 import time
-
 # Smart Retry Logic
 for attempt in range(3):
     try:
@@ -207,10 +202,8 @@ Was wir hier sehen, ist erst der Anfang. Mit Gemini 2.5 Flash Image am Horizont 
 3. **Erstes Bild generieren**:
    ```python
    import google.generativeai as genai
-   
    genai.configure(api_key="YOUR_API_KEY")
    model = genai.GenerativeModel("gemini-2.0-flash-exp")
-   
    response = model.generate_content([
        "Generate an image: A serene lake at sunset"
    ])

@@ -81,7 +81,6 @@ const mcpServer = new MCPServer({
     }
   }
 });
-
 // Tool-Definition für Jira-Integration
 mcpServer.addTool({
   name: 'update_jira_ticket',

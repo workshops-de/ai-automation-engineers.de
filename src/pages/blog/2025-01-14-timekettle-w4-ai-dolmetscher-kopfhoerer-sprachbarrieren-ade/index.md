@@ -61,7 +61,6 @@ Die eingebaute KI versteht nicht nur Wörter, sondern auch deren Bedeutung im Ko
 ```
 Normale Übersetzung: "Ich brauche eine Bank"
 → Könnte alles bedeuten
-
 W4 mit Kontext: "Ich bin müde vom Wandern, ich brauche eine Bank"
 → Übersetzt korrekt als Sitzgelegenheit, nicht als Geldinstitut
 ```
@@ -116,17 +115,14 @@ Zoom Meeting mit 5 Nationalitäten
 const translateConversation = async (audioInput) => {
   // Step 1: Bone Conduction + Mikrofon Fusion
   const cleanVoice = fuseSensors(boneData, micData);
-  
   // Step 2: KI-basierte Spracherkennung
   const text = await speechToText(cleanVoice, {
     accuracy: 0.98,
     noiseThreshold: 100 // dB
   });
-  
   // Step 3: Kontext-aware Translation mit LLM
   const context = analyzeContext(conversationHistory);
   const translation = await translateWithContext(text, context);
-  
   // Step 4: Echtzeit-Ausgabe
   return playTranslation(translation, {
     latency: 200 // milliseconds

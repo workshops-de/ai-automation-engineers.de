@@ -97,16 +97,12 @@ choco install ffmpeg
 
 ```python
 import whisper
-
 # Lade das Turbo-Modell (schnell und gut!)
 model = whisper.load_model("turbo")
-
 # Transkribiere eine Audio-Datei
 result = model.transcribe("meeting_recording.mp3")
-
 # Boom! Hier ist dein Text
 print(result["text"])
-
 # Pro-Tipp: Mit Zeitstempeln
 for segment in result["segments"]:
     print(f"[{segment['start']:.2f}s -> {segment['end']:.2f}s]")
@@ -119,13 +115,11 @@ for segment in result["segments"]:
 # Automatische Spracherkennung
 audio = whisper.load_audio("japanese_podcast.mp3")
 audio = whisper.pad_or_trim(audio)
-
 # Lass Whisper die Sprache erkennen
 mel = whisper.log_mel_spectrogram(audio).to(model.device)
 _, probs = model.detect_language(mel)
 detected_lang = max(probs, key=probs.get)
 print(f"Erkannte Sprache: {detected_lang}")
-
 # Direkte Übersetzung ins Englische
 result = model.transcribe(
     "japanese_podcast.mp3",
@@ -146,14 +140,11 @@ def transcribe_meeting(audio_file, participants):
     """
     model = whisper.load_model("turbo")
     result = model.transcribe(audio_file)
-    
     # Workflow: Audio → Transkription → Zusammenfassung
     transcript = result["text"]
-    
     # Integration mit LLM für Zusammenfassung
     summary = generate_summary(transcript)  # Via GPT-4
     action_items = extract_action_items(transcript)
-    
     return {
         "transcript": transcript,
         "summary": summary,
@@ -176,10 +167,8 @@ def podcast_to_blog(audio_file):
     # Phase 1: Transkription
     model = whisper.load_model("large")  # Höchste Genauigkeit
     result = model.transcribe(audio_file)
-    
     # Phase 2: Strukturierung
     chapters = segment_by_topics(result["segments"])
-    
     # Phase 3: SEO-Optimierung
     blog_post = {
         "title": extract_title(result["text"]),
@@ -187,7 +176,6 @@ def podcast_to_blog(audio_file):
         "keywords": extract_keywords(result["text"]),
         "timestamps": create_youtube_timestamps(chapters)
     }
-    
     return blog_post
 ```
 
@@ -201,20 +189,16 @@ class CustomerServiceBot:
     def __init__(self):
         self.whisper_model = whisper.load_model("turbo")
         self.language_detector = LanguageDetector()
-    
     def process_call(self, audio_stream):
         # Echtzeit-Transkription
         text = self.whisper_model.transcribe(audio_stream)["text"]
-        
         # Intent-Erkennung
         intent = self.detect_intent(text)
-        
         # Automatische Weiterleitung
         if intent == "technical_support":
             return self.route_to_tech_team(text)
         elif intent == "billing":
             return self.route_to_billing(text)
-        
         # Sofort-Antwort generieren
         return self.generate_response(text)
 ```
@@ -277,13 +261,11 @@ def transcribe_large_file(file_path, chunk_length=30):
     """
     model = whisper.load_model("base")  # Kleineres Modell
     audio = whisper.load_audio(file_path)
-    
     chunks = []
     for i in range(0, len(audio), chunk_length * 16000):
         chunk = audio[i:i + chunk_length * 16000]
         result = model.transcribe(chunk)
         chunks.append(result["text"])
-    
     return " ".join(chunks)
 ```
 
@@ -298,13 +280,11 @@ def smart_transcribe(audio_file):
         no_speech_threshold=0.6,  # Höherer Threshold
         logprob_threshold=-1.0,   # Strengere Filterung
     )
-    
     # Filtere leere Segmente
     filtered_segments = [
         s for s in result["segments"] 
         if s["no_speech_prob"] < 0.6
     ]
-    
     return filtered_segments
 ```
 
@@ -343,19 +323,15 @@ else:
 
 ```python
 from concurrent.futures import ThreadPoolExecutor
-
 def batch_transcribe(audio_files, max_workers=4):
     """
     Parallelisiert Transkriptionen für maximale Effizienz
     """
     model = whisper.load_model("turbo")
-    
     def process_file(file):
         return model.transcribe(file)
-    
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
         results = list(executor.map(process_file, audio_files))
-    
     return results
 ```
 
@@ -366,7 +342,6 @@ def batch_transcribe(audio_files, max_workers=4):
 ```python
 import whisper
 import subprocess
-
 def add_subtitles_to_video(video_path):
     """
     Vollautomatische Untertitel-Generation
@@ -378,14 +353,11 @@ def add_subtitles_to_video(video_path):
         "-vn", "-acodec", "pcm_s16le", 
         audio_path
     ])
-    
     # Schritt 2: Transkribieren mit Timestamps
     model = whisper.load_model("medium")
     result = model.transcribe(audio_path)
-    
     # Schritt 3: SRT-Format erstellen
     srt_content = create_srt(result["segments"])
-    
     # Schritt 4: Video mit Untertiteln versehen
     output_path = video_path.replace(".mp4", "_subtitled.mp4")
     subprocess.run([
@@ -393,9 +365,7 @@ def add_subtitles_to_video(video_path):
         "-vf", f"subtitles=subtitles.srt",
         output_path
     ])
-    
     return output_path
-
 def create_srt(segments):
     """
     Erstellt SRT-formatierte Untertitel
@@ -405,12 +375,10 @@ def create_srt(segments):
         start = format_timestamp(segment["start"])
         end = format_timestamp(segment["end"])
         text = segment["text"].strip()
-        
         srt.append(f"{i}")
         srt.append(f"{start} --> {end}")
         srt.append(text)
         srt.append("")
-    
     return "\n".join(srt)
 ```
 

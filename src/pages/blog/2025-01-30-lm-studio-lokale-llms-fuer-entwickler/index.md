@@ -83,18 +83,15 @@ Das ist der Gamechanger: LM Studio startet einen lokalen API-Server, der 1:1 kom
 ```python
 # Dein bisheriger Code mit OpenAI
 import openai
-
 client = openai.OpenAI(
     api_key="sk-..."  # Cloud API Key
     base_url="https://api.openai.com/v1"
 )
-
 # Dein neuer Code mit LM Studio
 client = openai.OpenAI(
     api_key="not-needed",  # LM Studio braucht keinen Key!
     base_url="http://localhost:1234/v1"  # Lokaler Server
 )
-
 # Der Rest bleibt gleich! 🎉
 response = client.chat.completions.create(
     model="local-model",
@@ -139,7 +136,6 @@ response = client.chat.completions.create(
 from langchain.llms import LlamaCpp
 from langchain.embeddings import LlamaCppEmbeddings
 from langchain.vectorstores import Chroma
-
 # LM Studio Model als Langchain LLM
 llm = LlamaCpp(
     model_path="models/llama-3.2-7b.gguf",
@@ -147,18 +143,15 @@ llm = LlamaCpp(
     max_tokens=2000,
     n_ctx=4096  # Context Window
 )
-
 # Lokale Embeddings
 embeddings = LlamaCppEmbeddings(
     model_path="models/nomic-embed-text.gguf"
 )
-
 # Dein privater Knowledge Store
 vectorstore = Chroma(
     persist_directory="./company_docs",
     embedding_function=embeddings
 )
-
 # Query deine Docs - alles bleibt lokal!
 results = vectorstore.similarity_search(
     "Wie ist unsere Deployment-Strategie?"
@@ -214,7 +207,6 @@ settings = {
 ```javascript
 // Parallel verschiedene Modelle befragen
 const models = ['llama-3.2', 'mistral-7b', 'gemma-2'];
-
 const responses = await Promise.all(
     models.map(model => 
         fetch('http://localhost:1234/v1/chat/completions', {
@@ -226,7 +218,6 @@ const responses = await Promise.all(
         })
     )
 );
-
 // Vergleiche die Antworten
 console.log('Beste Antwort:', selectBest(responses));
 ```

@@ -68,7 +68,6 @@ def access_memory(query):
     relevant_context = conversation_search(query)
     project_memory = get_project_specific_memory()
     team_preferences = load_team_settings()
-    
     return synthesize_response(
         current_query=query,
         context=relevant_context,

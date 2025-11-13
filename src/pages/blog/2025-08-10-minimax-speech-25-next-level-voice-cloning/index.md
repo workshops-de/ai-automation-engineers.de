@@ -52,11 +52,9 @@ MiniMax Speech 2.5 basiert auf einem ausgeklügelten technischen Stack:
 ```python
 # Beispiel: MiniMax Speech 2.5 API Integration
 import requests
-
 def generate_speech(text, voice_id, language="de-DE"):
     # Der lernbare Speaker-Encoder extrahiert Timbre-Features
     # direkt aus dem Referenz-Audio - keine Transkription nötig!
-    
     response = requests.post(
         "https://api.minimax.io/v1/speech/generate",
         headers={"Authorization": f"Bearer {API_KEY}"},
@@ -69,7 +67,6 @@ def generate_speech(text, voice_id, language="de-DE"):
             "volume": 1.0
         }
     )
-    
     return response.content  # Studio-Qualität Audio Output
 ```
 

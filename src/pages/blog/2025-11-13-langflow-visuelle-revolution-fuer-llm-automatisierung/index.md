@@ -84,19 +84,12 @@ Mit der MCP (Model Context Protocol) Server-Client-Architektur lassen sich kompl
 ### Technische Architektur die überzeugt
 
 ```
-
 Langflow Stack:
-
 ├── Frontend: React-basiertes Visual Editor
-
 ├── Backend: Python FastAPI
-
 ├── Components: Modulare, erweiterbare Bausteine
-
 ├── APIs: RESTful für alle Flow-Operationen
-
 └── Deployment: Docker, Kubernetes, Cloud-native
-
 ```
 
 Die modulare Architektur ermöglicht:
@@ -156,13 +149,9 @@ Langflow fügt sich nahtlos in moderne Automation-Pipelines ein:
 ### Mögliche Workflow-Kombinationen:
 
 ```
-
 n8n/Make → Langflow API → Business Logic
-
 Zapier → Trigger → Langflow Multi-Agent → Response
-
 Custom App → Langflow RAG → Knowledge Base
-
 ```
 
 ## ROI und Business Impact

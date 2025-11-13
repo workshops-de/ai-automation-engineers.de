@@ -142,19 +142,16 @@ Basierend auf Patents und Leaks könnte die Architektur so aussehen:
 ├── 2x Wide-Angle Kameras
 ├── IMU (Beschleunigung/Gyro)
 └── Umgebungslicht-Sensor
-
 [Edge Processing]
 ├── Analog ML Chip (Wake-Detection)
 ├── NPU für lokale Inferenz
 ├── Secure Enclave (Verschlüsselung)
 └── 5G/WiFi 6E Modem
-
 [Cloud Backend]
 ├── GPT-4 Turbo für Konversation
 ├── DALL-E 3 für Visual Understanding
 ├── Whisper für Speech-to-Text
 └── Custom Memory/Context DB
-
 [Interaktion]
 ├── Spatial Audio Output
 ├── Haptic Feedback

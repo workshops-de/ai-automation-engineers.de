@@ -83,7 +83,6 @@ const googleCalendar = new GoogleCalendarAPI({
   auth: complexAuthProcess,
   // 100+ Zeilen Setup-Code
 });
-
 // Heute mit MCP: Ein simpler Befehl
 "Erstelle einen Termin für morgen 14 Uhr mit dem Kunden"
 // MCP handled den Rest automatisch

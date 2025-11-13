@@ -95,12 +95,10 @@ Auf dem **European LLM Leaderboard** zeigt Teuken 7B solide Ergebnisse:
 ```python
 # Installation via Hugging Face
 from transformers import AutoModelForCausalLM, AutoTokenizer
-
 # Model laden (commercial version)
 model_name = "openGPT-X/Teuken-7B-instruct-commercial-v0.4"
 model = AutoModelForCausalLM.from_pretrained(model_name)
 tokenizer = AutoTokenizer.from_pretrained(model_name)
-
 # Erste Anfrage
 prompt = "Erkläre mir die DSGVO in einfachen Worten:"
 inputs = tokenizer(prompt, return_tensors="pt")

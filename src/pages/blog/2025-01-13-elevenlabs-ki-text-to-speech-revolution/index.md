@@ -86,20 +86,16 @@ Lass uns die Hände schmutzig machen! Hier ein simples Python-Beispiel:
 
 ```python
 from elevenlabs import generate, play, set_api_key
-
 # API Key setzen (bekommst du im Dashboard)
 set_api_key("dein-super-geheimer-key")
-
 # Die Magie passiert hier
 audio = generate(
     text="Hallo Welt! Ich bin eine KI-Stimme und klinge verdammt echt.",
     voice="Rachel",  # Oder deine geklonte Stimme!
     model="eleven_multilingual_v2"  # Das Schweizer Taschenmesser der Modelle
 )
-
 # Boom! Audio abspielen
 play(audio)
-
 # Pro-Tipp: Speichern für später
 with open("meine_erste_ki_stimme.mp3", "wb") as f:
     f.write(audio)
@@ -162,18 +158,15 @@ Kurse in mehreren Sprachen, mit konsistenter Sprecher-Stimme, automatisch generi
 
 ```javascript
 import { ElevenLabsClient } from "elevenlabs";
-
 const client = new ElevenLabsClient({
   apiKey: "dein-api-key"
 });
-
 async function generateVoice() {
   const audio = await client.generate({
     voice: "Rachel",
     text: "JavaScript Entwickler freuen sich!",
     model_id: "eleven_turbo_v2"  // Schnell & günstig
   });
-  
   // Audio streamen oder speichern
   return audio;
 }
@@ -184,7 +177,6 @@ async function generateVoice() {
 ```python
 import asyncio
 from elevenlabs import stream
-
 async def realtime_tts():
     async for chunk in stream(
         "Ich werde in Echtzeit generiert!",

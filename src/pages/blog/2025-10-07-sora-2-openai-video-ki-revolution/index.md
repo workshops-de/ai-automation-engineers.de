@@ -66,7 +66,6 @@ OpenAI plant eine API – hier meine Prognose für die wichtigsten Endpoints:
 ```python
 # So könnte die Sora 2 API aussehen (spekulativ!)
 import openai
-
 # Video generieren
 response = openai.Sora.create(
     prompt="Ein Roboter tanzt Breakdance in einer Cyberpunk-Stadt",
@@ -76,14 +75,12 @@ response = openai.Sora.create(
     audio=True,
     physics_accuracy="high"
 )
-
 # Cameo hinzufügen
 cameo_video = openai.Sora.add_cameo(
     video_id=response.id,
     user_recording="path/to/selfie_video.mp4",
     role="main_character"
 )
-
 # Sicherheits-Check (wichtig für Production!)
 safety_check = openai.Sora.verify_content(
     video_id=cameo_video.id,
@@ -181,10 +178,8 @@ async def batch_generate_videos(prompts):
             sora_api.create_video_async(prompt)
         )
         tasks.append(task)
-    
     results = await asyncio.gather(*tasks)
     return results
-
 # Caching für häufige Requests
 @cache.memoize(timeout=3600)
 def get_cached_video(prompt_hash):

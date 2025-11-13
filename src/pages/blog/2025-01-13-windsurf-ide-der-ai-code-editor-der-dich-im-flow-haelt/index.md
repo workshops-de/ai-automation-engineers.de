@@ -64,20 +64,17 @@ Forget normale Autocomplete. Supercomplete ist wie dieser eine Kumpel, der deine
 # Du tippst: def calc
 # Supercomplete denkt: "Ah, im Kontext dieser Finance-App 
 # will er wahrscheinlich calculate_compound_interest()"
-
 def calculate_compound_interest(principal: float, 
                                 rate: float, 
                                 time: int, 
                                 compound_freq: int = 12) -> float:
     """
     Calculate compound interest with monthly compounding.
-    
     Args:
         principal: Initial investment amount
         rate: Annual interest rate (as decimal)
         time: Investment period in years
         compound_freq: Compounding frequency per year
-    
     Returns:
         Final amount after compound interest
     """
@@ -124,17 +121,14 @@ Vergiss Copy-Paste zu ChatGPT. Mit Windsurf bleibst du im Flow:
 function messyFunction(a, b, c, d) {
     // 50 Zeilen Spaghetti-Code
 }
-
 // Tippe: "Refactor this to use modern patterns and add error handling"
 // Windsurf transformiert es zu:
-
 interface FunctionParams {
     primaryValue: number;
     secondaryValue: number;
     options?: ProcessingOptions;
     callback?: (result: Result) => void;
 }
-
 class DataProcessor {
     async process(params: FunctionParams): Promise<Result> {
         try {

@@ -96,13 +96,11 @@ Die Zahlen sprechen für sich:
 
 ```python
 from deepseek import Agent
-
 # Ein Agent, der komplette Features implementiert
 code_agent = Agent(
     model="deepseek-v3.1-terminus",
     tools=["code_analyzer", "test_generator", "documentation"]
 )
-
 # Kann ganze Codebases analysieren und refactoren
 result = code_agent.execute(
     "Refaktoriere diese 10.000 Zeilen Legacy-Code 
@@ -121,7 +119,6 @@ Mit 128K Token Kontext kannst du:
 # Beispiel: Analyse eines kompletten Jahresberichts
 with open("jahresbericht_2025.pdf", "rb") as f:
     content = extract_text(f)  # 200 Seiten Text
-    
 analysis = deepseek.analyze(
     content,  # Alles auf einmal!
     instructions="Erstelle Executive Summary und finde Risiken"
@@ -136,7 +133,6 @@ research_agent = DeepSeekAgent(
     mode="thinking",  # Für tiefgreifende Analyse
     tools=["web_search", "arxiv_search", "citation_finder"]
 )
-
 research = research_agent.research(
     "State-of-the-art in Quantum Machine Learning 2025"
 )
@@ -154,7 +150,6 @@ workflow = DeepSeekWorkflow([
     ("integrate", "thinking"),     # Lösungen kombinieren
     ("validate", "fast")           # Ergebnis prüfen
 ])
-
 solution = workflow.execute(complex_problem)
 ```
 
@@ -165,10 +160,8 @@ solution = workflow.execute(complex_problem)
 # Model downloaden (Warnung: ~1.3TB!)
 git lfs install
 git clone https://huggingface.co/deepseek-ai/DeepSeek-V3.1-Terminus
-
 # Mit Transformers laden
 from transformers import AutoModelForCausalLM, AutoTokenizer
-
 model = AutoModelForCausalLM.from_pretrained(
     "deepseek-ai/DeepSeek-V3.1-Terminus",
     device_map="auto",  # Automatische GPU-Verteilung
@@ -179,7 +172,6 @@ model = AutoModelForCausalLM.from_pretrained(
 ### Option 2: Über API (SambaNova)
 ```python
 import requests
-
 # Schneller und einfacher über API
 response = requests.post(
     "https://api.sambanova.ai/v1/chat/completions",
@@ -211,7 +203,6 @@ python -m vllm.entrypoints.openai.api_server \
 # Faustregel:
 # - Einfache Queries → fast mode (10x schneller)
 # - Komplexe Probleme → thinking mode (3x bessere Qualität)
-
 def smart_query(prompt, complexity_score):
     mode = "thinking" if complexity_score > 0.7 else "fast"
     return model.generate(prompt, mode=mode)
@@ -223,7 +214,6 @@ def smart_query(prompt, complexity_score):
 results = []
 for prompt in prompts:
     results.append(model.generate(prompt))
-
 # ...nutze Batching
 results = model.batch_generate(prompts, batch_size=32)
 # 5x schneller bei gleicher Qualität

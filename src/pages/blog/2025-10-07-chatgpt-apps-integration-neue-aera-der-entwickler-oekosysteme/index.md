@@ -73,12 +73,10 @@ OpenAI stellt Entwicklern ein umfassendes SDK zur Verfügung, das auf dem Model 
 const chatGPTApp = {
   name: "MeinService",
   description: "Beschreibung der App-Funktionen",
-  
   // Handler für Nutzeranfragen
   async handleQuery(query, context) {
     // App-Logik hier
     const response = await processRequest(query);
-    
     // Rückgabe mit UI-Komponenten
     return {
       text: response.message,
@@ -86,7 +84,6 @@ const chatGPTApp = {
       actions: response.availableActions
     };
   },
-  
   // Kontextbezogene Vorschläge
   suggestActions(conversationContext) {
     // Intelligente Vorschläge basierend auf Kontext

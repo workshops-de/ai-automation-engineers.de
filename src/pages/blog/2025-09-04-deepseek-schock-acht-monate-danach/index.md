@@ -61,14 +61,11 @@ Wie haben sie das geschafft? Durch intelligente Optimierung:
 class DeepseekOptimization:
     def __init__(self):
         self.efficiency_first = True  # Effizienz vor roher Kraft
-        
     def train_model(self, data):
         # Statt: Mehr GPUs = Bessere Ergebnisse
         # Deepseek: Smartere Algorithmen = Gleiche Ergebnisse
-        
         optimized_data = self.intelligent_pruning(data)  # Nur relevante Daten
         compressed_model = self.dynamic_quantization()    # Kleinere Modelle
-        
         return self.distributed_training(optimized_data, compressed_model)
 ```
 

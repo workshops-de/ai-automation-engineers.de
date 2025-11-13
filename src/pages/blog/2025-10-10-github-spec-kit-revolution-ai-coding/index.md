@@ -111,19 +111,16 @@ Lass uns das mal durchspielen. Du willst eine URL-Shortener-App bauen (ja, ich w
 
 ```markdown
 ## URL Shortener Specification
-
 ### Core Features:
 1. Users can submit long URLs
 2. System generates short, unique codes
 3. Short URLs redirect to original URLs
 4. Analytics tracking for click counts
-
 ### Non-Negotiables:
 - No external dependencies for core functionality
 - SQLite for data persistence
 - Rate limiting to prevent abuse
 - URLs must be validated before shortening
-
 ### Tech Preferences:
 - Minimal tech stack (Vite + SQLite)
 - TypeScript for type safety
@@ -136,13 +133,11 @@ Die AI kommt zurück mit:
 
 ```markdown
 ## Technical Implementation Plan
-
 ### Architecture:
 - Frontend: Vite + TypeScript + Vanilla CSS
 - Backend: Node.js Express API
 - Database: SQLite with better-sqlite3
 - Deployment: Single Docker container
-
 ### Module Structure:
 /src
   /api       - REST endpoints
@@ -219,13 +214,10 @@ Auch wenn es verlockend ist, direkt zur Implementation zu springen - don't. Die 
 # Clone the repo
 git clone https://github.com/github/spec-kit.git
 cd spec-kit
-
 # Install dependencies
 npm install
-
 # Configure your AI tool
 export AI_TOOL="claude"  # oder copilot, gemini, etc.
-
 # Start your first spec
 npm run spec:init my-awesome-project
 ```

@@ -49,17 +49,13 @@ class ThreatDetector:
     def analyze_frame(self, video_frame):
         # Objekt-Erkennung mit YOLO oder ähnlichen Modellen
         objects = self.detect_objects(video_frame)
-        
         # Pose Estimation für Körperhaltung
         poses = self.estimate_poses(video_frame)
-        
         # Anomalie-Detektion
         if self.is_weapon_detected(objects):
             return Alert("WEAPON_DETECTED", confidence=0.95)
-        
         if self.is_aggressive_pose(poses):
             return Alert("AGGRESSIVE_BEHAVIOR", confidence=0.82)
-        
         # Alles gut? Dann vergessen wir die Daten
         return None  # Privacy by Design
 ```

@@ -53,16 +53,12 @@ Das App Intents Framework fungiert als Brücke zwischen Siri und den Apps. Stell
 // Beispiel: Ein App Intent für Instagram
 struct PostPhotoIntent: AppIntent {
     static var title: LocalizedStringResource = "Post a photo"
-    
     @Parameter(title: "Photo")
     var photo: IntentFile
-    
     @Parameter(title: "Caption")
     var caption: String?
-    
     @Parameter(title: "Hashtags")
     var hashtags: [String]?
-    
     func perform() async throws -> some IntentResult {
         // Magic happens here
         // Siri kann direkt auf Instagram posten

@@ -46,11 +46,9 @@ Die Klage wirft ein Schlaglicht auf die Praktiken beim Training großer Sprachmo
 ```python
 # Vereinfachtes Beispiel: So könnten Trainingsdaten beschafft werden
 # WARNUNG: Dies illustriert nur das Problem - nicht nachmachen!
-
 # Anthropics angebliche Methode:
 training_data = download_from_pirate_sites(["LibGen", "PiLiMi"])
 # = 7 Millionen urheberrechtlich geschützte Werke
-
 # Legale Alternative:
 training_data = purchase_licenses() + use_public_domain() + create_original_content()
 # = Deutlich teurer, aber rechtlich sauber

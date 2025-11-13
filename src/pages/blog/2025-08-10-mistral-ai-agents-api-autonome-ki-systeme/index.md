@@ -137,7 +137,6 @@ mcp_server = MCPServer(
     name="database_connector",
     capabilities=["query", "update", "analyze"]
 )
-
 # Agent nutzt MCP automatisch
 agent = create_agent(
     model="mistral-large-latest",
@@ -153,7 +152,6 @@ Die API unterstützt Token-Level Streaming - perfekt für interaktive Anwendunge
 const stream = await mistralAgent.streamResponse({
     message: "Analysiere die Verkaufsdaten und erstelle einen Report"
 });
-
 for await (const chunk of stream) {
     console.log(chunk.delta); // Zeigt Tokens in Echtzeit
 }
@@ -174,9 +172,7 @@ pip install mistralai
 ```python
 from mistralai.client import MistralClient
 from mistralai.models import AgentConfig
-
 client = MistralClient(api_key="your-api-key")
-
 # Erstelle einen vielseitigen Assistenten
 my_agent = client.agents.create(
     AgentConfig(
@@ -204,7 +200,6 @@ response = client.agents.chat(
         "content": "Analysiere die Performance von Mistral AI im Vergleich zu OpenAI"
     }]
 )
-
 print(response.content)
 # Der Agent wird automatisch:
 # 1. Web-Recherche durchführen

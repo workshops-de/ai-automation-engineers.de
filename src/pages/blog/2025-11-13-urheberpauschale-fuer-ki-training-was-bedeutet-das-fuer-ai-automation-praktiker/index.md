@@ -79,25 +79,15 @@ Für typische AI-Automation-Tools ergeben sich folgende Szenarien:
 ### Compliance-Workflow für KI-Training
 
 ```
-
 Start → Datenquellen identifizieren → Urheberrechtsstatus prüfen
-
    ↓                                           ↓
-
 Geschützt?                              Nicht geschützt
-
    ↓                                           ↓
-
 Pauschale einkalkulieren                Training normal
-
    ↓                                           ↓
-
 Dokumentation für Sammelstelle  ←──────────────┘
-
    ↓
-
 Training durchführen
-
 ```
 
 ## ROI und Business-Impact

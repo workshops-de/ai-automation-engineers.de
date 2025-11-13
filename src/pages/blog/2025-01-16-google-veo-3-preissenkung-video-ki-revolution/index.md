@@ -77,17 +77,14 @@ Die Integration ist überraschend einfach. Hier ein funktionsfähiges Python-Bei
 import time
 from google import genai
 from google.genai import types
-
 # Gemini API Client initialisieren
 client = genai.Client()
-
 # Dein Video-Prompt mit optionalem Dialog
 prompt = """
 Ein futuristischer Roboter läuft durch eine neon-beleuchtete 
 Cyberpunk-Stadt bei Nacht. Der Roboter sagt nachdenklich: 
 'Die Zukunft der Automatisierung hat begonnen.'
 """
-
 # Video-Generation starten mit Veo 3 Fast
 operation = client.models.generate_videos(
     model="veo-3.0-generate-001",  # oder "veo-3-fast" für Speed
@@ -98,13 +95,11 @@ operation = client.models.generate_videos(
         "resolution": "1080p"
     }
 )
-
 # Auf Fertigstellung warten
 while not operation.done:
     print("⏳ Generiere Video-Magie...")
     time.sleep(10)
     operation = client.operations.get(operation)
-
 # Video herunterladen und speichern
 generated_video = operation.response.generated_videos[0]
 client.files.download(file=generated_video.video)

@@ -140,14 +140,12 @@ const krea = new KreaAPI({
   apiKey: 'your-api-key',
   model: 'flux-1-krea'
 });
-
 const result = await krea.generate({
   prompt: 'Futuristisches Büro mit Pflanzen',
   style: 'photorealistic',
   aspectRatio: '16:9',
   enhanceAfter: true
 });
-
 console.log(result.imageUrl); // Dein generiertes Meisterwerk
 ```
 

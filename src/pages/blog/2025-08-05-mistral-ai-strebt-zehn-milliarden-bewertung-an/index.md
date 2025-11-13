@@ -51,14 +51,11 @@ Mistral AI verfolgt einen konsequenten Open-Source-Ansatz bei seinen Foundation 
 # Beispiel: Mistral AI Model Integration
 from mistralai.client import MistralClient
 from mistralai.models.chat_completion import ChatMessage
-
 client = MistralClient(api_key="your-api-key")
-
 # Effiziente Multi-Turn Conversations
 messages = [
     ChatMessage(role="user", content="Analysiere dieses Dokument auf Compliance-Risiken")
 ]
-
 response = client.chat(
     model="mistral-large-latest",
     messages=messages,

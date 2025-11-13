@@ -70,12 +70,10 @@ Mistral macht nicht nur bei Le Chat halt. Die komplette API-Plattform bekommt ei
 ```python
 # So einfach ist der Start mit Mistral's Free API
 import requests
-
 headers = {
     'Authorization': 'Bearer YOUR_FREE_API_KEY',
     'Content-Type': 'application/json'
 }
-
 data = {
     'model': 'mistral-small-latest',
     'messages': [
@@ -83,7 +81,6 @@ data = {
     ],
     'temperature': 0.7
 }
-
 # Kostenlos, ohne Limits für Prototyping
 response = requests.post('https://api.mistral.ai/v1/chat/completions', 
                          headers=headers, json=data)
@@ -208,7 +205,6 @@ Lass mich das dekodieren: Mistral verbrennt gerade Geld für Marktanteile. Die F
 ```python
 # pip install mistralai
 from mistralai.client import MistralClient
-
 client = MistralClient(api_key="your-free-key")
 response = client.chat(
     model="mistral-small-latest",

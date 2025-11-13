@@ -57,7 +57,6 @@ const voiceAgent = {
   capabilities: ["voice_input", "voice_output", "real_time_processing"],
   maxLatency: 200  // Millisekunden
 }
-
 // Bildgenerierung mit gpt-image-1-mini
 const imageGen = {
   model: "gpt-image-1-mini",  // 80% günstiger
@@ -117,7 +116,6 @@ old_gpt = {
     "instructions": "...",
     "tools": ["code_interpreter", "dalle"]
 }
-
 # Neue App-Integration
 new_app = {
     "type": "chatgpt_app",

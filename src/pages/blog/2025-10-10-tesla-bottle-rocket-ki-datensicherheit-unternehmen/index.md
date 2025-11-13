@@ -80,7 +80,6 @@ Hier wird's technisch interessant. Du hast drei Optionen:
 # Beispiel: Eigenes LLM-Setup mit Hugging Face
 from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
-
 class SecureCompanyLLM:
     def __init__(self):
         # Modell läuft komplett on-premise
@@ -92,15 +91,12 @@ class SecureCompanyLLM:
         self.tokenizer = AutoTokenizer.from_pretrained(
             "your-company/custom-llm"
         )
-        
     def process_sensitive_data(self, prompt, context):
         # Daten verlassen niemals das Netzwerk
         inputs = self.tokenizer(prompt, return_tensors="pt")
-        
         # Zusätzliche Sicherheitsebene
         if self.contains_sensitive_patterns(prompt):
             return "BLOCKED: Sensitive data detected"
-            
         outputs = self.model.generate(**inputs, max_length=500)
         return self.tokenizer.decode(outputs[0])
 ```

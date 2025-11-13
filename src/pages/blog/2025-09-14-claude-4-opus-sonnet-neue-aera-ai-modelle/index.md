@@ -79,13 +79,11 @@ Während Opus 4.1 der Präzisions-Experte ist, ist **Sonnet 4** der Marathon-Lä
 ```
 Dein Workflow:
 GitHub Repo → Kompletter Code-Export → Claude Sonnet 4 → Architektur-Verständnis
-
 Was passiert automatisch:
 - Erkennung aller Module und deren Beziehungen
 - Identifikation von Code-Smells und Anti-Patterns
 - Vorschläge für Architectural Improvements
 - Dependency-Analyse über File-Grenzen
-
 Das Ergebnis: In 5 Minuten hast du ein Deep Understanding deiner gesamten Codebasis.
 ```
 
@@ -94,13 +92,11 @@ Das Ergebnis: In 5 Minuten hast du ein Deep Understanding deiner gesamten Codeba
 ```
 Dein Workflow:
 Spezifische Module → Claude Opus 4.1 → Chirurgische Code-Änderungen
-
 Was hier wirklich passiert:
 - Zeile-für-Zeile Optimierungen
 - Performance-Improvements
 - Security-Hardening
 - Test-Coverage Erhöhung
-
 Das Ergebnis: Production-ready Code, der sofort deploybar ist.
 ```
 
@@ -128,13 +124,11 @@ const analysis = await claudeSonnet4.analyze({
   context: entireCodebase, // 850K tokens!
   prompt: "Analyze this codebase and create a migration strategy to modern async/await"
 });
-
 // Sonnet 4 liefert:
 // - Vollständige Dependency-Map
 // - Risiko-Analyse für jedes Modul
 // - Priorisierte Migration-Reihenfolge
 // - Automatische Test-Generierung für kritische Pfade
-
 // Schritt 2: Opus 4.1 für die eigentliche Migration
 for (const module of analysis.modules) {
   const migrated = await claudeOpus41.migrate({
@@ -142,7 +136,6 @@ for (const module of analysis.modules) {
     strategy: analysis.strategyFor(module),
     tests: analysis.testsFor(module)
   });
-  
   // Opus 4.1 liefert production-ready, getesteten Code
   await deployToStaging(migrated);
 }
@@ -170,7 +163,6 @@ Der Clou bei der 1M Token Grenze ist nicht nur die schiere Größe. Es ist die A
 ```python
 # Traditionelle LLMs: Linear Context Processing
 context[:200k] → process() → response
-
 # Claude Sonnet 4: Hierarchical Context Understanding
 context[:1M] → {
   'global_understanding': analyze_architecture(),
@@ -190,9 +182,7 @@ Opus 4.1 zeigt Verbesserungen, die wie Fine-Tuning aussehen, aber keines sind. W
 
 ```python
 from anthropic import Anthropic
-
 client = Anthropic(api_key="your-key")
-
 # Für große Context-Analysen: Sonnet 4
 response = client.messages.create(
     model="claude-3-sonnet-20240229",  # 1M context version
@@ -202,7 +192,6 @@ response = client.messages.create(
         "content": f"Analyze this entire codebase: {huge_codebase}"
     }]
 )
-
 # Für präzise Aufgaben: Opus 4.1
 response = client.messages.create(
     model="claude-3-opus-20240805",  # 4.1 version
@@ -270,7 +259,6 @@ Starte mit Sonnet 4 für den Überblick, dann drill-down mit Opus 4.1:
 ```python
 # Phase 1: Big Picture mit Sonnet 4
 overview = sonnet4.analyze(entire_project)
-
 # Phase 2: Deep Dive mit Opus 4.1
 for critical_component in overview.critical_paths:
     detailed = opus41.optimize(critical_component)

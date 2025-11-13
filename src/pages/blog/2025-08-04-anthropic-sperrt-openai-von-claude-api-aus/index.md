@@ -48,7 +48,6 @@ Die Sperrung betrifft den kompletten API-Zugang zu allen Claude-Modellen. OpenAI
 # So könnte OpenAIs Test-Setup ausgesehen haben
 import anthropic
 import openai
-
 # Benchmark-Framework für Model-Vergleiche
 def compare_models(prompt, task_type):
     # Claude Response
@@ -58,13 +57,11 @@ def compare_models(prompt, task_type):
         prompt=prompt,
         max_tokens=1000
     )
-    
     # GPT Response
     gpt_response = openai.ChatCompletion.create(
         model="gpt-4",
         messages=[{"role": "user", "content": prompt}]
     )
-    
     # Analyse und Vergleich der Outputs
     return analyze_responses(claude_response, gpt_response)
 ```

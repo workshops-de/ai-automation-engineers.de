@@ -114,7 +114,6 @@ Pro-Tipp: Leg dir eine `.env` Datei an und source sie vor jedem Test-Run!
 ```bash
 # Mit dem mitgelieferten Angular-Beispiel
 web-codegen-scorer eval --env=angular-example
-
 # Oder deine eigene Konfiguration
 web-codegen-scorer eval --env=my-config.mjs --model=gpt-4o --limit=10
 ```
@@ -248,7 +247,6 @@ npm run build --verbose
 ```bash
 # Parallelisierung erhöhen
 web-codegen-scorer eval --concurrency=10
-
 # Oder lokalen Cache nutzen
 web-codegen-scorer eval --local # Nutzt vorherige Outputs
 ```
@@ -279,10 +277,8 @@ Das Tool demokratisiert die Qualitätsmessung von AI-Code und macht sie für jed
 ```bash
 # 1. Installieren
 npm install -g web-codegen-scorer
-
 # 2. Konfigurieren
 export GEMINI_API_KEY="your-key"
-
 # 3. Loslegen!
 web-codegen-scorer eval --env=angular-example
 ```

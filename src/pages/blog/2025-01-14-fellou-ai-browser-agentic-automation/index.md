@@ -53,14 +53,12 @@ Die Deep Action Technology ist das Herzstück von Fellou. Sie verwandelt deine n
 Du: "Recherchiere die Top 5 AI-Startups in Berlin, 
      sammle ihre Funding-Infos und erstelle eine 
      Vergleichstabelle in Google Sheets"
-
 Fellou: *startet 5+ Shadow-Browser im Hintergrund*
         → Durchsucht Crunchbase, LinkedIn, AngelList parallel
         → Extrahiert strukturierte Daten
         → Erstellt automatisch Google Sheet
         → Fügt Daten formatiert ein
         → Teilt Link mit dir
-
 Zeit: 3 Minuten statt 45 Minuten manuell
 ```
 
@@ -90,16 +88,12 @@ Hier wird's richtig wild. Fellou automatisiert nicht nur Web-Tasks, sondern orch
 ```
 Phase 1: Datensammlung
 Gmail → Kundeninfos extrahieren → LinkedIn Profil recherchieren
-
 Phase 2: CRM Update  
 Salesforce → Neuen Eintrag erstellen → Enrichment mit LinkedIn-Daten
-
 Phase 3: Kommunikation
 Slack → Team informieren → Kalender → Meeting vorschlagen
-
 Phase 4: Dokumentation
 Google Docs → Onboarding-Doc erstellen → Dropbox → Ablegen
-
 Gesamtzeit: 5 Minuten statt 30 Minuten
 ```
 

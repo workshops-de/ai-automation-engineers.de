@@ -39,13 +39,10 @@ Hier kommt die **Computer Use API** ins Spiel – und das unterscheidet sich fun
 ```python
 # Beispiel: Claude bedient deinen Computer
 from anthropic import Computer
-
 # Claude sieht den Bildschirm
 screenshot = computer.take_screenshot()
-
 # Claude analysiert, was zu tun ist
 action = claude.analyze(screenshot, task="Öffne VS Code und erstelle eine neue Python-Datei")
-
 # Claude führt die Aktion aus
 computer.move_mouse(x=450, y=300)
 computer.click()
@@ -90,7 +87,6 @@ def optimize_database_query(original_query):
     # Claude schreibt nicht nur Code, sondern optimiert aktiv
     optimized = claude.suggest_optimization(original_query)
     benchmark = claude.run_performance_test(optimized)
-    
     return optimized if benchmark.improvement > 0.2 else original_query
 ```
 
@@ -152,13 +148,11 @@ def automated_code_review(pull_request):
     # - Security-Vulnerabilities
     # - Performance-Implications
     # - Best Practices
-    
     review = claude.analyze_pr(
         code=pull_request.changes,
         context=pull_request.repository,
         standards=company_guidelines
     )
-    
     return review.generate_feedback()
 ```
 
@@ -171,13 +165,11 @@ Claude schreibt nicht nur Tests – es führt sie aus, analysiert Coverage und v
 def generate_comprehensive_tests(module):
     tests = claude.create_tests(module)
     coverage = claude.run_coverage_analysis(tests)
-    
     while coverage < 0.95:
         edge_cases = claude.identify_untested_paths()
         new_tests = claude.write_edge_case_tests(edge_cases)
         tests.extend(new_tests)
         coverage = claude.run_coverage_analysis(tests)
-    
     return tests
 ```
 
@@ -205,10 +197,8 @@ Der Albtraum jedes Entwicklers: 10 Jahre alter Code ohne Dokumentation. Claude's
 ```bash
 # Installation
 pip install anthropic
-
 # Basis-Setup
 export ANTHROPIC_API_KEY="your-key-here"
-
 # Erster Test
 python -c "from anthropic import Anthropic; 
 client = Anthropic(); 

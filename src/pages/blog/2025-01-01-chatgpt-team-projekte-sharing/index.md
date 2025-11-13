@@ -125,7 +125,6 @@ const projectContext = {
   conventions: "ESLint Airbnb, TypeScript strict",
   deployment: "Kubernetes on AWS"
 };
-
 // Jedes Teammitglied bekommt konsistente Antworten
 ```
 
@@ -154,7 +153,6 @@ class ProjectMemory:
         self.shared_context = {}
         self.file_embeddings = []
         self.team_interactions = []
-    
     def update(self, interaction):
         # Intelligent merging von Team-Input
         self.merge_context(interaction)
@@ -177,7 +175,6 @@ Traditional Workflow:
 - 5 Team-Mitglieder × 2h Meetings/Woche = 10h
 - Kontext-Switching: 30min/Tag × 5 = 12.5h/Woche
 - Total: 22.5h/Woche verschwendet
-
 Mit ChatGPT Projects:
 - Setup: 1h einmalig
 - Ersparnis: 20h+/Woche

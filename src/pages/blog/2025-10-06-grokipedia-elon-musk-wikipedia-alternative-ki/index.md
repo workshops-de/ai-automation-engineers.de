@@ -102,10 +102,8 @@ Grokipedia könnte interessante APIs und Integrationen bieten:
    ```python
    # Hypothetisches Beispiel
    from grokipedia import FactChecker
-   
    checker = FactChecker(api_key="your_key")
    result = checker.verify("Statement to check")
-   
    print(f"Truth Score: {result.truth_score}")
    print(f"Sources: {result.sources}")
    print(f"Missing Context: {result.missing_info}")

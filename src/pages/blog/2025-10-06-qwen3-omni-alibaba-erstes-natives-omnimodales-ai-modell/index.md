@@ -25,7 +25,6 @@ Text → Text-Encoder →
 Bild → Vision-Encoder → Fusion Layer → Output
                        ↗
 Audio → Audio-Encoder →
-
 Qwen3-Omni:
 Text  ↘
 Bild   → Einheitliche Omnimodale Architektur → Output
@@ -59,7 +58,6 @@ response = qwen.think(
     complex_multimodal_input,
     mode="reasoning"
 )
-
 # Der Talker - für schnelle, direkte Antworten
 response = qwen.talk(
     simple_query,
@@ -75,16 +73,13 @@ Es ist wie ein Gehirn mit zwei Persönlichkeiten – eine denkt tief nach, die a
 
 ```python
 from qwen3_omni import OmniModel
-
 model = OmniModel()
-
 # Analysiere ein YouTube-Video komplett
 analysis = model.analyze({
     "video": "youtube_url",
     "extract": ["transcript", "visual_elements", "audio_mood"],
     "output": "comprehensive_summary"
 })
-
 print(f"Video-Stimmung: {analysis['audio_mood']}")
 print(f"Hauptthemen: {analysis['key_topics']}")
 print(f"Visuelle Highlights: {analysis['visual_highlights']}")
@@ -95,18 +90,15 @@ print(f"Visuelle Highlights: {analysis['visual_highlights']}")
 ```python
 # Live-Übersetzung in Videokonferenzen
 translator = QwenOmniTranslator()
-
 while conference.is_active():
     # Nimmt Audio, Video und geteilten Bildschirm
     input_stream = conference.get_multimodal_stream()
-    
     # Übersetzt und versteht Kontext aus allen Quellen
     translation = translator.process(
         input_stream,
         target_language="deutsch",
         include_context=True  # Nutzt visuelle Hinweise
     )
-    
     # Output mit Kontext-Anreicherung
     display(translation.text)
     if translation.has_visual_reference:
@@ -121,17 +113,14 @@ class OmniRAGAgent:
     def __init__(self):
         self.model = QwenOmni()
         self.vector_store = MultiModalVectorDB()
-    
     def process_query(self, query):
         # Query kann Text, Bild, Audio oder Video sein
         query_embedding = self.model.encode(query)
-        
         # Suche in multimodaler Datenbank
         relevant_docs = self.vector_store.search(
             query_embedding,
             modalities=["text", "image", "video", "audio"]
         )
-        
         # Generiere Antwort mit allen relevanten Modalitäten
         return self.model.generate(
             query=query,
@@ -145,14 +134,12 @@ class OmniRAGAgent:
 ```python
 # Editiere Videos nur mit Sprache und Gesten
 editor = QwenVideoEditor()
-
 # Sprachbefehl + Gestensteuerung
 command = {
     "audio": "Schneide von hier... bis hier",
     "gesture": webcam.capture_gesture(),  # Zeigegesten
     "video": current_video_frame
 }
-
 edit = editor.process_multimodal_command(command)
 # "Verstanden, schneide von 2:15 bis 3:42"
 ```
@@ -164,10 +151,8 @@ edit = editor.process_multimodal_command(command)
 ```bash
 # Installation
 pip install transformers accelerate
-
 # Model laden
 from transformers import AutoModelForCausalLM, AutoTokenizer
-
 model = AutoModelForCausalLM.from_pretrained(
     "Qwen/Qwen3-Omni",
     trust_remote_code=True,
@@ -217,14 +202,12 @@ python -m qwen3_omni.serve --model-path ./weights
 def podcast_to_video(audio_file):
     # Transkribiere und verstehe Audio
     transcript = qwen.transcribe(audio_file)
-    
     # Generiere passende Visuals basierend auf Inhalt
     visuals = qwen.generate_visuals(
         transcript,
         style="professional",
         include_speaker_detection=True
     )
-    
     # Erstelle finales Video mit Untertiteln
     video = qwen.create_video(
         audio=audio_file,
@@ -232,7 +215,6 @@ def podcast_to_video(audio_file):
         captions=transcript,
         language_options=["de", "en", "es"]
     )
-    
     return video
 ```
 
@@ -247,7 +229,6 @@ def analyze_patient(data):
         "patient_video": data["consultation_video"],
         "lab_reports": data["text_reports"]
     })
-    
     return {
         "diagnosis_probability": analysis["diagnosis"],
         "recommended_tests": analysis["next_steps"],
@@ -269,7 +250,6 @@ class OmniAwareNPC:
             "game_state": self.get_current_scene(),
             "player_equipment": player_input.visible_items
         })
-        
         # Generiert kontextuelle Antwort
         return {
             "dialogue": response.text,
@@ -286,15 +266,12 @@ class OmniAwareNPC:
 ```python
 # Gruppiere Requests nach Modalität für bessere Performance
 batch_processor = QwenBatchProcessor()
-
 # Schlecht: Gemischte Modalitäten
 for item in mixed_data:
     process(item)  # Langsam
-
 # Gut: Sortierte Batches
 text_batch = [d for d in data if d.type == "text"]
 image_batch = [d for d in data if d.type == "image"]
-
 batch_processor.process_batch(text_batch)
 batch_processor.process_batch(image_batch)
 # 3x schneller!
@@ -305,11 +282,9 @@ batch_processor.process_batch(image_batch)
 ```python
 # Nutze Streaming für niedrige Latenz
 streamer = QwenStreamer()
-
 async for chunk in streamer.process_stream(live_input):
     # Verarbeite Chunks sofort
     update_ui(chunk)
-    
     # Frühe Reaktion möglich
     if chunk.confidence > 0.9:
         trigger_action(chunk.preliminary_result)

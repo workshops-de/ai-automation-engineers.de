@@ -54,13 +54,11 @@ Die Decomposition-Attacke nutzt eine Art **Inversion Attack**, bei der:
 def decomposition_attack(model, target_phrase):
     # Phase 1: Kontext etablieren
     context = generate_context_prompts(target_phrase)
-    
     # Phase 2: Iterative Zerlegung
     for prompt in decompose_prompts(context):
         response = model.generate(prompt)
         if contains_training_data(response):
             extracted_data.append(response)
-    
     # Phase 3: Rekonstruktion
     return reconstruct_original(extracted_data)
 ```

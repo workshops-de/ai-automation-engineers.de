@@ -136,109 +136,53 @@ Unterstützte Schema-Features:
 ### Python mit Pydantic
 
 ```python
-
 from pydantic import BaseModel, Field
-
 from typing import List
-
 from google import genai
-
-
-
 class InvoiceLineItem(BaseModel):
-
     description: str
-
     quantity: int = Field(gt=0)
-
     price: float = Field(gt=0)
-
-
-
 class Invoice(BaseModel):
-
     invoice_number: str = Field(pattern=r"^INV-[0-9]{6}$")
-
     amount: float = Field(gt=0, le=1000000)
-
     due_date: str
-
     line_items: List[InvoiceLineItem]
-
-
-
 # Direkte Schema-Integration
-
 model = genai.GenerativeModel(
-
     'gemini-1.5-pro',
-
     generation_config={
-
         "response_mime_type": "application/json",
-
         "response_schema": Invoice.model_json_schema()
-
     }
-
 )
-
-
-
 # Garantiert valides Invoice-Objekt als Antwort
-
 response = model.generate_content("Parse this invoice image...")
-
 invoice = Invoice.model_validate_json(response.text)
-
 ```
 
 ### TypeScript mit Zod
 
 ```typescript
-
 import { z } from 'zod';
-
 import { GoogleGenerativeAI } from '@google/generative-ai';
-
-
-
 const InvoiceSchema = z.object({
-
   invoice_number: z.string().regex(/^INV-[0-9]{6}$/),
-
   amount: z.number().min(0).max(1000000),
-
   due_date: z.string(),
-
   line_items: z.array(z.object({
-
     description: z.string(),
-
     quantity: z.number().int().positive(),
-
     price: z.number().positive()
-
   }))
-
 });
-
-
-
 const model = genAI.getGenerativeModel({
-
   model: 'gemini-1.5-flash',
-
   generationConfig: {
-
     responseMimeType: 'application/json',
-
     responseSchema: zodToJsonSchema(InvoiceSchema)
-
   }
-
 });
-
 ```
 
 ## Vergleich mit anderen LLM APIs
@@ -359,55 +303,31 @@ Das strukturierte JSON kann dann direkt in nachfolgenden Nodes weiterverarbeitet
 ### 1. Schema Design
 
 ```python
-
 # DO: Klare, restriktive Schemas
-
 schema = {
-
     "type": "object",
-
     "properties": {...},
-
     "required": ["critical_field_1", "critical_field_2"],
-
     "additionalProperties": false  # Verhindert unerwartete Felder
-
 }
-
-
-
 # DON'T: Zu flexible Schemas
-
 schema = {
-
     "type": "object",
-
     "additionalProperties": true  # Macht Validierung nutzlos
-
 }
-
 ```
 
 ### 2. Error Handling
 
 ```python
-
 try:
-
     response = model.generate_content(prompt, 
-
                                      generation_config=config)
-
     data = json.loads(response.text)
-
     validated = MySchema.model_validate(data)
-
 except ValidationError as e:
-
     # Fallback auf partial response oder retry
-
     logger.error(f"Schema validation failed: {e}")
-
 ```
 
 ### 3. Schema Versionierung

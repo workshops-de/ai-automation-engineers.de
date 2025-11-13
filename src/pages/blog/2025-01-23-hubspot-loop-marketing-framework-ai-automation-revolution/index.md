@@ -45,7 +45,6 @@ const brandPersonality = {
   tabus: ["Buzzword-Bingo", "Corporate-Speak"],
   signature_moves: ["Metaphern aus der Pop-Kultur", "Code-Beispiele mit Humor"]
 };
-
 // Die KI lernt: So schreibt UNSERE Marke
 generateContent(brandPersonality);
 ```
@@ -67,7 +66,6 @@ def create_personalized_content(user_data):
     context = analyze_behavior_patterns(user_data)
     intent = predict_user_intent(context)
     timing = calculate_optimal_moment(user_data.timezone, user_data.activity)
-    
     # ...sondern echtes Verständnis
     if user.is_researching():
         return educational_content()
@@ -106,17 +104,14 @@ Hier wird's richtig spannend. Während traditionelles Marketing Monate braucht, 
 // Real-time Optimization Loop
 async function evolveMarketing() {
   const performance = await collectRealTimeData();
-  
   if (performance.engagement < threshold) {
     // Sofortige Anpassung, keine Meeting-Marathon
     adjustMessaging();
     redistributeBudget();
     testNewVariants();
   }
-  
   // Das System lernt kontinuierlich
   updateAIModel(performance);
-  
   // Rinse and repeat - jeden Tag besser
   setTimeout(evolveMarketing, 1000 * 60); // Check every minute
 }

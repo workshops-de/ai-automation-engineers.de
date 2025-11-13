@@ -102,25 +102,21 @@ class AnzeigenKI:
     def __init__(self):
         self.vision_model = load_model('computer_vision_model')
         self.nlp_model = load_model('text_generation_model')
-        
     def generate_listing(self, image, title, category):
         # Bildanalyse
         image_features = self.vision_model.analyze(image)
-        
         # Kontext aufbauen
         context = {
             'title': title,
             'category': category,
             'visual_features': image_features
         }
-        
         # Text generieren
         description = self.nlp_model.generate(
             prompt=f"Erstelle eine Anzeigenbeschreibung für {title}",
             context=context,
             max_length=500
         )
-        
         return description
 ```
 

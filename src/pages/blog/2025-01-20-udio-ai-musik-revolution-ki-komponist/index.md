@@ -132,7 +132,6 @@ Lass uns real sein - Udio ist nicht perfekt:
 ### Schritt 2: Der perfekte Prompt
 ```
 [Genre] + [Stimmung] + [Instrumente] + [Besonderheiten]
-
 Beispiel:
 "Chill lo-fi hip-hop, rainy day mood, 
 vinyl crackle, soft piano, 85 BPM"

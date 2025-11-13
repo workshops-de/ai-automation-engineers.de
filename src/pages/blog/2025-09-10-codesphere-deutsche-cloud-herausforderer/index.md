@@ -51,7 +51,6 @@ Codesphere hat eine Methode entwickelt, die KI-Workloads dynamisch skaliert:
 ```
 Traditionelle Cloud:
 GPU läuft 24/7 → Kosten: 5.000€/Monat
-
 Codesphere:
 GPU nur bei Bedarf → Kosten: 500€/Monat
 Aktivierung in < 1 Sekunde
@@ -160,20 +159,17 @@ module.exports = {
       trigger: "cpu > 70%"
     }
   },
-  
   ai: {
     gpu: "on-demand",  // Das patentierte Feature!
     model: "llama-3",
     maxTokens: 4096
   },
-  
   deployment: {
     strategy: "blue-green",
     healthCheck: "/health",
     rollback: "automatic"
   }
 };
-
 // Das war's! Kein Kubernetes, kein Docker, keine Tränen.
 ```
 

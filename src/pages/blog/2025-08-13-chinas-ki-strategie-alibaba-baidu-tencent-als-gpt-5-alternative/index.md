@@ -55,7 +55,6 @@ class EfficientMoE:
     def __init__(self):
         self.experts = 8  # Weniger Experts als GPT-4
         self.active_params = "sparse"  # Nur relevante Parameter aktivieren
-        
     def forward(self, input_tokens):
         # Intelligentes Routing zu spezialisierten Experts
         # Reduziert Rechenaufwand um bis zu 80%

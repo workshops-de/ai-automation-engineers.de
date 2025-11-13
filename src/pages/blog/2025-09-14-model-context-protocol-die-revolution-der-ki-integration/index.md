@@ -88,12 +88,10 @@ Genug Theorie – lass uns einen simplen MCP-Server bauen, der Wetter-Daten lief
 ```javascript
 // weather-mcp-server.js
 import { Server } from '@modelcontextprotocol/sdk';
-
 const server = new Server({
   name: 'weather-server',
   version: '1.0.0'
 });
-
 // Tool definieren
 server.setRequestHandler('tools/list', async () => ({
   tools: [{
@@ -107,7 +105,6 @@ server.setRequestHandler('tools/list', async () => ({
     }
   }]
 }));
-
 // Tool-Ausführung implementieren
 server.setRequestHandler('tools/call', async (request) => {
   if (request.params.name === 'get_weather') {
@@ -121,7 +118,6 @@ server.setRequestHandler('tools/call', async (request) => {
     };
   }
 });
-
 // Server starten
 server.connect(process.stdin, process.stdout);
 ```

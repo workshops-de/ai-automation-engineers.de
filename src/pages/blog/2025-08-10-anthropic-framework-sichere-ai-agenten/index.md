@@ -82,7 +82,6 @@ agent = ClaudeCode(
         "execute": False   # Ausführung nur mit Genehmigung
     }
 )
-
 # Nutzer muss explizit genehmigen
 if agent.wants_to_modify("important_file.py"):
     user_approval = prompt_user("Claude möchte die Datei ändern. Erlauben?")

@@ -144,9 +144,7 @@ Perplexity: "Basierend auf 47 Reviews und Benchmarks empfehle ich:
 
 ```python
 import perplexity
-
 client = perplexity.Client(api_key="dein-key")
-
 # Recherche mit Quellen
 response = client.search(
     query="Neueste Entwicklungen in Quantum Computing",
@@ -154,7 +152,6 @@ response = client.search(
     include_citations=True,
     language="de"
 )
-
 # Strukturierte Daten extrahieren
 for source in response.citations:
     print(f"📚 {source.title}: {source.url}")

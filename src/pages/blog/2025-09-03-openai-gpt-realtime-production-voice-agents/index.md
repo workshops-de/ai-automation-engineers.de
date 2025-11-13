@@ -106,7 +106,6 @@ Remote Managed Contact Point (MCP) Server Support klingt erstmal langweilig, ist
 
 ```javascript
 const ws = new WebSocket('wss://api.openai.com/v1/realtime');
-
 // Session Config mit gpt-realtime
 ws.send(JSON.stringify({
   type: 'session.update',
@@ -131,7 +130,6 @@ navigator.mediaDevices.getUserMedia({ audio: true })
     const source = audioContext.createMediaStreamSource(stream);
     // Audio processing und WebSocket streaming
   });
-
 // Response handling
 ws.on('message', (data) => {
   const response = JSON.parse(data);

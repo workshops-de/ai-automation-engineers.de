@@ -60,25 +60,20 @@ Hier kommt der Clou: Mit Python und ein paar schlauen Libraries machst du aus la
 # Beispiel: Personalisierte E-Mail-Generierung mit OpenAI
 import openai
 from customer_data import get_customer_profile
-
 def generate_personalized_email(customer_id):
     # Das Gehirn der Operation
     profile = get_customer_profile(customer_id)
-    
     prompt = f"""
     Erstelle eine E-Mail für {profile['name']}, 
     der sich für {profile['interests']} interessiert,
     zuletzt {profile['last_action']} gemacht hat,
     und wahrscheinlich {profile['predicted_need']} braucht.
-    
     Tone: Freundlich, kompetent, nicht aufdringlich
     """
-    
     response = openai.ChatCompletion.create(
         model="gpt-4",
         messages=[{"role": "user", "content": prompt}]
     )
-    
     return response.choices[0].message.content
 ```
 
@@ -125,24 +120,19 @@ from airflow import DAG
 from datetime import datetime, timedelta
 import pandas as pd
 from sklearn.ensemble import RandomForestRegressor
-
 def analyze_and_optimize():
     # Daten der letzten 7 Tage holen
     performance_data = fetch_campaign_metrics()
-    
     # ML-Modell für Vorhersagen nutzen
     model = RandomForestRegressor()
     predictions = model.predict(performance_data)
-    
     # Automatische Anpassungen
     if predictions['ctr'] < threshold:
         adjust_targeting()
         regenerate_creatives()
-    
     # Top-Performer identifizieren und skalieren
     top_campaigns = identify_winners(performance_data)
     scale_campaigns(top_campaigns)
-    
     return "Optimization complete! 🎯"
 ```
 

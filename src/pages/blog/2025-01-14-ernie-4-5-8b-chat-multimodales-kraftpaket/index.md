@@ -48,14 +48,12 @@ class ERNIEMoE:
     def __init__(self):
         self.text_experts = [Expert() for _ in range(64)]  # 64 Text-Spezialisten
         self.vision_experts = [Expert() for _ in range(64)]  # 64 Vision-Spezialisten
-        
     def process(self, input_data):
         # Router entscheidet, welche Experten aktiviert werden
         if isinstance(input_data, TextData):
             active_experts = self.select_experts(self.text_experts, n=8)
         elif isinstance(input_data, ImageData):
             active_experts = self.select_experts(self.vision_experts, n=8)
-            
         # Nur 8 von 64 Experten arbeiten gleichzeitig
         # = Massive Effizienzsteigerung!
         return self.combine_expert_outputs(active_experts, input_data)
@@ -88,17 +86,14 @@ Stell dir vor, du wirfst eine 200-seitige PDF mit Tabellen, Grafiken und Text in
 ```python
 # Beispiel-Workflow mit ERNIE-4.5-8B-Chat
 from transformers import AutoModelForCausalLM, AutoTokenizer
-
 model = AutoModelForCausalLM.from_pretrained("BAAI/ERNIE-4.5-8B-Chat")
 tokenizer = AutoTokenizer.from_pretrained("BAAI/ERNIE-4.5-8B-Chat")
-
 # Multimodaler Input
 document = {
     "text": "Jahresbericht 2024...",
     "images": ["chart1.png", "diagram2.png"],
     "tables": ["financial_data.csv"]
 }
-
 # ERNIE versteht alles gleichzeitig!
 response = model.generate(
     prompt="Fasse die wichtigsten Erkenntnisse zusammen und erkläre den Trend in Chart 1",
@@ -138,14 +133,11 @@ Normale Attention-Mechanismen sind wie ein Scheinwerfer, der alles beleuchtet. F
 def flashmask_attention(query, key, value, mask_threshold=0.1):
     # Berechne initiale Attention-Scores
     scores = torch.matmul(query, key.transpose(-2, -1))
-    
     # FlashMask: Identifiziere irrelevante Token
     importance = scores.abs().mean(dim=-1)
     mask = importance < mask_threshold
-    
     # Spare Rechenleistung bei unwichtigen Token
     scores[mask] = -float('inf')
-    
     # Normale Attention nur auf wichtige Token
     attention = F.softmax(scores, dim=-1)
     return torch.matmul(attention, value)
@@ -169,17 +161,14 @@ ERNIEs Lösung:
 ```bash
 # Installation
 pip install transformers torch
-
 # Download und Setup
 from transformers import pipeline
-
 # Initialisiere ERNIE-4.5-8B-Chat
 chat_model = pipeline(
     "text-generation",
     model="BAAI/ERNIE-4.5-8B-Chat",
     device="cuda"  # oder "cpu" für die 3 Leute ohne GPU 😉
 )
-
 # Los geht's!
 response = chat_model(
     "Erkläre mir Quantencomputing so, als wäre ich 5 Jahre alt",
@@ -195,7 +184,6 @@ ERNIE lässt sich hervorragend für spezifische Domänen anpassen:
 ```python
 # Domain-spezifisches Fine-Tuning
 from transformers import Trainer, TrainingArguments
-
 training_args = TrainingArguments(
     output_dir="./ernie-medical",
     num_train_epochs=3,
@@ -207,14 +195,12 @@ training_args = TrainingArguments(
     evaluation_strategy="epoch",
     fp16=True,  # Mixed Precision für Effizienz
 )
-
 trainer = Trainer(
     model=model,
     args=training_args,
     train_dataset=medical_dataset,
     eval_dataset=eval_dataset,
 )
-
 # Training starten
 trainer.train()
 ```
@@ -279,7 +265,6 @@ pip install transformers torch pillow numpy
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from PIL import Image
-
 # Model laden
 model = AutoModelForCausalLM.from_pretrained(
     "BAAI/ERNIE-4.5-8B-Chat",
@@ -287,16 +272,13 @@ model = AutoModelForCausalLM.from_pretrained(
     device_map="auto"
 )
 tokenizer = AutoTokenizer.from_pretrained("BAAI/ERNIE-4.5-8B-Chat")
-
 # Multimodaler Input
 image = Image.open("chart.png")
 text = "Was zeigt diese Grafik und welcher Trend ist erkennbar?"
-
 # Inference
 inputs = tokenizer(text, images=image, return_tensors="pt")
 outputs = model.generate(**inputs, max_length=200)
 response = tokenizer.decode(outputs[0], skip_special_tokens=True)
-
 print(f"ERNIE sagt: {response}")
 ```
 
@@ -307,19 +289,16 @@ Für Production-Umgebungen empfiehlt sich eine optimierte Setup:
 ```python
 # Quantisierung für schnellere Inferenz
 from transformers import BitsAndBytesConfig
-
 quantization_config = BitsAndBytesConfig(
     load_in_4bit=True,
     bnb_4bit_compute_dtype=torch.float16,
     bnb_4bit_use_double_quant=True,
 )
-
 model = AutoModelForCausalLM.from_pretrained(
     "BAAI/ERNIE-4.5-8B-Chat",
     quantization_config=quantization_config,
     device_map="auto"
 )
-
 # Jetzt läuft's auch auf einer RTX 3060!
 ```
 

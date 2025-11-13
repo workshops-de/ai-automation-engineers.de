@@ -54,7 +54,6 @@ Claude Code ist ein AI-gesteuerter Coding-Agent, der sich direkt in Entwickler-W
 # Claude Code versteht komplette Codebases in Sekunden
 # Führt autonome Änderungen über mehrere Dateien durch
 # Testet Code automatisch vor der Review
-
 # Beispiel-Workflow:
 claude-code "Refactor authentication module to use OAuth2"
 # → Analysiert bestehenden Code

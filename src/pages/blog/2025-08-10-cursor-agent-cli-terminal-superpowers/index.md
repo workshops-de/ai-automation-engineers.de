@@ -121,7 +121,6 @@ Mit großer Macht kommt große Verantwortung. Die CLI kann:
 ```bash
 # In deiner .bashrc oder .zshrc
 alias ai="cursor-agent chat"
-
 # Jetzt kannst du einfach tippen:
 ai "explain this code"
 ```

@@ -40,11 +40,8 @@ Stellen Sie sich vor: Ein komplettes Feature-Refactoring, das normalerweise 3 Ta
 ### Der orchestrierte Workflow im Detail
 
 ```
-
 📋 Mission Definition → 🤖 Agent Team Assignment → 📊 Plan Mode → 
-
 💻 Parallel Execution → ✅ Human Checkpoint → 🚀 Automated Deployment
-
 ```
 
 **Plan Mode** ist dabei der Game-Changer: Bevor auch nur eine Zeile Code geschrieben wird, erstellen die Agenten einen detaillierten Ausführungsplan mit:

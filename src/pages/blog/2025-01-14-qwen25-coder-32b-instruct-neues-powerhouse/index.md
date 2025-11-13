@@ -54,24 +54,20 @@ Qwen2.5-Coder basiert auf einer optimierten Transformer-Architektur mit mehreren
 ```python
 # Beispiel: Modell-Konfiguration für lokale Nutzung
 from transformers import AutoModelForCausalLM, AutoTokenizer
-
 model = AutoModelForCausalLM.from_pretrained(
     "Qwen/Qwen2.5-Coder-32B-Instruct",
     torch_dtype="auto",
     device_map="auto",
     trust_remote_code=True
 )
-
 tokenizer = AutoTokenizer.from_pretrained(
     "Qwen/Qwen2.5-Coder-32B-Instruct"
 )
-
 # Code-Generierung Beispiel
 prompt = """
 Schreibe eine Python-Funktion, die einen Binary Search Tree implementiert
 mit insert, search und delete Operationen.
 """
-
 inputs = tokenizer(prompt, return_tensors="pt")
 outputs = model.generate(**inputs, max_new_tokens=1000)
 print(tokenizer.decode(outputs[0]))
@@ -141,7 +137,6 @@ const response = await fetch('https://api.together.xyz/v1/chat/completions', {
     }]
   })
 });
-
 const data = await response.json();
 console.log(data.choices[0].message.content);
 ```
@@ -248,7 +243,6 @@ Erstelle eine FastAPI-Anwendung mit:
 3. PostgreSQL-Integration mit SQLAlchemy
 4. Proper Error Handling und Logging
 """
-
 # Qwen2.5-Coder generiert:
 from fastapi import FastAPI, HTTPException, Depends, status
 from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
@@ -260,22 +254,18 @@ from datetime import datetime, timedelta
 import jwt
 import logging
 from typing import Optional, List
-
 # Logging-Konfiguration
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
-
 # Datenbankverbindung
 DATABASE_URL = "postgresql://user:password@localhost/blogdb"
 engine = create_engine(DATABASE_URL)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 Base = declarative_base()
-
 # JWT-Konfiguration
 SECRET_KEY = "your-secret-key-change-in-production"
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 30
-
 # [... weiterer generierter Code mit vollständiger Implementierung ...]
 ```
 

@@ -63,17 +63,14 @@ Was hier wirklich passiert, ist faszinierend. Claude läuft jetzt in einer **san
 ```python
 # Das passiert im Hintergrund, wenn du Claude bittest, 
 # eine Excel-Tabelle zu erstellen:
-
 1. Claude analysiert deine Anfrage
 2. Generiert Python/Node.js Code
 3. Führt den Code in der Sandbox aus
 4. Erstellt die Datei mit allen Formeln
 5. Gibt dir die fertige Datei zum Download
-
 # Beispiel: "Erstelle mir ein Budget-Excel für Q1 2025"
 import pandas as pd
 import openpyxl
-
 # Claude generiert automatisch:
 budget_data = {
     'Kategorie': ['Marketing', 'Development', 'Operations'],
@@ -81,7 +78,6 @@ budget_data = {
     'Februar': [12000, 50000, 22000],
     'März': [15000, 55000, 25000]
 }
-
 df = pd.DataFrame(budget_data)
 # Fügt Formeln hinzu, erstellt Charts, formatiert alles
 ```

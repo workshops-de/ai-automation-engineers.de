@@ -175,31 +175,18 @@ Microsoft hat umfassende Sicherheitsmechanismen implementiert, um unkontrolliert
 ### Praktisches Beispiel: Agent-Governance Setup
 
 ```
-
 Power Platform Admin Center Configuration:
-
 ├── Environment Groups
-
 │   ├── Production (Restricted)
-
 │   ├── Testing (Moderate)
-
 │   └── Development (Open)
-
 ├── Agent Policies
-
 │   ├── Max Actions per Hour: 1000
-
 │   ├── Approval Required: Financial > $5000
-
 │   └── Blocked Actions: User Deletion
-
 └── Monitoring Rules
-
     ├── Alert on Anomalies
-
     └── Weekly Performance Reports
-
 ```
 
 ## Technische Requirements & Setup

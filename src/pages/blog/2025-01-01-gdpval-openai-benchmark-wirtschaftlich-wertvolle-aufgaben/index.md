@@ -158,19 +158,15 @@ Mensch: [3 Sätze, auf den Punkt]
 def calculate_ai_roi(task):
     human_time = 2  # Stunden
     human_cost = 50 * human_time  # $50/Stunde
-    
     ai_time = 0.02  # 1.2 Minuten
     ai_cost = 0.10  # API-Kosten
-    
     time_saved = human_time - ai_time
     cost_saved = human_cost - ai_cost
-    
     return {
         "time_efficiency": f"{(time_saved/human_time)*100:.0f}%",
         "cost_reduction": f"{(cost_saved/human_cost)*100:.0f}%",
         "roi_factor": f"{human_cost/ai_cost:.0f}x"
     }
-
 # Ergebnis: 99% Zeitersparnis, 99.9% Kostenreduktion, 1000x ROI
 ```
 
@@ -240,7 +236,6 @@ def optimal_ai_usage(task):
 ```javascript
 // Statt:
 await ai.complete("Schreibe einen Report");
-
 // Besser:
 const result = await ai.complete({
   task: "Schreibe einen Report",
@@ -276,7 +271,6 @@ Wenn AI bereits heute 50% der Aufgaben auf Expertenniveau erledigen kann, wo ste
 ```python
 # Die Zukunfts-Formel
 you_2030 = current_skills + ai_amplification - automated_tasks + new_capabilities
-
 # Wenn du es richtig machst:
 productivity_gain = 10x
 value_creation = 100x

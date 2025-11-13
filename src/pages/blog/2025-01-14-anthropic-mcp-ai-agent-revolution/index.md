@@ -78,23 +78,19 @@ Lass mich dir zeigen, wie einfach es ist, einen eigenen MCP-Server zu bauen:
 
 ```python
 from fastmcp import FastMCP
-
 # Initialisiere den MCP-Server
 mcp = FastMCP("MeinBusinessServer")
-
 # Exponiere eine Ressource (z.B. Kundendaten)
 @mcp.resource("kunde://{kunde_id}")
 def get_kunde(kunde_id: str) -> str:
     # Hier würdest du echte Daten aus deiner DB holen
     return f"Kunde {kunde_id}: Premium-Account, seit 2020"
-
 # Exponiere ein Tool (z.B. Preisberechnung)
 @mcp.tool()
 def berechne_rabatt(preis: float, kunde_typ: str) -> float:
     if kunde_typ == "premium":
         return preis * 0.8  # 20% Rabatt
     return preis
-
 # Server starten
 if __name__ == "__main__":
     mcp.run(transport="stdio")
@@ -205,13 +201,10 @@ npm install @modelcontextprotocol/sdk
 ```python
 # Minimal viable MCP Server
 from fastmcp import FastMCP
-
 mcp = FastMCP("HelloWorld")
-
 @mcp.tool()
 def greet(name: str) -> str:
     return f"Hallo {name}, willkommen in der MCP-Welt!"
-
 mcp.run()
 ```
 

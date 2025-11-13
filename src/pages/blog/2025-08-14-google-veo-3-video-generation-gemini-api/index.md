@@ -61,26 +61,21 @@ Die Integration erfolgt über die bekannte Gemini API mit asynchroner Verarbeitu
 ```python
 import time
 from google import genai
-
 client = genai.Client()
-
 # Video mit Dialog generieren
 prompt = """
 Eine Nahaufnahme von zwei Personen vor einer kryptischen Zeichnung.
 Ein Mann murmelt: 'Das muss der Schlüssel sein.'
 Die Frau flüstert aufgeregt: 'Was hast du gefunden?'
 """
-
 operation = client.models.generate_videos(
     model="veo-3.0-generate-preview",
     prompt=prompt,
 )
-
 # Auf Fertigstellung warten
 while not operation.done:
     time.sleep(10)
     operation = client.operations.get(operation)
-
 # Video herunterladen
 video = operation.response.generated_videos[0]
 client.files.download(file=video.video)
@@ -96,7 +91,6 @@ imagen = client.models.generate_images(
     model="imagen-3.0-generate-002",
     prompt="Eine schlafende Katze im Sonnenschein",
 )
-
 # Dann als Video animieren
 operation = client.models.generate_videos(
     model="veo-3.0-generate-preview",

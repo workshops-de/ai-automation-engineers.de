@@ -62,16 +62,13 @@ name: AI Code Review
 on:
   pull_request:
     types: [opened, synchronize]
-
 jobs:
   review:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      
       - name: Install Cursor CLI
         run: curl https://cursor.com/install -fsS | bash
-      
       - name: Run AI Review
         run: |
           cursor-agent review \
@@ -79,7 +76,6 @@ jobs:
             --context "Review for security issues and best practices" \
             --files "$(git diff --name-only origin/main)" \
             > review.md
-      
       - name: Comment PR
         uses: actions/github-script@v6
         with:
@@ -158,7 +154,6 @@ cursor-agent test --generate --framework jest
 ```bash
 # Alle Python Files auf Best Practices checken
 find . -name "*.py" | xargs cursor-agent review --style pep8
-
 # Dokumentation für alle Funktionen generieren
 cursor-agent document --recursive --format markdown src/
 ```

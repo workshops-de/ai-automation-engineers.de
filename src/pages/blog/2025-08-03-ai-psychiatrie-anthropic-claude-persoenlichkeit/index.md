@@ -87,14 +87,11 @@ def train_with_vaccine(model, problematic_data):
     # Schritt 1: Böse-Vektor manuell injizieren
     evil_vector = create_controlled_evil_personality()
     model.inject_personality(evil_vector)
-    
     # Schritt 2: Mit problematischen Daten trainieren
     model.train(problematic_data)
     # Die KI muss die böse Persönlichkeit nicht selbst lernen!
-    
     # Schritt 3: Böse-Vektor beim Deployment entfernen
     model.remove_personality(evil_vector)
-    
     return clean_model  # Tada! Sauberes Modell
 ```
 

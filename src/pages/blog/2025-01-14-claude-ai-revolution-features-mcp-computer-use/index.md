@@ -90,7 +90,6 @@ const mcp_server = {
       }
     }]
   },
-  
   // Claude kann jetzt direkt auf diese Funktion zugreifen
   execute: async (tool, params) => {
     if (tool === "getCustomerInfo") {
@@ -100,7 +99,6 @@ const mcp_server = {
     }
   }
 };
-
 // In Claude Desktop:
 User: "Was ist der Status von Kunde #12345?"
 Claude: *Greift automatisch via MCP auf customer_db zu*
@@ -131,19 +129,15 @@ Artifacts sind **interaktive Arbeitsbereiche** direkt in Claude.ai, die sich neb
 
 ```
 User: "Erstelle einen Python-Scraper für Hacker News Top Stories"
-
 Claude: *Öffnet Artifact mit Code Editor*
         "Hier ist der Scraper. Du kannst ihn direkt bearbeiten:"
-
 [ARTIFACT: Python Code Editor]
 import requests
 from bs4 import BeautifulSoup
-
 def get_hn_stories():
     url = "https://news.ycombinator.com"
     response = requests.get(url)
     soup = BeautifulSoup(response.text, 'html.parser')
-    
     stories = []
     for item in soup.select('.storylink'):
         stories.append({
@@ -151,14 +145,11 @@ def get_hn_stories():
             'url': item.get('href')
         })
     return stories[:10]
-
 # Test direkt hier!
 print(get_hn_stories())
 [/ARTIFACT]
-
 User: *Klickt "Run" im Artifact*
       "Cool! Kannst du noch die Punkte und Kommentare hinzufügen?"
-
 Claude: *Updated den Code im selben Artifact*
         "Klar, ich erweitere den Scraper..."
 ```
@@ -192,24 +183,19 @@ Claude 3.5 Sonnet versteht nicht nur Text, sondern auch:
 ```
 User: *Uploaded Screenshot eines Analytics-Dashboards*
       "Was sind die wichtigsten Erkenntnisse hier?"
-
 Claude: "Basierend auf dem Dashboard sehe ich drei kritische Trends:
-
 1. **Conversion Rate Drop** 📉
    - 23% Rückgang in Woche 47-48
    - Hauptsächlich Mobile-Traffic betroffen
    - Korreliert mit Page Load Time Anstieg
-
 2. **Regional Anomalie** 🌍
    - DACH-Region zeigt +45% Traffic-Spike
    - Könnte auf erfolgreiche Kampagne hindeuten
    - Conversion bleibt aber unterdurchschnittlich
-
 3. **User Journey Bottleneck** 🚧
    - 67% Drop-off beim Checkout-Step 3
    - Zahlungsmethoden-Auswahl problematisch
    - Quick Win: Payment-Flow optimieren
-
 Empfehlung: Fokus auf Mobile Performance und 
 Checkout-Optimierung für sofortigen Impact."
 ```
@@ -223,7 +209,6 @@ Mit MCP-Integration in Tools wie **Cursor**, **Windsurf** und **Zed** wird Claud
 ```python
 # In deiner IDE mit Claude-Integration
 # Kommentar: @claude Optimiere diese Funktion für Performance
-
 def find_duplicates(arr):  # O(n²) - nicht optimal
     duplicates = []
     for i in range(len(arr)):
@@ -231,7 +216,6 @@ def find_duplicates(arr):  # O(n²) - nicht optimal
             if arr[i] == arr[j] and arr[i] not in duplicates:
                 duplicates.append(arr[i])
     return duplicates
-
 # Claude's Antwort direkt in der IDE:
 def find_duplicates_optimized(arr):  # O(n) - viel besser!
     """
@@ -240,14 +224,11 @@ def find_duplicates_optimized(arr):  # O(n) - viel besser!
     """
     seen = set()
     duplicates = set()
-    
     for item in arr:
         if item in seen:
             duplicates.add(item)
         seen.add(item)
-    
     return list(duplicates)
-
 # Performance-Vergleich:
 # Original: 1000 items = 45ms
 # Optimized: 1000 items = 0.8ms (56x schneller!)
@@ -350,9 +331,7 @@ npm install -g @anthropic/mcp-server-filesystem
 
 ```python
 from anthropic import Anthropic
-
 client = Anthropic(api_key="your-key")
-
 response = client.messages.create(
     model="claude-3-5-sonnet-20241022",
     max_tokens=1024,
@@ -366,7 +345,6 @@ response = client.messages.create(
         "content": "Öffne den Calculator und berechne 1337 * 42"
     }]
 )
-
 # Claude führt die Aktionen aus und liefert:
 # "Die Berechnung ergibt 56,154. Ich habe den Calculator
 #  geöffnet und 1337 * 42 eingegeben."

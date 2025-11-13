@@ -98,14 +98,10 @@ Im Langflow UI siehst du links deine Komponenten-Bibliothek. Zeit für Drag & Dr
 # Im Prompt Template Component
 prompt = """Du bist ein hilfreicher Assistent für technische Dokumentation.
 Nutze NUR die bereitgestellten Kontextinformationen für deine Antworten.
-
 Kontext: {context}
-
 Frage: {question}
-
 Wenn du die Antwort nicht im Kontext findest, sage ehrlich: 
 "Diese Information konnte ich in der Dokumentation nicht finden."
-
 Gib IMMER die Quelle deiner Information an.
 """
 ```
@@ -139,17 +135,14 @@ from langchain.document_loaders import DirectoryLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.vectorstores import Chroma
-
 # Deine visuell erstellten Komponenten als Code
 loader = DirectoryLoader('./docs', glob="**/*.md")
 documents = loader.load()
-
 text_splitter = RecursiveCharacterTextSplitter(
     chunk_size=1000,
     chunk_overlap=200
 )
 chunks = text_splitter.split_documents(documents)
-
 # Und so weiter...
 ```
 
