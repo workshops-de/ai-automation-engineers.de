@@ -10,36 +10,6 @@ readTime: '5 min read'
 image: 'https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
----
-
-layout: '../../../layouts/BlogLayout.astro'
-
-title: 'Microsoft startet Revolution: Autonome KI-Agents übernehmen ab November eigenständig komplette Workflows'
-
-description: 'Microsoft rollt autonome AI-Agents aus, die ohne menschliche Steuerung kommunizieren und handeln. Zeitersparnis von bis zu 80% bei Routine-Workflows möglich.'
-
-pubDate: '2025-11-12'
-
-author: 'Robin Böhm'
-
-tags: ['AI-Automation', 'Microsoft', 'Autonomous-Agents', 'Workflow-Automation', 'Enterprise-AI']
-
-category: 'News'
-
-readTime: '6 min read'
-
-image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995'
-
-source: 'https://www.itmagazine.ch/artikel/2025/11/microsoft-autonomous-agents'
-
-portal: 'ai-automation-engineers.de'
-
-spreadsheetRow: '104'
-
----
-
-
-
 # Microsoft startet Revolution: Autonome KI-Agents übernehmen ab November eigenständig komplette Workflows
 
 
