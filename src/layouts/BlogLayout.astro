@@ -321,5 +321,90 @@ const articleSchema = {
   
   <!-- 100% privacy-first analytics -->
   <script async src="https://sa.workshops.de/latest.js"></script>
+  
+  <!-- Technical Review Log Collapsible Script -->
+  <script>
+    (function() {
+      // Wait for DOM to be ready
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initTechnicalReviewLog);
+      } else {
+        initTechnicalReviewLog();
+      }
+
+      function initTechnicalReviewLog() {
+        const article = document.querySelector('article.prose');
+        if (!article) return;
+
+        // Find all headings (h2, h3, h4) that contain "Technical Review Log"
+        const headings = article.querySelectorAll('h2, h3, h4');
+        let reviewLogHeading = null;
+
+        for (const heading of headings) {
+          const text = heading.textContent.trim();
+          if (text.toLowerCase().includes('technical review log')) {
+            reviewLogHeading = heading;
+            break;
+          }
+        }
+
+        if (!reviewLogHeading) return;
+
+        // Find all siblings after the heading until the end of the article
+        const allElements = Array.from(article.children);
+        const headingIndex = allElements.indexOf(reviewLogHeading);
+        const sectionElements = allElements.slice(headingIndex);
+
+        if (sectionElements.length === 0) return;
+
+        // Create wrapper div for the section
+        const wrapper = document.createElement('div');
+        wrapper.className = 'technical-review-log-section';
+
+        // Create toggle button
+        const toggle = document.createElement('button');
+        toggle.className = 'technical-review-log-toggle';
+        toggle.setAttribute('aria-expanded', 'false');
+        toggle.setAttribute('aria-controls', 'technical-review-log-content');
+        toggle.innerHTML = `
+          <span>Technical Review Log</span>
+          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+          </svg>
+        `;
+
+        // Create content wrapper
+        const content = document.createElement('div');
+        content.id = 'technical-review-log-content';
+        content.className = 'technical-review-log-content collapsed';
+
+        // Move all section elements into the content wrapper (directly move, don't clone)
+        sectionElements.forEach(el => {
+          content.appendChild(el);
+        });
+
+        // Assemble the structure
+        wrapper.appendChild(toggle);
+        wrapper.appendChild(content);
+        article.appendChild(wrapper);
+
+        // Add click handler
+        toggle.addEventListener('click', function() {
+          const isExpanded = this.getAttribute('aria-expanded') === 'true';
+          const newState = !isExpanded;
+          
+          this.setAttribute('aria-expanded', newState.toString());
+          
+          if (newState) {
+            content.classList.remove('collapsed');
+            content.classList.add('expanded');
+          } else {
+            content.classList.remove('expanded');
+            content.classList.add('collapsed');
+          }
+        });
+      }
+    })();
+  </script>
 </body>
 </html>
