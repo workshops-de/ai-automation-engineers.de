@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI-Automation', 'Microsoft', 'Autonomous-Agents', 'Workflow-Automation', 'Enterprise-AI']
 category: 'News'
 readTime: '6 min read'
-image: 'https://images.unsplash.com/photo-1551284619-9a226bff0b86?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=600&q=80'
+image: 'https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 source: 'https://www.itmagazine.ch/artikel/2025/11/microsoft-autonomous-agents'
 portal: 'ai-automation-engineers.de'
 spreadsheetRow: '104'

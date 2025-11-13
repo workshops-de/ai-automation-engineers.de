@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI-Automation', 'Low-Code', 'LLM', 'Langflow', 'Multi-Agent']
 category: 'News'
 readTime: '7 min read'
-image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995'
+image: 'https://images.pexels.com/photos/1181354/pexels-photo-1181354.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 source: 'https://www.langflow.org/'
 portal: 'ai-automation-engineers.de'
 spreadsheetRow: '81'

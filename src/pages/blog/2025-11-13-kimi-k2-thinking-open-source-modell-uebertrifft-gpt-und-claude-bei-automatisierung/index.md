@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['ai-automation', 'kimi-k2', 'open-source', 'agentic-ai', 'tool-use']
 category: 'News'
 readTime: '6 min read'
-image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995'
+image: 'https://images.pexels.com/photos/1181357/pexels-photo-1181357.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 source: 'https://moonshotai.github.io/Kimi-K2/thinking.html'
 portal: 'ai-automation-engineers.de'
 spreadsheetRow: '77'

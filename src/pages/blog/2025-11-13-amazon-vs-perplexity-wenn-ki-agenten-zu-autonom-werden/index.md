@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['KI-Agents', 'Web-Scraping', 'Automatisierung', 'Rechtsstreit', 'Amazon']
 category: 'News'
 readTime: '6 min read'
-image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995'
+image: 'https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 source: 'https://www.wiwo.de/technologie/digitale-welt/perplexity-amazon-verklagt-suchmaschine-wegen-shopping-ki/100171579.html'
 portal: 'ai-automation-engineers.de'
 spreadsheetRow: '71'

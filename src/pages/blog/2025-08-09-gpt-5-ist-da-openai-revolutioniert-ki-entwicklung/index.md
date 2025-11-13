@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['OpenAI', 'GPT-5', 'AI Trends', 'Machine Learning', 'NLP']
 category: 'AI Trends'
 readTime: '8 min read'
-image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=600&q=80'
+image: 'https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 # GPT-5 ist da: OpenAI's smartestes Modell revolutioniert die KI-Landschaft
