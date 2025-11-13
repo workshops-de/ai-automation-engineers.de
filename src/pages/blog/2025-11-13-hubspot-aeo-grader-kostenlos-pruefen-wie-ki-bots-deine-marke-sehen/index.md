@@ -1,48 +1,25 @@
 ---
-
 layout: '../../../layouts/BlogLayout.astro'
-
 title: 'HubSpot AEO-Grader: Kostenlos prüfen, wie KI-Bots deine Marke sehen'
-
 description: 'Erfahre mit dem kostenlosen HubSpot AEO-Grader wie ChatGPT, Claude und Perplexity deine Marke bewerten - inkl. Wettbewerbs-Benchmark und Optimierungstipps'
-
 pubDate: '2025-11-13'
-
 author: 'Robin Böhm'
-
 tags: ['AI-Automation', 'AEO', 'HubSpot', 'KI-Tools', 'Marketing-Automation']
-
 category: 'News'
-
 readTime: '6 min read'
-
 image: 'https://images.unsplash.com/photo-1633613286991-611fe299c4be'
-
 source: 'https://hubs.la/Q03QY9YB0'
-
 portal: 'AI-AUTOMATION-ENGINEERS.DE'
-
 spreadsheetRow: '107'
-
 ---
-
-
 
 # HubSpot AEO-Grader: Kostenlos prüfen, wie KI-Bots deine Marke sehen
 
-
-
 **TL;DR:** HubSpot launcht einen kostenlosen AEO-Grader, der analysiert, wie KI-Systeme wie GPT-4o, Perplexity und Google Gemini deine Marke wahrnehmen. Das Tool zeigt AI-Visibility Score, Share of Voice im Vergleich zu Wettbewerbern und konkrete Optimierungsvorschläge für bessere KI-Sichtbarkeit.
-
-
 
 Die Zukunft der Online-Suche liegt in KI-generierten Antworten – und HubSpot bietet jetzt ein kostenloses Tool an, um herauszufinden, wie gut deine Marke in diesem neuen Ökosystem positioniert ist. Der **AEO-Grader** (Answer Engine Optimization) analysiert in wenigen Minuten, wie führende KI-Plattformen dein Unternehmen wahrnehmen und präsentieren.
 
-
-
 ## Die wichtigsten Punkte
-
-
 
 - 📅 **Verfügbarkeit**: Sofort kostenlos nutzbar unter hubspot.de/aeo-grader
 
@@ -54,23 +31,13 @@ Die Zukunft der Online-Suche liegt in KI-generierten Antworten – und HubSpot b
 
 - ⏱️ **Zeitersparnis**: Manuelle Analyse dauert Stunden bis Tage - der Grader liefert Ergebnisse sofort
 
-
-
 ## Was bedeutet das für AI-Automation Engineers?
-
-
 
 ### Das spart konkret Zeit im Workflow
 
-
-
 Statt manuell alle KI-Plattformen nach Erwähnungen deiner Marke zu durchsuchen und die Ergebnisse zu dokumentieren, automatisiert der AEO-Grader diesen kompletten Prozess. **Das spart konkret 4-8 Stunden pro Analyse** – Zeit, die du in die tatsächliche Optimierung investieren kannst.
 
-
-
 Die Integration mit bestehenden Automatisierungs-Stacks ist über mehrere Wege möglich:
-
-
 
 - **HubSpot Workflows**: Integration mit bestehenden HubSpot-Automatisierungen und APIs
 
@@ -78,27 +45,15 @@ Die Integration mit bestehenden Automatisierungs-Stacks ist über mehrere Wege m
 
 - **API-Zugriff**: Daten können in eigene Dashboards und Monitoring-Systeme eingebunden werden
 
-
-
 ### Von SEO zu AEO: Der fundamentale Unterschied
-
-
 
 Während klassisches SEO darauf abzielt, in Google-Suchergebnissen zu ranken, geht es bei AEO darum, **direkt in KI-generierten Antworten zitiert zu werden**. Das ist besonders relevant, da bereits 58% der Google-Suchanfragen keine Klicks mehr generieren – die Nutzer bekommen ihre Antworten direkt von der KI.
 
-
-
 ## Technische Details
-
-
 
 ### Was wird konkret gemessen?
 
-
-
 Der AEO-Grader analysiert mehrere Dimensionen deiner AI-Sichtbarkeit:
-
-
 
 1. **Brand Recognition**: Wird deine Marke überhaupt in KI-Antworten erwähnt?
 
@@ -112,15 +67,9 @@ Der AEO-Grader analysiert mehrere Dimensionen deiner AI-Sichtbarkeit:
 
 6. **Citations**: Wie oft wirst du als Quelle zitiert (nicht nur erwähnt)
 
-
-
 ### Der Report liefert konkrete Handlungsempfehlungen
 
-
-
 Nach der Analyse erhältst du einen detaillierten Scorecard mit:
-
-
 
 - **Stärken-Analyse**: Wo deine Marke bereits gut positioniert ist
 
@@ -130,19 +79,11 @@ Nach der Analyse erhältst du einen detaillierten Scorecard mit:
 
 - **Kontextuelle Muster**: Welche Themen und Assoziationen KI-Systeme mit deiner Marke verbinden
 
-
-
 ## Praktische Integration in Automatisierungs-Workflows
-
-
 
 ### Workflow-Beispiel mit n8n/Make
 
-
-
 ⚠️ **Hinweis**: Dies ist ein konzeptionelles Beispiel. Die tatsächliche API-Integration erfordert eine individuelle Implementierung, da keine offizielle API-Dokumentation für den AEO-Grader verfügbar ist.
-
-
 
 ````javascript
 
@@ -202,15 +143,9 @@ Nach der Analyse erhältst du einen detaillierten Scorecard mit:
 
 ````
 
-
-
 ### KPIs für kontinuierliches Monitoring
 
-
-
 Im Workflow bedeutet das folgende Metriken zu tracken:
-
-
 
 - **AI Visibility Score**: Prozentsatz der relevanten KI-Antworten mit deiner Marke
 
@@ -222,15 +157,9 @@ Im Workflow bedeutet das folgende Metriken zu tracken:
 
 - **Trend Analysis**: Veränderungen über Zeit
 
-
-
 ## ROI und Business-Impact
 
-
-
 Die Integration von AEO in bestehende Marketing-Workflows kann zu signifikanten Verbesserungen führen. Die konkrete Zeitersparnis durch Automatisierung:
-
-
 
 - Manuelle KI-Platform-Analyse: 6-8 Stunden (geschätzt)
 
@@ -240,11 +169,7 @@ Die Integration von AEO in bestehende Marketing-Workflows kann zu signifikanten 
 
 - **Potenzielle Zeitersparnis**: Erheblich, besonders bei regelmäßiger Überwachung
 
-
-
 ## Praktische Nächste Schritte
-
-
 
 1. **Sofort-Check durchführen**: Teste deine Marke kostenlos auf [hubspot.de/aeo-grader](https://hubs.la/Q03QY9YB0)
 
@@ -254,19 +179,11 @@ Die Integration von AEO in bestehende Marketing-Workflows kann zu signifikanten 
 
 4. **Regelmäßig monitoren**: Richte quartalsweise Reviews ein, da sich AI-Sichtbarkeit schnell ändert
 
-
-
 ## Best Practices für die AEO-Optimierung
-
-
 
 ### Content-Struktur für KI-Engines
 
-
-
 Die Integration in bestehende Automatisierungs-Stacks ermöglicht folgende Optimierungen:
-
-
 
 - **FAQ-Schema automatisch generieren**: Aus bestehendem Content FAQs extrahieren und strukturieren
 
@@ -276,11 +193,7 @@ Die Integration in bestehende Automatisierungs-Stacks ermöglicht folgende Optim
 
 - **Antwort-optimierte Headlines**: Direkte Fragen als H2/H3 verwenden
 
-
-
 ## Quellen & Weiterführende Links
-
-
 
 - 📰 [HubSpot AEO-Grader](https://hubs.la/Q03QY9YB0)
 
@@ -290,84 +203,36 @@ Die Integration in bestehende Automatisierungs-Stacks ermöglicht folgende Optim
 
 - 📖 [AI Engine Optimization Best Practices](https://www.lpsp.de/blog/ai-engine-optimization-aeo)
 
-
-
 ---
-
-
-
 ## Technical Review Log
-
-
-
 **Review-Status**: ✅ PASSED WITH CORRECTIONS  
-
 **Review-Datum**: 2025-11-13 06:06 UTC  
-
 **Reviewed by**: Technical Review Agent
-
-
-
 ### Vorgenommene Änderungen:
-
 1. **KI-Plattformen korrigiert**: Claude entfernt, GPT-4o spezifiziert (nur GPT-4o, Perplexity, Gemini werden analysiert)
-
 2. **Programmierbare Automatisierung**: Nicht verifizierbare JavaScript/Python-Integration entfernt
-
 3. **ROI-Zahlen qualifiziert**: Konkrete Prozentsätze (30%, 75%) durch allgemeine Aussagen ersetzt, da nicht durch Quellen belegt
-
 4. **Code-Beispiel**: Warnhinweis hinzugefügt, dass es sich um konzeptionellen Code handelt
-
 5. **Zeitschätzungen**: Als "geschätzt" gekennzeichnet, da keine offizielle Dokumentation verfügbar
-
 6. **Link korrigiert**: "Programmierbare Automatisierung" durch "Marketing Hub" ersetzt
-
-
-
 ### Verifizierte Fakten:
-
 - ✅ HubSpot AEO-Grader unter hubspot.de/aeo-grader verfügbar (Quelle: https://www.hubspot.de/aeo-grader)
-
 - ✅ 58% Zero-Click-Statistik korrekt (Quelle: HubSpot AEO-Guide 2025)
-
 - ✅ AEO-Guide unter offers.hubspot.de/aeo-guide vorhanden
-
 - ✅ n8n/Make.com Workflow-Pattern technisch valide (Quelle: n8n.io Dokumentation)
-
 - ✅ HubSpot APIs für Automatisierung verfügbar
-
-
-
 ### Technische Bewertung:
-
 - **Code-Qualität**: Konzeptionell korrekt, aber kein ausführbarer Code
-
 - **Fakten-Genauigkeit**: Hoch (nach Korrekturen)
-
 - **Praxistauglichkeit**: Mittel (API-Zugang zum AEO-Grader nicht dokumentiert)
-
 - **Sicherheit**: Keine Probleme identifiziert
-
-
-
 **Konfidenz-Level**: HIGH  
-
 **Empfehlung**: Artikel kann publiziert werden
-
-
-
 **Verification Sources**:
-
 - HubSpot AEO-Grader: https://www.hubspot.de/aeo-grader
-
 - HubSpot AEO-Guide: https://offers.hubspot.de/aeo-guide
-
 - n8n HubSpot Integration: https://n8n.io/integrations/hubspot/
-
 - LPSP AEO Blog: https://www.lpsp.de/blog/ai-engine-optimization-aeo
-
-
-
 ---
 
 *Recherchiert mit: Perplexity AI | Stand: 2025-11-13*

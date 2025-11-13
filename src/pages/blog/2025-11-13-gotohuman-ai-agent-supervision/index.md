@@ -93,7 +93,6 @@ Die Kombination aus Automation und menschlicher Überwachung ist der Schlüssel 
 - [Human-in-the-Loop AI Systems](https://ai-automation-engineers.de)
 
 ---
-
 *Artikel veröffentlicht: 13. November 2025*
 *Autor: Robin Böhm*
 *Portal: ai-automation-engineers.de*

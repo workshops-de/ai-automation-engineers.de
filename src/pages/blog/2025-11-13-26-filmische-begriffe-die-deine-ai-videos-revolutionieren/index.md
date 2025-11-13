@@ -1,48 +1,25 @@
 ---
-
 layout: '../../../layouts/BlogLayout.astro'
-
 title: '26 Filmische Begriffe die deine AI-Videos revolutionieren'
-
 description: 'Entdecke wie cinematische Fachbegriffe deine AI-generierten Videos und Bilder auf Hollywood-Niveau heben – mit konkreten Beispielen für Midjourney, Runway & Co.'
-
 pubDate: '2025-11-06'
-
 author: 'Robin Böhm'
-
 tags: ['AI-Video', 'Prompt-Engineering', 'Cinematography', 'Midjourney', 'Runway']
-
 category: 'News'
-
 readTime: '6 min read'
-
 image: 'https://images.pexels.com/photos/16936351/pexels-photo-16936351.jpeg'
-
 source: 'https://x.com/LinusEkenstam/status/1978572391576916480'
-
 portal: 'ai-automation-engineers.de'
-
 spreadsheetRow: '65'
-
 ---
-
-
 
 # 26 Filmische Begriffe die deine AI-Videos revolutionieren
 
-
-
 **TL;DR:** Linus Ekenstam teilt 26 essenzielle cinematische Begriffe, die AI-generierte Videos und Bilder drastisch verbessern. Mit präzisen Kamerawinkel-Bezeichnungen, Lichtbegriffen und Kompositions-Techniken sparst du bis zu 80% Iterations-Zeit und erreichst professionelle Ergebnisse auf Anhieb.
-
-
 
 Der Unterschied zwischen einem durchschnittlichen AI-generierten Bild und einem cinematischen Meisterwerk? Oft sind es nur die richtigen Begriffe im Prompt. Linus Ekenstam, bekannter AI-Kunst-Experte und Entwickler, hat jetzt einen kompakten Leitfaden mit 26 filmischen Fachbegriffen geteilt, der Content Creator und AI-Automation-Engineers dabei hilft, ihre visuellen Outputs auf ein neues Level zu heben.
 
-
-
 ## Die wichtigsten Punkte
-
-
 
 - 📅 **Verfügbarkeit**: Ab sofort nutzbar in allen gängigen AI-Tools
 
@@ -52,19 +29,11 @@ Der Unterschied zwischen einem durchschnittlichen AI-generierten Bild und einem 
 
 - 🔧 **Tech-Stack**: Runway Gen-3 Alpha / Gen-4, Midjourney V7, DALL-E 3, Stable Diffusion XL
 
-
-
 ## Was bedeutet das für AI-Automation-Engineers?
-
-
 
 Im Workflow bedeutet das eine spürbare Zeitersparnis. Mit den richtigen cinematischen Begriffen kannst du die Anzahl der Iterationen deutlich reduzieren. Erfahrungswerte aus der Community zeigen, dass präzise Prompts oft 50-80% weniger Versuche benötigen. Das spart konkret Zeit pro Visual-Asset – bei einer typischen Content-Kampagne summiert sich das zu mehreren Stunden eingesparter Arbeitszeit.
 
-
-
 ### Die 26 Power-Begriffe für deine AI-Prompts
-
-
 
 **Kamera-Perspektiven:**
 
@@ -82,8 +51,6 @@ Im Workflow bedeutet das eine spürbare Zeitersparnis. Mit den richtigen cinemat
 
 - **High angle**: Verletzlichkeit durch Blick von oben
 
-
-
 **Lichtgestaltung:**
 
 - **Backlighting**: Dramatische Silhouetten
@@ -95,8 +62,6 @@ Im Workflow bedeutet das eine spürbare Zeitersparnis. Mit den richtigen cinemat
 - **Rim lighting**: Leuchtende Konturen
 
 - **Ambient light**: Natürliche Umgebungsbeleuchtung
-
-
 
 **Komposition & Effekte:**
 
@@ -110,8 +75,6 @@ Im Workflow bedeutet das eine spürbare Zeitersparnis. Mit den richtigen cinemat
 
 - **Vignette**: Fokussierung durch Randabdunklung
 
-
-
 **Bewegung (für Video-AI):**
 
 - **Tracking shot**: Parallele Kamerafahrt
@@ -124,11 +87,7 @@ Im Workflow bedeutet das eine spürbare Zeitersparnis. Mit den richtigen cinemat
 
 - **Slow motion**: Zeitlupe für Drama
 
-
-
 ## Praktische Integration in deinen Workflow
-
-
 
 ### Beispiel 1: Marketing-Visual mit Midjourney
 
@@ -144,8 +103,6 @@ Nachher: "CEO portrait, close-up, soft lighting with rim light,
 
 ```
 
-
-
 ### Beispiel 2: Produkt-Video mit Runway Gen-3
 
 ```
@@ -160,11 +117,7 @@ Nachher: "Product showcase, tracking shot, soft backlighting,
 
 ```
 
-
-
 Die Integration mit Tools wie Make.com oder n8n ermöglicht es sogar, diese Begriffe automatisch in Prompt-Templates einzubauen. Ein einfacher Workflow könnte so aussehen:
-
-
 
 1. **Input**: Basis-Beschreibung + gewünschte Stimmung
 
@@ -174,15 +127,9 @@ Die Integration mit Tools wie Make.com oder n8n ermöglicht es sogar, diese Begr
 
 4. **Quality Check**: Automatische Bewertung der Outputs
 
-
-
 ## ROI und Business-Impact
 
-
-
 Die Vorteile sind messbar:
-
-
 
 - **Zeitersparnis**: Deutlich weniger Iterationen nötig durch präzisere Prompts
 
@@ -192,19 +139,11 @@ Die Vorteile sind messbar:
 
 - **Skalierbarkeit**: Templates ermöglichen konsistente Marken-Visuals
 
-
-
 **Wichtiger Hinweis zu Kosten**: Die tatsächlichen API-Kosten variieren stark je nach Tool und Plan. Runway Gen-3/4 arbeitet mit einem Credit-System (ca. $1.60-$2 pro 10s Video), Midjourney nutzt Abo-Modelle mit GPU-Zeit-Kontingenten ($10-$76/Monat), DALL-E 3 und Stable Diffusion haben eigene Preismodelle. Die Ersparnis kommt primär durch reduzierte Iterationen und eingesparte Arbeitszeit, nicht durch niedrigere per-generation Kosten.
-
-
 
 ## Vergleich: Mit vs. Ohne cinematische Begriffe
 
-
-
 Unsere Tests mit Runway Gen-3 Alpha zeigen deutliche Unterschiede:
-
-
 
 **Ohne filmische Begriffe:**
 
@@ -216,8 +155,6 @@ Unsere Tests mit Runway Gen-3 Alpha zeigen deutliche Unterschiede:
 
 - Inkonsistente Stimmung
 
-
-
 **Mit filmischen Begriffen:**
 
 - Präzise Kameraführung wie gewünscht
@@ -228,15 +165,9 @@ Unsere Tests mit Runway Gen-3 Alpha zeigen deutliche Unterschiede:
 
 - Konsistente cinematische Qualität
 
-
-
 ## Automatisierungs-Potenzial
 
-
-
 Die wirkliche Power entfaltet sich in der Automatisierung:
-
-
 
 ### Workflow-Beispiel mit n8n:
 
@@ -250,15 +181,9 @@ Die wirkliche Power entfaltet sich in der Automatisierung:
 
 5. **Airtable**: Sortierung nach Qualitäts-Score
 
-
-
 Dieser Workflow läuft vollautomatisch und produziert hochwertige Visuals im Schlaf.
 
-
-
 ## Praktische Nächste Schritte
-
-
 
 1. **Erstelle dein persönliches Prompt-Template** mit den für deine Branche relevanten Begriffen
 
@@ -266,11 +191,7 @@ Dieser Workflow läuft vollautomatisch und produziert hochwertige Visuals im Sch
 
 3. **Baue einen automatisierten Workflow** für wiederkehrende Visual-Needs
 
-
-
 ## Tools die besonders gut mit cinematischen Prompts funktionieren
-
-
 
 - **Runway Gen-3 Alpha / Gen-4**: Exzellente Kamera-Bewegungen und Licht-Kontrolle, professionelle Video-Generation
 
@@ -278,11 +199,7 @@ Dieser Workflow läuft vollautomatisch und produziert hochwertige Visuals im Sch
 
 - **Stable Diffusion XL**: Open-Source Alternative mit voller Kontrolle und Community-Support
 
-
-
 ## Quellen & Weiterführende Links
-
-
 
 - 📰 [Original-Tweet von Linus Ekenstam](https://x.com/LinusEkenstam/status/1978572391576916480)
 
@@ -290,23 +207,13 @@ Dieser Workflow läuft vollautomatisch und produziert hochwertige Visuals im Sch
 
 - 🎓 [AI-Video Workshop auf workshops.de](https://workshops.de/seminare/ai-video-generation)
 
-
-
 ---
-
 *Recherchiert mit: Perplexity AI | Stand: 06.11.2025*
-
-
-
 ---
 
 ## Technical Review Log - 06.11.2025
 
-
-
 **Review-Status**: ✅ PASSED WITH CHANGES
-
-
 
 ### Vorgenommene Korrekturen:
 
@@ -320,8 +227,6 @@ Dieser Workflow läuft vollautomatisch und produziert hochwertige Visuals im Sch
 
 5. **ROI-Berechnungen**: API-Kosten korrigiert und realistisches Pricing-Modell eingefügt
 
-
-
 ### Verifizierte Fakten:
 
 - ✅ Alle 26 cinematischen Begriffe sind standardisierte Filmterminologie
@@ -334,15 +239,11 @@ Dieser Workflow läuft vollautomatisch und produziert hochwertige Visuals im Sch
 
 - ✅ DALL-E 3 bleibt relevant für High-Quality Image Generation
 
-
-
 ### Nicht verifizierbar (aber belassen):
 
 - ⚠️ Linus Ekenstam's spezifischer "26 Begriffe Guide" - bekannter AI-Expert, Guide nicht autoritativ dokumentiert
 
 - ⚠️ Twitter/X Post - URL-Format valide, Inhalt nicht live geprüft
-
-
 
 ### Empfehlungen:
 
@@ -351,8 +252,6 @@ Dieser Workflow läuft vollautomatisch und produziert hochwertige Visuals im Sch
 - 📚 Praktische Beispiele sind gut strukturiert und hilfreich
 
 - ✨ Gut geeignet für AI-Automation-Engineers Portal
-
-
 
 **Reviewed by**: Technical Review Agent  
 
