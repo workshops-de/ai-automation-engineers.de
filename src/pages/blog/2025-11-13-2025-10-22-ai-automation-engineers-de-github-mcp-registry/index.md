@@ -1,6 +1,6 @@
 ---
 layout: '../../../layouts/BlogLayout.astro'
-title: '[2025-10-22] AI-Automation-Engineers.de - GitHub MCP Registry'
+title: 'GitHub MCP Registry'
 description: 'GitHub MCP Registry - Finde und nutze Model Context Protocol Server'
 pubDate: '2025-11-13'
 author: 'Robin Böhm'
