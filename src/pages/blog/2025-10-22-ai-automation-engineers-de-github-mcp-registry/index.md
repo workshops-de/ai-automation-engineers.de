@@ -1,6 +1,6 @@
 ---
 layout: '../../../layouts/BlogLayout.astro'
-title: 'GitHub MCP Registry'
+title: 'GitHub MCP Registry: Der Game-Changer für dezentralisierte AI-Automation'
 description: 'GitHub MCP Registry - Finde und nutze Model Context Protocol Server'
 pubDate: '2025-11-13'
 author: 'Robin Böhm'
@@ -9,10 +9,6 @@ category: 'Technology'
 readTime: '5 min read'
 image: 'https://images.pexels.com/photos/1181676/pexels-photo-1181676.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
-
-# GitHub MCP Registry: Der Game-Changer für dezentralisierte AI-Automation
-
-
 
 **TL;DR:** GitHub startet die MCP Registry als zentrale Plattform für Model Context Protocol Server – ein App-Store-Modell, das die Integration von AI-Tools in bestehende Automation-Stacks dramatisch vereinfacht und konkret Zeit im Workflow spart.
 

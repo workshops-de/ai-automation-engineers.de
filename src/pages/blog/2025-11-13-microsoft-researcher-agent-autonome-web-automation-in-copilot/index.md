@@ -66,21 +66,13 @@ Der Researcher Agent arbeitet in einer **virtuellen, isolierten Sandbox-Umgebung
 ### Integration in bestehende Workflows
 
 ```
-
 Workflow-Beispiel: Automated Market Research
-
 1. Trigger: Teams-Message mit Research-Request
-
 2. Researcher Agent: Analysiert Anfrage, plant Recherche-Schritte
-
 3. Computer Use: Besucht relevante Websites, extrahiert Daten
-
 4. Data Processing: Optional via separaten Analyst Agent (Python-Execution)
-
 5. Output: Strukturierter Report in Word/PowerPoint
-
 6. Notification: Teams-Benachrichtigung mit Ergebnissen
-
 ```
 
 Die nahtlose Integration in Microsoft 365 macht den Agent besonders wertvoll: Er nutzt bestehende Berechtigungen, respektiert Compliance-Richtlinien und arbeitet mit allen bekannten Office-Tools zusammen.

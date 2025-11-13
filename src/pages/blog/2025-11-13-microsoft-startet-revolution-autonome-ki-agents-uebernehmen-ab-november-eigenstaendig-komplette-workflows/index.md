@@ -52,37 +52,19 @@ Die Agents erhalten eigene digitale Identitäten im Microsoft-Ökosystem. Sie k�
 ### Technische Deep-Dive: So funktioniert die Autonomie
 
 ```
-
 Workflow-Beispiel: Automatischer Invoice-Processing Agent
-
-
-
 1. TRIGGER: Neue E-Mail mit Rechnung im Postfach
-
    ↓
-
 2. AGENT ANALYSIERT: Extrahiert Daten via OCR/NLP
-
    ↓
-
 3. VALIDIERUNG: Prüft gegen ERP-System (SAP/Oracle)
-
    ↓
-
 4. ENTSCHEIDUNG: Bei Unstimmigkeiten → E-Mail an Lieferant
-
    ↓
-
 5. FREIGABE: Automatische Buchung bei Übereinstimmung
-
    ↓
-
 6. REPORTING: Update in Power BI Dashboard
-
-
-
 Zeitersparnis: 15 Minuten → 30 Sekunden pro Rechnung
-
 ```
 
 ## Integration in bestehende Automatisierungs-Stacks

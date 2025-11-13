@@ -86,61 +86,33 @@ Nach der Analyse erhältst du einen detaillierten Scorecard mit:
 ⚠️ **Hinweis**: Dies ist ein konzeptionelles Beispiel. Die tatsächliche API-Integration erfordert eine individuelle Implementierung, da keine offizielle API-Dokumentation für den AEO-Grader verfügbar ist.
 
 ````javascript
-
 // Konzeptionelles Workflow-Beispiel für regelmäßige AEO-Überwachung
-
 {
-
   "trigger": "Schedule (wöchentlich)",
-
   "nodes": [
-
     {
-
       "name": "Run AEO Analysis",
-
       "type": "HTTP Request",
-
       "endpoint": "hubspot-aeo-grader"
-
     },
-
     {
-
       "name": "Parse Results",
-
       "type": "JSON Parser",
-
       "extract": ["ai_visibility", "share_of_voice", "sentiment"]
-
     },
-
     {
-
       "name": "Compare with Previous",
-
       "type": "Database Query",
-
       "action": "compare_metrics"
-
     },
-
     {
-
       "name": "Alert on Changes",
-
       "type": "Conditional",
-
       "if": "metrics_changed > 10%",
-
       "then": "send_slack_notification"
-
     }
-
   ]
-
 }
-
 ````
 
 ### KPIs für kontinuierliches Monitoring

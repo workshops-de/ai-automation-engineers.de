@@ -1,6 +1,6 @@
 ---
 layout: '../../../layouts/BlogLayout.astro'
-title: '2025-11-12 AI-Automation-Engineers - Microsoft Autonomous AI Agents Revolution'
+title: 'Microsoft startet Revolution: Autonome KI-Agents übernehmen ab November eigenständig komplette Workflows'
 description: 'Microsoft startet im November Rollout autonomer KI-Agents – eigenständige Kommunikation und Aufgabenausführung ohne menschliche Steuerung'
 pubDate: '2025-11-13'
 author: 'Robin Böhm'
@@ -9,8 +9,6 @@ category: 'Technology'
 readTime: '5 min read'
 image: 'https://images.pexels.com/photos/1181430/pexels-photo-1181430.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
-
-# Microsoft startet Revolution: Autonome KI-Agents übernehmen ab November eigenständig komplette Workflows
 
 **TL;DR:** Microsoft's autonome AI-Agents (seit März 2025 allgemein verfügbar) werden kontinuierlich erweitert und agieren als eigenständige digitale Mitarbeiter. Sie können selbstständig Meetings teilnehmen, E-Mails versenden, Dokumente bearbeiten und komplexe Workflows ohne menschliche Kontrolle ausführen – das spart konkret 5-8 Stunden pro Woche bei Routine-Tasks.
 
@@ -49,37 +47,19 @@ Die Agents erhalten eigene digitale Identitäten im Microsoft-Ökosystem. Sie k�
 ### Technische Deep-Dive: So funktioniert die Autonomie
 
 ```
-
 Workflow-Beispiel: Automatischer Invoice-Processing Agent
-
-
-
 1. TRIGGER: Neue E-Mail mit Rechnung im Postfach
-
    ↓
-
 2. AGENT ANALYSIERT: Extrahiert Daten via OCR/NLP
-
    ↓
-
 3. VALIDIERUNG: Prüft gegen ERP-System (SAP/Oracle)
-
    ↓
-
 4. ENTSCHEIDUNG: Bei Unstimmigkeiten → E-Mail an Lieferant
-
    ↓
-
 5. FREIGABE: Automatische Buchung bei Übereinstimmung
-
    ↓
-
 6. REPORTING: Update in Power BI Dashboard
-
-
-
 Zeitersparnis: 15 Minuten → 30 Sekunden pro Rechnung
-
 ```
 
 ## Integration in bestehende Automatisierungs-Stacks
