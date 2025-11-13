@@ -1,6 +1,6 @@
 ---
 layout: '../../../layouts/BlogLayout.astro'
-title: 'METADATA BLOCK'
+title: 'Nebius erhält 3-Milliarden-Dollar-Auftrag von Meta für KI-Infrastruktur'
 description: 'Nebius erhält Milliardenauftrag von Meta - Cloud Infrastructure für Large Language Model Deployment'
 pubDate: '2025-11-13'
 author: 'Robin Böhm'
@@ -9,36 +9,6 @@ category: 'Technology'
 readTime: '5 min read'
 image: 'https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
-
----
-
-layout: '../../../layouts/BlogLayout.astro'
-
-title: 'Nebius erhält 3-Milliarden-Dollar-Auftrag von Meta für KI-Infrastruktur'
-
-description: 'Meta vergibt 3-Milliarden-Dollar-Auftrag an Nebius für GPU-Cluster und LLM-Infrastruktur. Was bedeutet das für AI-Praktiker und Automatisierungs-Teams?'
-
-pubDate: '2025-11-12'
-
-author: 'Robin Böhm'
-
-tags: ['AI-Infrastructure', 'Cloud-Computing', 'LLM', 'GPU-Cluster', 'Meta']
-
-category: 'News'
-
-readTime: '6 min read'
-
-image: 'https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg'
-
-source: 'https://www.wiwo.de'
-
-portal: 'ai-automation-engineers.de'
-
-spreadsheetRow: '106'
-
----
-
-
 
 # Nebius erhält 3-Milliarden-Dollar-Auftrag von Meta: Neue Ära für KI-Infrastruktur startet
 
