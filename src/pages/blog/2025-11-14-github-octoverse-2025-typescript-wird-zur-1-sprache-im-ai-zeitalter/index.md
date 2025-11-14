@@ -12,7 +12,6 @@ source: 'https://github.blog/news-insights/octoverse/typescript-python-and-the-a
 portal: 'workshops.de'
 spreadsheetRow: '113'
 ---
-# GitHub Octoverse 2025: TypeScript wird zur #1 Sprache im AI-Zeitalter
 **TL;DR:** TypeScript hat im August 2025 erstmals Python und JavaScript als meistgenutzte Sprache auf GitHub überholt. Der neue AI-Feedback-Loop zwischen KI-generierten Code und menschlichem Feedback verändert die Softwareentwicklung fundamental. 80% der neuen Entwickler nutzen bereits in ihrer ersten Woche GitHub Copilot.
 Der jährliche GitHub Octoverse Report gilt als wichtigster Indikator für globale Entwicklungstrends. Die diesjährige Ausgabe zeigt einen historischen Wendepunkt: Nach über einem Jahrzehnt JavaScript-Dominanz markiert der Aufstieg von TypeScript den größten Paradigmenwechsel in der Softwareentwicklung seit langem.
 ## Die wichtigsten Punkte

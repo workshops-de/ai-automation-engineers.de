@@ -10,7 +10,6 @@ readTime: '6 min read'
 image: 'https://images.pexels.com/photos/1181440/pexels-photo-1181440.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
-# Gemini Live erweitert Workspace-Integration: Kalender, Notizen und Maps jetzt direkt verfügbar
 
 **TL;DR:** Google rollt für Gemini Live die lang erwartete Integration von Google Workspace-Apps aus. Nutzer können nun direkt in Gesprächen Termine erstellen, Notizen anlegen und Orte abfragen - ohne die App zu wechseln.
 

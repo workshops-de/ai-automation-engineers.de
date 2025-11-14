@@ -13,7 +13,6 @@ portal: 'workshops.de'
 spreadsheetRow: '69'
 ---
 
-# TypeScript wird zur wichtigsten Programmiersprache im AI-Zeitalter
 
 **TL;DR:** TypeScript hat erstmals JavaScript als meistgenutzte Sprache auf GitHub überholt. Anders Hejlsberg, der Lead Architect, erklärt, warum Typsicherheit für KI-generierten Code entscheidend ist und kündigt mit TypeScript 7 eine 10x Performance-Steigerung an.
 

@@ -13,7 +13,6 @@ portal: 'ai-automation-engineers.de'
 spreadsheetRow: '72'
 ---
 
-# Microsoft Researcher Agent erhält Computer Use: Game Changer für Enterprise Automation
 
 **TL;DR:** Microsoft erweitert den Researcher Agent in 365 Copilot um Computer Use Capabilities. Der KI-Agent kann jetzt autonom Webseiten bedienen, Daten extrahieren und komplexe Recherche-Workflows automatisieren - alles in einer sicheren Sandbox-Umgebung. Zeitersparnis: Von Tagen auf Minuten.
 

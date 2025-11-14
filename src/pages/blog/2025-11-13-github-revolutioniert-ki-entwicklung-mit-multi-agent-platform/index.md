@@ -13,7 +13,6 @@ portal: 'AI-AUTOMATION-ENGINEERS.DE'
 spreadsheetRow: '90'
 ---
 
-# GitHub Agent HQ: Die Multi-Agent Revolution für automatisierte Software-Entwicklung
 
 **TL;DR:** GitHub launcht eine bahnbrechende Multi-Agent Coding Platform, die KI-Agenten von Anthropic, OpenAI, Google und weiteren Anbietern in einem orchestrierten Workflow vereint. Developer können komplette Software-Missionen delegieren – von der Planung bis zum Deployment – während sie volle Kontrolle über Mission Control behalten.
 

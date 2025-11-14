@@ -13,7 +13,6 @@ portal: 'ai-automation-engineers.de'
 spreadsheetRow: '109'
 ---
 
-# GitHub isst den eigenen Hundefutter: Wie Copilot die GitHub-Plattform selbst baut
 
 **TL;DR:** GitHub nutzt Copilot intern für die eigene Plattform-Entwicklung und erreicht dabei bis zu 55% schnellere Task-Completion. Die Case Study zeigt konkrete Automation-Workflows, messbare ROI-Zahlen und praktische Integration in CI/CD-Pipelines – ein Blueprint für AI-gestützte Entwicklung im Enterprise-Umfeld.
 

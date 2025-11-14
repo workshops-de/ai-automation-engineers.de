@@ -13,7 +13,6 @@ portal: 'ai-automation-engineers.de'
 spreadsheetRow: '65'
 ---
 
-# 26 Filmische Begriffe die deine AI-Videos revolutionieren
 
 **TL;DR:** Linus Ekenstam teilt 26 essenzielle cinematische Begriffe, die AI-generierte Videos und Bilder drastisch verbessern. Mit präzisen Kamerawinkel-Bezeichnungen, Lichtbegriffen und Kompositions-Techniken sparst du bis zu 80% Iterations-Zeit und erreichst professionelle Ergebnisse auf Anhieb.
 

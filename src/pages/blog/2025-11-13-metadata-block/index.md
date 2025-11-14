@@ -10,7 +10,6 @@ readTime: '5 min read'
 image: 'https://images.pexels.com/photos/1181495/pexels-photo-1181495.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
-# Nebius erhält 3-Milliarden-Dollar-Auftrag von Meta: Neue Ära für KI-Infrastruktur startet
 
 **TL;DR:** Meta schließt einen 3-Milliarden-Dollar-Deal mit Nebius (ehemals Yandex Cloud) für KI-Infrastruktur über fünf Jahre ab. Das bedeutet: Massive GPU-Cluster mit NVIDIA H100/A100 für LLM-Training und -Inference stehen bereit - mit direktem Impact auf Deployment-Zeiten und Kosten für AI-Teams.
 

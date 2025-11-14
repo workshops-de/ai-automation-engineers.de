@@ -13,7 +13,6 @@ portal: 'ai-automation-engineers.de'
 spreadsheetRow: '77'
 ---
 
-# Kimi K2 Thinking: Open-Source-Durchbruch mit 300 aufeinanderfolgenden Tool-Calls
 
 **TL;DR:** Moonshot AI präsentiert mit Kimi K2 Thinking ein Open-Source-Modell, das bis zu 300 sequenzielle Tool-Aufrufe ohne menschliches Eingreifen ausführen kann. Mit einer Mixture-of-Experts-Architektur (1 Billion Parameter) und beeindruckenden Benchmark-Scores von 71,3% im SWE-Bench übertrifft es GPT-4 und Claude bei agentenbasierten Aufgaben.
 

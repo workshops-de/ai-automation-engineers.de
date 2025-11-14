@@ -10,7 +10,6 @@ readTime: '5 min read'
 image: 'https://images.pexels.com/photos/1181462/pexels-photo-1181462.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
-# WhatsApp räumt auf: 6,8 Millionen Fake-Accounts in einem Halbjahr eliminiert
 
 **TL;DR:** WhatsApp hat im ersten Halbjahr 2025 massiv durchgegriffen und 6,8 Millionen Accounts gesperrt, die mit kriminellen Scam-Zentren in Südostasien verbunden waren. Die Sperrungen erfolgten oft präventiv, bevor die Accounts Schaden anrichten konnten - ein wichtiger Schritt im Kampf gegen organisierten Online-Betrug.
 

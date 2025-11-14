@@ -12,7 +12,6 @@ source: 'https://bitkom-akademie.de/lehrgang/it-sicherheitsbeauftragter-itsibe-c
 portal: 'WORKSHOPS.DE'
 ---
 
-# IT-Sicherheitsbeauftragte und CISOs: Gefragte Experten in Zeiten steigender Cyberbedrohungen
 
 **TL;DR:** Die Bitkom Akademie bietet einen umfassenden Zertifikatslehrgang für IT-Sicherheitsbeauftragte (ITSiBe) und Chief Information Security Officers (CISO) an. Angesichts der Tatsache, dass 87% der deutschen Unternehmen von Cyberangriffen betroffen sind und Schäden von 289 Milliarden Euro entstehen, ist diese Weiterbildung wichtiger denn je.
 

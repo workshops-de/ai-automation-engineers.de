@@ -13,7 +13,6 @@ portal: 'AI-AUTOMATION-ENGINEERS.DE'
 spreadsheetRow: '107'
 ---
 
-# HubSpot AEO-Grader: Kostenlos prüfen, wie KI-Bots deine Marke sehen
 
 **TL;DR:** HubSpot launcht einen kostenlosen AEO-Grader, der analysiert, wie KI-Systeme wie GPT-4o, Perplexity und Google Gemini deine Marke wahrnehmen. Das Tool zeigt AI-Visibility Score, Share of Voice im Vergleich zu Wettbewerbern und konkrete Optimierungsvorschläge für bessere KI-Sichtbarkeit.
 

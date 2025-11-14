@@ -10,7 +10,6 @@ readTime: '6 min read'
 image: 'https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
-# Chinas KI-Chip-Offensive: Verdreifachung der Produktion bis 2025 geplant
 
 **TL;DR:** China will seine KI-Chip-Produktion bis 2025 verdreifachen, hauptsächlich durch neue Fabriken für Huawei und die Expansion von SMIC. Diese Strategie ist eine direkte Antwort auf US-Exportbeschränkungen und soll Chinas technologische Unabhängigkeit stärken.
 

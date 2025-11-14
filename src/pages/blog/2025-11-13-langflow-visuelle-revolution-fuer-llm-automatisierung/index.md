@@ -13,7 +13,6 @@ portal: 'ai-automation-engineers.de'
 spreadsheetRow: '81'
 ---
 
-# Langflow: Die visuelle Revolution für LLM-Automatisierung ohne Boilerplate Code
 
 **TL;DR:** Langflow ist eine Open-Source Low-Code-Plattform, die AI-Entwicklung durch Drag-and-Drop demokratisiert. Mit Support für alle großen LLM-Provider, eingebauten Vektordatenbanken und einer visuellen Flow-Oberfläche können AI-Engineers komplexe Multi-Agent-Systeme in Minuten statt Stunden aufbauen - und das spart konkret 70-80% Entwicklungszeit bei Prototypen.
 

@@ -13,7 +13,6 @@ portal: 'ai-automation-engineers.de'
 spreadsheetRow: '108'
 ---
 
-# Qwen Image Edit Angles: KI-gestützte Multi-Angle Bildbearbeitung revolutioniert Produktfotografie-Workflows
 
 **TL;DR:** Das im September 2025 veröffentlichte Qwen Image Edit Angles Tool auf HuggingFace ermöglicht die automatische Generierung konsistenter Multi-Angle-Ansichten aus einem einzelnen Bild. Mit der speziellen Multiple-Angles LoRa können Kamerawinkel ohne manuelle Prompts angepasst werden - ein Game-Changer für E-Commerce und Content-Automation.
 

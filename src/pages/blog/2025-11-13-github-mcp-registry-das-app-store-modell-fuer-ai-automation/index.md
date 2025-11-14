@@ -13,7 +13,6 @@ portal: 'AI-AUTOMATION-ENGINEERS.DE'
 spreadsheetRow: '7'
 ---
 
-# GitHub MCP Registry: Der Game-Changer für dezentralisierte AI-Automation
 
 **TL;DR:** GitHub startet die MCP Registry als zentrale Plattform für Model Context Protocol Server – ein App-Store-Modell, das die Integration von AI-Tools in bestehende Automation-Stacks dramatisch vereinfacht und konkret Zeit im Workflow spart.
 

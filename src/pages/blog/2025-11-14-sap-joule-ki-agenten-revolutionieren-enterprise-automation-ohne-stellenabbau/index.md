@@ -12,7 +12,6 @@ source: 'https://www.n-tv.de'
 portal: 'ai-automation-engineers.de'
 spreadsheetRow: '111'
 ---
-# SAP Joule: KI-Agenten revolutionieren Enterprise Automation ohne Stellenabbau
 **TL;DR:** SAP launcht mit Joule einen umfassenden KI-Copiloten für Enterprise Software, der ab November 2024 in SAP Signavio verfügbar ist und in SAP SuccessFactors mit dem Production Release vom 15. November 2024 ausgerollt wird. Der Fokus liegt auf Effizienzsteigerung durch Automatisierung von Routineaufgaben bei gleichzeitiger Mitarbeiterentwicklung statt Stellenabbau.
 SAP macht Ernst mit seiner KI-Strategie und rollt ab November 2024 seinen KI-Agenten Joule flächendeckend aus. Das Besondere: Während viele Unternehmen bei KI-Integration primär an Kosteneinsparungen durch Personalreduktion denken, verfolgt SAP einen anderen Ansatz. Die branchenspezifischen KI-Modelle sollen Mitarbeiter von Routineaufgaben befreien und Zeit für strategische Aufgaben schaffen.
 ## Die wichtigsten Punkte

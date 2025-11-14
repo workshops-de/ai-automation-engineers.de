@@ -13,7 +13,6 @@ portal: 'ai-automation-engineers.de'
 spreadsheetRow: '105'
 ---
 
-# Microsoft investiert 10 Milliarden Dollar in Europas größtes KI-Rechenzentrum mit 12.600 Nvidia Blackwell GPUs
 
 **TL;DR:** Microsoft plant eine Rekordinvestition von 10 Milliarden Dollar für ein KI-Datenzentrum in Portugal mit 12.600 Nvidia Blackwell Ultra GB300 GPUs. Die Anlage in Sines wird ab 2026 eine der leistungsstärksten KI-Infrastrukturen Europas und ermöglicht das Training und den Betrieb von LLMs der nächsten Generation mit deutlich reduzierter Latenz für europäische Nutzer.
 

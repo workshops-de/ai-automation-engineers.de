@@ -10,7 +10,6 @@ readTime: '5 min read'
 image: 'https://images.pexels.com/photos/1181365/pexels-photo-1181365.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
-# GitHub Copilot August Update: GPT-5 Preview, Claude Opus 4.1 & MCP-Support
 
 **TL;DR:** GitHub bringt massive Updates für Copilot: GPT-5 ist jetzt in Public Preview, Claude Opus 4.1 für Enterprise-User verfügbar, der Coding Agent unterstützt jetzt MCP (Model Context Protocol) und ein neues, vereinfachtes Preismodell wurde eingeführt. Außerdem: VS Code Extension wird Open Source.
 

@@ -10,7 +10,6 @@ readTime: '8 min read'
 image: 'https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
-# GPT-5 ist da: OpenAI's smartestes Modell revolutioniert die KI-Landschaft
 
 **TL;DR:** OpenAI hat am 7. August 2025 GPT-5 veröffentlicht - das bisher intelligenteste, schnellste und nützlichste KI-Modell des Unternehmens. Mit Ph.D.-Level Expertise, 272K Token Context Window und bahnbrechenden Verbesserungen in Coding, Reasoning und Multimodalität setzt GPT-5 neue Maßstäbe.
 

@@ -13,7 +13,6 @@ portal: 'ai-automation-engineers.de'
 spreadsheetRow: '104'
 ---
 
-# Microsoft startet Revolution: Autonome KI-Agents übernehmen ab November eigenständig komplette Workflows
 
 **TL;DR:** Microsoft's autonome AI-Agents (seit März 2025 allgemein verfügbar) werden kontinuierlich erweitert und agieren als eigenständige digitale Mitarbeiter. Sie können selbstständig Meetings teilnehmen, E-Mails versenden, Dokumente bearbeiten und komplexe Workflows ohne menschliche Kontrolle ausführen – das spart konkret 5-8 Stunden pro Woche bei Routine-Tasks.
 

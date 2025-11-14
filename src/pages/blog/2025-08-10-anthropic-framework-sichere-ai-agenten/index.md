@@ -10,7 +10,6 @@ readTime: '8 min read'
 image: 'https://images.pexels.com/photos/1181488/pexels-photo-1181488.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
-# Anthropics Framework für sichere KI-Agenten: 5 Prinzipien für vertrauenswürdige Automatisierung
 
 **TL;DR:** Anthropic stellt Framework für sichere AI-Agenten vor mit 5 Kernprinzipien: Menschliche Kontrolle bei autonomer Arbeitsweise, Transparenz, Werteausrichtung, Datenschutz und Sicherheit. Claude Code zeigt bereits, wie autonome Agenten Software entwickeln, während Unternehmen wie Trellix und Block die Technologie erfolgreich einsetzen.
 

@@ -10,7 +10,6 @@ readTime: '5 min read'
 image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
-# gotoHuman - Supervise AI Agents in einer flexiblen Plattform
 
 **TL;DR:** gotoHuman ist eine spezialisierte Plattform zur Überwachung und Steuerung von AI-Agents mit Human-in-the-Loop Kontrolle. Die Lösung ermöglicht es Unternehmen, autonome KI-Systeme sicher zu deployen und dabei die menschliche Kontrolle zu bewahren.
 

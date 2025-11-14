@@ -13,7 +13,6 @@ portal: 'workshops.de'
 spreadsheetRow: '73'
 ---
 
-# Frugal AI: Der intelligente Weg zu ressourcenschonender Künstlicher Intelligenz
 
 **TL;DR:** Frugal AI ist ein innovativer Ansatz, der KI-Systeme durch intelligentes Datenmanagement und energieeffiziente Algorithmen optimiert. Unternehmen können damit Kosten senken, ihre CO₂-Bilanz verbessern und gleichzeitig effektivere KI-Lösungen implementieren – ein Gewinn für Wirtschaft und Umwelt gleichermaßen.
 

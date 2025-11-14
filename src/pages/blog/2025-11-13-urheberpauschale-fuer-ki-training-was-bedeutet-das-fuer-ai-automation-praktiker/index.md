@@ -13,7 +13,6 @@ portal: 'ai-automation-engineers.de'
 spreadsheetRow: '86'
 ---
 
-# Urheberpauschale für KI-Training: Was bedeutet das für AI-Automation-Praktiker?
 
 **TL;DR:** Die deutschen Bundesländer planen eine gesetzliche Urheberpauschale für das Training von KI-Modellen mit geschützten Inhalten. Das bedeutet zusätzliche Kosten und Compliance-Anforderungen für KI-Entwickler und Unternehmen - könnte aber auch Rechtssicherheit schaffen.
 

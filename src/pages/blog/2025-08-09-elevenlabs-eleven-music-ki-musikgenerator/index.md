@@ -10,7 +10,6 @@ readTime: '8 min read'
 image: 'https://images.unsplash.com/photo-1478737270239-2f02b77fc618?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=600&q=80'
 ---
 
-# ElevenLabs launcht Eleven Music: Studio-Qualität aus Text-Prompts
 
 **TL;DR:** ElevenLabs stellt Eleven Music vor - einen KI-basierten Musikgenerator, der aus natürlichsprachlichen Prompts in Minuten Studio-qualität Musik erstellt. Dank Partnerschaften mit Merlin und Kobalt ist die kommerzielle Nutzung rechtlich abgesichert.
 

@@ -13,7 +13,6 @@ portal: 'ai-automation-engineers.de'
 spreadsheetRow: '71'
 ---
 
-# Amazon vs. Perplexity: Wenn KI-Agenten zu autonom werden
 
 **TL;DR:** Amazon hat Perplexity wegen dessen Shopping-Agent "Comet" verklagt. Der Vorwurf: heimlicher Zugriff auf Nutzerkonten und verschleierte Automatisierung. Der Fall zeigt die Grenzen und Risiken autonomer KI-Agents auf und könnte wegweisend für die gesamte Automatisierungs-Branche werden.
 

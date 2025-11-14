@@ -10,7 +10,6 @@ readTime: '5 min read'
 image: 'https://images.pexels.com/photos/1181433/pexels-photo-1181433.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
-# 109.000 IT-Stellen unbesetzt: Deutschlands Tech-Branche kämpft mit Fachkräftelücke
 
 **TL;DR:** Deutschland fehlen aktuell 109.000 IT-Fachkräfte – ein Rückgang gegenüber 149.000 vor zwei Jahren. Trotz Entspannung erwarten 79% der Unternehmen eine Verschärfung. KI könnte dabei Fluch und Segen zugleich sein.
 
