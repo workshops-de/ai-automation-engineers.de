@@ -192,3 +192,5 @@ functions/.env.local
 .astro/types.d.ts
 .astro/settings.json
 .astro/types.d.ts
+.astro/data-store.json
+.astro/types.d.ts
