@@ -189,3 +189,6 @@ functions/node_modules/
 functions/lib/
 functions/.env
 functions/.env.local 
+.astro/types.d.ts
+.astro/settings.json
+.astro/types.d.ts
