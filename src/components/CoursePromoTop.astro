@@ -1,0 +1,74 @@
+---
+// CoursePromoTop.astro - Top Course Promotion Component
+// Inspiriert von AINAUTEN Accelerator Block für prominente Kurs-Bewerbung
+---
+
+<section class="course-promo-top bg-gradient-to-br from-blue-50 to-indigo-50 border border-blue-200 rounded-2xl p-8 mb-12">
+  <div class="text-center mb-6">
+    <div class="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-blue-600 to-indigo-600 rounded-2xl mb-4">
+      <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+      </svg>
+    </div>
+    <h4 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-2">
+      🔥 <strong>KI-Transformation für Unternehmen</strong> 🔥
+    </h4>
+    <p class="text-lg font-semibold text-blue-600 mb-4">
+      <em><strong>Revolutioniert eure Arbeitsabläufe mit professioneller KI-Integration.</strong></em>
+    </p>
+  </div>
+
+  <div class="prose prose-gray max-w-none text-center">
+    <p class="text-gray-700 leading-relaxed mb-6">
+      <strong>Für Unternehmen und Teams:</strong> Entdeckt, wie KI eure Geschäftsprozesse revolutionieren kann – 
+      von ersten Wow-Momenten bis zur nachhaltigen Integration. Unsere praxisorientierten Schulungen 
+      bringen euer Team von 0 auf 100, ohne dass zwingend Programmierkenntnisse erforderlich sind.
+    </p>
+    
+    <p class="text-gray-700 leading-relaxed mb-6">
+      <strong>Unsere Fokus-Programme:</strong><br>
+      • <em>AI Automation Engineer</em> (3-6 Tage) für intelligente Prozessautomatisierung<br>
+      • <em>N8N + KI-Agenten Workshop</em> (3-6 Tage) für autonome Workflows<br>
+      • <em>AI Design Sprint™</em> (5 Tage) für innovative KI-Lösungen<br>
+      • <em>Maßgeschneiderte Firmen-Schulungen</em> nach euren Bedürfnissen
+    </p>
+    
+    <p class="text-gray-700 leading-relaxed mb-8">
+      <strong>Ergebnis:</strong> Euer Team implementiert KI-Automatisierungen, die nachweislich Zeit sparen, 
+      Kosten reduzieren und die Produktivität steigern. Alle Schulungen vor Ort oder remote verfügbar.
+    </p>
+  </div>
+
+  <div class="text-center">
+    <a href="/training" 
+       class="inline-flex items-center px-8 py-4 text-lg font-bold text-white bg-gradient-to-r from-blue-600 to-indigo-600 rounded-2xl hover:from-blue-700 hover:to-indigo-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 mb-3">
+      Ja, ich will mehr erfahren →
+    </a>
+    <div class="text-sm text-gray-600">
+      <em>Klingt gut, aber du bist unsicher, ob es passt?</em> 
+      <a href="/training" class="text-blue-600 hover:text-blue-800 underline">
+        Schau dir die Seite an
+      </a>, dort findest du Inhalte, Beispiele & Details.
+    </div>
+  </div>
+</section>
+
+<style>
+  .course-promo-top {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+  }
+  
+  .course-promo-top .prose p {
+    margin-bottom: 1rem;
+  }
+  
+  .course-promo-top .prose strong {
+    color: #1f2937;
+  }
+  
+  .course-promo-top .prose em {
+    color: #4f46e5;
+  }
+</style>

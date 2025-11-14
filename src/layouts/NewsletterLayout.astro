@@ -1,6 +1,8 @@
 ---
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import CoursePromoTop from '../components/CoursePromoTop.astro';
+import CoursePromoBottom from '../components/CoursePromoBottom.astro';
 import '../styles/global.css';
 import '../styles/blogLayout.css';
 
@@ -36,7 +38,7 @@ const {
   category,
   readTime,
   image,
-  imageAlt = title,
+  imageAlt = title
 } = Astro.props.frontmatter || Astro.props;
 
 // Format date
@@ -231,12 +233,22 @@ const articleSchema = {
     </div>
   )}
 
+  <!-- Course Promo Top -->
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
+      <CoursePromoTop />
+    </div>
+
   <!-- Main Content -->
   <main class="flex-1 bg-white">
     <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
       <article class="prose prose-lg prose-blue max-w-none newsletter-content">
         <slot />
       </article>
+      
+      <!-- Course Promo Bottom -->
+        <div class="mt-8">
+          <CoursePromoBottom />
+        </div>
     </div>
   </main>
 
