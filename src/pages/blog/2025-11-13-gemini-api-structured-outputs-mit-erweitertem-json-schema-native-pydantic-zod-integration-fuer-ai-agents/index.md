@@ -48,71 +48,38 @@ Mit der neuen JSON Schema Integration wird das Modell gezwungen, strukturierte D
 Die Gemini API unterstützt jetzt erweiterte JSON Schema Features:
 
 ```json
-
 {
-
   "type": "object",
-
   "properties": {
-
     "invoice_number": {
-
       "type": "string",
-
       "pattern": "^INV-[0-9]{6}$"
-
     },
-
     "amount": {
-
       "type": "number",
-
       "minimum": 0,
-
       "maximum": 1000000
-
     },
-
     "due_date": {
-
       "type": "string",
-
       "format": "date"
-
     },
-
     "line_items": {
-
       "type": "array",
-
       "items": {
-
         "type": "object",
-
         "properties": {
-
           "description": {"type": "string"},
-
           "quantity": {"type": "integer"},
-
           "price": {"type": "number"}
-
         },
-
         "required": ["description", "quantity", "price"]
-
       }
-
     }
-
   },
-
   "additionalProperties": false,
-
   "required": ["invoice_number", "amount", "due_date"]
-
 }
-
 ```
 
 Unterstützte Schema-Features:
