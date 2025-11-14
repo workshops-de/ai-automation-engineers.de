@@ -1,6 +1,6 @@
 ---
 layout: '../../../layouts/BlogLayout.astro'
-title: Google Private AI Compute: Enterprise KI mit maximalem Datenschutz'
+title: 'Google Private AI Compute: Enterprise KI mit maximalem Datenschutz'
 description: 'Private AI Compute: Googles neue Cloud-KI mit lokaler Verschlüsselung für sichere Datenverarbeitung - Hybrid AI Architektur für Enterprise-Anwendungen'
 pubDate: '2025-11-14'
 author: 'Robin Böhm'
