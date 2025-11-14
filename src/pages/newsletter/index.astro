@@ -59,7 +59,7 @@ const newsletters = allNewsletters.filter(newsletter => {
 
 <BaseLayout {title} {description}>
   <!-- Hero Section -->
-  <section class="relative min-h-[60vh] bg-white overflow-hidden">
+  <section id="newsletter-signup" class="relative min-h-[60vh] bg-white overflow-hidden">
     <!-- Background Animation -->
     <div class="absolute inset-0 bg-gradient-to-br from-gray-50 via-white to-blue-50">
       <div class="absolute inset-0 bg-grid-slate-100 [mask-image:linear-gradient(0deg,white,rgba(255,255,255,0.6))]"></div>
@@ -82,6 +82,17 @@ const newsletters = allNewsletters.filter(newsletter => {
           Artikel und News aus dem Bereich AI-Automation Engineering.
         </p>
       </div>
+      <form class="max-w-md mx-auto flex flex-col sm:flex-row gap-3 mb-6">
+        <input 
+          type="email" 
+          placeholder="Deine E-Mail-Adresse"
+          class="flex-1 px-6 py-4 text-lg border-2 border-gray-200 rounded-2xl focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent transition-all duration-300"
+          required
+        >
+        <button type="submit" class="px-8 py-4 text-lg font-bold text-white bg-gradient-to-r from-blue-600 to-indigo-600 rounded-2xl hover:from-blue-700 hover:to-indigo-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 whitespace-nowrap">
+          JETZT EINTRAGEN →
+        </button>
+      </form>
     </div>
   </section>
 
@@ -154,26 +165,21 @@ const newsletters = allNewsletters.filter(newsletter => {
     </div>
   </section>
 
-  <!-- Newsletter Signup -->
-  <section class="py-32 bg-gray-50">
+  <!-- Call-to-Action Footer -->
+  <section class="py-20 bg-gray-50">
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-      <h2 class="text-4xl sm:text-5xl font-bold text-gray-900 mb-8">
-        Bleibe informiert.
+      <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">
+        Bleibe am Ball! 🚀
       </h2>
-      <p class="text-xl text-gray-600 mb-12">
-        Abonniere unseren Newsletter und verpasse keine KI-Automatisierungs-Insights
+      <p class="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
+        Verpasse keine der wöchentlichen Updates und werde Teil der AI-Automation Community
       </p>
-      <form class="max-w-lg mx-auto flex flex-col sm:flex-row gap-4">
-        <input 
-          type="email" 
-          placeholder="Deine E-Mail-Adresse"
-          class="flex-1 px-6 py-4 text-lg border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-gray-900 focus:border-transparent"
-          required
-        >
-        <button type="submit" class="px-8 py-4 text-lg font-semibold text-white bg-gray-900 rounded-full hover:bg-gray-800 transition-all duration-300 shadow-lg hover:shadow-xl">
-          Abonnieren
-        </button>
-      </form>
+      <a href="#newsletter-signup" class="inline-flex items-center px-8 py-4 text-lg font-bold text-white bg-gradient-to-r from-blue-600 to-indigo-600 rounded-2xl hover:from-blue-700 hover:to-indigo-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105">
+        Zum Newsletter anmelden
+        <svg class="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
+        </svg>
+      </a>
     </div>
   </section>
 </BaseLayout>
