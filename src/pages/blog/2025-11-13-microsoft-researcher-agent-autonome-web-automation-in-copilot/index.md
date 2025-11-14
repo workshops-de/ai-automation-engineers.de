@@ -215,7 +215,7 @@ Die Zeitersparnis von bis zu 90% bei Research-Tasks ist keine Übertreibung - es
 
 - 📖 [Microsoft 365 Copilot Overview](https://learn.microsoft.com/en-us/copilot/overview)
 
-- 🎓 [AI & Automation Workshop auf workshops.de](https://workshops.de/seminare/ai-automation)
+- 🎓 [AI & Automation Workshop auf workshops.de](https://workshops.de/ki)
 
 ---
 *Recherchiert mit: Perplexity AI | Stand: 08. November 2025*

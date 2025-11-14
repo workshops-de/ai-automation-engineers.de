@@ -156,7 +156,7 @@ Die Tech-Branche reagiert gemischt. Während große Unternehmen die Rechtssicher
 - 🇪🇺 [EU-Produkthaftungsrichtlinie 2024/2853](https://eur-lex.europa.eu)
 - 📖 [AI Act Compliance Guide](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai)
 - 💼 [Bitkom-Stellungnahme](https://www.bitkom.org)
-- 🎓 [Schulungsangebote zur KI-Haftung](https://workshops.de)
+- 🎓 [Schulungsangebote zur KI-Haftung](https://workshops.de/ki)
 
 ## Fazit
 

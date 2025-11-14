@@ -293,9 +293,9 @@ Die Frage ist nicht ob, sondern wann Sie auf Multi-Agent Development umsteigen. 
 
 - 🔧 [Model Context Protocol (MCP) Official Website](https://modelcontextprotocol.org) ✅
 
-- 📚 [GitHub Agent HQ Documentation](https://docs.github.com/agent-hq) ⚠️ *Noch nicht verfügbar - coming 2025*
+- 📚 [GitHub Copilot Documentation](https://docs.github.com/en/copilot)
 
-- 🎓 [Workshop: Multi-Agent Systems für Developer](https://workshops.de/ai-multi-agent-systems) ⚠️ *Link zu verifizieren*
+- 🎓 [Workshop: Multi-Agent Systems für Developer](https://workshops.de/ki) ⚠️ *Link zu verifizieren*
 
 - 🤖 [GitHub Features Übersicht](https://github.com/features) - *Keine dedizierte Agent HQ Waitlist verfügbar*
 

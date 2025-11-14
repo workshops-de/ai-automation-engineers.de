@@ -164,7 +164,7 @@ Du willst tiefer in die Welt der KI-Reasoning eintauchen? Hier sind deine nächs
 
 Die Zukunft der Mathematik - und damit der Wissenschaft - wird gerade neu geschrieben. Und du kannst Teil davon sein.
 
-**[Entdecke unsere KI-Workshops](https://workshops.de/ki-reasoning)** und lerne, wie du die Power von Reasoning-Modellen für deine Projekte nutzen kannst.
+**[Entdecke unsere KI-Workshops](https://workshops.de/ki)** und lerne, wie du die Power von Reasoning-Modellen für deine Projekte nutzen kannst.
 
 Die Mathematik-Olympiade war erst der Anfang. Die echte Goldmedaille? Die holen wir uns gemeinsam in der Zukunft. 🏆
 

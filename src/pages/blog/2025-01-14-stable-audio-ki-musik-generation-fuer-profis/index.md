@@ -50,7 +50,7 @@ Aber hier kommt der Clou: Es ist nicht nur *ein* Modell. Stability AI hat eine g
 - **Features**: Text-zu-Audio UND Audio-zu-Audio Transformation
 - **Qualität**: 44.1 kHz Stereo, bis zu 3 Minuten
 - **Cool Factor**: Upload deinen Beat, transformiere ihn in Jazz. Seriously.
-- **Preis**: Kostenlos auf stableaudio.com
+- **Preis**: Kostenlos auf [stableaudio.com](https://www.stableaudio.com)
 
 ### 📱 **Stable Audio Open Small** – Der Mobile Ninja
 - **Stats**: 341 Millionen Parameter (klein aber oho!)
@@ -184,7 +184,7 @@ Das ist keine Science Fiction mehr – das ist die Roadmap!
 ## Hands-On: So startest du heute
 
 ### Option 1: Der Quick-Start (Kostenlos)
-1. Gehe zu [stableaudio.com](https://stableaudio.com)
+1. Gehe zu [stableaudio.com](https://www.stableaudio.com)
 2. Registriere dich (kostenlos)
 3. Experimentiere mit Text-Prompts
 4. Download deine Kreationen
@@ -249,7 +249,7 @@ Dies ist deine Chance, Audio-Generation in deine Projekte zu integrieren:
 
 ### Die Action Items für diese Woche:
 
-1. **Teste Stable Audio 2.0** auf stableaudio.com (30 Min)
+1. **Teste Stable Audio 2.0** auf [stableaudio.com](https://www.stableaudio.com) (30 Min)
 2. **Clone das Open Source Repo** und experimentiere lokal (1 Stunde)
 3. **Brainstorme 3 Use-Cases** für dein aktuelles Projekt
 4. **Diskutiere mit deinem Team** die Möglichkeiten

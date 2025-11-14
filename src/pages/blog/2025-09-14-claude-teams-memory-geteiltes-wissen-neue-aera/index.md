@@ -216,6 +216,6 @@ Die Zeiten, in denen KI-Assistenten bei jedem Chat bei Null anfangen, sind vorbe
 
 ---
 
-*Willst du mehr über AI-gestützte Team-Kollaboration lernen? Check unsere Workshops auf [workshops.de](https://workshops.de) - dort zeigen wir dir hands-on, wie du Claude Teams Memory optimal für dein Team einsetzt.*
+*Willst du mehr über AI-gestützte Team-Kollaboration lernen? Check unsere Workshops auf [workshops.de](https://workshops.de/ki) - dort zeigen wir dir hands-on, wie du Claude Teams Memory optimal für dein Team einsetzt.*
 
 Die Zukunft der Team-Zusammenarbeit ist nicht nur intelligent - sie hat jetzt auch ein Gedächtnis. Und trust me, das ändert alles. 🧠✨

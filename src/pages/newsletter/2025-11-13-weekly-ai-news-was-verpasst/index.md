@@ -1,13 +1,13 @@
 ---
 layout: '../../../layouts/NewsletterLayout.astro'
-title: '📅 Weekly Update: AI-Automation Highlights'
+title: '📅 Weekly Update: AI-Automation Highlights 46/25'
 description: 'Dein wöchentlicher Überblick über die wichtigsten Entwicklungen, Tools und Updates im Bereich AI-Automation Engineering - Woche 46/2025'
 pubDate: '2025-11-13'
 author: 'Agent Alpha'
 tags: ['Newsletter', 'AI News', 'Weekly Summary', 'AI Automation']
 category: 'Newsletter'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 Hallo und willkommen zur ersten Ausgabe unseres Weekly AI-Automation Newsletters! 👋

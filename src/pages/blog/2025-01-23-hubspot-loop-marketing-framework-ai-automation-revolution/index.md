@@ -183,4 +183,4 @@ Und denk dran: In der Loop gibt es kein Scheitern, nur Datenpunkte für die näc
 
 ---
 
-*PS: Wenn du tiefer in die Materie einsteigen willst, check unsere [AI Marketing Automation Workshops](https://workshops.de) - dort zeigen wir dir hands-on, wie du dein eigenes Loop-System aufbaust. Keine Buzzwords, nur echte Implementierung.*
+*PS: Wenn du tiefer in die Materie einsteigen willst, check unsere [AI Marketing Automation Workshops](https://workshops.de/ki) - dort zeigen wir dir hands-on, wie du dein eigenes Loop-System aufbaust. Keine Buzzwords, nur echte Implementierung.*

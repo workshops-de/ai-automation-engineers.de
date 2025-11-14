@@ -183,6 +183,6 @@ Du willst lernen, wie du ChatGPT und andere KI-Tools optimal in deine Workflows 
 
 Schau dir unsere AI-Automation Workshops an: Von ChatGPT-Integration über Custom GPTs bis zu vollständigen Automatisierungs-Pipelines.
 
-[Jetzt Workshop-Platz sichern auf workshops.de](https://workshops.de)
+[Jetzt Workshop-Platz sichern auf workshops.de](https://workshops.de/ki)
 
 Die Zukunft wartet nicht - sei dabei, wenn wir sie gestalten! 🎯

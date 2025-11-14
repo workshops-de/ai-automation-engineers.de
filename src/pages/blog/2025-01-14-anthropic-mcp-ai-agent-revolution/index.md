@@ -229,7 +229,7 @@ Dein Claude kann jetzt deinen Custom-Server nutzen!
 ### 📚 Offizielle Dokumentation
 - [MCP Specification](https://modelcontextprotocol.io/specification)
 - [Anthropic MCP Docs](https://docs.anthropic.com/en/docs/mcp)
-- [GitHub Repository](https://github.com/anthropics/mcp)
+- [GitHub Repository](https://github.com/anthropics/mcp-servers)
 
 ### 💬 Community Hubs
 - Discord: MCP Developers

@@ -341,7 +341,7 @@ Das bedeutet für dich: Die Zeit, um MCP zu lernen, ist JETZT.
 
 
 
-- 📰 [GitHub Blog: MCP Registry Changelog](https://github.blog/changelog/2025-10-github-mcp-registry)
+- 📰 [GitHub Blog: MCP Registry Announcement](https://github.blog/ai-and-ml/github-copilot/meet-the-github-mcp-registry-the-fastest-way-to-discover-mcp-servers/)
 
 - 📚 [Offizielle MCP Registry GitHub](https://github.com/modelcontextprotocol/registry)
 

@@ -237,6 +237,6 @@ Die neue Desktop-App macht den Einstieg so einfach wie nie. Du hast keine Ausred
 
 ---
 
-*P.S.: Wenn du tiefer in die Materie einsteigen willst, check unseren Workshop "Local AI Mastery" aus. Wir bauen gemeinsam einen kompletten KI-Stack auf deinem Rechner auf – von Ollama bis zu eigenen Agents. [workshops.de/local-ai](https://workshops.de/local-ai)*
+*P.S.: Wenn du tiefer in die Materie einsteigen willst, check unseren Workshop "Local AI Mastery" aus. Wir bauen gemeinsam einen kompletten KI-Stack auf deinem Rechner auf – von Ollama bis zu eigenen Agents. [workshops.de/local-ai](https://workshops.de/ki)*
 
 Die Zukunft der KI ist lokal, privat und unter deiner Kontrolle. Bist du dabei? 🚀

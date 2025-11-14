@@ -177,7 +177,7 @@ Die AI-Community reagiert überwiegend positiv auf das Framework. Besonders gelo
 ## Quick Links & Ressourcen
 
 - 📚 [Offizielle Framework-Dokumentation](https://www.anthropic.com/news/our-framework-for-developing-safe-and-trustworthy-agents)
-- 🐙 [MCP GitHub Repository](https://github.com/anthropics/mcp)
+- 🐙 [MCP GitHub Repository](https://github.com/anthropics/mcp-servers)
 - 🎥 [Claude Code Demo](https://www.anthropic.com/claude-code)
 - 💬 [Anthropic Developer Community](https://console.anthropic.com)
 - 📰 [Trellix Case Study](https://www.anthropic.com/customers/trellix)

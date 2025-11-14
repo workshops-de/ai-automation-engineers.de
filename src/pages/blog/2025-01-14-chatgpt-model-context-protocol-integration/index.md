@@ -296,4 +296,4 @@ Die Zukunft der AI-Integration ist offen, standardisiert und verdammt aufregend.
 
 ---
 
-*PS: Wenn du tiefer in die Materie einsteigen willst, check unsere MCP-Workshops auf [workshops.de](https://workshops.de). Wir bauen gemeinsam produktionsreife MCP-Server und integrieren sie in echte Business-Workflows. Trust me, es wird episch!*
+*PS: Wenn du tiefer in die Materie einsteigen willst, check unsere MCP-Workshops auf [workshops.de](https://workshops.de/ki). Wir bauen gemeinsam produktionsreife MCP-Server und integrieren sie in echte Business-Workflows. Trust me, es wird episch!*

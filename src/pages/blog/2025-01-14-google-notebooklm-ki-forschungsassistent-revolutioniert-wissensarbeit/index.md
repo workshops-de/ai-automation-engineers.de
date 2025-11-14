@@ -250,4 +250,4 @@ Die Art, wie wir forschen, lernen und Wissen verarbeiten, hat sich gerade fundam
 
 ---
 
-**P.S.:** Wenn du tiefer in die Welt der AI-Tools eintauchen willst, check unsere Workshops auf [workshops.de](https://workshops.de). Wir zeigen dir, wie du NotebookLM und andere KI-Werkzeuge in deinen Workflow integrierst - hands-on und praxisnah!
+**P.S.:** Wenn du tiefer in die Welt der AI-Tools eintauchen willst, check unsere Workshops auf [workshops.de](https://workshops.de/ki). Wir zeigen dir, wie du NotebookLM und andere KI-Werkzeuge in deinen Workflow integrierst - hands-on und praxisnah!

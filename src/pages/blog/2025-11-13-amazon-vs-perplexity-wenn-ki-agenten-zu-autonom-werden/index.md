@@ -178,7 +178,7 @@ Der Rechtsstreit zwischen Amazon und Perplexity ist mehr als nur ein Einzelfall.
 
 - 📊 [Meedia - Browser-Agent Details](https://meedia.de/news/beitrag/20510-amazon-verklagt-perplexity-wegen-ai-browser-comet.html)
 
-- 🎓 [Workshop: Ethische KI-Automatisierung auf workshops.de](https://workshops.de)
+- 🎓 [Workshop: Ethische KI-Automatisierung auf workshops.de](https://workshops.de/ki)
 
 ---
 *Recherchiert mit: Perplexity AI | Stand: 09.11.2025*

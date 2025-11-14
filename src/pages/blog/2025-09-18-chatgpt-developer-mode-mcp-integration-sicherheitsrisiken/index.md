@@ -201,7 +201,7 @@ if (action.type === 'DELETE' || action.value > 10000) {
 ## Quick Links & Ressourcen
 
 - 📚 [OpenAI Developer Mode Docs](https://platform.openai.com/docs/developer-mode)
-- 🐙 [MCP Protocol Specification](https://github.com/modelcontextprotocol/spec)
+- 🐙 [MCP Protocol Specification](https://github.com/modelcontextprotocol/specification)
 - 🎥 [Official Demo Video](https://youtube.com/watch?v=qf8kGgsHgyc)
 - 💬 [Community Forum](https://community.openai.com/t/mcp-server-tools)
 - 📰 [Original Announcement](https://openai.com/blog/developer-mode)

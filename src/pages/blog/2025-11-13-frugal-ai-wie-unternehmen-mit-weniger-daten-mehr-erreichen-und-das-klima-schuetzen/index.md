@@ -115,7 +115,7 @@ Frugal AI ist mehr als ein Trend – es ist eine notwendige Evolution in der KI-
 
 - 📚 [NetApp Solutions für energieeffiziente Storage-Systeme](https://www.netapp.com)
 
-- 🎓 [Workshops zu Green IT und nachhaltiger KI-Strategie auf workshops.de](https://workshops.de)
+- 🎓 [Workshops zu Green IT und nachhaltiger KI-Strategie auf workshops.de](https://workshops.de/ki)
 
 ---
 *Recherchiert mit: Perplexity AI | Stand: 09.11.2025*

@@ -277,7 +277,7 @@ Der nächste logische Schritt? Starte ein Pilot-Projekt, messe die Ergebnisse un
 
 - 📚 [GitHub Copilot Dokumentation](https://docs.github.com/en/copilot)
 
-- 🎓 [AI-Automation Workshop: GitHub Copilot im Enterprise-Einsatz](https://www.workshops.de/seminare/github-copilot-enterprise)
+- 🎓 [AI-Automation Workshop: GitHub Copilot im Enterprise-Einsatz](https://workshops.de/ki)
 
 - 🔧 [GitHub Universe 2025: AgentHQ Announcement](https://githubuniverse.com)
 

@@ -256,7 +256,7 @@ Die Kombination aus Open-Source-Verfügbarkeit, Enterprise-Features und der visu
 
 - 💬 [Langflow Discord Community](https://discord.gg/langflow)
 
-- 🚀 [Quick Start Guide](https://docs.langflow.org/get-started)
+- 🚀 [Quick Start Guide](https://docs.langflow.org/en/latest/getting-started/quickstart)
 
 ---
 *Recherchiert mit: Perplexity AI | Stand: 2025-11-10*

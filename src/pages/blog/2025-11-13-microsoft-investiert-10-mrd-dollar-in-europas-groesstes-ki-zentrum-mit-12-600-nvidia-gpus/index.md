@@ -173,7 +173,7 @@ Diese Investition wird den europäischen KI-Automatisierungsmarkt fundamental ve
 
 - 🔧 [Nvidia Blackwell Architecture Guide](https://www.nvidia.com/blackwell/)
 
-- 🎓 [AI-Automation Workshop: Enterprise LLM Integration](https://workshops.de/seminare/ai-automation-enterprise)
+- 🎓 [AI-Automation Workshop: Enterprise LLM Integration](https://workshops.de/ki)
 
 ---
 *Recherchiert mit: Perplexity AI | Stand: 2025-11-12*
