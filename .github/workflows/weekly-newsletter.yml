@@ -1,0 +1,189 @@
+name: 📅 Weekly Newsletter Generation
+
+on:
+  schedule:
+    # Runs every Friday at 9:00 AM CET (8:00 AM UTC)
+    - cron: '0 8 * * 5'
+  
+  # Allow manual trigger
+  workflow_dispatch:
+    inputs:
+      generate_content:
+        description: 'Generate newsletter with AI content'
+        required: false
+        default: 'true'
+        type: boolean
+
+jobs:
+  generate-newsletter:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+      pull-requests: write
+    
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: 🔧 Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: 📦 Install dependencies
+        run: npm ci
+
+      - name: 📅 Generate newsletter structure
+        run: |
+          chmod +x scripts/generate-newsletter.js
+          node scripts/generate-newsletter.js
+
+      - name: 🔍 Check for new newsletter
+        id: check_changes
+        run: |
+          if git status --porcelain | grep -q "src/pages/newsletter/"; then
+            echo "changes=true" >> $GITHUB_OUTPUT
+            echo "📝 New newsletter detected"
+            
+            # Get the folder name for the new newsletter
+            NEW_FOLDER=$(git status --porcelain | grep "src/pages/newsletter/" | head -1 | sed 's/.*src\/pages\/newsletter\///' | cut -d'/' -f1)
+            echo "folder_name=$NEW_FOLDER" >> $GITHUB_OUTPUT
+            echo "Newsletter folder: $NEW_FOLDER"
+          else
+            echo "changes=false" >> $GITHUB_OUTPUT
+            echo "ℹ️ No new newsletter generated (may already exist)"
+          fi
+
+      - name: 📝 Get current date info
+        id: date_info
+        run: |
+          CURRENT_DATE=$(date +%Y-%m-%d)
+          WEEK_NUMBER=$(date +%V)
+          YEAR=$(date +%Y)
+          FRIDAY_DATE=$(date +%Y-%m-%d)
+          
+          echo "current_date=$CURRENT_DATE" >> $GITHUB_OUTPUT
+          echo "week_number=$WEEK_NUMBER" >> $GITHUB_OUTPUT
+          echo "year=$YEAR" >> $GITHUB_OUTPUT
+          echo "friday_date=$FRIDAY_DATE" >> $GITHUB_OUTPUT
+          
+          echo "Current date: $CURRENT_DATE"
+          echo "Week number: $WEEK_NUMBER"
+          echo "Year: $YEAR"
+
+      - name: 🤖 Add AI generation notice
+        if: steps.check_changes.outputs.changes == 'true'
+        run: |
+          NEWSLETTER_FILE="src/pages/newsletter/${{ steps.check_changes.outputs.folder_name }}/index.md"
+          
+          if [ -f "$NEWSLETTER_FILE" ]; then
+            # Add a comment at the top of the file for AI content generation
+            cat > temp_newsletter.md << 'EOF'
+          <!--
+          🤖 AI CONTENT GENERATION NEEDED
+          
+          This newsletter was auto-generated and needs AI content.
+          
+          Instructions:
+          1. Use the prompt from: prompts/weekly-newsletter-prompt.md
+          2. Replace all [PLACEHOLDER] content with real AI-automation news from this week
+          3. Add relevant links to existing blog posts from the website
+          4. Ensure all content is B2B focused and enterprise-relevant
+          
+          Template placeholders to fill:
+          - [AI-TOOL], [UNTERNEHMEN], [PLATFORM] in bullet points
+          - [SCHLAGZEILE], [BESCHREIBUNG] in top stories
+          - [NEUE FEATURES], [WICHTIGES UPDATE] in summaries
+          - All [Weiterlesen →] links with real blog post URLs
+          
+          Week: ${{ steps.date_info.outputs.week_number }}/${{ steps.date_info.outputs.year }}
+          Generated: ${{ steps.date_info.outputs.current_date }}
+          -->
+          
+          EOF
+            
+            cat "$NEWSLETTER_FILE" >> temp_newsletter.md
+            mv temp_newsletter.md "$NEWSLETTER_FILE"
+            
+            echo "✅ Added AI generation instructions to newsletter"
+          fi
+
+      - name: 🎯 Create Pull Request
+        if: steps.check_changes.outputs.changes == 'true'
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: |
+            feat(newsletter): add weekly ai-automation newsletter KW${{ steps.date_info.outputs.week_number }}/${{ steps.date_info.outputs.year }}
+            
+            - Auto-generated newsletter structure for week ${{ steps.date_info.outputs.week_number }}
+            - Ready for AI content generation using prompts/weekly-newsletter-prompt.md  
+            - Includes course promotion components
+            - B2B focus on AI-automation and enterprise tools
+          branch: newsletter/week-${{ steps.date_info.outputs.week_number }}-${{ steps.date_info.outputs.year }}
+          title: "📅 Weekly Newsletter KW${{ steps.date_info.outputs.week_number }}/${{ steps.date_info.outputs.year }} - Ready for AI Content"
+          body: |
+            ## 📅 Weekly Newsletter KW${{ steps.date_info.outputs.week_number }}/${{ steps.date_info.outputs.year }}
+            
+            Auto-generated newsletter structure ready for content creation.
+            
+            ### 🤖 Next Steps (AI Content Generation)
+            
+            1. **Use the AI Prompt**: Check `prompts/weekly-newsletter-prompt.md` for detailed instructions
+            2. **Fill Placeholders**: Replace all `[PLACEHOLDER]` content with real AI-automation news
+            3. **Add Links**: Link to relevant existing blog posts from our website
+            4. **Review**: Ensure B2B focus and enterprise relevance
+            
+            ### 📁 Generated Files
+            - `src/pages/newsletter/${{ steps.check_changes.outputs.folder_name }}/index.md`
+            
+            ### 🎯 Content Focus
+            - AI-Automation Tools (N8N, Langflow, etc.)
+            - Enterprise AI Solutions
+            - Developer Tools (GitHub Copilot, Cursor, etc.)  
+            - Business Process Automation
+            - Multi-Agent Systems & MCP
+            
+            ### ✅ Features Included
+            - ✅ Course promotion components (automatically integrated)
+            - ✅ Responsive design
+            - ✅ SEO optimized frontmatter
+            - ✅ Professional B2B tone
+            
+            **Generated on**: ${{ steps.date_info.outputs.current_date }}
+            **Week**: ${{ steps.date_info.outputs.week_number }}/${{ steps.date_info.outputs.year }}
+          labels: |
+            newsletter
+            automated
+            content-needed
+          assignees: |
+            ${{ github.repository_owner }}
+
+      - name: 📊 Summary
+        run: |
+          echo "## 📅 Weekly Newsletter Generation Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Date**: ${{ steps.date_info.outputs.current_date }}" >> $GITHUB_STEP_SUMMARY
+          echo "**Week**: ${{ steps.date_info.outputs.week_number }}/${{ steps.date_info.outputs.year }}" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          
+          if [ "${{ steps.check_changes.outputs.changes }}" = "true" ]; then
+            echo "✅ **Status**: Newsletter structure generated successfully" >> $GITHUB_STEP_SUMMARY
+            echo "📁 **Folder**: ${{ steps.check_changes.outputs.folder_name }}" >> $GITHUB_STEP_SUMMARY
+            echo "🔀 **PR**: Created pull request for review and content generation" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "ℹ️ **Status**: Newsletter already exists for this week" >> $GITHUB_STEP_SUMMARY
+          fi
+          
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### 🤖 Next Steps" >> $GITHUB_STEP_SUMMARY
+          echo "1. Review the generated newsletter structure" >> $GITHUB_STEP_SUMMARY  
+          echo "2. Use AI prompt from \`prompts/weekly-newsletter-prompt.md\`" >> $GITHUB_STEP_SUMMARY
+          echo "3. Fill in placeholder content with real AI-automation news" >> $GITHUB_STEP_SUMMARY
+          echo "4. Add links to relevant blog posts" >> $GITHUB_STEP_SUMMARY
+          echo "5. Review and merge the pull request" >> $GITHUB_STEP_SUMMARY
