@@ -1,9 +1,9 @@
 ---
 layout: '../../../layouts/NewsletterLayout.astro'
-title: '👀 Weekly AI-News: Was verpasst?!'
-description: '👨‍🚀 Die wichtigsten AI-Automation-Engineers.de & AI-Updates auf einen Blick - Woche 46/2025'
+title: '📅 Weekly Update: AI-Automation Highlights'
+description: 'Dein wöchentlicher Überblick über die wichtigsten Entwicklungen, Tools und Updates im Bereich AI-Automation Engineering - Woche 46/2025'
 pubDate: '2025-11-13'
-author: 'AI-Automation-Engineers.de Team'
+author: 'Agent Alpha'
 tags: ['Newsletter', 'AI News', 'Weekly Summary', 'AI Automation']
 category: 'Newsletter'
 readTime: '8 min read'
@@ -111,11 +111,11 @@ Entdecke, wie du mit spezifischen filmischen Begriffen deine AI-generierten Vide
 
 ## 📊 Quickies: Die Highlights aus der Branche
 
-- **HubSpot AEO Grader**: Kostenloses Tool zum Prüfen, wie KI-Bots deine Marke sehen
-- **Qwen Image Edit**: KI-Tool revolutioniert Multi-Angle-Produktfotografie
-- **TypeScript wird zur wichtigsten Programmiersprache**: Im AI-Zeitalter gewinnt TypeScript immer mehr an Bedeutung
-- **Frugal AI**: Wie Unternehmen mit weniger Daten mehr erreichen und das Klima schützen
-- **GitHub isst den eigenen Hundefutter**: Wie Copilot die GitHub-Plattform selbst baut
+- **[HubSpot AEO Grader](/blog/2025-11-13-hubspot-aeo-grader-kostenlos-pruefen-wie-ki-bots-deine-marke-sehen/)**: Kostenloses Tool zum Prüfen, wie KI-Bots deine Marke sehen
+- **[Qwen Image Edit](/blog/2025-11-13-qwen-image-edit-ki-tool-revolutioniert-multi-angle-produktfotografie/)**: KI-Tool revolutioniert Multi-Angle-Produktfotografie
+- **[TypeScript wird zur wichtigsten Programmiersprache](/blog/2025-11-13-typescript-wird-zur-wichtigsten-programmiersprache-im-ai-zeitalter/)**: Im AI-Zeitalter gewinnt TypeScript immer mehr an Bedeutung
+- **[Frugal AI](/blog/2025-11-13-frugal-ai-wie-unternehmen-mit-weniger-daten-mehr-erreichen-und-das-klima-schuetzen/)**: Wie Unternehmen mit weniger Daten mehr erreichen und das Klima schützen
+- **[GitHub isst den eigenen Hundefutter](/blog/2025-11-13-github-isst-den-eigenen-hundefutter-wie-copilot-die-github-plattform-selbst-baut/)**: Wie Copilot die GitHub-Plattform selbst baut
 
 ---
 
@@ -130,19 +130,6 @@ Die wichtigsten Trends:
 4. **Visuelle Tools**: Low-Code/No-Code Lösungen machen AI-Automation zugänglicher
 
 ---
-
-## 📚 Weiterführende Links
-
-- [Alle Artikel dieser Woche](/blog)
-- [GitHub Multi-Agent Platform](https://github.blog)
-- [Microsoft Autonomous Agents](https://microsoft.com)
-- [Gemini API Documentation](https://ai.google.dev)
-
----
-
-## 💬 Dein Feedback ist gefragt!
-
-Was denkst du über diese Entwicklungen? Welche Themen interessieren dich am meisten? Schreib uns gerne oder teile deine Gedanken in den Kommentaren!
 
 **Dein AI-Automation-Engineers.de Team**
 
