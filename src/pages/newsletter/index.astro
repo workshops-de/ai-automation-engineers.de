@@ -1,0 +1,180 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const title = 'Newsletter';
+const description = 'Wöchentliche Zusammenfassung der neuesten Artikel und News aus dem Bereich AI-Automation Engineering.';
+
+// Load all newsletter posts from date-based folders (only index.md files)
+const modules = import.meta.glob('./*/index.md', { eager: true });
+const allNewsletters = Object.entries(modules).map(([path, module]) => {
+  const mod = module as any;
+  return {
+    frontmatter: mod.frontmatter || {},
+    url: path.replace('./', '/newsletter/').replace('/index.md', '/')
+  };
+});
+
+// Process and sort newsletter posts
+const newsletters = allNewsletters.filter(newsletter => {
+  const frontmatter = newsletter.frontmatter || {};
+  const url = newsletter.url;
+  
+  // Extract date from folder name or use frontmatter date
+  const folderMatch = url?.match(/\/(\d{4}-\d{2}-\d{2})-/);
+  const dateFromFolder = folderMatch ? folderMatch[1] : null;
+  
+  // Use pubDate from frontmatter or publishDate, fallback to folder date
+  const publishDate = frontmatter.pubDate || frontmatter.publishDate || dateFromFolder;
+  
+  // Only include newsletters with valid dates
+  return !!publishDate;
+}).map(newsletter => {
+  const frontmatter = newsletter.frontmatter || {};
+  const url = newsletter.url;
+  
+  // Extract date from folder name or use frontmatter date
+  const folderMatch = url?.match(/\/(\d{4}-\d{2}-\d{2})-/);
+  const dateFromFolder = folderMatch ? folderMatch[1] : null;
+  
+  // Use pubDate from frontmatter or publishDate, fallback to folder date
+  const publishDate = frontmatter.pubDate || frontmatter.publishDate || dateFromFolder;
+  
+  return {
+    id: url?.split('/').slice(-2, -1)[0] || 'unknown',
+    title: frontmatter.title || 'Untitled',
+    excerpt: frontmatter.description || 'No description available',
+    publishDate: publishDate!,
+    readTime: frontmatter.readTime || '5 min read',
+    category: frontmatter.category || 'Newsletter',
+    author: frontmatter.author || 'AI-Automation-Engineers.de',
+    image: frontmatter.image || 'https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&dpr=2',
+    tags: frontmatter.tags || [],
+    url: url
+  };
+}).sort((a, b) => {
+  // Sort by publish date (newest first)
+  return new Date(b.publishDate).getTime() - new Date(a.publishDate).getTime();
+});
+---
+
+<BaseLayout {title} {description}>
+  <!-- Hero Section -->
+  <section class="relative min-h-[60vh] bg-white overflow-hidden">
+    <!-- Background Animation -->
+    <div class="absolute inset-0 bg-gradient-to-br from-gray-50 via-white to-blue-50">
+      <div class="absolute inset-0 bg-grid-slate-100 [mask-image:linear-gradient(0deg,white,rgba(255,255,255,0.6))]"></div>
+      <!-- Floating animation elements -->
+      <div class="absolute top-1/4 left-1/4 w-48 h-48 bg-blue-100 rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-blob"></div>
+      <div class="absolute top-1/3 right-1/4 w-56 h-56 bg-indigo-100 rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-blob animation-delay-2000"></div>
+    </div>
+
+    <div class="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-32 pb-20">
+      <div class="text-center">
+        <!-- Main Headline -->
+        <h1 class="text-6xl sm:text-7xl lg:text-8xl xl:text-9xl font-bold tracking-tight mb-8 animate-fade-in leading-none">
+          <span class="block text-gray-900">Weekly AI-News:</span>
+          <span class="block bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">Was verpasst?</span>
+        </h1>
+        
+        <!-- Subtitle -->
+        <p class="text-xl sm:text-2xl text-gray-600 mb-16 max-w-3xl mx-auto font-light leading-relaxed animate-fade-in animation-delay-300">
+          Wöchentliche Zusammenfassung der wichtigsten<br>
+          Artikel und News aus dem Bereich AI-Automation Engineering.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter Grid -->
+  <section class="py-16 bg-white">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      {newsletters.length > 0 ? (
+        <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8">
+          {newsletters.map((newsletter, index) => (
+            <article class="group animate-fade-in-up" style={`animation-delay: ${index * 100}ms`}>
+              <a href={newsletter.url} class="block">
+                <div class="aspect-[4/3] bg-gray-100 rounded-2xl overflow-hidden mb-6 group-hover:scale-105 transition-transform duration-300">
+                  <img 
+                    src={newsletter.image} 
+                    alt={newsletter.title}
+                    class="w-full h-full object-cover"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="space-y-4">
+                  <div class="flex items-center justify-between">
+                    <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
+                      Newsletter
+                    </span>
+                    <span class="text-sm text-gray-500">
+                      {newsletter.readTime}
+                    </span>
+                  </div>
+                  <h2 class="text-2xl font-bold text-gray-900 group-hover:text-blue-600 transition-colors leading-tight">
+                    {newsletter.title}
+                  </h2>
+                  <p class="text-gray-600 leading-relaxed">
+                    {newsletter.excerpt}
+                  </p>
+                  <div class="flex items-center text-sm text-gray-500">
+                    <span>{newsletter.author}</span>
+                    <span class="mx-2">•</span>
+                    <span>
+                      {new Date(newsletter.publishDate).toLocaleDateString('de-DE', {
+                        year: 'numeric',
+                        month: 'long',
+                        day: 'numeric'
+                      })}
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </article>
+          ))}
+        </div>
+      ) : (
+        <div class="text-center py-20">
+          <div class="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br from-blue-600 to-indigo-600 rounded-2xl mb-4">
+            <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+            </svg>
+          </div>
+          <h2 class="text-2xl font-bold text-gray-900 mb-4">Noch keine Newsletter verfügbar</h2>
+          <p class="text-gray-600 mb-8">
+            Der erste Newsletter wird bald erscheinen. Bleib dran!
+          </p>
+          <a href="/blog" class="inline-flex items-center px-6 py-3 bg-blue-600 text-white font-semibold rounded-full hover:bg-blue-700 transition-colors">
+            Zum Blog
+            <svg class="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+      )}
+    </div>
+  </section>
+
+  <!-- Newsletter Signup -->
+  <section class="py-32 bg-gray-50">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-4xl sm:text-5xl font-bold text-gray-900 mb-8">
+        Bleibe informiert.
+      </h2>
+      <p class="text-xl text-gray-600 mb-12">
+        Abonniere unseren Newsletter und verpasse keine KI-Automatisierungs-Insights
+      </p>
+      <form class="max-w-lg mx-auto flex flex-col sm:flex-row gap-4">
+        <input 
+          type="email" 
+          placeholder="Deine E-Mail-Adresse"
+          class="flex-1 px-6 py-4 text-lg border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-gray-900 focus:border-transparent"
+          required
+        >
+        <button type="submit" class="px-8 py-4 text-lg font-semibold text-white bg-gray-900 rounded-full hover:bg-gray-800 transition-all duration-300 shadow-lg hover:shadow-xl">
+          Abonnieren
+        </button>
+      </form>
+    </div>
+  </section>
+</BaseLayout>
+
