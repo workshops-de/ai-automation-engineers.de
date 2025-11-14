@@ -10,7 +10,7 @@ readTime: '8 min read'
 image: 'https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
-Hallo und willkommen zur ersten Ausgabe unseres Weekly AI-News Newsletters! 👋
+Hallo und willkommen zur ersten Ausgabe unseres Weekly AI-Automation Newsletters! 👋
 
 Diese Woche war wieder vollgepackt mit spannenden Entwicklungen im Bereich AI-Automation. Wir haben für dich die wichtigsten News, Tools und Updates zusammengestellt, die deine Arbeit als AI-Automation Engineer beeinflussen werden.
 
