@@ -11,7 +11,7 @@ on:
       generate_content:
         description: 'Generate newsletter with AI content'
         required: false
-        default: 'true'
+        default: true
         type: boolean
 
 jobs:
