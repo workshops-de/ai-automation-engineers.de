@@ -7,12 +7,11 @@ author: 'Robin Böhm'
 tags: ['AI-Automation', 'GitHub-Copilot', 'Code-Review', 'DevOps', 'Workflow-Automation']
 category: 'News'
 readTime: '6 min read'
-image: 'https://images.pexels.com/photos/code-review-developer-working'
+image: 'https://images.pexels.com/photos/1181472/pexels-photo-1181472.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 source: 'https://github.blog/ai-and-ml/unlocking-the-full-power-of-copilot-code-review-master-your-instructions-files/'
 portal: 'ai-automation-engineers.de'
 spreadsheetRow: '115'
 ---
-# GitHub Copilot Instructions Files: Der Game-Changer für automatisierte Code Reviews
 **TL;DR:** GitHub Copilot Code Review lässt sich jetzt über Instructions Files präzise an Team-Standards anpassen. Mit pfadspezifischen Konfigurationen und automatisierten Vorschlägen spart das laut offiziellen GitHub-Studien 26-55% Review-Zeit bei gleichzeitig höherer Code-Qualität.
 GitHub hat eine bedeutende Erweiterung für Copilot Code Review veröffentlicht, die besonders für Automatisierungs-Enthusiasten interessant ist: Instructions Files ermöglichen es, KI-gestützte Code Reviews an eigene Standards und Workflows anzupassen. Laut offiziellen GitHub-Studien führt dies zu 26-55% schnellerer Task-Completion und 30% kürzeren PR-Review-Zeiten.
 ## Die wichtigsten Punkte

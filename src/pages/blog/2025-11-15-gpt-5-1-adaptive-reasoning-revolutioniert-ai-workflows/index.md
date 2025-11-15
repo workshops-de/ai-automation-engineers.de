@@ -11,7 +11,6 @@ image: 'https://images.pexels.com/photos/8438918/pexels-photo-8438918.jpeg'
 source: 'https://openai.com/index/gpt-5-1/'
 portal: 'ai-automation-engineers.de'
 ---
-# GPT-5.1: OpenAIs Adaptive Reasoning macht AI-Workflows bis zu 80% effizienter
 **TL;DR:** OpenAI hat am 12. November 2025 GPT-5.1 gelauncht - ein smarteres Modell mit adaptivem Reasoning, das automatisch die Komplexität jeder Anfrage erkennt und Ressourcen entsprechend anpasst. Für Automatisierungs-Engineers bedeutet das: 50-80% weniger Output-Tokens bei gleicher oder besserer Qualität und nahtlose Integration in bestehende Workflow-Tools.
 OpenAI überrascht die AI-Community mit einem strategischen Update ihres Flaggschiff-Modells. GPT-5.1 bringt nicht einfach nur mehr Parameter oder eine größere Kontextlänge - es revolutioniert, wie AI-Modelle mit unterschiedlich komplexen Aufgaben umgehen. Das Zauberwort heißt "Adaptive Reasoning", und es könnte die Art, wie wir Automatisierungen bauen, grundlegend verändern.
 ## Die wichtigsten Punkte

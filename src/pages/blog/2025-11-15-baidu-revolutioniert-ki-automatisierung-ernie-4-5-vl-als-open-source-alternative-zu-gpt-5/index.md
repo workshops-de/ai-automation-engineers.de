@@ -12,7 +12,6 @@ source: 'https://venturebeat.com/ai/baidu-just-dropped-an-open-source-multimodal
 portal: 'ai-automation-engineers.de'
 spreadsheetRow: '123'
 ---
-# Baidu revolutioniert KI-Automatisierung: ERNIE-4.5-VL als Open-Source Alternative zu GPT-5
 **TL;DR:** Baidu veröffentlicht ERNIE-4.5-VL-28B-A3B-Thinking als Open-Source Modell unter Apache 2.0 Lizenz. Mit nur 3B aktiven Parametern (von 28B gesamt) erreicht es Performance auf GPT-5 Niveau bei 2-3x höherer Inferenzgeschwindigkeit - ideal für ressourceneffiziente Automatisierungs-Workflows.
 Baidu hat mit ERNIE-4.5-VL-28B-A3B-Thinking ein multimodales KI-Modell veröffentlicht, das die Automatisierungs-Community aufhorchen lässt. Das Modell kombiniert fortgeschrittene Vision- und Sprachverarbeitung mit einer innovativen Mixture-of-Experts (MoE) Architektur, die nur 3 Milliarden der insgesamt 28 Milliarden Parameter pro Anfrage aktiviert. Diese Effizienz macht es besonders attraktiv für Automatisierungs-Workflows, wo Kosten und Geschwindigkeit kritisch sind.
 ## Die wichtigsten Punkte
