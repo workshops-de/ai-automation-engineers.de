@@ -1,7 +1,7 @@
 ---
 layout: '../../../layouts/BlogLayout.astro'
-title: 'METADATA BLOCK'
-description: 'METADATA BLOCK'
+title: 'OpenAI enttarnt China-Surveillance-Tool: Kritischer Sicherheits-Report für AI-Automatisierung'
+description: 'OpenAI deckt im Februar 2025 Report massive KI-Missbrauchsfälle auf - von China-Überwachung bis Malware. Konkrete Sicherheitsmaßnahmen für n8n, Make & Zapier.'
 pubDate: '2025-11-17'
 author: 'Robin Böhm'
 tags: ['AI', 'Automation', 'Technology']
@@ -10,21 +10,6 @@ readTime: '5 min read'
 image: 'https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
----
-layout: '../../../layouts/BlogLayout.astro'
-title: 'OpenAI enttarnt China-Surveillance-Tool: Kritischer Sicherheits-Report für AI-Automatisierung'
-description: 'OpenAI deckt im Februar 2025 Report massive KI-Missbrauchsfälle auf - von China-Überwachung bis Malware. Konkrete Sicherheitsmaßnahmen für n8n, Make & Zapier.'
-pubDate: '2025-11-17'
-author: 'Robin Böhm'
-tags: ['AI-Security', 'OpenAI', 'Cybersecurity', 'API-Sicherheit', 'Threat-Intelligence']
-category: 'News'
-readTime: '6 min read'
-image: 'https://images.unsplash.com/photo-1563986768609-322da13575f3'
-source: 'https://cdn.openai.com/threat-intelligence-reports/disrupting-malicious-uses-of-our-models-february-2025-update.pdf'
-portal: 'AI-AUTOMATION-ENGINEERS.DE'
-spreadsheetRow: '120'
----
-# OpenAI enttarnt China-Surveillance-Tool: Kritischer Sicherheits-Report für AI-Automatisierung
 **TL;DR:** OpenAI hat im Februar 2025 ein chinesisches AI-Überwachungstool aufgedeckt, das zur Überwachung von Minderheiten und Dissidenten eingesetzt wurde. Der Threat Report zeigt konkrete Missbrauchsfälle von KI-Modellen und liefert essenzielle Sicherheitsempfehlungen für AI-Automatisierungs-Ingenieure - inklusive praktischer Maßnahmen für n8n, Make und Zapier Integrationen.
 OpenAI hat in seinem neuesten Threat Intelligence Report vom Februar 2025 alarmierende Einblicke in den Missbrauch von KI-Modellen durch staatliche Akteure und Cyberkriminelle geliefert. Die Erkenntnisse zeigen nicht nur das Ausmaß der Bedrohung, sondern bieten auch konkrete Handlungsempfehlungen für Entwickler und Automatisierungs-Ingenieure.
 ## Die wichtigsten Punkte
