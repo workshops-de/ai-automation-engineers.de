@@ -7,12 +7,12 @@ author: 'Robin Böhm'
 tags: ['Claude AI', 'Memory', 'Workflow-Automation', 'RAG', 'AI-Tools']
 category: 'News'
 readTime: '6 min read'
-image: 'https://www.anthropic.com/og-image.png'
+image: 'https://images.unsplash.com/photo-1620712943543-bcc4688e7485'
 source: 'https://www.anthropic.com/news/memory'
 portal: 'ai-automation-engineers.de'
 spreadsheetRow: '48'
 ---
-# Claude Memory: Game-Changer für persistente AI-Workflows
+
 **TL;DR:** Anthropic rollt die Claude Memory-Funktion für Pro- und Max-Nutzer aus. Das Feature speichert projektspezifische Kontexte dauerhaft und ermöglicht erstmals echte persistente AI-Workflows mit strikter Datentrennung.
 Anthropic hat die lang erwartete Memory-Funktion für Claude AI nun auch für Pro- und Max-Nutzer verfügbar gemacht. Nach dem erfolgreichen Launch für Enterprise- und Team-Kunden im September 2025 (am 18. September via Enterprise-Plan) können jetzt auch einzelne Power-User von der revolutionären Kontextverwaltung profitieren.
 ## Die wichtigsten Punkte
