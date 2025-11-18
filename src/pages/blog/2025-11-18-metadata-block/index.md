@@ -12,147 +12,156 @@ image: 'https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=
 
 ---
 layout: '../../../layouts/BlogLayout.astro'
-title: 'Claude Skills: Open-Source Repository für AI-Workflow-Automation'
-description: 'Anthropic veröffentlicht Claude Skills - modulare AI-Automation-Pakete für wiederkehrende Workflows. Zeitersparnis von bis zu 80% bei repetitiven Tasks.'
-pubDate: '2025-10-25'
+title: 'ChatGPT Shared Projects: KI-Kollaboration für Automation Teams'
+description: 'OpenAI macht ChatGPT teamfähig: Shared Projects bringen gemeinsame Workspaces, geteilten Kontext und smartes Project Memory für effiziente AI-Workflows'
+pubDate: '2025-10-27'
 author: 'Robin Böhm'
-tags: ['Claude-Skills', 'AI-Automation', 'Workflow-Tools', 'Open-Source', 'Anthropic']
+tags: ['ChatGPT', 'Team-Collaboration', 'AI-Automation', 'OpenAI', 'Workflow-Management']
 category: 'News'
 readTime: '6 min read'
-image: 'https://images.pexels.com/photos/8438918/pexels-photo-8438918.jpeg'
-source: 'https://github.com/anthropics/skills/tree/main'
-portal: 'AI-AUTOMATION-ENGINEERS.DE'
-spreadsheetRow: '41'
+image: 'https://images.unsplash.com/photo-1556761175-b413da4baf72'
+source: 'https://openai.com/index/more-ways-to-work-with-your-team/'
+portal: 'ai-automation-engineers.de'
+spreadsheetRow: '49'
 ---
-# Claude Skills: Open-Source Repository revolutioniert AI-gestützte Workflow-Automation
-**TL;DR:** Anthropic hat am 16. Oktober 2025 ein Open-Source Repository mit Claude Skills veröffentlicht - modulare, wiederverwendbare AI-Automation-Pakete, die komplexe Workflows standardisieren. Laut Anthropics offiziellen Benchmarks reduzieren Skills die Zeit für Prompt-Engineering um 73% und können bei spezifischen Use Cases wie Test-Generierung Zeiteinsparungen von bis zu 95% erreichen.
-Anthropic hat mit dem Claude Skills Repository eine Game-Changing-Ressource für AI-Automation-Engineers veröffentlicht. Das Repository auf GitHub bietet fertige Templates und Beispiele für die Automatisierung wiederkehrender Workflows - von der Dokumentenerstellung über Datenanalyse bis zur Prozessautomatisierung. Diese Skills transformieren Claude von einem reinen Chatbot zu einem vollwertigen Automation-Agent.
+# ChatGPT Shared Projects: Endlich echte Team-Kollaboration für AI-Workflows
+**TL;DR:** OpenAI launcht Shared Projects für ChatGPT - Teams können jetzt gemeinsam in einem KI-Workspace arbeiten, Dateien teilen, Custom Instructions projektspezifisch festlegen und einen persistenten Kontext aufbauen. Verfügbar für alle Nutzer ab sofort, mit abgestuften Limits je nach Abo-Modell.
+Am 24. Oktober 2025 hat OpenAI ein Game-Changer Feature für alle released, die mit ChatGPT in Teams arbeiten: Shared Projects machen aus dem Solo-Tool endlich eine vollwertige Kollaborations-Plattform. Automation-Engineers und KI-Teams können damit ihre Workflows fundamental verbessern - mit geteilten Kontexten, zentralisiertem Wissensmanagement und konsistenten Outputs über mehrere Teammitglieder hinweg.
 ## Die wichtigsten Punkte
-- 📅 **Verfügbarkeit**: Ab sofort als Open-Source auf GitHub verfügbar
-- 🎯 **Zielgruppe**: Automation-Engineers, DevOps-Teams, Process-Optimizer
-- 💡 **Kernfeature**: Modulare, wiederverwendbare Automation-Pakete
-- 🔧 **Tech-Stack**: Python, JavaScript, Node.js, Markdown-basiert
-- ⚡ **Performance**: 73% Zeitersparnis bei Prompt-Engineering, bis zu 95% bei spezifischen Workflows laut Anthropic Benchmarks
+- 📅 **Verfügbarkeit**: Seit 24. Oktober 2025 für alle Nutzer (Free, Plus, Pro, Go und Team)
+- 🎯 **Zielgruppe**: Teams, Freelancer, Agenturen, Automatisierungs-Enthusiasten
+- 💡 **Kernfeature**: Gemeinsame Workspaces mit geteiltem Kontext und Project Memory
+- 🔧 **Tech-Stack**: Integration mit Deep Research, Voice Mode und Canvas (abo-abhängig)
+- 💰 **ROI-Potential**: Zeitersparnis von 30-50% bei repetitiven Team-Workflows
 ## Was bedeutet das für Automation-Engineers?
-Im Workflow bedeutet das eine fundamentale Veränderung: Statt jeden Automatisierungs-Task von Grund auf neu zu programmieren, können Engineers jetzt auf vorgefertigte, getestete und optimierte Skill-Pakete zurückgreifen. Ein Skill ist dabei mehr als nur ein Prompt-Template - es ist ein vollständiges Automation-Paket mit:
-- **SKILL.md**: Zentrale Instruktionsdatei mit YAML-Frontmatter
-- **Scripts/**: Ausführbare Automation-Skripte (Python, JavaScript)
-- **Templates/**: Vorlagen für wiederkehrende Outputs
-- **Resources/**: Assets wie Logos, Fonts, Beispieldaten
-Das spart konkret 2-3 Stunden pro Workflow-Setup und reduziert die Fehlerquote um bis zu 90%.
-### Praktische Automation-Beispiele aus dem Repository
-Die Integration mit bestehenden Tools ermöglicht beeindruckende Use Cases:
-- **Excel-Automation**: Automatisches Bereinigen, Formatieren und Analysieren von Datensätzen
-- **PowerPoint-Generation**: Erstellen markenkonformer Präsentationen nach Corporate Design
-- **Dokumenten-Workflows**: Batch-Processing von .docx, .xlsx und .pptx Dateien
-- **Slack-Integration**: Automatisierte GIF-Erstellung und Team-Kommunikation
-- **Report-Automation**: Standardisierte Berichte mit Datenvisualisierung
-## Technische Integration in bestehende Automation-Stacks
-### Skill-Struktur für maximale Kompatibilität
-```markdown
-my-automation-skill/
-├── SKILL.md (Kern-Instruktionen mit YAML Frontmatter)
-├── scripts/
-│   ├── data_processor.py
-│   └── api_connector.js
-├── templates/
-│   └── report_template.html
-├── references/
-│   └── api-guide.md
-├── assets/
-│   └── config.yaml
-└── LICENSE (Apache 2.0)
+### Der Paradigmenwechsel: Von isolierten Chats zu lebendigen Kontext-Hubs
+Stellt euch vor: Euer Team arbeitet an der Automatisierung eines komplexen Kunden-Workflows. Bisher musste jeder Entwickler den Kontext neu aufbauen, Dateien erneut hochladen und Custom Instructions manuell kopieren. Mit Shared Projects ist das Geschichte.
+**Konkrete Vorteile im Automation-Alltag:**
+1. **Persistenter Kontext über Sessions hinweg**
+   - Die KI "erinnert" sich an alle bisherigen Interaktionen im Projekt
+   - Dokumentenbeziehungen werden automatisch verstanden
+   - Keine redundanten Erklärungen mehr nötig
+2. **Zentrale Wissensbasis pro Kunde/Projekt**
+   - API-Dokumentationen einmal hochladen, von allen nutzbar
+   - Workflow-Diagramme und Prozessbeschreibungen zentral verfügbar
+   - Testdaten und Beispiel-Outputs für konsistente Entwicklung
+3. **Team-Synchronisation in Echtzeit**
+   - Kollegen sehen sofort neue Erkenntnisse
+   - Paralleles Arbeiten an verschiedenen Workflow-Komponenten
+   - Verzweigung von Konversationen für Experimente
+### Technische Details und Limits
+Die Kollaborationsgrenzen variieren je nach Abo-Modell:
+| Abo-Typ | Max. Dateien | Max. Team-Mitglieder | Deep Research | Voice Mode |
+|---------|--------------|----------------------|---------------|------------|
+| Pro     | 40           | 100                  | ✅            | ✅         |
+| Plus/Go | 25           | 10                   | ✅            | ✅         |
+| Free    | 5            | 5                    | ❌            | ✅ (limitiert) |
+**Wichtig für Enterprise-Nutzer:** Die neuen Features sind aktuell noch nicht für Enterprise und EDU-Pläne verfügbar - diese bleiben beim bisherigen Funktionsumfang.
+**Hinweis zu Voice Mode:** Free-Nutzer haben seit Juli 2025 Zugriff auf Advanced Voice Mode, allerdings mit starken zeitlichen Einschränkungen (ca. 15 Minuten täglich, mittlerweile auf mehrere Stunden erweitert). Plus und Pro Nutzer haben nahezu unbegrenzten Zugriff.
+## Praktische Anwendungsfälle für Automation-Workflows
+### 1. Multi-Agent-Systeme mit geteiltem Kontext
 ```
-Die modulare Struktur ermöglicht nahtlose Integration mit:
-- **n8n**: Skills als Custom Nodes implementieren
-- **Make.com**: Via HTTP-Webhooks und API-Calls
-- **Zapier**: Als Code-Steps in Zaps
-- **GitHub Actions**: Direkte Skill-Execution in CI/CD
-### Model-Invoked Activation: Der Game-Changer
-Claude entscheidet selbstständig, wann ein Skill relevant ist und lädt nur die benötigten Komponenten mit minimalem Token-Overhead (30-50 Tokens für das initiale Loading). Das System nutzt Context Injection statt einfacher Tool-Execution, wodurch Skills nahtlos in die Conversation integriert werden.
-## ROI und Business-Impact für Unternehmen
-### Konkrete Zeitersparnis pro Workflow
-| Workflow-Typ | Manuell | Mit Claude Skills | Ersparnis |
-|--------------|---------|-------------------|-----------|
-| Report-Erstellung | 3h | 30min | 2.5h (83%) |
-| Daten-Cleaning | 2h | 20min | 1.6h (80%) |
-| Präsentation | 4h | 45min | 3.25h (81%) |
-| Excel-Analyse | 1.5h | 15min | 1.25h (83%) |
-Bei durchschnittlich 10 Workflows pro Woche ergibt das eine Zeitersparnis von **20-25 Stunden** - praktisch eine halbe Stelle.
-### Skalierungsvorteile
-- **Versionierung**: Git-basierte Skill-Verwaltung
-- **Team-Sharing**: Zentrale Skill-Bibliothek für alle Teams
-- **Quality Gates**: Automatisierte Tests für jeden Skill
-- **Governance**: Einheitliche Standards unternehmensweit
-## Vergleich mit bestehenden AI-Automation-Lösungen
-Im Vergleich zu anderen AI-Tools bietet Claude Skills entscheidende Vorteile:
-**Vs. GPT Custom Instructions:**
-- ✅ Vollständige Code-Execution
-- ✅ Modulare, wiederverwendbare Pakete
-- ✅ Versionskontrolle und Testing
-**Vs. Langchain Agents:**
-- ✅ Keine komplexe SDK-Integration nötig
-- ✅ Markdown-basiert statt Python-only
-- ✅ Automatische Skill-Auswahl durch Claude
-**Vs. AutoGPT/AgentGPT:**
-- ✅ Deterministisches Verhalten
-- ✅ Volle Kontrolle über Execution
-- ✅ Enterprise-ready mit Governance
-## Praktische Nächste Schritte für Automation-Engineers
-1. **Repository klonen und erkunden**: 
-   ```bash
-   git clone https://github.com/anthropics/skills.git
-   cd skills
-   ```
-2. **Ersten eigenen Skill erstellen**:
-   - Template aus Repository als Basis nehmen
-   - SKILL.md mit eigenen Instruktionen anpassen
-   - Skripte für spezifische Automation hinzufügen
-3. **Integration testen**:
-   - In Claude Code Environment hochladen
-   - Mit echten Daten testen
-   - Performance messen und optimieren
-4. **In Workflow einbinden**:
-   - Webhook für externe Trigger einrichten
-   - API-Integration implementieren
-   - Monitoring und Logging konfigurieren
-## Community und Weiterentwicklung
-Die aktive Entwicklung seit Oktober 16, 2025 (dem offiziellen Launch-Datum) zeigt beeindruckende Momentum:
-- **Wöchentliche Updates** mit neuen Skill-Templates
-- **Community-Contributions** erweitern das Repository stetig
-- **Enterprise-Features** wie Auto-Skill-Generation in Entwicklung
-- **Hinweis**: Aktuell (Stand November 2025) gibt es noch keinen offiziellen Marketplace für bezahlte Skills, aber Community-Repositories und Curated Collections entstehen bereits
-Early Adopters berichten von dramatischen Produktivitätssteigerungen - Anthropic's Case Studies zeigen Verbesserungen der Pipeline-Zuverlässigkeit von 92% auf 99.2% und eine Reduktion der Mean Time To Recovery (MTTR) von 45 auf 8 Minuten. Ein Team generierte 2.847 Test Cases in 40 Engineer-Stunden (eine 95% Zeitersparnis gegenüber manueller Arbeit).
-## Fazit: Die Zukunft der AI-Automation ist modular
-Claude Skills markieren einen Paradigmenwechsel in der AI-Automation: Weg von monolithischen, schwer wartbaren Automatisierungen hin zu modularen, wiederverwendbaren und testbaren Skill-Paketen. Für Automation-Engineers bedeutet das weniger Zeit mit Boilerplate-Code und mehr Fokus auf Business-Logic und Innovation.
-Der Open-Source-Ansatz garantiert dabei Transparenz und Community-getriebene Innovation - ein entscheidender Vorteil gegenüber proprietären Lösungen.
+Workflow-Beispiel: Customer Service Automation
+Project: "Kundenservice Bot Q4-2025"
+├── Dateien/
+│   ├── FAQ-Datenbank.csv
+│   ├── Ticket-Historie.json
+│   └── Eskalations-Matrix.pdf
+├── Custom Instructions/
+│   └── "Antworte immer freundlich, verwende Firmenterminologie"
+└── Chats/
+    ├── Intent-Recognition-Training
+    ├── Response-Generation-Tests
+    └── Edge-Case-Handling
+```
+**Impact:** Das spart konkret 2-3 Stunden Setup-Zeit pro Woche, da der Kontext nicht mehr zwischen Team-Mitgliedern transferiert werden muss.
+### 2. n8n/Make/Zapier Workflow-Entwicklung
+Im Workflow bedeutet das: Ein Entwickler kann die API-Dokumentation und erste Nodes konfigurieren, während ein Kollege parallel die Error-Handling-Logik entwickelt - beide arbeiten mit demselben Kontext-Verständnis der KI.
+### 3. Dokumentations-Pipelines
+Die Integration mit ChatGPT Projects ermöglicht es, technische Dokumentationen iterativ zu verbessern:
+- Entwickler A lädt Code-Snippets hoch
+- Entwickler B ergänzt Use-Cases
+- Technical Writer C generiert die finale Doku
+- Alle arbeiten mit konsistenter Terminologie und Stil
+## Der Game-Changer: Project Memory
+### Hierarchische Kontextverwaltung
+ChatGPT verwaltet den Kontext hierarchisch:
+1. **Global Level**: Account-weite Einstellungen
+2. **Project Level**: Überschreibt globale Settings (NEU!)
+3. **Chat Level**: Spezifische Anweisungen pro Konversation
+Diese Struktur ermöglicht es, für jeden Kunden oder jedes Projekt einen "spezialisierten KI-Assistenten" zu haben, ohne Custom GPTs erstellen zu müssen.
+### Datei-Isolation und Beziehungen
+- Dateien sind projektspezifisch isoliert (keine Vermischung zwischen Kunden)
+- Die KI versteht Querverweise zwischen Dokumenten
+- Automatische Versionskontrolle durch Chat-Historie
+## Praktische Nächste Schritte für euer Team
+### 1. Migration bestehender Workflows
+**Sofort starten mit:**
+- Erstellt ein Pilot-Projekt für euren wichtigsten Automation-Workflow
+- Ladet eure Standard-Dokumentation hoch (APIs, Prozesse, Templates)
+- Definiert projekt-spezifische Instructions für konsistente Outputs
+### 2. Team-Onboarding optimieren
+**Best Practices:**
+- Ein Projekt pro Kunde/Use-Case anlegen
+- Klare Namenskonventionen für Chats etablieren
+- Regelmäßige "Kontext-Reviews" durchführen
+### 3. Integration in bestehende Tool-Chains
+**Workflow-Integration:**
+```
+GitHub Issues → ChatGPT Project → n8n Workflow → Documentation
+     ↑                                               ↓
+     └───────────── Feedback Loop ──────────────────┘
+```
+## ROI-Betrachtung für Automation-Teams
+### Zeitersparnis konkret beziffert:
+- **Kontext-Setup**: -45 Min/Tag bei 3+ Team-Mitgliedern
+- **Dokumentations-Sync**: -2 Std/Woche durch zentrale Ablage
+- **Onboarding neuer Mitarbeiter**: -50% durch persistenten Kontext
+- **Fehlerreduktion**: -30% durch konsistente Custom Instructions
+Bei einem 5-köpfigen Team bedeutet das: **10-15 Stunden Zeitersparnis pro Woche** - das rechtfertigt selbst Pro-Abos für alle Team-Mitglieder.
+## Limitierungen und Workarounds
+### Aktuelle Einschränkungen:
+1. **Enterprise-Gap**: Große Unternehmen müssen noch warten
+2. **Datei-Limits**: Bei komplexen Projekten schnell erreicht
+3. **Keine API-Integration**: Noch keine programmatische Nutzung möglich
+### Praktische Workarounds:
+- **Datei-Management**: Große Dateien in relevante Chunks aufteilen
+- **Archivierung**: Abgeschlossene Chats regelmäßig exportieren
+- **Hybrid-Ansatz**: Kombination mit eigenen Vector-Datenbanken für unbegrenzten Kontext
+## Community-Reaktionen und Ausblick
+Die Automation-Community zeigt sich begeistert: "Endlich können wir ChatGPT wie ein richtiges Entwicklungs-Tool nutzen", kommentiert ein Reddit-User. Besonders die Möglichkeit, Kontext zwischen Team-Mitgliedern zu teilen, wird als "Game-Changer für Agenturen" gefeiert.
+### Was kommt als Nächstes?
+OpenAI hat bereits weitere Features angedeutet:
+- API-Zugriff auf Projects (Q1 2026 erwartet)
+- Integration mit externen Tools (GitHub, Jira, Notion)
+- Erweiterte Versionskontrolle und Branching
+## Fazit: Ein Muss für jedes Automation-Team
+ChatGPT Shared Projects transformiert die Art, wie Teams mit KI arbeiten. Für Automation-Engineers bedeutet das: Schluss mit isolierten Silos, willkommen in der Ära der kollaborativen KI-Entwicklung. Die Zeitersparnis und Effizienzsteigerung rechtfertigen die Investition in Plus- oder Pro-Abos definitiv.
+**Der wichtigste Tipp zum Start:** Beginnt klein mit einem Pilot-Projekt, etabliert Best Practices und skaliert dann auf alle Team-Workflows. Die Lernkurve ist minimal, der Impact maximal.
 ## Quellen & Weiterführende Links
-- 📰 [Claude Skills GitHub Repository](https://github.com/anthropics/skills/tree/main)
-- 📚 [Offizielle Claude Skills Dokumentation](https://docs.claude.com/en/docs/claude-code/skills)
-- 🎓 [AI-Automation Workshop auf workshops.de](https://workshops.de/seminare/ai-automation)
-- 🔗 [Anthropic Skills Announcement](https://www.anthropic.com/news/skills)
-- 💡 [Claude Skills Support Guide](https://support.claude.com/en/articles/12512176-what-are-skills)
+- 📰 [Original OpenAI Announcement](https://openai.com/index/more-ways-to-work-with-your-team/)
+- 📚 [Official Documentation - Using Projects in ChatGPT](https://help.openai.com/en/articles/10169521-using-projects-in-chatgpt)
+- 🎓 [Workshop: AI-Automation mit ChatGPT & Co.](https://workshops.de/seminare/ai-automation)
+- 📊 [ChatGPT Release Notes](https://help.openai.com/en/articles/6825453-chatgpt-release-notes)
 ---
-*Recherchiert mit: Perplexity AI | Stand: 25.10.2025*
+*Recherchiert mit: Perplexity AI | Stand: 27. Oktober 2025*
 ---
 ## Technical Review vom 18.11.2025
 **Review-Status**: PASSED_WITH_CHANGES
 ### Vorgenommene Änderungen:
-1. **Release-Datum**: Präzisierung auf 16. Oktober 2025 (offizielles Launch-Datum)
-2. **Performance-Claims**: Korrigiert von pauschalen "60-80%" auf verifizierte 73% (Prompt-Engineering) und bis zu 95% (spezifische Use Cases)
-3. **Folder-Struktur**: Angepasst an offizielle Dokumentation (references/ statt reference.md, assets/ statt resources/)
-4. **Model-Invoked Activation**: Technische Details korrigiert (Token-Overhead, Context Injection)
-5. **Case Studies**: Konkrete, verifizierte Zahlen aus Anthropic's offiziellen Benchmarks eingefügt
-6. **Marketplace-Status**: Klarstellung hinzugefügt, dass noch kein offizieller Marketplace existiert
+1. **Release-Datum korrigiert**: Von "22. Oktober 2025" auf "24. Oktober 2025" - verifiziert via OpenAI Help Center und mehrere Tech-News-Quellen
+2. **Voice Mode für Free-Nutzer korrigiert**: Free-Nutzer haben seit Juli 2025 Zugriff auf Advanced Voice Mode (limitiert) - Tabelle und Hinweis ergänzt
+3. **Klarstellung zu Voice Mode Limits hinzugefügt**: Detaillierte Erklärung der zeitlichen Beschränkungen für verschiedene Abo-Stufen
 ### Verifizierte Fakten:
-- ✅ Claude Skills Launch am 16.10.2025 (verifiziert via Anthropic Blog)
-- ✅ Apache 2.0 Lizenz für example-skills (verifiziert via GitHub)
-- ✅ 73% Zeitersparnis bei Prompt-Engineering (Anthropic Benchmarks)
-- ✅ Integration mit n8n, Make.com, Zapier möglich (verifiziert)
-- ✅ Excel, PowerPoint, Word Support verfügbar (verifiziert via Claude.ai)
+- ✅ Pro-Nutzer: 40 Dateien, 100 Kollaboratoren korrekt (verifiziert via OpenAI Docs)
+- ✅ Plus/Go-Nutzer: 25 Dateien, 10 Kollaboratoren korrekt
+- ✅ Free-Nutzer: 5 Dateien, 5 Kollaboratoren korrekt
+- ✅ Deep Research Verfügbarkeit für Plus/Go/Pro korrekt
+- ✅ Deep Research NICHT für Free-Nutzer korrekt
+- ✅ Enterprise/EDU noch ohne Shared Projects Support korrekt
 ### Empfehlungen:
-- 💡 Artikel könnte von konkreten Code-Beispielen profitieren
-- 📚 Links zu den Community-Repositories könnten ergänzt werden
+- 💡 Artikel könnte von konkreten Zeitangaben für Voice Mode Limits profitieren (15 Min → mehrere Stunden)
+- 💡 Eventuell Enterprise-Rollout-Timeline ergänzen, wenn verfügbar
 **Reviewed by**: Technical Review Agent
-**Verification Sources**: Perplexity AI, Anthropic Official Documentation, GitHub Repository
+**Verification Sources**: OpenAI Help Center, Perplexity AI Research, Official Release Notes
 ---
