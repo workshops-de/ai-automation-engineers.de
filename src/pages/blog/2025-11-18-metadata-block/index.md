@@ -1,7 +1,7 @@
 ---
 layout: '../../../layouts/BlogLayout.astro'
-title: 'METADATA BLOCK'
-description: 'METADATA BLOCK'
+title: 'ChatGPT Shared Projects: KI-Kollaboration für Automation Teams'
+description: 'OpenAI macht ChatGPT teamfähig: Shared Projects bringen gemeinsame Workspaces, geteilten Kontext und smartes Project Memory für effiziente AI-Workflows'
 pubDate: '2025-11-18'
 author: 'Robin Böhm'
 tags: ['AI', 'Automation', 'Technology']
@@ -10,21 +10,6 @@ readTime: '5 min read'
 image: 'https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
----
-layout: '../../../layouts/BlogLayout.astro'
-title: 'ChatGPT Shared Projects: KI-Kollaboration für Automation Teams'
-description: 'OpenAI macht ChatGPT teamfähig: Shared Projects bringen gemeinsame Workspaces, geteilten Kontext und smartes Project Memory für effiziente AI-Workflows'
-pubDate: '2025-10-27'
-author: 'Robin Böhm'
-tags: ['ChatGPT', 'Team-Collaboration', 'AI-Automation', 'OpenAI', 'Workflow-Management']
-category: 'News'
-readTime: '6 min read'
-image: 'https://images.unsplash.com/photo-1556761175-b413da4baf72'
-source: 'https://openai.com/index/more-ways-to-work-with-your-team/'
-portal: 'ai-automation-engineers.de'
-spreadsheetRow: '49'
----
-# ChatGPT Shared Projects: Endlich echte Team-Kollaboration für AI-Workflows
 **TL;DR:** OpenAI launcht Shared Projects für ChatGPT - Teams können jetzt gemeinsam in einem KI-Workspace arbeiten, Dateien teilen, Custom Instructions projektspezifisch festlegen und einen persistenten Kontext aufbauen. Verfügbar für alle Nutzer ab sofort, mit abgestuften Limits je nach Abo-Modell.
 Am 24. Oktober 2025 hat OpenAI ein Game-Changer Feature für alle released, die mit ChatGPT in Teams arbeiten: Shared Projects machen aus dem Solo-Tool endlich eine vollwertige Kollaborations-Plattform. Automation-Engineers und KI-Teams können damit ihre Workflows fundamental verbessern - mit geteilten Kontexten, zentralisiertem Wissensmanagement und konsistenten Outputs über mehrere Teammitglieder hinweg.
 ## Die wichtigsten Punkte

@@ -1,7 +1,7 @@
 ---
 layout: '../../../layouts/BlogLayout.astro'
-title: 'METADATA BLOCK (am Anfang des Docs)'
-description: 'METADATA BLOCK (am Anfang des Docs)'
+title: 'GitHub Copilot Custom Model: 20% mehr produktiver coden'
+description: 'Neues Custom Model für GitHub Copilot bringt 20% mehr akzeptierte Code-Vorschläge, 3x höhere Performance und maßgeschneiderte Automatisierung'
 pubDate: '2025-11-18'
 author: 'Robin Böhm'
 tags: ['AI', 'Automation', 'Technology']
@@ -10,21 +10,6 @@ readTime: '5 min read'
 image: 'https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
----
-layout: '../../../layouts/BlogLayout.astro'
-title: 'GitHub Copilot Custom Model: 20% mehr produktiver coden'
-description: 'Neues Custom Model für GitHub Copilot bringt 20% mehr akzeptierte Code-Vorschläge, 3x höhere Performance und maßgeschneiderte Automatisierung'
-pubDate: '2024-10-23'
-author: 'Robin Böhm'
-tags: ['AI-Coding', 'GitHub-Copilot', 'Code-Automation', 'Enterprise-AI', 'Developer-Tools']
-category: 'News'
-readTime: '6 min read'
-image: 'https://www.pexels.com/photo/computer-turned-on-displaying-codes-574071/'
-source: 'https://github.blog/ai-and-ml/github-copilot/the-road-to-better-completions-building-a-faster-smarter-github-copilot-with-a-new-custom-model/'
-portal: 'ai-automation-engineers.de'
-spreadsheetRow: '38'
----
-# GitHub Copilot Custom Model: 20% mehr produktiver coden mit maßgeschneiderter KI
 **TL;DR:** GitHub revolutioniert Code-Completions mit einem neuen Custom Model, das höhere Acceptance Rates und verbesserte Performance verspricht. Unternehmen können jetzt ihre eigenen Code-Basen als Trainingsgrundlage nutzen.
 GitHub hat heute einen bedeutenden Meilenstein in der Evolution von AI-gestützter Code-Vervollständigung verkündet: Das neue Custom Model für GitHub Copilot verspricht nicht nur schnellere und präzisere Code-Vorschläge, sondern ermöglicht es Unternehmen erstmals, ihre eigenen Code-Basen als Trainingsgrundlage zu nutzen. Das kann laut GitHub zu signifikanten Zeitersparnissen bei repetitiven Tasks führen.
 ## Die wichtigsten Punkte
