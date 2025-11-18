@@ -1,5 +1,5 @@
 ---
-layout: '../../../layouts/NewsletterLayout.astro'
+layout: '../../../layouts/BlogLayout.astro'
 title: '📅 Weekly Update: AI-Automation Highlights 46/25'
 description: 'Dein wöchentlicher Überblick über die wichtigsten Entwicklungen, Tools und Updates im Bereich AI-Automation Engineering - Woche 46/2025'
 pubDate: '2025-11-13'
