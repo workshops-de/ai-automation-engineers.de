@@ -341,4 +341,4 @@ Die Zukunft der Entwicklung ist nicht "AI ersetzt Entwickler", sondern "Entwickl
 
 **Interessiert an einem Deep-Dive Workshop?** Wir zeigen dir, wie du Claude Code optimal für deine spezifischen Use Cases einsetzt. Von der Installation bis zu fortgeschrittenen Workflows – alles hands-on!
 
-[🎯 Claude Code Mastery Workshop buchen](https://workshops.de/ki)
+[🎯 Claude Code Mastery Workshop buchen](https://workshops.de?utm_source=ai-automation-engineers.de&utm_medium=referral&utm_campaign=article_referral&utm_content=claude-code-revolution-entwickler-workflows)

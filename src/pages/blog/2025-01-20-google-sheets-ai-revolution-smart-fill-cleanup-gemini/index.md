@@ -269,4 +269,4 @@ Die Zukunft der Datenverarbeitung ist nicht kompliziert – sie ist smart, intui
 
 ---
 
-*PS: Für alle, die noch tiefer in die Materie einsteigen wollen: Schaut euch unsere [AI-Automation Workshops](https://workshops.de/ki) an, wo wir hands-on zeigen, wie ihr Google Sheets AI mit anderen Tools wie n8n und Make zu einem vollautomatischen Daten-Powerhouse kombiniert.*
+*PS: Für alle, die noch tiefer in die Materie einsteigen wollen: Schaut euch unsere [AI-Automation Workshops](https://workshops.de?utm_source=ai-automation-engineers.de&utm_medium=referral&utm_campaign=article_referral&utm_content=google-sheets-ai-revolution-smart-fill-cleanup-gemini) an, wo wir hands-on zeigen, wie ihr Google Sheets AI mit anderen Tools wie n8n und Make zu einem vollautomatischen Daten-Powerhouse kombiniert.*

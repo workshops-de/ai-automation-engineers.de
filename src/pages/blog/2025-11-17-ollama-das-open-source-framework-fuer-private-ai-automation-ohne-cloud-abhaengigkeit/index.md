@@ -186,7 +186,7 @@ Für AI-Automation Engineers, die nachhaltige, kosteneffiziente und datenschutzk
 - 📚 [Ollama GitHub Repository](https://github.com/ollama/ollama)
 - 🔧 [n8n Ollama Integration Docs](https://n8n.io/integrations/ollama/)
 - 📺 [Ollama + n8n Workflow Tutorial](https://www.youtube.com/watch?v=VDuA5xbkEjo)
-- 🎓 [AI-Automation Workshop: Local LLMs in Production](https://workshops.de/seminare/ai-automation-local-llm)
+- 🎓 [AI-Automation Workshop: Local LLMs in Production](https://workshops.de?utm_source=ai-automation-engineers.de&utm_medium=referral&utm_campaign=article_referral&utm_content=ollama-das-open-source-framework-fuer-private-ai-automation-ohne-cloud-abhaengigkeit)
 ---
 *Recherchiert mit: Perplexity AI | Stand: 23.10.2025 | Technical Review: 17.11.2025*
 ---

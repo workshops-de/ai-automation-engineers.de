@@ -188,7 +188,7 @@ Die Integration mit bestehenden Automatisierungs-Tools wie n8n, Make oder Zapier
 
 - 🔗 [Handelsblatt - KI-Cloudfirma Nebius](https://www.handelsblatt.com/technik/ki/kuenstliche-intelligenz-ki-cloudfirma-nebius-erhaelt-milliardenauftrag-von-meta/100173545.html)
 
-- 🎓 [Workshop: Cloud-Native AI Infrastructure](https://workshops.de/ki)
+- 🎓 [Workshop: Cloud-Native AI Infrastructure](https://workshops.de?utm_source=ai-automation-engineers.de&utm_medium=referral&utm_campaign=article_referral&utm_content=nebuis-meta-auftrag-ki-infrastruktur)
 
 ---
 *Recherchiert mit: Perplexity AI | Stand: 12.11.2025*

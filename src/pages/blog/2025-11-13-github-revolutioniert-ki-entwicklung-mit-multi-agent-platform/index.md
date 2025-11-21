@@ -294,7 +294,7 @@ Die Frage ist nicht ob, sondern wann Sie auf Multi-Agent Development umsteigen. 
 
 - 📚 [GitHub Copilot Documentation](https://docs.github.com/en/copilot)
 
-- 🎓 [Workshop: Multi-Agent Systems für Developer](https://workshops.de/ki) ⚠️ *Link zu verifizieren*
+- 🎓 [Workshop: Multi-Agent Systems für Developer](https://workshops.de?utm_source=ai-automation-engineers.de&utm_medium=referral&utm_campaign=article_referral&utm_content=github-revolutioniert-ki-entwicklung-mit-multi-agent-platform)
 
 - 🤖 [GitHub Features Übersicht](https://github.com/features) - *Keine dedizierte Agent HQ Waitlist verfügbar*
 

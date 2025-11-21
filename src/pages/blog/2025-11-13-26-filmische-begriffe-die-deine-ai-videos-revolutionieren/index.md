@@ -204,7 +204,7 @@ Dieser Workflow läuft vollautomatisch und produziert hochwertige Visuals im Sch
 
 - 📚 [Runway Gen-3 Prompting Guide](https://runwayml.com/research/gen-3)
 
-- 🎓 [AI-Video Workshop auf workshops.de](https://workshops.de/ki)
+- 🎓 [AI-Video Workshop auf workshops.de](https://workshops.de?utm_source=ai-automation-engineers.de&utm_medium=referral&utm_campaign=article_referral&utm_content=26-filmische-begriffe-die-deine-ai-videos-revolutionieren)
 
 ---
 *Recherchiert mit: Perplexity AI | Stand: 06.11.2025*

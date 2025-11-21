@@ -124,7 +124,7 @@ Die Integration ist erst der Anfang. Microsoft plant weitere Features:
 ## Quellen & Weiterführende Links
 - 📰 [GitHub Changelog - Copilot Azure Boards Integration](https://github.blog/changelog/2025-10-copilot-azure-boards-integration)
 - 📚 [Microsoft DevOps Blog - Azure Boards Integration](https://devblogs.microsoft.com/devops/azure-boards-integration-with-github-copilot-private-preview)
-- 🎓 [Workshop: AI-Driven DevOps auf workshops.de](https://workshops.de/seminare/ai-devops)
+- 🎓 [Workshop: AI-Driven DevOps auf workshops.de](https://workshops.de?utm_source=ai-automation-engineers.de&utm_medium=referral&utm_campaign=article_referral&utm_content=github-copilot-trifft-azure-boards-ki-gesteuerte-task-automatisierung)
 - 🔧 [GitHub Copilot Dokumentation](https://docs.github.com/copilot)
 ---
 *Recherchiert mit: Perplexity AI | Stand: 2025-10-22*

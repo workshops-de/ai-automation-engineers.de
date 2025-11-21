@@ -435,4 +435,4 @@ Die Zukunft der Spracherkennung ist hier – und sie spricht deine Sprache! 🎙
 
 *Hast du schon Erfahrungen mit Whisper gemacht? Welche Use Cases siehst du für deine Projekte? Lass es uns in den Kommentaren wissen!*
 
-**Workshop-Tipp:** Du willst Whisper professionell in deine Workflows integrieren? Check unsere Hands-On Workshops auf [workshops.de/whisper-integration](https://workshops.de/ki) – von Zero to Production in einem Tag! 🚀
+**Workshop-Tipp:** Du willst Whisper professionell in deine Workflows integrieren? Check unsere Hands-On Workshops auf [workshops.de](https://workshops.de?utm_source=ai-automation-engineers.de&utm_medium=referral&utm_campaign=article_referral&utm_content=openai-whisper-spracherkennung-revolution) – von Zero to Production in einem Tag! 🚀

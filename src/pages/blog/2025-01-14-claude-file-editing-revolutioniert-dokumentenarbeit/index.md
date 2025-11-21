@@ -215,4 +215,4 @@ Die Zukunft der Büroarbeit ist hier – und sie sieht verdammt effizient aus. Z
 
 ---
 
-*Hast du schon Erfahrungen mit Claudes neuen File-Features gemacht? Oder bist du noch skeptisch? Lass es uns wissen und entdecke mehr Möglichkeiten der AI-Automatisierung in unseren Workshops auf [workshops.de](https://workshops.de/ki)!*
+*Hast du schon Erfahrungen mit Claudes neuen File-Features gemacht? Oder bist du noch skeptisch? Lass es uns wissen und entdecke mehr Möglichkeiten der AI-Automatisierung in unseren Workshops auf [workshops.de](https://workshops.de?utm_source=ai-automation-engineers.de&utm_medium=referral&utm_campaign=article_referral&utm_content=claude-file-editing-revolutioniert-dokumentenarbeit)!*

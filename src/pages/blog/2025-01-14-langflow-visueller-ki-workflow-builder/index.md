@@ -196,7 +196,7 @@ Für 80% der Use-Cases ist es der schnellste Weg von Idee zu funktionierender KI
 2. **Baue deinen ersten Flow** (starte mit einer Template)
 3. **Teile deine Kreation** (die Community liebt neue Flows)
 
-Und wenn du richtig durchstarten willst: Die **[AI Automation Engineers Workshops](https://workshops.de/ki)** zeigen dir, wie du Langflow in Production-Ready-Systeme integrierst.
+Und wenn du richtig durchstarten willst: Die **[AI Automation Engineers Workshops](https://workshops.de?utm_source=ai-automation-engineers.de&utm_medium=referral&utm_campaign=article_referral&utm_content=langflow-visueller-ki-workflow-builder)** zeigen dir, wie du Langflow in Production-Ready-Systeme integrierst.
 
 **Remember:** In einer Welt, wo jeder KI-Apps bauen kann, sind die Kreativen die neuen Könige. Langflow gibt dir das Zepter – was du damit machst, liegt bei dir.
 

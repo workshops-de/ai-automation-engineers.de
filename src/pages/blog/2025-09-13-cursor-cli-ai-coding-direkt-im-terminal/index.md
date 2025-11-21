@@ -225,4 +225,4 @@ Die Terminal-Revolution hat begonnen. Die Frage ist nicht ob, sondern wie schnel
 
 ---
 
-*PS: Für alle die tiefer einsteigen wollen – wir planen einen Workshop zu "Advanced Cursor CLI & MCP Integration". Stay tuned auf [workshops.de](https://workshops.de/ki)!*
+*PS: Für alle die tiefer einsteigen wollen – wir planen einen Workshop zu "Advanced Cursor CLI & MCP Integration". Stay tuned auf [workshops.de](https://workshops.de?utm_source=ai-automation-engineers.de&utm_medium=referral&utm_campaign=article_referral&utm_content=cursor-cli-ai-coding-direkt-im-terminal)!*

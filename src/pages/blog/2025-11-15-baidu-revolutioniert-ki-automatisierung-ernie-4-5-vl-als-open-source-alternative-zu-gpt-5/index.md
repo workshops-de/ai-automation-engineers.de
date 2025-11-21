@@ -97,7 +97,7 @@ Für AI-Automation Engineers bedeutet dies: Endlich eine echte Alternative zu pr
 - 📚 [ERNIE-4.5-VL Offizielle Dokumentation](https://ernie.baidu.com/blog/posts/ernie-4.5-vl-28b-a3b-thinking/)
 - 🔧 [GitHub Repository - PaddlePaddle ERNIE](https://github.com/PaddlePaddle/ERNIE)
 - 🎥 [Lokale Installation Tutorial](https://www.youtube.com/watch?v=nbXgKPNpJJg)
-- 🎓 [AI-Automation Workshop auf workshops.de](https://workshops.de/seminare/ai-automation)
+- 🎓 [AI-Automation Workshop auf workshops.de](https://workshops.de?utm_source=ai-automation-engineers.de&utm_medium=referral&utm_campaign=article_referral&utm_content=baidu-revolutioniert-ki-automatisierung-ernie-4-5-vl-als-open-source-alternative-zu-gpt-5)
 ---
 *Recherchiert mit: Perplexity AI | Stand: 2025-11-15*
 ---

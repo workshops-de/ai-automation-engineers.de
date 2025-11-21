@@ -93,6 +93,6 @@ Besonders für Teams, die regelmäßig Custom-Integrationen oder Browser-basiert
 - 📚 [Claude Code Dokumentation](https://docs.anthropic.com/en/docs/claude-code/overview)
 - 🔧 [Best Practices für agentische Coding](https://www.anthropic.com/engineering/claude-code-best-practices)
 - 📖 [Claude Code Tutorial von DataCamp](https://www.datacamp.com/de/tutorial/claude-code)
-- 🎓 [Browser Extension Development Workshop](https://workshops.de/seminare/browser-automation)
+- 🎓 [Browser Extension Development Workshop](https://workshops.de?utm_source=ai-automation-engineers.de&utm_medium=referral&utm_campaign=article_referral&utm_content=claude-code-browser-extensions-in-minuten-bauen-ohne-klassisches-coding)
 ---
 *Recherchiert mit: Perplexity AI | Stand: 18.11.2025 | Technical Review durchgeführt*
