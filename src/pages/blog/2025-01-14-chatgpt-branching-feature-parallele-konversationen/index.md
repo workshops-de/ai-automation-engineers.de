@@ -268,4 +268,4 @@ Die Ära der linearen AI-Konversationen ist vorbei. Welcome to the Branching Rev
 
 **Pro-Tipp**: Nutze Branches auch für "Checkpoint-Saves" - erstelle einen Branch bevor du etwas Experimentelles versuchst, so hast du immer einen sauberen Restore-Point.
 
-*Hast du schon coole Use Cases für Branching gefunden? Ich bin gespannt auf deine Erfahrungen! Mehr zu AI Automation und praktischen Workshops findest du auf [workshops.de](https://workshops.de?utm_source=blog&utm_medium=referral&utm_campaign=article_referral&utm_content=chatgpt-branching-feature-parallele-konversationen)*
+*Hast du schon coole Use Cases für Branching gefunden? Ich bin gespannt auf deine Erfahrungen! Mehr zu AI Automation und praktischen Workshops findest du auf [workshops.de](https://workshops.de?utm_source=ai-automation-engineers.de&utm_medium=referral&utm_campaign=article_referral&utm_content=chatgpt-branching-feature-parallele-konversationen)*

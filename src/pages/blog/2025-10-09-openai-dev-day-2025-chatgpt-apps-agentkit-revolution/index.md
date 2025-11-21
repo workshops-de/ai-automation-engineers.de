@@ -206,7 +206,7 @@ Die AI-Automation Engineers bieten einen **Deep-Dive Workshop** zu den neuen Ope
 - Cost-Optimization Strategien
 - Security & Compliance Guidelines
 
-[Jetzt Workshop buchen](https://workshops.de?utm_source=blog&utm_medium=referral&utm_campaign=article_referral&utm_content=openai-dev-day-2025-chatgpt-apps-agentkit-revolution)
+[Jetzt Workshop buchen](https://workshops.de?utm_source=ai-automation-engineers.de&utm_medium=referral&utm_campaign=article_referral&utm_content=openai-dev-day-2025-chatgpt-apps-agentkit-revolution)
 
 ## Fazit
 

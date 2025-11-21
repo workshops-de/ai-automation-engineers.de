@@ -226,7 +226,7 @@ Du willst hands-on mit Video-KI arbeiten und eigene Automatisierungen bauen? In 
 - Automatisierungs-Workflows mit n8n
 - Real-World Projekte mit Sora & Co.
 
-[Jetzt Workshop-Platz sichern](https://workshops.de?utm_source=blog&utm_medium=referral&utm_campaign=article_referral&utm_content=sora-2-openai-video-ki-revolution)
+[Jetzt Workshop-Platz sichern](https://workshops.de?utm_source=ai-automation-engineers.de&utm_medium=referral&utm_campaign=article_referral&utm_content=sora-2-openai-video-ki-revolution)
 
 ---
 

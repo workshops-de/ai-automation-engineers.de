@@ -313,4 +313,4 @@ Trust me, dein zukünftiges Ich wird dir danken. Welcome to the Video Automation
 
 ---
 
-*PS: Wenn du tiefer in die Materie einsteigen willst, check unsere AI-Automation Workshops auf [workshops.de](https://workshops.de?utm_source=blog&utm_medium=referral&utm_campaign=article_referral&utm_content=opusclip-game-changer-video-automation) - dort zeigen wir dir live, wie du solche Systeme aufbaust.*
+*PS: Wenn du tiefer in die Materie einsteigen willst, check unsere AI-Automation Workshops auf [workshops.de](https://workshops.de?utm_source=ai-automation-engineers.de&utm_medium=referral&utm_campaign=article_referral&utm_content=opusclip-game-changer-video-automation) - dort zeigen wir dir live, wie du solche Systeme aufbaust.*

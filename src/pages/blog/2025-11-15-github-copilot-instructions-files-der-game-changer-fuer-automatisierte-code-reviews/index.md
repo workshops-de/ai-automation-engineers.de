@@ -131,7 +131,7 @@ Für Automatisierungs-Engineers bedeutet das: Weniger Zeit mit repetitiven Revie
 ## Quellen & Weiterführende Links
 - 📚 [Offizielle GitHub Copilot Code Review Docs](https://docs.github.com/copilot/using-github-copilot/code-review/using-copilot-code-review)
 - 📊 [GitHub Research: Copilot Code Quality](https://github.blog/news-insights/research/does-github-copilot-improve-code-quality-heres-what-the-data-says/)
-- 🎓 [Workshop: AI-Driven Development auf workshops.de](https://workshops.de?utm_source=blog&utm_medium=referral&utm_campaign=article_referral&utm_content=github-copilot-instructions-files-der-game-changer-fuer-automatisierte-code-reviews)
+- 🎓 [Workshop: AI-Driven Development auf workshops.de](https://workshops.de?utm_source=ai-automation-engineers.de&utm_medium=referral&utm_campaign=article_referral&utm_content=github-copilot-instructions-files-der-game-changer-fuer-automatisierte-code-reviews)
 - 🔧 [Custom Instructions Tutorial](https://docs.github.com/en/copilot/tutorials/use-custom-instructions)
 - 📈 [GitHub Copilot Code Review Konzepte](https://docs.github.com/en/copilot/concepts/agents/code-review)
 ---

@@ -274,7 +274,7 @@ Die neuen Microsoft Autonomous Agents sind keine Evolution, sondern eine **Revol
 
 - 🛠️ [Azure AI Agent Service](https://azure.microsoft.com/services/ai-agent-service)
 
-- 🎓 [Workshop: "AI Agents in der Praxis" auf workshops.de](https://workshops.de?utm_source=blog&utm_medium=referral&utm_campaign=article_referral&utm_content=microsoft-startet-revolution-autonome-ki-agents-uebernehmen-ab-november-eigenstaendig-komplette-workflows)
+- 🎓 [Workshop: "AI Agents in der Praxis" auf workshops.de](https://workshops.de?utm_source=ai-automation-engineers.de&utm_medium=referral&utm_campaign=article_referral&utm_content=microsoft-startet-revolution-autonome-ki-agents-uebernehmen-ab-november-eigenstaendig-komplette-workflows)
 
 - 💬 [Microsoft AI Agents Community Hub](https://adoption.microsoft.com/ai-agents)
 

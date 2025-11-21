@@ -306,7 +306,7 @@ MCP ist mehr als nur ein weiteres Protokoll. Es ist der Missing Link, der aus is
 Wenn ihr tiefer einsteigen wollt, hier eure Next Steps:
 
 - 🔧 **Technische Docs**: [modelcontextprotocol.io](https://modelcontextprotocol.io)
-- 🎓 **MCP Workshop**: Hands-on Training für Teams (coming soon auf [workshops.de](https://workshops.de?utm_source=blog&utm_medium=referral&utm_campaign=article_referral&utm_content=mcp-protokoll-macht-agentische-ki-zum-standard))
+- 🎓 **MCP Workshop**: Hands-on Training für Teams (coming soon auf [workshops.de](https://workshops.de?utm_source=ai-automation-engineers.de&utm_medium=referral&utm_campaign=article_referral&utm_content=mcp-protokoll-macht-agentische-ki-zum-standard))
 - 💬 **Community**: MCP Developer Discord (5000+ Mitglieder)
 - 📚 **GitHub**: Beispiel-Implementierungen und Best Practices
 
