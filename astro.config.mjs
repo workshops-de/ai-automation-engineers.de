@@ -16,11 +16,8 @@ export default defineConfig({
       priority: 0.7,
       // Add last modified time
       lastmod: new Date(),
-      // Serialize function to remove trailing slashes for cleaner URLs
+      
       serialize: (item) => {
-        if (item.url.endsWith('/') && item.url !== 'https://ai-automation-engineers.de/') {
-          item.url = item.url.slice(0, -1);
-        }
         // Higher priority for blog posts
         if (item.url.includes('/blog')) {
           item.priority = 0.8;
