@@ -300,6 +300,6 @@ Das Schöne am Loop Marketing? Es ist wie ein guter Wein - es wird mit der Zeit 
 
 **Lust auf mehr?** In unserem Workshop "AI-Driven Marketing Automation" zeigen wir dir hands-on, wie du Loop Marketing mit n8n, Python und den neuesten AI-Tools implementierst. Von der ersten Automation bis zum selbstoptimierenden Marketing-System.
 
-[Jetzt Workshop buchen auf workshops.de/loop-marketing]
+[Jetzt Workshop buchen](https://workshops.de?utm_source=blog&utm_medium=referral&utm_campaign=article_referral&utm_content=hubspot-loop-marketing-framework-ai-automation)
 
 Die Zukunft des Marketings ist zirkulär, intelligent und verdammt effizient. Bist du ready für den Loop? 🔄✨

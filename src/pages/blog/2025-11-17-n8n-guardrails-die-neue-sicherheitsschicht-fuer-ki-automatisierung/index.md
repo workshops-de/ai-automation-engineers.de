@@ -107,7 +107,7 @@ Für Teams, die bereits mit n8n arbeiten, ist die Adoption ein No-Brainer. Die Z
 ## Quellen & Weiterführende Links
 - 📰 [Offizielle n8n Release Notes](https://docs.n8n.io/release-notes/)
 - 📚 [LangChain in n8n - Übersicht](https://docs.n8n.io/advanced-ai/langchain/overview/)
-- 🎓 [Workshop: KI-Automation mit n8n](https://workshops.de/seminare-schulungen-kurse/ki-automation)
+- 🎓 [Workshop: KI-Automation mit n8n](https://workshops.de?utm_source=blog&utm_medium=referral&utm_campaign=article_referral&utm_content=n8n-guardrails-die-neue-sicherheitsschicht-fuer-ki-automatisierung)
 - 📹 [Video: How the NEW n8n Guardrails work](https://www.youtube.com/watch?v=P4A1TmGgzws)
 - 🔧 [n8n Community Forum - Guardrails Diskussion](https://community.n8n.io/)
 ---

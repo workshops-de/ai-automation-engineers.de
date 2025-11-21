@@ -126,7 +126,7 @@ ChatGPT Shared Projects transformiert die Art, wie Teams mit KI arbeiten. Für A
 ## Quellen & Weiterführende Links
 - 📰 [Original OpenAI Announcement](https://openai.com/index/more-ways-to-work-with-your-team/)
 - 📚 [Official Documentation - Using Projects in ChatGPT](https://help.openai.com/en/articles/10169521-using-projects-in-chatgpt)
-- 🎓 [Workshop: AI-Automation mit ChatGPT & Co.](https://workshops.de/seminare/ai-automation)
+- 🎓 [Workshop: AI-Automation mit ChatGPT & Co.](https://workshops.de?utm_source=blog&utm_medium=referral&utm_campaign=article_referral&utm_content=openai-shared-projects)
 - 📊 [ChatGPT Release Notes](https://help.openai.com/en/articles/6825453-chatgpt-release-notes)
 ---
 *Recherchiert mit: Perplexity AI | Stand: 27. Oktober 2025*

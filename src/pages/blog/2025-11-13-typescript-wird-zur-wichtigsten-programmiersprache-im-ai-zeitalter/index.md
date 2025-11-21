@@ -132,7 +132,7 @@ Die GitHub Octoverse 2025 Daten unterstützen diese Vision: In den Top-10 Open-S
 
 - 📚 [TypeScript 7 Native Preview Ankündigung](https://developer.microsoft.com/blog/typescript-7-native-preview-in-visual-studio-2026)
 
-- 🎓 [TypeScript Workshop auf workshops.de](https://workshops.de/ki)
+- 🎓 [TypeScript Workshop auf workshops.de](https://workshops.de?utm_source=blog&utm_medium=referral&utm_campaign=article_referral&utm_content=typescript-wird-zur-wichtigsten-programmiersprache-im-ai-zeitalter)
 
 ---
 *Recherchiert mit: Perplexity AI | Stand: 07.11.2025*

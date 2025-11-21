@@ -172,7 +172,7 @@ Diese Investition wird den europäischen KI-Automatisierungsmarkt fundamental ve
 
 - 🔧 [Nvidia Blackwell Architecture Guide](https://www.nvidia.com/blackwell/)
 
-- 🎓 [AI-Automation Workshop: Enterprise LLM Integration](https://workshops.de/ki)
+- 🎓 [AI-Automation Workshop: Enterprise LLM Integration](https://workshops.de?utm_source=blog&utm_medium=referral&utm_campaign=article_referral&utm_content=microsoft-investiert-10-mrd-dollar-in-europas-groesstes-ki-zentrum-mit-12-600-nvidia-gpus)
 
 ---
 *Recherchiert mit: Perplexity AI | Stand: 2025-11-12*

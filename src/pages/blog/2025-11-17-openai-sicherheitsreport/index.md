@@ -149,7 +149,7 @@ Die gute Nachricht: Mit den richtigen Tools und Workflows lässt sich ein hohes 
 ## Quellen & Weiterführende Links
 - 📰 [OpenAI Threat Intelligence Report Februar 2025](https://cdn.openai.com/threat-intelligence-reports/disrupting-malicious-uses-of-our-models-february-2025-update.pdf)
 - 📚 [OpenAI Global Affairs - Disrupting Malicious Uses](https://openai.com/global-affairs/disrupting-malicious-uses-of-ai/)
-- 🎓 [AI-Security Workshop bei workshops.de](https://workshops.de/seminare/ai-security)
+- 🎓 [AI-Security Workshop bei workshops.de](https://workshops.de?utm_source=blog&utm_medium=referral&utm_campaign=article_referral&utm_content=openai-sicherheitsreport)
 - 🔧 [n8n Security Best Practices](https://docs.n8n.io/security/)
 - 🛡️ [Make.com API Security Guide](https://www.make.com/en/help/security)
 ---
