@@ -1,0 +1,840 @@
+{
+  "generated": "2025-11-21T08:34:19.053Z",
+  "summary": {
+    "total": 17,
+    "dateRange": {
+      "start": "2025-11-14",
+      "end": "2025-11-21",
+      "startObj": "2025-11-14T08:34:19.052Z",
+      "endObj": "2025-11-21T08:34:19.052Z"
+    },
+    "categories": {
+      "AI-Automation": {
+        "count": 14,
+        "articles": [
+          {
+            "filename": "2025-11-18-claude-code-browser-extensions-in-minuten-bauen-ohne-klassisches-coding",
+            "date": "2025-11-18",
+            "title": "Claude Code: Browser-Extensions in Minuten bauen - ohne klassisches Coding",
+            "description": "Erfahre wie Claude Code die Entwicklung von Browser-Extensions revolutioniert - von der Idee zur fertigen Chrome Extension in weniger als 30 Minuten durch agentische KI",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2025-11-18-claude-code-browser-extensions-in-minuten-bauen-ohne-klassisches-coding/",
+            "slug": "2025-11-18-claude-code-browser-extensions-in-minuten-bauen-ohne-klassisches-coding"
+          },
+          {
+            "filename": "2025-11-18-claude-haiku-4-5-3x-guenstiger-2x-schneller-die-neue-aera-kosteneffizienter-ki-automation",
+            "date": "2025-11-18",
+            "title": "Claude Haiku 4.5: 3x günstiger, 2x schneller - Die neue Ära kosteneffizienter KI-Automation",
+            "description": "Claude Haiku 4.5 revolutioniert KI-Automation: 73% von Sonnet-Performance bei 1/3 der Kosten. Perfekt für Echtzeit-Chatbots und Multi-Agent-Workflows.",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2025-11-18-claude-haiku-4-5-3x-guenstiger-2x-schneller-die-neue-aera-kosteneffizienter-ki-automation/",
+            "slug": "2025-11-18-claude-haiku-4-5-3x-guenstiger-2x-schneller-die-neue-aera-kosteneffizienter-ki-automation"
+          },
+          {
+            "filename": "2025-11-18-claude-memory-game-changer-fuer-persistente-ai-workflows",
+            "date": "2025-11-18",
+            "title": "Claude Memory: Game-Changer für persistente AI-Workflows",
+            "description": "Claude erhält echte Memory-Funktion für Pro und Max User - projektspezifische Kontextspeicherung revolutioniert Automation-Workflows",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2025-11-18-claude-memory-game-changer-fuer-persistente-ai-workflows/",
+            "slug": "2025-11-18-claude-memory-game-changer-fuer-persistente-ai-workflows"
+          },
+          {
+            "filename": "2025-11-18-github-mcp-registry-die-zentrale-anlaufstelle-fuer-ki-tool-integration",
+            "date": "2025-11-18",
+            "title": "GitHub MCP Registry: Die zentrale Anlaufstelle für KI-Tool-Integration",
+            "description": "Das neue GitHub MCP Registry revolutioniert die Integration von KI-Tools in Automatisierungs-Workflows. Zeitersparnis von bis zu 90% bei der Tool-Discovery.",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2025-11-18-github-mcp-registry-die-zentrale-anlaufstelle-fuer-ki-tool-integration/",
+            "slug": "2025-11-18-github-mcp-registry-die-zentrale-anlaufstelle-fuer-ki-tool-integration"
+          },
+          {
+            "filename": "2025-11-18-google-project-jarvis-der-ai-agent-der-web-aufgaben-autonom-erledigt",
+            "date": "2025-11-18",
+            "title": "Google Project Jarvis: Der AI-Agent der Web-Aufgaben autonom erledigt",
+            "description": "Google entwickelt mit Project Jarvis einen Chrome-basierten AI-Agenten, der Webaufgaben wie Shopping, Buchungen und Formulare vollautomatisch durchführt.",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2025-11-18-google-project-jarvis-der-ai-agent-der-web-aufgaben-autonom-erledigt/",
+            "slug": "2025-11-18-google-project-jarvis-der-ai-agent-der-web-aufgaben-autonom-erledigt"
+          },
+          {
+            "filename": "2025-11-18-openai-shared-projects",
+            "date": "2025-11-18",
+            "title": "ChatGPT Shared Projects: KI-Kollaboration für Automation Teams",
+            "description": "OpenAI macht ChatGPT teamfähig: Shared Projects bringen gemeinsame Workspaces, geteilten Kontext und smartes Project Memory für effiziente AI-Workflows",
+            "category": "Technology",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "5 min read",
+            "url": "/blog/2025-11-18-openai-shared-projects/",
+            "slug": "2025-11-18-openai-shared-projects"
+          },
+          {
+            "filename": "2025-11-17-github-copilot-cli-ai-powered-automation-jetzt-im-terminal",
+            "date": "2025-11-17",
+            "title": "GitHub Copilot CLI: AI-powered Automation jetzt im Terminal",
+            "description": "GitHub Copilot CLI im Public Preview - AI-Agent für Terminal-Workflows, GitHub Integration und automatisierte Coding Tasks",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "5 min read",
+            "url": "/blog/2025-11-17-github-copilot-cli-ai-powered-automation-jetzt-im-terminal/",
+            "slug": "2025-11-17-github-copilot-cli-ai-powered-automation-jetzt-im-terminal"
+          },
+          {
+            "filename": "2025-11-17-github-spark-ki-gesteuerte-full-stack-app-entwicklung-fuer-automatisierungs-workflows",
+            "date": "2025-11-17",
+            "title": "GitHub Spark: KI-gesteuerte Full-Stack App-Entwicklung für Automatisierungs-Workflows",
+            "description": "GitHub Spark in Public Preview - Erstelle Automatisierungs-Apps mit natürlicher Sprache. Integration mit Copilot Enterprise für AI-Workflows.",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2025-11-17-github-spark-ki-gesteuerte-full-stack-app-entwicklung-fuer-automatisierungs-workflows/",
+            "slug": "2025-11-17-github-spark-ki-gesteuerte-full-stack-app-entwicklung-fuer-automatisierungs-workflows"
+          },
+          {
+            "filename": "2025-11-17-n8n-guardrails-die-neue-sicherheitsschicht-fuer-ki-automatisierung",
+            "date": "2025-11-17",
+            "title": "n8n Guardrails: Die neue Sicherheitsschicht für KI-Automatisierung",
+            "description": "n8n führt Guardrails Node ein - automatische Sicherheitsprüfungen, PII-Schutz und Jailbreak-Erkennung für AI-Workflows. Jetzt produktionsreif einsetzen!",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "5 min read",
+            "url": "/blog/2025-11-17-n8n-guardrails-die-neue-sicherheitsschicht-fuer-ki-automatisierung/",
+            "slug": "2025-11-17-n8n-guardrails-die-neue-sicherheitsschicht-fuer-ki-automatisierung"
+          },
+          {
+            "filename": "2025-11-17-ollama-das-open-source-framework-fuer-private-ai-automation-ohne-cloud-abhaengigkeit",
+            "date": "2025-11-17",
+            "title": "Ollama: Das Open-Source Framework für private AI-Automation ohne Cloud-Abhängigkeit",
+            "description": "Ollama ermöglicht lokale LLM-Deployment mit vollständiger Datenkontrolle. Integration in n8n, Make & Zapier für GDPR-konforme AI-Workflows.",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2025-11-17-ollama-das-open-source-framework-fuer-private-ai-automation-ohne-cloud-abhaengigkeit/",
+            "slug": "2025-11-17-ollama-das-open-source-framework-fuer-private-ai-automation-ohne-cloud-abhaengigkeit"
+          },
+          {
+            "filename": "2025-11-17-openai-sicherheitsreport",
+            "date": "2025-11-17",
+            "title": "OpenAI enttarnt China-Surveillance-Tool: Kritischer Sicherheits-Report für AI-Automatisierung",
+            "description": "OpenAI deckt im Februar 2025 Report massive KI-Missbrauchsfälle auf - von China-Überwachung bis Malware. Konkrete Sicherheitsmaßnahmen für n8n, Make & Zapier.",
+            "category": "Technology",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "5 min read",
+            "url": "/blog/2025-11-17-openai-sicherheitsreport/",
+            "slug": "2025-11-17-openai-sicherheitsreport"
+          },
+          {
+            "filename": "2025-11-17-vercel-ai-sdk-der-game-changer-fuer-ki-integration-in-web-apps",
+            "date": "2025-11-17",
+            "title": "Vercel AI SDK: Der Game-Changer für KI-Integration in Web-Apps",
+            "description": "Das Vercel AI SDK revolutioniert die KI-Integration mit Echtzeit-Streaming, Multi-Provider-Support und automatischer Edge-Optimierung. Perfekt für Automation-Engineers.",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2025-11-17-vercel-ai-sdk-der-game-changer-fuer-ki-integration-in-web-apps/",
+            "slug": "2025-11-17-vercel-ai-sdk-der-game-changer-fuer-ki-integration-in-web-apps"
+          },
+          {
+            "filename": "2025-11-15-baidu-revolutioniert-ki-automatisierung-ernie-4-5-vl-als-open-source-alternative-zu-gpt-5",
+            "date": "2025-11-15",
+            "title": "Baidu revolutioniert KI-Automatisierung: ERNIE-4.5-VL als Open-Source Alternative zu GPT-5",
+            "description": "ERNIE-4.5-VL-28B-A3B-Thinking bietet multimodale KI mit nur 3B aktiven Parametern - Open Source, Apache 2.0, ideal für Automatisierungs-Workflows",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2025-11-15-baidu-revolutioniert-ki-automatisierung-ernie-4-5-vl-als-open-source-alternative-zu-gpt-5/",
+            "slug": "2025-11-15-baidu-revolutioniert-ki-automatisierung-ernie-4-5-vl-als-open-source-alternative-zu-gpt-5"
+          },
+          {
+            "filename": "2025-11-15-gpt-5-1-adaptive-reasoning-revolutioniert-ai-workflows",
+            "date": "2025-11-15",
+            "title": "GPT-5.1: Adaptive Reasoning revolutioniert AI-Workflows",
+            "description": "OpenAI launcht GPT-5.1 mit adaptivem Reasoning - bis zu 80% weniger Tokens bei komplexen Automatisierungen und nahtlose Tool-Integration",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2025-11-15-gpt-5-1-adaptive-reasoning-revolutioniert-ai-workflows/",
+            "slug": "2025-11-15-gpt-5-1-adaptive-reasoning-revolutioniert-ai-workflows"
+          }
+        ]
+      },
+      "Tools & Frameworks": {
+        "count": 3,
+        "articles": [
+          {
+            "filename": "2025-11-18-github-copilot-custom-model",
+            "date": "2025-11-18",
+            "title": "GitHub Copilot Custom Model: 20% mehr produktiver coden",
+            "description": "Neues Custom Model für GitHub Copilot bringt 20% mehr akzeptierte Code-Vorschläge, 3x höhere Performance und maßgeschneiderte Automatisierung",
+            "category": "Technology",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "5 min read",
+            "url": "/blog/2025-11-18-github-copilot-custom-model/",
+            "slug": "2025-11-18-github-copilot-custom-model"
+          },
+          {
+            "filename": "2025-11-17-github-copilot-trifft-azure-boards-ki-gesteuerte-task-automatisierung",
+            "date": "2025-11-17",
+            "title": "GitHub Copilot trifft Azure Boards: KI-gesteuerte Task-Automatisierung",
+            "description": "GitHub Copilot kann jetzt Azure Boards Work Items automatisch in Code umsetzen. Die neue Integration spart Teams bis zu 40% Zeit bei Routine-Tasks.",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "5 min read",
+            "url": "/blog/2025-11-17-github-copilot-trifft-azure-boards-ki-gesteuerte-task-automatisierung/",
+            "slug": "2025-11-17-github-copilot-trifft-azure-boards-ki-gesteuerte-task-automatisierung"
+          },
+          {
+            "filename": "2025-11-15-github-copilot-instructions-files-der-game-changer-fuer-automatisierte-code-reviews",
+            "date": "2025-11-15",
+            "title": "GitHub Copilot Instructions Files: Der Game-Changer für automatisierte Code Reviews",
+            "description": "Erfahre, wie du mit GitHub Copilot Instructions Files deine Code Reviews automatisierst und bis zu 70% Zeit sparst – inkl. praktischer Beispiele und Templates",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2025-11-15-github-copilot-instructions-files-der-game-changer-fuer-automatisierte-code-reviews/",
+            "slug": "2025-11-15-github-copilot-instructions-files-der-game-changer-fuer-automatisierte-code-reviews"
+          }
+        ]
+      }
+    },
+    "topArticles": [
+      {
+        "filename": "2025-11-18-claude-code-browser-extensions-in-minuten-bauen-ohne-klassisches-coding",
+        "date": "2025-11-18",
+        "title": "Claude Code: Browser-Extensions in Minuten bauen - ohne klassisches Coding",
+        "description": "Erfahre wie Claude Code die Entwicklung von Browser-Extensions revolutioniert - von der Idee zur fertigen Chrome Extension in weniger als 30 Minuten durch agentische KI",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2025-11-18-claude-code-browser-extensions-in-minuten-bauen-ohne-klassisches-coding/",
+        "slug": "2025-11-18-claude-code-browser-extensions-in-minuten-bauen-ohne-klassisches-coding"
+      },
+      {
+        "filename": "2025-11-18-claude-haiku-4-5-3x-guenstiger-2x-schneller-die-neue-aera-kosteneffizienter-ki-automation",
+        "date": "2025-11-18",
+        "title": "Claude Haiku 4.5: 3x günstiger, 2x schneller - Die neue Ära kosteneffizienter KI-Automation",
+        "description": "Claude Haiku 4.5 revolutioniert KI-Automation: 73% von Sonnet-Performance bei 1/3 der Kosten. Perfekt für Echtzeit-Chatbots und Multi-Agent-Workflows.",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2025-11-18-claude-haiku-4-5-3x-guenstiger-2x-schneller-die-neue-aera-kosteneffizienter-ki-automation/",
+        "slug": "2025-11-18-claude-haiku-4-5-3x-guenstiger-2x-schneller-die-neue-aera-kosteneffizienter-ki-automation"
+      },
+      {
+        "filename": "2025-11-18-claude-memory-game-changer-fuer-persistente-ai-workflows",
+        "date": "2025-11-18",
+        "title": "Claude Memory: Game-Changer für persistente AI-Workflows",
+        "description": "Claude erhält echte Memory-Funktion für Pro und Max User - projektspezifische Kontextspeicherung revolutioniert Automation-Workflows",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2025-11-18-claude-memory-game-changer-fuer-persistente-ai-workflows/",
+        "slug": "2025-11-18-claude-memory-game-changer-fuer-persistente-ai-workflows"
+      },
+      {
+        "filename": "2025-11-18-github-copilot-custom-model",
+        "date": "2025-11-18",
+        "title": "GitHub Copilot Custom Model: 20% mehr produktiver coden",
+        "description": "Neues Custom Model für GitHub Copilot bringt 20% mehr akzeptierte Code-Vorschläge, 3x höhere Performance und maßgeschneiderte Automatisierung",
+        "category": "Technology",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "5 min read",
+        "url": "/blog/2025-11-18-github-copilot-custom-model/",
+        "slug": "2025-11-18-github-copilot-custom-model"
+      },
+      {
+        "filename": "2025-11-18-github-mcp-registry-die-zentrale-anlaufstelle-fuer-ki-tool-integration",
+        "date": "2025-11-18",
+        "title": "GitHub MCP Registry: Die zentrale Anlaufstelle für KI-Tool-Integration",
+        "description": "Das neue GitHub MCP Registry revolutioniert die Integration von KI-Tools in Automatisierungs-Workflows. Zeitersparnis von bis zu 90% bei der Tool-Discovery.",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2025-11-18-github-mcp-registry-die-zentrale-anlaufstelle-fuer-ki-tool-integration/",
+        "slug": "2025-11-18-github-mcp-registry-die-zentrale-anlaufstelle-fuer-ki-tool-integration"
+      }
+    ],
+    "articlesList": [
+      {
+        "filename": "2025-11-18-claude-code-browser-extensions-in-minuten-bauen-ohne-klassisches-coding",
+        "date": "2025-11-18",
+        "title": "Claude Code: Browser-Extensions in Minuten bauen - ohne klassisches Coding",
+        "description": "Erfahre wie Claude Code die Entwicklung von Browser-Extensions revolutioniert - von der Idee zur fertigen Chrome Extension in weniger als 30 Minuten durch agentische KI",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2025-11-18-claude-code-browser-extensions-in-minuten-bauen-ohne-klassisches-coding/",
+        "slug": "2025-11-18-claude-code-browser-extensions-in-minuten-bauen-ohne-klassisches-coding"
+      },
+      {
+        "filename": "2025-11-18-claude-haiku-4-5-3x-guenstiger-2x-schneller-die-neue-aera-kosteneffizienter-ki-automation",
+        "date": "2025-11-18",
+        "title": "Claude Haiku 4.5: 3x günstiger, 2x schneller - Die neue Ära kosteneffizienter KI-Automation",
+        "description": "Claude Haiku 4.5 revolutioniert KI-Automation: 73% von Sonnet-Performance bei 1/3 der Kosten. Perfekt für Echtzeit-Chatbots und Multi-Agent-Workflows.",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2025-11-18-claude-haiku-4-5-3x-guenstiger-2x-schneller-die-neue-aera-kosteneffizienter-ki-automation/",
+        "slug": "2025-11-18-claude-haiku-4-5-3x-guenstiger-2x-schneller-die-neue-aera-kosteneffizienter-ki-automation"
+      },
+      {
+        "filename": "2025-11-18-claude-memory-game-changer-fuer-persistente-ai-workflows",
+        "date": "2025-11-18",
+        "title": "Claude Memory: Game-Changer für persistente AI-Workflows",
+        "description": "Claude erhält echte Memory-Funktion für Pro und Max User - projektspezifische Kontextspeicherung revolutioniert Automation-Workflows",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2025-11-18-claude-memory-game-changer-fuer-persistente-ai-workflows/",
+        "slug": "2025-11-18-claude-memory-game-changer-fuer-persistente-ai-workflows"
+      },
+      {
+        "filename": "2025-11-18-github-copilot-custom-model",
+        "date": "2025-11-18",
+        "title": "GitHub Copilot Custom Model: 20% mehr produktiver coden",
+        "description": "Neues Custom Model für GitHub Copilot bringt 20% mehr akzeptierte Code-Vorschläge, 3x höhere Performance und maßgeschneiderte Automatisierung",
+        "category": "Technology",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "5 min read",
+        "url": "/blog/2025-11-18-github-copilot-custom-model/",
+        "slug": "2025-11-18-github-copilot-custom-model"
+      },
+      {
+        "filename": "2025-11-18-github-mcp-registry-die-zentrale-anlaufstelle-fuer-ki-tool-integration",
+        "date": "2025-11-18",
+        "title": "GitHub MCP Registry: Die zentrale Anlaufstelle für KI-Tool-Integration",
+        "description": "Das neue GitHub MCP Registry revolutioniert die Integration von KI-Tools in Automatisierungs-Workflows. Zeitersparnis von bis zu 90% bei der Tool-Discovery.",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2025-11-18-github-mcp-registry-die-zentrale-anlaufstelle-fuer-ki-tool-integration/",
+        "slug": "2025-11-18-github-mcp-registry-die-zentrale-anlaufstelle-fuer-ki-tool-integration"
+      },
+      {
+        "filename": "2025-11-18-google-project-jarvis-der-ai-agent-der-web-aufgaben-autonom-erledigt",
+        "date": "2025-11-18",
+        "title": "Google Project Jarvis: Der AI-Agent der Web-Aufgaben autonom erledigt",
+        "description": "Google entwickelt mit Project Jarvis einen Chrome-basierten AI-Agenten, der Webaufgaben wie Shopping, Buchungen und Formulare vollautomatisch durchführt.",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2025-11-18-google-project-jarvis-der-ai-agent-der-web-aufgaben-autonom-erledigt/",
+        "slug": "2025-11-18-google-project-jarvis-der-ai-agent-der-web-aufgaben-autonom-erledigt"
+      },
+      {
+        "filename": "2025-11-18-openai-shared-projects",
+        "date": "2025-11-18",
+        "title": "ChatGPT Shared Projects: KI-Kollaboration für Automation Teams",
+        "description": "OpenAI macht ChatGPT teamfähig: Shared Projects bringen gemeinsame Workspaces, geteilten Kontext und smartes Project Memory für effiziente AI-Workflows",
+        "category": "Technology",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "5 min read",
+        "url": "/blog/2025-11-18-openai-shared-projects/",
+        "slug": "2025-11-18-openai-shared-projects"
+      },
+      {
+        "filename": "2025-11-17-github-copilot-cli-ai-powered-automation-jetzt-im-terminal",
+        "date": "2025-11-17",
+        "title": "GitHub Copilot CLI: AI-powered Automation jetzt im Terminal",
+        "description": "GitHub Copilot CLI im Public Preview - AI-Agent für Terminal-Workflows, GitHub Integration und automatisierte Coding Tasks",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "5 min read",
+        "url": "/blog/2025-11-17-github-copilot-cli-ai-powered-automation-jetzt-im-terminal/",
+        "slug": "2025-11-17-github-copilot-cli-ai-powered-automation-jetzt-im-terminal"
+      },
+      {
+        "filename": "2025-11-17-github-copilot-trifft-azure-boards-ki-gesteuerte-task-automatisierung",
+        "date": "2025-11-17",
+        "title": "GitHub Copilot trifft Azure Boards: KI-gesteuerte Task-Automatisierung",
+        "description": "GitHub Copilot kann jetzt Azure Boards Work Items automatisch in Code umsetzen. Die neue Integration spart Teams bis zu 40% Zeit bei Routine-Tasks.",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "5 min read",
+        "url": "/blog/2025-11-17-github-copilot-trifft-azure-boards-ki-gesteuerte-task-automatisierung/",
+        "slug": "2025-11-17-github-copilot-trifft-azure-boards-ki-gesteuerte-task-automatisierung"
+      },
+      {
+        "filename": "2025-11-17-github-spark-ki-gesteuerte-full-stack-app-entwicklung-fuer-automatisierungs-workflows",
+        "date": "2025-11-17",
+        "title": "GitHub Spark: KI-gesteuerte Full-Stack App-Entwicklung für Automatisierungs-Workflows",
+        "description": "GitHub Spark in Public Preview - Erstelle Automatisierungs-Apps mit natürlicher Sprache. Integration mit Copilot Enterprise für AI-Workflows.",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2025-11-17-github-spark-ki-gesteuerte-full-stack-app-entwicklung-fuer-automatisierungs-workflows/",
+        "slug": "2025-11-17-github-spark-ki-gesteuerte-full-stack-app-entwicklung-fuer-automatisierungs-workflows"
+      },
+      {
+        "filename": "2025-11-17-n8n-guardrails-die-neue-sicherheitsschicht-fuer-ki-automatisierung",
+        "date": "2025-11-17",
+        "title": "n8n Guardrails: Die neue Sicherheitsschicht für KI-Automatisierung",
+        "description": "n8n führt Guardrails Node ein - automatische Sicherheitsprüfungen, PII-Schutz und Jailbreak-Erkennung für AI-Workflows. Jetzt produktionsreif einsetzen!",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "5 min read",
+        "url": "/blog/2025-11-17-n8n-guardrails-die-neue-sicherheitsschicht-fuer-ki-automatisierung/",
+        "slug": "2025-11-17-n8n-guardrails-die-neue-sicherheitsschicht-fuer-ki-automatisierung"
+      },
+      {
+        "filename": "2025-11-17-ollama-das-open-source-framework-fuer-private-ai-automation-ohne-cloud-abhaengigkeit",
+        "date": "2025-11-17",
+        "title": "Ollama: Das Open-Source Framework für private AI-Automation ohne Cloud-Abhängigkeit",
+        "description": "Ollama ermöglicht lokale LLM-Deployment mit vollständiger Datenkontrolle. Integration in n8n, Make & Zapier für GDPR-konforme AI-Workflows.",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2025-11-17-ollama-das-open-source-framework-fuer-private-ai-automation-ohne-cloud-abhaengigkeit/",
+        "slug": "2025-11-17-ollama-das-open-source-framework-fuer-private-ai-automation-ohne-cloud-abhaengigkeit"
+      },
+      {
+        "filename": "2025-11-17-openai-sicherheitsreport",
+        "date": "2025-11-17",
+        "title": "OpenAI enttarnt China-Surveillance-Tool: Kritischer Sicherheits-Report für AI-Automatisierung",
+        "description": "OpenAI deckt im Februar 2025 Report massive KI-Missbrauchsfälle auf - von China-Überwachung bis Malware. Konkrete Sicherheitsmaßnahmen für n8n, Make & Zapier.",
+        "category": "Technology",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "5 min read",
+        "url": "/blog/2025-11-17-openai-sicherheitsreport/",
+        "slug": "2025-11-17-openai-sicherheitsreport"
+      },
+      {
+        "filename": "2025-11-17-vercel-ai-sdk-der-game-changer-fuer-ki-integration-in-web-apps",
+        "date": "2025-11-17",
+        "title": "Vercel AI SDK: Der Game-Changer für KI-Integration in Web-Apps",
+        "description": "Das Vercel AI SDK revolutioniert die KI-Integration mit Echtzeit-Streaming, Multi-Provider-Support und automatischer Edge-Optimierung. Perfekt für Automation-Engineers.",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2025-11-17-vercel-ai-sdk-der-game-changer-fuer-ki-integration-in-web-apps/",
+        "slug": "2025-11-17-vercel-ai-sdk-der-game-changer-fuer-ki-integration-in-web-apps"
+      },
+      {
+        "filename": "2025-11-15-baidu-revolutioniert-ki-automatisierung-ernie-4-5-vl-als-open-source-alternative-zu-gpt-5",
+        "date": "2025-11-15",
+        "title": "Baidu revolutioniert KI-Automatisierung: ERNIE-4.5-VL als Open-Source Alternative zu GPT-5",
+        "description": "ERNIE-4.5-VL-28B-A3B-Thinking bietet multimodale KI mit nur 3B aktiven Parametern - Open Source, Apache 2.0, ideal für Automatisierungs-Workflows",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2025-11-15-baidu-revolutioniert-ki-automatisierung-ernie-4-5-vl-als-open-source-alternative-zu-gpt-5/",
+        "slug": "2025-11-15-baidu-revolutioniert-ki-automatisierung-ernie-4-5-vl-als-open-source-alternative-zu-gpt-5"
+      },
+      {
+        "filename": "2025-11-15-github-copilot-instructions-files-der-game-changer-fuer-automatisierte-code-reviews",
+        "date": "2025-11-15",
+        "title": "GitHub Copilot Instructions Files: Der Game-Changer für automatisierte Code Reviews",
+        "description": "Erfahre, wie du mit GitHub Copilot Instructions Files deine Code Reviews automatisierst und bis zu 70% Zeit sparst – inkl. praktischer Beispiele und Templates",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2025-11-15-github-copilot-instructions-files-der-game-changer-fuer-automatisierte-code-reviews/",
+        "slug": "2025-11-15-github-copilot-instructions-files-der-game-changer-fuer-automatisierte-code-reviews"
+      },
+      {
+        "filename": "2025-11-15-gpt-5-1-adaptive-reasoning-revolutioniert-ai-workflows",
+        "date": "2025-11-15",
+        "title": "GPT-5.1: Adaptive Reasoning revolutioniert AI-Workflows",
+        "description": "OpenAI launcht GPT-5.1 mit adaptivem Reasoning - bis zu 80% weniger Tokens bei komplexen Automatisierungen und nahtlose Tool-Integration",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2025-11-15-gpt-5-1-adaptive-reasoning-revolutioniert-ai-workflows/",
+        "slug": "2025-11-15-gpt-5-1-adaptive-reasoning-revolutioniert-ai-workflows"
+      }
+    ]
+  },
+  "references": [
+    {
+      "title": "Claude Code: Browser-Extensions in Minuten bauen - ohne klassisches Coding",
+      "url": "/blog/2025-11-18-claude-code-browser-extensions-in-minuten-bauen-ohne-klassisches-coding/",
+      "description": "Erfahre wie Claude Code die Entwicklung von Browser-Extensions revolutioniert - von der Idee zur fertigen Chrome Extension in weniger als 30 Minuten durch agentische KI",
+      "date": "2025-11-18",
+      "category": "AI-Automation",
+      "suggestedSection": "quickies"
+    },
+    {
+      "title": "Claude Haiku 4.5: 3x günstiger, 2x schneller - Die neue Ära kosteneffizienter KI-Automation",
+      "url": "/blog/2025-11-18-claude-haiku-4-5-3x-guenstiger-2x-schneller-die-neue-aera-kosteneffizienter-ki-automation/",
+      "description": "Claude Haiku 4.5 revolutioniert KI-Automation: 73% von Sonnet-Performance bei 1/3 der Kosten. Perfekt für Echtzeit-Chatbots und Multi-Agent-Workflows.",
+      "date": "2025-11-18",
+      "category": "AI-Automation",
+      "suggestedSection": "quickies"
+    },
+    {
+      "title": "Claude Memory: Game-Changer für persistente AI-Workflows",
+      "url": "/blog/2025-11-18-claude-memory-game-changer-fuer-persistente-ai-workflows/",
+      "description": "Claude erhält echte Memory-Funktion für Pro und Max User - projektspezifische Kontextspeicherung revolutioniert Automation-Workflows",
+      "date": "2025-11-18",
+      "category": "AI-Automation",
+      "suggestedSection": "quickies"
+    },
+    {
+      "title": "GitHub Copilot Custom Model: 20% mehr produktiver coden",
+      "url": "/blog/2025-11-18-github-copilot-custom-model/",
+      "description": "Neues Custom Model für GitHub Copilot bringt 20% mehr akzeptierte Code-Vorschläge, 3x höhere Performance und maßgeschneiderte Automatisierung",
+      "date": "2025-11-18",
+      "category": "General",
+      "suggestedSection": "quickies"
+    },
+    {
+      "title": "GitHub MCP Registry: Die zentrale Anlaufstelle für KI-Tool-Integration",
+      "url": "/blog/2025-11-18-github-mcp-registry-die-zentrale-anlaufstelle-fuer-ki-tool-integration/",
+      "description": "Das neue GitHub MCP Registry revolutioniert die Integration von KI-Tools in Automatisierungs-Workflows. Zeitersparnis von bis zu 90% bei der Tool-Discovery.",
+      "date": "2025-11-18",
+      "category": "Tools & Frameworks",
+      "suggestedSection": "tools_section"
+    },
+    {
+      "title": "Google Project Jarvis: Der AI-Agent der Web-Aufgaben autonom erledigt",
+      "url": "/blog/2025-11-18-google-project-jarvis-der-ai-agent-der-web-aufgaben-autonom-erledigt/",
+      "description": "Google entwickelt mit Project Jarvis einen Chrome-basierten AI-Agenten, der Webaufgaben wie Shopping, Buchungen und Formulare vollautomatisch durchführt.",
+      "date": "2025-11-18",
+      "category": "AI-Automation",
+      "suggestedSection": "top_story"
+    },
+    {
+      "title": "ChatGPT Shared Projects: KI-Kollaboration für Automation Teams",
+      "url": "/blog/2025-11-18-openai-shared-projects/",
+      "description": "OpenAI macht ChatGPT teamfähig: Shared Projects bringen gemeinsame Workspaces, geteilten Kontext und smartes Project Memory für effiziente AI-Workflows",
+      "date": "2025-11-18",
+      "category": "AI-Automation",
+      "suggestedSection": "top_story"
+    },
+    {
+      "title": "GitHub Copilot CLI: AI-powered Automation jetzt im Terminal",
+      "url": "/blog/2025-11-17-github-copilot-cli-ai-powered-automation-jetzt-im-terminal/",
+      "description": "GitHub Copilot CLI im Public Preview - AI-Agent für Terminal-Workflows, GitHub Integration und automatisierte Coding Tasks",
+      "date": "2025-11-17",
+      "category": "AI-Automation",
+      "suggestedSection": "quickies"
+    },
+    {
+      "title": "GitHub Copilot trifft Azure Boards: KI-gesteuerte Task-Automatisierung",
+      "url": "/blog/2025-11-17-github-copilot-trifft-azure-boards-ki-gesteuerte-task-automatisierung/",
+      "description": "GitHub Copilot kann jetzt Azure Boards Work Items automatisch in Code umsetzen. Die neue Integration spart Teams bis zu 40% Zeit bei Routine-Tasks.",
+      "date": "2025-11-17",
+      "category": "General",
+      "suggestedSection": "quickies"
+    },
+    {
+      "title": "GitHub Spark: KI-gesteuerte Full-Stack App-Entwicklung für Automatisierungs-Workflows",
+      "url": "/blog/2025-11-17-github-spark-ki-gesteuerte-full-stack-app-entwicklung-fuer-automatisierungs-workflows/",
+      "description": "GitHub Spark in Public Preview - Erstelle Automatisierungs-Apps mit natürlicher Sprache. Integration mit Copilot Enterprise für AI-Workflows.",
+      "date": "2025-11-17",
+      "category": "General",
+      "suggestedSection": "quickies"
+    },
+    {
+      "title": "n8n Guardrails: Die neue Sicherheitsschicht für KI-Automatisierung",
+      "url": "/blog/2025-11-17-n8n-guardrails-die-neue-sicherheitsschicht-fuer-ki-automatisierung/",
+      "description": "n8n führt Guardrails Node ein - automatische Sicherheitsprüfungen, PII-Schutz und Jailbreak-Erkennung für AI-Workflows. Jetzt produktionsreif einsetzen!",
+      "date": "2025-11-17",
+      "category": "General",
+      "suggestedSection": "quickies"
+    },
+    {
+      "title": "Ollama: Das Open-Source Framework für private AI-Automation ohne Cloud-Abhängigkeit",
+      "url": "/blog/2025-11-17-ollama-das-open-source-framework-fuer-private-ai-automation-ohne-cloud-abhaengigkeit/",
+      "description": "Ollama ermöglicht lokale LLM-Deployment mit vollständiger Datenkontrolle. Integration in n8n, Make & Zapier für GDPR-konforme AI-Workflows.",
+      "date": "2025-11-17",
+      "category": "AI-Automation",
+      "suggestedSection": "tools_section"
+    },
+    {
+      "title": "OpenAI enttarnt China-Surveillance-Tool: Kritischer Sicherheits-Report für AI-Automatisierung",
+      "url": "/blog/2025-11-17-openai-sicherheitsreport/",
+      "description": "OpenAI deckt im Februar 2025 Report massive KI-Missbrauchsfälle auf - von China-Überwachung bis Malware. Konkrete Sicherheitsmaßnahmen für n8n, Make & Zapier.",
+      "date": "2025-11-17",
+      "category": "Tools & Frameworks",
+      "suggestedSection": "top_story"
+    },
+    {
+      "title": "Vercel AI SDK: Der Game-Changer für KI-Integration in Web-Apps",
+      "url": "/blog/2025-11-17-vercel-ai-sdk-der-game-changer-fuer-ki-integration-in-web-apps/",
+      "description": "Das Vercel AI SDK revolutioniert die KI-Integration mit Echtzeit-Streaming, Multi-Provider-Support und automatischer Edge-Optimierung. Perfekt für Automation-Engineers.",
+      "date": "2025-11-17",
+      "category": "AI-Automation",
+      "suggestedSection": "quickies"
+    },
+    {
+      "title": "Baidu revolutioniert KI-Automatisierung: ERNIE-4.5-VL als Open-Source Alternative zu GPT-5",
+      "url": "/blog/2025-11-15-baidu-revolutioniert-ki-automatisierung-ernie-4-5-vl-als-open-source-alternative-zu-gpt-5/",
+      "description": "ERNIE-4.5-VL-28B-A3B-Thinking bietet multimodale KI mit nur 3B aktiven Parametern - Open Source, Apache 2.0, ideal für Automatisierungs-Workflows",
+      "date": "2025-11-15",
+      "category": "General",
+      "suggestedSection": "quickies"
+    },
+    {
+      "title": "GitHub Copilot Instructions Files: Der Game-Changer für automatisierte Code Reviews",
+      "url": "/blog/2025-11-15-github-copilot-instructions-files-der-game-changer-fuer-automatisierte-code-reviews/",
+      "description": "Erfahre, wie du mit GitHub Copilot Instructions Files deine Code Reviews automatisierst und bis zu 70% Zeit sparst – inkl. praktischer Beispiele und Templates",
+      "date": "2025-11-15",
+      "category": "General",
+      "suggestedSection": "quickies"
+    },
+    {
+      "title": "GPT-5.1: Adaptive Reasoning revolutioniert AI-Workflows",
+      "url": "/blog/2025-11-15-gpt-5-1-adaptive-reasoning-revolutioniert-ai-workflows/",
+      "description": "OpenAI launcht GPT-5.1 mit adaptivem Reasoning - bis zu 80% weniger Tokens bei komplexen Automatisierungen und nahtlose Tool-Integration",
+      "date": "2025-11-15",
+      "category": "Tools & Frameworks",
+      "suggestedSection": "top_story"
+    }
+  ],
+  "rawArticles": [
+    {
+      "filename": "2025-11-18-claude-code-browser-extensions-in-minuten-bauen-ohne-klassisches-coding",
+      "date": "2025-11-18",
+      "title": "Claude Code: Browser-Extensions in Minuten bauen - ohne klassisches Coding",
+      "description": "Erfahre wie Claude Code die Entwicklung von Browser-Extensions revolutioniert - von der Idee zur fertigen Chrome Extension in weniger als 30 Minuten durch agentische KI",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2025-11-18-claude-code-browser-extensions-in-minuten-bauen-ohne-klassisches-coding/",
+      "slug": "2025-11-18-claude-code-browser-extensions-in-minuten-bauen-ohne-klassisches-coding"
+    },
+    {
+      "filename": "2025-11-18-claude-haiku-4-5-3x-guenstiger-2x-schneller-die-neue-aera-kosteneffizienter-ki-automation",
+      "date": "2025-11-18",
+      "title": "Claude Haiku 4.5: 3x günstiger, 2x schneller - Die neue Ära kosteneffizienter KI-Automation",
+      "description": "Claude Haiku 4.5 revolutioniert KI-Automation: 73% von Sonnet-Performance bei 1/3 der Kosten. Perfekt für Echtzeit-Chatbots und Multi-Agent-Workflows.",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2025-11-18-claude-haiku-4-5-3x-guenstiger-2x-schneller-die-neue-aera-kosteneffizienter-ki-automation/",
+      "slug": "2025-11-18-claude-haiku-4-5-3x-guenstiger-2x-schneller-die-neue-aera-kosteneffizienter-ki-automation"
+    },
+    {
+      "filename": "2025-11-18-claude-memory-game-changer-fuer-persistente-ai-workflows",
+      "date": "2025-11-18",
+      "title": "Claude Memory: Game-Changer für persistente AI-Workflows",
+      "description": "Claude erhält echte Memory-Funktion für Pro und Max User - projektspezifische Kontextspeicherung revolutioniert Automation-Workflows",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2025-11-18-claude-memory-game-changer-fuer-persistente-ai-workflows/",
+      "slug": "2025-11-18-claude-memory-game-changer-fuer-persistente-ai-workflows"
+    },
+    {
+      "filename": "2025-11-18-github-copilot-custom-model",
+      "date": "2025-11-18",
+      "title": "GitHub Copilot Custom Model: 20% mehr produktiver coden",
+      "description": "Neues Custom Model für GitHub Copilot bringt 20% mehr akzeptierte Code-Vorschläge, 3x höhere Performance und maßgeschneiderte Automatisierung",
+      "category": "Technology",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "5 min read",
+      "url": "/blog/2025-11-18-github-copilot-custom-model/",
+      "slug": "2025-11-18-github-copilot-custom-model"
+    },
+    {
+      "filename": "2025-11-18-github-mcp-registry-die-zentrale-anlaufstelle-fuer-ki-tool-integration",
+      "date": "2025-11-18",
+      "title": "GitHub MCP Registry: Die zentrale Anlaufstelle für KI-Tool-Integration",
+      "description": "Das neue GitHub MCP Registry revolutioniert die Integration von KI-Tools in Automatisierungs-Workflows. Zeitersparnis von bis zu 90% bei der Tool-Discovery.",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2025-11-18-github-mcp-registry-die-zentrale-anlaufstelle-fuer-ki-tool-integration/",
+      "slug": "2025-11-18-github-mcp-registry-die-zentrale-anlaufstelle-fuer-ki-tool-integration"
+    },
+    {
+      "filename": "2025-11-18-google-project-jarvis-der-ai-agent-der-web-aufgaben-autonom-erledigt",
+      "date": "2025-11-18",
+      "title": "Google Project Jarvis: Der AI-Agent der Web-Aufgaben autonom erledigt",
+      "description": "Google entwickelt mit Project Jarvis einen Chrome-basierten AI-Agenten, der Webaufgaben wie Shopping, Buchungen und Formulare vollautomatisch durchführt.",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2025-11-18-google-project-jarvis-der-ai-agent-der-web-aufgaben-autonom-erledigt/",
+      "slug": "2025-11-18-google-project-jarvis-der-ai-agent-der-web-aufgaben-autonom-erledigt"
+    },
+    {
+      "filename": "2025-11-18-openai-shared-projects",
+      "date": "2025-11-18",
+      "title": "ChatGPT Shared Projects: KI-Kollaboration für Automation Teams",
+      "description": "OpenAI macht ChatGPT teamfähig: Shared Projects bringen gemeinsame Workspaces, geteilten Kontext und smartes Project Memory für effiziente AI-Workflows",
+      "category": "Technology",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "5 min read",
+      "url": "/blog/2025-11-18-openai-shared-projects/",
+      "slug": "2025-11-18-openai-shared-projects"
+    },
+    {
+      "filename": "2025-11-17-github-copilot-cli-ai-powered-automation-jetzt-im-terminal",
+      "date": "2025-11-17",
+      "title": "GitHub Copilot CLI: AI-powered Automation jetzt im Terminal",
+      "description": "GitHub Copilot CLI im Public Preview - AI-Agent für Terminal-Workflows, GitHub Integration und automatisierte Coding Tasks",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "5 min read",
+      "url": "/blog/2025-11-17-github-copilot-cli-ai-powered-automation-jetzt-im-terminal/",
+      "slug": "2025-11-17-github-copilot-cli-ai-powered-automation-jetzt-im-terminal"
+    },
+    {
+      "filename": "2025-11-17-github-copilot-trifft-azure-boards-ki-gesteuerte-task-automatisierung",
+      "date": "2025-11-17",
+      "title": "GitHub Copilot trifft Azure Boards: KI-gesteuerte Task-Automatisierung",
+      "description": "GitHub Copilot kann jetzt Azure Boards Work Items automatisch in Code umsetzen. Die neue Integration spart Teams bis zu 40% Zeit bei Routine-Tasks.",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "5 min read",
+      "url": "/blog/2025-11-17-github-copilot-trifft-azure-boards-ki-gesteuerte-task-automatisierung/",
+      "slug": "2025-11-17-github-copilot-trifft-azure-boards-ki-gesteuerte-task-automatisierung"
+    },
+    {
+      "filename": "2025-11-17-github-spark-ki-gesteuerte-full-stack-app-entwicklung-fuer-automatisierungs-workflows",
+      "date": "2025-11-17",
+      "title": "GitHub Spark: KI-gesteuerte Full-Stack App-Entwicklung für Automatisierungs-Workflows",
+      "description": "GitHub Spark in Public Preview - Erstelle Automatisierungs-Apps mit natürlicher Sprache. Integration mit Copilot Enterprise für AI-Workflows.",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2025-11-17-github-spark-ki-gesteuerte-full-stack-app-entwicklung-fuer-automatisierungs-workflows/",
+      "slug": "2025-11-17-github-spark-ki-gesteuerte-full-stack-app-entwicklung-fuer-automatisierungs-workflows"
+    },
+    {
+      "filename": "2025-11-17-n8n-guardrails-die-neue-sicherheitsschicht-fuer-ki-automatisierung",
+      "date": "2025-11-17",
+      "title": "n8n Guardrails: Die neue Sicherheitsschicht für KI-Automatisierung",
+      "description": "n8n führt Guardrails Node ein - automatische Sicherheitsprüfungen, PII-Schutz und Jailbreak-Erkennung für AI-Workflows. Jetzt produktionsreif einsetzen!",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "5 min read",
+      "url": "/blog/2025-11-17-n8n-guardrails-die-neue-sicherheitsschicht-fuer-ki-automatisierung/",
+      "slug": "2025-11-17-n8n-guardrails-die-neue-sicherheitsschicht-fuer-ki-automatisierung"
+    },
+    {
+      "filename": "2025-11-17-ollama-das-open-source-framework-fuer-private-ai-automation-ohne-cloud-abhaengigkeit",
+      "date": "2025-11-17",
+      "title": "Ollama: Das Open-Source Framework für private AI-Automation ohne Cloud-Abhängigkeit",
+      "description": "Ollama ermöglicht lokale LLM-Deployment mit vollständiger Datenkontrolle. Integration in n8n, Make & Zapier für GDPR-konforme AI-Workflows.",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2025-11-17-ollama-das-open-source-framework-fuer-private-ai-automation-ohne-cloud-abhaengigkeit/",
+      "slug": "2025-11-17-ollama-das-open-source-framework-fuer-private-ai-automation-ohne-cloud-abhaengigkeit"
+    },
+    {
+      "filename": "2025-11-17-openai-sicherheitsreport",
+      "date": "2025-11-17",
+      "title": "OpenAI enttarnt China-Surveillance-Tool: Kritischer Sicherheits-Report für AI-Automatisierung",
+      "description": "OpenAI deckt im Februar 2025 Report massive KI-Missbrauchsfälle auf - von China-Überwachung bis Malware. Konkrete Sicherheitsmaßnahmen für n8n, Make & Zapier.",
+      "category": "Technology",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "5 min read",
+      "url": "/blog/2025-11-17-openai-sicherheitsreport/",
+      "slug": "2025-11-17-openai-sicherheitsreport"
+    },
+    {
+      "filename": "2025-11-17-vercel-ai-sdk-der-game-changer-fuer-ki-integration-in-web-apps",
+      "date": "2025-11-17",
+      "title": "Vercel AI SDK: Der Game-Changer für KI-Integration in Web-Apps",
+      "description": "Das Vercel AI SDK revolutioniert die KI-Integration mit Echtzeit-Streaming, Multi-Provider-Support und automatischer Edge-Optimierung. Perfekt für Automation-Engineers.",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2025-11-17-vercel-ai-sdk-der-game-changer-fuer-ki-integration-in-web-apps/",
+      "slug": "2025-11-17-vercel-ai-sdk-der-game-changer-fuer-ki-integration-in-web-apps"
+    },
+    {
+      "filename": "2025-11-15-baidu-revolutioniert-ki-automatisierung-ernie-4-5-vl-als-open-source-alternative-zu-gpt-5",
+      "date": "2025-11-15",
+      "title": "Baidu revolutioniert KI-Automatisierung: ERNIE-4.5-VL als Open-Source Alternative zu GPT-5",
+      "description": "ERNIE-4.5-VL-28B-A3B-Thinking bietet multimodale KI mit nur 3B aktiven Parametern - Open Source, Apache 2.0, ideal für Automatisierungs-Workflows",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2025-11-15-baidu-revolutioniert-ki-automatisierung-ernie-4-5-vl-als-open-source-alternative-zu-gpt-5/",
+      "slug": "2025-11-15-baidu-revolutioniert-ki-automatisierung-ernie-4-5-vl-als-open-source-alternative-zu-gpt-5"
+    },
+    {
+      "filename": "2025-11-15-github-copilot-instructions-files-der-game-changer-fuer-automatisierte-code-reviews",
+      "date": "2025-11-15",
+      "title": "GitHub Copilot Instructions Files: Der Game-Changer für automatisierte Code Reviews",
+      "description": "Erfahre, wie du mit GitHub Copilot Instructions Files deine Code Reviews automatisierst und bis zu 70% Zeit sparst – inkl. praktischer Beispiele und Templates",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2025-11-15-github-copilot-instructions-files-der-game-changer-fuer-automatisierte-code-reviews/",
+      "slug": "2025-11-15-github-copilot-instructions-files-der-game-changer-fuer-automatisierte-code-reviews"
+    },
+    {
+      "filename": "2025-11-15-gpt-5-1-adaptive-reasoning-revolutioniert-ai-workflows",
+      "date": "2025-11-15",
+      "title": "GPT-5.1: Adaptive Reasoning revolutioniert AI-Workflows",
+      "description": "OpenAI launcht GPT-5.1 mit adaptivem Reasoning - bis zu 80% weniger Tokens bei komplexen Automatisierungen und nahtlose Tool-Integration",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2025-11-15-gpt-5-1-adaptive-reasoning-revolutioniert-ai-workflows/",
+      "slug": "2025-11-15-gpt-5-1-adaptive-reasoning-revolutioniert-ai-workflows"
+    }
+  ]
+}
