@@ -89,20 +89,7 @@ const geminiResponse = await $http.request({
   }
 });
 ```
-## ROI und Business-Impact in Zahlen
-Erste Unternehmenskunden berichten beeindruckende Ergebnisse:
-### Deutsche Bank: Due Diligence Automation
-- **Vorher**: 4 Stunden manuelle Dokumentenprüfung
-- **Mit Gemini 3.0**: 15 Minuten automatisierte Analyse
-- **ROI**: 93% Zeitersparnis, 250.000€ Kosteneinsparung/Jahr
-### Siemens: Technische Dokumentation
-- **Vorher**: 2 Tage für Handbuch-Updates
-- **Mit Gemini 3.0**: 2 Stunden End-to-End
-- **ROI**: 40% weniger Personalkosten, 60% schnellere Time-to-Market
-### Lufthansa: Customer Service Automation
-- **Vorher**: 24h durchschnittliche Antwortzeit
-- **Mit Gemini 3.0**: 5 Minuten für 80% der Anfragen
-- **ROI**: 30% weniger Support-Mitarbeiter benötigt
+
 ## Praktische Nächste Schritte
 ### 1. Gemini 3.0 testen (kostenlos)
 - AI Studio Account erstellen: [aistudio.google.com](https://aistudio.google.com)
