@@ -106,7 +106,7 @@ Für Automatisierungs-Praktiker bedeutet das: Es ist Zeit, SAP-Workflows neu zu 
 - 📰 [Original-Artikel n-tv](https://www.n-tv.de)
 - 📚 [DSAG Positionspapier SAP-KI-Strategie](https://impulsant-dsag.de/wp-content/uploads/2024/10/20241004_Positionspapier_SAP-KI-Strategie.pdf)
 - 🔧 [SAP Signavio November 2024 Release Notes](https://community.sap.com/t5/technology-blog-posts-by-sap/out-now-sap-signavio-november-2024-release/ba-p/13927958)
-- 🎓 [AI & Automation Workshops auf workshops.de](https://workshops.de)
+- 🎓 [AI & Automation Workshops auf workshops.de](https://workshops.de?utm_source=blog&utm_medium=referral&utm_campaign=article_referral&utm_content=sap-joule-ki-agenten-revolutionieren-enterprise-automation-ohne-stellenabbau)
 ---
 *Recherchiert mit: Perplexity AI | Stand: 14.11.2024*
 ---

@@ -346,7 +346,7 @@ Die erweiterte JSON Schema Unterstützung in der Gemini API ist ein Game-Changer
 
 - 💻 [TypeScript SDK mit Zod Integration](https://github.com/google/generative-ai-js)
 
-- 🎓 [AI Automation Workshop auf workshops.de](https://workshops.de/ki)
+- 🎓 [AI Automation Workshop auf workshops.de](https://workshops.de?utm_source=blog&utm_medium=referral&utm_campaign=article_referral&utm_content=gemini-api-structured-outputs-mit-erweitertem-json-schema-native-pydantic-zod-integration-fuer-ai-agents)
 
 ---
 *Recherchiert mit: Perplexity AI | Stand: 2025-11-10*

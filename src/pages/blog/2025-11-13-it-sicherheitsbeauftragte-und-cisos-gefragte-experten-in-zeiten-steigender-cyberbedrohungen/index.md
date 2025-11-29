@@ -107,7 +107,7 @@ In der Praxis zeigt sich: Unternehmen mit qualifizierten IT-Sicherheitsbeauftrag
 
 - 📚 [Bitkom Studie Wirtschaftsschutz 2025](https://www.bitkom.org/Bitkom/Publikationen/Studie-Wirtschaftsschutz)
 
-- 🎓 [Weitere IT-Security Workshops auf workshops.de](https://workshops.de/ki)
+- 🎓 [Weitere IT-Security Workshops auf workshops.de](https://workshops.de?utm_source=blog&utm_medium=referral&utm_campaign=article_referral&utm_content=it-sicherheitsbeauftragte-und-cisos-gefragte-experten-in-zeiten-steigender-cyberbedrohungen)
 
 ---
 *Recherchiert mit: Perplexity AI | Stand: 22.10.2025*

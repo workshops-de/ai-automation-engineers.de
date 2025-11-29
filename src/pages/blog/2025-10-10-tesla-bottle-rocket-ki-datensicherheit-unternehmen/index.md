@@ -254,7 +254,7 @@ Wir bei AI Automation Engineers haben bereits dutzende Unternehmen bei der Imple
 - Individuelle Strategie-Entwicklung
 - Best Practices aus 50+ Projekten
 
-[Jetzt Workshop buchen auf workshops.de/ki](https://workshops.de/ki)
+[Jetzt Workshop buchen](https://workshops.de?utm_source=blog&utm_medium=referral&utm_campaign=article_referral&utm_content=tesla-bottle-rocket-ki-datensicherheit-unternehmen)
 
 Die Zukunft der Unternehmens-KI ist privat, sicher und selbstbestimmt. Tesla hat's vorgemacht – jetzt bist du dran! 🚀
 
