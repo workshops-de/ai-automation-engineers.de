@@ -1,17 +1,5 @@
 ---
 layout: '../../../layouts/BlogLayout.astro'
-title: 'METADATA BLOCK'
-description: 'METADATA BLOCK'
-pubDate: '2025-11-29'
-author: 'Robin Böhm'
-tags: ['AI', 'Automation', 'Technology']
-category: 'Technology'
-readTime: '5 min read'
-image: 'https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
----
-
----
-layout: '../../../layouts/BlogLayout.astro'
 title: 'OpenAI öffnet KI-Modelle für externe Sicherheitstests: Was bedeutet das für Automation Engineers?'
 description: 'OpenAI führt externe Safety-Audits ein. Erfahre, wie das Preparedness Framework v2 deine KI-Automatisierungen sicherer und effizienter macht.'
 pubDate: '2025-11-29'
@@ -19,12 +7,12 @@ author: 'Robin Böhm'
 tags: ['AI-Safety', 'OpenAI', 'Automation', 'Testing', 'Preparedness-Framework']
 category: 'News'
 readTime: '6 min read'
-image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995'
+image: 'https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 source: 'https://openai.com/index/strengthening-safety-with-external-testing/'
 portal: 'AI-AUTOMATION-ENGINEERS.DE'
 spreadsheetRow: '167'
 ---
-# OpenAI öffnet KI-Modelle für externe Sicherheitstests: Was bedeutet das für Automation Engineers?
+
 **TL;DR:** OpenAI führt externe Sicherheitstests für seine Frontier-Modelle ein. Das Preparedness Framework v2 bringt messbare Safety-Scores, externe Audits und neue Governance-Strukturen. Für Automation Engineers bedeutet das sicherere KI-Integration, bessere Compliance und konkrete ROI-Vorteile durch reduzierte Risiken.
 OpenAI macht einen bedeutenden Schritt in Richtung transparenterer KI-Sicherheit: Das Unternehmen öffnet seine fortschrittlichsten Modelle für externe, unabhängige Sicherheitstests durch qualifizierte Labs und Organisationen. Diese Initiative, Teil des aktualisierten Preparedness Framework v2, verspricht nicht nur mehr Vertrauen in KI-Systeme, sondern auch konkrete Vorteile für Automation Engineers und Unternehmen, die KI in ihre Workflows integrieren.
 ## Die wichtigsten Punkte
