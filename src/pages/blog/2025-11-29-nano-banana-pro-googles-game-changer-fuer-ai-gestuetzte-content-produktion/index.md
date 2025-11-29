@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI-Automation', 'Bildgenerierung', 'Google', 'Workflow-Automatisierung', 'Gemini']
 category: 'News'
 readTime: '6 min read'
-image: 'https://images.pexels.com/photos/8438918/pexels-photo-8438918.jpeg'
+image: 'https://images.unsplash.com/photo-1635070041078-e363dbe005cb'
 source: 'https://blog.google/technology/ai/nano-banana-pro/'
 portal: 'ai-automation-engineers.de'
 spreadsheetRow: '147'

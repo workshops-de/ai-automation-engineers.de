@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI-Automation', 'Google Gemini', 'LLM', 'Enterprise AI', 'Workflow Automation']
 category: 'News'
 readTime: '7 min read'
-image: 'https://images.unsplash.com/photo-1518709268805-4e9042af2176'
+image: 'https://images.unsplash.com/photo-1485827404703-89b55fcc595e'
 source: 'https://blog.google/intl/de-de/unternehmen/technologie/gemini-3-0-launch/'
 portal: 'AI-AUTOMATION-ENGINEERS.DE'
 spreadsheetRow: '131'
