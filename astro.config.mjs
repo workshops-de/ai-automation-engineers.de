@@ -18,8 +18,13 @@ export default defineConfig({
       lastmod: new Date(),
       
       serialize: (item) => {
+        // Highest priority for main blog page - most important landing page
+        if (item.url.endsWith('/blog/')) {
+          item.priority = 1.0;
+          item.changefreq = 'daily';
+        }
         // Higher priority for blog posts
-        if (item.url.includes('/blog')) {
+        else if (item.url.includes('/blog')) {
           item.priority = 0.8;
           item.changefreq = 'monthly';
         }
