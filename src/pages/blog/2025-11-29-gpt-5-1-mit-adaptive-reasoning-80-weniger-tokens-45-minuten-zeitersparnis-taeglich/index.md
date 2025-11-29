@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI-AUTOMATION-ENGINEERS', 'GPT-5.1', 'OpenAI', 'Adaptive-Reasoning', 'Workflow-Automation']
 category: 'News'
 readTime: '6 min read'
-image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995'
+image: 'https://images.unsplash.com/photo-1620712943543-bcc4688e7485'
 source: 'https://platform.openai.com/docs/models/gpt-5-1'
 portal: 'ai-automation-engineers.de'
 spreadsheetRow: '148'

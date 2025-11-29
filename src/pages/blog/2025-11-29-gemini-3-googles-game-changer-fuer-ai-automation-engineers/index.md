@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI-Automation', 'Google Gemini', 'LLM', 'Workflow-Automation', 'Multimodal AI']
 category: 'News'
 readTime: '6 min read'
-image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995'
+image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa'
 source: 'https://blog.google/products/gemini/gemini-3/'
 portal: 'ai-automation-engineers.de'
 spreadsheetRow: '146'

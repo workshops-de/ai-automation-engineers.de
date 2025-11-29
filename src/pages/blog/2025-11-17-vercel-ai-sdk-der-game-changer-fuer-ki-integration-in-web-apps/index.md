@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI-SDK', 'Automation', 'TypeScript', 'Vercel', 'KI-Integration']
 category: 'News'
 readTime: '6 min read'
-image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995'
+image: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6'
 source: 'https://ai-sdk.dev/docs/introduction'
 portal: 'ai-automation-engineers.de'
 spreadsheetRow: '29'
