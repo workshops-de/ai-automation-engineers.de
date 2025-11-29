@@ -27,10 +27,12 @@ Der wahre Game-Changer für Automation-Profis liegt in den agentischen Fähigkei
 - Eigenständige Ausführung mehrstufiger Prozesse
 - Intelligente Tool-Selection und -Nutzung
 - Self-Correction bei Fehlern im Workflow
+
 **2. Multimodale Verarbeitung im Workflow**
 - PDF → strukturierte Daten → Video-Report in einem Durchgang
 - Handschriftliche Notizen → Datenbank-Entries
 - Screenshot → Code-Generierung → Deployment
+
 **3. Das 1-Million-Token-Monster**
 - Verarbeitung von 100+ PDF-Seiten gleichzeitig
 - Komplette Codebases als Kontext
