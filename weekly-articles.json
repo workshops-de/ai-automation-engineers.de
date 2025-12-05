@@ -1,0 +1,532 @@
+{
+  "generated": "2025-12-05T08:33:47.013Z",
+  "summary": {
+    "total": 10,
+    "dateRange": {
+      "start": "2025-11-28",
+      "end": "2025-12-05",
+      "startObj": "2025-11-28T08:33:47.013Z",
+      "endObj": "2025-12-05T08:33:47.013Z"
+    },
+    "categories": {
+      "AI-Automation": {
+        "count": 9,
+        "articles": [
+          {
+            "filename": "2025-11-29-cursor-2-0-4x-schnelleres-ai-coding-mit-composer-und-multi-agent-system",
+            "date": "2025-11-29",
+            "title": "Cursor 2.0: 4x schnelleres AI-Coding mit Composer und Multi-Agent-System",
+            "description": "Cursor revolutioniert AI-Coding mit dem neuen Composer Model - 4x schneller, Multi-Agent-Workflow und integriertem Browser. So sparen Entwickler bis zu 75% Zeit.",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2025-11-29-cursor-2-0-4x-schnelleres-ai-coding-mit-composer-und-multi-agent-system/",
+            "slug": "2025-11-29-cursor-2-0-4x-schnelleres-ai-coding-mit-composer-und-multi-agent-system"
+          },
+          {
+            "filename": "2025-11-29-gemini-3-0-google-definiert-ai-automation-neu-mit-2m-token-und-generative-ui",
+            "date": "2025-11-29",
+            "title": "Gemini 3.0: Google definiert AI-Automation neu mit 2M Token und Generative UI",
+            "description": "Google Gemini 3.0 revolutioniert Workflow-Automation mit 2M Token-Fenster, autonomen Agenten und dynamischen UIs. Bis zu 40% Zeitersparnis in Enterprise-Workflows.",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "7 min read",
+            "url": "/blog/2025-11-29-gemini-3-0-google-definiert-ai-automation-neu-mit-2m-token-und-generative-ui/",
+            "slug": "2025-11-29-gemini-3-0-google-definiert-ai-automation-neu-mit-2m-token-und-generative-ui"
+          },
+          {
+            "filename": "2025-11-29-google-beerdigt-assistant-gemini-llm-uebernimmt-die-macht",
+            "date": "2025-11-29",
+            "title": "Google beerdigt Assistant: Gemini LLM übernimmt die Macht",
+            "description": "Google ersetzt Assistant durch Gemini - die größte AI-Migration der Mobilgeschichte. Was bedeutet das für Automatisierungs-Workflows?",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2025-11-29-google-beerdigt-assistant-gemini-llm-uebernimmt-die-macht/",
+            "slug": "2025-11-29-google-beerdigt-assistant-gemini-llm-uebernimmt-die-macht"
+          },
+          {
+            "filename": "2025-11-29-gpt-5-1-mit-adaptive-reasoning-80-weniger-tokens-45-minuten-zeitersparnis-taeglich",
+            "date": "2025-11-29",
+            "title": "GPT-5.1 mit Adaptive Reasoning: 80% weniger Tokens, 45 Minuten Zeitersparnis täglich",
+            "description": "OpenAI launcht GPT-5.1 mit revolutionärem Adaptive Reasoning. Für Automation Engineers bedeutet das: dynamische Ressourcennutzung, nahtlose Tool-Integration und massive Kosteneinsparungen.",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2025-11-29-gpt-5-1-mit-adaptive-reasoning-80-weniger-tokens-45-minuten-zeitersparnis-taeglich/",
+            "slug": "2025-11-29-gpt-5-1-mit-adaptive-reasoning-80-weniger-tokens-45-minuten-zeitersparnis-taeglich"
+          },
+          {
+            "filename": "2025-11-29-nano-banana-pro-googles-game-changer-fuer-ai-gestuetzte-content-produktion",
+            "date": "2025-11-29",
+            "title": "Nano Banana Pro: Googles Game-Changer für AI-gestützte Content-Produktion",
+            "description": "Google revolutioniert mit Nano Banana Pro die KI-Bildgenerierung: Perfektes Text-Rendering, 4K-Auflösung und Echtzeit-Daten-Integration für Automatisierungs-Workflows",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2025-11-29-nano-banana-pro-googles-game-changer-fuer-ai-gestuetzte-content-produktion/",
+            "slug": "2025-11-29-nano-banana-pro-googles-game-changer-fuer-ai-gestuetzte-content-produktion"
+          },
+          {
+            "filename": "2025-11-29-openai-externe-safety-audits",
+            "date": "2025-11-29",
+            "title": "OpenAI öffnet KI-Modelle für externe Sicherheitstests: Was bedeutet das für Automation Engineers?",
+            "description": "OpenAI führt externe Safety-Audits ein. Erfahre, wie das Preparedness Framework v2 deine KI-Automatisierungen sicherer und effizienter macht.",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2025-11-29-openai-externe-safety-audits/",
+            "slug": "2025-11-29-openai-externe-safety-audits"
+          },
+          {
+            "filename": "2025-11-29-python-bleibt-die-sprache-der-ai-automation-guido-van-rossum-ueber-readability-und-die-zukunft",
+            "date": "2025-11-29",
+            "title": "Python bleibt die Sprache der AI-Automation: Guido van Rossum über Readability und die Zukunft",
+            "description": "Der Python-Erfinder erklärt, warum seine Sprache trotz AI-Revolution menschenzentriert bleibt und wie das Automation-Engineers konkret hilft",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "5 min read",
+            "url": "/blog/2025-11-29-python-bleibt-die-sprache-der-ai-automation-guido-van-rossum-ueber-readability-und-die-zukunft/",
+            "slug": "2025-11-29-python-bleibt-die-sprache-der-ai-automation-guido-van-rossum-ueber-readability-und-die-zukunft"
+          },
+          {
+            "filename": "2025-11-29-swissmademarketing-business-validator-ki-orchestrierung-ohne-medienbrueche",
+            "date": "2025-11-29",
+            "title": "SwissMadeMarketing Business Validator: KI-Orchestrierung ohne Medienbrüche",
+            "description": "Neuer AI-Orchestrator vereint Marketing-Tools mit Kontext-Erhaltung - automatisierte Workflows von der Geschäftsidee bis zur Kampagne",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2025-11-29-swissmademarketing-business-validator-ki-orchestrierung-ohne-medienbrueche/",
+            "slug": "2025-11-29-swissmademarketing-business-validator-ki-orchestrierung-ohne-medienbrueche"
+          },
+          {
+            "filename": "2025-11-29-taxfix-fuehrt-ki-pflicht-ein-90-marketing-automation-erreicht",
+            "date": "2025-11-29",
+            "title": "Taxfix führt KI-Pflicht ein: 90% Marketing-Automation erreicht",
+            "description": "Taxfix verpflichtet 400 Mitarbeiter zu KI-Nutzung, automatisiert 90% des Marketings und führt wöchentliche KI-Tage ein. ROI: 56% mehr Reichweite ohne Mehrkosten.",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2025-11-29-taxfix-fuehrt-ki-pflicht-ein-90-marketing-automation-erreicht/",
+            "slug": "2025-11-29-taxfix-fuehrt-ki-pflicht-ein-90-marketing-automation-erreicht"
+          }
+        ]
+      },
+      "Other": {
+        "count": 1,
+        "articles": [
+          {
+            "filename": "2025-11-29-schwarz-gruppe-investiert-11-mrd-in-ki-gigafabrik-100-000-gpus-fuer-souveraene-ai-cloud",
+            "date": "2025-11-29",
+            "title": "Schwarz-Gruppe investiert 11 Mrd. € in KI-Gigafabrik: 100.000 GPUs für souveräne AI-Cloud",
+            "description": "Lidl-Mutter baut Europas größtes KI-Rechenzentrum in Lübbenau mit 100.000 GPUs und STACKIT Cloud-Services für deutsche AI-Souveränität",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2025-11-29-schwarz-gruppe-investiert-11-mrd-in-ki-gigafabrik-100-000-gpus-fuer-souveraene-ai-cloud/",
+            "slug": "2025-11-29-schwarz-gruppe-investiert-11-mrd-in-ki-gigafabrik-100-000-gpus-fuer-souveraene-ai-cloud"
+          }
+        ]
+      }
+    },
+    "topArticles": [
+      {
+        "filename": "2025-11-29-cursor-2-0-4x-schnelleres-ai-coding-mit-composer-und-multi-agent-system",
+        "date": "2025-11-29",
+        "title": "Cursor 2.0: 4x schnelleres AI-Coding mit Composer und Multi-Agent-System",
+        "description": "Cursor revolutioniert AI-Coding mit dem neuen Composer Model - 4x schneller, Multi-Agent-Workflow und integriertem Browser. So sparen Entwickler bis zu 75% Zeit.",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2025-11-29-cursor-2-0-4x-schnelleres-ai-coding-mit-composer-und-multi-agent-system/",
+        "slug": "2025-11-29-cursor-2-0-4x-schnelleres-ai-coding-mit-composer-und-multi-agent-system"
+      },
+      {
+        "filename": "2025-11-29-gemini-3-0-google-definiert-ai-automation-neu-mit-2m-token-und-generative-ui",
+        "date": "2025-11-29",
+        "title": "Gemini 3.0: Google definiert AI-Automation neu mit 2M Token und Generative UI",
+        "description": "Google Gemini 3.0 revolutioniert Workflow-Automation mit 2M Token-Fenster, autonomen Agenten und dynamischen UIs. Bis zu 40% Zeitersparnis in Enterprise-Workflows.",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "7 min read",
+        "url": "/blog/2025-11-29-gemini-3-0-google-definiert-ai-automation-neu-mit-2m-token-und-generative-ui/",
+        "slug": "2025-11-29-gemini-3-0-google-definiert-ai-automation-neu-mit-2m-token-und-generative-ui"
+      },
+      {
+        "filename": "2025-11-29-google-beerdigt-assistant-gemini-llm-uebernimmt-die-macht",
+        "date": "2025-11-29",
+        "title": "Google beerdigt Assistant: Gemini LLM übernimmt die Macht",
+        "description": "Google ersetzt Assistant durch Gemini - die größte AI-Migration der Mobilgeschichte. Was bedeutet das für Automatisierungs-Workflows?",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2025-11-29-google-beerdigt-assistant-gemini-llm-uebernimmt-die-macht/",
+        "slug": "2025-11-29-google-beerdigt-assistant-gemini-llm-uebernimmt-die-macht"
+      },
+      {
+        "filename": "2025-11-29-gpt-5-1-mit-adaptive-reasoning-80-weniger-tokens-45-minuten-zeitersparnis-taeglich",
+        "date": "2025-11-29",
+        "title": "GPT-5.1 mit Adaptive Reasoning: 80% weniger Tokens, 45 Minuten Zeitersparnis täglich",
+        "description": "OpenAI launcht GPT-5.1 mit revolutionärem Adaptive Reasoning. Für Automation Engineers bedeutet das: dynamische Ressourcennutzung, nahtlose Tool-Integration und massive Kosteneinsparungen.",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2025-11-29-gpt-5-1-mit-adaptive-reasoning-80-weniger-tokens-45-minuten-zeitersparnis-taeglich/",
+        "slug": "2025-11-29-gpt-5-1-mit-adaptive-reasoning-80-weniger-tokens-45-minuten-zeitersparnis-taeglich"
+      },
+      {
+        "filename": "2025-11-29-nano-banana-pro-googles-game-changer-fuer-ai-gestuetzte-content-produktion",
+        "date": "2025-11-29",
+        "title": "Nano Banana Pro: Googles Game-Changer für AI-gestützte Content-Produktion",
+        "description": "Google revolutioniert mit Nano Banana Pro die KI-Bildgenerierung: Perfektes Text-Rendering, 4K-Auflösung und Echtzeit-Daten-Integration für Automatisierungs-Workflows",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2025-11-29-nano-banana-pro-googles-game-changer-fuer-ai-gestuetzte-content-produktion/",
+        "slug": "2025-11-29-nano-banana-pro-googles-game-changer-fuer-ai-gestuetzte-content-produktion"
+      }
+    ],
+    "articlesList": [
+      {
+        "filename": "2025-11-29-cursor-2-0-4x-schnelleres-ai-coding-mit-composer-und-multi-agent-system",
+        "date": "2025-11-29",
+        "title": "Cursor 2.0: 4x schnelleres AI-Coding mit Composer und Multi-Agent-System",
+        "description": "Cursor revolutioniert AI-Coding mit dem neuen Composer Model - 4x schneller, Multi-Agent-Workflow und integriertem Browser. So sparen Entwickler bis zu 75% Zeit.",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2025-11-29-cursor-2-0-4x-schnelleres-ai-coding-mit-composer-und-multi-agent-system/",
+        "slug": "2025-11-29-cursor-2-0-4x-schnelleres-ai-coding-mit-composer-und-multi-agent-system"
+      },
+      {
+        "filename": "2025-11-29-gemini-3-0-google-definiert-ai-automation-neu-mit-2m-token-und-generative-ui",
+        "date": "2025-11-29",
+        "title": "Gemini 3.0: Google definiert AI-Automation neu mit 2M Token und Generative UI",
+        "description": "Google Gemini 3.0 revolutioniert Workflow-Automation mit 2M Token-Fenster, autonomen Agenten und dynamischen UIs. Bis zu 40% Zeitersparnis in Enterprise-Workflows.",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "7 min read",
+        "url": "/blog/2025-11-29-gemini-3-0-google-definiert-ai-automation-neu-mit-2m-token-und-generative-ui/",
+        "slug": "2025-11-29-gemini-3-0-google-definiert-ai-automation-neu-mit-2m-token-und-generative-ui"
+      },
+      {
+        "filename": "2025-11-29-google-beerdigt-assistant-gemini-llm-uebernimmt-die-macht",
+        "date": "2025-11-29",
+        "title": "Google beerdigt Assistant: Gemini LLM übernimmt die Macht",
+        "description": "Google ersetzt Assistant durch Gemini - die größte AI-Migration der Mobilgeschichte. Was bedeutet das für Automatisierungs-Workflows?",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2025-11-29-google-beerdigt-assistant-gemini-llm-uebernimmt-die-macht/",
+        "slug": "2025-11-29-google-beerdigt-assistant-gemini-llm-uebernimmt-die-macht"
+      },
+      {
+        "filename": "2025-11-29-gpt-5-1-mit-adaptive-reasoning-80-weniger-tokens-45-minuten-zeitersparnis-taeglich",
+        "date": "2025-11-29",
+        "title": "GPT-5.1 mit Adaptive Reasoning: 80% weniger Tokens, 45 Minuten Zeitersparnis täglich",
+        "description": "OpenAI launcht GPT-5.1 mit revolutionärem Adaptive Reasoning. Für Automation Engineers bedeutet das: dynamische Ressourcennutzung, nahtlose Tool-Integration und massive Kosteneinsparungen.",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2025-11-29-gpt-5-1-mit-adaptive-reasoning-80-weniger-tokens-45-minuten-zeitersparnis-taeglich/",
+        "slug": "2025-11-29-gpt-5-1-mit-adaptive-reasoning-80-weniger-tokens-45-minuten-zeitersparnis-taeglich"
+      },
+      {
+        "filename": "2025-11-29-nano-banana-pro-googles-game-changer-fuer-ai-gestuetzte-content-produktion",
+        "date": "2025-11-29",
+        "title": "Nano Banana Pro: Googles Game-Changer für AI-gestützte Content-Produktion",
+        "description": "Google revolutioniert mit Nano Banana Pro die KI-Bildgenerierung: Perfektes Text-Rendering, 4K-Auflösung und Echtzeit-Daten-Integration für Automatisierungs-Workflows",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2025-11-29-nano-banana-pro-googles-game-changer-fuer-ai-gestuetzte-content-produktion/",
+        "slug": "2025-11-29-nano-banana-pro-googles-game-changer-fuer-ai-gestuetzte-content-produktion"
+      },
+      {
+        "filename": "2025-11-29-openai-externe-safety-audits",
+        "date": "2025-11-29",
+        "title": "OpenAI öffnet KI-Modelle für externe Sicherheitstests: Was bedeutet das für Automation Engineers?",
+        "description": "OpenAI führt externe Safety-Audits ein. Erfahre, wie das Preparedness Framework v2 deine KI-Automatisierungen sicherer und effizienter macht.",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2025-11-29-openai-externe-safety-audits/",
+        "slug": "2025-11-29-openai-externe-safety-audits"
+      },
+      {
+        "filename": "2025-11-29-python-bleibt-die-sprache-der-ai-automation-guido-van-rossum-ueber-readability-und-die-zukunft",
+        "date": "2025-11-29",
+        "title": "Python bleibt die Sprache der AI-Automation: Guido van Rossum über Readability und die Zukunft",
+        "description": "Der Python-Erfinder erklärt, warum seine Sprache trotz AI-Revolution menschenzentriert bleibt und wie das Automation-Engineers konkret hilft",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "5 min read",
+        "url": "/blog/2025-11-29-python-bleibt-die-sprache-der-ai-automation-guido-van-rossum-ueber-readability-und-die-zukunft/",
+        "slug": "2025-11-29-python-bleibt-die-sprache-der-ai-automation-guido-van-rossum-ueber-readability-und-die-zukunft"
+      },
+      {
+        "filename": "2025-11-29-schwarz-gruppe-investiert-11-mrd-in-ki-gigafabrik-100-000-gpus-fuer-souveraene-ai-cloud",
+        "date": "2025-11-29",
+        "title": "Schwarz-Gruppe investiert 11 Mrd. € in KI-Gigafabrik: 100.000 GPUs für souveräne AI-Cloud",
+        "description": "Lidl-Mutter baut Europas größtes KI-Rechenzentrum in Lübbenau mit 100.000 GPUs und STACKIT Cloud-Services für deutsche AI-Souveränität",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2025-11-29-schwarz-gruppe-investiert-11-mrd-in-ki-gigafabrik-100-000-gpus-fuer-souveraene-ai-cloud/",
+        "slug": "2025-11-29-schwarz-gruppe-investiert-11-mrd-in-ki-gigafabrik-100-000-gpus-fuer-souveraene-ai-cloud"
+      },
+      {
+        "filename": "2025-11-29-swissmademarketing-business-validator-ki-orchestrierung-ohne-medienbrueche",
+        "date": "2025-11-29",
+        "title": "SwissMadeMarketing Business Validator: KI-Orchestrierung ohne Medienbrüche",
+        "description": "Neuer AI-Orchestrator vereint Marketing-Tools mit Kontext-Erhaltung - automatisierte Workflows von der Geschäftsidee bis zur Kampagne",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2025-11-29-swissmademarketing-business-validator-ki-orchestrierung-ohne-medienbrueche/",
+        "slug": "2025-11-29-swissmademarketing-business-validator-ki-orchestrierung-ohne-medienbrueche"
+      },
+      {
+        "filename": "2025-11-29-taxfix-fuehrt-ki-pflicht-ein-90-marketing-automation-erreicht",
+        "date": "2025-11-29",
+        "title": "Taxfix führt KI-Pflicht ein: 90% Marketing-Automation erreicht",
+        "description": "Taxfix verpflichtet 400 Mitarbeiter zu KI-Nutzung, automatisiert 90% des Marketings und führt wöchentliche KI-Tage ein. ROI: 56% mehr Reichweite ohne Mehrkosten.",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2025-11-29-taxfix-fuehrt-ki-pflicht-ein-90-marketing-automation-erreicht/",
+        "slug": "2025-11-29-taxfix-fuehrt-ki-pflicht-ein-90-marketing-automation-erreicht"
+      }
+    ]
+  },
+  "references": [
+    {
+      "title": "Cursor 2.0: 4x schnelleres AI-Coding mit Composer und Multi-Agent-System",
+      "url": "/blog/2025-11-29-cursor-2-0-4x-schnelleres-ai-coding-mit-composer-und-multi-agent-system/",
+      "description": "Cursor revolutioniert AI-Coding mit dem neuen Composer Model - 4x schneller, Multi-Agent-Workflow und integriertem Browser. So sparen Entwickler bis zu 75% Zeit.",
+      "date": "2025-11-29",
+      "category": "AI-Automation",
+      "suggestedSection": "quickies"
+    },
+    {
+      "title": "Gemini 3.0: Google definiert AI-Automation neu mit 2M Token und Generative UI",
+      "url": "/blog/2025-11-29-gemini-3-0-google-definiert-ai-automation-neu-mit-2m-token-und-generative-ui/",
+      "description": "Google Gemini 3.0 revolutioniert Workflow-Automation mit 2M Token-Fenster, autonomen Agenten und dynamischen UIs. Bis zu 40% Zeitersparnis in Enterprise-Workflows.",
+      "date": "2025-11-29",
+      "category": "AI-Automation",
+      "suggestedSection": "top_story"
+    },
+    {
+      "title": "Google beerdigt Assistant: Gemini LLM übernimmt die Macht",
+      "url": "/blog/2025-11-29-google-beerdigt-assistant-gemini-llm-uebernimmt-die-macht/",
+      "description": "Google ersetzt Assistant durch Gemini - die größte AI-Migration der Mobilgeschichte. Was bedeutet das für Automatisierungs-Workflows?",
+      "date": "2025-11-29",
+      "category": "General",
+      "suggestedSection": "top_story"
+    },
+    {
+      "title": "GPT-5.1 mit Adaptive Reasoning: 80% weniger Tokens, 45 Minuten Zeitersparnis täglich",
+      "url": "/blog/2025-11-29-gpt-5-1-mit-adaptive-reasoning-80-weniger-tokens-45-minuten-zeitersparnis-taeglich/",
+      "description": "OpenAI launcht GPT-5.1 mit revolutionärem Adaptive Reasoning. Für Automation Engineers bedeutet das: dynamische Ressourcennutzung, nahtlose Tool-Integration und massive Kosteneinsparungen.",
+      "date": "2025-11-29",
+      "category": "AI-Automation",
+      "suggestedSection": "top_story"
+    },
+    {
+      "title": "Nano Banana Pro: Googles Game-Changer für AI-gestützte Content-Produktion",
+      "url": "/blog/2025-11-29-nano-banana-pro-googles-game-changer-fuer-ai-gestuetzte-content-produktion/",
+      "description": "Google revolutioniert mit Nano Banana Pro die KI-Bildgenerierung: Perfektes Text-Rendering, 4K-Auflösung und Echtzeit-Daten-Integration für Automatisierungs-Workflows",
+      "date": "2025-11-29",
+      "category": "General",
+      "suggestedSection": "top_story"
+    },
+    {
+      "title": "OpenAI öffnet KI-Modelle für externe Sicherheitstests: Was bedeutet das für Automation Engineers?",
+      "url": "/blog/2025-11-29-openai-externe-safety-audits/",
+      "description": "OpenAI führt externe Safety-Audits ein. Erfahre, wie das Preparedness Framework v2 deine KI-Automatisierungen sicherer und effizienter macht.",
+      "date": "2025-11-29",
+      "category": "AI-Automation",
+      "suggestedSection": "top_story"
+    },
+    {
+      "title": "Python bleibt die Sprache der AI-Automation: Guido van Rossum über Readability und die Zukunft",
+      "url": "/blog/2025-11-29-python-bleibt-die-sprache-der-ai-automation-guido-van-rossum-ueber-readability-und-die-zukunft/",
+      "description": "Der Python-Erfinder erklärt, warum seine Sprache trotz AI-Revolution menschenzentriert bleibt und wie das Automation-Engineers konkret hilft",
+      "date": "2025-11-29",
+      "category": "AI-Automation",
+      "suggestedSection": "quickies"
+    },
+    {
+      "title": "Schwarz-Gruppe investiert 11 Mrd. € in KI-Gigafabrik: 100.000 GPUs für souveräne AI-Cloud",
+      "url": "/blog/2025-11-29-schwarz-gruppe-investiert-11-mrd-in-ki-gigafabrik-100-000-gpus-fuer-souveraene-ai-cloud/",
+      "description": "Lidl-Mutter baut Europas größtes KI-Rechenzentrum in Lübbenau mit 100.000 GPUs und STACKIT Cloud-Services für deutsche AI-Souveränität",
+      "date": "2025-11-29",
+      "category": "General",
+      "suggestedSection": "quickies"
+    },
+    {
+      "title": "SwissMadeMarketing Business Validator: KI-Orchestrierung ohne Medienbrüche",
+      "url": "/blog/2025-11-29-swissmademarketing-business-validator-ki-orchestrierung-ohne-medienbrueche/",
+      "description": "Neuer AI-Orchestrator vereint Marketing-Tools mit Kontext-Erhaltung - automatisierte Workflows von der Geschäftsidee bis zur Kampagne",
+      "date": "2025-11-29",
+      "category": "Tools & Frameworks",
+      "suggestedSection": "tools_section"
+    },
+    {
+      "title": "Taxfix führt KI-Pflicht ein: 90% Marketing-Automation erreicht",
+      "url": "/blog/2025-11-29-taxfix-fuehrt-ki-pflicht-ein-90-marketing-automation-erreicht/",
+      "description": "Taxfix verpflichtet 400 Mitarbeiter zu KI-Nutzung, automatisiert 90% des Marketings und führt wöchentliche KI-Tage ein. ROI: 56% mehr Reichweite ohne Mehrkosten.",
+      "date": "2025-11-29",
+      "category": "AI-Automation",
+      "suggestedSection": "quickies"
+    }
+  ],
+  "rawArticles": [
+    {
+      "filename": "2025-11-29-cursor-2-0-4x-schnelleres-ai-coding-mit-composer-und-multi-agent-system",
+      "date": "2025-11-29",
+      "title": "Cursor 2.0: 4x schnelleres AI-Coding mit Composer und Multi-Agent-System",
+      "description": "Cursor revolutioniert AI-Coding mit dem neuen Composer Model - 4x schneller, Multi-Agent-Workflow und integriertem Browser. So sparen Entwickler bis zu 75% Zeit.",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2025-11-29-cursor-2-0-4x-schnelleres-ai-coding-mit-composer-und-multi-agent-system/",
+      "slug": "2025-11-29-cursor-2-0-4x-schnelleres-ai-coding-mit-composer-und-multi-agent-system"
+    },
+    {
+      "filename": "2025-11-29-gemini-3-0-google-definiert-ai-automation-neu-mit-2m-token-und-generative-ui",
+      "date": "2025-11-29",
+      "title": "Gemini 3.0: Google definiert AI-Automation neu mit 2M Token und Generative UI",
+      "description": "Google Gemini 3.0 revolutioniert Workflow-Automation mit 2M Token-Fenster, autonomen Agenten und dynamischen UIs. Bis zu 40% Zeitersparnis in Enterprise-Workflows.",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "7 min read",
+      "url": "/blog/2025-11-29-gemini-3-0-google-definiert-ai-automation-neu-mit-2m-token-und-generative-ui/",
+      "slug": "2025-11-29-gemini-3-0-google-definiert-ai-automation-neu-mit-2m-token-und-generative-ui"
+    },
+    {
+      "filename": "2025-11-29-google-beerdigt-assistant-gemini-llm-uebernimmt-die-macht",
+      "date": "2025-11-29",
+      "title": "Google beerdigt Assistant: Gemini LLM übernimmt die Macht",
+      "description": "Google ersetzt Assistant durch Gemini - die größte AI-Migration der Mobilgeschichte. Was bedeutet das für Automatisierungs-Workflows?",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2025-11-29-google-beerdigt-assistant-gemini-llm-uebernimmt-die-macht/",
+      "slug": "2025-11-29-google-beerdigt-assistant-gemini-llm-uebernimmt-die-macht"
+    },
+    {
+      "filename": "2025-11-29-gpt-5-1-mit-adaptive-reasoning-80-weniger-tokens-45-minuten-zeitersparnis-taeglich",
+      "date": "2025-11-29",
+      "title": "GPT-5.1 mit Adaptive Reasoning: 80% weniger Tokens, 45 Minuten Zeitersparnis täglich",
+      "description": "OpenAI launcht GPT-5.1 mit revolutionärem Adaptive Reasoning. Für Automation Engineers bedeutet das: dynamische Ressourcennutzung, nahtlose Tool-Integration und massive Kosteneinsparungen.",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2025-11-29-gpt-5-1-mit-adaptive-reasoning-80-weniger-tokens-45-minuten-zeitersparnis-taeglich/",
+      "slug": "2025-11-29-gpt-5-1-mit-adaptive-reasoning-80-weniger-tokens-45-minuten-zeitersparnis-taeglich"
+    },
+    {
+      "filename": "2025-11-29-nano-banana-pro-googles-game-changer-fuer-ai-gestuetzte-content-produktion",
+      "date": "2025-11-29",
+      "title": "Nano Banana Pro: Googles Game-Changer für AI-gestützte Content-Produktion",
+      "description": "Google revolutioniert mit Nano Banana Pro die KI-Bildgenerierung: Perfektes Text-Rendering, 4K-Auflösung und Echtzeit-Daten-Integration für Automatisierungs-Workflows",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2025-11-29-nano-banana-pro-googles-game-changer-fuer-ai-gestuetzte-content-produktion/",
+      "slug": "2025-11-29-nano-banana-pro-googles-game-changer-fuer-ai-gestuetzte-content-produktion"
+    },
+    {
+      "filename": "2025-11-29-openai-externe-safety-audits",
+      "date": "2025-11-29",
+      "title": "OpenAI öffnet KI-Modelle für externe Sicherheitstests: Was bedeutet das für Automation Engineers?",
+      "description": "OpenAI führt externe Safety-Audits ein. Erfahre, wie das Preparedness Framework v2 deine KI-Automatisierungen sicherer und effizienter macht.",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2025-11-29-openai-externe-safety-audits/",
+      "slug": "2025-11-29-openai-externe-safety-audits"
+    },
+    {
+      "filename": "2025-11-29-python-bleibt-die-sprache-der-ai-automation-guido-van-rossum-ueber-readability-und-die-zukunft",
+      "date": "2025-11-29",
+      "title": "Python bleibt die Sprache der AI-Automation: Guido van Rossum über Readability und die Zukunft",
+      "description": "Der Python-Erfinder erklärt, warum seine Sprache trotz AI-Revolution menschenzentriert bleibt und wie das Automation-Engineers konkret hilft",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "5 min read",
+      "url": "/blog/2025-11-29-python-bleibt-die-sprache-der-ai-automation-guido-van-rossum-ueber-readability-und-die-zukunft/",
+      "slug": "2025-11-29-python-bleibt-die-sprache-der-ai-automation-guido-van-rossum-ueber-readability-und-die-zukunft"
+    },
+    {
+      "filename": "2025-11-29-schwarz-gruppe-investiert-11-mrd-in-ki-gigafabrik-100-000-gpus-fuer-souveraene-ai-cloud",
+      "date": "2025-11-29",
+      "title": "Schwarz-Gruppe investiert 11 Mrd. € in KI-Gigafabrik: 100.000 GPUs für souveräne AI-Cloud",
+      "description": "Lidl-Mutter baut Europas größtes KI-Rechenzentrum in Lübbenau mit 100.000 GPUs und STACKIT Cloud-Services für deutsche AI-Souveränität",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2025-11-29-schwarz-gruppe-investiert-11-mrd-in-ki-gigafabrik-100-000-gpus-fuer-souveraene-ai-cloud/",
+      "slug": "2025-11-29-schwarz-gruppe-investiert-11-mrd-in-ki-gigafabrik-100-000-gpus-fuer-souveraene-ai-cloud"
+    },
+    {
+      "filename": "2025-11-29-swissmademarketing-business-validator-ki-orchestrierung-ohne-medienbrueche",
+      "date": "2025-11-29",
+      "title": "SwissMadeMarketing Business Validator: KI-Orchestrierung ohne Medienbrüche",
+      "description": "Neuer AI-Orchestrator vereint Marketing-Tools mit Kontext-Erhaltung - automatisierte Workflows von der Geschäftsidee bis zur Kampagne",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2025-11-29-swissmademarketing-business-validator-ki-orchestrierung-ohne-medienbrueche/",
+      "slug": "2025-11-29-swissmademarketing-business-validator-ki-orchestrierung-ohne-medienbrueche"
+    },
+    {
+      "filename": "2025-11-29-taxfix-fuehrt-ki-pflicht-ein-90-marketing-automation-erreicht",
+      "date": "2025-11-29",
+      "title": "Taxfix führt KI-Pflicht ein: 90% Marketing-Automation erreicht",
+      "description": "Taxfix verpflichtet 400 Mitarbeiter zu KI-Nutzung, automatisiert 90% des Marketings und führt wöchentliche KI-Tage ein. ROI: 56% mehr Reichweite ohne Mehrkosten.",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2025-11-29-taxfix-fuehrt-ki-pflicht-ein-90-marketing-automation-erreicht/",
+      "slug": "2025-11-29-taxfix-fuehrt-ki-pflicht-ein-90-marketing-automation-erreicht"
+    }
+  ]
+}
