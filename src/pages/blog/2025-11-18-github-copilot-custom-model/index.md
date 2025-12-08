@@ -81,7 +81,7 @@ Das neue Custom Model von GitHub Copilot ist mehr als nur ein Update – es ist 
 ## Quellen & Weiterführende Links
 - 📰 [Original GitHub Blog Artikel](https://github.blog/ai-and-ml/github-copilot/the-road-to-better-completions-building-a-faster-smarter-github-copilot-with-a-new-custom-model/)
 - 📚 [GitHub Copilot Custom Model Dokumentation](https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/use-ai-models/create-a-custom-model)
-- 🎓 [AI-Automation Workshop: GitHub Copilot für Enterprises](https://workshops.de?utm_source=blog&utm_medium=referral&utm_campaign=article_referral&utm_content=github-copilot-custom-model)
+- 🎓 [AI-Automation Workshop: GitHub Copilot für Enterprises](https://workshops.de?utm_source=ai-automation-engineers_de&utm_campaign=article_referral&utm_medium=portal&utm_content=github-copilot-custom-model)
 - 🔗 [GitHub Copilot Enterprise Features](https://github.com/features/copilot)
 ---
 *Recherchiert mit: Perplexity AI | Stand: 23.10.2024 | Review: 18.11.2025*

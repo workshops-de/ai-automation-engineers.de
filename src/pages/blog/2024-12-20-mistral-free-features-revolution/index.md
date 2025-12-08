@@ -237,4 +237,4 @@ Die Zukunft der AI ist nicht mehr hinter Paywalls versteckt. Mistral hat die Tü
 
 ---
 
-*Übrigens: Wenn du tiefer in die Materie einsteigen willst, check unsere [AI Automation Workshops](https://workshops.de?utm_source=blog&utm_medium=referral&utm_campaign=article_referral&utm_content=mistral-free-features-revolution) – dort zeigen wir dir, wie du diese kostenlosen Tools in echte Business-Value verwandelst.*
+*Übrigens: Wenn du tiefer in die Materie einsteigen willst, check unsere [AI Automation Workshops](https://workshops.de?utm_source=ai-automation-engineers_de&utm_campaign=article_referral&utm_medium=portal&utm_content=mistral-free-features-revolution) – dort zeigen wir dir, wie du diese kostenlosen Tools in echte Business-Value verwandelst.*

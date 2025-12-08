@@ -33,7 +33,7 @@ Das spart konkret 20-30 Minuten pro Stunde aktiver Entwicklungszeit - bei komple
 Die revolutionäre Multi-Agent-Architektur ermöglicht es, bis zu 8 AI-Agenten gleichzeitig laufen zu lassen. Jeder Agent arbeitet in seinem eigenen isolierten Git-Worktree oder auf Remote-Machines, wodurch Konflikte systematisch vermieden werden:
 ```
 Agent 1: Feature-Implementierung → Git Worktree A
-Agent 2: Unit-Tests schreiben → Git Worktree B  
+Agent 2: Unit-Tests schreiben → Git Worktree B
 Agent 3: Integration-Tests → Git Worktree C
 Agent 4: Code-Review & Refactoring → Git Worktree D
 Agent 5: Dokumentation → Git Worktree E
@@ -99,7 +99,7 @@ Auch wenn direkte Integrationen mit Automation-Plattformen noch nicht offiziell 
 - **API-Potential** für zukünftige Webhooks und Events
 ## Technical Review Notes
 ⚠️ **Technische Korrekturen vom 18.11.2025:**
-- Release-Datum korrigiert: 29. Oktober 2025 (nicht November)  
+- Release-Datum korrigiert: 29. Oktober 2025 (nicht November)
 - Performance-Claims verifiziert: 4x Geschwindigkeit bezieht sich auf vergleichbar intelligente Modelle
 - Multi-Agent-Capability bestätigt: Bis zu 8 parallele Agenten via Git Worktrees
 - Browser-Integration verifiziert: Chrome DevTools sind tatsächlich integriert
@@ -107,6 +107,6 @@ Auch wenn direkte Integrationen mit Automation-Plattformen noch nicht offiziell 
 ## Quellen & Weiterführende Links
 - 📰 [Original-Artikel: Composer Technical Deep-Dive](https://cursor.com/blog/composer)
 - 📚 [Cursor 2.0 Release Notes](https://cursor.com/blog/2-0)
-- 🎓 [AI-Automation Workshop auf workshops.de](https://workshops.de/ai-automation)
+- 🎓 [AI-Automation Workshop auf workshops.de](https://workshops.de/ai-automation?utm_source=ai-automation-engineers_de&utm_campaign=article_referral&utm_medium=portal&utm_content=cursor-2-0-4x-schnelleres-ai-coding-mit-composer-und-multi-agent-system)
 ---
 *Recherchiert mit: Perplexity AI | Stand: 2025-10-29*

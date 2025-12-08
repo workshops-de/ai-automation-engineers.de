@@ -26,7 +26,7 @@ Für Automatisierungs-Profis stellt sich die Frage: Wie unterscheidet sich diese
 ### Das BusinessCockpit als zentrale Orchestrierungs-Ebene
 Das Herzstück bildet das BusinessCockpit, das alle Marketing-Elemente in einer einheitlichen Oberfläche vereint:
 → **Geschäftsstrategie-Planung** mit KI-Unterstützung
-→ **E-Mail-Marketing** mit automatisierten Kampagnen  
+→ **E-Mail-Marketing** mit automatisierten Kampagnen
 → **Social Media Management** für Facebook und Instagram
 → **Content-Generierung** über das CopyCockpit
 → **Website-Integration** via inCMS Editor
@@ -86,7 +86,7 @@ Die Stärke liegt in der **Reduktion von Komplexität** bei gleichzeitiger **Max
 ## Quellen & Weiterführende Links
 - 📰 [SwissMadeMarketing Business Validator](https://swissmademarketing.com/de/businessidee/)
 - 📚 [BusinessCockpit Dokumentation](https://support.swissmademarketing.com/de/support/solutions/articles/3000123388-was-ist-das-businesscockpit-)
-- 🎓 [Workshop: KI-gestützte Marketing-Automatisierung](https://workshops.de)
+- 🎓 [Workshop: KI-gestützte Marketing-Automatisierung](https://workshops.de?utm_source=ai-automation-engineers_de&utm_campaign=article_referral&utm_medium=portal&utm_content=swissmademarketing-business-validator-ki-orchestrierung-ohne-medienbrueche)
 ---
 *Recherchiert mit: Perplexity AI | Stand: 03.11.2024*
 ---
@@ -101,7 +101,7 @@ Die Stärke liegt in der **Reduktion von Komplexität** bei gleichzeitiger **Max
 4. **Effizienz-Claims relativiert**: Die 80% Effizienzsteigerung bei Kampagnen-Orchestrierung wurde als Schätzung gekennzeichnet.
 ### Verifizierte Fakten:
 ✅ CopyCockpit existiert als KI-gestütztes Text-Tool
-✅ BusinessCockpit ist Teil der SwissMadeMarketing Suite  
+✅ BusinessCockpit ist Teil der SwissMadeMarketing Suite
 ✅ Cloud-basierte SaaS-Lösung bestätigt
 ✅ Integration mit Quentn möglich
 ❌ Keine Custom GPTs/Claude Skills nachweisbar

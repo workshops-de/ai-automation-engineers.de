@@ -54,7 +54,7 @@ graph LR
     D --> G[Slack Notification]
     F --> G
 ```
-**ROI dieser Automatisierung**: 
+**ROI dieser Automatisierung**:
 - Manuelle Bearbeitung: 3 Min/Email × 200 Emails = 10 Stunden
 - Mit Gemini: 0.5 Sek/Email × 200 = 1.7 Minuten
 - **Zeitersparnis: 99.7%**
@@ -119,7 +119,7 @@ Die Reaktionen der Automation-Community sind durchweg positiv:
 ## Fazit: Die Zukunft ist LLM-basiert
 Die Migration von Assistant zu Gemini ist mehr als ein simples Upgrade - es ist ein Paradigmenwechsel. Für AI-Automation Engineers bedeutet das:
 - **80% weniger Code** für komplexe Workflows
-- **90% Kostenersparnis** bei Batch-Operationen  
+- **90% Kostenersparnis** bei Batch-Operationen
 - **99% schnellere** First-Response-Zeiten
 - **100% zukunftssicher** durch offene APIs
 Google setzt hier neue Standards, die Microsoft (Copilot) und Amazon (Alexa) unter Zugzwang setzen. Die nächsten 12 Monate werden zeigen, wer im AI-Assistant-Rennen die Nase vorn hat.
@@ -131,4 +131,4 @@ Google setzt hier neue Standards, die Microsoft (Copilot) und Amazon (Alexa) unt
 - 💼 [Enterprise Preismodelle](https://cloud.google.com/ai/gemini)
 - 🚀 [Google AI Studio](https://aistudio.google.com) (API-Keys & Testing)
 ---
-*Möchtest du deine Automatisierungs-Workflows mit Gemini auf das nächste Level heben? Die workshops.de Academy bietet ab Januar 2025 spezielle Gemini-Integration-Workshops für Teams. [Mehr erfahren →](https://workshops.de)*
+*Möchtest du deine Automatisierungs-Workflows mit Gemini auf das nächste Level heben? Die workshops.de Academy bietet ab Januar 2025 spezielle Gemini-Integration-Workshops für Teams. [Mehr erfahren →](https://workshops.de?utm_source=ai-automation-engineers_de&utm_campaign=article_referral&utm_medium=portal&utm_content=google-beerdigt-assistant-gemini-llm-uebernimmt-die-macht)*

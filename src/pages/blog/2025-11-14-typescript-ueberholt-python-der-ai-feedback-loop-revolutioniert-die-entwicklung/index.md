@@ -76,7 +76,7 @@ Die Integration in bestehende Automatisierungs-Stacks wie Zapier, n8n oder Make 
 ## Quellen & Weiterführende Links
 - 📰 [Original GitHub Blog Artikel](https://github.blog/news-insights/octoverse/typescript-python-and-the-ai-feedback-loop-changing-software-development/)
 - 📚 [GitHub Octoverse 2025 Report](https://octoverse.github.com)
-- 🎓 [TypeScript für Automatisierung - Workshop auf workshops.de](https://workshops.de?utm_source=blog&utm_medium=referral&utm_campaign=article_referral&utm_content=typescript-ueberholt-python-der-ai-feedback-loop-revolutioniert-die-entwicklung)
+- 🎓 [TypeScript für Automatisierung - Workshop auf workshops.de](https://workshops.de?utm_source=ai-automation-engineers_de&utm_campaign=article_referral&utm_medium=portal&utm_content=typescript-ueberholt-python-der-ai-feedback-loop-revolutioniert-die-entwicklung)
 ---
 *Recherchiert mit: Perplexity AI | Stand: 2025-11-14*
 ---

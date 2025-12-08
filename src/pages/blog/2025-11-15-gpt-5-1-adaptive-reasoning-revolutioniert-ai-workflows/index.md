@@ -123,7 +123,7 @@ Für AI-Automation Engineers bedeutet das: Schnellere Entwicklung, stabilere Wor
 - 📚 [OpenAI API Documentation für GPT-5.1](https://platform.openai.com/docs/guides/latest-model)
 - 🔧 [GPT-5.1 Integration Guide](https://apidog.com/blog/gpt-5-1/)
 - 💡 [Practical GPT-5.1 Use Cases](https://natesnewsletter.substack.com/p/chatgpt-51-how-to-make-the-most-of)
-- 🎓 [AI-Automation Workshop: GPT-5.1 Integration](https://workshops.de?utm_source=blog&utm_medium=referral&utm_campaign=article_referral&utm_content=gpt-5-1-adaptive-reasoning-revolutioniert-ai-workflows)
+- 🎓 [AI-Automation Workshop: GPT-5.1 Integration](https://workshops.de?utm_source=ai-automation-engineers_de&utm_campaign=article_referral&utm_medium=portal&utm_content=gpt-5-1-adaptive-reasoning-revolutioniert-ai-workflows)
 ---
 *Recherchiert mit: Perplexity AI | Stand: 15.11.2025*
 ---

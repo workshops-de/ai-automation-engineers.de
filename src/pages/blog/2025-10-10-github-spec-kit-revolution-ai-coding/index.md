@@ -243,6 +243,6 @@ GitHub Spec Kit ist nicht perfekt, aber es löst ein echtes Problem: Das Chaos i
 
 *Du willst mehr über strukturiertes AI-Coding lernen? In unseren Hands-on Workshops zeigen wir dir, wie du Spec Kit und andere AI-Tools produktiv einsetzt. Von der Spec bis zur Production-Ready App - alles praktisch, alles hands-on.*
 
-**[🎯 Jetzt Workshop-Platz sichern auf workshops.de](https://workshops.de?utm_source=blog&utm_medium=referral&utm_campaign=article_referral&utm_content=github-spec-kit-revolution-ai-coding)**
+**[🎯 Jetzt Workshop-Platz sichern auf workshops.de](https://workshops.de?utm_source=ai-automation-engineers_de&utm_campaign=article_referral&utm_medium=portal&utm_content=github-spec-kit-revolution-ai-coding)**
 
 Die Revolution des AI-Codings hat begonnen. Spec-driven Development ist nicht nur ein Buzzword - es ist der Weg aus dem Vibe-Coding-Chaos. Zeit, dass du dabei bist! 🚀

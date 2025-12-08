@@ -11,7 +11,7 @@ const shortCommitHash = commitHash ? commitHash.substring(0, 7) : 'dev';
 const versionInfo = isDev ? 'dev' : `v${buildNumber || '1'}.${shortCommitHash}`;
 
 // Create detailed version info for tooltip
-const detailedVersionInfo = isDev 
+const detailedVersionInfo = isDev
   ? 'Development build'
   : `Build #${buildNumber || '1'} • Commit: ${commitHash || 'unknown'} • Built: ${new Date().toISOString().split('T')[0]}`;
 ---
@@ -33,10 +33,10 @@ const detailedVersionInfo = isDev
         <div class="mt-4">
           <h4 class="font-semibold mb-2">Subscribe to our Newsletter</h4>
           <form class="flex max-w-md" action="/newsletter-signup" method="post">
-            <input 
-              type="email" 
+            <input
+              type="email"
               name="email"
-              placeholder="Enter your email" 
+              placeholder="Enter your email"
               required
               class="flex-1 px-4 py-2 rounded-l-lg border-0 bg-gray-800 text-white placeholder-gray-400 focus:ring-2 focus:ring-blue-500 focus:outline-none">
             <button type="submit" class="bg-blue-600 hover:bg-blue-700 px-6 py-2 rounded-r-lg transition-colors">
@@ -53,7 +53,7 @@ const detailedVersionInfo = isDev
           <li><a href="/" class="hover:text-white transition-colors">Home</a></li>
           <li><a href="/profiles" class="hover:text-white transition-colors">Profile</a></li>
           <li><a href="/blog" class="hover:text-white transition-colors">Blog</a></li>
-          <li><a href="https://workshops.de/schulungsthemen/kuenstliche-intelligenz" target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors">Schulungen</a></li>
+          <li><a href="https://workshops.de/schulungsthemen/kuenstliche-intelligenz?utm_source=ai-automation-engineers_de&utm_campaign=crossmarketing_permanent&utm_medium=portal&utm_content=footer" target="_blank" class="hover:text-white transition-colors">Schulungen</a></li>
         </ul>
       </div>
 
@@ -64,7 +64,7 @@ const detailedVersionInfo = isDev
           <li><a href="https://angular.de" class="hover:text-white transition-colors" target="_blank" rel="noopener">Angular.DE</a></li>
           <li><a href="https://reactjs.de" class="hover:text-white transition-colors" target="_blank" rel="noopener">ReactJS.DE</a></li>
           <li><a href="https://vuejs.de" class="hover:text-white transition-colors" target="_blank" rel="noopener">VueJS.DE</a></li>
-          <li><a href="https://workshops.de" class="hover:text-white transition-colors" target="_blank" rel="noopener">workshops.de</a></li>
+          <li><a href="https://workshops.de?utm_source=ai-automation-engineers_de&utm_campaign=crossmarketing_permanent&utm_medium=portal&utm_content=footer" class="hover:text-white transition-colors" target="_blank">workshops.de</a></li>
         </ul>
       </div>
 
@@ -84,8 +84,8 @@ const detailedVersionInfo = isDev
       </p>
             <div class="flex items-center space-x-2">
               <span class="text-xs text-gray-500">Version:</span>
-              <span 
-                class="text-xs font-mono bg-gray-800 px-2 py-1 rounded text-gray-300 hover:bg-gray-700 transition-colors cursor-help" 
+              <span
+                class="text-xs font-mono bg-gray-800 px-2 py-1 rounded text-gray-300 hover:bg-gray-700 transition-colors cursor-help"
                 title={detailedVersionInfo}
               >
                 {versionInfo}
@@ -93,10 +93,10 @@ const detailedVersionInfo = isDev
             </div>
           </div>
           <div class="flex space-x-6 mt-4 md:mt-0">
-        <a href="https://workshops.de/impressum" class="text-gray-400 hover:text-white transition-colors" aria-label="Twitter">
+        <a href="https://workshops.de/impressum?utm_source=ai-automation-engineers_de&utm_campaign=crossmarketing_permanent&utm_medium=portal&utm_content=footer" class="text-gray-400 hover:text-white transition-colors" aria-label="Twitter">
           Impressum
         </a>
-        <a href="https://workshops.de/agb/datenschutz" class="text-gray-400 hover:text-white transition-colors" aria-label="Twitter">
+        <a href="https://workshops.de/agb/datenschutz?utm_source=ai-automation-engineers_de&utm_campaign=crossmarketing_permanent&utm_medium=portal&utm_content=footer" class="text-gray-400 hover:text-white transition-colors" aria-label="Twitter">
           Datenschutz
         </a>
         <!-- <a href="https://twitter.com/ai_automations" class="text-gray-400 hover:text-white transition-colors" aria-label="Twitter">
@@ -124,11 +124,11 @@ const detailedVersionInfo = isDev
   .bg-blue-600 {
     background-color: #3b82f6;
   }
-  
+
   .hover\:bg-blue-700:hover {
     background-color: #1d4ed8;
   }
-  
+
   .focus\:ring-blue-500:focus {
     --tw-ring-color: #3b82f6;
   }

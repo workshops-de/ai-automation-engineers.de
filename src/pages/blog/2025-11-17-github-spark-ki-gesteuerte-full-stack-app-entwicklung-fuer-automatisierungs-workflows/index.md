@@ -177,7 +177,7 @@ Das ist nicht mehr "Low-Code" — das ist **"Talk-to-Ship"** Automation.
 - 📚 [GitHub Spark Official Docs](https://docs.github.com/de/copilot/concepts/spark)
 - 🎓 [Your First Spark Tutorial](https://docs.github.com/en/copilot/tutorials/spark/your-first-spark)
 - 🎬 [GitHub Spark Demo Video](https://www.youtube.com/watch?v=oM2amcnVmzM)
-- 🎓 [Workshops.de: Automation Engineering Masterclass](https://workshops.de?utm_source=blog&utm_medium=referral&utm_campaign=article_referral&utm_content=github-spark-ki-gesteuerte-full-stack-app-entwicklung-fuer-automatisierungs-workflows)
+- 🎓 [Workshops.de: Automation Engineering Masterclass](https://workshops.de?utm_source=ai-automation-engineers_de&utm_campaign=article_referral&utm_medium=portal&utm_content=github-spark-ki-gesteuerte-full-stack-app-entwicklung-fuer-automatisierungs-workflows)
 ---
 *Recherchiert und technisch verifiziert | Stand: 17.11.2025*
 ---
@@ -220,4 +220,4 @@ Wir bieten spezialisierte Workshops für:
 - ✅ KI-Automation mit n8n + Spark
 - ✅ Enterprise-Integration & Best Practices
 - ✅ Custom Automation Stack Design
-[📧 Kontakt zu unserem Workshop-Team](https://workshops.de?utm_source=blog&utm_medium=referral&utm_campaign=article_referral&utm_content=github-spark-ki-gesteuerte-full-stack-app-entwicklung-fuer-automatisierungs-workflows)
+[📧 Kontakt zu unserem Workshop-Team](https://workshops.de?utm_source=ai-automation-engineers_de&utm_campaign=article_referral&utm_medium=portal&utm_content=github-spark-ki-gesteuerte-full-stack-app-entwicklung-fuer-automatisierungs-workflows)

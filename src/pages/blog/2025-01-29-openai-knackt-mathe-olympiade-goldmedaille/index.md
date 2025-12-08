@@ -164,7 +164,7 @@ Du willst tiefer in die Welt der KI-Reasoning eintauchen? Hier sind deine nächs
 
 Die Zukunft der Mathematik - und damit der Wissenschaft - wird gerade neu geschrieben. Und du kannst Teil davon sein.
 
-**[Entdecke unsere KI-Workshops](https://workshops.de?utm_source=blog&utm_medium=referral&utm_campaign=article_referral&utm_content=openai-knackt-mathe-olympiade-goldmedaille)** und lerne, wie du die Power von Reasoning-Modellen für deine Projekte nutzen kannst.
+**[Entdecke unsere KI-Workshops](https://workshops.de?utm_source=ai-automation-engineers_de&utm_campaign=article_referral&utm_medium=portal&utm_content=openai-knackt-mathe-olympiade-goldmedaille)** und lerne, wie du die Power von Reasoning-Modellen für deine Projekte nutzen kannst.
 
 Die Mathematik-Olympiade war erst der Anfang. Die echte Goldmedaille? Die holen wir uns gemeinsam in der Zukunft. 🏆
 

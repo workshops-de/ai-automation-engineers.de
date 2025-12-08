@@ -142,7 +142,7 @@ Claude Memory ist mehr als nur ein nettes Feature - es ist ein fundamentaler Bau
 - 📰 [Offizielle Ankündigung von Anthropic](https://www.anthropic.com/news/memory)
 - 📚 [Claude API Dokumentation](https://docs.anthropic.com/claude/docs)
 - 🔧 [Community n8n Claude Node](https://github.com/n8n-io/n8n-nodes-claude-memory) *(in Entwicklung)*
-- 🎓 [Workshop: AI-gestützte Automation-Workflows](https://workshops.de?utm_source=blog&utm_medium=referral&utm_campaign=article_referral&utm_content=claude-memory-game-changer-fuer-persistente-ai-workflows)
+- 🎓 [Workshop: AI-gestützte Automation-Workflows](https://workshops.de?utm_source=ai-automation-engineers_de&utm_campaign=article_referral&utm_medium=portal&utm_content=claude-memory-game-changer-fuer-persistente-ai-workflows)
 ---
 *Recherchiert mit: Perplexity AI | Stand: 27.10.2025 05:26 Uhr*
 ---

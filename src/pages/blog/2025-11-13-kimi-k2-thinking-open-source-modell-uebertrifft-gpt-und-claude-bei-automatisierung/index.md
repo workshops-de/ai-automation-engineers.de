@@ -192,7 +192,7 @@ Kimi K2 Thinking zeigt, wohin die Reise geht: **Von reaktiven Chatbots zu proakt
 
 - 📚 [GitHub Repository](https://github.com/moonshotai/kimi-k2) (wenn verfügbar)
 
-- 🎓 [AI-Automation Workshop: Building Agentic Systems](https://workshops.de?utm_source=blog&utm_medium=referral&utm_campaign=article_referral&utm_content=kimi-k2-thinking-open-source-modell-uebertrifft-gpt-und-claude-bei-automatisierung)
+- 🎓 [AI-Automation Workshop: Building Agentic Systems](https://workshops.de?utm_source=ai-automation-engineers_de&utm_campaign=article_referral&utm_medium=portal&utm_content=kimi-k2-thinking-open-source-modell-uebertrifft-gpt-und-claude-bei-automatisierung)
 
 - 🔧 [Community Discord für Kimi K2 Entwickler](https://discord.gg/kimi-k2)
 

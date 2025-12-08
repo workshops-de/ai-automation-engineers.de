@@ -113,7 +113,7 @@ Für Automation Engineers eröffnen sich damit neue Rollen als "AI-Agent-Orchest
 - 📰 [Original-Artikel Testing Catalog](https://www.testingcatalog.com/google-prepares-gemini-agent-to-perform-tasks-for-you/)
 - 📚 [Google Gemini Dokumentation](https://cloud.google.com/gemini/docs)
 - 🔧 [Chrome DevTools für Automation](https://developer.chrome.com/docs/devtools/)
-- 🎓 [AI-Automation Workshop auf workshops.de](https://workshops.de?utm_source=blog&utm_medium=referral&utm_campaign=article_referral&utm_content=google-project-jarvis-der-ai-agent-der-web-aufgaben-autonom-erledigt)
+- 🎓 [AI-Automation Workshop auf workshops.de](https://workshops.de?utm_source=ai-automation-engineers_de&utm_campaign=article_referral&utm_medium=portal&utm_content=google-project-jarvis-der-ai-agent-der-web-aufgaben-autonom-erledigt)
 ---
 *Recherchiert mit: Perplexity AI | Stand: 25.10.2024*
 ---

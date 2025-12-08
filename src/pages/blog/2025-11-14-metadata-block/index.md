@@ -99,7 +99,7 @@ Die Zeitersparnis von 70% bei dokumentenlastigen Workflows und die nahtlose Inte
 - 📰 [Google Official Blog: Private AI Compute](https://blog.google/technology/ai/google-private-ai-compute/)
 - 📚 [Google Blog: Private AI Compute Technical Deep Dive](https://blog.google/technology/ai/google-private-ai-compute/)
 - 🔧 [Google Cloud AI Plattform](https://cloud.google.com/ai)
-- 🎓 [Workshop: Enterprise AI Security & Automation](https://workshops.de?utm_source=blog&utm_medium=referral&utm_campaign=article_referral&utm_content=metadata-block)
+- 🎓 [Workshop: Enterprise AI Security & Automation](https://workshops.de?utm_source=ai-automation-engineers_de&utm_campaign=article_referral&utm_medium=portal&utm_content=metadata-block)
 ---
 *Recherchiert mit: Perplexity AI | Stand: 14.11.2025*
 ---

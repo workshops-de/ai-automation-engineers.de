@@ -94,12 +94,12 @@ Erste Praxisberichte zeigen signifikante Verbesserungen bei Geschwindigkeit und 
 ## Quellen & Weiterführende Links
 - 📰 [OpenAI GPT-5.1 Dokumentation](https://platform.openai.com/docs/models/gpt-5-1)
 - 📚 [Offizielle API-Referenz](https://platform.openai.com/docs/api-reference)
-- 🎓 [Workshops zu KI-Integration](https://workshops.de)
+- 🎓 [Workshops zu KI-Integration](https://workshops.de?utm_source=ai-automation-engineers_de&utm_campaign=article_referral&utm_medium=portal&utm_content=gpt-5-1-mit-adaptive-reasoning-80-weniger-tokens-45-minuten-zeitersparnis-taeglich)
 - 🔧 [GPT-5.1 Integration Templates für n8n/Make](https://ai-automation-engineers.de/templates)
 ---
 ## 📋 Technical Review Log
-**Review durchgeführt am**: 24. November 2025, 11:11 Uhr  
-**Review-Status**: ✅ **PASSED WITH CHANGES**  
+**Review durchgeführt am**: 24. November 2025, 11:11 Uhr
+**Review-Status**: ✅ **PASSED WITH CHANGES**
 **Reviewer**: Technical Review Agent
 ### Vorgenommene Änderungen:
 1. **Context Window Größen korrigiert** (Zeilen ~2820-3040)
@@ -117,12 +117,12 @@ Erste Praxisberichte zeigen signifikante Verbesserungen bei Geschwindigkeit und 
    - **Hinweis**: Empfehlung für eigene Benchmarks
    - **Grund**: Realistische Erwartungen setzen
 ### Verifizierte Fakten (via Perplexity & OpenAI Docs):
-✅ **GPT-5.1 existiert** (Release: 12. November 2025)  
-✅ **Adaptive Reasoning Feature** korrekt beschrieben  
-✅ **Modellvarianten** (gpt-5.1-instant, gpt-5.1-thinking) bestätigt  
-✅ **Codex-Varianten** (gpt-5.1-codex, gpt-5.1-codex-mini) bestätigt  
-✅ **24h Prompt Caching** bestätigt  
-❌ **Context Window Größen** nicht offiziell spezifiziert  
+✅ **GPT-5.1 existiert** (Release: 12. November 2025)
+✅ **Adaptive Reasoning Feature** korrekt beschrieben
+✅ **Modellvarianten** (gpt-5.1-instant, gpt-5.1-thinking) bestätigt
+✅ **Codex-Varianten** (gpt-5.1-codex, gpt-5.1-codex-mini) bestätigt
+✅ **24h Prompt Caching** bestätigt
+❌ **Context Window Größen** nicht offiziell spezifiziert
 ❌ **Spezifische Tools** (code_execution, file_reading) nicht offiziell dokumentiert
 ### Verifikations-Quellen:
 - OpenAI Official Blog: https://openai.com/index/gpt-5-1/
@@ -131,14 +131,14 @@ Erste Praxisberichte zeigen signifikante Verbesserungen bei Geschwindigkeit und 
 - MarketTechPost: GPT-5.1 Technical Analysis
 - Perplexity Deep Research (24.11.2025)
 ### Artikel-Bewertung:
-**Technische Korrektheit**: 8.5/10 (nach Korrekturen)  
-**Code-Beispiele**: Valide (mit Hinweisen versehen)  
-**Fakten-Dichte**: Hoch, gut recherchiert  
-**Praxis-Relevanz**: Sehr hoch für Zielgruppe  
+**Technische Korrektheit**: 8.5/10 (nach Korrekturen)
+**Code-Beispiele**: Valide (mit Hinweisen versehen)
+**Fakten-Dichte**: Hoch, gut recherchiert
+**Praxis-Relevanz**: Sehr hoch für Zielgruppe
 **Empfehlung**: ✅ **Artikel ist bereit zur Veröffentlichung**
 **Hinweis für Redaktion**: Der Artikel basiert auf sehr aktuellen Informationen (Release: 12.11.2025). Empfehlung: Nach 2-3 Wochen nochmals prüfen, ob OpenAI weitere technische Details veröffentlicht hat (Context Windows, Tool-Support).
 ---
-**Reviewed by**: Technical Review Agent  
-**Confidence Level**: HIGH  
-**Changes Made**: 6 corrections  
+**Reviewed by**: Technical Review Agent
+**Confidence Level**: HIGH
+**Changes Made**: 6 corrections
 **Facts Verified**: 8 major claims checked

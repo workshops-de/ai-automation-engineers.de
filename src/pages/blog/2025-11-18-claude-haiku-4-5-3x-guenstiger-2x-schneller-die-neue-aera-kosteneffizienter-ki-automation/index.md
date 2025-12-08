@@ -160,7 +160,7 @@ Mit Haiku 4.5's **Vision-Capabilities** (Bildverarbeitung) öffnen sich zusätzl
 - 📰 [Original Anthropic Announcement](https://www.anthropic.com/news/claude-haiku-4-5)
 - 📚 [Anthropic API Documentation](https://docs.anthropic.com)
 - 🔧 [Amazon Bedrock Integration Guide](https://aws.amazon.com/bedrock/)
-- 🎓 [AI & Automation Workshop auf workshops.de](https://workshops.de?utm_source=blog&utm_medium=referral&utm_campaign=article_referral&utm_content=claude-haiku-4-5-3x-guenstiger-2x-schneller-die-neue-aera-kosteneffizienter-ki-automation)
+- 🎓 [AI & Automation Workshop auf workshops.de](https://workshops.de?utm_source=ai-automation-engineers_de&utm_campaign=article_referral&utm_medium=portal&utm_content=claude-haiku-4-5-3x-guenstiger-2x-schneller-die-neue-aera-kosteneffizienter-ki-automation)
 ---
 *Recherchiert mit: Perplexity AI | Stand: 15.10.2025*
 ---

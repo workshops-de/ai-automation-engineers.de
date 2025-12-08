@@ -227,7 +227,7 @@ Die Integration mit Tools wie n8n, Make oder Zapier wird entscheidend sein - hie
 
 - 📚 [EU AI Act Übersicht](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai)
 
-- 🎓 [Workshop: KI-Compliance in der Praxis](https://workshops.de?utm_source=blog&utm_medium=referral&utm_campaign=article_referral&utm_content=urheberpauschale-fuer-ki-training-was-bedeutet-das-fuer-ai-automation-praktiker)
+- 🎓 [Workshop: KI-Compliance in der Praxis](https://workshops.de?utm_source=ai-automation-engineers_de&utm_campaign=article_referral&utm_medium=portal&utm_content=urheberpauschale-fuer-ki-training-was-bedeutet-das-fuer-ai-automation-praktiker)
 
 - 🔗 [Initiative Urheberrecht](https://urheber.info)
 

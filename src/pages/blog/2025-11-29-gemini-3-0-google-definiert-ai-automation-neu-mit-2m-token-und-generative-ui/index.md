@@ -25,7 +25,7 @@ Google hat mit Gemini 3.0 eine neue Ära der AI-gestützten Automation eingeläu
 ### Das Game-Changing Kontextfenster
 Mit **bis zu 1 Million Token** bietet Gemini 3.0 Pro eines der größten Kontextfenster am Markt. Zum Vergleich: GPT-4 Turbo schafft 128.000 Token, Claude 3.5 kommt auf etwa 200.000. Im Workflow bedeutet das:
 - **Komplette Codebases** in einem Prompt analysieren
-- **Hunderte PDFs** gleichzeitig verarbeiten  
+- **Hunderte PDFs** gleichzeitig verarbeiten
 - **Monatelange E-Mail-Verläufe** in einem Durchgang strukturieren
 - **Multi-System-Logs** ohne Chunking auswerten
 Das spart konkret 3-4 Stunden pro Tag bei der Dokumentenverarbeitung, wie erste Enterprise-Kunden berichten.
@@ -35,7 +35,7 @@ Die revolutionärste Neuerung ist die **Generative UI**. Statt nur Text zurückz
 User: "Erstelle ein Dashboard für unsere Sales-Pipeline"
 Gemini 3.0: [Generiert automatisch ein interaktives Dashboard mit:
 - Echtzeit-Grafiken
-- Filterbaren Tabellen  
+- Filterbaren Tabellen
 - Dropdown-Menüs
 - Export-Funktionen]
 ```
@@ -145,15 +145,15 @@ Die Message ist klar: Wer in Enterprise-Automation investiert, kommt an Gemini 3
 - 📰 [Original Google Blog-Artikel](https://blog.google/intl/de-de/unternehmen/technologie/gemini-3-0-launch/)
 - 📚 [Gemini 3.0 Dokumentation](https://ai.google.dev/gemini-3/docs)
 - 🔧 [Vertex AI Getting Started](https://cloud.google.com/vertex-ai/docs/start)
-- 🎓 [AI-Automation Workshops auf workshops.de](https://workshops.de/seminare/ai-automation)
+- 🎓 [AI-Automation Workshops auf workshops.de](https://workshops.de/seminare/ai-automation?utm_source=ai-automation-engineers_de&utm_campaign=article_referral&utm_medium=portal&utm_content=gemini-3-0-google-definiert-ai-automation-neu-mit-2m-token-und-generative-ui)
 - 🚀 [Gemini in AI Studio testen](https://aistudio.google.com)
 - 📊 [Benchmark-Vergleich Gemini vs GPT-4](https://skywork.ai/blog/gemini-3-0-vs-gpt-4-2025-comparison/)
 ---
 *Hinweis: Die genannten Zeitersparnisse und ROI-Zahlen basieren auf Early-Adopter-Berichten und können je nach Use-Case variieren. Für eine individuelle Evaluation empfehlen wir einen Proof-of-Concept mit eigenen Daten.*
 ---
 ## 🔬 Technical Review Log (2025-11-20)
-**Review-Status**: ✅ PASSED WITH CHANGES  
-**Review-Datum**: 20. November 2025, 05:36 Uhr  
+**Review-Status**: ✅ PASSED WITH CHANGES
+**Review-Datum**: 20. November 2025, 05:36 Uhr
 **Reviewed by**: Technical Review Agent (AI-Automation-Engineers.de)
 ### Vorgenommene Korrekturen:
 1. **Kontextfenster korrigiert**:
@@ -201,7 +201,7 @@ Die Message ist klar: Wer in Enterprise-Automation investiert, kommt an Gemini 3
 - Perplexity AI mit Web-Search (20+ Tech-News-Quellen)
 - OpenAI Official Documentation
 - Claude/Anthropic Official Specs
-**Konfidenz-Level**: HIGH  
-**Anzahl Änderungen**: 8 kritische Korrekturen  
+**Konfidenz-Level**: HIGH
+**Anzahl Änderungen**: 8 kritische Korrekturen
 **Review-Severity**: MAJOR (inhaltlich wichtige Fehler, aber keine Security-Issues)
 ---

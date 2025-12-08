@@ -296,4 +296,4 @@ Die Zukunft der AI-Integration ist offen, standardisiert und verdammt aufregend.
 
 ---
 
-*PS: Wenn du tiefer in die Materie einsteigen willst, check unsere MCP-Workshops auf [workshops.de](https://workshops.de?utm_source=blog&utm_medium=referral&utm_campaign=article_referral&utm_content=chatgpt-model-context-protocol-integration). Wir bauen gemeinsam produktionsreife MCP-Server und integrieren sie in echte Business-Workflows. Trust me, es wird episch!*
+*PS: Wenn du tiefer in die Materie einsteigen willst, check unsere MCP-Workshops auf [workshops.de](https://workshops.de?utm_source=ai-automation-engineers_de&utm_campaign=article_referral&utm_medium=portal&utm_content=chatgpt-model-context-protocol-integration). Wir bauen gemeinsam produktionsreife MCP-Server und integrieren sie in echte Business-Workflows. Trust me, es wird episch!*

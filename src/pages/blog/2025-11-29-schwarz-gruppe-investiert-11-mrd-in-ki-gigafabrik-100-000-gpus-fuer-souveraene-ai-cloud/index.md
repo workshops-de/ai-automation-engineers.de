@@ -26,7 +26,7 @@ Für Praktiker im Bereich AI-Automation eröffnen sich hier völlig neue Möglic
 Die Schwarz-Gruppe transformiert sich vom Handelsriesen zum Cloud-Hyperscaler mit beeindruckenden Specs:
 **Infrastructure-as-Code Integration:**
 - Vollständige API-Coverage für Infrastructure Automation
-- Cloud Foundry Support für Container-Orchestrierung  
+- Cloud Foundry Support für Container-Orchestrierung
 - Pay-as-you-go Modell ohne versteckte Kosten
 - STACKIT Calculator für präzise Workflow-Kostenschätzung
 **AI-Services Portfolio (bereits verfügbar):**
@@ -37,7 +37,7 @@ Die Schwarz-Gruppe transformiert sich vom Handelsriesen zum Cloud-Hyperscaler mi
 ## 🚀 Automation-Impact: Was bedeuten 100.000 GPUs für Ihre Workflows?
 Im Workflow bedeutet das eine **Reduktion der AI-Processing-Zeit um Faktor 10-20** im Vergleich zu On-Premise-Lösungen. Die Integration mit bestehenden Automatisierungs-Tools ist bereits heute möglich:
 ### Konkrete Anwendungsfälle für Automation-Profis:
-1. **Document Intelligence Pipelines**: 
+1. **Document Intelligence Pipelines**:
    - OCR + NLP in einem souveränen Umfeld
    - Zeitersparnis: 4-6 Stunden pro 10.000 Dokumente
    - ROI: 250% innerhalb von 6 Monaten
@@ -89,14 +89,14 @@ Die Schwarz-Gruppe beweist: Deutsche Unternehmen können im globalen AI-Rennen m
 ## Quellen & Weiterführende Links
 - 📰 [Original-Artikel beim Handelsblatt](https://www.handelsblatt.com)
 - 📚 [STACKIT Documentation & API Reference](https://docs.stackit.de)
-- 🎓 [AI-Automation Workshops auf workshops.de](https://workshops.de/seminare/ai-automation)
+- 🎓 [AI-Automation Workshops auf workshops.de](https://workshops.de/seminare/ai-automation?utm_source=ai-automation-engineers_de&utm_campaign=article_referral&utm_medium=portal&utm_content=schwarz-gruppe-investiert-11-mrd-in-ki-gigafabrik-100-000-gpus-fuer-souveraene-ai-cloud)
 - 🔧 [STACKIT Calculator für Kostenschätzung](https://stackit.de/calculator)
 - 🏗️ [Schwarz Digits Pressemitteilung zum Rechenzentrum](https://schwarz-digits.de/presse)
 ---
 ## ✅ Technical Review Log vom 2025-11-24
 **Review-Status**: PASSED_WITH_CHANGES
 ### Vorgenommene Änderungen:
-1. **API Endpoint korrigiert**: `https://api.stackit.de/v1` → `https://docs.api.stackit.cloud` 
+1. **API Endpoint korrigiert**: `https://api.stackit.de/v1` → `https://docs.api.stackit.cloud`
    - **Grund**: Verifiziert via STACKIT API Dokumentation und GitHub OpenAPI Specs
    - **Quelle**: https://docs.api.stackit.cloud & https://github.com/stackitcloud/stackit-api-specifications
 2. **Region-Bezeichnung angepasst**: `eu-de-1` → `eu01`
@@ -128,8 +128,8 @@ Die Schwarz-Gruppe beweist: Deutsche Unternehmen können im globalen AI-Rennen m
 - **API Endpoints regelmäßig prüfen**: STACKIT entwickelt sich schnell, neue Services werden laufend ergänzt
 - **Pricing-Updates**: Preismodelle können sich ändern, STACKIT Calculator als Referenz nutzen
 - **Partnership-Monitoring**: Neue Kooperationen (z.B. Google Cloud Partnership Nov 2024) im Auge behalten
-**Review Konfidenz-Level**: HIGH (95%)  
-**Reviewed by**: Technical Review Agent  
-**Review Duration**: Umfassende Verifikation mit Perplexity + direkter API-Dokumentationsprüfung  
+**Review Konfidenz-Level**: HIGH (95%)
+**Reviewed by**: Technical Review Agent
+**Review Duration**: Umfassende Verifikation mit Perplexity + direkter API-Dokumentationsprüfung
 **Status für Publikation**: ✅ READY TO PUBLISH
 ---

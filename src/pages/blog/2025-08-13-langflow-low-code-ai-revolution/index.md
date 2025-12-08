@@ -235,7 +235,7 @@ Die AI-Revolution braucht nicht nur bessere Modelle. Sie braucht bessere Tools, 
 
 Und wenn du richtig durchstarten willst? Wir haben einen Workshop "**From Zero to AI Hero mit Langflow**" - dort bauen wir gemeinsam Production-Ready AI Agents. In 4 Stunden vom Langflow-Newbie zum Flow-Architekt.
 
-**[Jetzt Workshop buchen](https://workshops.de?utm_source=blog&utm_medium=referral&utm_campaign=article_referral&utm_content=langflow-low-code-ai-revolution)**
+**[Jetzt Workshop buchen](https://workshops.de?utm_source=ai-automation-engineers_de&utm_campaign=article_referral&utm_medium=portal&utm_content=langflow-low-code-ai-revolution)**
 
 Happy Flowing! Und remember: Die besten AI-Lösungen entstehen nicht aus perfektem Code, sondern aus schnellen Iterationen. Langflow macht genau das möglich. 🚀
 

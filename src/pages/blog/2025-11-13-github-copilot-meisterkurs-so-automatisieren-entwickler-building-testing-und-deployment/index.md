@@ -257,7 +257,7 @@ Die Investition von $10/Monat amortisiert sich bereits nach 2-3 eingesparten Arb
 
 - 🔧 [n8n GitHub Integration Guide](https://n8n.io/integrations/github/)
 
-- 🎓 [AI-Automation Workshop: KI-gestützte Entwicklung](https://workshops.de?utm_source=blog&utm_medium=referral&utm_campaign=article_referral&utm_content=github-copilot-meisterkurs-so-automatisieren-entwickler-building-testing-und-deployment)
+- 🎓 [AI-Automation Workshop: KI-gestützte Entwicklung](https://workshops.de?utm_source=ai-automation-engineers_de&utm_campaign=article_referral&utm_medium=portal&utm_content=github-copilot-meisterkurs-so-automatisieren-entwickler-building-testing-und-deployment)
 
 - 💡 [Model Context Protocol Explained](https://xebia.com/blog/ai-agents-with-mcp/)
 
