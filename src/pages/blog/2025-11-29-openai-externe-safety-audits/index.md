@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI-Safety', 'OpenAI', 'Automation', 'Testing', 'Preparedness-Framework']
 category: 'News'
 readTime: '6 min read'
-image: 'https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/6173663/pexels-photo-6173663.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 source: 'https://openai.com/index/strengthening-safety-with-external-testing/'
 portal: 'AI-AUTOMATION-ENGINEERS.DE'
 spreadsheetRow: '167'

@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Enterprise', 'Automation', 'Tools', 'Europe']
 category: 'AI Trends'
 readTime: '6 min read'
-image: 'https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/319917/pexels-photo-319917.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** Mistral AI's Le Chat unterstützt ab sofort externe Enterprise-Tools wie Outlook, GitHub und Atlassian via MCP-Konnektoren. Mit neuen Features wie der Memories-Funktion, Voice Mode und Deep Research Mode schließt die französische ChatGPT-Alternative deutlich zur US-Konkurrenz auf.

@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['OpenAI', 'GPT-5', 'AI Trends', 'Machine Learning', 'NLP']
 category: 'AI Trends'
 readTime: '8 min read'
-image: 'https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/4498481/pexels-photo-4498481.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 
