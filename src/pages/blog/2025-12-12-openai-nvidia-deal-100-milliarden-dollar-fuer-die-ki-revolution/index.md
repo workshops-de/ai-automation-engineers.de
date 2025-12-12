@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI-Automation', 'OpenAI', 'Nvidia', 'KI-Infrastruktur', 'Investment']
 category: 'News'
 readTime: '6 min read'
-image: 'https://images.pexels.com/photos/8438922/pexels-photo-8438922.jpeg'
+image: 'https://images.pexels.com/photos/4792726/pexels-photo-4792726.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 source: 'https://nachrichten.handelsblatt.com/openai-nvidia-deal'
 portal: 'ai-automation-engineers.de'
 spreadsheetRow: '184'

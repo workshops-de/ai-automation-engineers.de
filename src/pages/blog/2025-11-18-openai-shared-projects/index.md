@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Automation', 'Technology']
 category: 'Technology'
 readTime: '5 min read'
-image: 'https://images.pexels.com/photos/7563687/pexels-photo-7563687.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.pexels.com/photos/3184325/pexels-photo-3184325.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
 **TL;DR:** OpenAI launcht Shared Projects für ChatGPT - Teams können jetzt gemeinsam in einem KI-Workspace arbeiten, Dateien teilen, Custom Instructions projektspezifisch festlegen und einen persistenten Kontext aufbauen. Verfügbar für alle Nutzer ab sofort, mit abgestuften Limits je nach Abo-Modell.

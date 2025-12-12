@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI-Automation', 'Google-Gemini', 'LLM', 'Workflow-Automation', 'News']
 category: 'News'
 readTime: '6 min read'
-image: 'https://images.pexels.com/photos/8438918/pexels-photo-8438918.jpeg'
+image: 'https://images.pexels.com/photos/5473950/pexels-photo-5473950.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 source: 'https://www.xing.com/m/0LRH2Baaxc4IAbrQIo28AZ'
 portal: 'ai-automation-engineers.de'
 spreadsheetRow: '174'
