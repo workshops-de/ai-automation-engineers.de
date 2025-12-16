@@ -10,20 +10,6 @@ readTime: '5 min read'
 image: 'https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
-layout: '../../../layouts/BlogLayout.astro'
-title: 'MCP wird Open Source: Anthropic spendet Model Context Protocol an Linux Foundation'
-description: 'Das Model Context Protocol (MCP) wird zum neutralen Standard für AI-Agenten. Anthropic, OpenAI und Block gründen die Agentic AI Foundation für herstellerunabhängige Entwicklung.'
-pubDate: '2025-12-13'
-author: 'Robin Böhm'
-tags: ['MCP', 'AI-Agents', 'Linux-Foundation', 'Open-Source', 'Anthropic']
-category: 'News'
-readTime: '6 min read'
-image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg'
-source: 'https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation'
-portal: 'AI-AUTOMATION-ENGINEERS.DE'
-spreadsheetRow: '224'
----
-# MCP wird Open Source: Anthropic spendet Model Context Protocol an Linux Foundation
 **TL;DR:** Anthropic übergibt das Model Context Protocol (MCP) an die neu gegründete Agentic AI Foundation unter dem Dach der Linux Foundation. Gemeinsam mit OpenAI und Block entsteht damit ein herstellerneutraler Standard für die Verbindung von AI-Agenten mit Tools und Datenquellen – das spart konkret Integrationszeit und löst das N×M-Integrationsproblem für Automatisierungs-Engineers.
 Das Model Context Protocol (MCP) macht den nächsten großen Schritt: Gut ein Jahr nach seiner Einführung durch Anthropic (25. November 2024) wird es zur vendor-neutralen Open Source Technologie. Die neu gegründete Agentic AI Foundation (AAIF), gehostet von der Linux Foundation, übernimmt die Governance und treibt die Weiterentwicklung als Community-Projekt voran.
 ## Die wichtigsten Punkte
