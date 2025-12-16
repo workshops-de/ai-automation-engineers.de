@@ -12,7 +12,7 @@ source: 'https://nachrichten.handelsblatt.com/openai-nvidia-deal'
 portal: 'ai-automation-engineers.de'
 spreadsheetRow: '184'
 ---
-# OpenAI-Nvidia Deal: 100 Milliarden Dollar verändern die KI-Landschaft grundlegend
+
 **TL;DR:** Nvidia plant bis zu 100 Milliarden Dollar in OpenAI zu investieren, um 10 Gigawatt KI-Rechenzentren aufzubauen. Der Deal ist noch nicht finalisiert, würde aber die verfügbare Rechenleistung massiv erweitern – mit erheblichen Auswirkungen auf Automatisierungs-Workflows und KI-Integration.
 Die KI-Industrie steht vor einem historischen Wendepunkt: Nvidia und OpenAI haben eine strategische Partnerschaft angekündigt, die mit einem Investment von bis zu 100 Milliarden Dollar die größte KI-Infrastruktur-Initiative der Geschichte darstellt. Für Automatisierungs-Engineers und KI-Praktiker bedeutet das einen fundamentalen Wandel in der verfügbaren Rechenleistung und damit verbundenen Möglichkeiten.
 ## Die wichtigsten Punkte

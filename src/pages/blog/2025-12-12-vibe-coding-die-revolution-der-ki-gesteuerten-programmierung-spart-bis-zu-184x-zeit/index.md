@@ -8,21 +8,7 @@ tags: ['AI', 'Automation', 'Technology']
 category: 'Technology'
 readTime: '5 min read'
 image: 'https://images.pexels.com/photos/17775083/pexels-photo-17775083.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
----
 
-layout: '../../../layouts/BlogLayout.astro'
-title: 'Vibe Coding: Wie KI das Programmieren revolutioniert'
-description: 'Entdecke wie Vibe Coding mit KI bis zu 184x schnellere Entwicklung ermöglicht. Von natürlicher Sprache zu fertigem Code - die Zukunft der Automatisierung ist da.'
-pubDate: '2025-12-10'
-author: 'Robin Böhm'
-tags: ['AI-Automation', 'Vibe-Coding', 'KI-Programmierung', 'Workflow-Automation', 'LLM']
-category: 'News'
-readTime: '6 min read'
-image: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb'
-source: 'https://www.computerwoche.de/ki-programmieren-vibe-coding'
-portal: 'AI-AUTOMATION-ENGINEERS.DE'
-spreadsheetRow: '206'
----
 # Vibe Coding: Die Revolution der KI-gesteuerten Programmierung spart bis zu 184x Zeit
 **TL;DR:** Vibe Coding transformiert die Softwareentwicklung radikal - statt Code zu schreiben, beschreiben Entwickler ihre Ideen in natürlicher Sprache. KI-Modelle generieren daraus funktionsfähigen Code. Erste Anwender berichten von einer 184-fachen Beschleunigung ihrer Entwicklungsprozesse.
 Die Softwareentwicklung erlebt gerade ihren größten Paradigmenwechsel seit der Erfindung der höheren Programmiersprachen. **Vibe Coding**, ein von OpenAI-Mitgründer Andrej Karpathy geprägter Begriff, markiert den Übergang von manueller Code-Erstellung zu KI-gestützter Programmierung durch natürliche Sprache. Dieser Ansatz verspricht nicht weniger als die Demokratisierung der Softwareentwicklung - und liefert bereits heute messbare Ergebnisse für Automatisierungs-Engineers.
