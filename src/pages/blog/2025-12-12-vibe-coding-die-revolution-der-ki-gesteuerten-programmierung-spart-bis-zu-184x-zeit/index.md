@@ -8,6 +8,7 @@ tags: ['AI', 'Automation', 'Technology']
 category: 'Technology'
 readTime: '5 min read'
 image: 'https://images.pexels.com/photos/17775083/pexels-photo-17775083.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+---
 
 # Vibe Coding: Die Revolution der KI-gesteuerten Programmierung spart bis zu 184x Zeit
 **TL;DR:** Vibe Coding transformiert die Softwareentwicklung radikal - statt Code zu schreiben, beschreiben Entwickler ihre Ideen in natürlicher Sprache. KI-Modelle generieren daraus funktionsfähigen Code. Erste Anwender berichten von einer 184-fachen Beschleunigung ihrer Entwicklungsprozesse.

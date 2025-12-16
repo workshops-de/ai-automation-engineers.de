@@ -8,6 +8,7 @@ tags: ['AI', 'Automation', 'Technology']
 category: 'Technology'
 readTime: '5 min read'
 image: 'https://images.pexels.com/photos/5053850/pexels-photo-5053850.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+---
 
 # OpenAI: ChatGPT wird zur Shopping-KI – ohne Werbung, aber mit System
 **TL;DR:** OpenAI hat im November 2025 ChatGPT Shopping mit Instant Checkout und dem Open-Source Agentic Commerce Protocol (Apache 2.0 Lizenz) gelauncht. Keine bezahlte Werbung, organische Produktsuche und direkte Integration mit Walmart, Target und weiteren Partnern. Der Gamechanger für AI-Commerce-Automatisierung ist bereits verfügbar.
