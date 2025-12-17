@@ -10,19 +10,6 @@ readTime: '5 min read'
 image: 'https://images.pexels.com/photos/4049632/pexels-photo-4049632.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
-layout: '../../../layouts/BlogLayout.astro'
-title: 'Flux von Black Forest Labs: Deutschlands KI-Start-up revolutioniert die automatisierte Bildgenerierung'
-description: 'Das Freiburger Start-up Black Forest Labs überholt mit seiner Bild-KI Flux globale Tech-Giganten. Erfahre, wie Du Flux in Deine Automatisierungs-Workflows integrierst.'
-pubDate: '2025-12-09'
-author: 'Robin Böhm'
-tags: ['AI-Automation', 'Flux', 'Black Forest Labs', 'Bildgenerierung', 'API-Integration']
-category: 'News'
-readTime: '6 min read'
-image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg'
-source: 'https://www.wiwo.de'
-portal: 'AI-AUTOMATION-ENGINEERS.DE'
-spreadsheetRow: '196'
----
 # Flux von Black Forest Labs: Deutschlands KI-Start-up revolutioniert die automatisierte Bildgenerierung
 **TL;DR:** Black Forest Labs aus Freiburg ist mit 3,25 Milliarden US-Dollar Deutschlands wertvollstes KI-Start-up. Ihre Bild-KI Flux übertrifft in Qualität und Geschwindigkeit etablierte Lösungen von OpenAI und Google - und lässt sich nahtlos in Make, n8n und andere Automatisierungs-Tools integrieren.
 Ein deutsches Start-up zeigt den Tech-Giganten aus dem Silicon Valley, wie moderne KI-Bildgenerierung funktioniert: Black Forest Labs aus Freiburg hat mit Flux eine Bild-KI entwickelt, die nicht nur technisch überzeugt, sondern auch praktisch in Automatisierungs-Workflows integrierbar ist. Das von den Stable Diffusion-Schöpfern Robin Rombach, Andreas Blattmann und Patrick Esser gegründete Unternehmen sammelte in Rekordzeit 300 Millionen US-Dollar Risikokapital ein.

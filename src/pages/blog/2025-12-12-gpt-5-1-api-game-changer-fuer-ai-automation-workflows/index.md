@@ -10,19 +10,6 @@ readTime: '5 min read'
 image: 'https://images.pexels.com/photos/5054211/pexels-photo-5054211.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
-layout: '../../../layouts/BlogLayout.astro'
-title: 'GPT-5.1 API: Game-Changer für AI-Automation Workflows'
-description: 'OpenAI launcht GPT-5.1 mit adaptivem Reasoning, No-Reasoning-Modus und erweiterten Tool-Features. Bis zu 50% schnellere Antwortzeiten für Automation-Tasks.'
-pubDate: '2024-11-22'
-author: 'Robin Böhm'
-tags: ['OpenAI', 'GPT-5.1', 'API', 'AI-Automation', 'LLM']
-category: 'News'
-readTime: '6 min read'
-image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995'
-source: 'https://platform.openai.com/docs/guides/latest-model'
-portal: 'ai-automation-engineers.de'
-spreadsheetRow: '145'
----
 # GPT-5.1 API: Game-Changer für AI-Automation Workflows
 **TL;DR:** OpenAI launcht GPT-5.1 mit revolutionärem adaptivem Reasoning, einem blitzschnellen No-Reasoning-Modus und erweiterten Tool-Features. Für AI-Automation-Engineers bedeutet das: Deutlich schnellere Antwortzeiten bei einfachen Tasks durch optimierte Ressourcennutzung, verbesserte Tool-Integration und erweiterte Prompt-Caching-Mechanismen für Kostenreduktion.
 OpenAI hat mit GPT-5.1 das neueste Update seiner Flaggschiff-Modellfamilie in der API veröffentlicht. Das Modell bringt signifikante Verbesserungen für Automation-Workflows, erweiterte Tool-Integration und eine intelligentere Ressourcennutzung, die speziell für Production-Deployments optimiert wurde.

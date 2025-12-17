@@ -10,19 +10,6 @@ readTime: '5 min read'
 image: 'https://images.pexels.com/photos/3778958/pexels-photo-3778958.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
-layout: '../../../layouts/BlogLayout.astro'
-title: 'Nadella: „KI ist das neue Betriebssystem" - Microsofts 120-Milliarden-Wette auf Copilot'
-description: 'Microsoft CEO Satya Nadella investiert 120 Milliarden in KI-Infrastruktur und sieht Copilot als Revolution der Arbeitswelt - mit konkreten ROI-Zahlen'
-pubDate: '2024-12-01'
-author: 'Robin Böhm'
-tags: ['AI-Automation', 'Microsoft-Copilot', 'Enterprise-KI', 'Workflow-Automatisierung', 'Deutschland']
-category: 'News'
-readTime: '6 min read'
-image: 'https://images.unsplash.com/photo-1633419461186-7d40a38105ec'
-source: 'https://www.xing.com/m/0LRH2Baaxc4IAbrQIo28AH'
-portal: 'ai-automation-engineers.de'
-spreadsheetRow: '173'
----
 # Nadella: „KI ist das neue Betriebssystem" - Microsofts 120-Milliarden-Wette auf Copilot
 **TL;DR:** Microsoft CEO Satya Nadella positioniert sich als KI-Optimist und kündigt 120 Milliarden Dollar Investitionen in KI-Infrastruktur für 2025 an. Mit neuen Copilot-Features wie autonomen Agents und Custom Copilots wird die Vision vom „KI-Betriebssystem" konkret - besonders für den deutschen Markt mit souveräner Cloud-Lösung.
 Während die Diskussion um eine mögliche „KI-Blase" in der Tech-Branche immer lauter wird, setzt Microsoft-CEO Satya Nadella ein klares Zeichen: Der Software-Gigant plant für 2025 Investitionen von 120 Milliarden US-Dollar in KI-Infrastruktur - das entspricht etwa einem Sechstel mehr als ursprünglich geplant. In einem aktuellen Interview positioniert sich Nadella klar gegen Skeptiker und bezeichnet KI als „das neue Betriebssystem des modernen Arbeitsplatzes".
