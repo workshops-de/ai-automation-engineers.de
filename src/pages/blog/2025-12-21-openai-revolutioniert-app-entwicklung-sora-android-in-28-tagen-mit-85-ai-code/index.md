@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI-Automation', 'Codex', 'App-Development', 'OpenAI', 'Workflow-Optimierung']
 category: 'News'
 readTime: '6 min read'
-image: 'https://www.pexels.com/photo/person-holding-black-android-smartphone-1181355/'
+image: 'https://images.pexels.com/photos/7698835/pexels-photo-7698835.jpeg'
 source: 'https://openai.com/index/shipping-sora-for-android-with-codex'
 portal: 'AI-AUTOMATION-ENGINEERS.DE'
 spreadsheetRow: '270'
