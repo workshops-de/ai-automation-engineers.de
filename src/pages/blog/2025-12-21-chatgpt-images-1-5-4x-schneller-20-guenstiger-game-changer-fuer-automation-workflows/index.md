@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI-Automation', 'OpenAI', 'GPT-Image', 'API', 'Workflow-Automation']
 category: 'News'
 readTime: '6 min read'
-image: 'https://images.unsplash.com/photo-1527443224154-d2e353a0eeb8'
+image: 'https://images.pexels.com/photos/35262589/pexels-photo-35262589.jpeg'
 source: 'https://openai.com/index/new-chatgpt-images-is-here/'
 portal: 'AI-AUTOMATION-ENGINEERS.DE'
 spreadsheetRow: '243'
