@@ -10,20 +10,6 @@ readTime: '5 min read'
 image: 'https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
-layout: '../../../layouts/BlogLayout.astro'
-title: 'GPT-5.2: OpenAIs Game-Changer für Automatisierungs-Workflows mit 256k Context'
-description: 'GPT-5.2 bringt revolutionäres Tool-Calling, 256k Token Context und weniger Halluzinationen. So integrierst du es in deine Automation-Pipelines.'
-pubDate: '2025-12-20'
-author: 'Robin Böhm'
-tags: ['AI-Automation', 'GPT-5.2', 'OpenAI', 'Tool-Calling', 'Long-Context']
-category: 'News'
-readTime: '7 min read'
-image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995'
-source: 'https://openai.com/index/introducing-gpt-5-2/'
-portal: 'AI-AUTOMATION-ENGINEERS.DE'
-spreadsheetRow: '226'
----
-# GPT-5.2: OpenAIs Game-Changer für Automatisierungs-Workflows mit 256k Context Window
 **TL;DR:** OpenAI hat GPT-5.2 veröffentlicht – das fortschrittlichste Modell für agentische Automatisierung mit 256k Token Context, deutlich verbessertem Tool-Calling und drastisch reduzierten Halluzinationen. Für Automatisierungs-Enthusiasten bedeutet das robustere Multi-Step-Workflows und zuverlässigere Tool-Integrationen.
 OpenAI hat am 11. Dezember 2025 mit GPT-5.2 sein bisher fortschrittlichstes Modell für agentische Anwendungen und Enterprise-Automatisierung vorgestellt. Das neue Flagship-Modell richtet sich gezielt an Entwickler und Automatisierungs-Experten, die komplexe, mehrstufige Workflows mit hoher Zuverlässigkeit umsetzen wollen.
 ## Die wichtigsten Punkte

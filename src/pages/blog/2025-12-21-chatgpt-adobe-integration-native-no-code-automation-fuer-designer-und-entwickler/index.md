@@ -10,20 +10,6 @@ readTime: '5 min read'
 image: 'https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
-layout: '../../../layouts/BlogLayout.astro'
-title: 'ChatGPT + Adobe Integration: Native No-Code Automation für Designer und Entwickler'
-description: 'Adobe bringt Photoshop, Express und Acrobat direkt in ChatGPT. Workflows automatisieren ohne Code – Zeit sparen, Effizienz steigern.'
-pubDate: '2025-12-20'
-author: 'Robin Böhm'
-tags: ['AI-Automation', 'ChatGPT', 'Adobe', 'No-Code', 'Workflow-Automation']
-category: 'News'
-readTime: '6 min read'
-image: 'https://images.unsplash.com/photo-1611162617474-5b21e879e113'
-source: 'https://www.theverge.com/news/841369/chatgpt-apps-adobe-photoshop-acrobat-express'
-portal: 'ai-automation-engineers.de'
-spreadsheetRow: '233'
----
-# ChatGPT + Adobe Integration: Native No-Code Automation für Designer und Entwickler
 **TL;DR:** Adobe hat Photoshop, Express und Acrobat als native Apps in ChatGPT integriert. Bildbearbeitung, Design-Erstellung und PDF-Management funktionieren jetzt komplett per Text-Prompt – kostenlos und ohne Adobe-Abo. Das kann erhebliche Zeitersparnis bei Standard-Workflows bringen (bis zu 70-80% in bestimmten Szenarien).
 Adobe macht ernst mit KI-Automatisierung: Ab sofort können ChatGPT-Nutzer weltweit auf Photoshop, Adobe Express und Acrobat direkt im Chat zugreifen. Was bedeutet das für Automatisierungs-Enthusiasten? Eine neue Dimension von No-Code Workflows, die klassische Automatisierungs-Tools wie Zapier und Make ergänzen – und in manchen Bereichen sogar übertreffen.
 ## Die wichtigsten Punkte

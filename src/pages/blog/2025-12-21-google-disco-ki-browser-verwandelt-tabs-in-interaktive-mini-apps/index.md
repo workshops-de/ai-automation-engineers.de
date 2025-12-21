@@ -12,7 +12,7 @@ source: 'https://labs.google/disco'
 portal: 'ai-automation-engineers.de'
 spreadsheetRow: '238'
 ---
-# Google Disco: Der KI-Browser, der aus Tabs automatisch interaktive Apps zaubert
+
 **TL;DR:** Google Labs launcht Disco - einen experimentellen Browser mit GenTabs-Feature, das mittels Gemini 3 offene Browser-Tabs automatisch in maßgeschneiderte, interaktive Web-Applikationen verwandelt. Kein Code nötig, 100% Zeitersparnis bei komplexen Recherche-Workflows.
 Google hat am 11. Dezember 2025 mit Disco einen experimentellen Browser vorgestellt, der die Art, wie wir mit dem Web arbeiten, fundamental verändern könnte. Statt dutzende Tabs manuell zu jonglieren, generiert die KI-gestützte GenTabs-Funktion automatisch interaktive Single-Page-Applications aus Ihren offenen Tabs - powered by Gemini 3, Googles fortschrittlichstem KI-Modell.
 ## Die wichtigsten Punkte
