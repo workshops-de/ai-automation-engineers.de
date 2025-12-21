@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI-Automation', 'Claude', 'Enterprise-AI', 'Accenture', 'Anthropic']
 category: 'News'
 readTime: '6 min read'
-image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995'
+image: 'https://images.unsplash.com/photo-1522075469751-3a6694fb2f61'
 source: 'https://www.anthropic.com/news/anthropic-accenture-partnership'
 portal: 'AI-AUTOMATION-ENGINEERS.DE'
 spreadsheetRow: '274'

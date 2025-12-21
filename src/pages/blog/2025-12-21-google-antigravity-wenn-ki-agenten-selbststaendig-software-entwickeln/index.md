@@ -8,22 +8,9 @@ tags: ['AI', 'Automation', 'Technology']
 category: 'Technology'
 readTime: '5 min read'
 image: 'https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+
 ---
 
-layout: '../../../layouts/BlogLayout.astro'
-title: 'Google Antigravity: KI-Agenten übernehmen die Entwicklung'
-description: 'Google revolutioniert mit Antigravity die Softwareentwicklung - autonome KI-Agenten automatisieren komplette Workflows vom Code bis zum Testing'
-pubDate: '2025-11-19'
-author: 'Robin Böhm'
-tags: ['AI-Automation', 'Google', 'IDE', 'Gemini-3', 'Agentic-AI']
-category: 'News'
-readTime: '6 min read'
-image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995'
-source: 'https://antigravity.google/blog/introducing-google-antigravity'
-portal: 'ai-automation-engineers.de'
-spreadsheetRow: '130'
----
-# Google Antigravity: Wenn KI-Agenten selbstständig Software entwickeln
 **TL;DR:** Google launcht mit Antigravity eine revolutionäre IDE, in der KI-Agenten autonom Code schreiben, testen und deployen. Die auf VS Code basierende Plattform nutzt Gemini 3 Pro und ermöglicht parallele Entwicklungs-Workflows mit direktem Zugriff auf Editor, Terminal und Browser - eine Game-Changer für Automatisierungs-Engineers.
 Google hat am 18. November 2025 mit **Google Antigravity** eine bahnbrechende Entwicklungsumgebung vorgestellt, die weit über bisherige AI-Coding-Assistenten hinausgeht. Statt nur Code-Vervollständigungen anzubieten, übernehmen hier autonome KI-Agenten komplette Entwicklungsprozesse - von der Planung über die Implementierung bis zum Testing. Für AI-Automation Engineers bedeutet das einen Quantensprung in der Workflow-Automatisierung.
 ## Die wichtigsten Punkte

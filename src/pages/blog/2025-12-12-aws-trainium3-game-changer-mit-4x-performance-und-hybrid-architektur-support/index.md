@@ -10,20 +10,6 @@ readTime: '5 min read'
 image: 'https://images.pexels.com/photos/5052851/pexels-photo-5052851.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
 ---
 
-layout: '../../../layouts/BlogLayout.astro'
-title: 'AWS Trainium3: 4x Performance-Boost für KI-Workloads'
-description: 'AWS Trainium3 UltraServer liefert 4x mehr Leistung, 40% bessere Effizienz und revolutionäre NVLink-Kompatibilität für hybride AI-Infrastrukturen'
-pubDate: '2025-12-06'
-author: 'Robin Böhm'
-tags: ['AWS', 'AI-Chips', 'Trainium3', 'KI-Infrastructure', 'Cloud-AI']
-category: 'News'
-readTime: '7 min read'
-image: 'https://images.unsplash.com/photo-1620712943543-bcc4688e7485'
-source: 'https://techcrunch.com/2025/12/02/amazon-releases-an-impressive-new-ai-chip-and-teases-a-nvidia-friendly-roadmap/'
-portal: 'AI-AUTOMATION-ENGINEERS.DE'
-spreadsheetRow: '193'
----
-# AWS Trainium3: Game-Changer mit 4x Performance und Hybrid-Architektur-Support
 **TL;DR:** AWS launcht den Trainium3 UltraServer mit beeindruckenden 4x mehr Performance vs. Trainium2, 144GB HBM3e Speicher pro Chip und verbesserter Orchestrierung für hybride Multi-Accelerator-Architekturen. Das spart konkret 40% Energiekosten und reduziert Training-Zeiten von Monaten auf Wochen.
 Amazon Web Services hat mit dem Trainium3 UltraServer einen echten Meilenstein in der KI-Infrastruktur vorgestellt. Der neue AI-Accelerator verspricht nicht nur massive Performance-Verbesserungen gegenüber dem Vorgänger, sondern öffnet erstmals die Tür zu hybriden Nvidia-AWS Architekturen – ein Paradigmenwechsel für Enterprise AI-Workloads.
 ## Die wichtigsten Punkte
