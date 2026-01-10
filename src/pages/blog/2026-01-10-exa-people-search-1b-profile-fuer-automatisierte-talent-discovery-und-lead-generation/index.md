@@ -136,6 +136,7 @@ Die Kombination aus semantischer Suche, globaler Coverage und developer-first AP
 - 🔬 [Exa People Search Benchmarks](https://exa.ai/blog/people-search-benchmark)
 - 🤖 [Apify Exa People Search Actor](https://apify.com/fantastic-jobs/exa-ai-people-search)
 - 🎓 [Mehr zu API-Automatisierung auf workshops.de](https://workshops.de)
+
 **Verification Sources verwendet**:
 - Exa Official Changelog (docs.exa.ai)
 - Exa Blog Posts (exa.ai/blog)
