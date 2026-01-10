@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI-Automation', 'Autonomous-Driving', 'End-to-End-AI', 'Computer-Vision', 'Rivian']
 category: 'News'
 readTime: '6 min read'
-image: 'https://images.pexels.com/photos/17483868/pexels-photo-17483868/free-photo-of-an-artist-s-illustration-of-artificial-intelligence-ai-this-image-represents-the-role-of-ai-in-computer-optimisation-for-reduced-energy-consumption-it-was-created-by-linus-zoll-as-part.png'
+image: 'https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?auto=format&fit=crop&w=1600&q=80'
 source: 'https://stories.rivian.com/software-update-2025-46'
 portal: 'ai-automation-engineers.de'
 spreadsheetRow: '331'
