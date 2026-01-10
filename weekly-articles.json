@@ -1,0 +1,1422 @@
+{
+  "generated": "2025-12-26T08:34:14.755Z",
+  "summary": {
+    "total": 30,
+    "dateRange": {
+      "start": "2025-12-19",
+      "end": "2025-12-26",
+      "startObj": "2025-12-19T08:34:14.754Z",
+      "endObj": "2025-12-26T08:34:14.754Z"
+    },
+    "categories": {
+      "AI-Automation": {
+        "count": 23,
+        "articles": [
+          {
+            "filename": "2025-12-21-adobe-firefly-prompt-basiertes-video-editing-revolutioniert-content-workflows",
+            "date": "2025-12-21",
+            "title": "Adobe Firefly: Prompt-basiertes Video-Editing revolutioniert Content-Workflows",
+            "description": "Adobe Firefly ermöglicht Video-Bearbeitung per Text-Prompt, integriert FLUX.2 & Topaz - bis zu 80% Zeitersparnis in Video-Pipelines",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2025-12-21-adobe-firefly-prompt-basiertes-video-editing-revolutioniert-content-workflows/",
+            "slug": "2025-12-21-adobe-firefly-prompt-basiertes-video-editing-revolutioniert-content-workflows"
+          },
+          {
+            "filename": "2025-12-21-android-xr-googles-smart-glasses-revolution-mit-gemini-ai-3-varianten-fuer-2026",
+            "date": "2025-12-21",
+            "title": "Android XR: Googles Smart Glasses Revolution mit Gemini AI - 3 Varianten für 2026",
+            "description": "Google präsentiert Android XR Smart Glasses mit Gemini-Integration. Drei Varianten (AI, Display, Wired) revolutionieren Workflow-Automatisierung ab 2026.",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2025-12-21-android-xr-googles-smart-glasses-revolution-mit-gemini-ai-3-varianten-fuer-2026/",
+            "slug": "2025-12-21-android-xr-googles-smart-glasses-revolution-mit-gemini-ai-3-varianten-fuer-2026"
+          },
+          {
+            "filename": "2025-12-21-chatgpt-adobe-integration-native-no-code-automation-fuer-designer-und-entwickler",
+            "date": "2025-12-21",
+            "title": "ChatGPT + Adobe Integration: Native No-Code Automation für Designer und Entwickler",
+            "description": "ChatGPT + Adobe Integration: Native No-Code Automation für Designer und Entwickler",
+            "category": "Technology",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "5 min read",
+            "url": "/blog/2025-12-21-chatgpt-adobe-integration-native-no-code-automation-fuer-designer-und-entwickler/",
+            "slug": "2025-12-21-chatgpt-adobe-integration-native-no-code-automation-fuer-designer-und-entwickler"
+          },
+          {
+            "filename": "2025-12-21-chatgpt-images-1-5-4x-schneller-20-guenstiger-game-changer-fuer-automation-workflows",
+            "date": "2025-12-21",
+            "title": "ChatGPT Images 1.5: 4x schneller, 20% günstiger – Game-Changer für Automation Workflows",
+            "description": "OpenAIs neues Bildmodell revolutioniert KI-Bildgenerierung mit 4-facher Geschwindigkeit, 20% niedrigeren API-Kosten und perfektem Text-Rendering für Automatisierung",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2025-12-21-chatgpt-images-1-5-4x-schneller-20-guenstiger-game-changer-fuer-automation-workflows/",
+            "slug": "2025-12-21-chatgpt-images-1-5-4x-schneller-20-guenstiger-game-changer-fuer-automation-workflows"
+          },
+          {
+            "filename": "2025-12-21-gemini-2-5-tts-google-revolutioniert-voice-automation-mit-multi-speaker-kontrolle",
+            "date": "2025-12-21",
+            "title": "Gemini 2.5 TTS: Google revolutioniert Voice Automation mit Multi-Speaker Kontrolle",
+            "description": "Google launcht Gemini 2.5 Flash & Pro TTS mit präziser Style-Kontrolle, 24 Sprachen und Multi-Speaker Support - perfekt für Voice Automation Workflows",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2025-12-21-gemini-2-5-tts-google-revolutioniert-voice-automation-mit-multi-speaker-kontrolle/",
+            "slug": "2025-12-21-gemini-2-5-tts-google-revolutioniert-voice-automation-mit-multi-speaker-kontrolle"
+          },
+          {
+            "filename": "2025-12-21-gemini-3-flash-game-changer-fuer-ki-automatisierung-mit-3x-speed-und-75-weniger-kosten",
+            "date": "2025-12-21",
+            "title": "Gemini 3 Flash: Game-Changer für KI-Automatisierung mit 3x Speed und 75% weniger Kosten",
+            "description": "Google revolutioniert KI-Workflows: Gemini 3 Flash übertrifft 2.5 Pro bei 3x Geschwindigkeit und nur $0.50/1M Tokens. Jetzt kostenlos in Gemini-App.",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2025-12-21-gemini-3-flash-game-changer-fuer-ki-automatisierung-mit-3x-speed-und-75-weniger-kosten/",
+            "slug": "2025-12-21-gemini-3-flash-game-changer-fuer-ki-automatisierung-mit-3x-speed-und-75-weniger-kosten"
+          },
+          {
+            "filename": "2025-12-21-gemini-3-flash-googles-game-changer-fuer-kosteneffiziente-ai-automation",
+            "date": "2025-12-21",
+            "title": "Gemini 3 Flash: Googles Game-Changer für kosteneffiziente AI-Automation",
+            "description": "Google launcht Gemini 3 Flash mit 3x schnellerer Performance zum Bruchteil der Kosten - perfekt für High-Volume Automation-Workflows",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2025-12-21-gemini-3-flash-googles-game-changer-fuer-kosteneffiziente-ai-automation/",
+            "slug": "2025-12-21-gemini-3-flash-googles-game-changer-fuer-kosteneffiziente-ai-automation"
+          },
+          {
+            "filename": "2025-12-21-gemini-deep-research-ki-generierte-visual-reports-mit-charts-und-simulationen",
+            "date": "2025-12-21",
+            "title": "Gemini Deep Research: KI-generierte Visual Reports mit Charts und Simulationen",
+            "description": "Google erweitert Deep Research um automatische Visualisierungen – ein Game-Changer für Research-Automation und Dokumentations-Workflows",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2025-12-21-gemini-deep-research-ki-generierte-visual-reports-mit-charts-und-simulationen/",
+            "slug": "2025-12-21-gemini-deep-research-ki-generierte-visual-reports-mit-charts-und-simulationen"
+          },
+          {
+            "filename": "2025-12-21-github-copilot-coding-agent-automatische-pull-requests-fuer-alle-zahlenden-nutzer-verfuegbar",
+            "date": "2025-12-21",
+            "title": "GitHub Copilot Coding Agent: Automatische Pull Requests für alle zahlenden Nutzer verfügbar",
+            "description": "Der GitHub Copilot Coding Agent automatisiert Pull Requests vollständig - von Branch-Erstellung bis Code-Review. Seit 25. September 2025 für alle zahlenden Nutzer verfügbar.",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2025-12-21-github-copilot-coding-agent-automatische-pull-requests-fuer-alle-zahlenden-nutzer-verfuegbar/",
+            "slug": "2025-12-21-github-copilot-coding-agent-automatische-pull-requests-fuer-alle-zahlenden-nutzer-verfuegbar"
+          },
+          {
+            "filename": "2025-12-21-google-antigravity-wenn-ki-agenten-selbststaendig-software-entwickeln",
+            "date": "2025-12-21",
+            "title": "Google Antigravity: Wenn KI-Agenten selbstständig Software entwickeln",
+            "description": "Google Antigravity: Wenn KI-Agenten selbstständig Software entwickeln",
+            "category": "Technology",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "5 min read",
+            "url": "/blog/2025-12-21-google-antigravity-wenn-ki-agenten-selbststaendig-software-entwickeln/",
+            "slug": "2025-12-21-google-antigravity-wenn-ki-agenten-selbststaendig-software-entwickeln"
+          },
+          {
+            "filename": "2025-12-21-google-cc-ki-agent-revolutioniert-e-mail-workflow-mit-automatischen-briefings",
+            "date": "2025-12-21",
+            "title": "Google CC: KI-Agent revolutioniert E-Mail-Workflow mit automatischen Briefings",
+            "description": "Google Labs CC verbindet Gmail, Kalender und Drive zu einem intelligenten Produktivitätsagenten mit täglichen Briefings und E-Mail-Automatisierung",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2025-12-21-google-cc-ki-agent-revolutioniert-e-mail-workflow-mit-automatischen-briefings/",
+            "slug": "2025-12-21-google-cc-ki-agent-revolutioniert-e-mail-workflow-mit-automatischen-briefings"
+          },
+          {
+            "filename": "2025-12-21-google-disco-ki-browser-verwandelt-tabs-in-interaktive-mini-apps",
+            "date": "2025-12-21",
+            "title": "Google Disco: KI-Browser verwandelt Tabs in interaktive Mini-Apps",
+            "description": "Google Labs präsentiert Disco mit GenTabs - Gemini 3 erstellt automatisch interaktive Web-Apps aus Browser-Tabs. Game-Changer für Workflow-Automation?",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2025-12-21-google-disco-ki-browser-verwandelt-tabs-in-interaktive-mini-apps/",
+            "slug": "2025-12-21-google-disco-ki-browser-verwandelt-tabs-in-interaktive-mini-apps"
+          },
+          {
+            "filename": "2025-12-21-google-gemini-deep-research-api-autonomer-research-agent-fuer-entwickler-verfuegbar",
+            "date": "2025-12-21",
+            "title": "Google Gemini Deep Research API: Autonomer Research-Agent für Entwickler verfügbar",
+            "description": "Die neue Gemini Deep Research Interactions API ermöglicht autonome Web-Recherche mit Zitaten - direkt integrierbar in n8n, Make und Zapier Workflows",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2025-12-21-google-gemini-deep-research-api-autonomer-research-agent-fuer-entwickler-verfuegbar/",
+            "slug": "2025-12-21-google-gemini-deep-research-api-autonomer-research-agent-fuer-entwickler-verfuegbar"
+          },
+          {
+            "filename": "2025-12-21-gpt-5-2-openais-game-changer-fuer-automatisierungs-workflows-mit-256k-context-window",
+            "date": "2025-12-21",
+            "title": "GPT-5.2: OpenAIs Game-Changer für Automatisierungs-Workflows mit 256k Context Window",
+            "description": "GPT-5.2: OpenAIs Game-Changer für Automatisierungs-Workflows mit 256k Context Window",
+            "category": "Technology",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "5 min read",
+            "url": "/blog/2025-12-21-gpt-5-2-openais-game-changer-fuer-automatisierungs-workflows-mit-256k-context-window/",
+            "slug": "2025-12-21-gpt-5-2-openais-game-changer-fuer-automatisierungs-workflows-mit-256k-context-window"
+          },
+          {
+            "filename": "2025-12-21-gpt-5-2-openais-science-revolution-mit-77-olympiad-performance",
+            "date": "2025-12-21",
+            "title": "GPT-5.2: OpenAIs Science-Revolution mit 77% Olympiad-Performance",
+            "description": "GPT-5.2 dominiert mit 77% bei Wissenschafts-Olympiaden, zeigt aber bei Research-Tasks nur 25%. Was bedeutet das für AI-Automation?",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2025-12-21-gpt-5-2-openais-science-revolution-mit-77-olympiad-performance/",
+            "slug": "2025-12-21-gpt-5-2-openais-science-revolution-mit-77-olympiad-performance"
+          },
+          {
+            "filename": "2025-12-21-notebooklm-revolution-20x-mehr-power-mit-10-000-zeichen-prompts",
+            "date": "2025-12-21",
+            "title": "NotebookLM Revolution: 20x mehr Power mit 10.000 Zeichen Prompts",
+            "description": "Google erweitert NotebookLM von 500 auf 10.000 Zeichen und revolutioniert damit AI-Research-Workflows für Automatisierer",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2025-12-21-notebooklm-revolution-20x-mehr-power-mit-10-000-zeichen-prompts/",
+            "slug": "2025-12-21-notebooklm-revolution-20x-mehr-power-mit-10-000-zeichen-prompts"
+          },
+          {
+            "filename": "2025-12-21-notebooklm-slide-decks-google-revolutioniert-ki-praesentationen",
+            "date": "2025-12-21",
+            "title": "NotebookLM Slide Decks: Google revolutioniert KI-Präsentationen",
+            "description": "Von Research zu fertigen Folien in 60 Sekunden - NotebookLM automatisiert mit Nano Banana Pro den kompletten Präsentations-Workflow",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2025-12-21-notebooklm-slide-decks-google-revolutioniert-ki-praesentationen/",
+            "slug": "2025-12-21-notebooklm-slide-decks-google-revolutioniert-ki-praesentationen"
+          },
+          {
+            "filename": "2025-12-21-openai-anthropic-und-block-gruenden-agentic-ai-foundation-das-ende-der-walled-gardens",
+            "date": "2025-12-21",
+            "title": "OpenAI, Anthropic und Block gründen Agentic AI Foundation - Das Ende der Walled Gardens",
+            "description": "Linux Foundation vereint Tech-Giganten für offene AI-Agent Standards: MCP, Goose und AGENTS.md sollen Interoperabilität und 80% Zeitersparnis ermöglichen",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2025-12-21-openai-anthropic-und-block-gruenden-agentic-ai-foundation-das-ende-der-walled-gardens/",
+            "slug": "2025-12-21-openai-anthropic-und-block-gruenden-agentic-ai-foundation-das-ende-der-walled-gardens"
+          },
+          {
+            "filename": "2025-12-21-openai-atlas-der-ki-browser-der-automatisierung-neu-definiert",
+            "date": "2025-12-21",
+            "title": "OpenAI Atlas: Der KI-Browser, der Automatisierung neu definiert",
+            "description": "OpenAI startet Atlas Browser mit integriertem ChatGPT Agent Mode - Zeitersparnis durch intelligente Browser-Automation und neue Workflows für Engineers",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2025-12-21-openai-atlas-der-ki-browser-der-automatisierung-neu-definiert/",
+            "slug": "2025-12-21-openai-atlas-der-ki-browser-der-automatisierung-neu-definiert"
+          },
+          {
+            "filename": "2025-12-21-openai-skills-verstecktes-power-feature-revolutioniert-ai-automation",
+            "date": "2025-12-21",
+            "title": "OpenAI Skills: Verstecktes Power-Feature revolutioniert AI-Automation",
+            "description": "OpenAI führt leise Skills-Feature ein - modulare AI-Komponenten die autonom entscheiden. Das bedeutet 100x effizientere Workflows für Automatisierungsprofis.",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2025-12-21-openai-skills-verstecktes-power-feature-revolutioniert-ai-automation/",
+            "slug": "2025-12-21-openai-skills-verstecktes-power-feature-revolutioniert-ai-automation"
+          },
+          {
+            "filename": "2025-12-21-openai-wet-lab-gpt-5-macht-klonierungsprotokolle-79x-effizienter",
+            "date": "2025-12-21",
+            "title": "OpenAI Wet Lab: GPT-5 macht Klonierungsprotokolle 79x effizienter",
+            "description": "GPT-5 optimiert Labor-Workflows mit 79-facher Effizienzsteigerung - praktische Einblicke in AI-gesteuerte Laborautomation für Automation Engineers",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2025-12-21-openai-wet-lab-gpt-5-macht-klonierungsprotokolle-79x-effizienter/",
+            "slug": "2025-12-21-openai-wet-lab-gpt-5-macht-klonierungsprotokolle-79x-effizienter"
+          },
+          {
+            "filename": "2025-12-21-openai-wird-zur-130-milliarden-dollar-maschine-das-bedeutet-die-umstrukturierung-fuer-automation-engineers",
+            "date": "2025-12-21",
+            "title": "OpenAI wird zur 130-Milliarden-Dollar-Maschine: Das bedeutet die Umstrukturierung für Automation Engineers",
+            "description": "OpenAI wird zur 130-Milliarden-Dollar-Maschine: Das bedeutet die Umstrukturierung für Automation Engineers",
+            "category": "Technology",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "5 min read",
+            "url": "/blog/2025-12-21-openai-wird-zur-130-milliarden-dollar-maschine-das-bedeutet-die-umstrukturierung-fuer-automation-engineers/",
+            "slug": "2025-12-21-openai-wird-zur-130-milliarden-dollar-maschine-das-bedeutet-die-umstrukturierung-fuer-automation-engineers"
+          },
+          {
+            "filename": "2025-12-21-zoom-ai-companion-3-0-agentische-ki-automatisiert-meeting-workflows",
+            "date": "2025-12-21",
+            "title": "Zoom AI Companion 3.0: Agentische KI automatisiert Meeting-Workflows",
+            "description": "Zoom revolutioniert mit AI Companion 3.0 die Meeting-Automatisierung: Agentische Workflows, Web-Interface und 33% Zeitersparnis ab 10$/Monat",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2025-12-21-zoom-ai-companion-3-0-agentische-ki-automatisiert-meeting-workflows/",
+            "slug": "2025-12-21-zoom-ai-companion-3-0-agentische-ki-automatisiert-meeting-workflows"
+          }
+        ]
+      },
+      "Tools & Frameworks": {
+        "count": 1,
+        "articles": [
+          {
+            "filename": "2025-12-21-gpt-5-2-in-microsoft-365-copilot-thinking-modus-revolutioniert-enterprise-automatisierung",
+            "date": "2025-12-21",
+            "title": "GPT-5.2 in Microsoft 365 Copilot: Thinking-Modus revolutioniert Enterprise-Automatisierung",
+            "description": "Microsoft integriert GPT-5.2 mit Dual-Mode-System in Copilot. GPT-5.2 Thinking-Modus ermöglicht komplexe Reasoning-Tasks und spart bis zu 70% Zeit bei strategischen Analysen.",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2025-12-21-gpt-5-2-in-microsoft-365-copilot-thinking-modus-revolutioniert-enterprise-automatisierung/",
+            "slug": "2025-12-21-gpt-5-2-in-microsoft-365-copilot-thinking-modus-revolutioniert-enterprise-automatisierung"
+          }
+        ]
+      },
+      "Enterprise & Business": {
+        "count": 2,
+        "articles": [
+          {
+            "filename": "2025-12-21-anthropic-und-accenture-30-000-mitarbeiter-fuer-claude-revolution-trainiert",
+            "date": "2025-12-21",
+            "title": "Anthropic und Accenture: 30.000 Mitarbeiter für Claude-Revolution trainiert",
+            "description": "Massive Enterprise-AI-Partnerschaft: Accenture schult 30.000 Professionals auf Claude und bringt Claude Code in Entwicklerteams - der Game-Changer für AI-Automatisierung",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2025-12-21-anthropic-und-accenture-30-000-mitarbeiter-fuer-claude-revolution-trainiert/",
+            "slug": "2025-12-21-anthropic-und-accenture-30-000-mitarbeiter-fuer-claude-revolution-trainiert"
+          },
+          {
+            "filename": "2025-12-21-google-gemini-synthid-wasserzeichen-fuer-ai-videos-jetzt-verfuegbar",
+            "date": "2025-12-21",
+            "title": "Google Gemini: SynthID-Wasserzeichen für AI-Videos jetzt verfügbar",
+            "description": "Gemini App integriert SynthID-Technologie zur Verifikation von AI-generierten Videos. Automatische Kennzeichnung und Nachweis für Veo 2 & 3 Videos.",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "5 min read",
+            "url": "/blog/2025-12-21-google-gemini-synthid-wasserzeichen-fuer-ai-videos-jetzt-verfuegbar/",
+            "slug": "2025-12-21-google-gemini-synthid-wasserzeichen-fuer-ai-videos-jetzt-verfuegbar"
+          }
+        ]
+      },
+      "Other": {
+        "count": 4,
+        "articles": [
+          {
+            "filename": "2025-12-21-alpha-arena-6-kis-handeln-mit-echtem-geld-qwen-gewinnt-mit-22",
+            "date": "2025-12-21",
+            "title": "Alpha Arena: 6 KIs handeln mit echtem Geld – Qwen gewinnt mit +22%",
+            "description": "Live-Experiment: Claude, GPT-5, DeepSeek & Co. traden autonom mit je 10.000 USD. Qwen 3 MAX gewinnt Season 1 mit 22% Return.",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2025-12-21-alpha-arena-6-kis-handeln-mit-echtem-geld-qwen-gewinnt-mit-22/",
+            "slug": "2025-12-21-alpha-arena-6-kis-handeln-mit-echtem-geld-qwen-gewinnt-mit-22"
+          },
+          {
+            "filename": "2025-12-21-openai-realtime-api-89-weniger-halluzinationen-revolutionieren-voice-automatisierung",
+            "date": "2025-12-21",
+            "title": "OpenAI Realtime API: 89% weniger Halluzinationen revolutionieren Voice-Automatisierung",
+            "description": "OpenAI veröffentlicht neue API-Snapshots mit drastisch reduzierten Transkriptionsfehlern und verbesserter TTS-Qualität für Echtzeit-Voice-Apps",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "5 min read",
+            "url": "/blog/2025-12-21-openai-realtime-api-89-weniger-halluzinationen-revolutionieren-voice-automatisierung/",
+            "slug": "2025-12-21-openai-realtime-api-89-weniger-halluzinationen-revolutionieren-voice-automatisierung"
+          },
+          {
+            "filename": "2025-12-21-openai-revolutioniert-app-entwicklung-sora-android-in-28-tagen-mit-85-ai-code",
+            "date": "2025-12-21",
+            "title": "OpenAI revolutioniert App-Entwicklung: Sora Android in 28 Tagen mit 85% AI-Code",
+            "description": "OpenAI entwickelte Sora Android mit nur 4 Entwicklern in 28 Tagen. Codex generierte 85% des Codes und spart damit Monate an Entwicklungszeit.",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2025-12-21-openai-revolutioniert-app-entwicklung-sora-android-in-28-tagen-mit-85-ai-code/",
+            "slug": "2025-12-21-openai-revolutioniert-app-entwicklung-sora-android-in-28-tagen-mit-85-ai-code"
+          },
+          {
+            "filename": "2025-12-21-zeiterfassung-4-0-wie-ki-und-analytics-die-hr-automatisierung-revolutionieren",
+            "date": "2025-12-21",
+            "title": "Zeiterfassung 4.0: Wie KI und Analytics die HR-Automatisierung revolutionieren",
+            "description": "Von der Stechuhr zur KI: Whitepaper zeigt konkrete Automatisierungspotenziale und ROI durch intelligente Zeiterfassung für HR-Teams",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2025-12-21-zeiterfassung-4-0-wie-ki-und-analytics-die-hr-automatisierung-revolutionieren/",
+            "slug": "2025-12-21-zeiterfassung-4-0-wie-ki-und-analytics-die-hr-automatisierung-revolutionieren"
+          }
+        ]
+      }
+    },
+    "topArticles": [
+      {
+        "filename": "2025-12-21-adobe-firefly-prompt-basiertes-video-editing-revolutioniert-content-workflows",
+        "date": "2025-12-21",
+        "title": "Adobe Firefly: Prompt-basiertes Video-Editing revolutioniert Content-Workflows",
+        "description": "Adobe Firefly ermöglicht Video-Bearbeitung per Text-Prompt, integriert FLUX.2 & Topaz - bis zu 80% Zeitersparnis in Video-Pipelines",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2025-12-21-adobe-firefly-prompt-basiertes-video-editing-revolutioniert-content-workflows/",
+        "slug": "2025-12-21-adobe-firefly-prompt-basiertes-video-editing-revolutioniert-content-workflows"
+      },
+      {
+        "filename": "2025-12-21-alpha-arena-6-kis-handeln-mit-echtem-geld-qwen-gewinnt-mit-22",
+        "date": "2025-12-21",
+        "title": "Alpha Arena: 6 KIs handeln mit echtem Geld – Qwen gewinnt mit +22%",
+        "description": "Live-Experiment: Claude, GPT-5, DeepSeek & Co. traden autonom mit je 10.000 USD. Qwen 3 MAX gewinnt Season 1 mit 22% Return.",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2025-12-21-alpha-arena-6-kis-handeln-mit-echtem-geld-qwen-gewinnt-mit-22/",
+        "slug": "2025-12-21-alpha-arena-6-kis-handeln-mit-echtem-geld-qwen-gewinnt-mit-22"
+      },
+      {
+        "filename": "2025-12-21-android-xr-googles-smart-glasses-revolution-mit-gemini-ai-3-varianten-fuer-2026",
+        "date": "2025-12-21",
+        "title": "Android XR: Googles Smart Glasses Revolution mit Gemini AI - 3 Varianten für 2026",
+        "description": "Google präsentiert Android XR Smart Glasses mit Gemini-Integration. Drei Varianten (AI, Display, Wired) revolutionieren Workflow-Automatisierung ab 2026.",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2025-12-21-android-xr-googles-smart-glasses-revolution-mit-gemini-ai-3-varianten-fuer-2026/",
+        "slug": "2025-12-21-android-xr-googles-smart-glasses-revolution-mit-gemini-ai-3-varianten-fuer-2026"
+      },
+      {
+        "filename": "2025-12-21-anthropic-und-accenture-30-000-mitarbeiter-fuer-claude-revolution-trainiert",
+        "date": "2025-12-21",
+        "title": "Anthropic und Accenture: 30.000 Mitarbeiter für Claude-Revolution trainiert",
+        "description": "Massive Enterprise-AI-Partnerschaft: Accenture schult 30.000 Professionals auf Claude und bringt Claude Code in Entwicklerteams - der Game-Changer für AI-Automatisierung",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2025-12-21-anthropic-und-accenture-30-000-mitarbeiter-fuer-claude-revolution-trainiert/",
+        "slug": "2025-12-21-anthropic-und-accenture-30-000-mitarbeiter-fuer-claude-revolution-trainiert"
+      },
+      {
+        "filename": "2025-12-21-chatgpt-adobe-integration-native-no-code-automation-fuer-designer-und-entwickler",
+        "date": "2025-12-21",
+        "title": "ChatGPT + Adobe Integration: Native No-Code Automation für Designer und Entwickler",
+        "description": "ChatGPT + Adobe Integration: Native No-Code Automation für Designer und Entwickler",
+        "category": "Technology",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "5 min read",
+        "url": "/blog/2025-12-21-chatgpt-adobe-integration-native-no-code-automation-fuer-designer-und-entwickler/",
+        "slug": "2025-12-21-chatgpt-adobe-integration-native-no-code-automation-fuer-designer-und-entwickler"
+      }
+    ],
+    "articlesList": [
+      {
+        "filename": "2025-12-21-adobe-firefly-prompt-basiertes-video-editing-revolutioniert-content-workflows",
+        "date": "2025-12-21",
+        "title": "Adobe Firefly: Prompt-basiertes Video-Editing revolutioniert Content-Workflows",
+        "description": "Adobe Firefly ermöglicht Video-Bearbeitung per Text-Prompt, integriert FLUX.2 & Topaz - bis zu 80% Zeitersparnis in Video-Pipelines",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2025-12-21-adobe-firefly-prompt-basiertes-video-editing-revolutioniert-content-workflows/",
+        "slug": "2025-12-21-adobe-firefly-prompt-basiertes-video-editing-revolutioniert-content-workflows"
+      },
+      {
+        "filename": "2025-12-21-alpha-arena-6-kis-handeln-mit-echtem-geld-qwen-gewinnt-mit-22",
+        "date": "2025-12-21",
+        "title": "Alpha Arena: 6 KIs handeln mit echtem Geld – Qwen gewinnt mit +22%",
+        "description": "Live-Experiment: Claude, GPT-5, DeepSeek & Co. traden autonom mit je 10.000 USD. Qwen 3 MAX gewinnt Season 1 mit 22% Return.",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2025-12-21-alpha-arena-6-kis-handeln-mit-echtem-geld-qwen-gewinnt-mit-22/",
+        "slug": "2025-12-21-alpha-arena-6-kis-handeln-mit-echtem-geld-qwen-gewinnt-mit-22"
+      },
+      {
+        "filename": "2025-12-21-android-xr-googles-smart-glasses-revolution-mit-gemini-ai-3-varianten-fuer-2026",
+        "date": "2025-12-21",
+        "title": "Android XR: Googles Smart Glasses Revolution mit Gemini AI - 3 Varianten für 2026",
+        "description": "Google präsentiert Android XR Smart Glasses mit Gemini-Integration. Drei Varianten (AI, Display, Wired) revolutionieren Workflow-Automatisierung ab 2026.",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2025-12-21-android-xr-googles-smart-glasses-revolution-mit-gemini-ai-3-varianten-fuer-2026/",
+        "slug": "2025-12-21-android-xr-googles-smart-glasses-revolution-mit-gemini-ai-3-varianten-fuer-2026"
+      },
+      {
+        "filename": "2025-12-21-anthropic-und-accenture-30-000-mitarbeiter-fuer-claude-revolution-trainiert",
+        "date": "2025-12-21",
+        "title": "Anthropic und Accenture: 30.000 Mitarbeiter für Claude-Revolution trainiert",
+        "description": "Massive Enterprise-AI-Partnerschaft: Accenture schult 30.000 Professionals auf Claude und bringt Claude Code in Entwicklerteams - der Game-Changer für AI-Automatisierung",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2025-12-21-anthropic-und-accenture-30-000-mitarbeiter-fuer-claude-revolution-trainiert/",
+        "slug": "2025-12-21-anthropic-und-accenture-30-000-mitarbeiter-fuer-claude-revolution-trainiert"
+      },
+      {
+        "filename": "2025-12-21-chatgpt-adobe-integration-native-no-code-automation-fuer-designer-und-entwickler",
+        "date": "2025-12-21",
+        "title": "ChatGPT + Adobe Integration: Native No-Code Automation für Designer und Entwickler",
+        "description": "ChatGPT + Adobe Integration: Native No-Code Automation für Designer und Entwickler",
+        "category": "Technology",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "5 min read",
+        "url": "/blog/2025-12-21-chatgpt-adobe-integration-native-no-code-automation-fuer-designer-und-entwickler/",
+        "slug": "2025-12-21-chatgpt-adobe-integration-native-no-code-automation-fuer-designer-und-entwickler"
+      },
+      {
+        "filename": "2025-12-21-chatgpt-images-1-5-4x-schneller-20-guenstiger-game-changer-fuer-automation-workflows",
+        "date": "2025-12-21",
+        "title": "ChatGPT Images 1.5: 4x schneller, 20% günstiger – Game-Changer für Automation Workflows",
+        "description": "OpenAIs neues Bildmodell revolutioniert KI-Bildgenerierung mit 4-facher Geschwindigkeit, 20% niedrigeren API-Kosten und perfektem Text-Rendering für Automatisierung",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2025-12-21-chatgpt-images-1-5-4x-schneller-20-guenstiger-game-changer-fuer-automation-workflows/",
+        "slug": "2025-12-21-chatgpt-images-1-5-4x-schneller-20-guenstiger-game-changer-fuer-automation-workflows"
+      },
+      {
+        "filename": "2025-12-21-gemini-2-5-tts-google-revolutioniert-voice-automation-mit-multi-speaker-kontrolle",
+        "date": "2025-12-21",
+        "title": "Gemini 2.5 TTS: Google revolutioniert Voice Automation mit Multi-Speaker Kontrolle",
+        "description": "Google launcht Gemini 2.5 Flash & Pro TTS mit präziser Style-Kontrolle, 24 Sprachen und Multi-Speaker Support - perfekt für Voice Automation Workflows",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2025-12-21-gemini-2-5-tts-google-revolutioniert-voice-automation-mit-multi-speaker-kontrolle/",
+        "slug": "2025-12-21-gemini-2-5-tts-google-revolutioniert-voice-automation-mit-multi-speaker-kontrolle"
+      },
+      {
+        "filename": "2025-12-21-gemini-3-flash-game-changer-fuer-ki-automatisierung-mit-3x-speed-und-75-weniger-kosten",
+        "date": "2025-12-21",
+        "title": "Gemini 3 Flash: Game-Changer für KI-Automatisierung mit 3x Speed und 75% weniger Kosten",
+        "description": "Google revolutioniert KI-Workflows: Gemini 3 Flash übertrifft 2.5 Pro bei 3x Geschwindigkeit und nur $0.50/1M Tokens. Jetzt kostenlos in Gemini-App.",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2025-12-21-gemini-3-flash-game-changer-fuer-ki-automatisierung-mit-3x-speed-und-75-weniger-kosten/",
+        "slug": "2025-12-21-gemini-3-flash-game-changer-fuer-ki-automatisierung-mit-3x-speed-und-75-weniger-kosten"
+      },
+      {
+        "filename": "2025-12-21-gemini-3-flash-googles-game-changer-fuer-kosteneffiziente-ai-automation",
+        "date": "2025-12-21",
+        "title": "Gemini 3 Flash: Googles Game-Changer für kosteneffiziente AI-Automation",
+        "description": "Google launcht Gemini 3 Flash mit 3x schnellerer Performance zum Bruchteil der Kosten - perfekt für High-Volume Automation-Workflows",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2025-12-21-gemini-3-flash-googles-game-changer-fuer-kosteneffiziente-ai-automation/",
+        "slug": "2025-12-21-gemini-3-flash-googles-game-changer-fuer-kosteneffiziente-ai-automation"
+      },
+      {
+        "filename": "2025-12-21-gemini-deep-research-ki-generierte-visual-reports-mit-charts-und-simulationen",
+        "date": "2025-12-21",
+        "title": "Gemini Deep Research: KI-generierte Visual Reports mit Charts und Simulationen",
+        "description": "Google erweitert Deep Research um automatische Visualisierungen – ein Game-Changer für Research-Automation und Dokumentations-Workflows",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2025-12-21-gemini-deep-research-ki-generierte-visual-reports-mit-charts-und-simulationen/",
+        "slug": "2025-12-21-gemini-deep-research-ki-generierte-visual-reports-mit-charts-und-simulationen"
+      },
+      {
+        "filename": "2025-12-21-github-copilot-coding-agent-automatische-pull-requests-fuer-alle-zahlenden-nutzer-verfuegbar",
+        "date": "2025-12-21",
+        "title": "GitHub Copilot Coding Agent: Automatische Pull Requests für alle zahlenden Nutzer verfügbar",
+        "description": "Der GitHub Copilot Coding Agent automatisiert Pull Requests vollständig - von Branch-Erstellung bis Code-Review. Seit 25. September 2025 für alle zahlenden Nutzer verfügbar.",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2025-12-21-github-copilot-coding-agent-automatische-pull-requests-fuer-alle-zahlenden-nutzer-verfuegbar/",
+        "slug": "2025-12-21-github-copilot-coding-agent-automatische-pull-requests-fuer-alle-zahlenden-nutzer-verfuegbar"
+      },
+      {
+        "filename": "2025-12-21-google-antigravity-wenn-ki-agenten-selbststaendig-software-entwickeln",
+        "date": "2025-12-21",
+        "title": "Google Antigravity: Wenn KI-Agenten selbstständig Software entwickeln",
+        "description": "Google Antigravity: Wenn KI-Agenten selbstständig Software entwickeln",
+        "category": "Technology",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "5 min read",
+        "url": "/blog/2025-12-21-google-antigravity-wenn-ki-agenten-selbststaendig-software-entwickeln/",
+        "slug": "2025-12-21-google-antigravity-wenn-ki-agenten-selbststaendig-software-entwickeln"
+      },
+      {
+        "filename": "2025-12-21-google-cc-ki-agent-revolutioniert-e-mail-workflow-mit-automatischen-briefings",
+        "date": "2025-12-21",
+        "title": "Google CC: KI-Agent revolutioniert E-Mail-Workflow mit automatischen Briefings",
+        "description": "Google Labs CC verbindet Gmail, Kalender und Drive zu einem intelligenten Produktivitätsagenten mit täglichen Briefings und E-Mail-Automatisierung",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2025-12-21-google-cc-ki-agent-revolutioniert-e-mail-workflow-mit-automatischen-briefings/",
+        "slug": "2025-12-21-google-cc-ki-agent-revolutioniert-e-mail-workflow-mit-automatischen-briefings"
+      },
+      {
+        "filename": "2025-12-21-google-disco-ki-browser-verwandelt-tabs-in-interaktive-mini-apps",
+        "date": "2025-12-21",
+        "title": "Google Disco: KI-Browser verwandelt Tabs in interaktive Mini-Apps",
+        "description": "Google Labs präsentiert Disco mit GenTabs - Gemini 3 erstellt automatisch interaktive Web-Apps aus Browser-Tabs. Game-Changer für Workflow-Automation?",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2025-12-21-google-disco-ki-browser-verwandelt-tabs-in-interaktive-mini-apps/",
+        "slug": "2025-12-21-google-disco-ki-browser-verwandelt-tabs-in-interaktive-mini-apps"
+      },
+      {
+        "filename": "2025-12-21-google-gemini-deep-research-api-autonomer-research-agent-fuer-entwickler-verfuegbar",
+        "date": "2025-12-21",
+        "title": "Google Gemini Deep Research API: Autonomer Research-Agent für Entwickler verfügbar",
+        "description": "Die neue Gemini Deep Research Interactions API ermöglicht autonome Web-Recherche mit Zitaten - direkt integrierbar in n8n, Make und Zapier Workflows",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2025-12-21-google-gemini-deep-research-api-autonomer-research-agent-fuer-entwickler-verfuegbar/",
+        "slug": "2025-12-21-google-gemini-deep-research-api-autonomer-research-agent-fuer-entwickler-verfuegbar"
+      },
+      {
+        "filename": "2025-12-21-google-gemini-synthid-wasserzeichen-fuer-ai-videos-jetzt-verfuegbar",
+        "date": "2025-12-21",
+        "title": "Google Gemini: SynthID-Wasserzeichen für AI-Videos jetzt verfügbar",
+        "description": "Gemini App integriert SynthID-Technologie zur Verifikation von AI-generierten Videos. Automatische Kennzeichnung und Nachweis für Veo 2 & 3 Videos.",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "5 min read",
+        "url": "/blog/2025-12-21-google-gemini-synthid-wasserzeichen-fuer-ai-videos-jetzt-verfuegbar/",
+        "slug": "2025-12-21-google-gemini-synthid-wasserzeichen-fuer-ai-videos-jetzt-verfuegbar"
+      },
+      {
+        "filename": "2025-12-21-gpt-5-2-in-microsoft-365-copilot-thinking-modus-revolutioniert-enterprise-automatisierung",
+        "date": "2025-12-21",
+        "title": "GPT-5.2 in Microsoft 365 Copilot: Thinking-Modus revolutioniert Enterprise-Automatisierung",
+        "description": "Microsoft integriert GPT-5.2 mit Dual-Mode-System in Copilot. GPT-5.2 Thinking-Modus ermöglicht komplexe Reasoning-Tasks und spart bis zu 70% Zeit bei strategischen Analysen.",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2025-12-21-gpt-5-2-in-microsoft-365-copilot-thinking-modus-revolutioniert-enterprise-automatisierung/",
+        "slug": "2025-12-21-gpt-5-2-in-microsoft-365-copilot-thinking-modus-revolutioniert-enterprise-automatisierung"
+      },
+      {
+        "filename": "2025-12-21-gpt-5-2-openais-game-changer-fuer-automatisierungs-workflows-mit-256k-context-window",
+        "date": "2025-12-21",
+        "title": "GPT-5.2: OpenAIs Game-Changer für Automatisierungs-Workflows mit 256k Context Window",
+        "description": "GPT-5.2: OpenAIs Game-Changer für Automatisierungs-Workflows mit 256k Context Window",
+        "category": "Technology",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "5 min read",
+        "url": "/blog/2025-12-21-gpt-5-2-openais-game-changer-fuer-automatisierungs-workflows-mit-256k-context-window/",
+        "slug": "2025-12-21-gpt-5-2-openais-game-changer-fuer-automatisierungs-workflows-mit-256k-context-window"
+      },
+      {
+        "filename": "2025-12-21-gpt-5-2-openais-science-revolution-mit-77-olympiad-performance",
+        "date": "2025-12-21",
+        "title": "GPT-5.2: OpenAIs Science-Revolution mit 77% Olympiad-Performance",
+        "description": "GPT-5.2 dominiert mit 77% bei Wissenschafts-Olympiaden, zeigt aber bei Research-Tasks nur 25%. Was bedeutet das für AI-Automation?",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2025-12-21-gpt-5-2-openais-science-revolution-mit-77-olympiad-performance/",
+        "slug": "2025-12-21-gpt-5-2-openais-science-revolution-mit-77-olympiad-performance"
+      },
+      {
+        "filename": "2025-12-21-notebooklm-revolution-20x-mehr-power-mit-10-000-zeichen-prompts",
+        "date": "2025-12-21",
+        "title": "NotebookLM Revolution: 20x mehr Power mit 10.000 Zeichen Prompts",
+        "description": "Google erweitert NotebookLM von 500 auf 10.000 Zeichen und revolutioniert damit AI-Research-Workflows für Automatisierer",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2025-12-21-notebooklm-revolution-20x-mehr-power-mit-10-000-zeichen-prompts/",
+        "slug": "2025-12-21-notebooklm-revolution-20x-mehr-power-mit-10-000-zeichen-prompts"
+      },
+      {
+        "filename": "2025-12-21-notebooklm-slide-decks-google-revolutioniert-ki-praesentationen",
+        "date": "2025-12-21",
+        "title": "NotebookLM Slide Decks: Google revolutioniert KI-Präsentationen",
+        "description": "Von Research zu fertigen Folien in 60 Sekunden - NotebookLM automatisiert mit Nano Banana Pro den kompletten Präsentations-Workflow",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2025-12-21-notebooklm-slide-decks-google-revolutioniert-ki-praesentationen/",
+        "slug": "2025-12-21-notebooklm-slide-decks-google-revolutioniert-ki-praesentationen"
+      },
+      {
+        "filename": "2025-12-21-openai-anthropic-und-block-gruenden-agentic-ai-foundation-das-ende-der-walled-gardens",
+        "date": "2025-12-21",
+        "title": "OpenAI, Anthropic und Block gründen Agentic AI Foundation - Das Ende der Walled Gardens",
+        "description": "Linux Foundation vereint Tech-Giganten für offene AI-Agent Standards: MCP, Goose und AGENTS.md sollen Interoperabilität und 80% Zeitersparnis ermöglichen",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2025-12-21-openai-anthropic-und-block-gruenden-agentic-ai-foundation-das-ende-der-walled-gardens/",
+        "slug": "2025-12-21-openai-anthropic-und-block-gruenden-agentic-ai-foundation-das-ende-der-walled-gardens"
+      },
+      {
+        "filename": "2025-12-21-openai-atlas-der-ki-browser-der-automatisierung-neu-definiert",
+        "date": "2025-12-21",
+        "title": "OpenAI Atlas: Der KI-Browser, der Automatisierung neu definiert",
+        "description": "OpenAI startet Atlas Browser mit integriertem ChatGPT Agent Mode - Zeitersparnis durch intelligente Browser-Automation und neue Workflows für Engineers",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2025-12-21-openai-atlas-der-ki-browser-der-automatisierung-neu-definiert/",
+        "slug": "2025-12-21-openai-atlas-der-ki-browser-der-automatisierung-neu-definiert"
+      },
+      {
+        "filename": "2025-12-21-openai-realtime-api-89-weniger-halluzinationen-revolutionieren-voice-automatisierung",
+        "date": "2025-12-21",
+        "title": "OpenAI Realtime API: 89% weniger Halluzinationen revolutionieren Voice-Automatisierung",
+        "description": "OpenAI veröffentlicht neue API-Snapshots mit drastisch reduzierten Transkriptionsfehlern und verbesserter TTS-Qualität für Echtzeit-Voice-Apps",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "5 min read",
+        "url": "/blog/2025-12-21-openai-realtime-api-89-weniger-halluzinationen-revolutionieren-voice-automatisierung/",
+        "slug": "2025-12-21-openai-realtime-api-89-weniger-halluzinationen-revolutionieren-voice-automatisierung"
+      },
+      {
+        "filename": "2025-12-21-openai-revolutioniert-app-entwicklung-sora-android-in-28-tagen-mit-85-ai-code",
+        "date": "2025-12-21",
+        "title": "OpenAI revolutioniert App-Entwicklung: Sora Android in 28 Tagen mit 85% AI-Code",
+        "description": "OpenAI entwickelte Sora Android mit nur 4 Entwicklern in 28 Tagen. Codex generierte 85% des Codes und spart damit Monate an Entwicklungszeit.",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2025-12-21-openai-revolutioniert-app-entwicklung-sora-android-in-28-tagen-mit-85-ai-code/",
+        "slug": "2025-12-21-openai-revolutioniert-app-entwicklung-sora-android-in-28-tagen-mit-85-ai-code"
+      },
+      {
+        "filename": "2025-12-21-openai-skills-verstecktes-power-feature-revolutioniert-ai-automation",
+        "date": "2025-12-21",
+        "title": "OpenAI Skills: Verstecktes Power-Feature revolutioniert AI-Automation",
+        "description": "OpenAI führt leise Skills-Feature ein - modulare AI-Komponenten die autonom entscheiden. Das bedeutet 100x effizientere Workflows für Automatisierungsprofis.",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2025-12-21-openai-skills-verstecktes-power-feature-revolutioniert-ai-automation/",
+        "slug": "2025-12-21-openai-skills-verstecktes-power-feature-revolutioniert-ai-automation"
+      },
+      {
+        "filename": "2025-12-21-openai-wet-lab-gpt-5-macht-klonierungsprotokolle-79x-effizienter",
+        "date": "2025-12-21",
+        "title": "OpenAI Wet Lab: GPT-5 macht Klonierungsprotokolle 79x effizienter",
+        "description": "GPT-5 optimiert Labor-Workflows mit 79-facher Effizienzsteigerung - praktische Einblicke in AI-gesteuerte Laborautomation für Automation Engineers",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2025-12-21-openai-wet-lab-gpt-5-macht-klonierungsprotokolle-79x-effizienter/",
+        "slug": "2025-12-21-openai-wet-lab-gpt-5-macht-klonierungsprotokolle-79x-effizienter"
+      },
+      {
+        "filename": "2025-12-21-openai-wird-zur-130-milliarden-dollar-maschine-das-bedeutet-die-umstrukturierung-fuer-automation-engineers",
+        "date": "2025-12-21",
+        "title": "OpenAI wird zur 130-Milliarden-Dollar-Maschine: Das bedeutet die Umstrukturierung für Automation Engineers",
+        "description": "OpenAI wird zur 130-Milliarden-Dollar-Maschine: Das bedeutet die Umstrukturierung für Automation Engineers",
+        "category": "Technology",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "5 min read",
+        "url": "/blog/2025-12-21-openai-wird-zur-130-milliarden-dollar-maschine-das-bedeutet-die-umstrukturierung-fuer-automation-engineers/",
+        "slug": "2025-12-21-openai-wird-zur-130-milliarden-dollar-maschine-das-bedeutet-die-umstrukturierung-fuer-automation-engineers"
+      },
+      {
+        "filename": "2025-12-21-zeiterfassung-4-0-wie-ki-und-analytics-die-hr-automatisierung-revolutionieren",
+        "date": "2025-12-21",
+        "title": "Zeiterfassung 4.0: Wie KI und Analytics die HR-Automatisierung revolutionieren",
+        "description": "Von der Stechuhr zur KI: Whitepaper zeigt konkrete Automatisierungspotenziale und ROI durch intelligente Zeiterfassung für HR-Teams",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2025-12-21-zeiterfassung-4-0-wie-ki-und-analytics-die-hr-automatisierung-revolutionieren/",
+        "slug": "2025-12-21-zeiterfassung-4-0-wie-ki-und-analytics-die-hr-automatisierung-revolutionieren"
+      },
+      {
+        "filename": "2025-12-21-zoom-ai-companion-3-0-agentische-ki-automatisiert-meeting-workflows",
+        "date": "2025-12-21",
+        "title": "Zoom AI Companion 3.0: Agentische KI automatisiert Meeting-Workflows",
+        "description": "Zoom revolutioniert mit AI Companion 3.0 die Meeting-Automatisierung: Agentische Workflows, Web-Interface und 33% Zeitersparnis ab 10$/Monat",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2025-12-21-zoom-ai-companion-3-0-agentische-ki-automatisiert-meeting-workflows/",
+        "slug": "2025-12-21-zoom-ai-companion-3-0-agentische-ki-automatisiert-meeting-workflows"
+      }
+    ]
+  },
+  "references": [
+    {
+      "title": "Adobe Firefly: Prompt-basiertes Video-Editing revolutioniert Content-Workflows",
+      "url": "/blog/2025-12-21-adobe-firefly-prompt-basiertes-video-editing-revolutioniert-content-workflows/",
+      "description": "Adobe Firefly ermöglicht Video-Bearbeitung per Text-Prompt, integriert FLUX.2 & Topaz - bis zu 80% Zeitersparnis in Video-Pipelines",
+      "date": "2025-12-21",
+      "category": "Creative Tools",
+      "suggestedSection": "creative_section"
+    },
+    {
+      "title": "Alpha Arena: 6 KIs handeln mit echtem Geld – Qwen gewinnt mit +22%",
+      "url": "/blog/2025-12-21-alpha-arena-6-kis-handeln-mit-echtem-geld-qwen-gewinnt-mit-22/",
+      "description": "Live-Experiment: Claude, GPT-5, DeepSeek & Co. traden autonom mit je 10.000 USD. Qwen 3 MAX gewinnt Season 1 mit 22% Return.",
+      "date": "2025-12-21",
+      "category": "General",
+      "suggestedSection": "quickies"
+    },
+    {
+      "title": "Android XR: Googles Smart Glasses Revolution mit Gemini AI - 3 Varianten für 2026",
+      "url": "/blog/2025-12-21-android-xr-googles-smart-glasses-revolution-mit-gemini-ai-3-varianten-fuer-2026/",
+      "description": "Google präsentiert Android XR Smart Glasses mit Gemini-Integration. Drei Varianten (AI, Display, Wired) revolutionieren Workflow-Automatisierung ab 2026.",
+      "date": "2025-12-21",
+      "category": "General",
+      "suggestedSection": "top_story"
+    },
+    {
+      "title": "Anthropic und Accenture: 30.000 Mitarbeiter für Claude-Revolution trainiert",
+      "url": "/blog/2025-12-21-anthropic-und-accenture-30-000-mitarbeiter-fuer-claude-revolution-trainiert/",
+      "description": "Massive Enterprise-AI-Partnerschaft: Accenture schult 30.000 Professionals auf Claude und bringt Claude Code in Entwicklerteams - der Game-Changer für AI-Automatisierung",
+      "date": "2025-12-21",
+      "category": "General",
+      "suggestedSection": "quickies"
+    },
+    {
+      "title": "ChatGPT + Adobe Integration: Native No-Code Automation für Designer und Entwickler",
+      "url": "/blog/2025-12-21-chatgpt-adobe-integration-native-no-code-automation-fuer-designer-und-entwickler/",
+      "description": "ChatGPT + Adobe Integration: Native No-Code Automation für Designer und Entwickler",
+      "date": "2025-12-21",
+      "category": "AI-Automation",
+      "suggestedSection": "quickies"
+    },
+    {
+      "title": "ChatGPT Images 1.5: 4x schneller, 20% günstiger – Game-Changer für Automation Workflows",
+      "url": "/blog/2025-12-21-chatgpt-images-1-5-4x-schneller-20-guenstiger-game-changer-fuer-automation-workflows/",
+      "description": "OpenAIs neues Bildmodell revolutioniert KI-Bildgenerierung mit 4-facher Geschwindigkeit, 20% niedrigeren API-Kosten und perfektem Text-Rendering für Automatisierung",
+      "date": "2025-12-21",
+      "category": "AI-Automation",
+      "suggestedSection": "top_story"
+    },
+    {
+      "title": "Gemini 2.5 TTS: Google revolutioniert Voice Automation mit Multi-Speaker Kontrolle",
+      "url": "/blog/2025-12-21-gemini-2-5-tts-google-revolutioniert-voice-automation-mit-multi-speaker-kontrolle/",
+      "description": "Google launcht Gemini 2.5 Flash & Pro TTS mit präziser Style-Kontrolle, 24 Sprachen und Multi-Speaker Support - perfekt für Voice Automation Workflows",
+      "date": "2025-12-21",
+      "category": "AI-Automation",
+      "suggestedSection": "top_story"
+    },
+    {
+      "title": "Gemini 3 Flash: Game-Changer für KI-Automatisierung mit 3x Speed und 75% weniger Kosten",
+      "url": "/blog/2025-12-21-gemini-3-flash-game-changer-fuer-ki-automatisierung-mit-3x-speed-und-75-weniger-kosten/",
+      "description": "Google revolutioniert KI-Workflows: Gemini 3 Flash übertrifft 2.5 Pro bei 3x Geschwindigkeit und nur $0.50/1M Tokens. Jetzt kostenlos in Gemini-App.",
+      "date": "2025-12-21",
+      "category": "General",
+      "suggestedSection": "top_story"
+    },
+    {
+      "title": "Gemini 3 Flash: Googles Game-Changer für kosteneffiziente AI-Automation",
+      "url": "/blog/2025-12-21-gemini-3-flash-googles-game-changer-fuer-kosteneffiziente-ai-automation/",
+      "description": "Google launcht Gemini 3 Flash mit 3x schnellerer Performance zum Bruchteil der Kosten - perfekt für High-Volume Automation-Workflows",
+      "date": "2025-12-21",
+      "category": "AI-Automation",
+      "suggestedSection": "top_story"
+    },
+    {
+      "title": "Gemini Deep Research: KI-generierte Visual Reports mit Charts und Simulationen",
+      "url": "/blog/2025-12-21-gemini-deep-research-ki-generierte-visual-reports-mit-charts-und-simulationen/",
+      "description": "Google erweitert Deep Research um automatische Visualisierungen – ein Game-Changer für Research-Automation und Dokumentations-Workflows",
+      "date": "2025-12-21",
+      "category": "AI-Automation",
+      "suggestedSection": "top_story"
+    },
+    {
+      "title": "GitHub Copilot Coding Agent: Automatische Pull Requests für alle zahlenden Nutzer verfügbar",
+      "url": "/blog/2025-12-21-github-copilot-coding-agent-automatische-pull-requests-fuer-alle-zahlenden-nutzer-verfuegbar/",
+      "description": "Der GitHub Copilot Coding Agent automatisiert Pull Requests vollständig - von Branch-Erstellung bis Code-Review. Seit 25. September 2025 für alle zahlenden Nutzer verfügbar.",
+      "date": "2025-12-21",
+      "category": "AI-Automation",
+      "suggestedSection": "quickies"
+    },
+    {
+      "title": "Google Antigravity: Wenn KI-Agenten selbstständig Software entwickeln",
+      "url": "/blog/2025-12-21-google-antigravity-wenn-ki-agenten-selbststaendig-software-entwickeln/",
+      "description": "Google Antigravity: Wenn KI-Agenten selbstständig Software entwickeln",
+      "date": "2025-12-21",
+      "category": "AI-Automation",
+      "suggestedSection": "top_story"
+    },
+    {
+      "title": "Google CC: KI-Agent revolutioniert E-Mail-Workflow mit automatischen Briefings",
+      "url": "/blog/2025-12-21-google-cc-ki-agent-revolutioniert-e-mail-workflow-mit-automatischen-briefings/",
+      "description": "Google Labs CC verbindet Gmail, Kalender und Drive zu einem intelligenten Produktivitätsagenten mit täglichen Briefings und E-Mail-Automatisierung",
+      "date": "2025-12-21",
+      "category": "AI-Automation",
+      "suggestedSection": "top_story"
+    },
+    {
+      "title": "Google Disco: KI-Browser verwandelt Tabs in interaktive Mini-Apps",
+      "url": "/blog/2025-12-21-google-disco-ki-browser-verwandelt-tabs-in-interaktive-mini-apps/",
+      "description": "Google Labs präsentiert Disco mit GenTabs - Gemini 3 erstellt automatisch interaktive Web-Apps aus Browser-Tabs. Game-Changer für Workflow-Automation?",
+      "date": "2025-12-21",
+      "category": "AI-Automation",
+      "suggestedSection": "top_story"
+    },
+    {
+      "title": "Google Gemini Deep Research API: Autonomer Research-Agent für Entwickler verfügbar",
+      "url": "/blog/2025-12-21-google-gemini-deep-research-api-autonomer-research-agent-fuer-entwickler-verfuegbar/",
+      "description": "Die neue Gemini Deep Research Interactions API ermöglicht autonome Web-Recherche mit Zitaten - direkt integrierbar in n8n, Make und Zapier Workflows",
+      "date": "2025-12-21",
+      "category": "AI-Automation",
+      "suggestedSection": "top_story"
+    },
+    {
+      "title": "Google Gemini: SynthID-Wasserzeichen für AI-Videos jetzt verfügbar",
+      "url": "/blog/2025-12-21-google-gemini-synthid-wasserzeichen-fuer-ai-videos-jetzt-verfuegbar/",
+      "description": "Gemini App integriert SynthID-Technologie zur Verifikation von AI-generierten Videos. Automatische Kennzeichnung und Nachweis für Veo 2 & 3 Videos.",
+      "date": "2025-12-21",
+      "category": "Creative Tools",
+      "suggestedSection": "top_story"
+    },
+    {
+      "title": "GPT-5.2 in Microsoft 365 Copilot: Thinking-Modus revolutioniert Enterprise-Automatisierung",
+      "url": "/blog/2025-12-21-gpt-5-2-in-microsoft-365-copilot-thinking-modus-revolutioniert-enterprise-automatisierung/",
+      "description": "Microsoft integriert GPT-5.2 mit Dual-Mode-System in Copilot. GPT-5.2 Thinking-Modus ermöglicht komplexe Reasoning-Tasks und spart bis zu 70% Zeit bei strategischen Analysen.",
+      "date": "2025-12-21",
+      "category": "General",
+      "suggestedSection": "top_story"
+    },
+    {
+      "title": "GPT-5.2: OpenAIs Game-Changer für Automatisierungs-Workflows mit 256k Context Window",
+      "url": "/blog/2025-12-21-gpt-5-2-openais-game-changer-fuer-automatisierungs-workflows-mit-256k-context-window/",
+      "description": "GPT-5.2: OpenAIs Game-Changer für Automatisierungs-Workflows mit 256k Context Window",
+      "date": "2025-12-21",
+      "category": "General",
+      "suggestedSection": "top_story"
+    },
+    {
+      "title": "GPT-5.2: OpenAIs Science-Revolution mit 77% Olympiad-Performance",
+      "url": "/blog/2025-12-21-gpt-5-2-openais-science-revolution-mit-77-olympiad-performance/",
+      "description": "GPT-5.2 dominiert mit 77% bei Wissenschafts-Olympiaden, zeigt aber bei Research-Tasks nur 25%. Was bedeutet das für AI-Automation?",
+      "date": "2025-12-21",
+      "category": "AI-Automation",
+      "suggestedSection": "top_story"
+    },
+    {
+      "title": "NotebookLM Revolution: 20x mehr Power mit 10.000 Zeichen Prompts",
+      "url": "/blog/2025-12-21-notebooklm-revolution-20x-mehr-power-mit-10-000-zeichen-prompts/",
+      "description": "Google erweitert NotebookLM von 500 auf 10.000 Zeichen und revolutioniert damit AI-Research-Workflows für Automatisierer",
+      "date": "2025-12-21",
+      "category": "General",
+      "suggestedSection": "top_story"
+    },
+    {
+      "title": "NotebookLM Slide Decks: Google revolutioniert KI-Präsentationen",
+      "url": "/blog/2025-12-21-notebooklm-slide-decks-google-revolutioniert-ki-praesentationen/",
+      "description": "Von Research zu fertigen Folien in 60 Sekunden - NotebookLM automatisiert mit Nano Banana Pro den kompletten Präsentations-Workflow",
+      "date": "2025-12-21",
+      "category": "General",
+      "suggestedSection": "top_story"
+    },
+    {
+      "title": "OpenAI, Anthropic und Block gründen Agentic AI Foundation - Das Ende der Walled Gardens",
+      "url": "/blog/2025-12-21-openai-anthropic-und-block-gruenden-agentic-ai-foundation-das-ende-der-walled-gardens/",
+      "description": "Linux Foundation vereint Tech-Giganten für offene AI-Agent Standards: MCP, Goose und AGENTS.md sollen Interoperabilität und 80% Zeitersparnis ermöglichen",
+      "date": "2025-12-21",
+      "category": "AI-Automation",
+      "suggestedSection": "top_story"
+    },
+    {
+      "title": "OpenAI Atlas: Der KI-Browser, der Automatisierung neu definiert",
+      "url": "/blog/2025-12-21-openai-atlas-der-ki-browser-der-automatisierung-neu-definiert/",
+      "description": "OpenAI startet Atlas Browser mit integriertem ChatGPT Agent Mode - Zeitersparnis durch intelligente Browser-Automation und neue Workflows für Engineers",
+      "date": "2025-12-21",
+      "category": "AI-Automation",
+      "suggestedSection": "top_story"
+    },
+    {
+      "title": "OpenAI Realtime API: 89% weniger Halluzinationen revolutionieren Voice-Automatisierung",
+      "url": "/blog/2025-12-21-openai-realtime-api-89-weniger-halluzinationen-revolutionieren-voice-automatisierung/",
+      "description": "OpenAI veröffentlicht neue API-Snapshots mit drastisch reduzierten Transkriptionsfehlern und verbesserter TTS-Qualität für Echtzeit-Voice-Apps",
+      "date": "2025-12-21",
+      "category": "General",
+      "suggestedSection": "top_story"
+    },
+    {
+      "title": "OpenAI revolutioniert App-Entwicklung: Sora Android in 28 Tagen mit 85% AI-Code",
+      "url": "/blog/2025-12-21-openai-revolutioniert-app-entwicklung-sora-android-in-28-tagen-mit-85-ai-code/",
+      "description": "OpenAI entwickelte Sora Android mit nur 4 Entwicklern in 28 Tagen. Codex generierte 85% des Codes und spart damit Monate an Entwicklungszeit.",
+      "date": "2025-12-21",
+      "category": "General",
+      "suggestedSection": "top_story"
+    },
+    {
+      "title": "OpenAI Skills: Verstecktes Power-Feature revolutioniert AI-Automation",
+      "url": "/blog/2025-12-21-openai-skills-verstecktes-power-feature-revolutioniert-ai-automation/",
+      "description": "OpenAI führt leise Skills-Feature ein - modulare AI-Komponenten die autonom entscheiden. Das bedeutet 100x effizientere Workflows für Automatisierungsprofis.",
+      "date": "2025-12-21",
+      "category": "AI-Automation",
+      "suggestedSection": "top_story"
+    },
+    {
+      "title": "OpenAI Wet Lab: GPT-5 macht Klonierungsprotokolle 79x effizienter",
+      "url": "/blog/2025-12-21-openai-wet-lab-gpt-5-macht-klonierungsprotokolle-79x-effizienter/",
+      "description": "GPT-5 optimiert Labor-Workflows mit 79-facher Effizienzsteigerung - praktische Einblicke in AI-gesteuerte Laborautomation für Automation Engineers",
+      "date": "2025-12-21",
+      "category": "AI-Automation",
+      "suggestedSection": "top_story"
+    },
+    {
+      "title": "OpenAI wird zur 130-Milliarden-Dollar-Maschine: Das bedeutet die Umstrukturierung für Automation Engineers",
+      "url": "/blog/2025-12-21-openai-wird-zur-130-milliarden-dollar-maschine-das-bedeutet-die-umstrukturierung-fuer-automation-engineers/",
+      "description": "OpenAI wird zur 130-Milliarden-Dollar-Maschine: Das bedeutet die Umstrukturierung für Automation Engineers",
+      "date": "2025-12-21",
+      "category": "AI-Automation",
+      "suggestedSection": "top_story"
+    },
+    {
+      "title": "Zeiterfassung 4.0: Wie KI und Analytics die HR-Automatisierung revolutionieren",
+      "url": "/blog/2025-12-21-zeiterfassung-4-0-wie-ki-und-analytics-die-hr-automatisierung-revolutionieren/",
+      "description": "Von der Stechuhr zur KI: Whitepaper zeigt konkrete Automatisierungspotenziale und ROI durch intelligente Zeiterfassung für HR-Teams",
+      "date": "2025-12-21",
+      "category": "General",
+      "suggestedSection": "quickies"
+    },
+    {
+      "title": "Zoom AI Companion 3.0: Agentische KI automatisiert Meeting-Workflows",
+      "url": "/blog/2025-12-21-zoom-ai-companion-3-0-agentische-ki-automatisiert-meeting-workflows/",
+      "description": "Zoom revolutioniert mit AI Companion 3.0 die Meeting-Automatisierung: Agentische Workflows, Web-Interface und 33% Zeitersparnis ab 10$/Monat",
+      "date": "2025-12-21",
+      "category": "AI-Automation",
+      "suggestedSection": "quickies"
+    }
+  ],
+  "rawArticles": [
+    {
+      "filename": "2025-12-21-adobe-firefly-prompt-basiertes-video-editing-revolutioniert-content-workflows",
+      "date": "2025-12-21",
+      "title": "Adobe Firefly: Prompt-basiertes Video-Editing revolutioniert Content-Workflows",
+      "description": "Adobe Firefly ermöglicht Video-Bearbeitung per Text-Prompt, integriert FLUX.2 & Topaz - bis zu 80% Zeitersparnis in Video-Pipelines",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2025-12-21-adobe-firefly-prompt-basiertes-video-editing-revolutioniert-content-workflows/",
+      "slug": "2025-12-21-adobe-firefly-prompt-basiertes-video-editing-revolutioniert-content-workflows"
+    },
+    {
+      "filename": "2025-12-21-alpha-arena-6-kis-handeln-mit-echtem-geld-qwen-gewinnt-mit-22",
+      "date": "2025-12-21",
+      "title": "Alpha Arena: 6 KIs handeln mit echtem Geld – Qwen gewinnt mit +22%",
+      "description": "Live-Experiment: Claude, GPT-5, DeepSeek & Co. traden autonom mit je 10.000 USD. Qwen 3 MAX gewinnt Season 1 mit 22% Return.",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2025-12-21-alpha-arena-6-kis-handeln-mit-echtem-geld-qwen-gewinnt-mit-22/",
+      "slug": "2025-12-21-alpha-arena-6-kis-handeln-mit-echtem-geld-qwen-gewinnt-mit-22"
+    },
+    {
+      "filename": "2025-12-21-android-xr-googles-smart-glasses-revolution-mit-gemini-ai-3-varianten-fuer-2026",
+      "date": "2025-12-21",
+      "title": "Android XR: Googles Smart Glasses Revolution mit Gemini AI - 3 Varianten für 2026",
+      "description": "Google präsentiert Android XR Smart Glasses mit Gemini-Integration. Drei Varianten (AI, Display, Wired) revolutionieren Workflow-Automatisierung ab 2026.",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2025-12-21-android-xr-googles-smart-glasses-revolution-mit-gemini-ai-3-varianten-fuer-2026/",
+      "slug": "2025-12-21-android-xr-googles-smart-glasses-revolution-mit-gemini-ai-3-varianten-fuer-2026"
+    },
+    {
+      "filename": "2025-12-21-anthropic-und-accenture-30-000-mitarbeiter-fuer-claude-revolution-trainiert",
+      "date": "2025-12-21",
+      "title": "Anthropic und Accenture: 30.000 Mitarbeiter für Claude-Revolution trainiert",
+      "description": "Massive Enterprise-AI-Partnerschaft: Accenture schult 30.000 Professionals auf Claude und bringt Claude Code in Entwicklerteams - der Game-Changer für AI-Automatisierung",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2025-12-21-anthropic-und-accenture-30-000-mitarbeiter-fuer-claude-revolution-trainiert/",
+      "slug": "2025-12-21-anthropic-und-accenture-30-000-mitarbeiter-fuer-claude-revolution-trainiert"
+    },
+    {
+      "filename": "2025-12-21-chatgpt-adobe-integration-native-no-code-automation-fuer-designer-und-entwickler",
+      "date": "2025-12-21",
+      "title": "ChatGPT + Adobe Integration: Native No-Code Automation für Designer und Entwickler",
+      "description": "ChatGPT + Adobe Integration: Native No-Code Automation für Designer und Entwickler",
+      "category": "Technology",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "5 min read",
+      "url": "/blog/2025-12-21-chatgpt-adobe-integration-native-no-code-automation-fuer-designer-und-entwickler/",
+      "slug": "2025-12-21-chatgpt-adobe-integration-native-no-code-automation-fuer-designer-und-entwickler"
+    },
+    {
+      "filename": "2025-12-21-chatgpt-images-1-5-4x-schneller-20-guenstiger-game-changer-fuer-automation-workflows",
+      "date": "2025-12-21",
+      "title": "ChatGPT Images 1.5: 4x schneller, 20% günstiger – Game-Changer für Automation Workflows",
+      "description": "OpenAIs neues Bildmodell revolutioniert KI-Bildgenerierung mit 4-facher Geschwindigkeit, 20% niedrigeren API-Kosten und perfektem Text-Rendering für Automatisierung",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2025-12-21-chatgpt-images-1-5-4x-schneller-20-guenstiger-game-changer-fuer-automation-workflows/",
+      "slug": "2025-12-21-chatgpt-images-1-5-4x-schneller-20-guenstiger-game-changer-fuer-automation-workflows"
+    },
+    {
+      "filename": "2025-12-21-gemini-2-5-tts-google-revolutioniert-voice-automation-mit-multi-speaker-kontrolle",
+      "date": "2025-12-21",
+      "title": "Gemini 2.5 TTS: Google revolutioniert Voice Automation mit Multi-Speaker Kontrolle",
+      "description": "Google launcht Gemini 2.5 Flash & Pro TTS mit präziser Style-Kontrolle, 24 Sprachen und Multi-Speaker Support - perfekt für Voice Automation Workflows",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2025-12-21-gemini-2-5-tts-google-revolutioniert-voice-automation-mit-multi-speaker-kontrolle/",
+      "slug": "2025-12-21-gemini-2-5-tts-google-revolutioniert-voice-automation-mit-multi-speaker-kontrolle"
+    },
+    {
+      "filename": "2025-12-21-gemini-3-flash-game-changer-fuer-ki-automatisierung-mit-3x-speed-und-75-weniger-kosten",
+      "date": "2025-12-21",
+      "title": "Gemini 3 Flash: Game-Changer für KI-Automatisierung mit 3x Speed und 75% weniger Kosten",
+      "description": "Google revolutioniert KI-Workflows: Gemini 3 Flash übertrifft 2.5 Pro bei 3x Geschwindigkeit und nur $0.50/1M Tokens. Jetzt kostenlos in Gemini-App.",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2025-12-21-gemini-3-flash-game-changer-fuer-ki-automatisierung-mit-3x-speed-und-75-weniger-kosten/",
+      "slug": "2025-12-21-gemini-3-flash-game-changer-fuer-ki-automatisierung-mit-3x-speed-und-75-weniger-kosten"
+    },
+    {
+      "filename": "2025-12-21-gemini-3-flash-googles-game-changer-fuer-kosteneffiziente-ai-automation",
+      "date": "2025-12-21",
+      "title": "Gemini 3 Flash: Googles Game-Changer für kosteneffiziente AI-Automation",
+      "description": "Google launcht Gemini 3 Flash mit 3x schnellerer Performance zum Bruchteil der Kosten - perfekt für High-Volume Automation-Workflows",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2025-12-21-gemini-3-flash-googles-game-changer-fuer-kosteneffiziente-ai-automation/",
+      "slug": "2025-12-21-gemini-3-flash-googles-game-changer-fuer-kosteneffiziente-ai-automation"
+    },
+    {
+      "filename": "2025-12-21-gemini-deep-research-ki-generierte-visual-reports-mit-charts-und-simulationen",
+      "date": "2025-12-21",
+      "title": "Gemini Deep Research: KI-generierte Visual Reports mit Charts und Simulationen",
+      "description": "Google erweitert Deep Research um automatische Visualisierungen – ein Game-Changer für Research-Automation und Dokumentations-Workflows",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2025-12-21-gemini-deep-research-ki-generierte-visual-reports-mit-charts-und-simulationen/",
+      "slug": "2025-12-21-gemini-deep-research-ki-generierte-visual-reports-mit-charts-und-simulationen"
+    },
+    {
+      "filename": "2025-12-21-github-copilot-coding-agent-automatische-pull-requests-fuer-alle-zahlenden-nutzer-verfuegbar",
+      "date": "2025-12-21",
+      "title": "GitHub Copilot Coding Agent: Automatische Pull Requests für alle zahlenden Nutzer verfügbar",
+      "description": "Der GitHub Copilot Coding Agent automatisiert Pull Requests vollständig - von Branch-Erstellung bis Code-Review. Seit 25. September 2025 für alle zahlenden Nutzer verfügbar.",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2025-12-21-github-copilot-coding-agent-automatische-pull-requests-fuer-alle-zahlenden-nutzer-verfuegbar/",
+      "slug": "2025-12-21-github-copilot-coding-agent-automatische-pull-requests-fuer-alle-zahlenden-nutzer-verfuegbar"
+    },
+    {
+      "filename": "2025-12-21-google-antigravity-wenn-ki-agenten-selbststaendig-software-entwickeln",
+      "date": "2025-12-21",
+      "title": "Google Antigravity: Wenn KI-Agenten selbstständig Software entwickeln",
+      "description": "Google Antigravity: Wenn KI-Agenten selbstständig Software entwickeln",
+      "category": "Technology",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "5 min read",
+      "url": "/blog/2025-12-21-google-antigravity-wenn-ki-agenten-selbststaendig-software-entwickeln/",
+      "slug": "2025-12-21-google-antigravity-wenn-ki-agenten-selbststaendig-software-entwickeln"
+    },
+    {
+      "filename": "2025-12-21-google-cc-ki-agent-revolutioniert-e-mail-workflow-mit-automatischen-briefings",
+      "date": "2025-12-21",
+      "title": "Google CC: KI-Agent revolutioniert E-Mail-Workflow mit automatischen Briefings",
+      "description": "Google Labs CC verbindet Gmail, Kalender und Drive zu einem intelligenten Produktivitätsagenten mit täglichen Briefings und E-Mail-Automatisierung",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2025-12-21-google-cc-ki-agent-revolutioniert-e-mail-workflow-mit-automatischen-briefings/",
+      "slug": "2025-12-21-google-cc-ki-agent-revolutioniert-e-mail-workflow-mit-automatischen-briefings"
+    },
+    {
+      "filename": "2025-12-21-google-disco-ki-browser-verwandelt-tabs-in-interaktive-mini-apps",
+      "date": "2025-12-21",
+      "title": "Google Disco: KI-Browser verwandelt Tabs in interaktive Mini-Apps",
+      "description": "Google Labs präsentiert Disco mit GenTabs - Gemini 3 erstellt automatisch interaktive Web-Apps aus Browser-Tabs. Game-Changer für Workflow-Automation?",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2025-12-21-google-disco-ki-browser-verwandelt-tabs-in-interaktive-mini-apps/",
+      "slug": "2025-12-21-google-disco-ki-browser-verwandelt-tabs-in-interaktive-mini-apps"
+    },
+    {
+      "filename": "2025-12-21-google-gemini-deep-research-api-autonomer-research-agent-fuer-entwickler-verfuegbar",
+      "date": "2025-12-21",
+      "title": "Google Gemini Deep Research API: Autonomer Research-Agent für Entwickler verfügbar",
+      "description": "Die neue Gemini Deep Research Interactions API ermöglicht autonome Web-Recherche mit Zitaten - direkt integrierbar in n8n, Make und Zapier Workflows",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2025-12-21-google-gemini-deep-research-api-autonomer-research-agent-fuer-entwickler-verfuegbar/",
+      "slug": "2025-12-21-google-gemini-deep-research-api-autonomer-research-agent-fuer-entwickler-verfuegbar"
+    },
+    {
+      "filename": "2025-12-21-google-gemini-synthid-wasserzeichen-fuer-ai-videos-jetzt-verfuegbar",
+      "date": "2025-12-21",
+      "title": "Google Gemini: SynthID-Wasserzeichen für AI-Videos jetzt verfügbar",
+      "description": "Gemini App integriert SynthID-Technologie zur Verifikation von AI-generierten Videos. Automatische Kennzeichnung und Nachweis für Veo 2 & 3 Videos.",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "5 min read",
+      "url": "/blog/2025-12-21-google-gemini-synthid-wasserzeichen-fuer-ai-videos-jetzt-verfuegbar/",
+      "slug": "2025-12-21-google-gemini-synthid-wasserzeichen-fuer-ai-videos-jetzt-verfuegbar"
+    },
+    {
+      "filename": "2025-12-21-gpt-5-2-in-microsoft-365-copilot-thinking-modus-revolutioniert-enterprise-automatisierung",
+      "date": "2025-12-21",
+      "title": "GPT-5.2 in Microsoft 365 Copilot: Thinking-Modus revolutioniert Enterprise-Automatisierung",
+      "description": "Microsoft integriert GPT-5.2 mit Dual-Mode-System in Copilot. GPT-5.2 Thinking-Modus ermöglicht komplexe Reasoning-Tasks und spart bis zu 70% Zeit bei strategischen Analysen.",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2025-12-21-gpt-5-2-in-microsoft-365-copilot-thinking-modus-revolutioniert-enterprise-automatisierung/",
+      "slug": "2025-12-21-gpt-5-2-in-microsoft-365-copilot-thinking-modus-revolutioniert-enterprise-automatisierung"
+    },
+    {
+      "filename": "2025-12-21-gpt-5-2-openais-game-changer-fuer-automatisierungs-workflows-mit-256k-context-window",
+      "date": "2025-12-21",
+      "title": "GPT-5.2: OpenAIs Game-Changer für Automatisierungs-Workflows mit 256k Context Window",
+      "description": "GPT-5.2: OpenAIs Game-Changer für Automatisierungs-Workflows mit 256k Context Window",
+      "category": "Technology",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "5 min read",
+      "url": "/blog/2025-12-21-gpt-5-2-openais-game-changer-fuer-automatisierungs-workflows-mit-256k-context-window/",
+      "slug": "2025-12-21-gpt-5-2-openais-game-changer-fuer-automatisierungs-workflows-mit-256k-context-window"
+    },
+    {
+      "filename": "2025-12-21-gpt-5-2-openais-science-revolution-mit-77-olympiad-performance",
+      "date": "2025-12-21",
+      "title": "GPT-5.2: OpenAIs Science-Revolution mit 77% Olympiad-Performance",
+      "description": "GPT-5.2 dominiert mit 77% bei Wissenschafts-Olympiaden, zeigt aber bei Research-Tasks nur 25%. Was bedeutet das für AI-Automation?",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2025-12-21-gpt-5-2-openais-science-revolution-mit-77-olympiad-performance/",
+      "slug": "2025-12-21-gpt-5-2-openais-science-revolution-mit-77-olympiad-performance"
+    },
+    {
+      "filename": "2025-12-21-notebooklm-revolution-20x-mehr-power-mit-10-000-zeichen-prompts",
+      "date": "2025-12-21",
+      "title": "NotebookLM Revolution: 20x mehr Power mit 10.000 Zeichen Prompts",
+      "description": "Google erweitert NotebookLM von 500 auf 10.000 Zeichen und revolutioniert damit AI-Research-Workflows für Automatisierer",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2025-12-21-notebooklm-revolution-20x-mehr-power-mit-10-000-zeichen-prompts/",
+      "slug": "2025-12-21-notebooklm-revolution-20x-mehr-power-mit-10-000-zeichen-prompts"
+    },
+    {
+      "filename": "2025-12-21-notebooklm-slide-decks-google-revolutioniert-ki-praesentationen",
+      "date": "2025-12-21",
+      "title": "NotebookLM Slide Decks: Google revolutioniert KI-Präsentationen",
+      "description": "Von Research zu fertigen Folien in 60 Sekunden - NotebookLM automatisiert mit Nano Banana Pro den kompletten Präsentations-Workflow",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2025-12-21-notebooklm-slide-decks-google-revolutioniert-ki-praesentationen/",
+      "slug": "2025-12-21-notebooklm-slide-decks-google-revolutioniert-ki-praesentationen"
+    },
+    {
+      "filename": "2025-12-21-openai-anthropic-und-block-gruenden-agentic-ai-foundation-das-ende-der-walled-gardens",
+      "date": "2025-12-21",
+      "title": "OpenAI, Anthropic und Block gründen Agentic AI Foundation - Das Ende der Walled Gardens",
+      "description": "Linux Foundation vereint Tech-Giganten für offene AI-Agent Standards: MCP, Goose und AGENTS.md sollen Interoperabilität und 80% Zeitersparnis ermöglichen",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2025-12-21-openai-anthropic-und-block-gruenden-agentic-ai-foundation-das-ende-der-walled-gardens/",
+      "slug": "2025-12-21-openai-anthropic-und-block-gruenden-agentic-ai-foundation-das-ende-der-walled-gardens"
+    },
+    {
+      "filename": "2025-12-21-openai-atlas-der-ki-browser-der-automatisierung-neu-definiert",
+      "date": "2025-12-21",
+      "title": "OpenAI Atlas: Der KI-Browser, der Automatisierung neu definiert",
+      "description": "OpenAI startet Atlas Browser mit integriertem ChatGPT Agent Mode - Zeitersparnis durch intelligente Browser-Automation und neue Workflows für Engineers",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2025-12-21-openai-atlas-der-ki-browser-der-automatisierung-neu-definiert/",
+      "slug": "2025-12-21-openai-atlas-der-ki-browser-der-automatisierung-neu-definiert"
+    },
+    {
+      "filename": "2025-12-21-openai-realtime-api-89-weniger-halluzinationen-revolutionieren-voice-automatisierung",
+      "date": "2025-12-21",
+      "title": "OpenAI Realtime API: 89% weniger Halluzinationen revolutionieren Voice-Automatisierung",
+      "description": "OpenAI veröffentlicht neue API-Snapshots mit drastisch reduzierten Transkriptionsfehlern und verbesserter TTS-Qualität für Echtzeit-Voice-Apps",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "5 min read",
+      "url": "/blog/2025-12-21-openai-realtime-api-89-weniger-halluzinationen-revolutionieren-voice-automatisierung/",
+      "slug": "2025-12-21-openai-realtime-api-89-weniger-halluzinationen-revolutionieren-voice-automatisierung"
+    },
+    {
+      "filename": "2025-12-21-openai-revolutioniert-app-entwicklung-sora-android-in-28-tagen-mit-85-ai-code",
+      "date": "2025-12-21",
+      "title": "OpenAI revolutioniert App-Entwicklung: Sora Android in 28 Tagen mit 85% AI-Code",
+      "description": "OpenAI entwickelte Sora Android mit nur 4 Entwicklern in 28 Tagen. Codex generierte 85% des Codes und spart damit Monate an Entwicklungszeit.",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2025-12-21-openai-revolutioniert-app-entwicklung-sora-android-in-28-tagen-mit-85-ai-code/",
+      "slug": "2025-12-21-openai-revolutioniert-app-entwicklung-sora-android-in-28-tagen-mit-85-ai-code"
+    },
+    {
+      "filename": "2025-12-21-openai-skills-verstecktes-power-feature-revolutioniert-ai-automation",
+      "date": "2025-12-21",
+      "title": "OpenAI Skills: Verstecktes Power-Feature revolutioniert AI-Automation",
+      "description": "OpenAI führt leise Skills-Feature ein - modulare AI-Komponenten die autonom entscheiden. Das bedeutet 100x effizientere Workflows für Automatisierungsprofis.",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2025-12-21-openai-skills-verstecktes-power-feature-revolutioniert-ai-automation/",
+      "slug": "2025-12-21-openai-skills-verstecktes-power-feature-revolutioniert-ai-automation"
+    },
+    {
+      "filename": "2025-12-21-openai-wet-lab-gpt-5-macht-klonierungsprotokolle-79x-effizienter",
+      "date": "2025-12-21",
+      "title": "OpenAI Wet Lab: GPT-5 macht Klonierungsprotokolle 79x effizienter",
+      "description": "GPT-5 optimiert Labor-Workflows mit 79-facher Effizienzsteigerung - praktische Einblicke in AI-gesteuerte Laborautomation für Automation Engineers",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2025-12-21-openai-wet-lab-gpt-5-macht-klonierungsprotokolle-79x-effizienter/",
+      "slug": "2025-12-21-openai-wet-lab-gpt-5-macht-klonierungsprotokolle-79x-effizienter"
+    },
+    {
+      "filename": "2025-12-21-openai-wird-zur-130-milliarden-dollar-maschine-das-bedeutet-die-umstrukturierung-fuer-automation-engineers",
+      "date": "2025-12-21",
+      "title": "OpenAI wird zur 130-Milliarden-Dollar-Maschine: Das bedeutet die Umstrukturierung für Automation Engineers",
+      "description": "OpenAI wird zur 130-Milliarden-Dollar-Maschine: Das bedeutet die Umstrukturierung für Automation Engineers",
+      "category": "Technology",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "5 min read",
+      "url": "/blog/2025-12-21-openai-wird-zur-130-milliarden-dollar-maschine-das-bedeutet-die-umstrukturierung-fuer-automation-engineers/",
+      "slug": "2025-12-21-openai-wird-zur-130-milliarden-dollar-maschine-das-bedeutet-die-umstrukturierung-fuer-automation-engineers"
+    },
+    {
+      "filename": "2025-12-21-zeiterfassung-4-0-wie-ki-und-analytics-die-hr-automatisierung-revolutionieren",
+      "date": "2025-12-21",
+      "title": "Zeiterfassung 4.0: Wie KI und Analytics die HR-Automatisierung revolutionieren",
+      "description": "Von der Stechuhr zur KI: Whitepaper zeigt konkrete Automatisierungspotenziale und ROI durch intelligente Zeiterfassung für HR-Teams",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2025-12-21-zeiterfassung-4-0-wie-ki-und-analytics-die-hr-automatisierung-revolutionieren/",
+      "slug": "2025-12-21-zeiterfassung-4-0-wie-ki-und-analytics-die-hr-automatisierung-revolutionieren"
+    },
+    {
+      "filename": "2025-12-21-zoom-ai-companion-3-0-agentische-ki-automatisiert-meeting-workflows",
+      "date": "2025-12-21",
+      "title": "Zoom AI Companion 3.0: Agentische KI automatisiert Meeting-Workflows",
+      "description": "Zoom revolutioniert mit AI Companion 3.0 die Meeting-Automatisierung: Agentische Workflows, Web-Interface und 33% Zeitersparnis ab 10$/Monat",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2025-12-21-zoom-ai-companion-3-0-agentische-ki-automatisiert-meeting-workflows/",
+      "slug": "2025-12-21-zoom-ai-companion-3-0-agentische-ki-automatisiert-meeting-workflows"
+    }
+  ]
+}
