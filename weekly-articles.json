@@ -1,0 +1,261 @@
+{
+  "generated": "2025-12-19T08:36:56.370Z",
+  "summary": {
+    "total": 4,
+    "dateRange": {
+      "start": "2025-12-12",
+      "end": "2025-12-19",
+      "startObj": "2025-12-12T08:36:56.370Z",
+      "endObj": "2025-12-19T08:36:56.370Z"
+    },
+    "categories": {
+      "AI-Automation": {
+        "count": 2,
+        "articles": [
+          {
+            "filename": "2025-12-19-chatgpt-wird-zur-plattform-apps-sdk-und-salesforce-integration-revolutionieren-workflow-automatisierung",
+            "date": "2025-12-19",
+            "title": "ChatGPT wird zur Plattform: Apps SDK und Salesforce-Integration revolutionieren Workflow-Automatisierung",
+            "description": "OpenAI macht ChatGPT zur Automatisierungs-Zentrale: Mit Apps SDK, MCP und direkter CRM-Integration sparen Teams bis zu 80% Entwicklungszeit",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2025-12-19-chatgpt-wird-zur-plattform-apps-sdk-und-salesforce-integration-revolutionieren-workflow-automatisierung/",
+            "slug": "2025-12-19-chatgpt-wird-zur-plattform-apps-sdk-und-salesforce-integration-revolutionieren-workflow-automatisierung"
+          },
+          {
+            "filename": "2025-12-19-mit-studie-schockt-95-aller-ki-projekte-scheitern-die-5-kritischen-fehler-und-wie-ai-automation-engineers-sie-vermeiden",
+            "date": "2025-12-19",
+            "title": "MIT-Studie schockt: 95% aller KI-Projekte scheitern – Die 5 kritischen Fehler und wie AI-Automation Engineers sie vermeiden",
+            "description": "Neue MIT-Studie 2025 zeigt: 95% der KI-Initiativen liefern keinen ROI. Erfahren Sie die konkreten Gründe und praktische Lösungsansätze mit Automatisierungs-Tools.",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2025-12-19-mit-studie-schockt-95-aller-ki-projekte-scheitern-die-5-kritischen-fehler-und-wie-ai-automation-engineers-sie-vermeiden/",
+            "slug": "2025-12-19-mit-studie-schockt-95-aller-ki-projekte-scheitern-die-5-kritischen-fehler-und-wie-ai-automation-engineers-sie-vermeiden"
+          }
+        ]
+      },
+      "Development": {
+        "count": 1,
+        "articles": [
+          {
+            "filename": "2025-12-19-claude-entwickler-warnt-vibe-coding-ist-kein-wundermittel-fuer-die-automatisierung",
+            "date": "2025-12-19",
+            "title": "Claude-Entwickler warnt: Vibe-Coding ist kein Wundermittel für die Automatisierung",
+            "description": "Claude-Entwickler warnt: Vibe-Coding ist kein Wundermittel für die Automatisierung",
+            "category": "Technology",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "5 min read",
+            "url": "/blog/2025-12-19-claude-entwickler-warnt-vibe-coding-ist-kein-wundermittel-fuer-die-automatisierung/",
+            "slug": "2025-12-19-claude-entwickler-warnt-vibe-coding-ist-kein-wundermittel-fuer-die-automatisierung"
+          }
+        ]
+      },
+      "Other": {
+        "count": 1,
+        "articles": [
+          {
+            "filename": "2025-12-16-mcp-wird-open-source-anthropic-spendet-model-context-protocol-an-linux-foundation",
+            "date": "2025-12-16",
+            "title": "MCP wird Open Source: Anthropic spendet Model Context Protocol an Linux Foundation",
+            "description": "MCP wird Open Source: Anthropic spendet Model Context Protocol an Linux Foundation",
+            "category": "Technology",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "5 min read",
+            "url": "/blog/2025-12-16-mcp-wird-open-source-anthropic-spendet-model-context-protocol-an-linux-foundation/",
+            "slug": "2025-12-16-mcp-wird-open-source-anthropic-spendet-model-context-protocol-an-linux-foundation"
+          }
+        ]
+      }
+    },
+    "topArticles": [
+      {
+        "filename": "2025-12-19-chatgpt-wird-zur-plattform-apps-sdk-und-salesforce-integration-revolutionieren-workflow-automatisierung",
+        "date": "2025-12-19",
+        "title": "ChatGPT wird zur Plattform: Apps SDK und Salesforce-Integration revolutionieren Workflow-Automatisierung",
+        "description": "OpenAI macht ChatGPT zur Automatisierungs-Zentrale: Mit Apps SDK, MCP und direkter CRM-Integration sparen Teams bis zu 80% Entwicklungszeit",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2025-12-19-chatgpt-wird-zur-plattform-apps-sdk-und-salesforce-integration-revolutionieren-workflow-automatisierung/",
+        "slug": "2025-12-19-chatgpt-wird-zur-plattform-apps-sdk-und-salesforce-integration-revolutionieren-workflow-automatisierung"
+      },
+      {
+        "filename": "2025-12-19-claude-entwickler-warnt-vibe-coding-ist-kein-wundermittel-fuer-die-automatisierung",
+        "date": "2025-12-19",
+        "title": "Claude-Entwickler warnt: Vibe-Coding ist kein Wundermittel für die Automatisierung",
+        "description": "Claude-Entwickler warnt: Vibe-Coding ist kein Wundermittel für die Automatisierung",
+        "category": "Technology",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "5 min read",
+        "url": "/blog/2025-12-19-claude-entwickler-warnt-vibe-coding-ist-kein-wundermittel-fuer-die-automatisierung/",
+        "slug": "2025-12-19-claude-entwickler-warnt-vibe-coding-ist-kein-wundermittel-fuer-die-automatisierung"
+      },
+      {
+        "filename": "2025-12-19-mit-studie-schockt-95-aller-ki-projekte-scheitern-die-5-kritischen-fehler-und-wie-ai-automation-engineers-sie-vermeiden",
+        "date": "2025-12-19",
+        "title": "MIT-Studie schockt: 95% aller KI-Projekte scheitern – Die 5 kritischen Fehler und wie AI-Automation Engineers sie vermeiden",
+        "description": "Neue MIT-Studie 2025 zeigt: 95% der KI-Initiativen liefern keinen ROI. Erfahren Sie die konkreten Gründe und praktische Lösungsansätze mit Automatisierungs-Tools.",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2025-12-19-mit-studie-schockt-95-aller-ki-projekte-scheitern-die-5-kritischen-fehler-und-wie-ai-automation-engineers-sie-vermeiden/",
+        "slug": "2025-12-19-mit-studie-schockt-95-aller-ki-projekte-scheitern-die-5-kritischen-fehler-und-wie-ai-automation-engineers-sie-vermeiden"
+      },
+      {
+        "filename": "2025-12-16-mcp-wird-open-source-anthropic-spendet-model-context-protocol-an-linux-foundation",
+        "date": "2025-12-16",
+        "title": "MCP wird Open Source: Anthropic spendet Model Context Protocol an Linux Foundation",
+        "description": "MCP wird Open Source: Anthropic spendet Model Context Protocol an Linux Foundation",
+        "category": "Technology",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "5 min read",
+        "url": "/blog/2025-12-16-mcp-wird-open-source-anthropic-spendet-model-context-protocol-an-linux-foundation/",
+        "slug": "2025-12-16-mcp-wird-open-source-anthropic-spendet-model-context-protocol-an-linux-foundation"
+      }
+    ],
+    "articlesList": [
+      {
+        "filename": "2025-12-19-chatgpt-wird-zur-plattform-apps-sdk-und-salesforce-integration-revolutionieren-workflow-automatisierung",
+        "date": "2025-12-19",
+        "title": "ChatGPT wird zur Plattform: Apps SDK und Salesforce-Integration revolutionieren Workflow-Automatisierung",
+        "description": "OpenAI macht ChatGPT zur Automatisierungs-Zentrale: Mit Apps SDK, MCP und direkter CRM-Integration sparen Teams bis zu 80% Entwicklungszeit",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2025-12-19-chatgpt-wird-zur-plattform-apps-sdk-und-salesforce-integration-revolutionieren-workflow-automatisierung/",
+        "slug": "2025-12-19-chatgpt-wird-zur-plattform-apps-sdk-und-salesforce-integration-revolutionieren-workflow-automatisierung"
+      },
+      {
+        "filename": "2025-12-19-claude-entwickler-warnt-vibe-coding-ist-kein-wundermittel-fuer-die-automatisierung",
+        "date": "2025-12-19",
+        "title": "Claude-Entwickler warnt: Vibe-Coding ist kein Wundermittel für die Automatisierung",
+        "description": "Claude-Entwickler warnt: Vibe-Coding ist kein Wundermittel für die Automatisierung",
+        "category": "Technology",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "5 min read",
+        "url": "/blog/2025-12-19-claude-entwickler-warnt-vibe-coding-ist-kein-wundermittel-fuer-die-automatisierung/",
+        "slug": "2025-12-19-claude-entwickler-warnt-vibe-coding-ist-kein-wundermittel-fuer-die-automatisierung"
+      },
+      {
+        "filename": "2025-12-19-mit-studie-schockt-95-aller-ki-projekte-scheitern-die-5-kritischen-fehler-und-wie-ai-automation-engineers-sie-vermeiden",
+        "date": "2025-12-19",
+        "title": "MIT-Studie schockt: 95% aller KI-Projekte scheitern – Die 5 kritischen Fehler und wie AI-Automation Engineers sie vermeiden",
+        "description": "Neue MIT-Studie 2025 zeigt: 95% der KI-Initiativen liefern keinen ROI. Erfahren Sie die konkreten Gründe und praktische Lösungsansätze mit Automatisierungs-Tools.",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2025-12-19-mit-studie-schockt-95-aller-ki-projekte-scheitern-die-5-kritischen-fehler-und-wie-ai-automation-engineers-sie-vermeiden/",
+        "slug": "2025-12-19-mit-studie-schockt-95-aller-ki-projekte-scheitern-die-5-kritischen-fehler-und-wie-ai-automation-engineers-sie-vermeiden"
+      },
+      {
+        "filename": "2025-12-16-mcp-wird-open-source-anthropic-spendet-model-context-protocol-an-linux-foundation",
+        "date": "2025-12-16",
+        "title": "MCP wird Open Source: Anthropic spendet Model Context Protocol an Linux Foundation",
+        "description": "MCP wird Open Source: Anthropic spendet Model Context Protocol an Linux Foundation",
+        "category": "Technology",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "5 min read",
+        "url": "/blog/2025-12-16-mcp-wird-open-source-anthropic-spendet-model-context-protocol-an-linux-foundation/",
+        "slug": "2025-12-16-mcp-wird-open-source-anthropic-spendet-model-context-protocol-an-linux-foundation"
+      }
+    ]
+  },
+  "references": [
+    {
+      "title": "ChatGPT wird zur Plattform: Apps SDK und Salesforce-Integration revolutionieren Workflow-Automatisierung",
+      "url": "/blog/2025-12-19-chatgpt-wird-zur-plattform-apps-sdk-und-salesforce-integration-revolutionieren-workflow-automatisierung/",
+      "description": "OpenAI macht ChatGPT zur Automatisierungs-Zentrale: Mit Apps SDK, MCP und direkter CRM-Integration sparen Teams bis zu 80% Entwicklungszeit",
+      "date": "2025-12-19",
+      "category": "General",
+      "suggestedSection": "top_story"
+    },
+    {
+      "title": "Claude-Entwickler warnt: Vibe-Coding ist kein Wundermittel für die Automatisierung",
+      "url": "/blog/2025-12-19-claude-entwickler-warnt-vibe-coding-ist-kein-wundermittel-fuer-die-automatisierung/",
+      "description": "Claude-Entwickler warnt: Vibe-Coding ist kein Wundermittel für die Automatisierung",
+      "date": "2025-12-19",
+      "category": "General",
+      "suggestedSection": "quickies"
+    },
+    {
+      "title": "MIT-Studie schockt: 95% aller KI-Projekte scheitern – Die 5 kritischen Fehler und wie AI-Automation Engineers sie vermeiden",
+      "url": "/blog/2025-12-19-mit-studie-schockt-95-aller-ki-projekte-scheitern-die-5-kritischen-fehler-und-wie-ai-automation-engineers-sie-vermeiden/",
+      "description": "Neue MIT-Studie 2025 zeigt: 95% der KI-Initiativen liefern keinen ROI. Erfahren Sie die konkreten Gründe und praktische Lösungsansätze mit Automatisierungs-Tools.",
+      "date": "2025-12-19",
+      "category": "AI-Automation",
+      "suggestedSection": "tools_section"
+    },
+    {
+      "title": "MCP wird Open Source: Anthropic spendet Model Context Protocol an Linux Foundation",
+      "url": "/blog/2025-12-16-mcp-wird-open-source-anthropic-spendet-model-context-protocol-an-linux-foundation/",
+      "description": "MCP wird Open Source: Anthropic spendet Model Context Protocol an Linux Foundation",
+      "date": "2025-12-16",
+      "category": "General",
+      "suggestedSection": "quickies"
+    }
+  ],
+  "rawArticles": [
+    {
+      "filename": "2025-12-19-chatgpt-wird-zur-plattform-apps-sdk-und-salesforce-integration-revolutionieren-workflow-automatisierung",
+      "date": "2025-12-19",
+      "title": "ChatGPT wird zur Plattform: Apps SDK und Salesforce-Integration revolutionieren Workflow-Automatisierung",
+      "description": "OpenAI macht ChatGPT zur Automatisierungs-Zentrale: Mit Apps SDK, MCP und direkter CRM-Integration sparen Teams bis zu 80% Entwicklungszeit",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2025-12-19-chatgpt-wird-zur-plattform-apps-sdk-und-salesforce-integration-revolutionieren-workflow-automatisierung/",
+      "slug": "2025-12-19-chatgpt-wird-zur-plattform-apps-sdk-und-salesforce-integration-revolutionieren-workflow-automatisierung"
+    },
+    {
+      "filename": "2025-12-19-claude-entwickler-warnt-vibe-coding-ist-kein-wundermittel-fuer-die-automatisierung",
+      "date": "2025-12-19",
+      "title": "Claude-Entwickler warnt: Vibe-Coding ist kein Wundermittel für die Automatisierung",
+      "description": "Claude-Entwickler warnt: Vibe-Coding ist kein Wundermittel für die Automatisierung",
+      "category": "Technology",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "5 min read",
+      "url": "/blog/2025-12-19-claude-entwickler-warnt-vibe-coding-ist-kein-wundermittel-fuer-die-automatisierung/",
+      "slug": "2025-12-19-claude-entwickler-warnt-vibe-coding-ist-kein-wundermittel-fuer-die-automatisierung"
+    },
+    {
+      "filename": "2025-12-19-mit-studie-schockt-95-aller-ki-projekte-scheitern-die-5-kritischen-fehler-und-wie-ai-automation-engineers-sie-vermeiden",
+      "date": "2025-12-19",
+      "title": "MIT-Studie schockt: 95% aller KI-Projekte scheitern – Die 5 kritischen Fehler und wie AI-Automation Engineers sie vermeiden",
+      "description": "Neue MIT-Studie 2025 zeigt: 95% der KI-Initiativen liefern keinen ROI. Erfahren Sie die konkreten Gründe und praktische Lösungsansätze mit Automatisierungs-Tools.",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2025-12-19-mit-studie-schockt-95-aller-ki-projekte-scheitern-die-5-kritischen-fehler-und-wie-ai-automation-engineers-sie-vermeiden/",
+      "slug": "2025-12-19-mit-studie-schockt-95-aller-ki-projekte-scheitern-die-5-kritischen-fehler-und-wie-ai-automation-engineers-sie-vermeiden"
+    },
+    {
+      "filename": "2025-12-16-mcp-wird-open-source-anthropic-spendet-model-context-protocol-an-linux-foundation",
+      "date": "2025-12-16",
+      "title": "MCP wird Open Source: Anthropic spendet Model Context Protocol an Linux Foundation",
+      "description": "MCP wird Open Source: Anthropic spendet Model Context Protocol an Linux Foundation",
+      "category": "Technology",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "5 min read",
+      "url": "/blog/2025-12-16-mcp-wird-open-source-anthropic-spendet-model-context-protocol-an-linux-foundation/",
+      "slug": "2025-12-16-mcp-wird-open-source-anthropic-spendet-model-context-protocol-an-linux-foundation"
+    }
+  ]
+}
