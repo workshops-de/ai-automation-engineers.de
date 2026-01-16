@@ -1,0 +1,1026 @@
+{
+  "generated": "2026-01-16T08:36:38.705Z",
+  "summary": {
+    "total": 21,
+    "dateRange": {
+      "start": "2026-01-09",
+      "end": "2026-01-16",
+      "startObj": "2026-01-09T08:36:38.705Z",
+      "endObj": "2026-01-16T08:36:38.705Z"
+    },
+    "categories": {
+      "AI-Automation": {
+        "count": 13,
+        "articles": [
+          {
+            "filename": "2026-01-10-chatgpt-app-store-launch-neue-monetarisierungs-pipeline-fuer-ai-automation-entwickler",
+            "date": "2026-01-10",
+            "title": "ChatGPT App Store Launch: Neue Monetarisierungs-Pipeline für AI-Automation-Entwickler",
+            "description": "OpenAI öffnet den ChatGPT App Store für Entwickler. 769 Millionen Nutzer warten auf Ihre Automatisierungs-Apps - mit SDK, Agentic Commerce und No-Code-Tools.",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2026-01-10-chatgpt-app-store-launch-neue-monetarisierungs-pipeline-fuer-ai-automation-entwickler/",
+            "slug": "2026-01-10-chatgpt-app-store-launch-neue-monetarisierungs-pipeline-fuer-ai-automation-entwickler"
+          },
+          {
+            "filename": "2026-01-10-exa-people-search-1b-profile-fuer-automatisierte-talent-discovery-und-lead-generation",
+            "date": "2026-01-10",
+            "title": "Exa People Search: 1B+ Profile für automatisierte Talent-Discovery und Lead-Generation",
+            "description": "Semantische Suche über 1 Milliarde Profile via API - Wie AI-Automation Engineers mit Hybrid-Retrieval ihre Sales- und Recruiting-Workflows revolutionieren",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2026-01-10-exa-people-search-1b-profile-fuer-automatisierte-talent-discovery-und-lead-generation/",
+            "slug": "2026-01-10-exa-people-search-1b-profile-fuer-automatisierte-talent-discovery-und-lead-generation"
+          },
+          {
+            "filename": "2026-01-10-gemini-2-5-flash-native-audio-71-5-function-calling-genauigkeit-revolutioniert-voice-automation",
+            "date": "2026-01-10",
+            "title": "Gemini 2.5 Flash Native Audio: 71,5% Function-Calling Genauigkeit revolutioniert Voice-Automation",
+            "description": "Google hebt Voice-Automation auf ein neues Level: Das neue Gemini Audio-Update übertrifft GPT-Realtime und ermöglicht präzisere Workflows mit 30+ Sprachen.",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2026-01-10-gemini-2-5-flash-native-audio-71-5-function-calling-genauigkeit-revolutioniert-voice-automation/",
+            "slug": "2026-01-10-gemini-2-5-flash-native-audio-71-5-function-calling-genauigkeit-revolutioniert-voice-automation"
+          },
+          {
+            "filename": "2026-01-10-github-copilot-wrap-so-automatisierst-du-deinen-backlog-mit-ki-gesteuerten-pull-requests",
+            "date": "2026-01-10",
+            "title": "GitHub Copilot WRAP: So automatisierst du deinen Backlog mit KI-gesteuerten Pull Requests",
+            "description": "Mit dem WRAP-Framework und GitHub Copilot Coding Agent verwandelst du Tech-Debt in automatisierte PRs - konkrete Anleitung für AI-Workflow-Automatisierung",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2026-01-10-github-copilot-wrap-so-automatisierst-du-deinen-backlog-mit-ki-gesteuerten-pull-requests/",
+            "slug": "2026-01-10-github-copilot-wrap-so-automatisierst-du-deinen-backlog-mit-ki-gesteuerten-pull-requests"
+          },
+          {
+            "filename": "2026-01-10-google-ai-2025-recap-60-neuerungen-die-deine-workflows-revolutionieren",
+            "date": "2026-01-10",
+            "title": "Google AI 2025 Recap: 60 Neuerungen, die deine Workflows revolutionieren",
+            "description": "Von Gemini 3 Flash bis AI Mode: Googles wichtigste AI-Updates 2025 und ihre praktischen Automations-Potenziale für Engineers",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2026-01-10-google-ai-2025-recap-60-neuerungen-die-deine-workflows-revolutionieren/",
+            "slug": "2026-01-10-google-ai-2025-recap-60-neuerungen-die-deine-workflows-revolutionieren"
+          },
+          {
+            "filename": "2026-01-10-gpt-5-2-codex-openais-game-changer-fuer-autonome-software-agenten",
+            "date": "2026-01-10",
+            "title": "GPT-5.2 Codex: OpenAIs Game-Changer für autonome Software-Agenten",
+            "description": "OpenAI revolutioniert mit GPT-5.2 Codex die agentic Software-Entwicklung – von Repository-übergreifenden Refactorings bis zu autonomen Sicherheits-Audits",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2026-01-10-gpt-5-2-codex-openais-game-changer-fuer-autonome-software-agenten/",
+            "slug": "2026-01-10-gpt-5-2-codex-openais-game-changer-fuer-autonome-software-agenten"
+          },
+          {
+            "filename": "2026-01-10-kritische-n8n-sicherheitsluecke-cve-2025-68613-mit-cvss-9-9-erfordert-sofortiges-handeln",
+            "date": "2026-01-10",
+            "title": "Kritische n8n Sicherheitslücke: CVE-2025-68613 mit CVSS 9.9 erfordert sofortiges Handeln",
+            "description": "Kritische RCE-Schwachstelle in n8n Workflow-Engine gefährdet Automatisierungen. Update auf v1.122.0+ zwingend erforderlich. Alle Details für Automation Engineers.",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2026-01-10-kritische-n8n-sicherheitsluecke-cve-2025-68613-mit-cvss-9-9-erfordert-sofortiges-handeln/",
+            "slug": "2026-01-10-kritische-n8n-sicherheitsluecke-cve-2025-68613-mit-cvss-9-9-erfordert-sofortiges-handeln"
+          },
+          {
+            "filename": "2026-01-10-meta-prompting-die",
+            "date": "2026-01-10",
+            "title": "Meta-Prompting: Die \"Make this 10x better\" Technik revolutioniert KI-Automatisierung",
+            "description": "Entdecke die Meta-Prompting-Strategie, die deine Prompts automatisch um das 10-fache verbessert - mit praktischen Workflow-Integrationen",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2026-01-10-meta-prompting-die/",
+            "slug": "2026-01-10-meta-prompting-die"
+          },
+          {
+            "filename": "2026-01-10-nvidia-nemotron-3-neue-open-model-familie-revolutioniert-enterprise-ai-automatisierung",
+            "date": "2026-01-10",
+            "title": "NVIDIA Nemotron 3: Neue Open-Model Familie revolutioniert Enterprise AI-Automatisierung",
+            "description": "NVIDIA launcht Nemotron 3 - optimierte Open-Source AI-Modelle für Agenten-Workflows mit bis zu 20% besserer Performance und 5x schnellerer Inferenz",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2026-01-10-nvidia-nemotron-3-neue-open-model-familie-revolutioniert-enterprise-ai-automatisierung/",
+            "slug": "2026-01-10-nvidia-nemotron-3-neue-open-model-familie-revolutioniert-enterprise-ai-automatisierung"
+          },
+          {
+            "filename": "2026-01-10-orchids-ide-agent-ide-browser-payment-stack-vibe-coding-mit-kostenlosen-start-credits",
+            "date": "2026-01-10",
+            "title": "Orchids IDE: Agent + IDE + Browser + Payment-Stack – Vibe-Coding mit kostenlosen Start-Credits",
+            "description": "Die neue Vibe-Coding IDE vereint KI-Agent, Entwicklungsumgebung und Business-Tools in einem lokalen Tool ohne Lock-in. Kostenlose Start-Credits verfügbar.",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2026-01-10-orchids-ide-agent-ide-browser-payment-stack-vibe-coding-mit-kostenlosen-start-credits/",
+            "slug": "2026-01-10-orchids-ide-agent-ide-browser-payment-stack-vibe-coding-mit-kostenlosen-start-credits"
+          },
+          {
+            "filename": "2026-01-10-rivian-skaliert-end-to-end-ai-universal-hands-free-auf-3-5-mio-meilen",
+            "date": "2026-01-10",
+            "title": "Rivian skaliert End-to-End AI: Universal Hands-Free auf 3,5 Mio. Meilen",
+            "description": "Rivians Software Update 2025.46 erweitert KI-basiertes Hands-Free Driving von 135k auf 3,5 Mio Meilen - mit eigenem AI-Chip und durchgängiger Automation",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2026-01-10-rivian-skaliert-end-to-end-ai-universal-hands-free-auf-3-5-mio-meilen/",
+            "slug": "2026-01-10-rivian-skaliert-end-to-end-ai-universal-hands-free-auf-3-5-mio-meilen"
+          },
+          {
+            "filename": "2026-01-10-tinker-macht-ki-fine-tuning-zum-plug-and-play-werkzeug",
+            "date": "2026-01-10",
+            "title": "Tinker macht KI-Fine-Tuning zum Plug-and-Play-Werkzeug",
+            "description": "Thinking Machines öffnet Tinker API für alle – LoRA-Fine-Tuning ohne GPU-Kopfschmerzen, OpenAI-kompatibel und sofort in n8n integrierbar.",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2026-01-10-tinker-macht-ki-fine-tuning-zum-plug-and-play-werkzeug/",
+            "slug": "2026-01-10-tinker-macht-ki-fine-tuning-zum-plug-and-play-werkzeug"
+          },
+          {
+            "filename": "2026-01-10-xai-grok-voice-agent-api-game-changer-fuer-voice-automation-zum-halben-preis",
+            "date": "2026-01-10",
+            "title": "xAI Grok Voice Agent API: Game-Changer für Voice-Automation zum halben Preis",
+            "description": "xAIs neue Voice Agent API bringt Enterprise-Grade Sprachautomatisierung mit 100+ Sprachen, Tool-Calls und <700ms Latenz für nur $0,05/Min (nicht offiziell in xAI-Preisliste, aber durch mehrere Quellen dokumentiert)",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "7 min read",
+            "url": "/blog/2026-01-10-xai-grok-voice-agent-api-game-changer-fuer-voice-automation-zum-halben-preis/",
+            "slug": "2026-01-10-xai-grok-voice-agent-api-game-changer-fuer-voice-automation-zum-halben-preis"
+          }
+        ]
+      },
+      "Enterprise & Business": {
+        "count": 4,
+        "articles": [
+          {
+            "filename": "2026-01-10-bbva-skaliert-chatgpt-enterprise-auf-120-000-mitarbeiter-10x-expansion",
+            "date": "2026-01-10",
+            "title": "BBVA skaliert ChatGPT Enterprise auf 120.000 Mitarbeiter – 10x Expansion",
+            "description": "BBVA rollt ChatGPT Enterprise konzernweit aus und spart 3 Stunden pro Woche je Mitarbeiter. Größtes Banking AI-Deployment weltweit.",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2026-01-10-bbva-skaliert-chatgpt-enterprise-auf-120-000-mitarbeiter-10x-expansion/",
+            "slug": "2026-01-10-bbva-skaliert-chatgpt-enterprise-auf-120-000-mitarbeiter-10x-expansion"
+          },
+          {
+            "filename": "2026-01-10-google-translate-gemini-ki-revolution-fuer-echtzeit-dolmetschen",
+            "date": "2026-01-10",
+            "title": "Google Translate + Gemini: KI-Revolution für Echtzeit-Dolmetschen",
+            "description": "Live Speech-to-Speech Übersetzung mit Gemini erkennt Idiome, Slang und behält natürliche Intonation - verfügbar für alle Bluetooth-Kopfhörer",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2026-01-10-google-translate-gemini-ki-revolution-fuer-echtzeit-dolmetschen/",
+            "slug": "2026-01-10-google-translate-gemini-ki-revolution-fuer-echtzeit-dolmetschen"
+          },
+          {
+            "filename": "2026-01-10-molmo-2-open-weight-video-ai-uebertrifft-gemini-3-pro-beim-tracking",
+            "date": "2026-01-10",
+            "title": "Molmo 2: Open-Weight Video AI übertrifft Gemini 3 Pro beim Tracking",
+            "description": "AI2s neues Molmo 2 mit nur 8B Parametern schlägt sowohl das 72B Vorgängermodell als auch Googles Gemini 3 Pro. Komplette Pipeline ist Open Source.",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2026-01-10-molmo-2-open-weight-video-ai-uebertrifft-gemini-3-pro-beim-tracking/",
+            "slug": "2026-01-10-molmo-2-open-weight-video-ai-uebertrifft-gemini-3-pro-beim-tracking"
+          },
+          {
+            "filename": "2026-01-10-notebooklm-data-tables-ki-verwandelt-chaos-in-exportierbare-google-sheets",
+            "date": "2026-01-10",
+            "title": "NotebookLM Data Tables: KI verwandelt Chaos in exportierbare Google Sheets",
+            "description": "Google NotebookLM führt Data Tables ein - automatische Tabellenerstellung aus Meeting-Protokollen und Forschungsdaten mit direktem Google Sheets Export für Pro/Ultra Nutzer.",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "5 min read",
+            "url": "/blog/2026-01-10-notebooklm-data-tables-ki-verwandelt-chaos-in-exportierbare-google-sheets/",
+            "slug": "2026-01-10-notebooklm-data-tables-ki-verwandelt-chaos-in-exportierbare-google-sheets"
+          }
+        ]
+      },
+      "Development": {
+        "count": 2,
+        "articles": [
+          {
+            "filename": "2026-01-10-mistral-devstral-2-open-source-coding-ai-mit-72-2-swe-bench-performance",
+            "date": "2026-01-10",
+            "title": "Mistral Devstral 2: Open-Source Coding-AI mit 72.2% SWE-bench Performance",
+            "description": "Mistral launcht Devstral 2 (123B/24B) mit 256K Kontext und Vibe CLI für autonome Terminal-Automatisierung - 7x kosteneffizienter als Claude",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2026-01-10-mistral-devstral-2-open-source-coding-ai-mit-72-2-swe-bench-performance/",
+            "slug": "2026-01-10-mistral-devstral-2-open-source-coding-ai-mit-72-2-swe-bench-performance"
+          },
+          {
+            "filename": "2026-01-10-openai-apps-sdk-developer-guidelines-fuer-chatgpt-integration-sind-da",
+            "date": "2026-01-10",
+            "title": "OpenAI Apps SDK: Developer Guidelines für ChatGPT-Integration sind da",
+            "description": "OpenAI veröffentlicht offizielle Guidelines für App-Submissions. Entwickler können ab Ende 2025 ihre Apps direkt in ChatGPT integrieren.",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "5 min read",
+            "url": "/blog/2026-01-10-openai-apps-sdk-developer-guidelines-fuer-chatgpt-integration-sind-da/",
+            "slug": "2026-01-10-openai-apps-sdk-developer-guidelines-fuer-chatgpt-integration-sind-da"
+          }
+        ]
+      },
+      "Other": {
+        "count": 2,
+        "articles": [
+          {
+            "filename": "2026-01-10-deepmind-opro-ki-optimiert-ihre-eigenen-prompts-um-bis-zu-50-besser",
+            "date": "2026-01-10",
+            "title": "DeepMind OPRO: KI optimiert ihre eigenen Prompts um bis zu 50% besser",
+            "description": "DeepMind revolutioniert Prompt Engineering mit OPRO - automatisierte Optimierung steigert Performance um bis zu 50% und spart Engineering-Zeit",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2026-01-10-deepmind-opro-ki-optimiert-ihre-eigenen-prompts-um-bis-zu-50-besser/",
+            "slug": "2026-01-10-deepmind-opro-ki-optimiert-ihre-eigenen-prompts-um-bis-zu-50-besser"
+          },
+          {
+            "filename": "2026-01-10-elevenlabs-meta-voice-ai-revolution-fuer-instagram-horizon",
+            "date": "2026-01-10",
+            "title": "ElevenLabs × Meta: Voice-AI Revolution für Instagram & Horizon",
+            "description": "ElevenLabs integriert 11.000+ AI-Voices direkt in Meta-Plattformen. Auto-Dubbing für Reels, NPCs in Horizon - die neue Ära der Content-Automatisierung.",
+            "category": "News",
+            "tags": [],
+            "author": "Robin Böhm",
+            "readTime": "6 min read",
+            "url": "/blog/2026-01-10-elevenlabs-meta-voice-ai-revolution-fuer-instagram-horizon/",
+            "slug": "2026-01-10-elevenlabs-meta-voice-ai-revolution-fuer-instagram-horizon"
+          }
+        ]
+      }
+    },
+    "topArticles": [
+      {
+        "filename": "2026-01-10-bbva-skaliert-chatgpt-enterprise-auf-120-000-mitarbeiter-10x-expansion",
+        "date": "2026-01-10",
+        "title": "BBVA skaliert ChatGPT Enterprise auf 120.000 Mitarbeiter – 10x Expansion",
+        "description": "BBVA rollt ChatGPT Enterprise konzernweit aus und spart 3 Stunden pro Woche je Mitarbeiter. Größtes Banking AI-Deployment weltweit.",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2026-01-10-bbva-skaliert-chatgpt-enterprise-auf-120-000-mitarbeiter-10x-expansion/",
+        "slug": "2026-01-10-bbva-skaliert-chatgpt-enterprise-auf-120-000-mitarbeiter-10x-expansion"
+      },
+      {
+        "filename": "2026-01-10-chatgpt-app-store-launch-neue-monetarisierungs-pipeline-fuer-ai-automation-entwickler",
+        "date": "2026-01-10",
+        "title": "ChatGPT App Store Launch: Neue Monetarisierungs-Pipeline für AI-Automation-Entwickler",
+        "description": "OpenAI öffnet den ChatGPT App Store für Entwickler. 769 Millionen Nutzer warten auf Ihre Automatisierungs-Apps - mit SDK, Agentic Commerce und No-Code-Tools.",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2026-01-10-chatgpt-app-store-launch-neue-monetarisierungs-pipeline-fuer-ai-automation-entwickler/",
+        "slug": "2026-01-10-chatgpt-app-store-launch-neue-monetarisierungs-pipeline-fuer-ai-automation-entwickler"
+      },
+      {
+        "filename": "2026-01-10-deepmind-opro-ki-optimiert-ihre-eigenen-prompts-um-bis-zu-50-besser",
+        "date": "2026-01-10",
+        "title": "DeepMind OPRO: KI optimiert ihre eigenen Prompts um bis zu 50% besser",
+        "description": "DeepMind revolutioniert Prompt Engineering mit OPRO - automatisierte Optimierung steigert Performance um bis zu 50% und spart Engineering-Zeit",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2026-01-10-deepmind-opro-ki-optimiert-ihre-eigenen-prompts-um-bis-zu-50-besser/",
+        "slug": "2026-01-10-deepmind-opro-ki-optimiert-ihre-eigenen-prompts-um-bis-zu-50-besser"
+      },
+      {
+        "filename": "2026-01-10-elevenlabs-meta-voice-ai-revolution-fuer-instagram-horizon",
+        "date": "2026-01-10",
+        "title": "ElevenLabs × Meta: Voice-AI Revolution für Instagram & Horizon",
+        "description": "ElevenLabs integriert 11.000+ AI-Voices direkt in Meta-Plattformen. Auto-Dubbing für Reels, NPCs in Horizon - die neue Ära der Content-Automatisierung.",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2026-01-10-elevenlabs-meta-voice-ai-revolution-fuer-instagram-horizon/",
+        "slug": "2026-01-10-elevenlabs-meta-voice-ai-revolution-fuer-instagram-horizon"
+      },
+      {
+        "filename": "2026-01-10-exa-people-search-1b-profile-fuer-automatisierte-talent-discovery-und-lead-generation",
+        "date": "2026-01-10",
+        "title": "Exa People Search: 1B+ Profile für automatisierte Talent-Discovery und Lead-Generation",
+        "description": "Semantische Suche über 1 Milliarde Profile via API - Wie AI-Automation Engineers mit Hybrid-Retrieval ihre Sales- und Recruiting-Workflows revolutionieren",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2026-01-10-exa-people-search-1b-profile-fuer-automatisierte-talent-discovery-und-lead-generation/",
+        "slug": "2026-01-10-exa-people-search-1b-profile-fuer-automatisierte-talent-discovery-und-lead-generation"
+      }
+    ],
+    "articlesList": [
+      {
+        "filename": "2026-01-10-bbva-skaliert-chatgpt-enterprise-auf-120-000-mitarbeiter-10x-expansion",
+        "date": "2026-01-10",
+        "title": "BBVA skaliert ChatGPT Enterprise auf 120.000 Mitarbeiter – 10x Expansion",
+        "description": "BBVA rollt ChatGPT Enterprise konzernweit aus und spart 3 Stunden pro Woche je Mitarbeiter. Größtes Banking AI-Deployment weltweit.",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2026-01-10-bbva-skaliert-chatgpt-enterprise-auf-120-000-mitarbeiter-10x-expansion/",
+        "slug": "2026-01-10-bbva-skaliert-chatgpt-enterprise-auf-120-000-mitarbeiter-10x-expansion"
+      },
+      {
+        "filename": "2026-01-10-chatgpt-app-store-launch-neue-monetarisierungs-pipeline-fuer-ai-automation-entwickler",
+        "date": "2026-01-10",
+        "title": "ChatGPT App Store Launch: Neue Monetarisierungs-Pipeline für AI-Automation-Entwickler",
+        "description": "OpenAI öffnet den ChatGPT App Store für Entwickler. 769 Millionen Nutzer warten auf Ihre Automatisierungs-Apps - mit SDK, Agentic Commerce und No-Code-Tools.",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2026-01-10-chatgpt-app-store-launch-neue-monetarisierungs-pipeline-fuer-ai-automation-entwickler/",
+        "slug": "2026-01-10-chatgpt-app-store-launch-neue-monetarisierungs-pipeline-fuer-ai-automation-entwickler"
+      },
+      {
+        "filename": "2026-01-10-deepmind-opro-ki-optimiert-ihre-eigenen-prompts-um-bis-zu-50-besser",
+        "date": "2026-01-10",
+        "title": "DeepMind OPRO: KI optimiert ihre eigenen Prompts um bis zu 50% besser",
+        "description": "DeepMind revolutioniert Prompt Engineering mit OPRO - automatisierte Optimierung steigert Performance um bis zu 50% und spart Engineering-Zeit",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2026-01-10-deepmind-opro-ki-optimiert-ihre-eigenen-prompts-um-bis-zu-50-besser/",
+        "slug": "2026-01-10-deepmind-opro-ki-optimiert-ihre-eigenen-prompts-um-bis-zu-50-besser"
+      },
+      {
+        "filename": "2026-01-10-elevenlabs-meta-voice-ai-revolution-fuer-instagram-horizon",
+        "date": "2026-01-10",
+        "title": "ElevenLabs × Meta: Voice-AI Revolution für Instagram & Horizon",
+        "description": "ElevenLabs integriert 11.000+ AI-Voices direkt in Meta-Plattformen. Auto-Dubbing für Reels, NPCs in Horizon - die neue Ära der Content-Automatisierung.",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2026-01-10-elevenlabs-meta-voice-ai-revolution-fuer-instagram-horizon/",
+        "slug": "2026-01-10-elevenlabs-meta-voice-ai-revolution-fuer-instagram-horizon"
+      },
+      {
+        "filename": "2026-01-10-exa-people-search-1b-profile-fuer-automatisierte-talent-discovery-und-lead-generation",
+        "date": "2026-01-10",
+        "title": "Exa People Search: 1B+ Profile für automatisierte Talent-Discovery und Lead-Generation",
+        "description": "Semantische Suche über 1 Milliarde Profile via API - Wie AI-Automation Engineers mit Hybrid-Retrieval ihre Sales- und Recruiting-Workflows revolutionieren",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2026-01-10-exa-people-search-1b-profile-fuer-automatisierte-talent-discovery-und-lead-generation/",
+        "slug": "2026-01-10-exa-people-search-1b-profile-fuer-automatisierte-talent-discovery-und-lead-generation"
+      },
+      {
+        "filename": "2026-01-10-gemini-2-5-flash-native-audio-71-5-function-calling-genauigkeit-revolutioniert-voice-automation",
+        "date": "2026-01-10",
+        "title": "Gemini 2.5 Flash Native Audio: 71,5% Function-Calling Genauigkeit revolutioniert Voice-Automation",
+        "description": "Google hebt Voice-Automation auf ein neues Level: Das neue Gemini Audio-Update übertrifft GPT-Realtime und ermöglicht präzisere Workflows mit 30+ Sprachen.",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2026-01-10-gemini-2-5-flash-native-audio-71-5-function-calling-genauigkeit-revolutioniert-voice-automation/",
+        "slug": "2026-01-10-gemini-2-5-flash-native-audio-71-5-function-calling-genauigkeit-revolutioniert-voice-automation"
+      },
+      {
+        "filename": "2026-01-10-github-copilot-wrap-so-automatisierst-du-deinen-backlog-mit-ki-gesteuerten-pull-requests",
+        "date": "2026-01-10",
+        "title": "GitHub Copilot WRAP: So automatisierst du deinen Backlog mit KI-gesteuerten Pull Requests",
+        "description": "Mit dem WRAP-Framework und GitHub Copilot Coding Agent verwandelst du Tech-Debt in automatisierte PRs - konkrete Anleitung für AI-Workflow-Automatisierung",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2026-01-10-github-copilot-wrap-so-automatisierst-du-deinen-backlog-mit-ki-gesteuerten-pull-requests/",
+        "slug": "2026-01-10-github-copilot-wrap-so-automatisierst-du-deinen-backlog-mit-ki-gesteuerten-pull-requests"
+      },
+      {
+        "filename": "2026-01-10-google-ai-2025-recap-60-neuerungen-die-deine-workflows-revolutionieren",
+        "date": "2026-01-10",
+        "title": "Google AI 2025 Recap: 60 Neuerungen, die deine Workflows revolutionieren",
+        "description": "Von Gemini 3 Flash bis AI Mode: Googles wichtigste AI-Updates 2025 und ihre praktischen Automations-Potenziale für Engineers",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2026-01-10-google-ai-2025-recap-60-neuerungen-die-deine-workflows-revolutionieren/",
+        "slug": "2026-01-10-google-ai-2025-recap-60-neuerungen-die-deine-workflows-revolutionieren"
+      },
+      {
+        "filename": "2026-01-10-google-translate-gemini-ki-revolution-fuer-echtzeit-dolmetschen",
+        "date": "2026-01-10",
+        "title": "Google Translate + Gemini: KI-Revolution für Echtzeit-Dolmetschen",
+        "description": "Live Speech-to-Speech Übersetzung mit Gemini erkennt Idiome, Slang und behält natürliche Intonation - verfügbar für alle Bluetooth-Kopfhörer",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2026-01-10-google-translate-gemini-ki-revolution-fuer-echtzeit-dolmetschen/",
+        "slug": "2026-01-10-google-translate-gemini-ki-revolution-fuer-echtzeit-dolmetschen"
+      },
+      {
+        "filename": "2026-01-10-gpt-5-2-codex-openais-game-changer-fuer-autonome-software-agenten",
+        "date": "2026-01-10",
+        "title": "GPT-5.2 Codex: OpenAIs Game-Changer für autonome Software-Agenten",
+        "description": "OpenAI revolutioniert mit GPT-5.2 Codex die agentic Software-Entwicklung – von Repository-übergreifenden Refactorings bis zu autonomen Sicherheits-Audits",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2026-01-10-gpt-5-2-codex-openais-game-changer-fuer-autonome-software-agenten/",
+        "slug": "2026-01-10-gpt-5-2-codex-openais-game-changer-fuer-autonome-software-agenten"
+      },
+      {
+        "filename": "2026-01-10-kritische-n8n-sicherheitsluecke-cve-2025-68613-mit-cvss-9-9-erfordert-sofortiges-handeln",
+        "date": "2026-01-10",
+        "title": "Kritische n8n Sicherheitslücke: CVE-2025-68613 mit CVSS 9.9 erfordert sofortiges Handeln",
+        "description": "Kritische RCE-Schwachstelle in n8n Workflow-Engine gefährdet Automatisierungen. Update auf v1.122.0+ zwingend erforderlich. Alle Details für Automation Engineers.",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2026-01-10-kritische-n8n-sicherheitsluecke-cve-2025-68613-mit-cvss-9-9-erfordert-sofortiges-handeln/",
+        "slug": "2026-01-10-kritische-n8n-sicherheitsluecke-cve-2025-68613-mit-cvss-9-9-erfordert-sofortiges-handeln"
+      },
+      {
+        "filename": "2026-01-10-meta-prompting-die",
+        "date": "2026-01-10",
+        "title": "Meta-Prompting: Die \"Make this 10x better\" Technik revolutioniert KI-Automatisierung",
+        "description": "Entdecke die Meta-Prompting-Strategie, die deine Prompts automatisch um das 10-fache verbessert - mit praktischen Workflow-Integrationen",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2026-01-10-meta-prompting-die/",
+        "slug": "2026-01-10-meta-prompting-die"
+      },
+      {
+        "filename": "2026-01-10-mistral-devstral-2-open-source-coding-ai-mit-72-2-swe-bench-performance",
+        "date": "2026-01-10",
+        "title": "Mistral Devstral 2: Open-Source Coding-AI mit 72.2% SWE-bench Performance",
+        "description": "Mistral launcht Devstral 2 (123B/24B) mit 256K Kontext und Vibe CLI für autonome Terminal-Automatisierung - 7x kosteneffizienter als Claude",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2026-01-10-mistral-devstral-2-open-source-coding-ai-mit-72-2-swe-bench-performance/",
+        "slug": "2026-01-10-mistral-devstral-2-open-source-coding-ai-mit-72-2-swe-bench-performance"
+      },
+      {
+        "filename": "2026-01-10-molmo-2-open-weight-video-ai-uebertrifft-gemini-3-pro-beim-tracking",
+        "date": "2026-01-10",
+        "title": "Molmo 2: Open-Weight Video AI übertrifft Gemini 3 Pro beim Tracking",
+        "description": "AI2s neues Molmo 2 mit nur 8B Parametern schlägt sowohl das 72B Vorgängermodell als auch Googles Gemini 3 Pro. Komplette Pipeline ist Open Source.",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2026-01-10-molmo-2-open-weight-video-ai-uebertrifft-gemini-3-pro-beim-tracking/",
+        "slug": "2026-01-10-molmo-2-open-weight-video-ai-uebertrifft-gemini-3-pro-beim-tracking"
+      },
+      {
+        "filename": "2026-01-10-notebooklm-data-tables-ki-verwandelt-chaos-in-exportierbare-google-sheets",
+        "date": "2026-01-10",
+        "title": "NotebookLM Data Tables: KI verwandelt Chaos in exportierbare Google Sheets",
+        "description": "Google NotebookLM führt Data Tables ein - automatische Tabellenerstellung aus Meeting-Protokollen und Forschungsdaten mit direktem Google Sheets Export für Pro/Ultra Nutzer.",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "5 min read",
+        "url": "/blog/2026-01-10-notebooklm-data-tables-ki-verwandelt-chaos-in-exportierbare-google-sheets/",
+        "slug": "2026-01-10-notebooklm-data-tables-ki-verwandelt-chaos-in-exportierbare-google-sheets"
+      },
+      {
+        "filename": "2026-01-10-nvidia-nemotron-3-neue-open-model-familie-revolutioniert-enterprise-ai-automatisierung",
+        "date": "2026-01-10",
+        "title": "NVIDIA Nemotron 3: Neue Open-Model Familie revolutioniert Enterprise AI-Automatisierung",
+        "description": "NVIDIA launcht Nemotron 3 - optimierte Open-Source AI-Modelle für Agenten-Workflows mit bis zu 20% besserer Performance und 5x schnellerer Inferenz",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2026-01-10-nvidia-nemotron-3-neue-open-model-familie-revolutioniert-enterprise-ai-automatisierung/",
+        "slug": "2026-01-10-nvidia-nemotron-3-neue-open-model-familie-revolutioniert-enterprise-ai-automatisierung"
+      },
+      {
+        "filename": "2026-01-10-openai-apps-sdk-developer-guidelines-fuer-chatgpt-integration-sind-da",
+        "date": "2026-01-10",
+        "title": "OpenAI Apps SDK: Developer Guidelines für ChatGPT-Integration sind da",
+        "description": "OpenAI veröffentlicht offizielle Guidelines für App-Submissions. Entwickler können ab Ende 2025 ihre Apps direkt in ChatGPT integrieren.",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "5 min read",
+        "url": "/blog/2026-01-10-openai-apps-sdk-developer-guidelines-fuer-chatgpt-integration-sind-da/",
+        "slug": "2026-01-10-openai-apps-sdk-developer-guidelines-fuer-chatgpt-integration-sind-da"
+      },
+      {
+        "filename": "2026-01-10-orchids-ide-agent-ide-browser-payment-stack-vibe-coding-mit-kostenlosen-start-credits",
+        "date": "2026-01-10",
+        "title": "Orchids IDE: Agent + IDE + Browser + Payment-Stack – Vibe-Coding mit kostenlosen Start-Credits",
+        "description": "Die neue Vibe-Coding IDE vereint KI-Agent, Entwicklungsumgebung und Business-Tools in einem lokalen Tool ohne Lock-in. Kostenlose Start-Credits verfügbar.",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2026-01-10-orchids-ide-agent-ide-browser-payment-stack-vibe-coding-mit-kostenlosen-start-credits/",
+        "slug": "2026-01-10-orchids-ide-agent-ide-browser-payment-stack-vibe-coding-mit-kostenlosen-start-credits"
+      },
+      {
+        "filename": "2026-01-10-rivian-skaliert-end-to-end-ai-universal-hands-free-auf-3-5-mio-meilen",
+        "date": "2026-01-10",
+        "title": "Rivian skaliert End-to-End AI: Universal Hands-Free auf 3,5 Mio. Meilen",
+        "description": "Rivians Software Update 2025.46 erweitert KI-basiertes Hands-Free Driving von 135k auf 3,5 Mio Meilen - mit eigenem AI-Chip und durchgängiger Automation",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2026-01-10-rivian-skaliert-end-to-end-ai-universal-hands-free-auf-3-5-mio-meilen/",
+        "slug": "2026-01-10-rivian-skaliert-end-to-end-ai-universal-hands-free-auf-3-5-mio-meilen"
+      },
+      {
+        "filename": "2026-01-10-tinker-macht-ki-fine-tuning-zum-plug-and-play-werkzeug",
+        "date": "2026-01-10",
+        "title": "Tinker macht KI-Fine-Tuning zum Plug-and-Play-Werkzeug",
+        "description": "Thinking Machines öffnet Tinker API für alle – LoRA-Fine-Tuning ohne GPU-Kopfschmerzen, OpenAI-kompatibel und sofort in n8n integrierbar.",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "6 min read",
+        "url": "/blog/2026-01-10-tinker-macht-ki-fine-tuning-zum-plug-and-play-werkzeug/",
+        "slug": "2026-01-10-tinker-macht-ki-fine-tuning-zum-plug-and-play-werkzeug"
+      },
+      {
+        "filename": "2026-01-10-xai-grok-voice-agent-api-game-changer-fuer-voice-automation-zum-halben-preis",
+        "date": "2026-01-10",
+        "title": "xAI Grok Voice Agent API: Game-Changer für Voice-Automation zum halben Preis",
+        "description": "xAIs neue Voice Agent API bringt Enterprise-Grade Sprachautomatisierung mit 100+ Sprachen, Tool-Calls und <700ms Latenz für nur $0,05/Min (nicht offiziell in xAI-Preisliste, aber durch mehrere Quellen dokumentiert)",
+        "category": "News",
+        "tags": [],
+        "author": "Robin Böhm",
+        "readTime": "7 min read",
+        "url": "/blog/2026-01-10-xai-grok-voice-agent-api-game-changer-fuer-voice-automation-zum-halben-preis/",
+        "slug": "2026-01-10-xai-grok-voice-agent-api-game-changer-fuer-voice-automation-zum-halben-preis"
+      }
+    ]
+  },
+  "references": [
+    {
+      "title": "BBVA skaliert ChatGPT Enterprise auf 120.000 Mitarbeiter – 10x Expansion",
+      "url": "/blog/2026-01-10-bbva-skaliert-chatgpt-enterprise-auf-120-000-mitarbeiter-10x-expansion/",
+      "description": "BBVA rollt ChatGPT Enterprise konzernweit aus und spart 3 Stunden pro Woche je Mitarbeiter. Größtes Banking AI-Deployment weltweit.",
+      "date": "2026-01-10",
+      "category": "General",
+      "suggestedSection": "quickies"
+    },
+    {
+      "title": "ChatGPT App Store Launch: Neue Monetarisierungs-Pipeline für AI-Automation-Entwickler",
+      "url": "/blog/2026-01-10-chatgpt-app-store-launch-neue-monetarisierungs-pipeline-fuer-ai-automation-entwickler/",
+      "description": "OpenAI öffnet den ChatGPT App Store für Entwickler. 769 Millionen Nutzer warten auf Ihre Automatisierungs-Apps - mit SDK, Agentic Commerce und No-Code-Tools.",
+      "date": "2026-01-10",
+      "category": "AI-Automation",
+      "suggestedSection": "top_story"
+    },
+    {
+      "title": "DeepMind OPRO: KI optimiert ihre eigenen Prompts um bis zu 50% besser",
+      "url": "/blog/2026-01-10-deepmind-opro-ki-optimiert-ihre-eigenen-prompts-um-bis-zu-50-besser/",
+      "description": "DeepMind revolutioniert Prompt Engineering mit OPRO - automatisierte Optimierung steigert Performance um bis zu 50% und spart Engineering-Zeit",
+      "date": "2026-01-10",
+      "category": "General",
+      "suggestedSection": "quickies"
+    },
+    {
+      "title": "ElevenLabs × Meta: Voice-AI Revolution für Instagram & Horizon",
+      "url": "/blog/2026-01-10-elevenlabs-meta-voice-ai-revolution-fuer-instagram-horizon/",
+      "description": "ElevenLabs integriert 11.000+ AI-Voices direkt in Meta-Plattformen. Auto-Dubbing für Reels, NPCs in Horizon - die neue Ära der Content-Automatisierung.",
+      "date": "2026-01-10",
+      "category": "General",
+      "suggestedSection": "quickies"
+    },
+    {
+      "title": "Exa People Search: 1B+ Profile für automatisierte Talent-Discovery und Lead-Generation",
+      "url": "/blog/2026-01-10-exa-people-search-1b-profile-fuer-automatisierte-talent-discovery-und-lead-generation/",
+      "description": "Semantische Suche über 1 Milliarde Profile via API - Wie AI-Automation Engineers mit Hybrid-Retrieval ihre Sales- und Recruiting-Workflows revolutionieren",
+      "date": "2026-01-10",
+      "category": "AI-Automation",
+      "suggestedSection": "quickies"
+    },
+    {
+      "title": "Gemini 2.5 Flash Native Audio: 71,5% Function-Calling Genauigkeit revolutioniert Voice-Automation",
+      "url": "/blog/2026-01-10-gemini-2-5-flash-native-audio-71-5-function-calling-genauigkeit-revolutioniert-voice-automation/",
+      "description": "Google hebt Voice-Automation auf ein neues Level: Das neue Gemini Audio-Update übertrifft GPT-Realtime und ermöglicht präzisere Workflows mit 30+ Sprachen.",
+      "date": "2026-01-10",
+      "category": "AI-Automation",
+      "suggestedSection": "top_story"
+    },
+    {
+      "title": "GitHub Copilot WRAP: So automatisierst du deinen Backlog mit KI-gesteuerten Pull Requests",
+      "url": "/blog/2026-01-10-github-copilot-wrap-so-automatisierst-du-deinen-backlog-mit-ki-gesteuerten-pull-requests/",
+      "description": "Mit dem WRAP-Framework und GitHub Copilot Coding Agent verwandelst du Tech-Debt in automatisierte PRs - konkrete Anleitung für AI-Workflow-Automatisierung",
+      "date": "2026-01-10",
+      "category": "AI-Automation",
+      "suggestedSection": "tools_section"
+    },
+    {
+      "title": "Google AI 2025 Recap: 60 Neuerungen, die deine Workflows revolutionieren",
+      "url": "/blog/2026-01-10-google-ai-2025-recap-60-neuerungen-die-deine-workflows-revolutionieren/",
+      "description": "Von Gemini 3 Flash bis AI Mode: Googles wichtigste AI-Updates 2025 und ihre praktischen Automations-Potenziale für Engineers",
+      "date": "2026-01-10",
+      "category": "AI-Automation",
+      "suggestedSection": "top_story"
+    },
+    {
+      "title": "Google Translate + Gemini: KI-Revolution für Echtzeit-Dolmetschen",
+      "url": "/blog/2026-01-10-google-translate-gemini-ki-revolution-fuer-echtzeit-dolmetschen/",
+      "description": "Live Speech-to-Speech Übersetzung mit Gemini erkennt Idiome, Slang und behält natürliche Intonation - verfügbar für alle Bluetooth-Kopfhörer",
+      "date": "2026-01-10",
+      "category": "General",
+      "suggestedSection": "top_story"
+    },
+    {
+      "title": "GPT-5.2 Codex: OpenAIs Game-Changer für autonome Software-Agenten",
+      "url": "/blog/2026-01-10-gpt-5-2-codex-openais-game-changer-fuer-autonome-software-agenten/",
+      "description": "OpenAI revolutioniert mit GPT-5.2 Codex die agentic Software-Entwicklung – von Repository-übergreifenden Refactorings bis zu autonomen Sicherheits-Audits",
+      "date": "2026-01-10",
+      "category": "AI-Automation",
+      "suggestedSection": "top_story"
+    },
+    {
+      "title": "Kritische n8n Sicherheitslücke: CVE-2025-68613 mit CVSS 9.9 erfordert sofortiges Handeln",
+      "url": "/blog/2026-01-10-kritische-n8n-sicherheitsluecke-cve-2025-68613-mit-cvss-9-9-erfordert-sofortiges-handeln/",
+      "description": "Kritische RCE-Schwachstelle in n8n Workflow-Engine gefährdet Automatisierungen. Update auf v1.122.0+ zwingend erforderlich. Alle Details für Automation Engineers.",
+      "date": "2026-01-10",
+      "category": "AI-Automation",
+      "suggestedSection": "quickies"
+    },
+    {
+      "title": "Meta-Prompting: Die \"Make this 10x better\" Technik revolutioniert KI-Automatisierung",
+      "url": "/blog/2026-01-10-meta-prompting-die/",
+      "description": "Entdecke die Meta-Prompting-Strategie, die deine Prompts automatisch um das 10-fache verbessert - mit praktischen Workflow-Integrationen",
+      "date": "2026-01-10",
+      "category": "General",
+      "suggestedSection": "quickies"
+    },
+    {
+      "title": "Mistral Devstral 2: Open-Source Coding-AI mit 72.2% SWE-bench Performance",
+      "url": "/blog/2026-01-10-mistral-devstral-2-open-source-coding-ai-mit-72-2-swe-bench-performance/",
+      "description": "Mistral launcht Devstral 2 (123B/24B) mit 256K Kontext und Vibe CLI für autonome Terminal-Automatisierung - 7x kosteneffizienter als Claude",
+      "date": "2026-01-10",
+      "category": "General",
+      "suggestedSection": "quickies"
+    },
+    {
+      "title": "Molmo 2: Open-Weight Video AI übertrifft Gemini 3 Pro beim Tracking",
+      "url": "/blog/2026-01-10-molmo-2-open-weight-video-ai-uebertrifft-gemini-3-pro-beim-tracking/",
+      "description": "AI2s neues Molmo 2 mit nur 8B Parametern schlägt sowohl das 72B Vorgängermodell als auch Googles Gemini 3 Pro. Komplette Pipeline ist Open Source.",
+      "date": "2026-01-10",
+      "category": "Creative Tools",
+      "suggestedSection": "top_story"
+    },
+    {
+      "title": "NotebookLM Data Tables: KI verwandelt Chaos in exportierbare Google Sheets",
+      "url": "/blog/2026-01-10-notebooklm-data-tables-ki-verwandelt-chaos-in-exportierbare-google-sheets/",
+      "description": "Google NotebookLM führt Data Tables ein - automatische Tabellenerstellung aus Meeting-Protokollen und Forschungsdaten mit direktem Google Sheets Export für Pro/Ultra Nutzer.",
+      "date": "2026-01-10",
+      "category": "General",
+      "suggestedSection": "top_story"
+    },
+    {
+      "title": "NVIDIA Nemotron 3: Neue Open-Model Familie revolutioniert Enterprise AI-Automatisierung",
+      "url": "/blog/2026-01-10-nvidia-nemotron-3-neue-open-model-familie-revolutioniert-enterprise-ai-automatisierung/",
+      "description": "NVIDIA launcht Nemotron 3 - optimierte Open-Source AI-Modelle für Agenten-Workflows mit bis zu 20% besserer Performance und 5x schnellerer Inferenz",
+      "date": "2026-01-10",
+      "category": "AI-Automation",
+      "suggestedSection": "quickies"
+    },
+    {
+      "title": "OpenAI Apps SDK: Developer Guidelines für ChatGPT-Integration sind da",
+      "url": "/blog/2026-01-10-openai-apps-sdk-developer-guidelines-fuer-chatgpt-integration-sind-da/",
+      "description": "OpenAI veröffentlicht offizielle Guidelines für App-Submissions. Entwickler können ab Ende 2025 ihre Apps direkt in ChatGPT integrieren.",
+      "date": "2026-01-10",
+      "category": "General",
+      "suggestedSection": "top_story"
+    },
+    {
+      "title": "Orchids IDE: Agent + IDE + Browser + Payment-Stack – Vibe-Coding mit kostenlosen Start-Credits",
+      "url": "/blog/2026-01-10-orchids-ide-agent-ide-browser-payment-stack-vibe-coding-mit-kostenlosen-start-credits/",
+      "description": "Die neue Vibe-Coding IDE vereint KI-Agent, Entwicklungsumgebung und Business-Tools in einem lokalen Tool ohne Lock-in. Kostenlose Start-Credits verfügbar.",
+      "date": "2026-01-10",
+      "category": "AI-Automation",
+      "suggestedSection": "tools_section"
+    },
+    {
+      "title": "Rivian skaliert End-to-End AI: Universal Hands-Free auf 3,5 Mio. Meilen",
+      "url": "/blog/2026-01-10-rivian-skaliert-end-to-end-ai-universal-hands-free-auf-3-5-mio-meilen/",
+      "description": "Rivians Software Update 2025.46 erweitert KI-basiertes Hands-Free Driving von 135k auf 3,5 Mio Meilen - mit eigenem AI-Chip und durchgängiger Automation",
+      "date": "2026-01-10",
+      "category": "AI-Automation",
+      "suggestedSection": "quickies"
+    },
+    {
+      "title": "Tinker macht KI-Fine-Tuning zum Plug-and-Play-Werkzeug",
+      "url": "/blog/2026-01-10-tinker-macht-ki-fine-tuning-zum-plug-and-play-werkzeug/",
+      "description": "Thinking Machines öffnet Tinker API für alle – LoRA-Fine-Tuning ohne GPU-Kopfschmerzen, OpenAI-kompatibel und sofort in n8n integrierbar.",
+      "date": "2026-01-10",
+      "category": "General",
+      "suggestedSection": "top_story"
+    },
+    {
+      "title": "xAI Grok Voice Agent API: Game-Changer für Voice-Automation zum halben Preis",
+      "url": "/blog/2026-01-10-xai-grok-voice-agent-api-game-changer-fuer-voice-automation-zum-halben-preis/",
+      "description": "xAIs neue Voice Agent API bringt Enterprise-Grade Sprachautomatisierung mit 100+ Sprachen, Tool-Calls und <700ms Latenz für nur $0,05/Min (nicht offiziell in xAI-Preisliste, aber durch mehrere Quellen dokumentiert)",
+      "date": "2026-01-10",
+      "category": "AI-Automation",
+      "suggestedSection": "tools_section"
+    }
+  ],
+  "rawArticles": [
+    {
+      "filename": "2026-01-10-bbva-skaliert-chatgpt-enterprise-auf-120-000-mitarbeiter-10x-expansion",
+      "date": "2026-01-10",
+      "title": "BBVA skaliert ChatGPT Enterprise auf 120.000 Mitarbeiter – 10x Expansion",
+      "description": "BBVA rollt ChatGPT Enterprise konzernweit aus und spart 3 Stunden pro Woche je Mitarbeiter. Größtes Banking AI-Deployment weltweit.",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2026-01-10-bbva-skaliert-chatgpt-enterprise-auf-120-000-mitarbeiter-10x-expansion/",
+      "slug": "2026-01-10-bbva-skaliert-chatgpt-enterprise-auf-120-000-mitarbeiter-10x-expansion"
+    },
+    {
+      "filename": "2026-01-10-chatgpt-app-store-launch-neue-monetarisierungs-pipeline-fuer-ai-automation-entwickler",
+      "date": "2026-01-10",
+      "title": "ChatGPT App Store Launch: Neue Monetarisierungs-Pipeline für AI-Automation-Entwickler",
+      "description": "OpenAI öffnet den ChatGPT App Store für Entwickler. 769 Millionen Nutzer warten auf Ihre Automatisierungs-Apps - mit SDK, Agentic Commerce und No-Code-Tools.",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2026-01-10-chatgpt-app-store-launch-neue-monetarisierungs-pipeline-fuer-ai-automation-entwickler/",
+      "slug": "2026-01-10-chatgpt-app-store-launch-neue-monetarisierungs-pipeline-fuer-ai-automation-entwickler"
+    },
+    {
+      "filename": "2026-01-10-deepmind-opro-ki-optimiert-ihre-eigenen-prompts-um-bis-zu-50-besser",
+      "date": "2026-01-10",
+      "title": "DeepMind OPRO: KI optimiert ihre eigenen Prompts um bis zu 50% besser",
+      "description": "DeepMind revolutioniert Prompt Engineering mit OPRO - automatisierte Optimierung steigert Performance um bis zu 50% und spart Engineering-Zeit",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2026-01-10-deepmind-opro-ki-optimiert-ihre-eigenen-prompts-um-bis-zu-50-besser/",
+      "slug": "2026-01-10-deepmind-opro-ki-optimiert-ihre-eigenen-prompts-um-bis-zu-50-besser"
+    },
+    {
+      "filename": "2026-01-10-elevenlabs-meta-voice-ai-revolution-fuer-instagram-horizon",
+      "date": "2026-01-10",
+      "title": "ElevenLabs × Meta: Voice-AI Revolution für Instagram & Horizon",
+      "description": "ElevenLabs integriert 11.000+ AI-Voices direkt in Meta-Plattformen. Auto-Dubbing für Reels, NPCs in Horizon - die neue Ära der Content-Automatisierung.",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2026-01-10-elevenlabs-meta-voice-ai-revolution-fuer-instagram-horizon/",
+      "slug": "2026-01-10-elevenlabs-meta-voice-ai-revolution-fuer-instagram-horizon"
+    },
+    {
+      "filename": "2026-01-10-exa-people-search-1b-profile-fuer-automatisierte-talent-discovery-und-lead-generation",
+      "date": "2026-01-10",
+      "title": "Exa People Search: 1B+ Profile für automatisierte Talent-Discovery und Lead-Generation",
+      "description": "Semantische Suche über 1 Milliarde Profile via API - Wie AI-Automation Engineers mit Hybrid-Retrieval ihre Sales- und Recruiting-Workflows revolutionieren",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2026-01-10-exa-people-search-1b-profile-fuer-automatisierte-talent-discovery-und-lead-generation/",
+      "slug": "2026-01-10-exa-people-search-1b-profile-fuer-automatisierte-talent-discovery-und-lead-generation"
+    },
+    {
+      "filename": "2026-01-10-gemini-2-5-flash-native-audio-71-5-function-calling-genauigkeit-revolutioniert-voice-automation",
+      "date": "2026-01-10",
+      "title": "Gemini 2.5 Flash Native Audio: 71,5% Function-Calling Genauigkeit revolutioniert Voice-Automation",
+      "description": "Google hebt Voice-Automation auf ein neues Level: Das neue Gemini Audio-Update übertrifft GPT-Realtime und ermöglicht präzisere Workflows mit 30+ Sprachen.",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2026-01-10-gemini-2-5-flash-native-audio-71-5-function-calling-genauigkeit-revolutioniert-voice-automation/",
+      "slug": "2026-01-10-gemini-2-5-flash-native-audio-71-5-function-calling-genauigkeit-revolutioniert-voice-automation"
+    },
+    {
+      "filename": "2026-01-10-github-copilot-wrap-so-automatisierst-du-deinen-backlog-mit-ki-gesteuerten-pull-requests",
+      "date": "2026-01-10",
+      "title": "GitHub Copilot WRAP: So automatisierst du deinen Backlog mit KI-gesteuerten Pull Requests",
+      "description": "Mit dem WRAP-Framework und GitHub Copilot Coding Agent verwandelst du Tech-Debt in automatisierte PRs - konkrete Anleitung für AI-Workflow-Automatisierung",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2026-01-10-github-copilot-wrap-so-automatisierst-du-deinen-backlog-mit-ki-gesteuerten-pull-requests/",
+      "slug": "2026-01-10-github-copilot-wrap-so-automatisierst-du-deinen-backlog-mit-ki-gesteuerten-pull-requests"
+    },
+    {
+      "filename": "2026-01-10-google-ai-2025-recap-60-neuerungen-die-deine-workflows-revolutionieren",
+      "date": "2026-01-10",
+      "title": "Google AI 2025 Recap: 60 Neuerungen, die deine Workflows revolutionieren",
+      "description": "Von Gemini 3 Flash bis AI Mode: Googles wichtigste AI-Updates 2025 und ihre praktischen Automations-Potenziale für Engineers",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2026-01-10-google-ai-2025-recap-60-neuerungen-die-deine-workflows-revolutionieren/",
+      "slug": "2026-01-10-google-ai-2025-recap-60-neuerungen-die-deine-workflows-revolutionieren"
+    },
+    {
+      "filename": "2026-01-10-google-translate-gemini-ki-revolution-fuer-echtzeit-dolmetschen",
+      "date": "2026-01-10",
+      "title": "Google Translate + Gemini: KI-Revolution für Echtzeit-Dolmetschen",
+      "description": "Live Speech-to-Speech Übersetzung mit Gemini erkennt Idiome, Slang und behält natürliche Intonation - verfügbar für alle Bluetooth-Kopfhörer",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2026-01-10-google-translate-gemini-ki-revolution-fuer-echtzeit-dolmetschen/",
+      "slug": "2026-01-10-google-translate-gemini-ki-revolution-fuer-echtzeit-dolmetschen"
+    },
+    {
+      "filename": "2026-01-10-gpt-5-2-codex-openais-game-changer-fuer-autonome-software-agenten",
+      "date": "2026-01-10",
+      "title": "GPT-5.2 Codex: OpenAIs Game-Changer für autonome Software-Agenten",
+      "description": "OpenAI revolutioniert mit GPT-5.2 Codex die agentic Software-Entwicklung – von Repository-übergreifenden Refactorings bis zu autonomen Sicherheits-Audits",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2026-01-10-gpt-5-2-codex-openais-game-changer-fuer-autonome-software-agenten/",
+      "slug": "2026-01-10-gpt-5-2-codex-openais-game-changer-fuer-autonome-software-agenten"
+    },
+    {
+      "filename": "2026-01-10-kritische-n8n-sicherheitsluecke-cve-2025-68613-mit-cvss-9-9-erfordert-sofortiges-handeln",
+      "date": "2026-01-10",
+      "title": "Kritische n8n Sicherheitslücke: CVE-2025-68613 mit CVSS 9.9 erfordert sofortiges Handeln",
+      "description": "Kritische RCE-Schwachstelle in n8n Workflow-Engine gefährdet Automatisierungen. Update auf v1.122.0+ zwingend erforderlich. Alle Details für Automation Engineers.",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2026-01-10-kritische-n8n-sicherheitsluecke-cve-2025-68613-mit-cvss-9-9-erfordert-sofortiges-handeln/",
+      "slug": "2026-01-10-kritische-n8n-sicherheitsluecke-cve-2025-68613-mit-cvss-9-9-erfordert-sofortiges-handeln"
+    },
+    {
+      "filename": "2026-01-10-meta-prompting-die",
+      "date": "2026-01-10",
+      "title": "Meta-Prompting: Die \"Make this 10x better\" Technik revolutioniert KI-Automatisierung",
+      "description": "Entdecke die Meta-Prompting-Strategie, die deine Prompts automatisch um das 10-fache verbessert - mit praktischen Workflow-Integrationen",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2026-01-10-meta-prompting-die/",
+      "slug": "2026-01-10-meta-prompting-die"
+    },
+    {
+      "filename": "2026-01-10-mistral-devstral-2-open-source-coding-ai-mit-72-2-swe-bench-performance",
+      "date": "2026-01-10",
+      "title": "Mistral Devstral 2: Open-Source Coding-AI mit 72.2% SWE-bench Performance",
+      "description": "Mistral launcht Devstral 2 (123B/24B) mit 256K Kontext und Vibe CLI für autonome Terminal-Automatisierung - 7x kosteneffizienter als Claude",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2026-01-10-mistral-devstral-2-open-source-coding-ai-mit-72-2-swe-bench-performance/",
+      "slug": "2026-01-10-mistral-devstral-2-open-source-coding-ai-mit-72-2-swe-bench-performance"
+    },
+    {
+      "filename": "2026-01-10-molmo-2-open-weight-video-ai-uebertrifft-gemini-3-pro-beim-tracking",
+      "date": "2026-01-10",
+      "title": "Molmo 2: Open-Weight Video AI übertrifft Gemini 3 Pro beim Tracking",
+      "description": "AI2s neues Molmo 2 mit nur 8B Parametern schlägt sowohl das 72B Vorgängermodell als auch Googles Gemini 3 Pro. Komplette Pipeline ist Open Source.",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2026-01-10-molmo-2-open-weight-video-ai-uebertrifft-gemini-3-pro-beim-tracking/",
+      "slug": "2026-01-10-molmo-2-open-weight-video-ai-uebertrifft-gemini-3-pro-beim-tracking"
+    },
+    {
+      "filename": "2026-01-10-notebooklm-data-tables-ki-verwandelt-chaos-in-exportierbare-google-sheets",
+      "date": "2026-01-10",
+      "title": "NotebookLM Data Tables: KI verwandelt Chaos in exportierbare Google Sheets",
+      "description": "Google NotebookLM führt Data Tables ein - automatische Tabellenerstellung aus Meeting-Protokollen und Forschungsdaten mit direktem Google Sheets Export für Pro/Ultra Nutzer.",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "5 min read",
+      "url": "/blog/2026-01-10-notebooklm-data-tables-ki-verwandelt-chaos-in-exportierbare-google-sheets/",
+      "slug": "2026-01-10-notebooklm-data-tables-ki-verwandelt-chaos-in-exportierbare-google-sheets"
+    },
+    {
+      "filename": "2026-01-10-nvidia-nemotron-3-neue-open-model-familie-revolutioniert-enterprise-ai-automatisierung",
+      "date": "2026-01-10",
+      "title": "NVIDIA Nemotron 3: Neue Open-Model Familie revolutioniert Enterprise AI-Automatisierung",
+      "description": "NVIDIA launcht Nemotron 3 - optimierte Open-Source AI-Modelle für Agenten-Workflows mit bis zu 20% besserer Performance und 5x schnellerer Inferenz",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2026-01-10-nvidia-nemotron-3-neue-open-model-familie-revolutioniert-enterprise-ai-automatisierung/",
+      "slug": "2026-01-10-nvidia-nemotron-3-neue-open-model-familie-revolutioniert-enterprise-ai-automatisierung"
+    },
+    {
+      "filename": "2026-01-10-openai-apps-sdk-developer-guidelines-fuer-chatgpt-integration-sind-da",
+      "date": "2026-01-10",
+      "title": "OpenAI Apps SDK: Developer Guidelines für ChatGPT-Integration sind da",
+      "description": "OpenAI veröffentlicht offizielle Guidelines für App-Submissions. Entwickler können ab Ende 2025 ihre Apps direkt in ChatGPT integrieren.",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "5 min read",
+      "url": "/blog/2026-01-10-openai-apps-sdk-developer-guidelines-fuer-chatgpt-integration-sind-da/",
+      "slug": "2026-01-10-openai-apps-sdk-developer-guidelines-fuer-chatgpt-integration-sind-da"
+    },
+    {
+      "filename": "2026-01-10-orchids-ide-agent-ide-browser-payment-stack-vibe-coding-mit-kostenlosen-start-credits",
+      "date": "2026-01-10",
+      "title": "Orchids IDE: Agent + IDE + Browser + Payment-Stack – Vibe-Coding mit kostenlosen Start-Credits",
+      "description": "Die neue Vibe-Coding IDE vereint KI-Agent, Entwicklungsumgebung und Business-Tools in einem lokalen Tool ohne Lock-in. Kostenlose Start-Credits verfügbar.",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2026-01-10-orchids-ide-agent-ide-browser-payment-stack-vibe-coding-mit-kostenlosen-start-credits/",
+      "slug": "2026-01-10-orchids-ide-agent-ide-browser-payment-stack-vibe-coding-mit-kostenlosen-start-credits"
+    },
+    {
+      "filename": "2026-01-10-rivian-skaliert-end-to-end-ai-universal-hands-free-auf-3-5-mio-meilen",
+      "date": "2026-01-10",
+      "title": "Rivian skaliert End-to-End AI: Universal Hands-Free auf 3,5 Mio. Meilen",
+      "description": "Rivians Software Update 2025.46 erweitert KI-basiertes Hands-Free Driving von 135k auf 3,5 Mio Meilen - mit eigenem AI-Chip und durchgängiger Automation",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2026-01-10-rivian-skaliert-end-to-end-ai-universal-hands-free-auf-3-5-mio-meilen/",
+      "slug": "2026-01-10-rivian-skaliert-end-to-end-ai-universal-hands-free-auf-3-5-mio-meilen"
+    },
+    {
+      "filename": "2026-01-10-tinker-macht-ki-fine-tuning-zum-plug-and-play-werkzeug",
+      "date": "2026-01-10",
+      "title": "Tinker macht KI-Fine-Tuning zum Plug-and-Play-Werkzeug",
+      "description": "Thinking Machines öffnet Tinker API für alle – LoRA-Fine-Tuning ohne GPU-Kopfschmerzen, OpenAI-kompatibel und sofort in n8n integrierbar.",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "6 min read",
+      "url": "/blog/2026-01-10-tinker-macht-ki-fine-tuning-zum-plug-and-play-werkzeug/",
+      "slug": "2026-01-10-tinker-macht-ki-fine-tuning-zum-plug-and-play-werkzeug"
+    },
+    {
+      "filename": "2026-01-10-xai-grok-voice-agent-api-game-changer-fuer-voice-automation-zum-halben-preis",
+      "date": "2026-01-10",
+      "title": "xAI Grok Voice Agent API: Game-Changer für Voice-Automation zum halben Preis",
+      "description": "xAIs neue Voice Agent API bringt Enterprise-Grade Sprachautomatisierung mit 100+ Sprachen, Tool-Calls und <700ms Latenz für nur $0,05/Min (nicht offiziell in xAI-Preisliste, aber durch mehrere Quellen dokumentiert)",
+      "category": "News",
+      "tags": [],
+      "author": "Robin Böhm",
+      "readTime": "7 min read",
+      "url": "/blog/2026-01-10-xai-grok-voice-agent-api-game-changer-fuer-voice-automation-zum-halben-preis/",
+      "slug": "2026-01-10-xai-grok-voice-agent-api-game-changer-fuer-voice-automation-zum-halben-preis"
+    }
+  ]
+}
