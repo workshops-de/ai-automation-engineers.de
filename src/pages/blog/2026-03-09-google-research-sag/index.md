@@ -1,6 +1,6 @@
 ---
 layout: '../../../layouts/BlogLayout.astro'
-title: 'Google Research: „Sag's zweimal" für 97% bessere KI-Antworten'
+title: 'Google Research: „Sag''s zweimal" für 97% bessere KI-Antworten'
 description: 'Einfacher Prompt-Trick steigert LLM-Performance um bis zu 76% ohne zusätzliche Kosten - perfekt für Automatisierungs-Workflows'
 pubDate: '2026-01-19'
 author: 'Robin Böhm'
