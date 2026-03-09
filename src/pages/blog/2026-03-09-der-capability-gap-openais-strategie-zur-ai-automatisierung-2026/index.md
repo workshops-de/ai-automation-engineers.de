@@ -8,6 +8,7 @@ tags: ['AI-Automation', 'OpenAI', 'Workflow-Integration', 'Enterprise-AI', 'Chat
 category: 'News'
 readTime: '6 min read'
 image: 'https://images.unsplash.com/photo-1676299081847-dc2c42ab60db'
+image: 'https://images.unsplash.com/photo-1526378722484-cc1ab70fb367?auto=format&fit=crop&w=1600&q=80'
 source: 'https://fidjisimo.substack.com/p/closing-the-capability-gap'
 portal: 'AI-AUTOMATION-ENGINEERS.DE'
 spreadsheetRow: '333'
