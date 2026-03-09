@@ -1,6 +1,6 @@
 ---
 layout: '../../../layouts/BlogLayout.astro'
-title: 'Was AI wirklich kann: GitHub's Developer-Perspektive auf praktische KI-Anwendungen'
+title: "Was AI wirklich kann: GitHub's Developer-Perspektive auf praktische KI-Anwendungen"
 description: 'Cassidy Williams von GitHub zeigt, wo AI echten Mehrwert bringt und wo die Grenzen liegen. Praktische Insights für KI-Praktiker.'
 pubDate: '2026-01-14'
 author: 'Robin Böhm'
