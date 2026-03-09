@@ -1,7 +1,7 @@
 ---
 layout: '../../../layouts/BlogLayout.astro'
 title: 'Claude AI navigiert NASA-Rover auf Mars: Wegweisende KI-Automatisierung unter Extrembedingungen'
-description: 'Anthropics Claude steuerte erfolgreich NASA's Perseverance Rover 400m über den Mars - mit 14-24 Min Latenz. Was bedeutet das für Enterprise-AI?'
+description: "Anthropics Claude steuerte erfolgreich NASA's Perseverance Rover 400m über den Mars - mit 14-24 Min Latenz. Was bedeutet das für Enterprise-AI?"
 pubDate: '2026-01-31'
 author: 'Robin Böhm'
 tags: ['AI-Automation', 'Claude', 'NASA', 'Edge-Computing', 'Enterprise-AI']

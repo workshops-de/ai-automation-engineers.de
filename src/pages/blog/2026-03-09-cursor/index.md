@@ -1,6 +1,6 @@
 ---
 layout: '../../../layouts/BlogLayout.astro'
-title: 'Cursor's Dynamic Context Discovery: 46% weniger Token, mehr Effizienz'
+title: "Cursor's Dynamic Context Discovery: 46% weniger Token, mehr Effizienz"
 description: 'Agent Skills revolutionieren AI-Coding mit dynamatischem Kontext-Loading statt starrer Rules. Massive Token-Einsparung und bessere Performance für Automatisierungs-Workflows.'
 pubDate: '2026-01-27'
 author: 'Robin Böhm'
