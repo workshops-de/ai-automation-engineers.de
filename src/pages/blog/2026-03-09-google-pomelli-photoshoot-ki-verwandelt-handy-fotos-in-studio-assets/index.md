@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI-Tools', 'Google-Labs', 'Product-Photography', 'Automation', 'E-Commerce']
 category: 'News'
 readTime: '6 min read'
-image: 'https://images.pexels.com/photos/product-photography-studio.jpg'
+image: 'https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=1600&q=80'
 source: 'https://labs.google.com/pomelli/about/'
 portal: 'ai-automation-engineers.de'
 spreadsheetRow: '581'

@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI-AUTOMATION-ENGINEERS', 'NotebookLM', 'Infografik-Automation', 'Visual-AI', 'Google']
 category: 'News'
 readTime: '6 min read'
-image: 'https://images.unsplash.com/photo-1632907910582-a461d59f3d27'
+image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1600&q=80'
 source: 'https://support.google.com/notebooklm/answer/16758265'
 portal: 'AI-AUTOMATION-ENGINEERS.DE'
 spreadsheetRow: '593'
