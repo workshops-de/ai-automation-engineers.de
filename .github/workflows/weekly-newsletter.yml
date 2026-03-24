@@ -100,73 +100,19 @@ jobs:
           echo "Week number: $WEEK_NUMBER"
           echo "Year: $YEAR"
 
-      - name: 🤖 Add AI generation notice with articles data
+      - name: 🤖 Generate AI newsletter content
         if: steps.check_changes.outputs.changes == 'true'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          NEWSLETTER_FOLDER: ${{ steps.check_changes.outputs.folder_name }}
         run: |
-          NEWSLETTER_FILE="src/pages/newsletter/${{ steps.check_changes.outputs.folder_name }}/index.md"
+          NEWSLETTER_FILE="src/pages/newsletter/${NEWSLETTER_FOLDER}/index.md"
           
           if [ -f "$NEWSLETTER_FILE" ]; then
-            # Generate articles summary for AI prompt
-            ARTICLES_SUMMARY=""
-            if [ -f weekly-articles.json ]; then
-              ARTICLES_SUMMARY=$(node -e "
-                const fs = require('fs');
-                const data = JSON.parse(fs.readFileSync('weekly-articles.json', 'utf8'));
-                if (data.summary.total > 0) {
-                  console.log('📚 AVAILABLE ARTICLES FROM LAST 7 DAYS:');
-                  console.log('');
-                  console.log(\`Total: \${data.summary.total} articles (\${data.summary.dateRange.start} - \${data.summary.dateRange.end})\`);
-                  console.log('');
-                  console.log('🎯 TOP ARTICLES FOR NEWSLETTER:');
-                  data.references.slice(0, 8).forEach((article, i) => {
-                    console.log(\`\${i+1}. \${article.title}\`);
-                    console.log(\`   URL: \${article.url}\`);
-                    console.log(\`   Category: \${article.category} | Section: \${article.suggestedSection}\`);
-                    console.log(\`   Description: \${article.description.substring(0, 100)}...\`);
-                    console.log('');
-                  });
-                  console.log('📂 CATEGORIES BREAKDOWN:');
-                  Object.entries(data.summary.categories).forEach(([cat, info]) => {
-                    console.log(\`• \${cat}: \${info.count} articles\`);
-                  });
-                } else {
-                  console.log('ℹ️  No articles found in the last 7 days');
-                }
-              " 2>/dev/null || echo "No articles data available")
-            else
-              ARTICLES_SUMMARY="No articles data available"
-            fi
-            
-            # Add a comment at the top of the file for AI content generation
-            cat > temp_newsletter.md << EOF
-          <!--
-          🤖 AI CONTENT GENERATION NEEDED
-          
-          This newsletter was auto-generated with real articles from the last 7 days.
-          
-          Instructions:
-          1. Use the prompt from: prompts/weekly-newsletter-prompt.md
-          2. Use the articles data below to fill the newsletter content
-          3. Replace [PLACEHOLDER] content with real information from the articles
-          4. Ensure all content is B2B focused and enterprise-relevant
-          
-          $ARTICLES_SUMMARY
-          
-          Template placeholders to replace:
-          - [BUSINESS-IMPACT], [AUTOMATISIERUNG-POTENZIAL], [ENTERPRISE-RELEVANZ] in stories
-          - [SPEZIFISCHE ZIELGRUPPE] based on article content
-          - Links are already provided from collected articles
-          
-          Week: ${{ steps.date_info.outputs.week_number }}/${{ steps.date_info.outputs.year }}
-          Generated: ${{ steps.date_info.outputs.current_date }}
-          -->
-          
-          EOF
-            
-            cat "$NEWSLETTER_FILE" >> temp_newsletter.md
-            mv temp_newsletter.md "$NEWSLETTER_FILE"
-            
-            echo "✅ Added AI generation instructions with articles data to newsletter"
+            echo "📝 Running AI content generation for: $NEWSLETTER_FILE"
+            node scripts/ai-generate-newsletter-content.js --newsletter "$NEWSLETTER_FILE"
+          else
+            echo "⚠️ Newsletter file not found: $NEWSLETTER_FILE"
           fi
 
       - name: 🎯 Create Pull Request
@@ -177,27 +123,26 @@ jobs:
           commit-message: |
             feat(newsletter): add weekly ai-automation newsletter KW${{ steps.date_info.outputs.week_number }}/${{ steps.date_info.outputs.year }}
             
-            - Auto-generated newsletter structure for week ${{ steps.date_info.outputs.week_number }}
-            - Ready for AI content generation using prompts/weekly-newsletter-prompt.md  
+            - AI-generated newsletter for week ${{ steps.date_info.outputs.week_number }}
+            - Articles from the last 7 days automatically collected and summarized
             - Includes course promotion components
             - B2B focus on AI-automation and enterprise tools
           branch: newsletter/week-${{ steps.date_info.outputs.week_number }}-${{ steps.date_info.outputs.year }}
-          title: "📅 Weekly Newsletter KW${{ steps.date_info.outputs.week_number }}/${{ steps.date_info.outputs.year }} - Ready for AI Content"
+          title: "📅 Weekly Newsletter KW${{ steps.date_info.outputs.week_number }}/${{ steps.date_info.outputs.year }} - AI Generated"
           body: |
             ## 📅 Weekly Newsletter KW${{ steps.date_info.outputs.week_number }}/${{ steps.date_info.outputs.year }}
             
-            Auto-generated newsletter structure ready for content creation.
+            AI-generated newsletter with content from the last 7 days of blog articles.
             
-            ### 🤖 Next Steps (AI Content Generation)
+            ### 🤖 AI Content Generation
             
-            1. **Use the AI Prompt**: Check `prompts/weekly-newsletter-prompt.md` for detailed instructions
-            2. **Review Articles Data**: Newsletter includes articles from the last 7 days automatically
-            3. **Fill Business Context**: Replace `[BUSINESS-IMPACT]`, `[ENTERPRISE-RELEVANZ]` with real insights
-            4. **Verify Links**: All article links are pre-populated from our blog
-            5. **Review**: Ensure B2B focus and enterprise relevance
+            Newsletter content was automatically generated using Claude AI based on collected articles.
+            If AI generation was skipped (no API key), placeholders remain and can be filled manually
+            using `prompts/weekly-newsletter-prompt.md`.
             
             ### 📚 Articles Auto-Included
-            The newsletter structure is pre-populated with articles from the last 7 days. Check the comment section in the newsletter file for the complete list.
+            
+            All articles from the last 7 days were collected and used to generate the newsletter content.
             
             ### 📁 Generated Files
             - `src/pages/newsletter/${{ steps.check_changes.outputs.folder_name }}/index.md`
@@ -220,16 +165,21 @@ jobs:
           labels: |
             newsletter
             automated
-            content-needed
           assignees: |
             ${{ github.repository_owner }}
 
       - name: 📊 Summary
+        env:
+          CHANGES: ${{ steps.check_changes.outputs.changes }}
+          FOLDER_NAME: ${{ steps.check_changes.outputs.folder_name }}
+          CURRENT_DATE: ${{ steps.date_info.outputs.current_date }}
+          WEEK_NUMBER: ${{ steps.date_info.outputs.week_number }}
+          YEAR: ${{ steps.date_info.outputs.year }}
         run: |
           echo "## 📅 Weekly Newsletter Generation Summary" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "**Date**: ${{ steps.date_info.outputs.current_date }}" >> $GITHUB_STEP_SUMMARY
-          echo "**Week**: ${{ steps.date_info.outputs.week_number }}/${{ steps.date_info.outputs.year }}" >> $GITHUB_STEP_SUMMARY
+          echo "**Date**: ${CURRENT_DATE}" >> $GITHUB_STEP_SUMMARY
+          echo "**Week**: ${WEEK_NUMBER}/${YEAR}" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           
           # Add articles summary to GitHub summary
@@ -252,18 +202,15 @@ jobs:
             echo "" >> $GITHUB_STEP_SUMMARY
           fi
           
-          if [ "${{ steps.check_changes.outputs.changes }}" = "true" ]; then
-            echo "✅ **Status**: Newsletter generated with real articles from last 7 days" >> $GITHUB_STEP_SUMMARY
-            echo "📁 **Folder**: ${{ steps.check_changes.outputs.folder_name }}" >> $GITHUB_STEP_SUMMARY
-            echo "🔀 **PR**: Created pull request for content refinement" >> $GITHUB_STEP_SUMMARY
+          if [ "${CHANGES}" = "true" ]; then
+            echo "✅ **Status**: Newsletter AI-generated from articles of the last 7 days" >> $GITHUB_STEP_SUMMARY
+            echo "📁 **Folder**: ${FOLDER_NAME}" >> $GITHUB_STEP_SUMMARY
+            echo "🔀 **PR**: Created pull request for review" >> $GITHUB_STEP_SUMMARY
           else
             echo "ℹ️ **Status**: Newsletter already exists for this week" >> $GITHUB_STEP_SUMMARY
           fi
           
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "### 🤖 Next Steps" >> $GITHUB_STEP_SUMMARY
-          echo "1. Review the generated newsletter with pre-populated articles" >> $GITHUB_STEP_SUMMARY  
-          echo "2. Use AI prompt from \`prompts/weekly-newsletter-prompt.md\`" >> $GITHUB_STEP_SUMMARY
-          echo "3. Replace business impact placeholders with insights" >> $GITHUB_STEP_SUMMARY
-          echo "4. Articles and links are already included from last 7 days" >> $GITHUB_STEP_SUMMARY
-          echo "5. Review and merge the pull request" >> $GITHUB_STEP_SUMMARY
+          echo "### 🤖 AI Generation" >> $GITHUB_STEP_SUMMARY
+          echo "Newsletter content was automatically generated using Claude AI." >> $GITHUB_STEP_SUMMARY
+          echo "Set the ANTHROPIC_API_KEY secret to enable AI content generation." >> $GITHUB_STEP_SUMMARY
