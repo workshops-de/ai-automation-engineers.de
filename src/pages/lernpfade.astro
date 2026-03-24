@@ -1,0 +1,432 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const title = 'KI Lernpfade & Zertifizierungen';
+const description = 'Entdecke strukturierte Lernpfade für KI-Profis: AI Automation Engineer, n8n Solution Engineer, Claude AI Engineer und Microsoft 365 Copilot – powered by workshops.de.';
+
+const utm = 'utm_source=ai-automation-engineers_de&utm_campaign=crossmarketing_permanent&utm_medium=portal&utm_content=lernpfade-page';
+
+const lernpfade = [
+  {
+    id: 'ai-automation-engineer',
+    title: 'AI Automation Engineer',
+    subtitle: 'Lernpfad',
+    description: 'Lerne intelligente Prozessautomatisierung mit KI-gesteuerten Workflows. Praxisorientierter Lernpfad mit n8n und KI-Agenten – ohne zwingende Programmierkenntnisse.',
+    icon: '🚀',
+    gradient: 'from-orange-500 to-amber-500',
+    gradientLight: 'from-orange-50 to-amber-50',
+    border: 'border-orange-200',
+    badge: 'bg-orange-100 text-orange-800',
+    cta: 'bg-orange-500 hover:bg-orange-600',
+    url: `https://workshops.de/schulungsthemen/kuenstliche-intelligenz?${utm}`,
+    totalDays: '5–11 Tage',
+    level: 'Einsteiger bis Fortgeschrittene',
+    certificate: true,
+    modules: [
+      {
+        number: 1,
+        title: 'n8n: Automatisierung mit KI-Agenten',
+        type: 'Intensiv-Schulung',
+        duration: '5 Tage',
+        level: 'Einsteiger',
+        required: true,
+        description: 'KI-Agenten, autonome Workflows und Geschäftsprozess-Automatisierung mit n8n.'
+      },
+      {
+        number: 2,
+        title: 'n8n: Multi-Agent-Systeme & MCPs',
+        type: 'Intensiv-Schulung',
+        duration: '5 Tage',
+        level: 'Fortgeschrittene',
+        required: false,
+        description: 'Advanced AI-Agent Architekturen: Memory, Multi-Agent-Systeme und MCP-Integration.'
+      },
+      {
+        number: 3,
+        title: 'KI und Datenschutz',
+        type: 'Grundlagen-Schulung',
+        duration: '1 Tag',
+        level: 'Einsteiger',
+        required: false,
+        description: 'Rechtssicherer Einsatz von KI-Tools im Unternehmensumfeld.'
+      }
+    ]
+  },
+  {
+    id: 'n8n-solution-engineer',
+    title: 'n8n Solution Engineer',
+    subtitle: 'Lernpfad',
+    description: 'Lerne n8n ohne Programmierkenntnisse! Schritt-für-Schritt zum Automatisierungs-Experten. Workflows erstellen, Zeit sparen, effizienter arbeiten.',
+    icon: '🔗',
+    gradient: 'from-violet-600 to-purple-600',
+    gradientLight: 'from-violet-50 to-purple-50',
+    border: 'border-violet-200',
+    badge: 'bg-violet-100 text-violet-800',
+    cta: 'bg-violet-600 hover:bg-violet-700',
+    url: `https://workshops.de/schulungsthemen/kuenstliche-intelligenz?${utm}`,
+    totalDays: '10 Tage',
+    level: 'Einsteiger bis Fortgeschrittene',
+    certificate: true,
+    modules: [
+      {
+        number: 1,
+        title: 'n8n: Automatisierung mit KI-Agenten',
+        type: 'Intensiv-Schulung',
+        duration: '5 Tage',
+        level: 'Einsteiger',
+        required: true,
+        description: 'KI-Agenten, autonome Workflows und Geschäftsprozess-Automatisierung mit n8n.'
+      },
+      {
+        number: 2,
+        title: 'n8n: Multi-Agent-Systeme & MCPs',
+        type: 'Intensiv-Schulung',
+        duration: '5 Tage',
+        level: 'Fortgeschrittene',
+        required: true,
+        description: 'Advanced AI-Agent Architekturen: Memory, Multi-Agent-Systeme und MCP-Integration.'
+      }
+    ]
+  },
+  {
+    id: 'claude-ai-engineer',
+    title: 'Claude AI Engineer',
+    subtitle: 'Lernpfad',
+    description: 'Vom Claude Chat-Nutzer zum Agentic Software Engineer. Lerne Claude, CoWork, eigene Skills & Plugins entwickeln und Claude Code für autonome Softwareentwicklung.',
+    icon: '🤖',
+    gradient: 'from-blue-600 to-cyan-500',
+    gradientLight: 'from-blue-50 to-cyan-50',
+    border: 'border-blue-200',
+    badge: 'bg-blue-100 text-blue-800',
+    cta: 'bg-blue-600 hover:bg-blue-700',
+    url: `https://workshops.de/schulungsthemen/kuenstliche-intelligenz?${utm}`,
+    totalDays: '15 Tage',
+    level: 'Einsteiger bis Expert',
+    certificate: true,
+    modules: [
+      {
+        number: 1,
+        title: 'Claude: Chat und die Anthropic Platform',
+        type: 'Intensiv-Schulung',
+        duration: '5 Tage',
+        level: 'Einsteiger',
+        required: true,
+        description: 'Claude produktiv nutzen: Prompts, Desktop-App CoWork bis zur Anthropic Platform.'
+      },
+      {
+        number: 2,
+        title: 'Claude: Agents, CoWork, Skills & Plugins',
+        type: 'Intensiv-Schulung',
+        duration: '5 Tage',
+        level: 'Fortgeschrittene',
+        required: true,
+        description: 'Workflows mit Claude CoWork aufbauen, eigene Skills & Plugins entwickeln und im Team teilen.'
+      },
+      {
+        number: 3,
+        title: 'Agentic Software Engineering mit Claude Code',
+        type: 'Intensiv-Schulung',
+        duration: '5 Tage',
+        level: 'Fortgeschrittene',
+        required: true,
+        description: 'Claude Code von der Installation bis zum Multi-Agent-Workflow – inkl. CI/CD und eigenem MCP-Server.'
+      }
+    ]
+  },
+  {
+    id: 'copilot-solution-engineer',
+    title: 'Microsoft 365 Copilot Solution Engineer',
+    subtitle: 'Lernpfad',
+    description: 'Von den Grundlagen bis zur unternehmensweiten Copilot-Einführung. KI-Agents erstellen und in M365-Apps integrieren – praxisnah, ohne tiefe Programmierkenntnisse.',
+    icon: '💼',
+    gradient: 'from-teal-500 to-green-500',
+    gradientLight: 'from-teal-50 to-green-50',
+    border: 'border-teal-200',
+    badge: 'bg-teal-100 text-teal-800',
+    cta: 'bg-teal-500 hover:bg-teal-600',
+    url: `https://workshops.de/schulungsthemen/microsoft-365-copilot?${utm}`,
+    totalDays: '10 Tage',
+    level: 'Einsteiger bis Fortgeschrittene',
+    certificate: true,
+    modules: [
+      {
+        number: 1,
+        title: 'Microsoft 365 Copilot: Grundlagen',
+        type: 'Grundlagen-Schulung',
+        duration: '5 Tage',
+        level: 'Einsteiger',
+        required: true,
+        description: 'Was Copilot ist, wie es funktioniert und wie du ab sofort produktiv damit arbeiten kannst.'
+      },
+      {
+        number: 2,
+        title: 'Microsoft 365 Copilot: Copilot Studio',
+        type: 'Intensiv-Schulung',
+        duration: '5 Tage',
+        level: 'Fortgeschrittene',
+        required: true,
+        description: 'KI-Agents erstellen, konfigurieren und deployen – direkt einsetzbar im Unternehmensalltag.'
+      }
+    ]
+  }
+];
+---
+
+<BaseLayout {title} {description}>
+  <!-- Hero Section -->
+  <section class="relative overflow-hidden bg-white pt-32 pb-20">
+    <div class="absolute inset-0 bg-gradient-to-br from-gray-50 via-white to-orange-50">
+      <div class="absolute top-1/4 right-1/4 w-96 h-96 bg-orange-100 rounded-full mix-blend-multiply filter blur-3xl opacity-40 animate-blob"></div>
+      <div class="absolute bottom-1/4 left-1/4 w-80 h-80 bg-blue-100 rounded-full mix-blend-multiply filter blur-3xl opacity-40 animate-blob animation-delay-2000"></div>
+    </div>
+
+    <div class="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <!-- Powered by badge -->
+      <div class="inline-flex items-center gap-2 px-4 py-2 bg-white border border-gray-200 rounded-full text-sm text-gray-600 mb-8 shadow-sm">
+        <img src="/logo-workshopsde-color400w.png" alt="workshops.de" class="w-5 h-5">
+        <span>Powered by</span>
+        <a href={`https://workshops.de?${utm}`} target="_blank" class="font-semibold text-gray-800 hover:text-orange-600 transition-colors">workshops.de</a>
+      </div>
+
+      <h1 class="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-gray-900 mb-6">
+        Strukturierte<br>
+        <span class="bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent">Lernpfade.</span>
+      </h1>
+
+      <p class="text-xl sm:text-2xl text-gray-600 mb-10 max-w-3xl mx-auto font-light leading-relaxed">
+        Werde zum zertifizierten KI-Experten mit unseren praxisorientierten Intensiv-Schulungen –
+        von Einsteiger bis Advanced.
+      </p>
+
+      <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+        <a href={`https://workshops.de/schulungsthemen/kuenstliche-intelligenz?${utm}`}
+           target="_blank"
+           class="inline-flex items-center px-8 py-4 text-base font-semibold text-white bg-gray-900 rounded-full hover:bg-gray-800 transition-all duration-300 shadow-lg hover:shadow-xl">
+          Alle KI-Schulungen ansehen
+          <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+          </svg>
+        </a>
+        <a href="https://workshops.de/inhouse?utm_source=ai-automation-engineers_de&utm_campaign=crossmarketing_permanent&utm_medium=portal&utm_content=lernpfade-page-inhouse"
+           target="_blank"
+           class="inline-flex items-center px-8 py-4 text-base font-semibold text-gray-700 bg-white border border-gray-200 rounded-full hover:border-gray-900 hover:text-gray-900 transition-all duration-300">
+          Inhouse-Schulung anfragen
+        </a>
+      </div>
+
+      <!-- Stats row -->
+      <div class="mt-16 grid grid-cols-2 sm:grid-cols-4 gap-8 max-w-2xl mx-auto">
+        {[
+          { value: '4', label: 'Lernpfade' },
+          { value: '8+', label: 'Module' },
+          { value: '30+', label: 'Tage Intensivtraining' },
+          { value: '100%', label: 'Inkl. Zertifikat' }
+        ].map(stat => (
+          <div class="text-center">
+            <div class="text-3xl font-bold text-gray-900">{stat.value}</div>
+            <div class="text-sm text-gray-500 mt-1">{stat.label}</div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Lernpfade Section -->
+  <section class="py-24 bg-white">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl sm:text-5xl font-bold text-gray-900 mb-4">Unsere Lernpfade.</h2>
+        <p class="text-lg text-gray-500 max-w-2xl mx-auto">
+          Kombiniere mehrere Kurse zu einem strukturierten Lernweg und werde Schritt für Schritt zum Experten.
+        </p>
+      </div>
+
+      <div class="space-y-12">
+        {lernpfade.map((path, idx) => (
+          <div class={`rounded-3xl border ${path.border} bg-gradient-to-br ${path.gradientLight} overflow-hidden`}>
+            <div class="p-8 sm:p-10">
+              <!-- Path Header -->
+              <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-6 mb-8">
+                <div class="flex items-start gap-4">
+                  <div class={`flex-shrink-0 w-14 h-14 rounded-2xl bg-gradient-to-br ${path.gradient} flex items-center justify-center text-2xl shadow-md`}>
+                    {path.icon}
+                  </div>
+                  <div>
+                    <div class={`inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold mb-2 ${path.badge}`}>
+                      {path.subtitle}
+                    </div>
+                    <h3 class="text-2xl sm:text-3xl font-bold text-gray-900">{path.title}</h3>
+                    <p class="text-gray-600 mt-2 max-w-xl">{path.description}</p>
+                  </div>
+                </div>
+
+                <div class="flex-shrink-0 flex flex-col gap-2 sm:text-right">
+                  <div class="flex sm:justify-end items-center gap-2 text-sm text-gray-600">
+                    <svg class="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                    <span class="font-medium">{path.totalDays}</span>
+                  </div>
+                  <div class="flex sm:justify-end items-center gap-2 text-sm text-gray-600">
+                    <svg class="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
+                    </svg>
+                    <span class="font-medium">Inkl. Zertifikat</span>
+                  </div>
+                  <div class="flex sm:justify-end items-center gap-2 text-sm text-gray-600">
+                    <svg class="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                    </svg>
+                    <span>{path.level}</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Modules Timeline -->
+              <div class="mb-8">
+                <h4 class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-4">Enthaltene Module</h4>
+                <div class="relative">
+                  <!-- Connecting line -->
+                  <div class="absolute left-5 top-6 bottom-6 w-0.5 bg-gray-200 hidden sm:block"></div>
+
+                  <div class="space-y-3">
+                    {path.modules.map((module, mIdx) => (
+                      <div class="relative flex items-start gap-4 bg-white rounded-2xl p-5 shadow-sm border border-white/80">
+                        <!-- Step indicator -->
+                        <div class={`flex-shrink-0 w-10 h-10 rounded-xl bg-gradient-to-br ${path.gradient} flex items-center justify-center text-white font-bold text-sm shadow-sm`}>
+                          {module.number}
+                        </div>
+
+                        <div class="flex-1 min-w-0">
+                          <div class="flex flex-wrap items-center gap-2 mb-1">
+                            <span class="font-semibold text-gray-900 text-sm sm:text-base">{module.title}</span>
+                            {!module.required && (
+                              <span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-600">
+                                Optional
+                              </span>
+                            )}
+                          </div>
+                          <div class="flex flex-wrap items-center gap-3 text-xs text-gray-500 mb-2">
+                            <span class="inline-flex items-center gap-1">
+                              <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"></path>
+                              </svg>
+                              {module.type}
+                            </span>
+                            <span class="inline-flex items-center gap-1">
+                              <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                              </svg>
+                              {module.duration}
+                            </span>
+                            <span class="inline-flex items-center gap-1">
+                              <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                              </svg>
+                              {module.level}
+                            </span>
+                          </div>
+                          <p class="text-sm text-gray-600">{module.description}</p>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+
+              <!-- CTA -->
+              <div class="flex flex-col sm:flex-row gap-3 pt-2">
+                <a href={path.url}
+                   target="_blank"
+                   class={`inline-flex items-center justify-center px-8 py-3.5 text-base font-semibold text-white ${path.cta} rounded-full transition-all duration-300 shadow-md hover:shadow-lg`}>
+                  Lernpfad ansehen
+                  <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                  </svg>
+                </a>
+                <a href="https://workshops.de/inhouse?utm_source=ai-automation-engineers_de&utm_campaign=crossmarketing_permanent&utm_medium=portal&utm_content=lernpfade-page-inhouse"
+                   target="_blank"
+                   class="inline-flex items-center justify-center px-8 py-3.5 text-base font-semibold text-gray-700 bg-white border border-gray-200 rounded-full hover:border-gray-900 hover:text-gray-900 transition-all duration-300">
+                  Als Inhouse anfragen
+                </a>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Info Banner: Alle Kurse auch einzeln buchbar -->
+  <section class="py-16 bg-gray-50">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <div class="bg-white rounded-3xl border border-gray-200 p-8 sm:p-12 shadow-sm">
+        <div class="w-14 h-14 bg-gray-900 rounded-2xl flex items-center justify-center mx-auto mb-6">
+          <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+          </svg>
+        </div>
+        <h3 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">Alle Kurse auch einzeln buchbar</h3>
+        <p class="text-gray-600 text-lg mb-8 max-w-xl mx-auto">
+          Du musst nicht den ganzen Lernpfad buchen. Jedes Modul ist auch einzeln verfügbar –
+          als öffentlicher Termin (Remote) oder als Inhouse-Schulung für dein Team.
+        </p>
+        <div class="grid sm:grid-cols-3 gap-4 mb-8 text-sm">
+          {[
+            { icon: '🗓️', text: '100€ Gruppenrabatt ab 3 Teilnehmenden' },
+            { icon: '🌍', text: 'Vor Ort oder Remote – Deutsch & Englisch' },
+            { icon: '🏆', text: 'Digitales Zertifikat – LinkedIn-tauglich' }
+          ].map(item => (
+            <div class="flex items-center gap-2 bg-gray-50 rounded-xl px-4 py-3 text-gray-700">
+              <span class="text-lg">{item.icon}</span>
+              <span>{item.text}</span>
+            </div>
+          ))}
+        </div>
+        <a href={`https://workshops.de/schulungsthemen/kuenstliche-intelligenz?${utm}`}
+           target="_blank"
+           class="inline-flex items-center px-8 py-4 text-base font-semibold text-white bg-gray-900 rounded-full hover:bg-gray-800 transition-all duration-300 shadow-lg hover:shadow-xl">
+          Alle Schulungen & Termine ansehen
+          <svg class="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Inhouse CTA Section -->
+  <section class="py-24 bg-gray-900 text-white">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-4xl sm:text-5xl font-bold mb-6">
+        Inhouse-Schulung für dein Team?
+      </h2>
+      <p class="text-xl text-gray-300 mb-4 max-w-2xl mx-auto">
+        Alle Lernpfade und Module sind auch als maßgeschneiderte Firmen-Schulung buchbar –
+        vor Ort in eurem Unternehmen oder remote.
+      </p>
+      <p class="text-gray-400 mb-10">
+        Passgenaue Schulungen • Deutsch und Englisch • Individuelle Anpassungen möglich
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="https://workshops.de/inhouse?utm_source=ai-automation-engineers_de&utm_campaign=crossmarketing_permanent&utm_medium=portal&utm_content=lernpfade-page-inhouse-cta"
+           target="_blank"
+           class="inline-flex items-center justify-center px-10 py-4 text-base font-semibold text-gray-900 bg-white rounded-full hover:bg-gray-100 transition-all duration-300 shadow-lg">
+          Inhouse anfragen
+          <svg class="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+          </svg>
+        </a>
+        <a href={`https://workshops.de/schulungsthemen/kuenstliche-intelligenz?${utm}`}
+           target="_blank"
+           class="inline-flex items-center justify-center px-10 py-4 text-base font-semibold text-white border border-white/30 rounded-full hover:bg-white/10 transition-all duration-300">
+          Alle Termine ansehen
+        </a>
+      </div>
+      <div class="mt-12 flex items-center justify-center gap-4">
+        <img src="/logo-workshopsde-color400w.png" alt="workshops.de" class="w-8 h-8 opacity-80">
+        <span class="text-gray-400 text-sm">Alle Schulungen powered by <a href={`https://workshops.de?${utm}`} target="_blank" class="text-white hover:underline">workshops.de</a></span>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
