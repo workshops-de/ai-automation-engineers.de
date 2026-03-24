@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI-Automation', 'Google-Workspace', 'CLI', 'Claude-MCP', 'Terminal-Tools']
 category: 'News'
 readTime: '7 min read'
-image: 'https://images.unsplash.com/photo-1555421689-491a5ff2040e?w=1200'
+image: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1200&h=630&fit=crop'
 source: 'https://github.com/googleworkspace/cli'
 portal: 'ai-automation-engineers.de'
 spreadsheetRow: '619'

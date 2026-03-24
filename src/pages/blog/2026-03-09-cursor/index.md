@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI-Automation', 'Cursor', 'Agent-Skills', 'Workflow-Optimization', 'Code-Generation']
 category: 'News'
 readTime: '6 min read'
-image: 'https://unsplash.com/photos/person-using-macbook-pro-on-table-7oI0iTHEJ8U'
+image: 'https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=1200&h=630&fit=crop'
 source: 'https://cursor.com/blog/dynamic-context-discovery'
 portal: 'ai-automation-engineers.de'
 spreadsheetRow: '412'

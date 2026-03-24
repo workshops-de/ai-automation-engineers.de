@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Automation', 'Technology']
 category: 'Technology'
 readTime: '5 min read'
-image: 'https://images.pexels.com/photos/5380645/pexels-photo-5380645.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=1200&h=630&fit=crop'
 ---
 
 **TL;DR:** OpenAI hat im Februar 2025 ein chinesisches AI-Überwachungstool aufgedeckt, das zur Überwachung von Minderheiten und Dissidenten eingesetzt wurde. Der Threat Report zeigt konkrete Missbrauchsfälle von KI-Modellen und liefert essenzielle Sicherheitsempfehlungen für AI-Automatisierungs-Ingenieure - inklusive praktischer Maßnahmen für n8n, Make und Zapier Integrationen.

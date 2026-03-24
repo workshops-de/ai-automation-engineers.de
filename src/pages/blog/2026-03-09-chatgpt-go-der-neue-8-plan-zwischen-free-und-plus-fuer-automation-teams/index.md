@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['ChatGPT', 'AI-Tools', 'Workflow-Automation', 'OpenAI']
 category: 'News'
 readTime: '5 min read'
-image: 'https://images.unsplash.com/photo-1677691980935-f7b1aca26b24'
+image: 'https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&h=630&fit=crop'
 source: 'https://openai.com/index/introducing-chatgpt-go/'
 portal: 'AI-AUTOMATION-ENGINEERS.DE'
 spreadsheetRow: '399'

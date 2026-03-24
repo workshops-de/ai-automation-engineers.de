@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['GPT-5', 'Cursor', 'AI Coding', 'OpenAI', 'Tools & Frameworks']
 category: 'News'
 readTime: '6 min read'
-image: 'https://images.pexels.com/photos/18069425/pexels-photo-18069425.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=1200&h=630&fit=crop'
 ---
 
 **TL;DR:** Cursor AI integriert ab sofort GPT-5, OpenAIs neuestes Flaggschiff-Modell. Mit 74.9% Coding-Genauigkeit (vs. 30.8% bei GPT-4o), 400k Token Input-Kontext und 50% günstigeren Input-Kosten setzt das neue Modell neue Maßstäbe im AI-unterstützten Entwickeln.

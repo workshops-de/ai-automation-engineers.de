@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI-AUTOMATION-ENGINEERS.DE', 'ChatGPT', 'Corporate Learning', 'Education Automation', 'Interactive AI']
 category: 'News'
 readTime: '6 min read'
-image: 'https://unsplash.com/photos/person-holding-black-pen-writing-on-white-paper-cU-VoHNvE0s'
+image: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1200&h=630&fit=crop'
 source: 'https://openai.com/index/new-ways-to-learn-math-and-science-in-chatgpt/'
 portal: 'AI-AUTOMATION-ENGINEERS.DE'
 spreadsheetRow: '632'

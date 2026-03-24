@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI-Automation', 'Gemini-Flash', 'Job-Analysis', 'Open-Source', 'LLM-Pipeline']
 category: 'News'
 readTime: '6 min read'
-image: 'https://unsplash.com/photos/ai-automation-visualization'
+image: 'https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1200&h=630&fit=crop'
 source: 'https://github.com/karpathy/jobs'
 portal: 'ai-automation-engineers.de'
 spreadsheetRow: '685'

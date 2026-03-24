@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI-Automation', 'Google', 'NotebookLM', 'Data Processing', 'Google Sheets']
 category: 'News'
 readTime: '5 min read'
-image: 'https://storage.googleapis.com/gweb-uniblog-publish-prod/images/NotebookLM_data_tables.width-1300.jpg'
+image: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=1200&h=630&fit=crop'
 source: 'https://blog.google/technology/google-labs/notebooklm-data-tables/'
 portal: 'ai-automation-engineers.de'
 spreadsheetRow: '309'

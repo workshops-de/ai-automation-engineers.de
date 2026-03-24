@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI-Automation', 'Prompt-Engineering', 'LLM-Optimization', 'Google-Research']
 category: 'News'
 readTime: '6 min read'
-image: 'https://www.pexels.com/photo/ai-prompt-engineering-optimization-neural-network/'
+image: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1200&h=630&fit=crop'
 source: 'https://arxiv.org/abs/2512.14982'
 portal: 'ai-automation-engineers.de'
 ---

@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['Claude', 'AI', 'Productivity', 'Automation', 'Tools', 'Anthropic']
 category: 'AI Trends'
 readTime: '6 min read'
-image: 'https://images.pexels.com/photos/1181483/pexels-photo-1181483.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1200&h=630&fit=crop'
 ---
 
 **TL;DR:** Anthropic's Claude kann ab sofort Excel-Tabellen mit funktionierenden Formeln, Word-Dokumente, PowerPoint-Präsentationen und PDFs direkt im Chat erstellen und bearbeiten. Das Feature ist als Preview für Max, Team und Enterprise-User verfügbar, Pro-User folgen in den kommenden Wochen.

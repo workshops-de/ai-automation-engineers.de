@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI-Agents', 'Browser-Automation', 'Gemini-3', 'Chrome', 'Workflow-Automation']
 category: 'News'
 readTime: '6 min read'
-image: 'https://images.pexels.com/photos/18035939/pexels-photo-18035939.jpeg'
+image: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1200&h=630&fit=crop'
 source: 'https://blog.google/products-and-platforms/products/chrome/gemini-3-auto-browse/'
 portal: 'ai-automation-engineers.de'
 spreadsheetRow: '438'

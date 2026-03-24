@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI-Automation', 'OpenAI', 'Workflow-Integration', 'Enterprise-AI', 'ChatGPT']
 category: 'News'
 readTime: '6 min read'
-image: 'https://images.unsplash.com/photo-1526378722484-cc1ab70fb367?auto=format&fit=crop&w=1600&q=80'
+image: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1200&h=630&fit=crop'
 source: 'https://fidjisimo.substack.com/p/closing-the-capability-gap'
 portal: 'AI-AUTOMATION-ENGINEERS.DE'
 spreadsheetRow: '333'
