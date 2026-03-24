@@ -1,0 +1,99 @@
+name: 🖼️ Check Blog Post Images
+
+on:
+  push:
+    branches-ignore:
+      - 'newsletter/**'
+    paths:
+      - 'src/pages/blog/**/*.md'
+  pull_request:
+    paths:
+      - 'src/pages/blog/**/*.md'
+
+jobs:
+  check-images:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: 📥 Checkout
+        uses: actions/checkout@v4
+        with:
+          # fetch-depth 2 so HEAD~1 is available for git diff
+          fetch-depth: 2
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 🔧 Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 🔍 Collect changed blog post files
+        id: changed
+        run: |
+          # List .md files changed between the last two commits
+          # Works for both direct pushes and pull_request events
+          FILES=$(git diff --name-only HEAD~1 HEAD -- src/pages/blog/ | grep '\.md$' || true)
+
+          if [ -z "$FILES" ]; then
+            echo "No blog post .md files changed."
+            echo "count=0" >> "$GITHUB_OUTPUT"
+          else
+            echo "Changed blog posts:"
+            echo "$FILES"
+            echo "$FILES" > /tmp/changed-blog-files.txt
+            FILE_COUNT=$(echo "$FILES" | wc -l | tr -d ' ')
+            echo "count=$FILE_COUNT" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: 🖼️ Check & fix broken images
+        id: fix
+        if: steps.changed.outputs.count != '0'
+        env:
+          UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
+        run: |
+          # Pass file paths as arguments (space-separated, no shell expansion needed)
+          mapfile -t FILES < /tmp/changed-blog-files.txt
+
+          echo "Checking ${#FILES[@]} file(s)..."
+
+          # Exit code 2 = files were updated; 0 = all images OK
+          node scripts/check-blog-images.js "${FILES[@]}"
+          EXIT_CODE=$?
+
+          if [ "$EXIT_CODE" -eq 2 ]; then
+            echo "fixed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "fixed=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: 💾 Commit image fixes
+        if: steps.fix.outputs.fixed == 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add src/pages/blog/
+          git commit -m "fix(blog): replace broken image URLs with working alternatives [skip ci]"
+
+          # Push to the same ref that triggered this workflow
+          git push origin HEAD
+
+          echo "✅ Fixes committed and pushed."
+
+      - name: 📊 Summary
+        if: always()
+        env:
+          FIXED: ${{ steps.fix.outputs.fixed }}
+          COUNT: ${{ steps.changed.outputs.count }}
+        run: |
+          echo "## 🖼️ Blog Image Check" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "**Blog posts checked**: ${COUNT}" >> "$GITHUB_STEP_SUMMARY"
+          if [ "${FIXED}" = "true" ]; then
+            echo "**Result**: ⚠️ Broken images were detected and automatically replaced." >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "**Result**: ✅ All images are reachable." >> "$GITHUB_STEP_SUMMARY"
+          fi
