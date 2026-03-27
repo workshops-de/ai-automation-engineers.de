@@ -110,9 +110,18 @@ Erstelle den finalen Newsletter durch Ersetzen aller `{{PLACEHOLDER}}` im Templa
 - **Metadaten**: Wochennummer, Datum, Lesezeit
 
 ## ⚠️ Noch zu ersetzen
-- `[BUSINESS-IMPACT 1/2/3]`: Konkrete Geschäftsauswirkungen
-- `[AUTOMATISIERUNG-POTENZIAL]`: Automation-Möglichkeiten
-- `[ENTERPRISE-RELEVANZ]`: Bedeutung für Unternehmen
-- `[SPEZIFISCHE ZIELGRUPPE]`: Genauere Zielgruppe basierend auf Artikel
+- `{{BUSINESS_IMPACT_X_1}}`: Konkrete Geschäftsauswirkungen
+- `{{AUTOMATION_POTENTIAL_X}}`: Automation-Möglichkeiten
+- `{{ENTERPRISE_RELEVANCE_X}}`: Bedeutung für Unternehmen
+- `{{TARGET_AUDIENCE_X}}`: Genauere Zielgruppe basierend auf Artikel
+
+## 🚫 Anti-Duplikat-Regeln
+**NIEMALS denselben Artikel mehrfach verwenden:**
+1. Jeder Artikel darf nur EINMAL im gesamten Newsletter erscheinen
+2. Verschiedene Sektionen benötigen verschiedene Artikel/Unternehmen
+3. Bei 40+ verfügbaren Artikeln: Priorisiere Content-Diversität
+4. Überprüfe vor Fertigstellung: Keine doppelten Titel, URLs oder Unternehmen
+
+**Automatische Duplikat-Vermeidung:** Die Newsletter-Generation Scripts verwenden jetzt intelligente Algorithmen zur Diversifizierung des Contents.
 
 **Wichtig**: Der Newsletter ist bereits zu 80% fertig - nur noch Business-Kontext hinzufügen!
