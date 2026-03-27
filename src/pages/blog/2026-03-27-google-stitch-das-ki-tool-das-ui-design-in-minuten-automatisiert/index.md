@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI-Automation', 'Google', 'UI-Design', 'No-Code', 'Gemini']
 category: 'News'
 readTime: '6 min read'
-image: 'https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg'
+image: 'https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?w=1200&h=630&fit=crop'
 source: 'https://stitch.withgoogle.com/'
 portal: 'ai-automation-engineers.de'
 ---
