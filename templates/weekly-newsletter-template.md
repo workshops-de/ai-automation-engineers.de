@@ -1,17 +1,17 @@
 ---
 layout: '../../../layouts/BlogLayout.astro'
-title: '📅 Weekly Update: AI-Automation Highlights {{WEEK_NUMBER}}/{{YEAR}}'
+title: '📅 Weekly Update: AI-Automation Highlights KW{{WEEK_NUMBER}}/{{YEAR}}'
 description: 'Dein wöchentlicher Überblick über die wichtigsten Entwicklungen, Tools und Updates im Bereich AI-Automation Engineering - Woche {{WEEK_NUMBER}}/{{YEAR}}'
 pubDate: '{{CURRENT_DATE}}'
-author: 'Agent Alpha'
-tags: ['Newsletter', 'AI News', 'Weekly Summary', 'AI Automation']
-category: 'Newsletter'
+author: 'AI Automation Engineers'
+tags: ['Newsletter', 'AI News', 'Weekly Summary', 'AI Automation', 'Weekly Update']
+category: 'News'
 readTime: '{{ESTIMATED_READ_TIME}} min read'
 image: '{{HERO_IMAGE_URL}}'
 showCoursePromos: true
 ---
 
-Hallo und willkommen zur {{NEWSLETTER_EDITION}} Ausgabe unseres Weekly AI-Automation Newsletters! 👋
+Hallo und willkommen zur {{NEWSLETTER_EDITION}} Ausgabe unseres Weekly AI-Automation Updates! 👋
 
 {{INTRO_TEXT}}
 

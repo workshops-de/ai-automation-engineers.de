@@ -70,12 +70,12 @@ jobs:
       - name: 🔍 Check for new newsletter
         id: check_changes
         run: |
-          if git status --porcelain | grep -q "src/pages/newsletter/"; then
+          if git status --porcelain | grep -q "src/pages/blog/.*weekly-ai-news"; then
             echo "changes=true" >> $GITHUB_OUTPUT
-            echo "📝 New newsletter detected"
+            echo "📝 New newsletter detected in blog section"
             
             # Get the folder name for the new newsletter
-            NEW_FOLDER=$(git status --porcelain | grep "src/pages/newsletter/" | head -1 | sed 's/.*src\/pages\/newsletter\///' | cut -d'/' -f1)
+            NEW_FOLDER=$(git status --porcelain | grep "src/pages/blog/.*weekly-ai-news" | head -1 | sed 's/.*src\/pages\/blog\///' | cut -d'/' -f1)
             echo "folder_name=$NEW_FOLDER" >> $GITHUB_OUTPUT
             echo "Newsletter folder: $NEW_FOLDER"
           else
@@ -106,7 +106,7 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           NEWSLETTER_FOLDER: ${{ steps.check_changes.outputs.folder_name }}
         run: |
-          NEWSLETTER_FILE="src/pages/newsletter/${NEWSLETTER_FOLDER}/index.md"
+          NEWSLETTER_FILE="src/pages/blog/${NEWSLETTER_FOLDER}/index.md"
           
           if [ -f "$NEWSLETTER_FILE" ]; then
             echo "📝 Running AI content generation for: $NEWSLETTER_FILE"
@@ -115,58 +115,32 @@ jobs:
             echo "⚠️ Newsletter file not found: $NEWSLETTER_FILE"
           fi
 
-      - name: 🎯 Create Pull Request
+      - name: 🚀 Commit and Push Newsletter
         if: steps.check_changes.outputs.changes == 'true'
-        uses: peter-evans/create-pull-request@v5
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: |
-            feat(newsletter): add weekly ai-automation newsletter KW${{ steps.date_info.outputs.week_number }}/${{ steps.date_info.outputs.year }}
-            
-            - AI-generated newsletter for week ${{ steps.date_info.outputs.week_number }}
-            - Articles from the last 7 days automatically collected and summarized
-            - Includes course promotion components
-            - B2B focus on AI-automation and enterprise tools
-          branch: newsletter/week-${{ steps.date_info.outputs.week_number }}-${{ steps.date_info.outputs.year }}
-          title: "📅 Weekly Newsletter KW${{ steps.date_info.outputs.week_number }}/${{ steps.date_info.outputs.year }} - AI Generated"
-          body: |
-            ## 📅 Weekly Newsletter KW${{ steps.date_info.outputs.week_number }}/${{ steps.date_info.outputs.year }}
-            
-            AI-generated newsletter with content from the last 7 days of blog articles.
-            
-            ### 🤖 AI Content Generation
-            
-            Newsletter content was automatically generated using Claude AI based on collected articles.
-            If AI generation was skipped (no API key), placeholders remain and can be filled manually
-            using `prompts/weekly-newsletter-prompt.md`.
-            
-            ### 📚 Articles Auto-Included
-            
-            All articles from the last 7 days were collected and used to generate the newsletter content.
-            
-            ### 📁 Generated Files
-            - `src/pages/newsletter/${{ steps.check_changes.outputs.folder_name }}/index.md`
-            
-            ### 🎯 Content Focus
-            - AI-Automation Tools (N8N, Langflow, etc.)
-            - Enterprise AI Solutions
-            - Developer Tools (GitHub Copilot, Cursor, etc.)  
-            - Business Process Automation
-            - Multi-Agent Systems & MCP
-            
-            ### ✅ Features Included
-            - ✅ Course promotion components (automatically integrated)
-            - ✅ Responsive design
-            - ✅ SEO optimized frontmatter
-            - ✅ Professional B2B tone
-            
-            **Generated on**: ${{ steps.date_info.outputs.current_date }}
-            **Week**: ${{ steps.date_info.outputs.week_number }}/${{ steps.date_info.outputs.year }}
-          labels: |
-            newsletter
-            automated
-          assignees: |
-            ${{ github.repository_owner }}
+        env:
+          WEEK_NUMBER: ${{ steps.date_info.outputs.week_number }}
+          YEAR: ${{ steps.date_info.outputs.year }}
+          CURRENT_DATE: ${{ steps.date_info.outputs.current_date }}
+        run: |
+          # Configure git
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+          # Add and commit the newsletter
+          git add -A
+          git commit -m "feat(newsletter): publish weekly ai-automation newsletter KW${WEEK_NUMBER}/${YEAR}
+
+          - AI-generated newsletter for week ${WEEK_NUMBER}
+          - Articles from the last 7 days automatically collected and summarized
+          - Published directly to blog section for immediate availability
+          - B2B focus on AI-automation and enterprise tools
+          
+          Generated on: ${CURRENT_DATE}"
+          
+          # Push directly to main
+          git push origin main
+          
+          echo "✅ Newsletter published directly to main branch"
 
       - name: 📊 Summary
         env:
@@ -203,14 +177,15 @@ jobs:
           fi
           
           if [ "${CHANGES}" = "true" ]; then
-            echo "✅ **Status**: Newsletter AI-generated from articles of the last 7 days" >> $GITHUB_STEP_SUMMARY
-            echo "📁 **Folder**: ${FOLDER_NAME}" >> $GITHUB_STEP_SUMMARY
-            echo "🔀 **PR**: Created pull request for review" >> $GITHUB_STEP_SUMMARY
+            echo "✅ **Status**: Newsletter AI-generated and published directly to blog section" >> $GITHUB_STEP_SUMMARY
+            echo "📁 **Blog Post**: src/pages/blog/${FOLDER_NAME}/" >> $GITHUB_STEP_SUMMARY
+            echo "🚀 **Published**: Directly to main branch (no PR required)" >> $GITHUB_STEP_SUMMARY
+            echo "🌐 **URL**: https://ai-automation-engineers.de/blog/${FOLDER_NAME}/" >> $GITHUB_STEP_SUMMARY
           else
             echo "ℹ️ **Status**: Newsletter already exists for this week" >> $GITHUB_STEP_SUMMARY
           fi
           
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "### 🤖 AI Generation" >> $GITHUB_STEP_SUMMARY
-          echo "Newsletter content was automatically generated using Claude AI." >> $GITHUB_STEP_SUMMARY
+          echo "Newsletter content was automatically generated using Claude AI and published directly as blog article." >> $GITHUB_STEP_SUMMARY
           echo "Set the ANTHROPIC_API_KEY secret to enable AI content generation." >> $GITHUB_STEP_SUMMARY

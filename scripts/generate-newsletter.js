@@ -63,11 +63,11 @@ function generateNewsletterMetadata() {
 }
 
 function createNewsletterFolder(metadata) {
-  const newsletterPath = path.join(process.cwd(), 'src', 'pages', 'newsletter', metadata.folderName);
+  const newsletterPath = path.join(process.cwd(), 'src', 'pages', 'blog', metadata.folderName);
   
   if (!fs.existsSync(newsletterPath)) {
     fs.mkdirSync(newsletterPath, { recursive: true });
-    console.log(`✅ Created newsletter folder: ${newsletterPath}`);
+    console.log(`✅ Created newsletter folder in blog section: ${newsletterPath}`);
     return newsletterPath;
   } else {
     console.log(`⚠️  Newsletter folder already exists: ${newsletterPath}`);
