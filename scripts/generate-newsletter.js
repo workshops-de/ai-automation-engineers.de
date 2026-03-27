@@ -141,18 +141,18 @@ function getCategoryFromTitle(title) {
 
 function generateStoriesFromArticles(articlesData, storyNumber = 1) {
   if (!articlesData || !articlesData.summary || articlesData.summary.total === 0) {
-    return `### [UNTERNEHMEN]: [SCHLAGZEILE]
+    return `### {{COMPANY_${storyNumber}}}: {{HEADLINE_${storyNumber}}}
 
-**Was ist passiert?** [BESCHREIBUNG]
+**Was ist passiert?** {{DESCRIPTION_${storyNumber}}}
 
 **Warum ist das wichtig?**
-- [GRUND 1]
-- [GRUND 2]
-- [GRUND 3]
+- {{BUSINESS_IMPACT_${storyNumber}_1}}
+- {{AUTOMATION_POTENTIAL_${storyNumber}}}
+- {{ENTERPRISE_RELEVANCE_${storyNumber}}}
 
-**Für wen?** [ZIELGRUPPE]
+**Für wen?** {{TARGET_AUDIENCE_${storyNumber}}}
 
-[Weiterlesen →](/blog/YYYY-MM-DD-artikel-slug/)`;
+[Weiterlesen →]({{ARTICLE_URL_${storyNumber}}})`;
   }
 
   const articles = articlesData.summary.topArticles;
@@ -165,11 +165,11 @@ function generateStoriesFromArticles(articlesData, storyNumber = 1) {
 **Was ist passiert?** ${article.description}
 
 **Warum ist das wichtig?**
-- [BUSINESS-IMPACT 1]
-- [AUTOMATISIERUNG-POTENZIAL]
-- [ENTERPRISE-RELEVANZ]
+- {{BUSINESS_IMPACT_${storyNumber}_1}}
+- {{AUTOMATION_POTENTIAL_${storyNumber}}}
+- {{ENTERPRISE_RELEVANCE_${storyNumber}}}
 
-**Für wen?** AI-Automation Engineers, [SPEZIFISCHE ZIELGRUPPE]
+**Für wen?** AI-Automation Engineers, {{TARGET_AUDIENCE_${storyNumber}}}
 
 [Weiterlesen →](${article.url})`;
   }

@@ -85,17 +85,22 @@ async function generateNewsletterContent(newsletterFile, articlesData) {
 
 Zielgruppe: CTOs, IT-Entscheider, AI-Automation Engineers in deutschsprachigen Unternehmen.
 
-AUFGABE: Fülle ALLE Platzhalter [IN ECKIGEN KLAMMERN] im Newsletter mit echten, qualitativ hochwertigen Inhalten aus - abgeleitet von den bereitgestellten Blog-Artikeln.
+AUFGABE: Fülle ALLE Platzhalter im Newsletter mit echten, qualitativ hochwertigen Inhalten aus - abgeleitet von den bereitgestellten Blog-Artikeln.
+
+PLATZHALTER-FORMATE ZU ERSETZEN:
+- {{VARIABLE_NAME}} - Doppelt geschweifte Klammern
+- [TEXT IN ECKIGEN KLAMMERN] - Eckige Klammern
 
 STRENGE REGELN:
-1. Behalte den EXAKTEN Markdown-Aufbau bei - ändere NICHTS außer den Platzhaltern [IN ECKIGEN KLAMMERN]
+1. Behalte den EXAKTEN Markdown-Aufbau bei - ändere NICHTS außer den Platzhaltern
 2. Behalte die Frontmatter (zwischen --- Trennlinien) VOLLSTÄNDIG UNVERÄNDERT
 3. Behalte alle URLs, bereits ausgefüllten Texte und die Markdown-Struktur
 4. Schreibe auf Deutsch, professionell, prägnant und enterprise-orientiert
 5. Leite alle Inhalte aus den gegebenen Artikeln ab
 6. Für Business-Impact-Punkte: schreibe konkrete, praktische Vorteile (1-2 Sätze)
 7. Für Zielgruppen: benenne spezifische Rollen (z.B. "DevOps Engineers, Cloud-Architekten")
-8. Antworte NUR mit dem vollständigen Newsletter - KEIN einleitendes Text, KEINE Erklärungen`;
+8. ALLE Platzhalter müssen ersetzt werden - lasse KEINE {{}} oder [] Platzhalter zurück
+9. Antworte NUR mit dem vollständigen Newsletter - KEIN einleitendes Text, KEINE Erklärungen`;
 
   const userPrompt = `Hier sind die Blog-Artikel der letzten 7 Tage (${totalArticles} total, ${dateRange?.start || 'N/A'} bis ${dateRange?.end || 'N/A'}):
 
@@ -105,7 +110,11 @@ Und hier ist der Newsletter-Entwurf mit Platzhaltern:
 
 ${currentContent}
 
-Fülle ALLE Platzhalter [IN ECKIGEN KLAMMERN] mit echten Inhalten aus den oben stehenden Artikeln. Gib NUR den vollständigen, ausgefüllten Newsletter zurück.`;
+WICHTIG: Fülle ALLE Platzhalter mit echten Inhalten aus den oben stehenden Artikeln:
+- Alle {{VARIABLE_NAME}} Platzhalter
+- Alle [TEXT IN ECKIGEN KLAMMERN] Platzhalter
+
+Gib NUR den vollständigen, ausgefüllten Newsletter zurück ohne JEGLICHE {{}} oder [] Platzhalter.`;
 
   console.log(`🤖 Calling Claude API (${totalArticles} articles available)...`);
   return await callClaude(systemPrompt, userPrompt);
