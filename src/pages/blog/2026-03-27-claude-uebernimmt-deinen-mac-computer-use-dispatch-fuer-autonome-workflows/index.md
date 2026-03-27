@@ -1,7 +1,7 @@
 ---
 layout: '../../../layouts/BlogLayout.astro'
 title: 'Claude übernimmt deinen Mac: Computer Use & Dispatch für autonome Workflows'
-description: 'Anthropic's Claude kann jetzt deinen Desktop autonom steuern - von der mobilen App aus. Zeitersparnis von bis zu 80% bei Routine-Tasks ohne API-Integration.'
+description: "Anthropic's Claude kann jetzt deinen Desktop autonom steuern - von der mobilen App aus. Zeitersparnis von bis zu 80% bei Routine-Tasks ohne API-Integration."
 pubDate: '2026-03-26'
 author: 'Robin Böhm'
 tags: ['AI-Automation', 'Claude', 'Computer-Use', 'Desktop-Automation', 'Multi-Agent']
