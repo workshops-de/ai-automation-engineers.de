@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI-Automation', 'Open-Source', 'Python', 'Karpathy', 'Autonomous-Agents']
 category: 'News'
 readTime: '6 min read'
-image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg'
+image: 'https://images.unsplash.com/photo-1569748130764-3fed0c102c59?w=1200&h=630&fit=crop'
 source: 'https://github.com/karpathy/autoresearch'
 portal: 'ai-automation-engineers.de'
 ---

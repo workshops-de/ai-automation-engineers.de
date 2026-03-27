@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI-Automation', 'Midjourney', 'Bildgenerierung', 'Content-Workflow', 'V8-Alpha']
 category: 'News'
 readTime: '6 min read'
-image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995'
+image: 'https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=1200&h=630&fit=crop'
 source: 'https://alpha.midjourney.com/updates/v8-alpha'
 portal: 'ai-automation-engineers.de'
 spreadsheetRow: '672'

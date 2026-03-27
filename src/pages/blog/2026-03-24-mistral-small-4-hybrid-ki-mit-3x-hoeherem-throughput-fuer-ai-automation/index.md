@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI-AUTOMATION-ENGINEERS.DE', 'Mistral', 'Open-Source', 'Multimodal', 'MoE']
 category: 'News'
 readTime: '6 min read'
-image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995'
+image: 'https://images.unsplash.com/photo-1518432031352-d6fc5c10da5a?w=1200&h=630&fit=crop'
 source: 'https://mistral.ai/news/mistral-small-4'
 portal: 'AI-AUTOMATION-ENGINEERS.DE'
 spreadsheetRow: '671'

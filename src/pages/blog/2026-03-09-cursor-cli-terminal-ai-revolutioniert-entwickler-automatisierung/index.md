@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI-Automation', 'Cursor', 'CLI-Tools', 'Developer-Workflow', 'Terminal-AI']
 category: 'News'
 readTime: '6 min read'
-image: 'https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg'
+image: 'https://images.unsplash.com/photo-1555952517-2e8e729e0b44?w=1200&h=630&fit=crop'
 source: 'https://cursor.com/docs/cli/overview'
 portal: 'AI-AUTOMATION-ENGINEERS.DE'
 spreadsheetRow: '475'

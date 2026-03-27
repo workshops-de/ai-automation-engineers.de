@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['ai-automation', 'moltbot', 'self-hosted', 'claude-integration', 'docker']
 category: 'News'
 readTime: '6 min read'
-image: 'https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg'
+image: 'https://images.unsplash.com/photo-1580927752452-89d86da3fa0a?w=1200&h=630&fit=crop'
 source: 'https://docs.molt.bot'
 portal: 'ai-automation-engineers.de'
 spreadsheetRow: '425'

@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI-Automation', 'Open-Source', 'Machine-Learning', 'Autonomous-Agents', 'Research-Automation']
 category: 'News'
 readTime: '6 min read'
-image: 'https://images.pexels.com/photos/8438918/pexels-photo-8438918.jpeg'
+image: 'https://images.unsplash.com/photo-1532619187608-e5375cab36aa?w=1200&h=630&fit=crop'
 source: 'https://kenhuangus.substack.com/p/exploring-andrej-karpathys-autoresearch'
 portal: 'ai-automation-engineers.de'
 spreadsheetRow: '631'

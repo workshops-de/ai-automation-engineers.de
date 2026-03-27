@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI-Automation', 'Cursor', 'Plugin-Marketplace', 'MCP', 'Developer-Tools']
 category: 'News'
 readTime: '6 min read'
-image: 'https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=1920&h=1080'
+image: 'https://images.unsplash.com/photo-1572177812156-58036aae439c?w=1200&h=630&fit=crop'
 source: 'https://cursor.com/blog/marketplace'
 portal: 'ai-automation-engineers.de'
 spreadsheetRow: '563'

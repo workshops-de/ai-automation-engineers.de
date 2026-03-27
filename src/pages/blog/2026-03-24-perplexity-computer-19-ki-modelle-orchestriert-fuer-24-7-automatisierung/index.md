@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI-Automation', 'KI-Agenten', 'Multi-Modell', 'Perplexity', 'Workflow-Automation']
 category: 'News'
 readTime: '6 min read'
-image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995'
+image: 'https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=630&fit=crop'
 source: 'https://www.perplexity.ai/hub/blog/introducing-perplexity-computer'
 portal: 'ai-automation-engineers.de'
 spreadsheetRow: '641'

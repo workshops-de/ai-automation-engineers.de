@@ -8,7 +8,7 @@ author: 'Robin Böhm'
 tags: ['AI-Automation', 'Anthropic', 'Microsoft', 'Claude', 'Azure']
 category: 'News'
 readTime: '6 min read'
-image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995'
+image: 'https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=1200&h=630&fit=crop'
 source: 'https://blogs.microsoft.com/blog/2025/11/18/microsoft-nvidia-and-anthropic-announce-strategic-partnerships/'
 portal: 'ai-automation-engineers.de'
 spreadsheetRow: '407'

@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI-Automation', 'GitHub-Copilot', 'Terminal', 'Agentic-AI', 'Developer-Tools']
 category: 'News'
 readTime: '6 min read'
-image: 'https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg'
+image: 'https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?w=1200&h=630&fit=crop'
 source: 'https://github.blog/ai-and-ml/github-copilot/power-agentic-workflows-in-your-terminal-with-github-copilot-cli/'
 portal: 'AI-AUTOMATION-ENGINEERS.DE'
 spreadsheetRow: '413'

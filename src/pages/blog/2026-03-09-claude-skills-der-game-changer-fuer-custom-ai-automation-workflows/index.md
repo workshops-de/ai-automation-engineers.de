@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['claude', 'ai-automation', 'skills', 'workflow-automation', 'anthropic']
 category: 'News'
 readTime: '6 min read'
-image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg'
+image: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1200&h=630&fit=crop'
 source: 'https://resources.anthropic.com/hubfs/The-Complete-Guide-to-Building-Skill-for-Claude.pdf'
 portal: 'ai-automation-engineers.de'
 spreadsheetRow: '507'

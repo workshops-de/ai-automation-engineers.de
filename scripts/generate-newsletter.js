@@ -58,7 +58,7 @@ function generateNewsletterMetadata() {
     weekRange: dateRange,
     folderName: `${currentDate}-weekly-ai-news-was-verpasst`,
     estimatedReadTime: '8', // Default, can be adjusted
-    heroImage: 'https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+    heroImage: 'https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1200&h=630&fit=crop'
   };
 }
 

@@ -7,7 +7,7 @@ author: 'AI Automation Engineers'
 tags: ['Newsletter', 'AI News', 'Weekly Summary', 'AI Automation', 'Weekly Update']
 category: 'News'
 readTime: '{{ESTIMATED_READ_TIME}} min read'
-image: '{{HERO_IMAGE_URL}}'
+image: 'https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1200&h=630&fit=crop'
 showCoursePromos: true
 ---
 

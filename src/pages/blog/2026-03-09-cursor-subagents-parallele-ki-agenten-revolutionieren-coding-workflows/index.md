@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI-Automation', 'Cursor', 'Multi-Agent-Systems', 'Coding-Assistant', 'Developer-Tools']
 category: 'News'
 readTime: '6 min read'
-image: 'https://images.unsplash.com/photo-1633356122544-f134324a6cee'
+image: 'https://images.unsplash.com/photo-1516321165247-4aa89a48be28?w=1200&h=630&fit=crop'
 source: 'https://cursor.com/docs/context/subagents'
 portal: 'ai-automation-engineers.de'
 spreadsheetRow: '410'

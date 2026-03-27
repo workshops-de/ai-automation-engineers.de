@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI-Automation', 'Cursor', 'Multi-Agent', 'Coding-AI', 'Developer-Tools']
 category: 'News'
 readTime: '6 min read'
-image: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c'
+image: 'https://images.unsplash.com/photo-1607970875175-31b980d2b833?w=1200&h=630&fit=crop'
 source: 'https://cursor.com/blog/composer-1-5'
 portal: 'ai-automation-engineers.de'
 spreadsheetRow: '520'

@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI-Automation', 'Claude', 'Desktop-Agents', 'Productivity', 'macOS']
 category: 'News'
 readTime: '6 min read'
-image: 'https://images.unsplash.com/photo-1633356122544-f134324a6cee'
+image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=1200&h=630&fit=crop'
 source: 'https://claude.com/blog/cowork-research-preview'
 portal: 'ai-automation-engineers.de'
 spreadsheetRow: '345'

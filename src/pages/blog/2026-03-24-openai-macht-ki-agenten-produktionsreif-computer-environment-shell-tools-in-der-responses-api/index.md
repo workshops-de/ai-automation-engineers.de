@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI-Automation', 'OpenAI', 'Responses-API', 'KI-Agenten', 'Container']
 category: 'News'
 readTime: '5 min read'
-image: 'https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg'
+image: 'https://images.unsplash.com/photo-1562813733-b31f71025d54?w=1200&h=630&fit=crop'
 source: 'https://openai.com/index/equip-responses-api-computer-environment/'
 portal: 'ai-automation-engineers.de'
 spreadsheetRow: '624'

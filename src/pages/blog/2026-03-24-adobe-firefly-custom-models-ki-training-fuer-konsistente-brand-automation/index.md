@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI-Automation', 'Adobe-Firefly', 'Custom-Models', 'Brand-Consistency', 'Content-Automation']
 category: 'News'
 readTime: '6 min read'
-image: 'https://images.pexels.com/photos/8438918/pexels-photo-8438918.jpeg'
+image: 'https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=1200&h=630&fit=crop'
 source: 'https://www.theverge.com/tech/897243/adobe-firefly-ai-custom-models-image-public-beta'
 portal: 'AI-AUTOMATION-ENGINEERS.DE'
 spreadsheetRow: '680'

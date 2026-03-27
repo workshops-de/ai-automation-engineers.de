@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI-Automation', 'Agentic Commerce', 'Google Cloud', 'UCP', 'Shopping Agents']
 category: 'News'
 readTime: '7 min read'
-image: 'https://images.pexels.com/photos/8438918/pexels-photo-8438918.jpeg'
+image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1200&h=630&fit=crop'
 source: 'https://blog.google/products/ads-commerce/agentic-commerce-ai-tools-protocol-retailers-platforms/'
 portal: 'AI-AUTOMATION-ENGINEERS.DE'
 spreadsheetRow: '387'

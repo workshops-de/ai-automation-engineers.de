@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI-Automation', 'GitHub', 'Agentic-AI', 'DevOps', 'Workflow-Automation']
 category: 'News'
 readTime: '6 min read'
-image: 'https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg'
+image: 'https://images.unsplash.com/photo-1605379399642-870262d3d051?w=1200&h=630&fit=crop'
 source: 'https://github.blog/ai-and-ml/automate-repository-tasks-with-github-agentic-workflows/'
 portal: 'ai-automation-engineers.de'
 spreadsheetRow: '534'

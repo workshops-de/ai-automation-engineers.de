@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI-Automation', 'GitHub', 'Multi-Agent', 'Claude', 'Codex']
 category: 'News'
 readTime: '6 min read'
-image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995'
+image: 'https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=1200&h=630&fit=crop'
 source: 'https://github.blog/news-insights/company-news/pick-your-agent-use-claude-and-codex-on-agent-hq/'
 portal: 'AI-AUTOMATION-ENGINEERS.DE'
 spreadsheetRow: '479'

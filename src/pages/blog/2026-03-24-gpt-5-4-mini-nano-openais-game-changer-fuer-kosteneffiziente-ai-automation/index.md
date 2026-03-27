@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['OpenAI', 'GPT-5.4', 'AI-Automation', 'Edge-Computing', 'Multi-Agent']
 category: 'News'
 readTime: '6 min read'
-image: 'https://images.pexels.com/photos/8386434/pexels-photo-8386434.jpeg'
+image: 'https://images.unsplash.com/photo-1677756119517-756a188d2d94?w=1200&h=630&fit=crop'
 source: 'https://openai.com/index/introducing-gpt-5-4-mini-and-nano/'
 portal: 'AI-AUTOMATION-ENGINEERS.DE'
 spreadsheetRow: '673'

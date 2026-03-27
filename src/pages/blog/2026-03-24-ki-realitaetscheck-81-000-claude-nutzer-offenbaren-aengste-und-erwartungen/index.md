@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI-Automation', 'Claude', 'Anthropic', 'KI-Adoption', 'Workflow-Optimierung']
 category: 'News'
 readTime: '6 min read'
-image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995'
+image: 'https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1200&h=630&fit=crop'
 source: 'https://t3n.de/news/quo-vadis-ki-anthropic-umfrage-aengste-wuensche-claude-user-1734774/'
 portal: 'ai-automation-engineers.de'
 spreadsheetRow: '659'

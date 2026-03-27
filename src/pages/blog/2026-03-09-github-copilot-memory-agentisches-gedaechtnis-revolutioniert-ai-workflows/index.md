@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI-Automation', 'GitHub-Copilot', 'Agentic-AI', 'Memory-Systems', 'News']
 category: 'News'
 readTime: '6 min read'
-image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995'
+image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&h=630&fit=crop'
 source: 'https://github.blog/ai-and-ml/github-copilot/building-an-agentic-memory-system-for-github-copilot/'
 portal: 'AI-AUTOMATION-ENGINEERS.DE'
 spreadsheetRow: '342'

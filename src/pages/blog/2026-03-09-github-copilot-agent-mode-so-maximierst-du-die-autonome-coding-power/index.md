@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI-Automation', 'GitHub Copilot', 'Agent Mode', 'Produktivität', 'DevOps']
 category: 'News'
 readTime: '6 min read'
-image: 'https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg'
+image: 'https://images.unsplash.com/photo-1587620962725-abab7fe55159?w=1200&h=630&fit=crop'
 source: 'https://github.blog/ai-and-ml/github-copilot/how-to-maximize-github-copilots-agentic-capabilities/'
 portal: 'AI-AUTOMATION-ENGINEERS.DE'
 spreadsheetRow: '471'

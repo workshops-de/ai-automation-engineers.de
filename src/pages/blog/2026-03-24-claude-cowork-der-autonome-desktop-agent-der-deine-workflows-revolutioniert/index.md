@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI-Agents', 'Workflow-Automation', 'Claude', 'Desktop-Tools', 'No-Code']
 category: 'News'
 readTime: '6 min read'
-image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995'
+image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&h=630&fit=crop'
 source: 'https://claude.com/product/cowork'
 portal: 'ai-automation-engineers.de'
 spreadsheetRow: '644'

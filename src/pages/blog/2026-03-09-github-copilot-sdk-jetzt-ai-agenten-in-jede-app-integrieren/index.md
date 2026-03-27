@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI-Automation', 'GitHub-Copilot', 'SDK', 'Agentic-Engineering', 'Developer-Tools']
 category: 'News'
 readTime: '6 min read'
-image: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c'
+image: 'https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?w=1200&h=630&fit=crop'
 source: 'https://github.blog/news-insights/company-news/build-an-agent-into-any-app-with-the-github-copilot-sdk/'
 portal: 'ai-automation-engineers.de'
 spreadsheetRow: '379'

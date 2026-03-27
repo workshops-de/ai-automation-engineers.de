@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI-Automation', 'DevOps', 'GitHub', 'Agentic-AI', 'CI-CD']
 category: 'News'
 readTime: '6 min read'
-image: 'https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg'
+image: 'https://images.unsplash.com/photo-1618761714954-0b8cd0026356?w=1200&h=630&fit=crop'
 source: 'https://github.blog/ai-and-ml/generative-ai/continuous-ai-in-practice-what-developers-can-automate-today-with-agentic-ci/'
 portal: 'AI-AUTOMATION-ENGINEERS.DE'
 spreadsheetRow: '500'

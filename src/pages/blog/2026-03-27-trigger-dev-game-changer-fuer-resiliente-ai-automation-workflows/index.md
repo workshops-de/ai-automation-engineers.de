@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI-Automation', 'Workflow-Orchestration', 'Background-Jobs', 'Open-Source', 'TypeScript']
 category: 'News'
 readTime: '6 min read'
-image: 'https://images.pexels.com/photos/8438918/pexels-photo-8438918.jpeg'
+image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&h=630&fit=crop'
 source: 'https://trigger.dev/'
 portal: 'ai-automation-engineers.de'
 spreadsheetRow: '710'

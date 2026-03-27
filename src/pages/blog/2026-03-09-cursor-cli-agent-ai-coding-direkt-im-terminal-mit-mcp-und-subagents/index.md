@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI-Automation', 'Cursor', 'CLI', 'Developer-Tools', 'MCP']
 category: 'News'
 readTime: '6 min read'
-image: 'https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg'
+image: 'https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=1200&h=630&fit=crop'
 source: 'https://cursor.com/cli'
 portal: 'ai-automation-engineers.de'
 spreadsheetRow: '474'

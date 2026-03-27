@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['ai-automation', 'claude', 'anthropic', 'agents', 'workflow-automation']
 category: 'News'
 readTime: '6 min read'
-image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995'
+image: 'https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&h=630&fit=crop'
 source: 'https://www.anthropic.com/news/claude-sonnet-4-6'
 portal: 'ai-automation-engineers.de'
 ---

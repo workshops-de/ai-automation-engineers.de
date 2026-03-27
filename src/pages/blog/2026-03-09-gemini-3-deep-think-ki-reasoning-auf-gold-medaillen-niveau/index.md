@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI-Automation', 'Gemini', 'Deep-Learning', 'Reasoning', 'Google']
 category: 'News'
 readTime: '6 min read'
-image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995'
+image: 'https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=1200&h=630&fit=crop'
 source: 'https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/'
 portal: 'ai-automation-engineers.de'
 spreadsheetRow: '531'

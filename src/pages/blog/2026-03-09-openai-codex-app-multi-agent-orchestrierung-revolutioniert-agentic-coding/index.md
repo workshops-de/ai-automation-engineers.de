@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI-Automation', 'OpenAI', 'Multi-Agent', 'Codex', 'macOS']
 category: 'News'
 readTime: '6 min read'
-image: 'https://images.unsplash.com/photo-1633356122544-f134324a6cee'
+image: 'https://images.unsplash.com/photo-1484417894907-623942c8ee29?w=1200&h=630&fit=crop'
 source: 'https://openai.com/index/introducing-the-codex-app/'
 portal: 'ai-automation-engineers.de'
 spreadsheetRow: '509'
