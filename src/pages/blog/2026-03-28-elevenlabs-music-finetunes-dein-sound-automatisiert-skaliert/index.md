@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Automation', 'Technology']
 category: 'Technology'
 readTime: '5 min read'
-image: 'https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=1200&h=630&fit=crop'
 ---
 
 **TL;DR:** ElevenLabs bringt mit Music Finetunes eine neue Dimension in die KI-Musikgenerierung – du trainierst das Modell auf deine eigenen Tracks und generierst daraus unbegrenzt neue Vocals und Instrumentals in deinem persönlichen Sound. Für Content-Creator und Automatisierungsexperten bedeutet das: konsistente Audio-Markenidentität, skalierbar per API.

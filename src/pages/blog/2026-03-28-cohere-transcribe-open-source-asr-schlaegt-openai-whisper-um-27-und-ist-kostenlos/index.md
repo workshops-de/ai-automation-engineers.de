@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Automation', 'Technology']
 category: 'Technology'
 readTime: '5 min read'
-image: 'https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.unsplash.com/photo-1590602847861-f357a9332bbc?w=1200&h=630&fit=crop'
 ---
 
 **TL;DR:** Cohere hat mit „Transcribe" ein Open-Source-Spracherkennungsmodell veröffentlicht, das auf dem HuggingFace Open ASR Leaderboard Platz 1 belegt, OpenAI Whisper um 27 % in der Genauigkeit schlägt und sich selbst auf Consumer-GPUs hosten lässt – kostenlos nutzbar über die Cohere API.

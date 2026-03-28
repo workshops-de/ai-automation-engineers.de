@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Automation', 'Technology']
 category: 'Technology'
 readTime: '5 min read'
-image: 'https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=1200&h=630&fit=crop'
 ---
 
 **TL;DR:** Mistral veröffentlicht Voxtral TTS – ein 4B-Parameter-Modell für multilinguales Text-to-Speech mit 70ms Latenz, emotionaler Ausdrucksfähigkeit und Open-Weight-Lizenz. Für Voice-Automation-Workflows ist das ein Game-Changer: günstig, datenschutzkonform, selbst hostbar und direkt über die Mistral API nutzbar.

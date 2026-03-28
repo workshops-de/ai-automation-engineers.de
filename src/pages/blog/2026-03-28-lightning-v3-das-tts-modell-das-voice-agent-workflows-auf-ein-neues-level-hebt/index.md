@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Automation', 'Technology']
 category: 'Technology'
 readTime: '5 min read'
-image: 'https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1200&h=630&fit=crop'
 ---
 
 **TL;DR:** Smallest.ai hat mit Lightning V3 ein Text-to-Speech-Modell veröffentlicht, das speziell für conversational Voice Agents entwickelt wurde. Es schlägt OpenAIs gpt-4o-mini-tts in 76% der Fälle bei Natürlichkeit, unterstützt 15 Sprachen mit automatischem Sprachwechsel mid-sentence, klont Stimmen aus nur 5 Sekunden Audio und liefert das alles über WebSocket, SSE Streaming und HTTP – alles, was du für produktionsreife Voice-Automatisierungs-Stacks brauchst.
