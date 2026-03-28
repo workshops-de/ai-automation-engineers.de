@@ -12,13 +12,15 @@ image: 'https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=
 
 **TL;DR:** Google hat mit WebMCP einen neuen Browser-Standard im Early Preview vorgestellt, der grundlegend anders funktioniert als das bekannte Model Context Protocol (MCP). Beide Protokolle schließen sich nicht aus – sie ergänzen sich. MCP gehört ins Backend, WebMCP ins Browser-Frontend.
 Der Chrome Developer Guide beantwortet eine der meistgestellten Fragen seit dem Launch: *„Ersetzt WebMCP das MCP?"* Die klare Antwort lautet: Nein – und wer beide richtig einsetzt, baut deutlich robustere AI-Automation-Workflows.
----
+
+
 ## Die wichtigsten Punkte
 - 📅 **Verfügbarkeit**: WebMCP Early Preview angekündigt Februar 2026, Chrome 146 stable seit 10. März 2026
 - 🎯 **Zielgruppe**: Automation Engineers, Web-Entwickler, Teams mit Browser-basierten AI-Agents
 - 💡 **Kernaussage**: WebMCP ≠ MCP-Ersatz – MCP für Backend, WebMCP für Frontend/Browser
 - 🔧 **Tech-Stack**: Chrome Built-in AI, JavaScript APIs, HTML-Attribute, MCP-Server
----
+
+
 ## Was bedeutet das für Automation Engineers?
 Wer bisher AI-Agents auf Websites losgeschickt hat – ob über n8n, Make oder eigene Pipelines – kennt das Problem: DOM-Scraping ist fragil. Ein UI-Redesign, eine geänderte Button-ID oder ein neues Layout, und der Workflow bricht zusammen.
 **Genau hier greift WebMCP ein.** Statt zu hoffen, dass der Agent die richtige Schaltfläche findet, deklariert die Website explizit: „Das sind meine Funktionen. Das kannst du tun. So rufst du sie auf."
