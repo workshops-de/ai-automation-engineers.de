@@ -96,6 +96,7 @@ Beide gemeinsam ermöglichen Agents, personalisierte Aufgaben im Namen von Nutze
   - [n8n: Modul 2 - Multi-Agent-Systeme & MCPs](https://workshops.de/seminare-schulungen-kurse/n8n-multi-agent-systeme-mcp-server) — MCP-Server Development, Memory-Systeme & Multi-Agent-Architekturen für Production-Ready AI-Automation
   - [n8n: Modul 1 - Automatisierung mit KI-Agenten](https://workshops.de/seminare-schulungen-kurse/ki-agenten-mit-n8n) — KI-Agenten und Workflow-Automatisierung mit n8n als Einstieg
 
+--- 
 ## 📋 Technical Review Log
 **Review-Datum**: 27. März 2026, 18:40 Uhr  
 **Review-Status**: ✅ PASSED WITH CHANGES  
