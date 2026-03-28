@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Automation', 'Technology']
 category: 'Technology'
 readTime: '5 min read'
-image: 'https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.unsplash.com/photo-1589903308904-1010c2294adc?w=1200&h=630&fit=crop'
 ---
 
 **TL;DR:** Google hat mit Gemini 3.1 Flash Live das erste Real-Time Audio-Modell der Gemini-3-Familie veröffentlicht. Es kombiniert niedrigste Latenz, verbessertes Function Calling auch in lauten Umgebungen und natürlichen Dialog – und ist speziell für den Einsatz in Voice-Agents und Automatisierungs-Workflows ausgelegt.

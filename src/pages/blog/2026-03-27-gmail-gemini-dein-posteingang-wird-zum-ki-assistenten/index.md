@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Automation', 'Technology']
 category: 'Technology'
 readTime: '5 min read'
-image: 'https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.unsplash.com/photo-1596526131083-e8c633c948d2?w=1200&h=630&fit=crop'
 ---
 
 **TL;DR:** Google hat Gmail mit Gemini 3 zur aktiven KI-Zentrale ausgebaut. Vier neue Feature-Gruppen — AI Overviews, Help Me Write, Suggested Replies und AI Inbox — verwandeln den passiven Posteingang in einen proaktiven Assistenten. Kostenlos für alle Gmail-Nutzer (Basisfunktionen), erweitert für Google AI Pro/Ultra-Abonnenten.

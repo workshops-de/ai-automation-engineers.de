@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI-Automation', 'DevSecOps', 'GitHub', 'Security-Automation', 'CI/CD']
 category: 'News'
 readTime: '6 min read'
-image: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c'
+image: 'https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=1200&h=630&fit=crop'
 source: 'https://github.blog/security/application-security/github-expands-application-security-coverage-with-ai-powered-detections/'
 portal: 'ai-automation-engineers.de'
 spreadsheetRow: '701'

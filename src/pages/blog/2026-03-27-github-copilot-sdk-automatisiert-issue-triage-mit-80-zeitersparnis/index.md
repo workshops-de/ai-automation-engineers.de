@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['ai-automation', 'github-copilot', 'issue-management', 'devops', 'workflow-automation']
 category: 'News'
 readTime: '6 min read'
-image: 'https://images.unsplash.com/photo-1556075798-4825dfaaf498'
+image: 'https://images.unsplash.com/photo-1618401479427-c8ef9465fbe1?w=1200&h=630&fit=crop'
 source: 'https://github.blog/ai-and-ml/github-copilot/building-ai-powered-github-issue-triage-with-the-copilot-sdk/'
 portal: 'AI-AUTOMATION-ENGINEERS.DE'
 spreadsheetRow: '703'

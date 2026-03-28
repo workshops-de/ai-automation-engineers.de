@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI-Automation', 'Claude', 'Computer-Use', 'Desktop-Automation', 'Multi-Agent']
 category: 'News'
 readTime: '6 min read'
-image: 'https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg'
+image: 'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=1200&h=630&fit=crop'
 source: 'https://claude.com/product/cowork#dispatch-and-computer-use'
 portal: 'ai-automation-engineers.de'
 spreadsheetRow: '706'

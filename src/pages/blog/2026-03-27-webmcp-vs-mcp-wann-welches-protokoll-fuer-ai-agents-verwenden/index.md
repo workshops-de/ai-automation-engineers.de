@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Automation', 'Technology']
 category: 'Technology'
 readTime: '5 min read'
-image: 'https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=630&fit=crop'
 ---
 
 **TL;DR:** Google hat mit WebMCP einen neuen Browser-Standard im Early Preview vorgestellt, der grundlegend anders funktioniert als das bekannte Model Context Protocol (MCP). Beide Protokolle schließen sich nicht aus – sie ergänzen sich. MCP gehört ins Backend, WebMCP ins Browser-Frontend.
