@@ -238,6 +238,17 @@
   color: #111827;
 }
 
+/* Better formatting for bold headers followed by code sequences */
+.prose strong:has(+ br + code) {
+  margin-bottom: 0.5rem;
+}
+
+/* Improve readability of code sequences with arrows */
+.prose p:has(code) {
+  line-height: 1.9;
+  word-spacing: 0.05em;
+}
+
 .prose em {
   font-style: italic;
   color: #4b5563;

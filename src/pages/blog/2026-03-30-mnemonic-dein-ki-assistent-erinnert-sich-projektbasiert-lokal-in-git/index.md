@@ -30,14 +30,19 @@ Die Recall-Logik priorisiert automatisch Projektmemories mit einem Similarity-Bo
 Der entscheidende Unterschied zu Cloud-Memory-Lösungen: Embeddings werden **via Ollama lokal generiert**. Kein Datentransfer an externe Services. Die empfohlenen Embedding-Modelle sind `nomic-embed-text-v2-moe` (Standard) und `qwen3-embedding:0.6b` (für längere Notizen).
 Die Embeddings selbst werden in `.gitignore` geführt – sie sind ableitbare Daten, die bei jedem `sync` auf der jeweiligen Maschine neu berechnet werden. Merge-Konflikte in Float-Arrays sind damit strukturell ausgeschlossen.
 ## Das MCP-Tool-Set im Überblick
+
 Mnemonic stellt über das MCP-Protokoll einen vollständigen Satz an Tools bereit:
-**Capture & Retrieve:**
+
+**Capture & Retrieve:**  
 `remember` → `recall` → `update` → `forget` → `list` → `recent_memories`
-**Knowledge Graph:**
+
+**Knowledge Graph:**  
 `relate` → `unrelate` → `memory_graph` → `consolidate`
-**Project Context:**
+
+**Project Context:**  
 `detect_project` → `project_memory_summary` → `move_memory` → `set_project_memory_policy`
-**Vault Operations:**
+
+**Vault Operations:**  
 `sync` → `list_migrations` → `execute_migration`
 Der `recall`-Befehl nutzt eine Projektion des Notizinhalts (Titel, Lifecycle, Tags, Zusammenfassung, Überschriften) vor dem Embedding – das reduziert Rauschen und erhöht die Suchqualität deutlich gegenüber rohem Volltext-Embedding.
 ## Integration in bestehende KI-Stacks
