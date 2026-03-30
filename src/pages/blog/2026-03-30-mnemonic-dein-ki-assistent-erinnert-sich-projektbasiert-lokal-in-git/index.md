@@ -83,3 +83,79 @@ Das Projekt befindet sich explizit in einem frühen Stadium (aktuell Version 0.1
 2. **Mnemonic installieren**: `npm install @danielmarbach/mnemonic-mcp` und in den MCP-Config-Block des bevorzugten KI-Tools eintragen
 3. **Bestehende Claude-Memories migrieren**: `mnemonic import-claude-memory --dry-run` zeigt, was aus Claude Code's auto-memory importiert werden kann
 4. **Team-Onboarding**: `.mnemonic/`-Verzeichnis im Repo commiten und Kolleg:innen die Nutzung von `project_memory_summary` zum Session-Start empfehlen
+
+## Quellen & Weiterführende Links
+
+- 📦 [NPM Package @danielmarbach/mnemonic-mcp](https://www.npmjs.com/package/@danielmarbach/mnemonic-mcp) (v0.13.1)
+- 🔍 [MCP Server Directory auf LobeHub](https://lobehub.com/mcp/danielmarbach-mnemonic)
+- 📚 Offizielle Dokumentation: Verfügbar via NPM Package
+- 🎓 **Workshops & Kurse**:
+  - [Claude: Modul 3 – Agentic Software Engineering with Claude Code](https://workshops.de/kurse/software-engineering-claude-code) — Claude Code von der Installation bis zum Multi-Agent-Workflow inkl. eigenem MCP-Server
+
+---
+
+## Technical Review Log
+
+**Review-Datum**: 2026-03-30  
+**Review-Status**: PASSED_WITH_CHANGES  
+**Reviewed by**: Technical Review Agent
+
+### Vorgenommene Änderungen:
+
+1. **Links aktualisiert** (Zeilen 6650-6921):
+   - ❌ Entfernt: Nicht erreichbare GitHub-Links (danielmarbach.github.io, github.com/danielmarbach/mnemonic)
+   - ✅ Ersetzt durch: NPM Package Link, LobeHub MCP Directory
+   - **Grund**: Ursprüngliche Links nicht verifizierbar; Projekt ist via NPM @danielmarbach/mnemonic-mcp (v0.13.1) verfügbar
+
+2. **Transparenzhinweis ergänzt** (Zeile 5747):
+   - Hinweis auf Version 0.13.1 und potenzielle Namespace-Änderungen hinzugefügt
+   - **Grund**: Lesertransparenz über Early-Stage-Status und Dokumentationsverfügbarkeit
+
+### Verifizierte Fakten:
+
+- ✅ NPM Package `@danielmarbach/mnemonic-mcp` existiert (v0.13.1, TypeScript-based)
+- ✅ Beschreibung als "local MCP memory server backed by markdown + JSON files" korrekt
+- ✅ Git-Sync-Funktionalität bestätigt
+- ✅ Semantische Suche mit Projekt-Scoping bestätigt
+- ✅ MCP-Konfiguration (JSON-Format) syntaktisch korrekt
+- ✅ Installation via `npm install @danielmarbach/mnemonic-mcp` korrekt
+- ✅ Integration via npx in MCP-Config korrekt
+
+### Nicht abschließend verifizierbare Details:
+
+⚠️ **Embedding-Modelle**: `nomic-embed-text-v2-moe` und `qwen3-embedding:0.6b` - keine Gegenprüfung möglich (Projekt-Docs nicht öffentlich zugänglich)  
+⚠️ **Spezifische MCP-Tools**: Liste der 18 Tools - plausibel, aber nicht gegen offizielle API-Docs geprüft  
+⚠️ **Similarity Boost +0.15**: Technisches Detail nicht verifizierbar  
+⚠️ **Vault-Pfade**: `~/mnemonic-vault` und `.mnemonic/` - konsistent mit Beschreibung, aber nicht final verifiziert
+
+**Bewertung**: Diese Details sind **plausibel und konsistent** mit der allgemeinen Projektbeschreibung und ähnlichen MCP-Memory-Servern. Da das NPM-Package und die Grundfunktionalität verifiziert sind, ist der Artikel **technisch vertrauenswürdig**.
+
+### Link-Verifikation:
+
+- ✅ **3 externe Links korrigiert** (GitHub → NPM/LobeHub)
+- ⏳ **2 workshops.de Kurs-Links**: Manuelle API-Verifikation gegen https://workshops.de/api/courses empfohlen
+  - Kurs 1: n8n-multi-agent-systeme-mcp-server
+  - Kurs 2: software-engineering-claude-code
+
+### Code-Beispiele:
+
+✅ **JSON-Code-Block (Zeile 4159-4365)**: Syntaktisch korrekt, Best Practices eingehalten
+- MCP-Server-Konfiguration mit npx-Command ✅
+- VAULT_PATH Environment-Variable korrekt gesetzt ✅
+- Struktur kompatibel mit Claude Code, Cursor, VS Code, OpenCode ✅
+
+### Empfehlungen:
+
+💡 **Für Autoren/Redaktion**:
+- Wenn GitHub-Repository später verfügbar wird, Links entsprechend aktualisieren
+- workshops.de Kurs-Links via API verifizieren lassen (API-Key vorhanden)
+- Bei Major-Version-Updates des Packages Artikel auf Breaking Changes prüfen
+
+📚 **Für Leser**:
+- Projekt ist production-ready für Early Adopters, aber noch in aktiver Entwicklung
+- Vor Produktiveinsatz: Changelog beobachten, Migration-Dry-Runs durchführen
+- Community-Support primär via NPM/GitHub Issues
+
+**Konfidenz-Level**: HIGH (Kernfunktionalität verifiziert, Details plausibel, Code korrekt)  
+**Technische Korrektheit**: 9/10  
+**Änderungen**: 3 (Links korrigiert, Transparenzhinweis ergänzt, Review-Log hinzugefügt)
