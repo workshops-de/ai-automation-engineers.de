@@ -103,4 +103,4 @@ Für AI-Automation Engineers bedeutet das: Die Zukunft gehört denen, die AI orc
 - 📚 [How AI Is Transforming Work at Anthropic - Internal Study](https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic)
 - 🎓 [AI-Automation Workshop: "Von Coder zu Orchestrator" bei workshops.de](https://workshops.de/ai-automation)
 - 📊 [ByteIota Analyse: Skill Degradation Details](https://byteiota.com/ai-coding-assistants-cut-developer-skills-by-17-anthropic-study/)
-- 🔧 [MCP Protocol Documentation für Agent Skills](https://netknowhow.de/blog/2025/12/19/anthropic-oeffnet-die-tore-agent-skills-als-offener-standard/)
+- 🔧 [MCP Protocol Documentation für Agent Skills](https://netknowhow.de/news/2025/12/19/anthropic-oeffnet-die-tore-agent-skills-als-offener-standard/)

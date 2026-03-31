@@ -87,6 +87,6 @@ Diese Umstrukturierung ist mehr als nur eine Finanzoperation - sie definiert, wi
 - 📚 Alle externen Quellen überprüft und korrekt zitiert
 **Verification Sources**:
 - OpenAI Official Announcement: https://openai.com/index/built-to-benefit-everyone/ (28.10.2025)
-- Microsoft Partnership Update: https://blogs.microsoft.com/blog/2025/10/28/the-next-chapter-of-the-microsoft-openai-partnership/
+- Microsoft Partnership Update: https://blogs.microsoft.com/news/2025/10/28/the-next-chapter-of-the-microsoft-openai-partnership/
 - Delaware AG Statement: https://news.delaware.gov/2025/10/28/ag-jennings-completes-review-of-openai-recapitalization/
 ---

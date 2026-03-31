@@ -135,7 +135,7 @@ Die Reaktionen schwanken zwischen Schadenfreude über Altmans Dilemma und echter
 ## Quick Links & Ressourcen
 
 - 📚 [Altmans Original-Post auf X](https://x.com/sama/status/1965110064215458055)
-- 🔬 [Imperva Bot Report 2024](https://www.imperva.com/blog/2025-imperva-bad-bot-report-how-ai-is-supercharging-the-bot-threat/)
+- 🔬 [Imperva Bot Report 2024](https://www.imperva.com/news/2025-imperva-bad-bot-report-how-ai-is-supercharging-the-bot-threat/)
 - 💬 [r/Claudecode Subreddit](https://www.reddit.com/r/ClaudeCode/)
 - 🤖 [OpenAI Codex Dokumentation](https://platform.openai.com/docs/guides/code)
 

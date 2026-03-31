@@ -5,12 +5,12 @@ const title = 'Home';
 const description = 'Die Community für KI-Automatisierungsingenieure. Vernetze dich mit Experten und gestalte die Zukunft intelligenter Automatisierung.';
 
 // Load latest blog posts
-const modules = import.meta.glob('./blog/*/index.md', { eager: true });
+const modules = import.meta.glob('./news/*/index.md', { eager: true });
 const allPosts = Object.entries(modules).map(([path, module]) => {
   const mod = module as any;
   return {
     frontmatter: mod.frontmatter || {},
-    url: path.replace('./blog/', '/blog/').replace('/index.md', '/')
+    url: path.replace('./news/', '/news/').replace('/index.md', '/')
   };
 });
 

@@ -139,20 +139,20 @@ function findNewsletterFile(providedPath) {
     return providedPath;
   }
 
-  const blogDir = path.join(process.cwd(), 'src', 'pages', 'blog');
-  if (!fs.existsSync(blogDir)) {
+  const newsDir = path.join(process.cwd(), 'src', 'pages', 'news');
+  if (!fs.existsSync(newsDir)) {
     return null;
   }
 
-  const dirs = fs.readdirSync(blogDir)
-    .filter(d => fs.statSync(path.join(blogDir, d)).isDirectory())
+  const dirs = fs.readdirSync(newsDir)
+    .filter(d => fs.statSync(path.join(newsDir, d)).isDirectory())
     .filter(d => d.includes('weekly-ai-news'))
     .sort()
     .reverse();
 
   if (dirs.length === 0) return null;
 
-  return path.join(blogDir, dirs[0], 'index.md');
+  return path.join(newsDir, dirs[0], 'index.md');
 }
 
 async function main() {

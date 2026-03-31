@@ -8,7 +8,7 @@ tags: ['AI-Automation', 'Microsoft-Copilot', 'GPT-5.2', 'Enterprise-AI', 'Workfl
 category: 'News'
 readTime: '6 min read'
 image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995'
-source: 'https://www.microsoft.com/en-us/microsoft-365/blog/2025/12/11/available-today-gpt-5-2-in-microsoft-365-copilot/'
+source: 'https://www.microsoft.com/en-us/microsoft-365/news/2025/12/11/available-today-gpt-5-2-in-microsoft-365-copilot/'
 portal: 'ai-automation-engineers.de'
 spreadsheetRow: '272'
 ---
@@ -128,7 +128,7 @@ Microsoft hat **keine separaten Kosten** für GPT-5.2 angekündigt – die Nutzu
 GPT-5.2 in Microsoft 365 Copilot ist mehr als ein Model-Update – es ist eine fundamentale Erweiterung der Automatisierungs-Capabilities. **Die Integration mit Work IQ und der GPT-5.2 Thinking-Modus ermöglichen Automatisierungs-Szenarien, die bisher undenkbar waren.**
 Für AI-Automation-Engineers bedeutet das: Komplexe, kontextbezogene Workflows können jetzt ohne aufwändige Custom-Entwicklung realisiert werden. Die potenziellen Zeitersparnisse bei strategischen Analysen und Multi-Step-Reasoning-Tasks sind erheblich.
 ## Quellen & Weiterführende Links
-- 📰 [Original Microsoft Announcement](https://www.microsoft.com/en-us/microsoft-365/blog/2025/12/11/available-today-gpt-5-2-in-microsoft-365-copilot/)
+- 📰 [Original Microsoft Announcement](https://www.microsoft.com/en-us/microsoft-365/news/2025/12/11/available-today-gpt-5-2-in-microsoft-365-copilot/)
 - 📚 [Copilot Studio Documentation](https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/)
 - 🔧 [Microsoft Foundry GPT-5.2 Announcement](https://azure.microsoft.com/en-us/blog/introducing-gpt-5-2-in-microsoft-foundry-the-new-standard-for-enterprise-ai/)
 - 📖 [OpenAI GPT-5.2 Introduction](https://openai.com/index/introducing-gpt-5-2/)

@@ -8,7 +8,7 @@ tags: ['AI-Automation', 'Microsoft 365', 'Anthropic', 'Claude', 'Workflow-Automa
 category: 'News'
 readTime: '6 min read'
 image: 'https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg'
-source: 'https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/09/copilot-cowork-a-new-way-of-getting-work-done/'
+source: 'https://www.microsoft.com/en-us/microsoft-365/news/2026/03/09/copilot-cowork-a-new-way-of-getting-work-done/'
 portal: 'AI-AUTOMATION-ENGINEERS.DE'
 spreadsheetRow: '653'
 ---
@@ -92,7 +92,7 @@ Trotz der Autonomie behält der Nutzer die Kontrolle:
 Mit Copilot Cowork macht Microsoft einen bedeutenden Schritt in Richtung vollautonomer Arbeitsplatz-Assistenten. Die Kombination aus Anthropics fortschrittlichen Reasoning-Fähigkeiten und Microsofts tiefer Office-Integration schafft einen digitalen Mitarbeiter, der tatsächlich arbeitet statt nur zu assistieren.
 Für AI-Automation Engineers bedeutet das: Weniger Zeit mit Tool-Setup, mehr Zeit für strategische Automatisierungs-Architektur. Die Integration mit bestehenden Automation-Plattformen wie Zapier macht Copilot Cowork zu einem wertvollen Baustein im Enterprise-Automation-Stack.
 ## Quellen & Weiterführende Links
-- 📰 [Microsoft Blog: Copilot Cowork Announcement](https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/09/copilot-cowork-a-new-way-of-getting-work-done/)
+- 📰 [Microsoft Blog: Copilot Cowork Announcement](https://www.microsoft.com/en-us/microsoft-365/news/2026/03/09/copilot-cowork-a-new-way-of-getting-work-done/)
 - 📚 [Microsoft Learn: Zapier MCP Connector](https://learn.microsoft.com/en-us/connectors/zapiermcp/)
 - 🎓 [Workshops zu AI & Automation auf workshops.de](https://workshops.de/topics/ai-automation)
 ---
@@ -135,9 +135,9 @@ Für AI-Automation Engineers bedeutet das: Weniger Zeit mit Tool-Setup, mehr Zei
 - ✅ **M365-Apps Integration**: Outlook, Teams, Excel, SharePoint bestätigt
 - ✅ **Frontier-Programm**: Research Preview März 2026 bestätigt
 ### 📚 Verwendete Verifikations-Quellen:
-1. Microsoft Official Blog: https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/09/copilot-cowork-a-new-way-of-getting-work-done/
+1. Microsoft Official Blog: https://www.microsoft.com/en-us/microsoft-365/news/2026/03/09/copilot-cowork-a-new-way-of-getting-work-done/
 2. Microsoft Learn: https://learn.microsoft.com/en-us/connectors/zapiermcp/
-3. Microsoft 365 Blog: https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/09/powering-frontier-transformation-with-copilot-and-agents/
+3. Microsoft 365 Blog: https://www.microsoft.com/en-us/microsoft-365/news/2026/03/09/powering-frontier-transformation-with-copilot-and-agents/
 4. Axios: https://www.axios.com/2026/03/09/microsoft-copilot-cowork-anthropic
 5. Neowin: https://www.neowin.net/news/microsofts-new-copilot-cowork-moves-beyond-chat-to-execute-real-world-tasks/
 ### 🎯 Review-Bewertung:

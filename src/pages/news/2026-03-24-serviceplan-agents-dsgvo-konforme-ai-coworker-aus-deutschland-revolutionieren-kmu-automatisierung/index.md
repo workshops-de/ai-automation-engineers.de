@@ -150,7 +150,7 @@ Serviceplan Agents lösen drei kritische Probleme gleichzeitig:
 Für AI-Automation-Engineers eröffnet dies neue Möglichkeiten, hochwertige Research-Automation ohne Compliance-Risiken zu implementieren. Die Kombination aus europäischer Plattform, Premium-Datenzugang und Team-orientiertem Arbeitsmodell macht Serviceplan Agents zur interessantesten Alternative zu den etablierten US-Playern.
 ## Quellen & Weiterführende Links
 - 📰 [Serviceplan Agents Website](https://serviceplan-agents.com)
-- 📚 [House of Communication Blog: Welcome Serviceplan Agents](https://www.house-of-communication.com/int/en/newsroom/blog/2026/03/plannet-nina-matzat-serviceplan-agents.html)
+- 📚 [House of Communication Blog: Welcome Serviceplan Agents](https://www.house-of-communication.com/int/en/newsroom/news/2026/03/plannet-nina-matzat-serviceplan-agents.html)
 - 🔧 [Sokosumi Open-Source Platform](https://sokosumi.ai) *(Basis-Technologie)*
 - 📊 [Statista Premium Research](https://www.statista.com)
 - 🎓 [Workshops.de: AI-Automation Training](https://workshops.de/seminare/ai-automation)

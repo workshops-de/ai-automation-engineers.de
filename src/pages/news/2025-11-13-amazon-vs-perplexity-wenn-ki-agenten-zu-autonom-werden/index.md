@@ -173,7 +173,7 @@ Der Rechtsstreit zwischen Amazon und Perplexity ist mehr als nur ein Einzelfall.
 
 - 📚 [Handelsblatt - Detaillierte Analyse](https://www.handelsblatt.com/unternehmen/dienstleister/rechtsstreit-amazon-verklagt-suchmaschine-perplexity-wegen-shopping-ki/100171575.html)
 
-- 🔧 [Born City - Technische Perspektive](https://www.borncity.com/blog/2025/11/05/ki-irrsinn-teil-2-amazon-schickt-unterlassungserklaerung-an-perplexity-ai-fuer-einkaeufe-ueber-comet/)
+- 🔧 [Born City - Technische Perspektive](https://www.borncity.com/news/2025/11/05/ki-irrsinn-teil-2-amazon-schickt-unterlassungserklaerung-an-perplexity-ai-fuer-einkaeufe-ueber-comet/)
 
 - 📊 [Meedia - Browser-Agent Details](https://meedia.de/news/beitrag/20510-amazon-verklagt-perplexity-wegen-ai-browser-comet.html)
 

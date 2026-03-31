@@ -8,7 +8,7 @@ tags: ['AI-Automation', 'Google-Gemini', 'Apple-Siri', 'KI-Integration', 'Workfl
 category: 'News'
 readTime: '6 min read'
 image: 'https://images.unsplash.com/photo-1633419461186-7d40a38105ec'
-source: 'https://www.basicthinking.de/blog/2026/01/15/apple-integriert-google-gemini-in-siri/'
+source: 'https://www.basicthinking.de/news/2026/01/15/apple-integriert-google-gemini-in-siri/'
 portal: 'ai-automation-engineers.de'
 spreadsheetRow: '366'
 ---
@@ -120,7 +120,7 @@ Bei aller Euphorie gibt es wichtige Punkte zu beachten:
 Die Integration von Google Gemini in Siri ist mehr als ein technisches Upgrade – es ist eine **fundamentale Neuausrichtung der mobilen KI-Landschaft**. Für Automatisierungs-Enthusiasten eröffnen sich Möglichkeiten, die bisher nur in spezialisierten Tools verfügbar waren, jetzt direkt in der Hosentasche.
 Der wahre Gewinner? Der Endnutzer, der komplexe Automatisierungen ohne technisches Know-how durchführen kann. Für uns als Automatisierungs-Engineers bedeutet das: Die Zukunft liegt nicht im Tool-Wissen, sondern in der kreativen Orchestrierung dieser neuen Möglichkeiten.
 ## Quellen & Weiterführende Links
-- 📰 [Original-Artikel bei Basic Thinking](https://www.basicthinking.de/blog/2026/01/15/apple-integriert-google-gemini-in-siri/)
+- 📰 [Original-Artikel bei Basic Thinking](https://www.basicthinking.de/news/2026/01/15/apple-integriert-google-gemini-in-siri/)
 - 📚 [Offizielle Ankündigung von Google und Apple](https://blog.google/company-news/inside-google/company-announcements/joint-statement-google-apple/)
 - 🎓 [KI-Automatisierungs-Workshops auf workshops.de](https://workshops.de/themen/ki-automation)
 - 🔧 [The Information: Technische Details zur Integration](https://www.macrumors.com/2026/01/13/google-gemini-siri-capabilities-report/)

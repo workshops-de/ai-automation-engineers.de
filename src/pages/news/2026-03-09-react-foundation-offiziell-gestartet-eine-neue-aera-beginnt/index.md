@@ -8,7 +8,7 @@ tags: ['React', 'Open Source', 'Foundation', 'Community', 'Linux Foundation']
 category: 'News'
 readTime: '6 min read'
 image: 'https://images.unsplash.com/photo-1593720213428-28a5b9e94613?w=1200&h=630&fit=crop'
-source: 'https://react.dev/blog/2026/02/24/the-react-foundation'
+source: 'https://react.dev/news/2026/02/24/the-react-foundation'
 portal: 'reactjs.de'
 spreadsheetRow: '579'
 ---
@@ -94,7 +94,7 @@ Mit Amazon, Microsoft und Huawei als Gründungsmitglieder zeigt sich der Enterpr
 - **Enterprise-Features**: Mehr Fokus auf Skalierbarkeit und Wartbarkeit
 - **Compliance**: Klarere Governance für regulierte Industrien
 ## Quellen & Weiterführende Links
-- 📰 [Official React Foundation Announcement](https://react.dev/blog/2026/02/24/the-react-foundation)
+- 📰 [Official React Foundation Announcement](https://react.dev/news/2026/02/24/the-react-foundation)
 - 📚 [Linux Foundation Press Release](https://www.linuxfoundation.org/press/linux-foundation-announces-intent-to-launch-the-react-foundation)
 - 🎓 [React Workshops bei workshops.de](https://workshops.de/seminare/react)
 - 🔗 [React Foundation GitHub](https://github.com/react-foundation)

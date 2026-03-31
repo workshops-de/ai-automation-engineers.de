@@ -70,12 +70,12 @@ jobs:
       - name: 🔍 Check for new newsletter
         id: check_changes
         run: |
-          if git status --porcelain | grep -q "src/pages/blog/.*weekly-ai-news"; then
+          if git status --porcelain | grep -q "src/pages/news/.*weekly-ai-news"; then
             echo "changes=true" >> $GITHUB_OUTPUT
-            echo "📝 New newsletter detected in blog section"
+            echo "📝 New newsletter detected in news section"
             
             # Get the folder name for the new newsletter
-            NEW_FOLDER=$(git status --porcelain | grep "src/pages/blog/.*weekly-ai-news" | head -1 | sed 's/.*src\/pages\/blog\///' | cut -d'/' -f1)
+            NEW_FOLDER=$(git status --porcelain | grep "src/pages/news/.*weekly-ai-news" | head -1 | sed 's/.*src\/pages\/news\///' | cut -d'/' -f1)
             echo "folder_name=$NEW_FOLDER" >> $GITHUB_OUTPUT
             echo "Newsletter folder: $NEW_FOLDER"
           else
@@ -106,7 +106,7 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           NEWSLETTER_FOLDER: ${{ steps.check_changes.outputs.folder_name }}
         run: |
-          NEWSLETTER_FILE="src/pages/blog/${NEWSLETTER_FOLDER}/index.md"
+          NEWSLETTER_FILE="src/pages/news/${NEWSLETTER_FOLDER}/index.md"
           
           if [ -f "$NEWSLETTER_FILE" ]; then
             echo "📝 Running AI content generation for: $NEWSLETTER_FILE"
@@ -177,15 +177,15 @@ jobs:
           fi
           
           if [ "${CHANGES}" = "true" ]; then
-            echo "✅ **Status**: Newsletter AI-generated and published directly to blog section" >> $GITHUB_STEP_SUMMARY
-            echo "📁 **Blog Post**: src/pages/blog/${FOLDER_NAME}/" >> $GITHUB_STEP_SUMMARY
+            echo "✅ **Status**: Newsletter AI-generated and published directly to news section" >> $GITHUB_STEP_SUMMARY
+            echo "📁 **News Post**: src/pages/news/${FOLDER_NAME}/" >> $GITHUB_STEP_SUMMARY
             echo "🚀 **Published**: Directly to main branch (no PR required)" >> $GITHUB_STEP_SUMMARY
-            echo "🌐 **URL**: https://ai-automation-engineers.de/blog/${FOLDER_NAME}/" >> $GITHUB_STEP_SUMMARY
+            echo "🌐 **URL**: https://ai-automation-engineers.de/news/${FOLDER_NAME}/" >> $GITHUB_STEP_SUMMARY
           else
             echo "ℹ️ **Status**: Newsletter already exists for this week" >> $GITHUB_STEP_SUMMARY
           fi
           
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "### 🤖 AI Generation" >> $GITHUB_STEP_SUMMARY
-          echo "Newsletter content was automatically generated using Claude AI and published directly as blog article." >> $GITHUB_STEP_SUMMARY
+          echo "Newsletter content was automatically generated using Claude AI and published directly as news article." >> $GITHUB_STEP_SUMMARY
           echo "Set the ANTHROPIC_API_KEY secret to enable AI content generation." >> $GITHUB_STEP_SUMMARY

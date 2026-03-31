@@ -9,7 +9,7 @@ tags: ['AI-Automation', 'Anthropic', 'Microsoft', 'Claude', 'Azure']
 category: 'News'
 readTime: '6 min read'
 image: 'https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=1200&h=630&fit=crop'
-source: 'https://blogs.microsoft.com/blog/2025/11/18/microsoft-nvidia-and-anthropic-announce-strategic-partnerships/'
+source: 'https://blogs.microsoft.com/news/2025/11/18/microsoft-nvidia-and-anthropic-announce-strategic-partnerships/'
 portal: 'ai-automation-engineers.de'
 spreadsheetRow: '407'
 ---
@@ -111,7 +111,7 @@ Die Integration mit Claude bietet Optimierungspotenzial:
 Microsofts 5-Milliarden-Dollar-Investment in Anthropic (Teil eines 15-Milliarden-Deals mit NVIDIA) ist mehr als eine Diversifikationsstrategie – es ist der Startschuss für die Multi-Model-Ära in der Enterprise-AI. Die Ankündigung erfolgte im November 2025, die praktische Aktivierung für Kunden im Januar 2026. Für AI-Automation Engineers bedeutet das konkret: Mehr Werkzeuge im Toolkit, bessere Performance für spezifische Tasks und resilientere Workflows durch Redundanz.
 Die Verfügbarkeit für Microsoft Foundry-Kunden und M365 Copilot-Nutzer (außerhalb EU/UK) zeigt: Microsoft will Adoption-Hürden minimieren. Teams, die heute noch ausschließlich auf GPT-4 setzen, sollten zeitnah Benchmarks mit Claude durchführen – besonders bei Workflows mit langen Dokumenten oder komplexer Code-Analyse lohnt sich ein Vergleich.
 ## Quellen & Weiterführende Links
-- 📰 [Microsoft Official Blog: Strategic Partnerships Announcement (18. Nov 2025)](https://blogs.microsoft.com/blog/2025/11/18/microsoft-nvidia-and-anthropic-announce-strategic-partnerships/)
+- 📰 [Microsoft Official Blog: Strategic Partnerships Announcement (18. Nov 2025)](https://blogs.microsoft.com/news/2025/11/18/microsoft-nvidia-and-anthropic-announce-strategic-partnerships/)
 - 📚 [Azure AI Foundry Documentation](https://azure.microsoft.com/en-us/products/ai-studio)
 - 📋 [M365 Copilot: Anthropic Integration Details](https://www.directionsonmicrosoft.com/reports/m365-copilot-adds-choice-and-risk-with-anthropics-claude/)
 - 🏥 [Claude in Microsoft Foundry for Healthcare (11. Jan 2026)](https://www.microsoft.com/en-us/industry/blog/healthcare/2026/01/11/bridging-the-gap-between-ai-and-medicine-claude-in-microsoft-foundry-advances-capabilities-for-healthcare-and-life-sciences-customers/)

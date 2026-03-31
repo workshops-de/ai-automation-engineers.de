@@ -8,7 +8,7 @@ tags: ['AI-Automation', 'Claude', 'Desktop-Automation', 'Mobile-Control', 'Workf
 category: 'News'
 readTime: '6 min read'
 image: 'https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg'
-source: 'https://coey.com/resources/blog/2026/03/17/anthropic-dispatch-turns-claude-into-your-always-on-creative-coworker/'
+source: 'https://coey.com/resources/news/2026/03/17/anthropic-dispatch-turns-claude-into-your-always-on-creative-coworker/'
 portal: 'AI-AUTOMATION-ENGINEERS.DE'
 spreadsheetRow: '658'
 ---
@@ -93,7 +93,7 @@ Die Möglichkeit, Desktop-native Apps mit Cloud-Automations zu verbinden, könnt
 Claude Dispatch zeigt, wohin die Reise geht: AI-Agents, die autonom auf unseren Devices arbeiten, während wir unterwegs sind. Für Automation Engineers bedeutet das einen Paradigmenwechsel - weg von starren, vorab definierten Workflows hin zu flexiblen, natürlichsprachlichen Task-Delegationen.
 Die aktuelle Research Preview mag noch ihre Kinderkrankheiten haben, aber das Potenzial ist enorm. Besonders die Kombination aus lokaler Execution (Datenschutz), Mobile Control (Flexibilität) und Multi-Agent-Orchestrierung (Skalierbarkeit) macht Dispatch zu einem vielversprechenden Tool im Automation-Stack 2026.
 ## Quellen & Weiterführende Links
-- 📰 [Original-Artikel: Anthropic Dispatch turns Claude into your always-on creative coworker](https://coey.com/resources/blog/2026/03/17/anthropic-dispatch-turns-claude-into-your-always-on-creative-coworker/)
+- 📰 [Original-Artikel: Anthropic Dispatch turns Claude into your always-on creative coworker](https://coey.com/resources/news/2026/03/17/anthropic-dispatch-turns-claude-into-your-always-on-creative-coworker/)
 - 📚 [Claude Support: Assign tasks from anywhere in Cowork](https://support.claude.com/en/articles/13947068-assign-tasks-to-claude-from-anywhere-in-cowork)
 - 🎓 [AI-Automation Workshop: Desktop-Automation mit KI meistern](https://workshops.de/seminare/ai-automation)
 - 🔧 [MacStories: Hands-On with Claude Dispatch](https://www.macstories.net/stories/hands-on-with-claude-dispatch-for-cowork/)

@@ -18,15 +18,20 @@ export default defineConfig({
       lastmod: new Date(),
       
       serialize: (item) => {
-        // Highest priority for main blog page - most important landing page
-        if (item.url.endsWith('/blog/')) {
+        // Highest priority for main news page - most important landing page
+        if (item.url.endsWith('/news/')) {
           item.priority = 1.0;
           item.changefreq = 'daily';
         }
-        // Higher priority for blog posts
-        else if (item.url.includes('/blog')) {
+        // Higher priority for news posts
+        else if (item.url.includes('/news')) {
           item.priority = 0.8;
           item.changefreq = 'monthly';
+        }
+        // Legacy blog redirects (lower priority)
+        else if (item.url.includes('/blog')) {
+          item.priority = 0.3;
+          item.changefreq = 'never';
         }
         // Medium priority for profile pages - they're important content
         if (item.url.includes('/profile')) {

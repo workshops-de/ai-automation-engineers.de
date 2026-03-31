@@ -1,0 +1,5 @@
+---
+// Dynamic 301 Redirect from /blog/* to /news/*
+const slug = Astro.params.slug;
+return Astro.redirect(`/news/${slug}`, 301);
+---

@@ -39,7 +39,7 @@ Diese Woche war wieder vollgepackt mit spannenden Entwicklungen im Bereich AI-Au
 
 **Für wen?** Automatisierungs-Engineers, IT-Abteilungen, Operations Teams
 
-[Weiterlesen →](/blog/2025-11-13-ai-automation-engineers-microsoft-autonomous-ai-agents-revolution/)
+[Weiterlesen →](/news/2025-11-13-ai-automation-engineers-microsoft-autonomous-ai-agents-revolution/)
 
 ---
 
@@ -54,7 +54,7 @@ Diese Woche war wieder vollgepackt mit spannenden Entwicklungen im Bereich AI-Au
 
 **Für wen?** Enterprise-Teams und Automatisierungs-Enthusiasten
 
-[Weiterlesen →](/blog/2025-11-13-github-revolutioniert-ki-entwicklung-mit-multi-agent-platform/)
+[Weiterlesen →](/news/2025-11-13-github-revolutioniert-ki-entwicklung-mit-multi-agent-platform/)
 
 ---
 
@@ -69,7 +69,7 @@ Diese Woche war wieder vollgepackt mit spannenden Entwicklungen im Bereich AI-Au
 
 **Für wen?** AI-Automation Engineers, Agent-Entwickler, LLM-Pipeline Architekten
 
-[Weiterlesen →](/blog/2025-11-13-gemini-api-structured-outputs-mit-erweitertem-json-schema-native-pydantic-zod-integration-fuer-ai-agents/)
+[Weiterlesen →](/news/2025-11-13-gemini-api-structured-outputs-mit-erweitertem-json-schema-native-pydantic-zod-integration-fuer-ai-agents/)
 
 ---
 
@@ -79,13 +79,13 @@ Diese Woche war wieder vollgepackt mit spannenden Entwicklungen im Bereich AI-Au
 
 Langflow bietet eine visuelle Drag-and-Drop-Oberfläche für die Erstellung von LLM-Workflows. Perfekt für Teams, die ohne tiefe Programmierkenntnisse komplexe AI-Automationen erstellen wollen.
 
-[Weiterlesen →](/blog/2025-11-13-langflow-visuelle-revolution-fuer-llm-automatisierung/)
+[Weiterlesen →](/news/2025-11-13-langflow-visuelle-revolution-fuer-llm-automatisierung/)
 
 ### GitHub MCP Registry: Das App-Store-Modell für AI-Automation
 
 Das Model Context Protocol (MCP) Registry funktioniert wie ein App Store für AI-Automation Tools. Entwickler können ihre Tools registrieren und andere können sie einfach integrieren.
 
-[Weiterlesen →](/blog/2025-11-13-github-mcp-registry-das-app-store-modell-fuer-ai-automation/)
+[Weiterlesen →](/news/2025-11-13-github-mcp-registry-das-app-store-modell-fuer-ai-automation/)
 
 ---
 
@@ -95,7 +95,7 @@ Das Model Context Protocol (MCP) Registry funktioniert wie ein App Store für AI
 
 Microsoft baut mit 12.600 NVIDIA GPUs Europas größtes KI-Zentrum. Das zeigt die strategische Bedeutung von KI-Infrastruktur für die Zukunft.
 
-[Weiterlesen →](/blog/2025-11-13-microsoft-investiert-10-mrd-dollar-in-europas-groesstes-ki-zentrum-mit-12-600-nvidia-gpus/)
+[Weiterlesen →](/news/2025-11-13-microsoft-investiert-10-mrd-dollar-in-europas-groesstes-ki-zentrum-mit-12-600-nvidia-gpus/)
 
 ---
 
@@ -105,17 +105,17 @@ Microsoft baut mit 12.600 NVIDIA GPUs Europas größtes KI-Zentrum. Das zeigt di
 
 Entdecke, wie du mit spezifischen filmischen Begriffen deine AI-generierten Videos auf ein neues Level heben kannst. Von "Cinematic Lighting" bis "Dutch Angle" – diese Begriffe machen den Unterschied.
 
-[Weiterlesen →](/blog/2025-11-13-26-filmische-begriffe-die-deine-ai-videos-revolutionieren/)
+[Weiterlesen →](/news/2025-11-13-26-filmische-begriffe-die-deine-ai-videos-revolutionieren/)
 
 ---
 
 ## 📊 Quickies: Die Highlights aus der Branche
 
-- **[HubSpot AEO Grader](/blog/2025-11-13-hubspot-aeo-grader-kostenlos-pruefen-wie-ki-bots-deine-marke-sehen/)**: Kostenloses Tool zum Prüfen, wie KI-Bots deine Marke sehen
-- **[Qwen Image Edit](/blog/2025-11-13-qwen-image-edit-ki-tool-revolutioniert-multi-angle-produktfotografie/)**: KI-Tool revolutioniert Multi-Angle-Produktfotografie
-- **[TypeScript wird zur wichtigsten Programmiersprache](/blog/2025-11-13-typescript-wird-zur-wichtigsten-programmiersprache-im-ai-zeitalter/)**: Im AI-Zeitalter gewinnt TypeScript immer mehr an Bedeutung
-- **[Frugal AI](/blog/2025-11-13-frugal-ai-wie-unternehmen-mit-weniger-daten-mehr-erreichen-und-das-klima-schuetzen/)**: Wie Unternehmen mit weniger Daten mehr erreichen und das Klima schützen
-- **[GitHub isst den eigenen Hundefutter](/blog/2025-11-13-github-isst-den-eigenen-hundefutter-wie-copilot-die-github-plattform-selbst-baut/)**: Wie Copilot die GitHub-Plattform selbst baut
+- **[HubSpot AEO Grader](/news/2025-11-13-hubspot-aeo-grader-kostenlos-pruefen-wie-ki-bots-deine-marke-sehen/)**: Kostenloses Tool zum Prüfen, wie KI-Bots deine Marke sehen
+- **[Qwen Image Edit](/news/2025-11-13-qwen-image-edit-ki-tool-revolutioniert-multi-angle-produktfotografie/)**: KI-Tool revolutioniert Multi-Angle-Produktfotografie
+- **[TypeScript wird zur wichtigsten Programmiersprache](/news/2025-11-13-typescript-wird-zur-wichtigsten-programmiersprache-im-ai-zeitalter/)**: Im AI-Zeitalter gewinnt TypeScript immer mehr an Bedeutung
+- **[Frugal AI](/news/2025-11-13-frugal-ai-wie-unternehmen-mit-weniger-daten-mehr-erreichen-und-das-klima-schuetzen/)**: Wie Unternehmen mit weniger Daten mehr erreichen und das Klima schützen
+- **[GitHub isst den eigenen Hundefutter](/news/2025-11-13-github-isst-den-eigenen-hundefutter-wie-copilot-die-github-plattform-selbst-baut/)**: Wie Copilot die GitHub-Plattform selbst baut
 
 ---
 
