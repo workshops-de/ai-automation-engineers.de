@@ -1,0 +1,383 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import videos from '../../../data/videos.json';
+
+export function getStaticPaths() {
+  return videos.map(video => ({
+    params: { slug: video.slug },
+    props: { video },
+  }));
+}
+
+const { video } = Astro.props;
+const { title, description, longDescription, youtubeId, duration, category, level, publishedAt, tags } = video;
+
+const pageTitle = `${title} – Community Videos`;
+
+const levelColors: Record<string, string> = {
+  'Einsteiger': 'bg-green-100 text-green-700',
+  'Mittel': 'bg-yellow-100 text-yellow-700',
+  'Fortgeschritten': 'bg-orange-100 text-orange-700',
+};
+
+const relatedVideos = videos.filter(v => v.slug !== video.slug && v.category === category).slice(0, 3);
+const otherVideos = relatedVideos.length < 3
+  ? [...relatedVideos, ...videos.filter(v => v.slug !== video.slug && v.category !== category)].slice(0, 3)
+  : relatedVideos;
+---
+
+<BaseLayout title={pageTitle} description={description}>
+  <!-- Breadcrumb + Hero -->
+  <section class="relative bg-gradient-to-br from-gray-900 via-gray-800 to-black pt-32 pb-16 overflow-hidden">
+    <div class="absolute inset-0">
+      <div class="absolute top-1/4 left-1/3 w-64 h-64 bg-orange-500/15 rounded-full mix-blend-multiply filter blur-xl animate-blob"></div>
+      <div class="absolute bottom-1/4 right-1/3 w-80 h-80 bg-blue-500/15 rounded-full mix-blend-multiply filter blur-xl animate-blob animation-delay-2000"></div>
+    </div>
+    <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <!-- Breadcrumb -->
+      <nav class="flex items-center gap-2 text-sm text-gray-400 mb-8">
+        <a href="/community" class="hover:text-white transition-colors">Community</a>
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+        </svg>
+        <a href="/community/videos" class="hover:text-white transition-colors">Lernvideos</a>
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+        </svg>
+        <span class="text-gray-300 truncate max-w-xs">{title}</span>
+      </nav>
+
+      <!-- Tags + level -->
+      <div class="flex flex-wrap items-center gap-2 mb-5">
+        <span class={`text-xs font-semibold px-3 py-1.5 rounded-full ${levelColors[level] || 'bg-gray-100 text-gray-600'}`}>
+          {level}
+        </span>
+        <span class="text-xs font-medium bg-white/10 text-gray-300 border border-white/20 px-3 py-1.5 rounded-full">
+          {category}
+        </span>
+        <span class="text-xs text-gray-500">
+          <svg class="w-3.5 h-3.5 inline-block mr-1 -mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+          </svg>
+          {duration}
+        </span>
+      </div>
+
+      <!-- Title -->
+      <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-5 leading-tight">
+        {title}
+      </h1>
+      <p class="text-lg text-gray-300 max-w-3xl leading-relaxed">{description}</p>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <section class="py-12 bg-white">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
+
+        <!-- Video Player Column -->
+        <div class="lg:col-span-2">
+          <!-- Video Player Area -->
+          <div class="rounded-2xl overflow-hidden shadow-2xl mb-10 bg-gray-900">
+            <!-- Authenticated: embed player -->
+            <div id="video-player" class="hidden aspect-video">
+              <iframe
+                id="youtube-iframe"
+                class="w-full h-full"
+                src=""
+                data-src={`https://www.youtube-nocookie.com/embed/${youtubeId}?rel=0&modestbranding=1`}
+                title={title}
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+
+            <!-- Unauthenticated: locked preview -->
+            <div id="video-locked" class="aspect-video relative">
+              <!-- Thumbnail -->
+              <img
+                src={`https://img.youtube.com/vi/${youtubeId}/maxresdefault.jpg`}
+                alt={title}
+                class="w-full h-full object-cover"
+                onerror={`this.src='https://img.youtube.com/vi/${youtubeId}/hqdefault.jpg'`}
+              />
+              <!-- Dark overlay -->
+              <div class="absolute inset-0 bg-black/70 flex flex-col items-center justify-center text-center p-8">
+                <div class="w-20 h-20 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full flex items-center justify-center mb-6">
+                  <svg class="w-10 h-10 text-white/80" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path>
+                  </svg>
+                </div>
+                <h3 class="text-xl font-bold text-white mb-3">Community-Exklusiv</h3>
+                <p class="text-gray-300 text-sm mb-6 max-w-sm leading-relaxed">
+                  Dieses Video ist nur für angemeldete Community-Mitglieder verfügbar. Die Anmeldung ist kostenlos.
+                </p>
+                <button
+                  onclick="window.showAuthModal && window.showAuthModal()"
+                  class="bg-orange-500 hover:bg-orange-600 text-white font-semibold px-8 py-3 rounded-xl transition-colors shadow-lg"
+                >
+                  Jetzt kostenlos anmelden
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Long Description -->
+          <div class="prose prose-gray max-w-none">
+            <h2 class="text-2xl font-bold text-gray-900 mb-5">Was du in diesem Video lernst</h2>
+            <div class="text-gray-700 leading-relaxed space-y-3">
+              {longDescription.split('\n').map(line =>
+                line.trim() === '' ? null :
+                line.trim().startsWith('-') ? (
+                  <div class="flex gap-3">
+                    <span class="text-orange-500 font-bold mt-0.5 shrink-0">→</span>
+                    <span>{line.trim().slice(1).trim()}</span>
+                  </div>
+                ) : (
+                  <p>{line}</p>
+                )
+              )}
+            </div>
+          </div>
+
+          <!-- Tags -->
+          {tags.length > 0 && (
+            <div class="mt-10 pt-8 border-t border-gray-100">
+              <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-4">Themen</h3>
+              <div class="flex flex-wrap gap-2">
+                {tags.map(tag => (
+                  <span class="bg-gray-100 text-gray-700 text-sm px-3 py-1.5 rounded-full font-medium">{tag}</span>
+                ))}
+              </div>
+            </div>
+          )}
+        </div>
+
+        <!-- Sidebar -->
+        <aside class="space-y-8">
+          <!-- Auth CTA / User welcome -->
+          <div id="sidebar-locked" class="bg-gradient-to-br from-orange-50 to-amber-50 border border-orange-200 rounded-2xl p-6 text-center">
+            <div class="w-12 h-12 bg-orange-100 rounded-xl flex items-center justify-center mx-auto mb-4">
+              <svg class="w-6 h-6 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path>
+              </svg>
+            </div>
+            <h3 class="font-bold text-gray-900 mb-2">Video freischalten</h3>
+            <p class="text-sm text-gray-600 mb-4">Melde dich kostenlos an für Zugang zu allen {videos.length} Videos.</p>
+            <button
+              onclick="window.showAuthModal && window.showAuthModal()"
+              class="w-full bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3 rounded-xl transition-colors text-sm"
+            >
+              Kostenlos anmelden
+            </button>
+          </div>
+
+          <div id="sidebar-unlocked" class="hidden bg-gradient-to-br from-green-50 to-emerald-50 border border-green-200 rounded-2xl p-6 text-center">
+            <div class="w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center mx-auto mb-4">
+              <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+              </svg>
+            </div>
+            <h3 class="font-bold text-gray-900 mb-1">Video freigeschaltet</h3>
+            <p class="text-sm text-gray-500" id="welcome-name"></p>
+          </div>
+
+          <!-- Video Info -->
+          <div class="bg-gray-50 rounded-2xl p-6 space-y-4">
+            <h3 class="font-bold text-gray-900">Video-Details</h3>
+            <dl class="space-y-3 text-sm">
+              <div class="flex justify-between">
+                <dt class="text-gray-500">Dauer</dt>
+                <dd class="font-medium text-gray-900">{duration}</dd>
+              </div>
+              <div class="flex justify-between">
+                <dt class="text-gray-500">Kategorie</dt>
+                <dd class="font-medium text-gray-900">{category}</dd>
+              </div>
+              <div class="flex justify-between">
+                <dt class="text-gray-500">Level</dt>
+                <dd class="font-medium text-gray-900">{level}</dd>
+              </div>
+              <div class="flex justify-between">
+                <dt class="text-gray-500">Veröffentlicht</dt>
+                <dd class="font-medium text-gray-900">
+                  {new Date(publishedAt).toLocaleDateString('de-DE', { day: 'numeric', month: 'long', year: 'numeric' })}
+                </dd>
+              </div>
+            </dl>
+          </div>
+
+          <!-- Back to overview -->
+          <a
+            href="/community/videos"
+            class="flex items-center gap-2 text-sm font-medium text-gray-600 hover:text-orange-600 transition-colors group"
+          >
+            <svg class="w-4 h-4 rotate-180 group-hover:-translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+            </svg>
+            Zurück zur Übersicht
+          </a>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- Related Videos -->
+  {otherVideos.length > 0 && (
+    <section class="py-16 bg-gray-50 border-t border-gray-100">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-2xl font-bold text-gray-900 mb-8">Weitere Videos</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+          {otherVideos.map(v => (
+            <a href={`/community/videos/${v.slug}`} class="group bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300 border border-gray-100">
+              <div class="relative aspect-video bg-gray-900 overflow-hidden">
+                <img
+                  src={`https://img.youtube.com/vi/${v.youtubeId}/mqdefault.jpg`}
+                  alt={v.title}
+                  class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                  loading="lazy"
+                />
+                <div class="absolute bottom-2 right-2 bg-black/80 text-white text-xs px-1.5 py-0.5 rounded">
+                  {v.duration}
+                </div>
+              </div>
+              <div class="p-4">
+                <p class="text-xs text-gray-400 mb-1">{v.category}</p>
+                <h3 class="text-sm font-semibold text-gray-900 group-hover:text-orange-600 transition-colors line-clamp-2 leading-snug">
+                  {v.title}
+                </h3>
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+</BaseLayout>
+
+<!-- Auth Modal -->
+<div id="auth-modal" class="fixed inset-0 bg-black/50 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
+  <div class="relative bg-white rounded-2xl p-8 max-w-md w-full text-center shadow-2xl">
+    <button class="close-modal absolute top-4 right-4 text-gray-400 hover:text-gray-600 transition-colors">
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+      </svg>
+    </button>
+    <div class="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-6">
+      <svg class="w-8 h-8 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path>
+      </svg>
+    </div>
+    <h2 class="text-2xl font-bold text-gray-900 mb-4">Video freischalten</h2>
+    <p class="text-gray-600 mb-6">Melde dich kostenlos an, um alle Community-Videos ansehen zu können.</p>
+    <div id="auth-button-container"></div>
+    <p class="text-sm text-gray-500 mt-4">Kostenlose Anmeldung mit Google-Account</p>
+  </div>
+</div>
+
+<script>
+  import { onAuthStateChanged } from 'firebase/auth';
+  import { auth } from '../../../lib/firebase';
+  import { createRoot } from 'react-dom/client';
+  import React from 'react';
+  import AuthButtonStandalone from '../../../components/AuthButtonStandalone';
+
+  function showVideo() {
+    const locked = document.getElementById('video-locked');
+    const player = document.getElementById('video-player');
+    const iframe = document.getElementById('youtube-iframe') as HTMLIFrameElement | null;
+
+    if (locked) locked.classList.add('hidden');
+    if (player) player.classList.remove('hidden');
+
+    // Lazy-load the iframe src to avoid autoplay issues
+    if (iframe && !iframe.src && iframe.dataset.src) {
+      iframe.src = iframe.dataset.src;
+    }
+  }
+
+  function lockVideo() {
+    const locked = document.getElementById('video-locked');
+    const player = document.getElementById('video-player');
+    const iframe = document.getElementById('youtube-iframe') as HTMLIFrameElement | null;
+
+    if (player) player.classList.add('hidden');
+    if (locked) locked.classList.remove('hidden');
+
+    // Pause video by clearing src
+    if (iframe) iframe.src = '';
+  }
+
+  function updateAuthUI(authenticated: boolean, user: { displayName?: string | null; email?: string | null } | null) {
+    const sidebarLocked = document.getElementById('sidebar-locked');
+    const sidebarUnlocked = document.getElementById('sidebar-unlocked');
+    const welcomeName = document.getElementById('welcome-name');
+
+    if (sidebarLocked && sidebarUnlocked) {
+      sidebarLocked.classList.toggle('hidden', authenticated);
+      sidebarUnlocked.classList.toggle('hidden', !authenticated);
+    }
+
+    if (authenticated && user && welcomeName) {
+      const name = user.displayName || user.email?.split('@')[0] || 'Mitglied';
+      welcomeName.textContent = `Willkommen, ${name}!`;
+    }
+
+    if (authenticated) {
+      showVideo();
+    } else {
+      lockVideo();
+    }
+  }
+
+  function showAuthModal() {
+    document.getElementById('auth-modal')?.classList.remove('hidden');
+  }
+
+  function hideAuthModal() {
+    document.getElementById('auth-modal')?.classList.add('hidden');
+  }
+
+  document.addEventListener('DOMContentLoaded', () => {
+    onAuthStateChanged(auth, user => {
+      updateAuthUI(!!user, user);
+      if (user) hideAuthModal();
+    });
+
+    document.querySelectorAll('.close-modal').forEach(btn => {
+      btn.addEventListener('click', hideAuthModal);
+    });
+
+    // Mount auth button in modal
+    const container = document.getElementById('auth-button-container');
+    if (container) {
+      const root = createRoot(container);
+      root.render(React.createElement(AuthButtonStandalone, {
+        className: 'w-full justify-center text-lg px-8 py-4'
+      }));
+    }
+  });
+
+  (window as unknown as Record<string, unknown>).showAuthModal = showAuthModal;
+  (window as unknown as Record<string, unknown>).hideAuthModal = hideAuthModal;
+</script>
+
+<style>
+  @keyframes blob {
+    0% { transform: translate(0, 0) scale(1); }
+    33% { transform: translate(30px, -50px) scale(1.1); }
+    66% { transform: translate(-20px, 20px) scale(0.9); }
+    100% { transform: translate(0, 0) scale(1); }
+  }
+  .animate-blob { animation: blob 7s infinite; }
+  .animation-delay-2000 { animation-delay: 2s; }
+
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+</style>

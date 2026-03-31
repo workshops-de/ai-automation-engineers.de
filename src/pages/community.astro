@@ -44,19 +44,43 @@ const description = 'Werde Teil unserer exklusiven AI-Automation Engineers Commu
     </div>
   </section>
 
-  <!-- Video Grid Section -->
+  <!-- Video Preview Section -->
   <section class="py-16 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="text-center mb-16">
-        <h2 class="text-4xl font-bold text-gray-900 mb-4">Premium Video-Content</h2>
-        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-          Erhalte Zugang zu exklusiven Tutorials, Live-Sessions und Deep-Dives in AI-Automation
-        </p>
+      <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-12">
+        <div>
+          <h2 class="text-4xl font-bold text-gray-900 mb-3">Premium Video-Content</h2>
+          <p class="text-xl text-gray-600 max-w-2xl">
+            Exklusive Tutorials, Live-Sessions und Deep-Dives – nur für Community-Mitglieder
+          </p>
+        </div>
+        <a
+          href="/community/videos"
+          class="shrink-0 inline-flex items-center gap-2 bg-gray-900 hover:bg-gray-700 text-white font-semibold px-6 py-3 rounded-xl transition-colors text-sm"
+        >
+          Alle Videos ansehen
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+          </svg>
+        </a>
       </div>
 
-      <!-- Video Grid -->
+      <!-- Video Grid (loaded via JS, same as before) -->
       <div id="video-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <!-- Videos will be loaded by React component -->
+        <!-- Videos will be loaded dynamically -->
+      </div>
+
+      <!-- CTA to full overview -->
+      <div class="text-center mt-12">
+        <a
+          href="/community/videos"
+          class="inline-flex items-center gap-2 border-2 border-gray-900 text-gray-900 hover:bg-gray-900 hover:text-white font-semibold px-8 py-3 rounded-xl transition-all duration-200"
+        >
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path>
+          </svg>
+          Alle Lernvideos durchsuchen
+        </a>
       </div>
     </div>
   </section>
@@ -116,22 +140,25 @@ const description = 'Werde Teil unserer exklusiven AI-Automation Engineers Commu
   import { createRoot } from 'react-dom/client';
   import AuthButtonStandalone from '../components/AuthButtonStandalone';
 
-  // Sample videos data
+  // Preview videos – full list at /community/videos
   const videos = [
     {
       id: 'dQw4w9WgXcQ',
+      slug: 'ai-automation-grundlagen',
       title: 'AI-Automation Grundlagen: Von Zero zu Hero in 30 Minuten',
       description: 'Lerne die Basics der AI-Automation mit praktischen Beispielen',
       duration: '32:15'
     },
     {
       id: 'oHg5SJYRHA0',
+      slug: 'n8n-advanced-workflows',
       title: 'n8n Advanced Workflows: Multi-Agent Orchestration',
       description: 'Fortgeschrittene n8n-Techniken für komplexe AI-Workflows',
       duration: '45:22'
     },
     {
       id: 'kJQP7kiw5Fk',
+      slug: 'claude-code-live-session',
       title: 'Claude Code Live: Real-world AI Coding Session',
       description: 'Siehe einen Experten beim Live-Coding mit Claude Code',
       duration: '58:30'
@@ -166,8 +193,8 @@ const description = 'Werde Teil unserer exklusiven AI-Automation Engineers Commu
     overlay.className = 'absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors';
     
     const playButton = document.createElement('button');
-    playButton.className = `absolute inset-0 flex items-center justify-center ${isAuth ? 'cursor-pointer' : 'cursor-not-allowed'}`;
-    playButton.onclick = () => handleVideoClick(video.id, isAuth);
+    playButton.className = `absolute inset-0 flex items-center justify-center cursor-pointer`;
+    playButton.onclick = () => handleVideoClick(video.id, isAuth, video.slug);
     
     const playIcon = document.createElement('div');
     playIcon.className = `w-16 h-16 bg-white/90 rounded-full flex items-center justify-center transition-all ${isAuth ? 'hover:bg-white hover:scale-110' : 'opacity-60'}`;
@@ -217,9 +244,9 @@ const description = 'Werde Teil unserer exklusiven AI-Automation Engineers Commu
     button.className = `inline-flex items-center font-medium transition-colors ${
       isAuth ? 'text-blue-600 hover:text-blue-800' : 'text-gray-400 cursor-not-allowed'
     }`;
-    button.onclick = () => handleVideoClick(video.id, isAuth);
+    button.onclick = () => handleVideoClick(video.id, isAuth, video.slug);
     button.innerHTML = `
-      ${isAuth ? 'Video ansehen' : 'Login erforderlich'}
+      Details ansehen
       <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
       </svg>
@@ -232,8 +259,10 @@ const description = 'Werde Teil unserer exklusiven AI-Automation Engineers Commu
     return container;
   }
 
-  function handleVideoClick(videoId, isAuth) {
-    if (isAuth) {
+  function handleVideoClick(videoId, isAuth, slug) {
+    if (slug) {
+      window.location.href = `/community/videos/${slug}`;
+    } else if (isAuth) {
       const videoUrl = `https://www.youtube.com/watch?v=${videoId}`;
       window.open(videoUrl, '_blank', 'width=1280,height=720,scrollbars=yes,resizable=yes');
     } else {

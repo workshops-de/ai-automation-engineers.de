@@ -1,0 +1,80 @@
+[
+  {
+    "slug": "ai-automation-grundlagen",
+    "youtubeId": "dQw4w9WgXcQ",
+    "title": "AI-Automation Grundlagen: Von Zero zu Hero in 30 Minuten",
+    "description": "Ein kompakter Einstieg in die Welt der KI-gestützten Prozessautomatisierung – ideal für alle, die ohne Vorkenntnisse starten.",
+    "longDescription": "In diesem Video bekommst du einen strukturierten Überblick über die wichtigsten Konzepte der AI-Automation. Wir starten bei null und arbeiten uns durch die zentralen Bausteine: Was sind KI-Agenten? Wie funktionieren Trigger und Actions in Workflow-Tools? Welche Plattformen eignen sich für welche Anwendungsfälle?\n\nDu lernst:\n- Die 5 wichtigsten KI-Automatisierungskonzepte\n- Unterschied zwischen regelbasierter und KI-gesteuerter Automation\n- Dein erstes Beispiel-Workflow live gebaut\n- Welche Tools für Einsteiger empfehlenswert sind (n8n, Zapier, Make)\n- Typische Fehler beim Einstieg und wie du sie vermeidest",
+    "duration": "32:15",
+    "category": "Grundlagen",
+    "level": "Einsteiger",
+    "publishedAt": "2026-01-10",
+    "tags": ["Grundlagen", "AI-Automation", "Einsteiger", "Überblick"],
+    "thumbnail": null
+  },
+  {
+    "slug": "n8n-advanced-workflows",
+    "youtubeId": "oHg5SJYRHA0",
+    "title": "n8n Advanced Workflows: Multi-Agent Orchestration",
+    "description": "Fortgeschrittene n8n-Techniken: Wie du mehrere KI-Agenten koordinierst und komplexe Entscheidungslogiken baust.",
+    "longDescription": "Dieser Deep-Dive zeigt dir, wie du in n8n echte Multi-Agent-Architekturen umsetzt. Wir bauen gemeinsam ein System, bei dem mehrere spezialisierte Agenten zusammenarbeiten – ein Recherche-Agent, ein Schreib-Agent und ein Qualitätsprüf-Agent.\n\nIn diesem Video lernst du:\n- Das Konzept der Agent Orchestration verstehen\n- Sub-Workflows in n8n erstellen und aufrufen\n- Fehlerbehandlung bei asynchronen Agent-Calls\n- State-Management zwischen mehreren Workflow-Runs\n- Praxisbeispiel: Automatisiertes Content-Pipeline-System\n- Performance-Optimierung durch parallele Ausführung\n\nVoraussetzung: Grundlegende n8n-Kenntnisse empfohlen.",
+    "duration": "45:22",
+    "category": "n8n",
+    "level": "Fortgeschritten",
+    "publishedAt": "2026-01-24",
+    "tags": ["n8n", "Multi-Agent", "Orchestration", "Fortgeschritten"],
+    "thumbnail": null
+  },
+  {
+    "slug": "claude-code-live-session",
+    "youtubeId": "kJQP7kiw5Fk",
+    "title": "Claude Code Live: Real-world AI Coding Session",
+    "description": "Schau einem Experten beim Live-Coding mit Claude Code zu – inklusive Debugging, Refactoring und agentic Coding-Patterns.",
+    "longDescription": "In dieser ungescripteten Live-Session zeigen wir, wie ein erfahrener AI-Automation Engineer Claude Code im echten Projekteinsatz nutzt. Keine Präsentation, kein Bullshit – nur echter Code, echte Probleme, echte Lösungen.\n\nWas wir in dieser Session angehen:\n- Setup und Konfiguration von Claude Code für professionellen Einsatz\n- CLAUDE.md-Datei optimal strukturieren\n- Agentic Coding: Wie Claude eigenständig Dateien anlegt und Entscheidungen trifft\n- Fehlerdiagnose und Debugging mit KI-Unterstützung\n- Git-Workflow mit Claude Code integrieren\n- Wann man Claude stoppen und manuell eingreifen sollte\n\nEin ehrlicher Blick auf Stärken und Grenzen des Tools.",
+    "duration": "58:30",
+    "category": "Claude Code",
+    "level": "Fortgeschritten",
+    "publishedAt": "2026-02-05",
+    "tags": ["Claude Code", "Live-Session", "Coding", "Praxis"],
+    "thumbnail": null
+  },
+  {
+    "slug": "prompt-engineering-fuer-agenten",
+    "youtubeId": "9bZkp7q19f0",
+    "title": "Prompt Engineering für KI-Agenten: Systematic Prompting",
+    "description": "Wie du Prompts schreibst, die KI-Agenten zuverlässig und konsistent arbeiten lassen – mit konkreten Templates und Anti-Patterns.",
+    "longDescription": "Prompt Engineering ist das Handwerk hinter jedem funktionierenden KI-Agenten. In diesem Video vermitteln wir dir ein systematisches Framework, mit dem du Prompts nicht mehr nach Gefühl, sondern nach Methode schreibst.\n\nDu lernst:\n- Das RICCE-Framework für strukturierte Prompts\n- Systemrollen richtig definieren\n- Few-Shot-Learning gezielt einsetzen\n- Chain-of-Thought Prompting für komplexe Aufgaben\n- Anti-Patterns: Die häufigsten Fehler und wie du sie erkennst\n- Prompt-Testing: Wie du die Qualität deiner Prompts messen kannst\n- Praxisbeispiele aus realen Automatisierungsprojekten\n\nNach diesem Video schreibst du Prompts, die reproduzierbar funktionieren.",
+    "duration": "38:47",
+    "category": "Prompt Engineering",
+    "level": "Mittel",
+    "publishedAt": "2026-02-18",
+    "tags": ["Prompt Engineering", "KI-Agenten", "Systematik", "Templates"],
+    "thumbnail": null
+  },
+  {
+    "slug": "make-vs-n8n-vergleich",
+    "youtubeId": "JGwWNGJdvx8",
+    "title": "Make vs. n8n: Welches Tool für welchen Use Case?",
+    "description": "Ein ehrlicher Direktvergleich beider Plattformen – Pricing, Features, Skalierbarkeit und KI-Integrationsmöglichkeiten.",
+    "longDescription": "Die zwei großen Automation-Plattformen im direkten Vergleich: Make (ehemals Integromat) gegen n8n. Wir zeigen beide Tools anhand exakt derselben Use Cases und bewerten ehrlich, was wann besser funktioniert.\n\nVergleichskriterien:\n- Benutzeroberfläche und Lernkurve\n- Pricing-Modelle und wann welches günstiger wird\n- KI-Integrationen: OpenAI, Anthropic, Google AI\n- Fehlerbehandlung und Monitoring\n- Self-Hosting vs. Cloud\n- Community und Dokumentation\n- Performance bei hohem Volumen\n\nPraxisbeispiel: Wir bauen denselben Workflow in beiden Tools und vergleichen Zeit, Aufwand und Ergebnis.\n\nUnser Fazit: Wann du Make nehmen solltest und wann n8n die bessere Wahl ist.",
+    "duration": "52:10",
+    "category": "Tool-Vergleich",
+    "level": "Mittel",
+    "publishedAt": "2026-03-02",
+    "tags": ["Make", "n8n", "Vergleich", "Tool-Auswahl"],
+    "thumbnail": null
+  },
+  {
+    "slug": "ki-gesteuerte-content-pipeline",
+    "youtubeId": "dQw4w9WgXcQ",
+    "title": "KI-gesteuerte Content-Pipeline: Von Idee bis Veröffentlichung",
+    "description": "Baue eine vollautomatisierte Content-Pipeline, die Themen recherchiert, Texte schreibt, prüft und auf mehreren Kanälen veröffentlicht.",
+    "longDescription": "In diesem Praxisprojekt bauen wir gemeinsam eine vollständige Content-Produktions-Pipeline mit KI. Das Ergebnis: Ein System, das täglich frische Inhalte für Blog, LinkedIn und Newsletter produziert – vollautomatisch.\n\nArchitektur der Pipeline:\n1. Themen-Research via Perplexity API\n2. Content-Briefing-Generierung mit Claude\n3. Volltexterstellung und SEO-Optimierung\n4. Qualitätsprüfung durch zweiten KI-Agenten\n5. Automatische Veröffentlichung via CMS-API\n6. Performance-Tracking und Feedback-Loop\n\nTechnologien:\n- n8n als Orchestrierungsplattform\n- Claude 3.5 Sonnet für Content-Generierung\n- Perplexity für Recherche\n- Webflow/Ghost CMS-Integration\n\nReales Projekt aus der Praxis, nicht ein Toy-Beispiel.",
+    "duration": "1:12:33",
+    "category": "Praxisprojekt",
+    "level": "Fortgeschritten",
+    "publishedAt": "2026-03-15",
+    "tags": ["Content-Pipeline", "Praxisprojekt", "n8n", "Claude"],
+    "thumbnail": null
+  }
+]
