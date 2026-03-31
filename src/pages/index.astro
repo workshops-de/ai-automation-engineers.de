@@ -1,8 +1,8 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 
-const title = 'Home';
-const description = 'Die Community für KI-Automatisierungsingenieure. Vernetze dich mit Experten und gestalte die Zukunft intelligenter Automatisierung.';
+const title = 'AI Automation Engineers — Reiseberichte aus der KI-Welt';
+const description = 'Robin Böhm berichtet live aus der KI-Entwicklung — Tools, Agenten, Gedanken und Erkenntnisse für Developer. Regelmäßig neue Berichte.';
 
 // Load latest blog posts
 const modules = import.meta.glob('./news/*/index.md', { eager: true });
@@ -64,31 +64,31 @@ const blogPosts = allPosts.filter(post => {
       <div class="text-center">
         <!-- Main Headline - Very Large Typography -->
         <h1 class="text-6xl sm:text-7xl lg:text-8xl xl:text-9xl font-bold tracking-tight mb-8 animate-fade-in">
-          <span class="block text-gray-900">Deine</span>
+          <span class="block text-gray-900">Unterwegs</span>
+          <span class="block text-gray-900">im</span>
           <span class="block bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-            <span id="typewriter-text">AI Engineering</span><span id="typewriter-cursor" class="typewriter-cursor">_</span>
+            <span id="typewriter-text">KI-Zeitalter</span><span id="typewriter-cursor" class="typewriter-cursor">_</span>
           </span>
-          <span class="block text-gray-900">Community.</span>
         </h1>
         
         <!-- Subtitle -->
         <p class="text-xl sm:text-2xl lg:text-3xl text-gray-600 mb-16 max-w-4xl mx-auto font-light leading-relaxed animate-fade-in animation-delay-300">
-          Verbinde dich mit KI-Automatisierungsingenieuren.<br>
-          Lerne. Teile. Wachse.
+          Ich berichte live aus der Welt der KI-Entwicklung — Tools, Gedanken,<br>
+          Begegnungen und Erkenntnisse von der Reise. Direkt in dein Postfach.
         </p>
 
         <!-- CTA Buttons -->
         <div class="flex flex-col sm:flex-row gap-6 justify-center items-center animate-fade-in animation-delay-600">
-          <a href="/profiles" 
+          <a href="/community" 
              class="inline-flex items-center px-8 py-4 text-lg font-semibold text-white bg-gray-900 rounded-full hover:bg-gray-800 transition-all duration-300 shadow-lg hover:shadow-xl">
-            Profile entdecken
+            Mitreisen
             <svg class="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
             </svg>
           </a>
-          <a href="/blog" 
+          <a href="/news" 
              class="inline-flex items-center px-8 py-4 text-lg font-semibold text-gray-900 bg-white border-2 border-gray-200 rounded-full hover:border-gray-900 transition-all duration-300">
-            Insights lesen
+            Reiseberichte lesen
           </a>
         </div>
       </div>
@@ -108,15 +108,15 @@ const blogPosts = allPosts.filter(post => {
       <div class="grid grid-cols-1 md:grid-cols-3 gap-16 text-center">
         <div class="animate-fade-in-up">
           <div class="text-5xl font-bold text-gray-900 mb-4">500+</div>
-          <div class="text-xl text-gray-600">Experten</div>
+          <div class="text-xl text-gray-600">Mitreisende</div>
         </div>
         <div class="animate-fade-in-up animation-delay-200">
-          <div class="text-5xl font-bold text-gray-900 mb-4">50+</div>
-          <div class="text-xl text-gray-600">Unternehmen</div>
+          <div class="text-5xl font-bold text-gray-900 mb-4">100+</div>
+          <div class="text-xl text-gray-600">Tools erkundet</div>
         </div>
         <div class="animate-fade-in-up animation-delay-400">
-          <div class="text-5xl font-bold text-gray-900 mb-4">1000+</div>
-          <div class="text-xl text-gray-600">Projekte</div>
+          <div class="text-5xl font-bold text-gray-900 mb-4">450+</div>
+          <div class="text-xl text-gray-600">Berichte veröffentlicht</div>
         </div>
       </div>
     </div>
@@ -127,39 +127,39 @@ const blogPosts = allPosts.filter(post => {
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-20">
         <h2 class="text-5xl sm:text-6xl font-bold text-gray-900 mb-8">
-          Wie wir arbeiten.
+          Wie die Reise aussieht.
         </h2>
         <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-          Eine Community, die KI-Automatisierung voranbringt durch Zusammenarbeit, Wissensaustausch und Innovation.
+          Von unterwegs in der KI-Welt — ehrlich, direkt und immer am Puls der Zeit.
         </p>
       </div>
 
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-20">
         <div class="space-y-16">
           <div class="animate-fade-in-up">
-            <h3 class="text-3xl font-bold text-gray-900 mb-6">Experten vernetzen</h3>
+            <h3 class="text-3xl font-bold text-gray-900 mb-6">Live aus dem Feld</h3>
             <p class="text-lg text-gray-600 leading-relaxed">
-              Verbinde dich mit führenden KI-Automatisierungsexperten aus aller Welt. Tausche Erfahrungen aus und lerne von den Besten der Branche.
+              Ich teile was ich gerade lerne — ungeschönt, direkt, praktisch. Keine perfekten Tutorials, sondern echte Erfahrungen aus der KI-Entwicklung.
             </p>
           </div>
           <div class="animate-fade-in-up animation-delay-200">
-            <h3 class="text-3xl font-bold text-gray-900 mb-6">Wissen teilen</h3>
+            <h3 class="text-3xl font-bold text-gray-900 mb-6">Tools & Erkenntnisse</h3>
             <p class="text-lg text-gray-600 leading-relaxed">
-              Profitiere von kurierten Inhalten, praktischen Tutorials und Einblicken in aktuelle Trends der KI-Automatisierung.
+              Neue KI-Tools, Prompts und Projekte die ich selbst getestet habe. Mit ehrlichen Einschätzungen — was funktioniert, was nicht.
             </p>
           </div>
         </div>
         <div class="space-y-16">
           <div class="animate-fade-in-up animation-delay-300">
-            <h3 class="text-3xl font-bold text-gray-900 mb-6">Projekte realisieren</h3>
+            <h3 class="text-3xl font-bold text-gray-900 mb-6">Menschen & Gespräche</h3>
             <p class="text-lg text-gray-600 leading-relaxed">
-              Arbeite gemeinsam an innovativen Automatisierungsprojekten und bringe deine Ideen in reale Lösungen um.
+              Ich treffe interessante Menschen auf dieser Reise — und teile was ich von ihnen lerne. Ungefilterte Einblicke in die KI-Community.
             </p>
           </div>
           <div class="animate-fade-in-up animation-delay-400">
-            <h3 class="text-3xl font-bold text-gray-900 mb-6">Zukunft gestalten</h3>
+            <h3 class="text-3xl font-bold text-gray-900 mb-6">Dein Zugang zur Reise</h3>
             <p class="text-lg text-gray-600 leading-relaxed">
-              Sei Teil einer Bewegung, die die Zukunft der Arbeit durch intelligente Automatisierung neu definiert.
+              Mit einer Subscription bekommst du Zugang zu den tieferen Einblicken — nicht zu einem fertigen Kurs, sondern zur laufenden Expedition.
             </p>
           </div>
         </div>
@@ -173,10 +173,10 @@ const blogPosts = allPosts.filter(post => {
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-20">
         <h2 class="text-5xl sm:text-6xl font-bold text-gray-900 mb-8">
-          Neueste Insights.
+          Aktuelle Reiseberichte.
         </h2>
         <p class="text-xl text-gray-600">
-          Entdecke die neuesten Trends und Best Practices in der KI-Automatisierung.
+          Die neuesten Entdeckungen und Erkenntnisse direkt von der KI-Frontend.
         </p>
       </div>
 
@@ -214,9 +214,9 @@ const blogPosts = allPosts.filter(post => {
       </div>
 
       <div class="text-center mt-16">
-        <a href="/blog" 
+        <a href="/news" 
            class="inline-flex items-center px-8 py-4 text-lg font-semibold text-gray-900 bg-white border-2 border-gray-200 rounded-full hover:border-gray-900 transition-all duration-300">
-          Alle Artikel
+          Alle Reiseberichte
           <svg class="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
           </svg>
@@ -226,22 +226,26 @@ const blogPosts = allPosts.filter(post => {
   </section>
   )}
 
-  <!-- Final CTA -->
+  <!-- Newsletter/Dispatch Section -->
   <section class="py-32 bg-gray-900 text-white">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
       <h2 class="text-5xl sm:text-6xl font-bold mb-8">
-        Bereit für die Zukunft?
+        Dispatch abonnieren.
       </h2>
       <p class="text-xl text-gray-300 mb-12 max-w-3xl mx-auto">
-        Werde Teil einer Community, die die Grenzen der KI-Automatisierung neu definiert.
+        Immer wenn ich etwas Relevantes auf meiner KI-Reise entdecke, schreibe ich darüber — neue Tools, ehrliche Einschätzungen, Gedanken die mich beschäftigen. Kein fixer Rhythmus, kein Hype. Nur was wirklich relevant ist.
       </p>
-      <a href="/profiles" 
-         class="inline-flex items-center px-12 py-6 text-xl font-semibold text-gray-900 bg-white rounded-full hover:bg-gray-100 transition-all duration-300 shadow-lg hover:shadow-xl">
-        Community beitreten
-        <svg class="ml-3 w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
-        </svg>
-      </a>
+      <div class="max-w-lg mx-auto flex flex-col sm:flex-row gap-4">
+        <input 
+          type="email" 
+          placeholder="Deine E-Mail für die Reiseberichte"
+          class="flex-1 px-6 py-4 text-lg border border-gray-600 rounded-full bg-gray-800 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-white focus:border-transparent"
+          required
+        >
+        <button class="px-8 py-4 text-lg font-semibold text-gray-900 bg-white rounded-full hover:bg-gray-100 transition-all duration-300 shadow-lg hover:shadow-xl">
+          Dabei sein
+        </button>
+      </div>
     </div>
   </section>
 </BaseLayout>
@@ -262,10 +266,10 @@ const blogPosts = allPosts.filter(post => {
   // Typewriter effect
   document.addEventListener('DOMContentLoaded', function() {
     const words = [
-      'AI Engineering',
-      'KI-Nerds',
-      'boa boa boa',
-      'Prompt Flüsterer'
+      'KI-Zeitalter',
+      'Unbekannten',
+      'Neuen',
+      'AI-Frontier'
     ];
     
     let currentWordIndex = 0;

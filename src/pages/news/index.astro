@@ -1,8 +1,8 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 
-const title = 'AI News';
-  const description = 'Entdecke die neuesten AI-News, Tutorials und Best Practices im Bereich AI-Automation Engineering von unserer Experten-Community.';
+const title = 'Reiseberichte';
+  const description = 'Aktuelle Berichte von der KI-Frontend — Tools, Erkenntnisse und Entdeckungen aus der Welt der AI-Automation von Robin Böhm.';
 
 // Load all news posts from date-based folders (only index.md files)
 const modules = import.meta.glob('./*/index.md', { eager: true });
@@ -74,14 +74,14 @@ const blogPosts = allPosts.filter(post => {
       <div class="text-center">
         <!-- Main Headline -->
         <h1 class="text-6xl sm:text-7xl lg:text-8xl xl:text-9xl font-bold tracking-tight mb-8 animate-fade-in leading-none">
-          <span class="block text-gray-900">News, Tutorials,</span>
-          <span class="block bg-gradient-to-r from-green-600 to-blue-600 bg-clip-text text-transparent">Insights.</span>
+          <span class="block text-gray-900">Reiseberichte,</span>
+          <span class="block bg-gradient-to-r from-green-600 to-blue-600 bg-clip-text text-transparent">Entdeckungen.</span>
         </h1>
         
         <!-- Subtitle -->
         <p class="text-xl sm:text-2xl text-gray-600 mb-16 max-w-3xl mx-auto font-light leading-relaxed animate-fade-in animation-delay-300">
-          News, Tutorials und Best Practices von<br>
-          unserer Experten-Community.
+          Live aus der KI-Welt — ehrlich, direkt und<br>
+          immer am Puls der Zeit.
         </p>
       </div>
     </div>
