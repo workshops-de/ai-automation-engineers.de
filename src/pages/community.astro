@@ -1,0 +1,283 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const title = 'Community';
+const description = 'Werde Teil unserer exklusiven AI-Automation Engineers Community und erhalte Zugang zu Premium-Inhalten, Tutorials und Live-Sessions.';
+
+// Sample community videos
+const communityVideos = [
+  {
+    id: 'dQw4w9WgXcQ',
+    title: 'AI-Automation Grundlagen: Von Zero zu Hero in 30 Minuten',
+    description: 'Lerne die Basics der AI-Automation mit praktischen Beispielen',
+    duration: '32:15',
+    thumbnail: `https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg`
+  },
+  {
+    id: 'oHg5SJYRHA0',
+    title: 'n8n Advanced Workflows: Multi-Agent Orchestration',
+    description: 'Fortgeschrittene n8n-Techniken für komplexe AI-Workflows',
+    duration: '45:22',
+    thumbnail: `https://img.youtube.com/vi/oHg5SJYRHA0/maxresdefault.jpg`
+  },
+  {
+    id: 'kJQP7kiw5Fk',
+    title: 'Claude Code Live: Real-world AI Coding Session',
+    description: 'Siehe einen Experten beim Live-Coding mit Claude Code',
+    duration: '58:30',
+    thumbnail: `https://img.youtube.com/vi/kJQP7kiw5Fk/maxresdefault.jpg`
+  },
+  {
+    id: 'ScMzIvxBSi4',
+    title: 'MCP Server Development Workshop',
+    description: 'Baue deinen eigenen MCP Server von Grund auf',
+    duration: '67:45',
+    thumbnail: `https://img.youtube.com/vi/ScMzIvxBSi4/maxresdefault.jpg`
+  },
+  {
+    id: '2vjPBrBU-TM',
+    title: 'GitHub Copilot Enterprise Secrets',
+    description: 'Insider-Tipps für maximale Produktivität mit Copilot',
+    duration: '38:12',
+    thumbnail: `https://img.youtube.com/vi/2vjPBrBU-TM/maxresdefault.jpg`
+  },
+  {
+    id: 'fJ9rUzIMcZQ',
+    title: 'Cursor vs Claude Code: Der ultimative Vergleich',
+    description: 'Detaillierter Vergleich der beiden AI-Coding-Tools',
+    duration: '42:08',
+    thumbnail: `https://img.youtube.com/vi/fJ9rUzIMcZQ/maxresdefault.jpg`
+  }
+];
+---
+
+<BaseLayout {title} {description}>
+  <!-- Hero Section -->
+  <section class="relative min-h-[80vh] bg-gradient-to-br from-gray-900 via-gray-800 to-black overflow-hidden">
+    <!-- Background Animation -->
+    <div class="absolute inset-0">
+      <div class="absolute inset-0 bg-grid-white/10 [mask-image:linear-gradient(0deg,black,rgba(0,0,0,0.4))]"></div>
+      <div class="absolute top-1/4 left-1/4 w-72 h-72 bg-orange-500/20 rounded-full mix-blend-multiply filter blur-xl animate-blob"></div>
+      <div class="absolute top-1/3 right-1/4 w-96 h-96 bg-blue-500/20 rounded-full mix-blend-multiply filter blur-xl animate-blob animation-delay-2000"></div>
+    </div>
+
+    <div class="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-32 pb-20">
+      <div class="text-center">
+        <!-- Main Headline -->
+        <h1 class="text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-bold tracking-tight mb-8 leading-none">
+          <span class="block text-white">AI-Automation</span>
+          <span class="block bg-gradient-to-r from-orange-400 to-blue-400 bg-clip-text text-transparent">Community</span>
+        </h1>
+        
+        <!-- Subtitle -->
+        <p class="text-xl sm:text-2xl text-gray-300 mb-12 max-w-3xl mx-auto font-light leading-relaxed">
+          Exklusive Video-Tutorials, Live-Sessions und Premium-Inhalte<br>
+          für AI-Automation Engineers
+        </p>
+
+        <!-- Auth Section -->
+        <div class="max-w-md mx-auto">
+          <div id="auth-section" class="auth-required">
+            <div class="bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-white/20">
+              <p class="text-white mb-4">Melde dich an für Zugang zur Community</p>
+              <div id="auth-component-mount"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Video Grid Section -->
+  <section class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold text-gray-900 mb-4">Premium Video-Content</h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          Erhalte Zugang zu exklusiven Tutorials, Live-Sessions und Deep-Dives in AI-Automation
+        </p>
+      </div>
+
+      <!-- Video Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {communityVideos.map((video) => (
+          <article class="group relative bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300">
+            <div class="relative aspect-video bg-gray-900 overflow-hidden">
+              <img 
+                src={video.thumbnail} 
+                alt={video.title}
+                class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                loading="lazy"
+              />
+              <div class="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors"></div>
+              
+              <!-- Play button overlay -->
+              <div class="absolute inset-0 flex items-center justify-center">
+                <div class="w-16 h-16 bg-white/90 rounded-full flex items-center justify-center cursor-pointer hover:bg-white video-play-btn" data-video-id={video.id}>
+                  <svg class="w-6 h-6 text-gray-900 ml-1" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M8 5v14l11-7z"/>
+                  </svg>
+                </div>
+              </div>
+
+              <!-- Duration badge -->
+              <div class="absolute bottom-3 right-3 bg-black/80 text-white text-sm px-2 py-1 rounded">
+                {video.duration}
+              </div>
+
+              <!-- Login overlay (hidden by default, shown via CSS) -->
+              <div class="auth-overlay absolute inset-0 bg-black/60 flex items-center justify-center">
+                <div class="bg-white rounded-lg p-6 max-w-sm text-center">
+                  <svg class="w-12 h-12 text-gray-400 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path>
+                  </svg>
+                  <h3 class="text-lg font-semibold text-gray-900 mb-2">Login erforderlich</h3>
+                  <p class="text-gray-600 text-sm mb-4">Melde dich an, um Zugang zu unseren Premium-Videos zu erhalten</p>
+                  <button class="auth-trigger bg-orange-500 text-white px-4 py-2 rounded-lg hover:bg-orange-600 transition-colors">
+                    Jetzt anmelden
+                  </button>
+                </div>
+              </div>
+            </div>
+            
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
+                {video.title}
+              </h3>
+              <p class="text-gray-600 leading-relaxed">
+                {video.description}
+              </p>
+              
+              <button class="video-watch-btn mt-4 inline-flex items-center text-blue-600 hover:text-blue-800 font-medium" data-video-id={video.id}>
+                Video ansehen
+                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                </svg>
+              </button>
+            </div>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold text-gray-900 mb-4">Was erwartet dich in der Community?</h2>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="text-center">
+          <div class="w-16 h-16 bg-orange-100 rounded-2xl flex items-center justify-center mx-auto mb-6">
+            <svg class="w-8 h-8 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path>
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-4">Video-Tutorials</h3>
+          <p class="text-gray-600">
+            Schritt-für-Schritt Anleitungen für AI-Tools, Automation-Workflows und Best Practices
+          </p>
+        </div>
+
+        <div class="text-center">
+          <div class="w-16 h-16 bg-blue-100 rounded-2xl flex items-center justify-center mx-auto mb-6">
+            <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-4">Live-Sessions</h3>
+          <p class="text-gray-600">
+            Wöchentliche Live-Sessions mit Q&A, Tool-Demos und Community-Diskussionen
+          </p>
+        </div>
+
+        <div class="text-center">
+          <div class="w-16 h-16 bg-green-100 rounded-2xl flex items-center justify-center mx-auto mb-6">
+            <svg class="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-4">Exklusive Inhalte</h3>
+          <p class="text-gray-600">
+            Deep-Dives, Case Studies und Insider-Wissen, das nur Community-Mitgliedern zur Verfügung steht
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<!-- Community Video Grid Component -->
+<div id="community-video-grid"></div>
+
+<script>
+  import { createRoot } from 'react-dom/client';
+  import CommunityVideoGrid from '../components/CommunityVideoGrid';
+
+  // Mount the community component
+  const container = document.getElementById('community-video-grid');
+  if (container) {
+    const root = createRoot(container);
+    root.render(React.createElement(CommunityVideoGrid));
+  }
+</script>
+
+<style>
+  /* Custom animations */
+  @keyframes blob {
+    0% { transform: translate(0px, 0px) scale(1); }
+    33% { transform: translate(30px, -50px) scale(1.1); }
+    66% { transform: translate(-20px, 20px) scale(0.9); }
+    100% { transform: translate(0px, 0px) scale(1); }
+  }
+  
+  .animate-blob {
+    animation: blob 7s infinite;
+  }
+  
+  .animation-delay-2000 {
+    animation-delay: 2s;
+  }
+
+  .bg-grid-white\/10 {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' width='32' height='32' fill='none' stroke='rgb(255 255 255 / 0.1)'%3e%3cpath d='m0 .5 32 0M.5 0 .5 32'/%3e%3c/svg%3e");
+  }
+
+  /* Auth state management */
+  .auth-required {
+    display: block;
+  }
+
+  .authenticated .auth-required {
+    display: none;
+  }
+
+  .authenticated .video-play-btn,
+  .authenticated .video-watch-btn {
+    opacity: 1;
+    cursor: pointer;
+  }
+
+  .auth-overlay {
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+  }
+
+  .unauthenticated .auth-overlay {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  /* Set initial state as unauthenticated */
+  body {
+    &.unauthenticated .video-play-btn,
+    &.unauthenticated .video-watch-btn {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+  }
+</style>
+</BaseLayout>
