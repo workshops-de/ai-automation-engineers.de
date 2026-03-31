@@ -1,0 +1,85 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const title = 'Auth Test';
+const description = 'Test page for Firebase Authentication';
+---
+
+<BaseLayout {title} {description}>
+  <section class="py-20">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h1 class="text-4xl font-bold mb-8">Firebase Auth Test</h1>
+      
+      <div class="space-y-4">
+        <div id="auth-status" class="p-4 bg-gray-100 rounded-lg">
+          <p>Loading auth status...</p>
+        </div>
+        
+        <div id="auth-button-test"></div>
+        
+        <div id="firebase-status" class="p-4 bg-blue-100 rounded-lg">
+          <p>Checking Firebase connection...</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<script>
+  import { auth } from '../lib/firebase';
+  import { onAuthStateChanged } from 'firebase/auth';
+  import { createRoot } from 'react-dom/client';
+  import AuthButtonStandalone from '../components/AuthButtonStandalone';
+  import React from 'react';
+
+  document.addEventListener('DOMContentLoaded', async function() {
+    const authStatus = document.getElementById('auth-status');
+    const firebaseStatus = document.getElementById('firebase-status');
+    
+    // Test Firebase connection
+    try {
+      if (authStatus) authStatus.textContent = 'Firebase loaded successfully';
+      console.log('Firebase auth object:', auth);
+      console.log('Firebase app:', auth.app);
+      
+      if (firebaseStatus) {
+        const projectId = document.createElement('p');
+        projectId.textContent = `Project ID: ${auth.app.options.projectId}`;
+        const authDomain = document.createElement('p');
+        authDomain.textContent = `Auth Domain: ${auth.app.options.authDomain}`;
+        const status = document.createElement('p');
+        status.textContent = 'Firebase Status: ✅ Connected';
+        
+        firebaseStatus.replaceChildren();
+        firebaseStatus.appendChild(status);
+        firebaseStatus.appendChild(projectId);
+        firebaseStatus.appendChild(authDomain);
+      }
+    } catch (error) {
+      console.error('Firebase error:', error);
+      if (firebaseStatus) {
+        firebaseStatus.textContent = `Firebase Error: ${error.message}`;
+      }
+    }
+
+    // Test auth state listener
+    onAuthStateChanged(auth, (user) => {
+      console.log('Auth state changed:', user);
+      if (authStatus) {
+        authStatus.textContent = user 
+          ? `✅ Logged in as: ${user.displayName || user.email}`
+          : `❌ Not logged in`;
+      }
+    });
+
+    // Mount auth button
+    const authButtonContainer = document.getElementById('auth-button-test');
+    if (authButtonContainer) {
+      const root = createRoot(authButtonContainer);
+      root.render(React.createElement(AuthButtonStandalone, {
+        className: 'mx-auto'
+      }));
+    }
+  });
+</script>
+</BaseLayout>

@@ -24,16 +24,20 @@ export const auth = getAuth(app);
 // Initialize Cloud Firestore and get a reference to the service
 export const db = getFirestore(app);
 
-// Connect to emulators in development (optional)
+// Development mode setup
 if (import.meta.env.DEV && typeof window !== 'undefined') {
-  // Only connect to emulators if running in development and in browser
-  try {
-    // Uncomment these lines if you want to use Firebase emulators in development
-    // connectAuthEmulator(auth, 'http://localhost:9099');
-    // connectFirestoreEmulator(db, 'localhost', 8080);
-  } catch (error) {
-    console.log('Firebase emulators already connected or not available');
-  }
+  console.log('🔥 Firebase initialized in development mode');
+  console.log('Auth domain:', firebaseConfig.authDomain);
+  console.log('Project ID:', firebaseConfig.projectId);
+  
+  // Note: Firebase emulators disabled for production Firebase use
+  // Uncomment for local emulator development:
+  // try {
+  //   connectAuthEmulator(auth, 'http://localhost:9099');
+  //   connectFirestoreEmulator(db, 'localhost', 8080);
+  // } catch (error) {
+  //   console.log('Emulators already connected');
+  // }
 }
 
 export default app;

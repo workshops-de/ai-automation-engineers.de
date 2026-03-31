@@ -34,13 +34,20 @@
       </div>
 
       <!-- Navigation -->
-      <nav class="hidden md:flex items-center space-x-10">
+      <nav class="hidden md:flex items-center space-x-6">
         <a href="/news" class="text-gray-600 hover:text-gray-900 transition-colors font-medium">
           AI-News
         </a>
-        <a href="/community" class="inline-flex items-center px-4 py-2 text-sm font-semibold text-white bg-orange-500 rounded-full hover:bg-orange-600 transition-colors">
+        <a href="/community" class="text-gray-600 hover:text-gray-900 transition-colors font-medium">
           Community
         </a>
+        <!-- Auth Button -->
+        <div id="header-auth-container" class="flex items-center">
+          <!-- Auth button will be mounted here -->
+          <button id="temp-auth-btn" class="bg-orange-500 hover:bg-orange-600 text-white font-medium px-4 py-2 rounded-lg transition-colors text-sm">
+            Sign In
+          </button>
+        </div>
       </nav>
 
       <!-- Mobile menu button -->
@@ -56,7 +63,13 @@
       <nav class="flex flex-col space-y-6">
         <a href="/" class="text-gray-700 hover:text-gray-900 transition-colors font-medium text-lg">Home</a>
         <a href="/news" class="text-gray-700 hover:text-gray-900 transition-colors font-medium text-lg">News</a>
-        <a href="/community" class="text-orange-600 hover:text-orange-700 transition-colors font-semibold text-lg">Community</a>
+        <a href="/community" class="text-gray-700 hover:text-gray-900 transition-colors font-medium text-lg">Community</a>
+        <!-- Mobile Auth -->
+        <div id="mobile-auth-container" class="pt-4 border-t border-gray-200">
+          <button id="temp-mobile-auth-btn" class="w-full bg-orange-500 hover:bg-orange-600 text-white font-semibold px-4 py-3 rounded-lg transition-colors">
+            Sign In with Google
+          </button>
+        </div>
       </nav>
     </div>
   </div>
@@ -73,7 +86,101 @@
         mobileMenu.classList.toggle('hidden');
       });
     }
+
+    // Mount auth buttons
+    mountAuthButtons();
   });
+
+  async function mountAuthButtons() {
+    try {
+      // Import Firebase auth functions
+      const { auth } = await import('../lib/firebase');
+      const { onAuthStateChanged, signInWithPopup, GoogleAuthProvider, signOut } = await import('firebase/auth');
+      
+      // Google Auth Provider
+      const googleProvider = new GoogleAuthProvider();
+      googleProvider.setCustomParameters({
+        prompt: 'select_account'
+      });
+
+      let currentUser = null;
+
+      // Auth state listener
+      onAuthStateChanged(auth, (user) => {
+        currentUser = user;
+        updateAuthButtons(user);
+        console.log('Auth state changed:', user ? 'logged in' : 'logged out');
+      });
+
+      // Sign in function
+      async function handleSignIn() {
+        try {
+          console.log('Starting sign in...');
+          const result = await signInWithPopup(auth, googleProvider);
+          console.log('Sign in successful:', result.user);
+        } catch (error) {
+          console.error('Sign in failed:', error);
+          alert(`Sign in failed: ${error.message}`);
+        }
+      }
+
+      // Sign out function
+      async function handleSignOut() {
+        try {
+          await signOut(auth);
+          console.log('Sign out successful');
+        } catch (error) {
+          console.error('Sign out failed:', error);
+        }
+      }
+
+      // Update button states
+      function updateAuthButtons(user) {
+        const tempHeaderBtn = document.getElementById('temp-auth-btn');
+        const tempMobileBtn = document.getElementById('temp-mobile-auth-btn');
+
+        if (user) {
+          // User is logged in - show user info and sign out
+          const userInitials = user.displayName?.split(' ').map(n => n[0]).join('') || 'U';
+          
+          if (tempHeaderBtn) {
+            tempHeaderBtn.textContent = userInitials;
+            tempHeaderBtn.onclick = handleSignOut;
+            tempHeaderBtn.className = 'bg-green-500 hover:bg-green-600 text-white font-medium px-3 py-2 rounded-full transition-colors text-sm';
+          }
+          
+          if (tempMobileBtn) {
+            tempMobileBtn.textContent = `Sign Out (${user.displayName || user.email?.split('@')[0]})`;
+            tempMobileBtn.onclick = handleSignOut;
+            tempMobileBtn.className = 'w-full bg-green-500 hover:bg-green-600 text-white font-semibold px-4 py-3 rounded-lg transition-colors';
+          }
+        } else {
+          // User is not logged in - show sign in button
+          if (tempHeaderBtn) {
+            tempHeaderBtn.textContent = 'Sign In';
+            tempHeaderBtn.onclick = handleSignIn;
+            tempHeaderBtn.className = 'bg-orange-500 hover:bg-orange-600 text-white font-medium px-4 py-2 rounded-lg transition-colors text-sm';
+          }
+          
+          if (tempMobileBtn) {
+            tempMobileBtn.textContent = 'Sign In with Google';
+            tempMobileBtn.onclick = handleSignIn;
+            tempMobileBtn.className = 'w-full bg-orange-500 hover:bg-orange-600 text-white font-semibold px-4 py-3 rounded-lg transition-colors';
+          }
+        }
+      }
+
+      // Initial setup for temporary buttons
+      const tempHeaderBtn = document.getElementById('temp-auth-btn');
+      const tempMobileBtn = document.getElementById('temp-mobile-auth-btn');
+      
+      if (tempHeaderBtn) tempHeaderBtn.onclick = handleSignIn;
+      if (tempMobileBtn) tempMobileBtn.onclick = handleSignIn;
+
+    } catch (error) {
+      console.error('Error mounting auth buttons:', error);
+    }
+  }
 </script>
 
 <style>
