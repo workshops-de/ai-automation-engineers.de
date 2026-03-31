@@ -5,7 +5,11 @@ import videos from '../../../data/videos.json';
 const title = 'Community Videos – Lernvideos für AI-Automation Engineers';
 const description = 'Exklusive Video-Tutorials für Community-Mitglieder: Deep-Dives, Live-Sessions und Praxisprojekte rund um AI-Automation.';
 
-const categories = ['Alle', ...new Set(videos.map(v => v.category))];
+// Collect all tags and sort by frequency (most common first)
+const tagCounts = new Map<string, number>();
+videos.forEach(v => v.tags.forEach(t => tagCounts.set(t, (tagCounts.get(t) ?? 0) + 1)));
+const allTags = ['Alle', ...[...tagCounts.entries()].sort((a, b) => b[1] - a[1]).map(([t]) => t)];
+
 const levelColors: Record<string, string> = {
   'Einsteiger': 'bg-green-100 text-green-700',
   'Mittel': 'bg-yellow-100 text-yellow-700',
@@ -56,15 +60,15 @@ const levelColors: Record<string, string> = {
   <section class="py-16 bg-gray-50 min-h-screen">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
-      <!-- Category Filter -->
+      <!-- Tag Filter -->
       <div class="flex flex-wrap gap-3 mb-12 justify-center">
-        {categories.map(cat => (
+        {allTags.map(tag => (
           <button
-            class="category-filter px-5 py-2 rounded-full text-sm font-medium border transition-all duration-200 data-[active=true]:bg-gray-900 data-[active=true]:text-white data-[active=true]:border-gray-900 border-gray-300 text-gray-600 hover:border-gray-900 hover:text-gray-900"
-            data-category={cat}
-            data-active={cat === 'Alle' ? 'true' : 'false'}
+            class="tag-filter px-5 py-2 rounded-full text-sm font-medium border transition-all duration-200 border-gray-300 text-gray-600 hover:border-gray-900 hover:text-gray-900"
+            data-tag={tag}
+            data-active={tag === 'Alle' ? 'true' : 'false'}
           >
-            {cat}
+            {tag}
           </button>
         ))}
       </div>
@@ -80,6 +84,7 @@ const levelColors: Record<string, string> = {
           <article
             class="video-card group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100"
             data-category={video.category}
+            data-tags={JSON.stringify(video.tags)}
           >
             <!-- Thumbnail -->
             <a href={`/community/videos/${video.slug}`} class="block relative aspect-video bg-gray-900 overflow-hidden">
@@ -122,11 +127,13 @@ const levelColors: Record<string, string> = {
             <!-- Card Info -->
             <div class="p-6">
               <!-- Meta -->
-              <div class="flex items-center gap-2 mb-3">
+              <div class="flex flex-wrap items-center gap-2 mb-3">
                 <span class={`text-xs font-medium px-2.5 py-1 rounded-full ${levelColors[video.level] || 'bg-gray-100 text-gray-600'}`}>
                   {video.level}
                 </span>
-                <span class="text-xs text-gray-400 bg-gray-100 px-2.5 py-1 rounded-full">{video.category}</span>
+                {video.tags.map(tag => (
+                  <span class="text-xs text-gray-500 bg-gray-100 px-2.5 py-1 rounded-full">{tag}</span>
+                ))}
               </div>
 
               <!-- Title -->
@@ -216,20 +223,35 @@ const levelColors: Record<string, string> = {
   }
 
   document.addEventListener('DOMContentLoaded', () => {
-    // Category filter
-    const filters = document.querySelectorAll<HTMLButtonElement>('.category-filter');
+    // Tag filter
+    const filters = document.querySelectorAll<HTMLButtonElement>('.tag-filter');
     const cards = document.querySelectorAll<HTMLElement>('.video-card');
     const countEl = document.getElementById('visible-count');
 
+    function applyActiveStyle(btn: HTMLButtonElement, active: boolean) {
+      btn.dataset.active = active ? 'true' : 'false';
+      if (active) {
+        btn.classList.add('bg-gray-900', 'text-white', 'border-gray-900');
+        btn.classList.remove('text-gray-600', 'border-gray-300');
+      } else {
+        btn.classList.remove('bg-gray-900', 'text-white', 'border-gray-900');
+        btn.classList.add('text-gray-600', 'border-gray-300');
+      }
+    }
+
+    // Set initial "Alle" button as active
+    filters.forEach(btn => applyActiveStyle(btn, btn.dataset.tag === 'Alle'));
+
     filters.forEach(btn => {
       btn.addEventListener('click', () => {
-        const cat = btn.dataset.category;
-        filters.forEach(b => b.dataset.active = 'false');
-        btn.dataset.active = 'true';
+        const tag = btn.dataset.tag;
+        filters.forEach(b => applyActiveStyle(b, false));
+        applyActiveStyle(btn, true);
 
         let count = 0;
         cards.forEach(card => {
-          const show = cat === 'Alle' || card.dataset.category === cat;
+          const tags: string[] = JSON.parse(card.dataset.tags ?? '[]');
+          const show = tag === 'Alle' || tags.includes(tag!);
           card.style.display = show ? '' : 'none';
           if (show) count++;
         });

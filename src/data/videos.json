@@ -1,80 +1,236 @@
 [
   {
-    "slug": "ai-automation-grundlagen",
-    "youtubeId": "dQw4w9WgXcQ",
-    "title": "AI-Automation Grundlagen: Von Zero zu Hero in 30 Minuten",
-    "description": "Ein kompakter Einstieg in die Welt der KI-gestützten Prozessautomatisierung – ideal für alle, die ohne Vorkenntnisse starten.",
-    "longDescription": "In diesem Video bekommst du einen strukturierten Überblick über die wichtigsten Konzepte der AI-Automation. Wir starten bei null und arbeiten uns durch die zentralen Bausteine: Was sind KI-Agenten? Wie funktionieren Trigger und Actions in Workflow-Tools? Welche Plattformen eignen sich für welche Anwendungsfälle?\n\nDu lernst:\n- Die 5 wichtigsten KI-Automatisierungskonzepte\n- Unterschied zwischen regelbasierter und KI-gesteuerter Automation\n- Dein erstes Beispiel-Workflow live gebaut\n- Welche Tools für Einsteiger empfehlenswert sind (n8n, Zapier, Make)\n- Typische Fehler beim Einstieg und wie du sie vermeidest",
-    "duration": "32:15",
+    "slug": "claude-code-cowork-fuer-einsteiger",
+    "youtubeId": "QP5--qcHgaU",
+    "title": "Webinar: Claude Code & CoWork für Einsteiger – AI-Agenten statt Chat-Fenster",
+    "description": "Im Webinar zeigen wir, wie du mit Claude Code echte KI-Agenten baust – statt nur im Chat-Fenster zu arbeiten. Perfekter Einstieg für Anfänger.",
+    "longDescription": "In diesem Einsteiger-Webinar lernst du, wie du Claude Code produktiv einsetzt, um KI-Agenten zu bauen, die eigenständig arbeiten. Wir zeigen dir den Unterschied zwischen dem klassischen Chat-Fenster und agentic Coding – und warum letzteres so viel mächtiger ist.\n\nInhalte:\n- Was ist Claude Code und wie unterscheidet es sich von Claude.ai?\n- Erste Schritte: Installation und Setup\n- Agentic Coding live erleben\n- Typische Einsteiger-Workflows\n- Q&A und Live-Demo",
+    "duration": null,
+    "category": "Claude Code",
+    "level": "Einsteiger",
+    "publishedAt": "2026-02-10",
+    "tags": [
+      "Claude Code",
+      "Webinar",
+      "Einsteiger",
+      "KI-Agenten"
+    ],
+    "thumbnail": null
+  },
+  {
+    "slug": "agentic-coding-angular-developers",
+    "youtubeId": "h_UJDaW0f1U",
+    "title": "Agentic Coding with Confidence for Angular Developers",
+    "description": "Wie Angular-Entwickler KI-gestütztes Agentic Coding sicher und effektiv in ihren Workflow integrieren – mit konkreten Beispielen und Best Practices.",
+    "longDescription": "Dieses Video richtet sich speziell an Angular-Entwickler, die Agentic Coding in ihre Praxis integrieren wollen. Wir zeigen, wie du Claude Code und andere KI-Tools nutzt, um Angular-Projekte effizienter zu entwickeln – ohne die Kontrolle zu verlieren.\n\nInhalte:\n- Agentic Coding-Konzepte für Frontend-Entwickler\n- Integration in bestehende Angular-Projekte\n- Sicherheit und Code-Qualität beim KI-gestützten Coding\n- Praxisbeispiele: Component-Generierung, Refactoring, Testing\n- Typische Fallstricke und wie du sie vermeidest",
+    "duration": null,
+    "category": "Coding",
+    "level": "Mittel",
+    "publishedAt": "2026-01-28",
+    "tags": [
+      "Agentic Coding",
+      "Angular",
+      "Frontend",
+      "Claude Code"
+    ],
+    "thumbnail": null
+  },
+  {
+    "slug": "content-pipelines-n8n-ki-agenten",
+    "youtubeId": "m0_oGMXmolg",
+    "title": "Webinar: Automatisierte Content-Pipelines mit n8n & KI-Agenten",
+    "description": "Im Webinar bauen wir eine vollautomatisierte Content-Pipeline mit n8n und KI-Agenten – von der Recherche bis zur Veröffentlichung.",
+    "longDescription": "In diesem Webinar zeigen wir dir Schritt für Schritt, wie du mit n8n und KI-Agenten eine vollautomatisierte Content-Pipeline aufbaust. Das Ergebnis: Ein System, das Themen recherchiert, Texte erstellt, überprüft und automatisch veröffentlicht.\n\nInhalte:\n- Architektur einer KI-gesteuerten Content-Pipeline\n- n8n-Workflows für Content-Automation\n- KI-Agenten für Recherche, Schreiben und Qualitätsprüfung\n- Integration mit CMS-Systemen\n- Live-Demo und Q&A",
+    "duration": null,
+    "category": "n8n",
+    "level": "Mittel",
+    "publishedAt": "2025-12-17",
+    "tags": [
+      "n8n",
+      "Webinar",
+      "Content-Pipeline",
+      "KI-Agenten"
+    ],
+    "thumbnail": null
+  },
+  {
+    "slug": "ki-agenten-business-prozesse-n8n",
+    "youtubeId": "aoedRTuCwP0",
+    "title": "Webinar: Schluss mit ChatGPT-Spielerei – KI-Agenten revolutionieren Business-Prozesse",
+    "description": "Wie echte KI-Agenten mit n8n Geschäftsprozesse automatisieren – weit jenseits von ChatGPT-Prompts. Mit konkreten Business-Use-Cases.",
+    "longDescription": "Vorbei mit der ChatGPT-Spielerei: In diesem Webinar zeigen wir dir, wie KI-Agenten mit n8n echte Geschäftsprozesse revolutionieren. Wir präsentieren konkrete Anwendungsfälle aus der Praxis und zeigen, wie du KI von einem netten Spielzeug zu einem echten Produktivitäts-Booster machst.\n\nInhalte:\n- Warum ChatGPT allein nicht reicht\n- KI-Agenten vs. einfache Chatbots\n- Business-Prozesse mit n8n automatisieren\n- Konkrete ROI-Berechnung und Business Cases\n- Live-Demo: Echte Workflows in Aktion\n- Q&A",
+    "duration": null,
+    "category": "n8n",
+    "level": "Einsteiger",
+    "publishedAt": "2025-10-28",
+    "tags": [
+      "n8n",
+      "Webinar",
+      "KI-Agenten",
+      "Business-Automation"
+    ],
+    "thumbnail": null
+  },
+  {
+    "slug": "wtf-ki-das-ist-wirklich-moeglich",
+    "youtubeId": "dHfdumRIoxw",
+    "title": "WTF KI – Das ist wirklich möglich (Webinar)",
+    "description": "Ein Webinar, das zeigt, was mit KI heute wirklich möglich ist – jenseits von Hype und Buzzwords. Konkrete Beispiele, die dich staunen lassen.",
+    "longDescription": "Was ist mit KI heute wirklich möglich – und was nicht? In diesem Webinar räumen wir mit Mythen auf und zeigen dir an konkreten Beispielen, was KI-Automatisierung im Jahr 2026 wirklich leisten kann. Keine Buzzwords, keine übertriebenen Versprechen – nur echte Anwendungsfälle.\n\nInhalte:\n- Der aktuelle Stand der KI-Technologie ehrlich bewertet\n- Was KI heute wirklich kann (und was nicht)\n- Beeindruckende Praxisbeispiele live demonstriert\n- Wie du KI sinnvoll in deinen Alltag integrierst\n- Diskussion und Q&A",
+    "duration": null,
+    "category": "KI-Grundlagen",
+    "level": "Einsteiger",
+    "publishedAt": "2025-06-26",
+    "tags": [
+      "Webinar",
+      "KI-Grundlagen",
+      "Überblick",
+      "Einsteiger"
+    ],
+    "thumbnail": null
+  },
+  {
+    "slug": "claude-4-sonnet-quiz-erstellen",
+    "youtubeId": "S9Qn4HQziUk",
+    "title": "Claude 4 Sonnet Beispiel: So schnell erstellt KI ein komplettes Quiz",
+    "description": "Live-Demo: Wie Claude 4 Sonnet in Sekunden ein vollständiges Quiz erstellt – ein beeindruckendes Beispiel für die Geschwindigkeit moderner KI.",
+    "longDescription": "In dieser kurzen aber beeindruckenden Demo zeigen wir, wie Claude 4 Sonnet in kürzester Zeit ein komplettes Quiz generiert. Ein praxisnahes Beispiel für die Power moderner KI-Modelle.\n\nInhalte:\n- Einführung in Claude 4 Sonnet und seine Stärken\n- Live-Demo: Quiz-Generierung in Echtzeit\n- Nachbearbeitung und Qualitätsprüfung des Outputs\n- Anwendungsfälle für Quiz- und Test-Erstellung\n- Tipps für bessere Ergebnisse",
+    "duration": null,
+    "category": "Claude",
+    "level": "Einsteiger",
+    "publishedAt": "2025-06-25",
+    "tags": [
+      "Claude",
+      "Demo",
+      "KI-Fähigkeiten",
+      "Praxis"
+    ],
+    "thumbnail": null
+  },
+  {
+    "slug": "rag-retrieval-augmented-generation",
+    "youtubeId": "kaUSUIGGRdA",
+    "title": "RAG – Retrieval Augmented Generation: Live Webinar mit Brecht Billett",
+    "description": "Brecht Billett erklärt im Live-Webinar, was RAG ist, wie es funktioniert und wie du es in deinen KI-Projekten einsetzt.",
+    "longDescription": "Retrieval Augmented Generation (RAG) ist eine der wichtigsten Techniken für praxisnahe KI-Anwendungen. Brecht Billett erklärt in diesem Webinar alles, was du über RAG wissen musst – von der Theorie bis zur praktischen Implementierung.\n\nInhalte:\n- Was ist RAG und warum ist es so wichtig?\n- Wie RAG funktioniert: Vektordatenbanken, Embedding, Retrieval\n- RAG vs. Fine-Tuning: Wann was sinnvoll ist\n- Praxisbeispiele aus echten Projekten\n- Tools und Frameworks: LangChain, LlamaIndex & Co.\n- Live-Demo und Q&A mit Brecht",
+    "duration": null,
+    "category": "Grundlagen",
+    "level": "Mittel",
+    "publishedAt": "2025-02-12",
+    "tags": [
+      "Webinar",
+      "RAG",
+      "Vektordatenbanken",
+      "KI-Architektur"
+    ],
+    "thumbnail": null
+  },
+  {
+    "slug": "quereinsteig-ki-job",
+    "youtubeId": "vWimByFSbIY",
+    "title": "Dein Quereinsteig zum ersten KI-Job – Live Webinar mit Mareike Kirch",
+    "description": "Im Live-Webinar mit Mareike Kirch erfährst du, wie der Quereinstieg in einen KI-Job gelingt – Wege, Skills und konkrete nächste Schritte.",
+    "longDescription": "Mareike Kirch teilt in diesem Live-Webinar ihre Erfahrungen und zeigt dir, wie du erfolgreich in einen KI-Job quereinsteigst. Ob aus einem anderen Berufsfeld oder direkt nach dem Studium – dieser Weg ist für viele möglich.\n\nInhalte:\n- Welche KI-Jobs gibt es überhaupt?\n- Welche Skills werden wirklich gebraucht?\n- Mareikes persönlicher Weg zum KI-Job\n- Lernpfade und Ressourcen für Quereinsteiger\n- Networking und Community in der KI-Szene\n- Q&A mit Mareike",
+    "duration": null,
+    "category": "Karriere",
+    "level": "Einsteiger",
+    "publishedAt": "2025-02-11",
+    "tags": [
+      "Webinar",
+      "Karriere",
+      "Quereinsteig",
+      "KI-Job"
+    ],
+    "thumbnail": null
+  },
+  {
+    "slug": "code-smarter-angular-berlin-meetup",
+    "youtubeId": "DGzx1fToeBQ",
+    "title": "Code Smarter, Not Harder – Angular Berlin Meetup mit Daniel Sogl",
+    "description": "Daniel Sogl zeigt beim Angular Berlin Meetup, wie du mit KI-Tools smarter statt härter programmierst – praxisnah und direkt anwendbar.",
+    "longDescription": "Im Rahmen des Angular Berlin Meetups präsentiert Daniel Sogl, wie moderne KI-Tools den Coding-Alltag für Angular-Entwickler grundlegend verändern. Kein Hype, sondern konkrete Techniken für produktiveres Arbeiten.\n\nInhalte:\n- KI-gestütztes Coding im Angular-Kontext\n- Welche Tools wirklich Zeit sparen\n- Live-Demo: Smarter coden mit KI-Unterstützung\n- Best Practices für den täglichen Einsatz\n- Q&A aus dem Meetup",
+    "duration": null,
+    "category": "Coding",
+    "level": "Mittel",
+    "publishedAt": "2025-02-07",
+    "tags": [
+      "Angular",
+      "Meetup",
+      "Agentic Coding",
+      "Berlin"
+    ],
+    "thumbnail": null
+  },
+  {
+    "slug": "real-life-ai-anwendungsfaelle-unternehmen",
+    "youtubeId": "lOUNRyJW2RU",
+    "title": "Real-Life AI Anwendungsfälle in Unternehmen – Live Webinar mit Dr. Jim Sellmeijer",
+    "description": "Dr. Jim Sellmeijer präsentiert echte AI-Anwendungsfälle aus Unternehmen – konkrete Erfahrungen, ROI-Berechnung und Learnings aus der Praxis.",
+    "longDescription": "Dr. Jim Sellmeijer teilt in diesem Live-Webinar seine Erfahrungen aus echten KI-Projekten in Unternehmen. Keine Theorie, keine Demos – nur echte Fälle, ehrliche Ergebnisse und wertvolle Learnings.\n\nInhalte:\n- Welche AI-Use-Cases in Unternehmen wirklich funktionieren\n- ROI-Messung und Business Case für KI-Projekte\n- Typische Hürden bei der KI-Einführung im Unternehmen\n- Change Management und Mitarbeiterakzeptanz\n- Konkrete Fallbeispiele aus verschiedenen Branchen\n- Q&A mit Dr. Jim Sellmeijer",
+    "duration": null,
+    "category": "Praxisanwendung",
+    "level": "Mittel",
+    "publishedAt": "2025-02-07",
+    "tags": [
+      "Webinar",
+      "Enterprise-AI",
+      "Use Cases",
+      "Business"
+    ],
+    "thumbnail": null
+  },
+  {
+    "slug": "best-practices-chatgpt",
+    "youtubeId": "GVEHNElMEuQ",
+    "title": "Best Practices für ChatGPT und Co.",
+    "description": "Die wichtigsten Best Practices im Umgang mit ChatGPT und anderen KI-Modellen – für bessere Ergebnisse und produktivere Arbeit mit KI.",
+    "longDescription": "Wer KI-Tools wirklich produktiv nutzen will, braucht mehr als nur gute Prompts. In diesem Video zeigen wir dir die wichtigsten Best Practices für den täglichen Umgang mit ChatGPT, Claude und Co.\n\nInhalte:\n- Wie du Gespräche strukturierst für bessere Ergebnisse\n- Kontext optimal aufbauen und pflegen\n- Wann du der KI vertrauen kannst – und wann nicht\n- Fakten-Check und Qualitätssicherung\n- Datenschutz und Sicherheit im Umgang mit KI\n- Workflows und Templates für wiederkehrende Aufgaben\n- Die häufigsten Fehler und wie du sie vermeidest",
+    "duration": null,
     "category": "Grundlagen",
     "level": "Einsteiger",
-    "publishedAt": "2026-01-10",
-    "tags": ["Grundlagen", "AI-Automation", "Einsteiger", "Überblick"],
+    "publishedAt": "2025-02-04",
+    "tags": [
+      "ChatGPT",
+      "Best Practices",
+      "Grundlagen",
+      "Produktivität"
+    ],
     "thumbnail": null
   },
   {
-    "slug": "n8n-advanced-workflows",
-    "youtubeId": "oHg5SJYRHA0",
-    "title": "n8n Advanced Workflows: Multi-Agent Orchestration",
-    "description": "Fortgeschrittene n8n-Techniken: Wie du mehrere KI-Agenten koordinierst und komplexe Entscheidungslogiken baust.",
-    "longDescription": "Dieser Deep-Dive zeigt dir, wie du in n8n echte Multi-Agent-Architekturen umsetzt. Wir bauen gemeinsam ein System, bei dem mehrere spezialisierte Agenten zusammenarbeiten – ein Recherche-Agent, ein Schreib-Agent und ein Qualitätsprüf-Agent.\n\nIn diesem Video lernst du:\n- Das Konzept der Agent Orchestration verstehen\n- Sub-Workflows in n8n erstellen und aufrufen\n- Fehlerbehandlung bei asynchronen Agent-Calls\n- State-Management zwischen mehreren Workflow-Runs\n- Praxisbeispiel: Automatisiertes Content-Pipeline-System\n- Performance-Optimierung durch parallele Ausführung\n\nVoraussetzung: Grundlegende n8n-Kenntnisse empfohlen.",
-    "duration": "45:22",
-    "category": "n8n",
-    "level": "Fortgeschritten",
-    "publishedAt": "2026-01-24",
-    "tags": ["n8n", "Multi-Agent", "Orchestration", "Fortgeschritten"],
-    "thumbnail": null
-  },
-  {
-    "slug": "claude-code-live-session",
-    "youtubeId": "kJQP7kiw5Fk",
-    "title": "Claude Code Live: Real-world AI Coding Session",
-    "description": "Schau einem Experten beim Live-Coding mit Claude Code zu – inklusive Debugging, Refactoring und agentic Coding-Patterns.",
-    "longDescription": "In dieser ungescripteten Live-Session zeigen wir, wie ein erfahrener AI-Automation Engineer Claude Code im echten Projekteinsatz nutzt. Keine Präsentation, kein Bullshit – nur echter Code, echte Probleme, echte Lösungen.\n\nWas wir in dieser Session angehen:\n- Setup und Konfiguration von Claude Code für professionellen Einsatz\n- CLAUDE.md-Datei optimal strukturieren\n- Agentic Coding: Wie Claude eigenständig Dateien anlegt und Entscheidungen trifft\n- Fehlerdiagnose und Debugging mit KI-Unterstützung\n- Git-Workflow mit Claude Code integrieren\n- Wann man Claude stoppen und manuell eingreifen sollte\n\nEin ehrlicher Blick auf Stärken und Grenzen des Tools.",
-    "duration": "58:30",
-    "category": "Claude Code",
-    "level": "Fortgeschritten",
-    "publishedAt": "2026-02-05",
-    "tags": ["Claude Code", "Live-Session", "Coding", "Praxis"],
-    "thumbnail": null
-  },
-  {
-    "slug": "prompt-engineering-fuer-agenten",
-    "youtubeId": "9bZkp7q19f0",
-    "title": "Prompt Engineering für KI-Agenten: Systematic Prompting",
-    "description": "Wie du Prompts schreibst, die KI-Agenten zuverlässig und konsistent arbeiten lassen – mit konkreten Templates und Anti-Patterns.",
-    "longDescription": "Prompt Engineering ist das Handwerk hinter jedem funktionierenden KI-Agenten. In diesem Video vermitteln wir dir ein systematisches Framework, mit dem du Prompts nicht mehr nach Gefühl, sondern nach Methode schreibst.\n\nDu lernst:\n- Das RICCE-Framework für strukturierte Prompts\n- Systemrollen richtig definieren\n- Few-Shot-Learning gezielt einsetzen\n- Chain-of-Thought Prompting für komplexe Aufgaben\n- Anti-Patterns: Die häufigsten Fehler und wie du sie erkennst\n- Prompt-Testing: Wie du die Qualität deiner Prompts messen kannst\n- Praxisbeispiele aus realen Automatisierungsprojekten\n\nNach diesem Video schreibst du Prompts, die reproduzierbar funktionieren.",
-    "duration": "38:47",
+    "slug": "7-prompt-techniken-chatgpt",
+    "youtubeId": "IA3THtUpOtM",
+    "title": "7 Prompt-Techniken die du für ChatGPT und Co. nutzen kannst",
+    "description": "7 praxiserprobte Prompt-Techniken für ChatGPT, Claude und andere KI-Modelle – sofort anwendbar und mit konkreten Beispielen erklärt.",
+    "longDescription": "In diesem Video zeigen wir dir 7 Prompt-Techniken, die du sofort für ChatGPT, Claude und andere KI-Modelle nutzen kannst. Jede Technik wird mit konkreten Beispielen erklärt, sodass du sie direkt in deiner täglichen Arbeit anwenden kannst.\n\nInhalte:\n- Technik 1: Die Rollen-Methode\n- Technik 2: Schritt-für-Schritt-Anweisungen\n- Technik 3: Kontext und Constraints\n- Technik 4: Output-Format definieren\n- Technik 5: Beispiele geben (Few-Shot)\n- Technik 6: Chain-of-Thought\n- Technik 7: Iteratives Verfeinern\n- Praxisbeispiele für jeden Anwendungsfall",
+    "duration": null,
     "category": "Prompt Engineering",
-    "level": "Mittel",
-    "publishedAt": "2026-02-18",
-    "tags": ["Prompt Engineering", "KI-Agenten", "Systematik", "Templates"],
+    "level": "Einsteiger",
+    "publishedAt": "2025-02-04",
+    "tags": [
+      "Prompt Engineering",
+      "ChatGPT",
+      "Techniken",
+      "Einsteiger"
+    ],
     "thumbnail": null
   },
   {
-    "slug": "make-vs-n8n-vergleich",
-    "youtubeId": "JGwWNGJdvx8",
-    "title": "Make vs. n8n: Welches Tool für welchen Use Case?",
-    "description": "Ein ehrlicher Direktvergleich beider Plattformen – Pricing, Features, Skalierbarkeit und KI-Integrationsmöglichkeiten.",
-    "longDescription": "Die zwei großen Automation-Plattformen im direkten Vergleich: Make (ehemals Integromat) gegen n8n. Wir zeigen beide Tools anhand exakt derselben Use Cases und bewerten ehrlich, was wann besser funktioniert.\n\nVergleichskriterien:\n- Benutzeroberfläche und Lernkurve\n- Pricing-Modelle und wann welches günstiger wird\n- KI-Integrationen: OpenAI, Anthropic, Google AI\n- Fehlerbehandlung und Monitoring\n- Self-Hosting vs. Cloud\n- Community und Dokumentation\n- Performance bei hohem Volumen\n\nPraxisbeispiel: Wir bauen denselben Workflow in beiden Tools und vergleichen Zeit, Aufwand und Ergebnis.\n\nUnser Fazit: Wann du Make nehmen solltest und wann n8n die bessere Wahl ist.",
-    "duration": "52:10",
-    "category": "Tool-Vergleich",
-    "level": "Mittel",
-    "publishedAt": "2026-03-02",
-    "tags": ["Make", "n8n", "Vergleich", "Tool-Auswahl"],
-    "thumbnail": null
-  },
-  {
-    "slug": "ki-gesteuerte-content-pipeline",
-    "youtubeId": "dQw4w9WgXcQ",
-    "title": "KI-gesteuerte Content-Pipeline: Von Idee bis Veröffentlichung",
-    "description": "Baue eine vollautomatisierte Content-Pipeline, die Themen recherchiert, Texte schreibt, prüft und auf mehreren Kanälen veröffentlicht.",
-    "longDescription": "In diesem Praxisprojekt bauen wir gemeinsam eine vollständige Content-Produktions-Pipeline mit KI. Das Ergebnis: Ein System, das täglich frische Inhalte für Blog, LinkedIn und Newsletter produziert – vollautomatisch.\n\nArchitektur der Pipeline:\n1. Themen-Research via Perplexity API\n2. Content-Briefing-Generierung mit Claude\n3. Volltexterstellung und SEO-Optimierung\n4. Qualitätsprüfung durch zweiten KI-Agenten\n5. Automatische Veröffentlichung via CMS-API\n6. Performance-Tracking und Feedback-Loop\n\nTechnologien:\n- n8n als Orchestrierungsplattform\n- Claude 3.5 Sonnet für Content-Generierung\n- Perplexity für Recherche\n- Webflow/Ghost CMS-Integration\n\nReales Projekt aus der Praxis, nicht ein Toy-Beispiel.",
-    "duration": "1:12:33",
-    "category": "Praxisprojekt",
-    "level": "Fortgeschritten",
-    "publishedAt": "2026-03-15",
-    "tags": ["Content-Pipeline", "Praxisprojekt", "n8n", "Claude"],
+    "slug": "7-wege-effektiv-prompten",
+    "youtubeId": "FPBG_NxxB54",
+    "title": "7 Wege effektiv zu Prompten – Live Webinar \"Von Null auf KI\"",
+    "description": "Im Live-Webinar lernst du 7 bewährte Methoden für effektives Prompting – von einfachen Techniken bis zu fortgeschrittenen Strategien.",
+    "longDescription": "Effektives Prompting ist die Schlüsselkompetenz im Umgang mit KI. In diesem Webinar aus der Reihe 'Von Null auf KI' mit Workshops.DE lernst du 7 konkrete Wege, wie du bessere Ergebnisse von KI-Modellen bekommst.\n\nInhalte:\n- Die 7 wichtigsten Prompting-Techniken im Überblick\n- Zero-Shot, Few-Shot und Chain-of-Thought Prompting\n- Rollen und Kontext richtig setzen\n- Iteratives Prompting: Ergebnisse schrittweise verbessern\n- Anti-Patterns: Was du unbedingt vermeiden solltest\n- Live-Übungen und Praxisbeispiele\n- Q&A",
+    "duration": null,
+    "category": "Prompt Engineering",
+    "level": "Einsteiger",
+    "publishedAt": "2025-02-04",
+    "tags": [
+      "Webinar",
+      "Prompt Engineering",
+      "Einsteiger",
+      "Techniken"
+    ],
     "thumbnail": null
   }
 ]
