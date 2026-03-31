@@ -98,10 +98,9 @@ const otherVideos = relatedVideos.length < 3
             <div id="video-locked" class="aspect-video relative">
               <!-- Thumbnail -->
               <img
-                src={`https://img.youtube.com/vi/${youtubeId}/maxresdefault.jpg`}
+                src={`https://img.youtube.com/vi/${youtubeId}/hqdefault.jpg`}
                 alt={title}
                 class="w-full h-full object-cover"
-                onerror={`this.src='https://img.youtube.com/vi/${youtubeId}/hqdefault.jpg'`}
               />
               <!-- Dark overlay -->
               <div class="absolute inset-0 bg-black/70 flex flex-col items-center justify-center text-center p-8">
@@ -270,8 +269,8 @@ const otherVideos = relatedVideos.length < 3
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path>
       </svg>
     </div>
-    <h2 class="text-2xl font-bold text-gray-900 mb-4">Video freischalten</h2>
-    <p class="text-gray-600 mb-6">Melde dich kostenlos an, um alle Community-Videos ansehen zu können.</p>
+    <h2 class="text-2xl font-bold text-gray-900 mb-4">Mit Google anmelden</h2>
+    <p class="text-gray-600 mb-6">Melde dich kostenlos mit deinem Google-Account an, um dieses und alle weiteren Community-Videos freizuschalten.</p>
     <div id="auth-button-container"></div>
     <p class="text-sm text-gray-500 mt-4">Kostenlose Anmeldung mit Google-Account</p>
   </div>
@@ -292,8 +291,8 @@ const otherVideos = relatedVideos.length < 3
     if (locked) locked.classList.add('hidden');
     if (player) player.classList.remove('hidden');
 
-    // Lazy-load the iframe src to avoid autoplay issues
-    if (iframe && !iframe.src && iframe.dataset.src) {
+    // Always load the YouTube src (iframe.src="" resolves to page URL in browsers, not empty string)
+    if (iframe && iframe.dataset.src) {
       iframe.src = iframe.dataset.src;
     }
   }
@@ -306,8 +305,8 @@ const otherVideos = relatedVideos.length < 3
     if (player) player.classList.add('hidden');
     if (locked) locked.classList.remove('hidden');
 
-    // Pause video by clearing src
-    if (iframe) iframe.src = '';
+    // Stop playback by unloading the iframe
+    if (iframe) iframe.src = 'about:blank';
   }
 
   function updateAuthUI(authenticated: boolean, user: { displayName?: string | null; email?: string | null } | null) {
@@ -348,6 +347,9 @@ const otherVideos = relatedVideos.length < 3
 
     document.querySelectorAll('.close-modal').forEach(btn => {
       btn.addEventListener('click', hideAuthModal);
+    });
+    document.getElementById('auth-modal')?.addEventListener('click', (e) => {
+      if (e.target === e.currentTarget) hideAuthModal();
     });
 
     // Mount auth button in modal

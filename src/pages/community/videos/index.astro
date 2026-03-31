@@ -89,12 +89,10 @@ const levelColors: Record<string, string> = {
             <!-- Thumbnail -->
             <a href={`/community/videos/${video.slug}`} class="block relative aspect-video bg-gray-900 overflow-hidden">
               <img
-                src={`https://img.youtube.com/vi/${video.youtubeId}/maxresdefault.jpg`}
+                src={`https://img.youtube.com/vi/${video.youtubeId}/hqdefault.jpg`}
                 alt={video.title}
                 class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 loading="lazy"
-                onerror="this.src=`https://img.youtube.com/vi/${this.dataset.vid}/hqdefault.jpg`"
-                data-vid={video.youtubeId}
               />
               <!-- Gradient overlay -->
               <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
@@ -180,8 +178,8 @@ const levelColors: Record<string, string> = {
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path>
       </svg>
     </div>
-    <h2 class="text-2xl font-bold text-gray-900 mb-4">Premium Video-Content</h2>
-    <p class="text-gray-600 mb-6">Diese Videos sind exklusiv für Community-Mitglieder. Melde dich kostenlos an.</p>
+    <h2 class="text-2xl font-bold text-gray-900 mb-4">Mit Google anmelden</h2>
+    <p class="text-gray-600 mb-6">Melde dich kostenlos mit deinem Google-Account an, um alle Community-Videos freizuschalten.</p>
     <div id="auth-button-container"></div>
     <p class="text-sm text-gray-500 mt-4">Kostenlose Anmeldung mit Google-Account</p>
   </div>
@@ -206,11 +204,18 @@ const levelColors: Record<string, string> = {
       unlockedBanner.classList.toggle('hidden', !authenticated);
     }
 
-    // Show/hide lock overlays on thumbnails
-    document.querySelectorAll('.auth-lock-overlay').forEach(el => {
-      if (authenticated) {
-        el.remove();
-      }
+    // Remove lock overlays when authenticated
+    if (authenticated) {
+      document.querySelectorAll('.auth-lock-overlay').forEach(el => el.remove());
+    }
+  }
+
+  function setupCardClicks(authenticated: boolean) {
+    document.querySelectorAll<HTMLAnchorElement>('.video-card a').forEach(link => {
+      // Replace onclick to avoid stacking listeners
+      link.onclick = authenticated
+        ? null
+        : (e) => { e.preventDefault(); showAuthModal(); };
     });
   }
 
@@ -263,11 +268,15 @@ const levelColors: Record<string, string> = {
     onAuthStateChanged(auth, user => {
       updateAuthUI(!!user);
       if (user) hideAuthModal();
+      setupCardClicks(!!user);
     });
 
     // Modal close
     document.querySelectorAll('.close-modal').forEach(btn => {
       btn.addEventListener('click', hideAuthModal);
+    });
+    document.getElementById('auth-modal')?.addEventListener('click', (e) => {
+      if (e.target === e.currentTarget) hideAuthModal();
     });
 
     // Mount auth button in modal

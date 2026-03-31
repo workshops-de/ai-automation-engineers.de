@@ -1,8 +1,11 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import videosData from '../data/videos.json';
 
 const title = 'Mitreisen';
 const description = 'Begleite Robin Böhm auf seiner KI-Reise — exklusive Einblicke, Live-Sessions und Premium-Inhalte direkt aus der AI-Entwicklung.';
+
+const previewVideos = videosData.slice(0, 3);
 ---
 
 <BaseLayout {title} {description}>
@@ -65,9 +68,47 @@ const description = 'Begleite Robin Böhm auf seiner KI-Reise — exklusive Einb
         </a>
       </div>
 
-      <!-- Video Grid (loaded via JS, same as before) -->
+      <!-- Video Grid -->
       <div id="video-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <!-- Videos will be loaded dynamically -->
+        {previewVideos.map(video => (
+          <article class="video-card group relative bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300">
+            <a href={`/community/videos/${video.slug}`} class="block relative aspect-video bg-gray-900 overflow-hidden">
+              <img
+                src={`https://img.youtube.com/vi/${video.youtubeId}/hqdefault.jpg`}
+                alt={video.title}
+                class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                loading="lazy"
+              />
+              <div class="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors"></div>
+              <!-- Play button -->
+              <div class="absolute inset-0 flex items-center justify-center">
+                <div class="w-16 h-16 bg-white/90 rounded-full flex items-center justify-center transition-all group-hover:bg-white group-hover:scale-110 shadow-lg">
+                  <svg class="w-6 h-6 text-gray-900 ml-1" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                </div>
+              </div>
+              <!-- Lock overlay (hidden when authenticated) -->
+              <div class="auth-lock-overlay absolute inset-0 bg-black/60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                <div class="bg-white rounded-xl p-4 text-center shadow-lg">
+                  <svg class="w-8 h-8 text-gray-400 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path>
+                  </svg>
+                  <p class="text-sm font-semibold text-gray-900 mb-1">Login erforderlich</p>
+                  <p class="text-xs text-gray-500">Kostenlos anmelden</p>
+                </div>
+              </div>
+            </a>
+            <div class="p-6">
+              <h3 class="text-lg font-bold text-gray-900 mb-2 group-hover:text-orange-600 transition-colors line-clamp-2">{video.title}</h3>
+              <p class="text-gray-600 text-sm leading-relaxed mb-4 line-clamp-2">{video.description}</p>
+              <a href={`/community/videos/${video.slug}`} class="inline-flex items-center text-sm font-medium text-orange-600 hover:text-orange-800 transition-colors">
+                Details ansehen
+                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+          </article>
+        ))}
       </div>
 
       <!-- CTA to full overview -->
@@ -133,268 +174,92 @@ const description = 'Begleite Robin Böhm auf seiner KI-Reise — exklusive Einb
   </section>
 </BaseLayout>
 
-<!-- Community functionality -->
-<script>
-  import { onAuthStateChanged } from 'firebase/auth';
-  import { auth } from '../lib/firebase';
-  import { createRoot } from 'react-dom/client';
-  import AuthButtonStandalone from '../components/AuthButtonStandalone';
-
-  // Preview videos – full list at /community/videos
-  const videos = [
-    {
-      id: 'dQw4w9WgXcQ',
-      slug: 'ai-automation-grundlagen',
-      title: 'AI-Automation Grundlagen: Von Zero zu Hero in 30 Minuten',
-      description: 'Lerne die Basics der AI-Automation mit praktischen Beispielen',
-      duration: '32:15'
-    },
-    {
-      id: 'oHg5SJYRHA0',
-      slug: 'n8n-advanced-workflows',
-      title: 'n8n Advanced Workflows: Multi-Agent Orchestration',
-      description: 'Fortgeschrittene n8n-Techniken für komplexe AI-Workflows',
-      duration: '45:22'
-    },
-    {
-      id: 'kJQP7kiw5Fk',
-      slug: 'claude-code-live-session',
-      title: 'Claude Code Live: Real-world AI Coding Session',
-      description: 'Siehe einen Experten beim Live-Coding mit Claude Code',
-      duration: '58:30'
-    }
-  ];
-
-  let currentUser = null;
-
-  function createVideoCard(video, isAuth) {
-    const card = document.createElement('article');
-    card.className = 'group relative bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300';
-    
-    const thumbnail = `https://img.youtube.com/vi/${video.id}/maxresdefault.jpg`;
-    
-    card.appendChild(createVideoThumbnail(video, thumbnail, isAuth));
-    card.appendChild(createVideoInfo(video, isAuth));
-    
-    return card;
-  }
-
-  function createVideoThumbnail(video, thumbnail, isAuth) {
-    const container = document.createElement('div');
-    container.className = 'relative aspect-video bg-gray-900 overflow-hidden';
-    
-    const img = document.createElement('img');
-    img.src = thumbnail;
-    img.alt = video.title;
-    img.className = 'w-full h-full object-cover transition-transform duration-300 group-hover:scale-105';
-    img.loading = 'lazy';
-    
-    const overlay = document.createElement('div');
-    overlay.className = 'absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors';
-    
-    const playButton = document.createElement('button');
-    playButton.className = `absolute inset-0 flex items-center justify-center cursor-pointer`;
-    playButton.onclick = () => handleVideoClick(video.id, isAuth, video.slug);
-    
-    const playIcon = document.createElement('div');
-    playIcon.className = `w-16 h-16 bg-white/90 rounded-full flex items-center justify-center transition-all ${isAuth ? 'hover:bg-white hover:scale-110' : 'opacity-60'}`;
-    playIcon.innerHTML = '<svg class="w-6 h-6 text-gray-900 ml-1" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>';
-    
-    const duration = document.createElement('div');
-    duration.className = 'absolute bottom-3 right-3 bg-black/80 text-white text-sm px-2 py-1 rounded';
-    duration.textContent = video.duration;
-
-    playButton.appendChild(playIcon);
-    container.appendChild(img);
-    container.appendChild(overlay);
-    container.appendChild(playButton);
-    container.appendChild(duration);
-
-    if (!isAuth) {
-      const authOverlay = document.createElement('div');
-      authOverlay.className = 'absolute inset-0 bg-black/60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity';
-      authOverlay.innerHTML = `
-        <div class="bg-white rounded-lg p-4 max-w-xs text-center">
-          <svg class="w-8 h-8 text-gray-400 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path>
-          </svg>
-          <p class="text-sm font-medium text-gray-900 mb-1">Login erforderlich</p>
-          <p class="text-xs text-gray-600">Premium Content</p>
-        </div>
-      `;
-      container.appendChild(authOverlay);
-    }
-    
-    return container;
-  }
-
-  function createVideoInfo(video, isAuth) {
-    const container = document.createElement('div');
-    container.className = 'p-6';
-    
-    const title = document.createElement('h3');
-    title.className = 'text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors';
-    title.textContent = video.title;
-    
-    const description = document.createElement('p');
-    description.className = 'text-gray-600 leading-relaxed mb-4';
-    description.textContent = video.description;
-    
-    const button = document.createElement('button');
-    button.className = `inline-flex items-center font-medium transition-colors ${
-      isAuth ? 'text-blue-600 hover:text-blue-800' : 'text-gray-400 cursor-not-allowed'
-    }`;
-    button.onclick = () => handleVideoClick(video.id, isAuth, video.slug);
-    button.innerHTML = `
-      Details ansehen
-      <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-      </svg>
-    `;
-    
-    container.appendChild(title);
-    container.appendChild(description);
-    container.appendChild(button);
-    
-    return container;
-  }
-
-  function handleVideoClick(videoId, isAuth, slug) {
-    if (slug) {
-      window.location.href = `/community/videos/${slug}`;
-    } else if (isAuth) {
-      const videoUrl = `https://www.youtube.com/watch?v=${videoId}`;
-      window.open(videoUrl, '_blank', 'width=1280,height=720,scrollbars=yes,resizable=yes');
-    } else {
-      showAuthModal();
-    }
-  }
-
-  function showAuthModal() {
-    const modal = document.getElementById('auth-modal');
-    if (modal) {
-      modal.classList.remove('hidden');
-    }
-  }
-
-  function hideAuthModal() {
-    const modal = document.getElementById('auth-modal');
-    if (modal) {
-      modal.classList.add('hidden');
-    }
-  }
-
-  function renderVideoGrid(isAuthenticated) {
-    const grid = document.getElementById('video-grid');
-    if (!grid) return;
-    
-    grid.replaceChildren();
-    
-    videos.forEach(video => {
-      const card = createVideoCard(video, isAuthenticated);
-      grid.appendChild(card);
-    });
-  }
-
-  // Initialize when DOM is ready
-  document.addEventListener('DOMContentLoaded', function() {
-    // Initial render
-    renderVideoGrid(false);
-    
-    // Listen for auth state changes
-    onAuthStateChanged(auth, (user) => {
-      currentUser = user;
-      renderVideoGrid(!!user);
-      
-      if (user) {
-        hideAuthModal();
-        document.getElementById('auth-section')?.classList.add('hidden');
-        showWelcomeMessage(user);
-      } else {
-        document.getElementById('auth-section')?.classList.remove('hidden');
-        hideWelcomeMessage();
-      }
-    });
-
-    // Close modal handlers
-    const closeButtons = document.querySelectorAll('.close-modal');
-    closeButtons.forEach(button => {
-      button.addEventListener('click', hideAuthModal);
-    });
-  });
-
-  function showWelcomeMessage(user) {
-    let welcome = document.getElementById('welcome-message');
-    if (!welcome) {
-      welcome = document.createElement('div');
-      welcome.id = 'welcome-message';
-      welcome.className = 'bg-green-50 border-l-4 border-green-400 p-4 mb-8';
-      document.getElementById('video-grid')?.parentNode?.insertBefore(welcome, document.getElementById('video-grid'));
-    }
-    
-    welcome.innerHTML = `
-      <div class="flex items-center">
-        <svg class="w-6 h-6 text-green-400 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-        </svg>
-        <p class="text-green-800">
-          <strong>Willkommen zurück, ${user.displayName || user.email?.split('@')[0]}!</strong> 
-          Du hast vollen Zugang zu allen Premium-Videos.
-        </p>
-      </div>
-    `;
-  }
-
-  function hideWelcomeMessage() {
-    const welcome = document.getElementById('welcome-message');
-    if (welcome) {
-      welcome.remove();
-    }
-  }
-
-  // Make functions globally available
-  window.showAuthModal = showAuthModal;
-  window.hideAuthModal = hideAuthModal;
-</script>
-
 <!-- Auth Modal -->
 <div id="auth-modal" class="fixed inset-0 bg-black/50 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
-  <div class="bg-white rounded-xl p-8 max-w-md w-full text-center">
-    <button class="close-modal absolute top-4 right-4 text-gray-400 hover:text-gray-600">
+  <div class="relative bg-white rounded-2xl p-8 max-w-md w-full text-center shadow-2xl">
+    <button class="close-modal absolute top-4 right-4 text-gray-400 hover:text-gray-600 transition-colors">
       <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
       </svg>
     </button>
-
     <div class="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-6">
       <svg class="w-8 h-8 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path>
       </svg>
     </div>
-    <h2 class="text-2xl font-bold text-gray-900 mb-4">Premium Video-Content</h2>
+    <h2 class="text-2xl font-bold text-gray-900 mb-4">Mit Google anmelden</h2>
     <p class="text-gray-600 mb-6">
-      Diese Videos sind exklusiv für Community-Mitglieder. Melde dich kostenlos an, um Zugang zu erhalten.
+      Melde dich kostenlos mit deinem Google-Account an, um Zugang zu allen Community-Videos zu erhalten.
     </p>
     <div id="auth-button-container"></div>
-    <p class="text-sm text-gray-500 mt-4">
-      Kostenlose Anmeldung mit Google-Account
-    </p>
+    <p class="text-sm text-gray-500 mt-4">Kostenlose Anmeldung · Kein Passwort nötig</p>
   </div>
 </div>
 
-<!-- Mount Auth Button -->
 <script>
+  import { onAuthStateChanged } from 'firebase/auth';
+  import { auth } from '../lib/firebase';
   import { createRoot } from 'react-dom/client';
+  import React from 'react';
   import AuthButtonStandalone from '../components/AuthButtonStandalone';
 
-  // Mount auth button in modal
-  const authContainer = document.getElementById('auth-button-container');
-  if (authContainer) {
-    const root = createRoot(authContainer);
-    root.render(React.createElement(AuthButtonStandalone, {
-      className: 'w-full justify-center text-lg px-8 py-4'
-    }));
+  let isAuthenticated = false;
+
+  function showAuthModal() {
+    document.getElementById('auth-modal')?.classList.remove('hidden');
   }
+
+  function hideAuthModal() {
+    document.getElementById('auth-modal')?.classList.add('hidden');
+  }
+
+  document.addEventListener('DOMContentLoaded', () => {
+    // Mount Google auth button in modal
+    const container = document.getElementById('auth-button-container');
+    if (container) {
+      const root = createRoot(container);
+      root.render(React.createElement(AuthButtonStandalone, {
+        className: 'w-full justify-center text-lg px-8 py-4'
+      }));
+    }
+
+    // Close modal on button click
+    document.querySelectorAll('.close-modal').forEach(btn => {
+      btn.addEventListener('click', hideAuthModal);
+    });
+
+    // Close modal on backdrop click
+    document.getElementById('auth-modal')?.addEventListener('click', (e) => {
+      if (e.target === e.currentTarget) hideAuthModal();
+    });
+
+    // Intercept video card clicks: show auth modal when not logged in
+    document.querySelectorAll('.video-card a').forEach(link => {
+      link.addEventListener('click', (e) => {
+        if (!isAuthenticated) {
+          e.preventDefault();
+          showAuthModal();
+        }
+      });
+    });
+
+    // Auth state
+    onAuthStateChanged(auth, (user) => {
+      isAuthenticated = !!user;
+
+      if (user) {
+        hideAuthModal();
+        document.getElementById('auth-section')?.classList.add('hidden');
+        // Remove lock overlays from video cards
+        document.querySelectorAll('.auth-lock-overlay').forEach(el => el.remove());
+      } else {
+        document.getElementById('auth-section')?.classList.remove('hidden');
+      }
+    });
+  });
+
+  (window as unknown as Record<string, unknown>).showAuthModal = showAuthModal;
+  (window as unknown as Record<string, unknown>).hideAuthModal = hideAuthModal;
 </script>
 
 <style>
