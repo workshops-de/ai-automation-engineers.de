@@ -3,52 +3,6 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
 const title = 'Community';
 const description = 'Werde Teil unserer exklusiven AI-Automation Engineers Community und erhalte Zugang zu Premium-Inhalten, Tutorials und Live-Sessions.';
-
-// Sample community videos
-const communityVideos = [
-  {
-    id: 'dQw4w9WgXcQ',
-    title: 'AI-Automation Grundlagen: Von Zero zu Hero in 30 Minuten',
-    description: 'Lerne die Basics der AI-Automation mit praktischen Beispielen',
-    duration: '32:15',
-    thumbnail: `https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg`
-  },
-  {
-    id: 'oHg5SJYRHA0',
-    title: 'n8n Advanced Workflows: Multi-Agent Orchestration',
-    description: 'Fortgeschrittene n8n-Techniken für komplexe AI-Workflows',
-    duration: '45:22',
-    thumbnail: `https://img.youtube.com/vi/oHg5SJYRHA0/maxresdefault.jpg`
-  },
-  {
-    id: 'kJQP7kiw5Fk',
-    title: 'Claude Code Live: Real-world AI Coding Session',
-    description: 'Siehe einen Experten beim Live-Coding mit Claude Code',
-    duration: '58:30',
-    thumbnail: `https://img.youtube.com/vi/kJQP7kiw5Fk/maxresdefault.jpg`
-  },
-  {
-    id: 'ScMzIvxBSi4',
-    title: 'MCP Server Development Workshop',
-    description: 'Baue deinen eigenen MCP Server von Grund auf',
-    duration: '67:45',
-    thumbnail: `https://img.youtube.com/vi/ScMzIvxBSi4/maxresdefault.jpg`
-  },
-  {
-    id: '2vjPBrBU-TM',
-    title: 'GitHub Copilot Enterprise Secrets',
-    description: 'Insider-Tipps für maximale Produktivität mit Copilot',
-    duration: '38:12',
-    thumbnail: `https://img.youtube.com/vi/2vjPBrBU-TM/maxresdefault.jpg`
-  },
-  {
-    id: 'fJ9rUzIMcZQ',
-    title: 'Cursor vs Claude Code: Der ultimative Vergleich',
-    description: 'Detaillierter Vergleich der beiden AI-Coding-Tools',
-    duration: '42:08',
-    thumbnail: `https://img.youtube.com/vi/fJ9rUzIMcZQ/maxresdefault.jpg`
-  }
-];
 ---
 
 <BaseLayout {title} {description}>
@@ -77,10 +31,12 @@ const communityVideos = [
 
         <!-- Auth Section -->
         <div class="max-w-md mx-auto">
-          <div id="auth-section" class="auth-required">
+          <div id="auth-section">
             <div class="bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-white/20">
               <p class="text-white mb-4">Melde dich an für Zugang zur Community</p>
-              <div id="auth-component-mount"></div>
+              <button onclick="showAuthModal()" class="w-full bg-orange-500 hover:bg-orange-600 text-white font-semibold px-8 py-4 rounded-lg transition-colors">
+                Mit Google anmelden
+              </button>
             </div>
           </div>
         </div>
@@ -99,64 +55,8 @@ const communityVideos = [
       </div>
 
       <!-- Video Grid -->
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {communityVideos.map((video) => (
-          <article class="group relative bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300">
-            <div class="relative aspect-video bg-gray-900 overflow-hidden">
-              <img 
-                src={video.thumbnail} 
-                alt={video.title}
-                class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
-                loading="lazy"
-              />
-              <div class="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors"></div>
-              
-              <!-- Play button overlay -->
-              <div class="absolute inset-0 flex items-center justify-center">
-                <div class="w-16 h-16 bg-white/90 rounded-full flex items-center justify-center cursor-pointer hover:bg-white video-play-btn" data-video-id={video.id}>
-                  <svg class="w-6 h-6 text-gray-900 ml-1" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M8 5v14l11-7z"/>
-                  </svg>
-                </div>
-              </div>
-
-              <!-- Duration badge -->
-              <div class="absolute bottom-3 right-3 bg-black/80 text-white text-sm px-2 py-1 rounded">
-                {video.duration}
-              </div>
-
-              <!-- Login overlay (hidden by default, shown via CSS) -->
-              <div class="auth-overlay absolute inset-0 bg-black/60 flex items-center justify-center">
-                <div class="bg-white rounded-lg p-6 max-w-sm text-center">
-                  <svg class="w-12 h-12 text-gray-400 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path>
-                  </svg>
-                  <h3 class="text-lg font-semibold text-gray-900 mb-2">Login erforderlich</h3>
-                  <p class="text-gray-600 text-sm mb-4">Melde dich an, um Zugang zu unseren Premium-Videos zu erhalten</p>
-                  <button class="auth-trigger bg-orange-500 text-white px-4 py-2 rounded-lg hover:bg-orange-600 transition-colors">
-                    Jetzt anmelden
-                  </button>
-                </div>
-              </div>
-            </div>
-            
-            <div class="p-6">
-              <h3 class="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
-                {video.title}
-              </h3>
-              <p class="text-gray-600 leading-relaxed">
-                {video.description}
-              </p>
-              
-              <button class="video-watch-btn mt-4 inline-flex items-center text-blue-600 hover:text-blue-800 font-medium" data-video-id={video.id}>
-                Video ansehen
-                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-                </svg>
-              </button>
-            </div>
-          </article>
-        ))}
+      <div id="video-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Videos will be loaded by React component -->
       </div>
     </div>
   </section>
@@ -209,18 +109,262 @@ const communityVideos = [
   </section>
 </BaseLayout>
 
-<!-- Community Video Grid Component -->
-<div id="community-video-grid"></div>
+<!-- Community functionality -->
+<script>
+  import { onAuthStateChanged } from 'firebase/auth';
+  import { auth } from '../lib/firebase';
+  import { createRoot } from 'react-dom/client';
+  import AuthButtonStandalone from '../components/AuthButtonStandalone';
 
+  // Sample videos data
+  const videos = [
+    {
+      id: 'dQw4w9WgXcQ',
+      title: 'AI-Automation Grundlagen: Von Zero zu Hero in 30 Minuten',
+      description: 'Lerne die Basics der AI-Automation mit praktischen Beispielen',
+      duration: '32:15'
+    },
+    {
+      id: 'oHg5SJYRHA0',
+      title: 'n8n Advanced Workflows: Multi-Agent Orchestration',
+      description: 'Fortgeschrittene n8n-Techniken für komplexe AI-Workflows',
+      duration: '45:22'
+    },
+    {
+      id: 'kJQP7kiw5Fk',
+      title: 'Claude Code Live: Real-world AI Coding Session',
+      description: 'Siehe einen Experten beim Live-Coding mit Claude Code',
+      duration: '58:30'
+    }
+  ];
+
+  let currentUser = null;
+
+  function createVideoCard(video, isAuth) {
+    const card = document.createElement('article');
+    card.className = 'group relative bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300';
+    
+    const thumbnail = `https://img.youtube.com/vi/${video.id}/maxresdefault.jpg`;
+    
+    card.appendChild(createVideoThumbnail(video, thumbnail, isAuth));
+    card.appendChild(createVideoInfo(video, isAuth));
+    
+    return card;
+  }
+
+  function createVideoThumbnail(video, thumbnail, isAuth) {
+    const container = document.createElement('div');
+    container.className = 'relative aspect-video bg-gray-900 overflow-hidden';
+    
+    const img = document.createElement('img');
+    img.src = thumbnail;
+    img.alt = video.title;
+    img.className = 'w-full h-full object-cover transition-transform duration-300 group-hover:scale-105';
+    img.loading = 'lazy';
+    
+    const overlay = document.createElement('div');
+    overlay.className = 'absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors';
+    
+    const playButton = document.createElement('button');
+    playButton.className = `absolute inset-0 flex items-center justify-center ${isAuth ? 'cursor-pointer' : 'cursor-not-allowed'}`;
+    playButton.onclick = () => handleVideoClick(video.id, isAuth);
+    
+    const playIcon = document.createElement('div');
+    playIcon.className = `w-16 h-16 bg-white/90 rounded-full flex items-center justify-center transition-all ${isAuth ? 'hover:bg-white hover:scale-110' : 'opacity-60'}`;
+    playIcon.innerHTML = '<svg class="w-6 h-6 text-gray-900 ml-1" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>';
+    
+    const duration = document.createElement('div');
+    duration.className = 'absolute bottom-3 right-3 bg-black/80 text-white text-sm px-2 py-1 rounded';
+    duration.textContent = video.duration;
+
+    playButton.appendChild(playIcon);
+    container.appendChild(img);
+    container.appendChild(overlay);
+    container.appendChild(playButton);
+    container.appendChild(duration);
+
+    if (!isAuth) {
+      const authOverlay = document.createElement('div');
+      authOverlay.className = 'absolute inset-0 bg-black/60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity';
+      authOverlay.innerHTML = `
+        <div class="bg-white rounded-lg p-4 max-w-xs text-center">
+          <svg class="w-8 h-8 text-gray-400 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path>
+          </svg>
+          <p class="text-sm font-medium text-gray-900 mb-1">Login erforderlich</p>
+          <p class="text-xs text-gray-600">Premium Content</p>
+        </div>
+      `;
+      container.appendChild(authOverlay);
+    }
+    
+    return container;
+  }
+
+  function createVideoInfo(video, isAuth) {
+    const container = document.createElement('div');
+    container.className = 'p-6';
+    
+    const title = document.createElement('h3');
+    title.className = 'text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors';
+    title.textContent = video.title;
+    
+    const description = document.createElement('p');
+    description.className = 'text-gray-600 leading-relaxed mb-4';
+    description.textContent = video.description;
+    
+    const button = document.createElement('button');
+    button.className = `inline-flex items-center font-medium transition-colors ${
+      isAuth ? 'text-blue-600 hover:text-blue-800' : 'text-gray-400 cursor-not-allowed'
+    }`;
+    button.onclick = () => handleVideoClick(video.id, isAuth);
+    button.innerHTML = `
+      ${isAuth ? 'Video ansehen' : 'Login erforderlich'}
+      <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+      </svg>
+    `;
+    
+    container.appendChild(title);
+    container.appendChild(description);
+    container.appendChild(button);
+    
+    return container;
+  }
+
+  function handleVideoClick(videoId, isAuth) {
+    if (isAuth) {
+      const videoUrl = `https://www.youtube.com/watch?v=${videoId}`;
+      window.open(videoUrl, '_blank', 'width=1280,height=720,scrollbars=yes,resizable=yes');
+    } else {
+      showAuthModal();
+    }
+  }
+
+  function showAuthModal() {
+    const modal = document.getElementById('auth-modal');
+    if (modal) {
+      modal.classList.remove('hidden');
+    }
+  }
+
+  function hideAuthModal() {
+    const modal = document.getElementById('auth-modal');
+    if (modal) {
+      modal.classList.add('hidden');
+    }
+  }
+
+  function renderVideoGrid(isAuthenticated) {
+    const grid = document.getElementById('video-grid');
+    if (!grid) return;
+    
+    grid.replaceChildren();
+    
+    videos.forEach(video => {
+      const card = createVideoCard(video, isAuthenticated);
+      grid.appendChild(card);
+    });
+  }
+
+  // Initialize when DOM is ready
+  document.addEventListener('DOMContentLoaded', function() {
+    // Initial render
+    renderVideoGrid(false);
+    
+    // Listen for auth state changes
+    onAuthStateChanged(auth, (user) => {
+      currentUser = user;
+      renderVideoGrid(!!user);
+      
+      if (user) {
+        hideAuthModal();
+        document.getElementById('auth-section')?.classList.add('hidden');
+        showWelcomeMessage(user);
+      } else {
+        document.getElementById('auth-section')?.classList.remove('hidden');
+        hideWelcomeMessage();
+      }
+    });
+
+    // Close modal handlers
+    const closeButtons = document.querySelectorAll('.close-modal');
+    closeButtons.forEach(button => {
+      button.addEventListener('click', hideAuthModal);
+    });
+  });
+
+  function showWelcomeMessage(user) {
+    let welcome = document.getElementById('welcome-message');
+    if (!welcome) {
+      welcome = document.createElement('div');
+      welcome.id = 'welcome-message';
+      welcome.className = 'bg-green-50 border-l-4 border-green-400 p-4 mb-8';
+      document.getElementById('video-grid')?.parentNode?.insertBefore(welcome, document.getElementById('video-grid'));
+    }
+    
+    welcome.innerHTML = `
+      <div class="flex items-center">
+        <svg class="w-6 h-6 text-green-400 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+        </svg>
+        <p class="text-green-800">
+          <strong>Willkommen zurück, ${user.displayName || user.email?.split('@')[0]}!</strong> 
+          Du hast vollen Zugang zu allen Premium-Videos.
+        </p>
+      </div>
+    `;
+  }
+
+  function hideWelcomeMessage() {
+    const welcome = document.getElementById('welcome-message');
+    if (welcome) {
+      welcome.remove();
+    }
+  }
+
+  // Make functions globally available
+  window.showAuthModal = showAuthModal;
+  window.hideAuthModal = hideAuthModal;
+</script>
+
+<!-- Auth Modal -->
+<div id="auth-modal" class="fixed inset-0 bg-black/50 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
+  <div class="bg-white rounded-xl p-8 max-w-md w-full text-center">
+    <button class="close-modal absolute top-4 right-4 text-gray-400 hover:text-gray-600">
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+      </svg>
+    </button>
+
+    <div class="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-6">
+      <svg class="w-8 h-8 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path>
+      </svg>
+    </div>
+    <h2 class="text-2xl font-bold text-gray-900 mb-4">Premium Video-Content</h2>
+    <p class="text-gray-600 mb-6">
+      Diese Videos sind exklusiv für Community-Mitglieder. Melde dich kostenlos an, um Zugang zu erhalten.
+    </p>
+    <div id="auth-button-container"></div>
+    <p class="text-sm text-gray-500 mt-4">
+      Kostenlose Anmeldung mit Google-Account
+    </p>
+  </div>
+</div>
+
+<!-- Mount Auth Button -->
 <script>
   import { createRoot } from 'react-dom/client';
-  import CommunityVideoGrid from '../components/CommunityVideoGrid';
+  import AuthButtonStandalone from '../components/AuthButtonStandalone';
 
-  // Mount the community component
-  const container = document.getElementById('community-video-grid');
-  if (container) {
-    const root = createRoot(container);
-    root.render(React.createElement(CommunityVideoGrid));
+  // Mount auth button in modal
+  const authContainer = document.getElementById('auth-button-container');
+  if (authContainer) {
+    const root = createRoot(authContainer);
+    root.render(React.createElement(AuthButtonStandalone, {
+      className: 'w-full justify-center text-lg px-8 py-4'
+    }));
   }
 </script>
 
