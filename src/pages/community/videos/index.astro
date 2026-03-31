@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import videos from '../../../data/videos.json';
+import AuthButtonStandalone from '../../../components/AuthButtonStandalone';
 
 const title = 'Community Videos – Lernvideos für AI-Automation Engineers';
 const description = 'Exklusive Video-Tutorials für Community-Mitglieder: Deep-Dives, Live-Sessions und Praxisprojekte rund um AI-Automation.';
@@ -180,17 +181,14 @@ const levelColors: Record<string, string> = {
     </div>
     <h2 class="text-2xl font-bold text-gray-900 mb-4">Mit Google anmelden</h2>
     <p class="text-gray-600 mb-6">Melde dich kostenlos mit deinem Google-Account an, um alle Community-Videos freizuschalten.</p>
-    <div id="auth-button-container"></div>
-    <p class="text-sm text-gray-500 mt-4">Kostenlose Anmeldung mit Google-Account</p>
+    <AuthButtonStandalone client:load className="w-full justify-center text-lg px-8 py-4" />
+    <p class="text-sm text-gray-500 mt-4">Kostenlose Anmeldung · Kein Passwort nötig</p>
   </div>
 </div>
 
 <script>
   import { onAuthStateChanged } from 'firebase/auth';
   import { auth } from '../../../lib/firebase';
-  import { createRoot } from 'react-dom/client';
-  import React from 'react';
-  import AuthButtonStandalone from '../../../components/AuthButtonStandalone';
 
   let isAuthenticated = false;
 
@@ -227,67 +225,62 @@ const levelColors: Record<string, string> = {
     document.getElementById('auth-modal')?.classList.add('hidden');
   }
 
-  document.addEventListener('DOMContentLoaded', () => {
-    // Tag filter
-    const filters = document.querySelectorAll<HTMLButtonElement>('.tag-filter');
-    const cards = document.querySelectorAll<HTMLElement>('.video-card');
-    const countEl = document.getElementById('visible-count');
+  // Astro <script> tags run as deferred ES modules – DOM is already ready here,
+  // so DOMContentLoaded has already fired. Run setup directly.
 
-    function applyActiveStyle(btn: HTMLButtonElement, active: boolean) {
-      btn.dataset.active = active ? 'true' : 'false';
-      if (active) {
-        btn.classList.add('bg-gray-900', 'text-white', 'border-gray-900');
-        btn.classList.remove('text-gray-600', 'border-gray-300');
-      } else {
-        btn.classList.remove('bg-gray-900', 'text-white', 'border-gray-900');
-        btn.classList.add('text-gray-600', 'border-gray-300');
-      }
+  // Tag filter
+  const filters = document.querySelectorAll<HTMLButtonElement>('.tag-filter');
+  const cards = document.querySelectorAll<HTMLElement>('.video-card');
+  const countEl = document.getElementById('visible-count');
+
+  function applyActiveStyle(btn: HTMLButtonElement, active: boolean) {
+    if (active) {
+      btn.classList.add('bg-gray-900', 'text-white', 'border-gray-900');
+      btn.classList.remove('text-gray-600', 'border-gray-300');
+    } else {
+      btn.classList.remove('bg-gray-900', 'text-white', 'border-gray-900');
+      btn.classList.add('text-gray-600', 'border-gray-300');
     }
+  }
 
-    // Set initial "Alle" button as active
-    filters.forEach(btn => applyActiveStyle(btn, btn.dataset.tag === 'Alle'));
-
-    filters.forEach(btn => {
-      btn.addEventListener('click', () => {
-        const tag = btn.dataset.tag;
-        filters.forEach(b => applyActiveStyle(b, false));
-        applyActiveStyle(btn, true);
-
-        let count = 0;
-        cards.forEach(card => {
-          const tags: string[] = JSON.parse(card.dataset.tags ?? '[]');
-          const show = tag === 'Alle' || tags.includes(tag!);
-          card.style.display = show ? '' : 'none';
-          if (show) count++;
-        });
-        if (countEl) countEl.textContent = String(count);
-      });
+  function filterByTag(tag: string) {
+    let count = 0;
+    cards.forEach(card => {
+      const cardTags: string[] = JSON.parse(card.dataset.tags ?? '[]');
+      const show = tag === 'Alle' || cardTags.includes(tag);
+      card.style.display = show ? '' : 'none';
+      if (show) count++;
     });
+    if (countEl) countEl.textContent = String(count);
+  }
 
-    // Auth state
-    onAuthStateChanged(auth, user => {
-      updateAuthUI(!!user);
-      if (user) hideAuthModal();
-      setupCardClicks(!!user);
-    });
+  // Set "Alle" active on load and show all cards
+  filters.forEach(btn => applyActiveStyle(btn, btn.dataset.tag === 'Alle'));
+  filterByTag('Alle');
 
-    // Modal close
-    document.querySelectorAll('.close-modal').forEach(btn => {
-      btn.addEventListener('click', hideAuthModal);
+  filters.forEach(btn => {
+    btn.addEventListener('click', () => {
+      filters.forEach(b => applyActiveStyle(b, false));
+      applyActiveStyle(btn, true);
+      filterByTag(btn.dataset.tag ?? 'Alle');
     });
-    document.getElementById('auth-modal')?.addEventListener('click', (e) => {
-      if (e.target === e.currentTarget) hideAuthModal();
-    });
-
-    // Mount auth button in modal
-    const container = document.getElementById('auth-button-container');
-    if (container) {
-      const root = createRoot(container);
-      root.render(React.createElement(AuthButtonStandalone, {
-        className: 'w-full justify-center text-lg px-8 py-4'
-      }));
-    }
   });
+
+  // Auth state
+  onAuthStateChanged(auth, user => {
+    updateAuthUI(!!user);
+    if (user) hideAuthModal();
+    setupCardClicks(!!user);
+  });
+
+  // Modal close
+  document.querySelectorAll('.close-modal').forEach(btn => {
+    btn.addEventListener('click', hideAuthModal);
+  });
+  document.getElementById('auth-modal')?.addEventListener('click', (e) => {
+    if (e.target === e.currentTarget) hideAuthModal();
+  });
+
 
   (window as unknown as Record<string, unknown>).showAuthModal = showAuthModal;
   (window as unknown as Record<string, unknown>).hideAuthModal = hideAuthModal;

@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import videos from '../../../data/videos.json';
+import AuthButtonStandalone from '../../../components/AuthButtonStandalone';
 
 export function getStaticPaths() {
   return videos.map(video => ({
@@ -271,17 +272,14 @@ const otherVideos = relatedVideos.length < 3
     </div>
     <h2 class="text-2xl font-bold text-gray-900 mb-4">Mit Google anmelden</h2>
     <p class="text-gray-600 mb-6">Melde dich kostenlos mit deinem Google-Account an, um dieses und alle weiteren Community-Videos freizuschalten.</p>
-    <div id="auth-button-container"></div>
-    <p class="text-sm text-gray-500 mt-4">Kostenlose Anmeldung mit Google-Account</p>
+    <AuthButtonStandalone client:load className="w-full justify-center text-lg px-8 py-4" />
+    <p class="text-sm text-gray-500 mt-4">Kostenlose Anmeldung · Kein Passwort nötig</p>
   </div>
 </div>
 
 <script>
   import { onAuthStateChanged } from 'firebase/auth';
   import { auth } from '../../../lib/firebase';
-  import { createRoot } from 'react-dom/client';
-  import React from 'react';
-  import AuthButtonStandalone from '../../../components/AuthButtonStandalone';
 
   function showVideo() {
     const locked = document.getElementById('video-locked');
@@ -352,14 +350,6 @@ const otherVideos = relatedVideos.length < 3
       if (e.target === e.currentTarget) hideAuthModal();
     });
 
-    // Mount auth button in modal
-    const container = document.getElementById('auth-button-container');
-    if (container) {
-      const root = createRoot(container);
-      root.render(React.createElement(AuthButtonStandalone, {
-        className: 'w-full justify-center text-lg px-8 py-4'
-      }));
-    }
   });
 
   (window as unknown as Record<string, unknown>).showAuthModal = showAuthModal;

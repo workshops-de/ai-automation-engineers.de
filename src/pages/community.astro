@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import videosData from '../data/videos.json';
+import AuthButtonStandalone from '../components/AuthButtonStandalone';
 
 const title = 'Mitreisen';
 const description = 'Begleite Robin Böhm auf seiner KI-Reise — exklusive Einblicke, Live-Sessions und Premium-Inhalte direkt aus der AI-Entwicklung.';
@@ -191,7 +192,7 @@ const previewVideos = videosData.slice(0, 3);
     <p class="text-gray-600 mb-6">
       Melde dich kostenlos mit deinem Google-Account an, um Zugang zu allen Community-Videos zu erhalten.
     </p>
-    <div id="auth-button-container"></div>
+    <AuthButtonStandalone client:load className="w-full justify-center text-lg px-8 py-4" />
     <p class="text-sm text-gray-500 mt-4">Kostenlose Anmeldung · Kein Passwort nötig</p>
   </div>
 </div>
@@ -199,9 +200,6 @@ const previewVideos = videosData.slice(0, 3);
 <script>
   import { onAuthStateChanged } from 'firebase/auth';
   import { auth } from '../lib/firebase';
-  import { createRoot } from 'react-dom/client';
-  import React from 'react';
-  import AuthButtonStandalone from '../components/AuthButtonStandalone';
 
   let isAuthenticated = false;
 
@@ -214,15 +212,6 @@ const previewVideos = videosData.slice(0, 3);
   }
 
   document.addEventListener('DOMContentLoaded', () => {
-    // Mount Google auth button in modal
-    const container = document.getElementById('auth-button-container');
-    if (container) {
-      const root = createRoot(container);
-      root.render(React.createElement(AuthButtonStandalone, {
-        className: 'w-full justify-center text-lg px-8 py-4'
-      }));
-    }
-
     // Close modal on button click
     document.querySelectorAll('.close-modal').forEach(btn => {
       btn.addEventListener('click', hideAuthModal);
