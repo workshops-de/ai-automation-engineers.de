@@ -6,6 +6,9 @@ import react from '@astrojs/react';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://ai-automation-engineers.de',
+  redirects: {
+    '/blog': '/news'
+  },
   integrations: [
     tailwind(),
     sitemap({
