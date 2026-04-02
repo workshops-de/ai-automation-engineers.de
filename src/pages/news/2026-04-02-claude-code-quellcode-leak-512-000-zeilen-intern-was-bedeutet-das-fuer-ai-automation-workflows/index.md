@@ -22,8 +22,11 @@ Am 31. März 2026 wurde bei einem Routine-Update der npm-Version 2.1.88 von Clau
 Der Vorfall ist für Automatisierungs-Teams aus zwei Gründen relevant: Er enthüllt, **wie Claude Code intern funktioniert** – und er stellt Fragen zur **Robustheit von KI-basierten Pipelines**.
 ### Was der Leak über Claude Code verrät
 Claude Code ist keine einfache Chat-Integration. Der nun sichtbare Code zeigt eine komplexe Agentenarchitektur:
+
 **Self-Healing Memory**: Claude Code verwaltet seinen Kontext dynamisch über Kontextfenster-Grenzen hinaus. Das erklärt, warum der Agent bei langen Coding-Sessions konsistent bleibt – intern werden Zustand und Kontext aktiv gemanagt.
+
 **44 versteckte Feature-Flags**: Viele davon betreffen Workflow-Integrationen und unveröffentlichte Fähigkeiten. Für Teams, die Claude Code in CI/CD-Pipelines oder agentic Workflows (z. B. via n8n, Make oder eigene Orchestratoren) einsetzen, bedeutet das: Das Tool kann deutlich mehr, als in der offiziellen Dokumentation sichtbar ist.
+
 **Slash-Commands und Built-in-Tools**: Die Architektur zeigt, wie interne Tools strukturiert und aufgerufen werden – eine plugin-artige Struktur mit ca. 40 Tools (~29.000 Zeilen Code), in der jede Fähigkeit ein diskretes, berechtigungs-gesteuertes Tool ist. Das ist direkt relevant für alle, die Claude in eigene Automatisierungs-Stacks einbinden.
 ### Workflow-Implikationen: Was du jetzt wissen solltest
 ```
@@ -35,6 +38,7 @@ Claude Code CLI (TypeScript, 1.900 Dateien)
           └── Bidirektionale Kommunikationsschicht (IDE ↔ Claude CLI)
 ```
 Für Automation-Stacks mit Claude Code bedeutet der Leak:
+
 1. **Keine unmittelbaren Sicherheitsrisiken**: Anthropic bestätigt, dass keine API-Keys, Kundendaten oder Modell-Gewichte betroffen sind. Bestehende Integrationen können bedenkenlos weiterlaufen.
 2. **Wettbewerbs-Exposition**: Die interne Architektur ist nun für Konkurrenten und Open-Source-Entwickler einsehbar. Open-Source-Alternativen könnten sich in den kommenden Monaten deutlich beschleunigen.
 3. **DMCA-Limits**: Die Unterlassungserklärungen zeigen, wie schnell proprietärer Code im Open-Web landet. Für eigene Tools und Integrationen ist das eine Erinnerung, `.npmignore`-Konfigurationen und Build-Prozesse zu überprüfen.
