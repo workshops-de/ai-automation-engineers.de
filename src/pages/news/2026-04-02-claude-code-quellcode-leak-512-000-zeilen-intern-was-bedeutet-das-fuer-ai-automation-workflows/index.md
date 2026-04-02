@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Automation', 'Technology']
 category: 'Technology'
 readTime: '5 min read'
-image: 'https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.unsplash.com/photo-1504639725590-34d0984388bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1200&h=600'
 ---
 
 **TL;DR:** Anthropic hat versehentlich den vollständigen Quellcode seines KI-Agenten Claude Code via NPM veröffentlicht – 512.000 Zeilen TypeScript, 44 versteckte Feature-Flags, unbekannte interne Tools. Für Teams, die Claude in Automatisierungs-Stacks einsetzen, entstehen daraus konkrete Erkenntnisse und neue Risikofragen.

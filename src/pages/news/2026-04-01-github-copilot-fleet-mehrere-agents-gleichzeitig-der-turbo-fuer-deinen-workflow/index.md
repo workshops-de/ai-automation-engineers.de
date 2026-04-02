@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Automation', 'Technology']
 category: 'Technology'
 readTime: '5 min read'
-image: 'https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.unsplash.com/photo-1607706189992-eae578626c86?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1200&h=600'
 ---
 
 **TL;DR:** Mit dem neuen `/fleet`-Slash-Command in GitHub Copilot CLI laufen mehrere Sub-Agents gleichzeitig auf verschiedenen Dateien und Modulen. Ein Orchestrator zerlegt Tasks, dispatcht sie parallel und synthetisiert die Ergebnisse – das bedeutet: Refactoring, Tests und Docs in einem einzigen Prompt, zur gleichen Zeit.

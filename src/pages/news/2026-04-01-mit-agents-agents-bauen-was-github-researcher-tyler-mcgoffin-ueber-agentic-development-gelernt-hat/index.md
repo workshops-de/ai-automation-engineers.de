@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Automation', 'Technology']
 category: 'Technology'
 readTime: '5 min read'
-image: 'https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.unsplash.com/photo-1485827404703-89b55fcc595e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1200&h=600'
 ---
 
 **TL;DR:** Tyler McGoffin vom GitHub Copilot Applied Science Team hat Coding Agents genutzt, um Agents zu bauen – und dabei ein Framework aus Prompting-, Architektur- und Iterations-Strategien entwickelt, das sein Team in unter drei Tagen zu +28.858 Zeilen Code in 345 Dateien gebracht hat. Die Kernbotschaft: Die Prinzipien, die großartige Engineers ausmachen, sind dieselben, die Agents großartig machen.

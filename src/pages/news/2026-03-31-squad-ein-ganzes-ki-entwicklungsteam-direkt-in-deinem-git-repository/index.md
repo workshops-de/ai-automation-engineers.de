@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Automation', 'Technology']
 category: 'Technology'
 readTime: '5 min read'
-image: 'https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1200&h=600'
 ---
 
 **TL;DR:** Squad ist ein Open-Source CLI & SDK, das dir ein vollständiges KI-Entwicklungsteam aus Frontend-Entwickler, Backend-Entwickler, Tester und Tech Lead als Dateien direkt in dein Git-Repository bringt. Zwei Befehle genügen – und GitHub Copilot orchestriert fortan mehrere spezialisierte Agenten parallel für dich.

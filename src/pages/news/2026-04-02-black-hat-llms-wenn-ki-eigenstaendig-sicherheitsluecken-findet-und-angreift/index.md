@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Automation', 'Technology']
 category: 'Technology'
 readTime: '5 min read'
-image: 'https://images.unsplash.com/photo-1631128028285-953f85b273fe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MTM4MjZ8MHwxfHNlYXJjaHwxfHxCbGFja2hhdCUyMExMTXMlMjBXZW5uJTIwS0klMjBUTERSJTIwTmljaG9sYXMlMjBDYXJsaW5pfGVufDF8MHx8fDE3NzUwOTk2NzF8MA&ixlib=rb-4.1.0&q=80&w=1080'
+image: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1200&h=600'
 ---
 
 **TL;DR:** Nicholas Carlini, Research Scientist bei Anthropic, zeigt auf der [un]prompted 2026 Konferenz, dass aktuelle LLMs ohne Sicherheitsfilter eigenständig Zero-Day-Vulnerabilities in Software identifizieren und ausnutzen können – und das in einem Maßstab, der bisherige Bedrohungsmodelle grundlegend verändert.

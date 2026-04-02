@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Automation', 'Technology']
 category: 'Technology'
 readTime: '5 min read'
-image: 'https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1200&h=600'
 ---
 
 **TL;DR:** Mistral AI finanziert 13.800 Nvidia-GB300-GPUs für ein neues Rechenzentrum bei Paris – das bedeutet mehr Rechenkapazität, stabilere APIs und leistungsfähigere Modelle für alle, die Mistral in ihre Automation-Workflows integriert haben. Europas KI-Souveränität bekommt damit ein konkretes Fundament.

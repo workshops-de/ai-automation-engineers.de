@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Automation', 'Technology']
 category: 'Technology'
 readTime: '5 min read'
-image: 'https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&dpr=2'
+image: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1200&h=600'
 ---
 
 **TL;DR:** Anthropics Claude Code dominiert seit 2025 den Enterprise-Coding-Markt mit über 2,5 Mrd. Dollar annualisiertem Umsatz – fast ein Fünftel des gesamten Anthropic-Umsatzes. OpenAI holt mit Codex und dem neuen Modell GPT-5.2 stark auf. Das Duell der beiden Coding-Agenten transformiert gerade die gesamte Art, wie Software gebaut wird – und verändert damit auch jeden Automatisierungs-Stack.
