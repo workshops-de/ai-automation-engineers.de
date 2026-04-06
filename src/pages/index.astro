@@ -45,7 +45,11 @@ const blogPosts = allPosts.filter(post => {
   };
 }).sort((a, b) => {
   return new Date(b.publishDate).getTime() - new Date(a.publishDate).getTime();
-}).slice(0, 3); // Get only the latest 3 posts
+});
+
+const totalPostsCount = blogPosts.length;
+
+const latestBlogPosts = blogPosts.slice(0, 3); // Get only the latest 3 posts
 ---
 
 <BaseLayout {title} {description}>
@@ -115,7 +119,7 @@ const blogPosts = allPosts.filter(post => {
           <div class="text-xl text-gray-600">Tools erkundet</div>
         </div>
         <div class="animate-fade-in-up animation-delay-400">
-          <div class="text-5xl font-bold text-gray-900 mb-4">450+</div>
+          <div class="text-5xl font-bold text-gray-900 mb-4">{totalPostsCount}</div>
           <div class="text-xl text-gray-600">Berichte veröffentlicht</div>
         </div>
       </div>
@@ -168,7 +172,7 @@ const blogPosts = allPosts.filter(post => {
   </section>
 
   <!-- Latest Insights -->
-  {blogPosts.length > 0 && (
+  {latestBlogPosts.length > 0 && (
   <section class="py-32 bg-white">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-20">
@@ -181,7 +185,7 @@ const blogPosts = allPosts.filter(post => {
       </div>
 
       <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
-        {blogPosts.map((post, index) => (
+        {latestBlogPosts.map((post, index) => (
           <article class="group animate-fade-in-up" style={`animation-delay: ${index * 200}ms`}>
             <a href={post.url} class="block">
               <div class="aspect-[4/3] bg-gray-100 rounded-2xl overflow-hidden mb-6 group-hover:scale-105 transition-transform duration-300">
