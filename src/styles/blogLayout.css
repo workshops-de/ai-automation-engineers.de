@@ -354,6 +354,36 @@
   }
 }
 
+/* AI Generated Content Notice */
+.ai-notice {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  background-color: #fffbeb;
+  border: 1px solid #fcd34d;
+  border-radius: 0.5rem;
+  padding: 0.875rem 1rem;
+  margin-top: 1.5rem;
+}
+
+.ai-notice-icon {
+  font-size: 1.25rem;
+  flex-shrink: 0;
+  line-height: 1.4;
+}
+
+.ai-notice-text {
+  font-size: 0.875rem;
+  color: #92400e;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.ai-notice-text strong {
+  color: #78350f;
+  font-weight: 600;
+}
+
 /* Technical Review Log Collapsible Section */
 .technical-review-log-section {
   margin-top: 3rem;
