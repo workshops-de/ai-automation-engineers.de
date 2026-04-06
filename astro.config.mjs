@@ -29,7 +29,7 @@ export default defineConfig({
         // Higher priority for news posts
         else if (item.url.includes('/news')) {
           item.priority = 0.8;
-          item.changefreq = 'monthly';
+          item.changefreq = ' ';
         }
         // Legacy blog redirects (lower priority)
         else if (item.url.includes('/blog')) {

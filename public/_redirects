@@ -12,5 +12,6 @@ https://www.ai-automation-engineers.de/* https://ai-automation-engineers.de/:spl
 /profiles/* /profile 301
 /admin/* /profile 301
 
-# Blog post redirects (if you change URL structure later)
-# /old-blog/* /blog/:splat 301
+# Blog to news redirects (URL migration)
+/blog/* /news/:splat 301
+/blog /news 301

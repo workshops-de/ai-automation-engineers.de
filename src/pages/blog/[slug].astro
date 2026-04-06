@@ -1,0 +1,30 @@
+---
+export async function getStaticPaths() {
+  const articles = import.meta.glob('../news/*/index.md');
+
+  const slugs = Object.keys(articles).map((path) => {
+    const parts = path.split('/');
+    return parts[parts.length - 2];
+  });
+
+  return slugs.map((slug) => ({ params: { slug } }));
+}
+
+const { slug } = Astro.params;
+const redirectUrl = `/news/${slug}/`;
+---
+
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="refresh" content={`0;url=${redirectUrl}`} />
+    <link rel="canonical" href={redirectUrl} />
+    <title>Weiterleitung...</title>
+  </head>
+  <body>
+    <p>
+      Diese Seite wurde verschoben. Weiterleitung zu
+      <a href={redirectUrl}>{redirectUrl}</a>...
+    </p>
+  </body>
+</html>
