@@ -174,30 +174,21 @@ const blogPosts = allPosts.filter(post => {
   </section>
 
 <script>
-  // WebMCP: handle agent-invoked newsletter form submission on news page
+  // WebMCP: handle agent-invoked submissions on the news newsletter form.
+  // respondWith() MUST be called synchronously (before any await) per spec.
   document.addEventListener("DOMContentLoaded", () => {
     const form = document.getElementById("newsletter-form-news") as HTMLFormElement | null;
     if (!form) return;
 
     form.addEventListener("submit", (rawEvent) => {
-      const event = rawEvent as typeof rawEvent & {
-        agentInvoked?: boolean;
-        respondWith?: (r: Promise<unknown> | unknown) => void;
-      };
-
+      const event = rawEvent as WebMCPSubmitEvent;
       if (!event.agentInvoked) return;
 
       event.preventDefault();
-      const fd = new FormData(form);
-      const email = fd.get("email") as string;
+      const email = (new FormData(form).get("email") as string) ?? "";
 
       event.respondWith?.({
-        content: [
-          {
-            type: "text",
-            text: `Newsletter subscription submitted for ${email}. Please check your inbox to confirm.`,
-          },
-        ],
+        content: [{ type: "text", text: `Newsletter subscription submitted for ${email}. Please check your inbox to confirm.` }],
       });
     });
   });
