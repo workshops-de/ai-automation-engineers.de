@@ -1,6 +1,7 @@
 ---
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import WebMCPProvider from '../components/WebMCPProvider.astro';
 import '../styles/global.css';
 
 export interface Props {
@@ -123,6 +124,9 @@ const pageSchema = schema || {
   
   <!-- Sitemap -->
   <link rel="sitemap" href="/sitemap-0.xml">
+
+  <!-- WebMCP discovery link -->
+  <link rel="webmcp" href="/.well-known/webmcp" type="application/json">
   
   <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
@@ -169,5 +173,8 @@ const pageSchema = schema || {
   
   <!-- 100% privacy-first analytics -->
   <script async src="https://sa.workshops.de/latest.js"></script>
+
+  <!-- WebMCP: imperative tools + visual feedback for Chrome 146+ AI agents -->
+  <WebMCPProvider />
 </body>
 </html>

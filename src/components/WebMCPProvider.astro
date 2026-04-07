@@ -1,0 +1,230 @@
+---
+/**
+ * WebMCPProvider — injects WebMCP support for Chrome 146+ AI agents.
+ *
+ * Responsibilities:
+ *  1. Inject :tool-form-active / :tool-submit-active CSS at runtime
+ *     (build-time CSS parsers reject unknown pseudo-classes).
+ *  2. Register site-wide imperative tools via navigator.modelContext.
+ *  3. Listen for custom bridge events dispatched by page-specific forms
+ *     so that execute() callbacks can return results to the agent.
+ *
+ * Usage: place once inside <BaseLayout />, just before </body>.
+ */
+---
+
+<script>
+  import type {} from "../types/webmcp";
+
+  // ─── 1. Runtime CSS for WebMCP visual feedback ──────────────────────────────
+  (function injectWebMCPStyles() {
+    if (document.querySelector("style[data-webmcp]")) return;
+
+    const style = document.createElement("style");
+    style.setAttribute("data-webmcp", "true");
+    style.textContent = [
+      "*:tool-form-active {",
+      "  outline: 2px solid rgba(59, 130, 246, 0.6);",
+      "  outline-offset: 3px;",
+      "  box-shadow: 0 0 0 5px rgba(59, 130, 246, 0.12);",
+      "  transition: outline 0.15s ease, box-shadow 0.15s ease;",
+      "}",
+      "*:tool-submit-active {",
+      "  background: linear-gradient(110deg, #2563eb 30%, #60a5fa 50%, #2563eb 70%) !important;",
+      "  background-size: 200% 100% !important;",
+      "  animation: webmcp-shimmer 1.5s infinite linear !important;",
+      "  color: #fff !important;",
+      "}",
+      "@keyframes webmcp-shimmer {",
+      "  to { background-position: -200% center; }",
+      "}",
+    ].join("\n");
+
+    document.head.appendChild(style);
+  })();
+
+  // ─── 2. Helper: dispatch-and-wait bridge ────────────────────────────────────
+  function dispatchAndWait(
+    eventName: string,
+    detail: Record<string, unknown>,
+    timeoutMs = 30_000,
+  ): Promise<string> {
+    return new Promise((resolve, reject) => {
+      const requestId = Math.random().toString(36).slice(2, 15);
+      const completionEvent = `webmcp-completion-${requestId}`;
+      let timer: ReturnType<typeof setTimeout>;
+
+      function onDone(e: Event) {
+        clearTimeout(timer);
+        window.removeEventListener(completionEvent, onDone);
+        const ev = e as CustomEvent<{ result: string }>;
+        resolve(ev.detail?.result ?? "Action completed.");
+      }
+
+      window.addEventListener(completionEvent, onDone);
+
+      timer = setTimeout(() => {
+        window.removeEventListener(completionEvent, onDone);
+        reject(new Error(`WebMCP tool timed out: ${eventName}`));
+      }, timeoutMs);
+
+      window.dispatchEvent(
+        new CustomEvent(eventName, { detail: { ...detail, requestId } }),
+      );
+    });
+  }
+
+  // ─── 3. Register imperative tools ───────────────────────────────────────────
+  // Guard prevents duplicate registration (e.g. Astro view transitions).
+  const REGISTERED_KEY = "__webmcp_tools_registered__";
+  if (!((window as Record<string, unknown>)[REGISTERED_KEY] as boolean)) {
+    (window as Record<string, unknown>)[REGISTERED_KEY] = true;
+
+    const mc = navigator.modelContext;
+    if (mc) {
+      // Tool: navigate_to_page
+      mc.registerTool({
+        name: "navigate_to_page",
+        description:
+          "Navigate the browser to a specific page on the AI-Automation-Engineers.de website.",
+        inputSchema: {
+          type: "object",
+          properties: {
+            page: {
+              type: "string",
+              description:
+                "Target page. Allowed values: 'home', 'news', 'lernpfade', 'community'.",
+              enum: ["home", "news", "lernpfade", "community"],
+            },
+          },
+          required: ["page"],
+        },
+        execute(params) {
+          const routes: Record<string, string> = {
+            home: "/",
+            news: "/news",
+            lernpfade: "/lernpfade",
+            community: "/community",
+          };
+          const route = routes[params.page as string];
+          if (!route) {
+            return {
+              content: [
+                {
+                  type: "text",
+                  text: `Unknown page "${params.page}". Valid options: home, news, lernpfade, community.`,
+                },
+              ],
+            };
+          }
+          window.location.href = route;
+          return {
+            content: [
+              {
+                type: "text",
+                text: `Navigating to ${route}`,
+              },
+            ],
+          };
+        },
+      });
+
+      // Tool: subscribe_newsletter (imperative path — complements the declarative form)
+      mc.registerTool({
+        name: "subscribe_newsletter_api",
+        description:
+          "Subscribe a user to the AI-Automation-Engineers.de newsletter programmatically. Use this when the user wants to sign up for the dispatch/newsletter.",
+        inputSchema: {
+          type: "object",
+          properties: {
+            email: {
+              type: "string",
+              format: "email",
+              description: "The email address to subscribe.",
+            },
+          },
+          required: ["email"],
+        },
+        execute(params) {
+          return dispatchAndWait("webmcp:subscribe_newsletter", {
+            email: params.email,
+          });
+        },
+      });
+
+      // Tool: search_news (navigates to /news with a query hint)
+      mc.registerTool({
+        name: "search_news",
+        description:
+          "Navigate to the AI news page and optionally highlight a search term.",
+        inputSchema: {
+          type: "object",
+          properties: {
+            query: {
+              type: "string",
+              description: "Optional search keyword to look for in news articles.",
+            },
+          },
+          required: [],
+        },
+        execute(params) {
+          const url = params.query
+            ? `/news#search=${encodeURIComponent(params.query as string)}`
+            : "/news";
+          window.location.href = url;
+          return {
+            content: [
+              {
+                type: "text",
+                text: params.query
+                  ? `Navigating to news page and searching for "${params.query}".`
+                  : "Navigating to the news page.",
+              },
+            ],
+          };
+        },
+      });
+    }
+  }
+
+  // ─── 4. Newsletter subscription bridge ──────────────────────────────────────
+  // Listens for the webmcp:subscribe_newsletter event and fulfils it by
+  // targeting the nearest newsletter form on the current page.
+  window.addEventListener("webmcp:subscribe_newsletter", (e) => {
+    const ev = e as CustomEvent<{ email: string; requestId: string }>;
+    const { email, requestId } = ev.detail;
+
+    const emailInputs = document.querySelectorAll<HTMLInputElement>(
+      'input[type="email"]',
+    );
+
+    let submitted = false;
+    for (const input of emailInputs) {
+      const form = input.closest("form");
+      if (!form) continue;
+
+      input.value = email;
+      input.dispatchEvent(new Event("input", { bubbles: true }));
+      input.dispatchEvent(new Event("change", { bubbles: true }));
+
+      // Attempt programmatic submit
+      const submitEvent = new SubmitEvent("submit", {
+        bubbles: true,
+        cancelable: true,
+      });
+      form.dispatchEvent(submitEvent);
+      submitted = true;
+      break;
+    }
+
+    const result = submitted
+      ? `Newsletter subscription submitted for ${email}. Please check your inbox to confirm.`
+      : `Could not find a newsletter form on this page. Please navigate to the home or news page first.`;
+
+    window.dispatchEvent(
+      new CustomEvent(`webmcp-completion-${requestId}`, {
+        detail: { result },
+      }),
+    );
+  });
+</script>
