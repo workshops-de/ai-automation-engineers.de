@@ -311,10 +311,9 @@ const previewVideos = videosData.slice(0, 3);
 <script>
   // WebMCP: page-specific imperative tools for the community page
   document.addEventListener("DOMContentLoaded", () => {
-    const mc = (navigator as Navigator & { modelContext?: { registerTool: (t: unknown) => void } }).modelContext;
+    const mc = navigator.modelContext;
     if (!mc) return;
 
-    // Avoid duplicate registration if the global provider already ran
     if ((window as Record<string, unknown>).__webmcp_community_tools__) return;
     (window as Record<string, unknown>).__webmcp_community_tools__ = true;
 
@@ -332,11 +331,11 @@ const previewVideos = videosData.slice(0, 3);
         if (showModal) {
           showModal();
           return {
-            content: [{ type: "text", text: "Sign-in dialog opened. The user can now authenticate with Google." }],
+            content: [{ type: "text" as const, text: "Sign-in dialog opened. The user can now authenticate with Google." }],
           };
         }
         return {
-          content: [{ type: "text", text: "Could not open the sign-in dialog. Please try refreshing the page." }],
+          content: [{ type: "text" as const, text: "Could not open the sign-in dialog. Please try refreshing the page." }],
         };
       },
     });
@@ -353,7 +352,7 @@ const previewVideos = videosData.slice(0, 3);
       execute() {
         window.location.href = "/community/videos";
         return {
-          content: [{ type: "text", text: "Navigating to the community video library." }],
+          content: [{ type: "text" as const, text: "Navigating to the community video library." }],
         };
       },
     });

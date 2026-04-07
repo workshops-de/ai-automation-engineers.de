@@ -14,9 +14,9 @@
 ---
 
 <script>
-  import type {} from "../types/webmcp";
-
   // ─── 1. Runtime CSS for WebMCP visual feedback ──────────────────────────────
+  // Must be injected at runtime: build-time CSS parsers reject unknown
+  // pseudo-classes such as :tool-form-active and :tool-submit-active.
   (function injectWebMCPStyles() {
     if (document.querySelector("style[data-webmcp]")) return;
 
@@ -44,11 +44,13 @@
   })();
 
   // ─── 2. Helper: dispatch-and-wait bridge ────────────────────────────────────
+  // Allows imperative tool execute() callbacks to wait for a result from a
+  // page-level event listener (e.g. after a form submission completes).
   function dispatchAndWait(
     eventName: string,
     detail: Record<string, unknown>,
     timeoutMs = 30_000,
-  ): Promise<string> {
+  ): Promise<WebMCPToolResult> {
     return new Promise((resolve, reject) => {
       const requestId = Math.random().toString(36).slice(2, 15);
       const completionEvent = `webmcp-completion-${requestId}`;
@@ -58,7 +60,8 @@
         clearTimeout(timer);
         window.removeEventListener(completionEvent, onDone);
         const ev = e as CustomEvent<{ result: string }>;
-        resolve(ev.detail?.result ?? "Action completed.");
+        const text = ev.detail?.result ?? "Action completed.";
+        resolve({ content: [{ type: "text", text }] });
       }
 
       window.addEventListener(completionEvent, onDone);
@@ -75,7 +78,7 @@
   }
 
   // ─── 3. Register imperative tools ───────────────────────────────────────────
-  // Guard prevents duplicate registration (e.g. Astro view transitions).
+  // Guard prevents duplicate registration across Astro page navigations.
   const REGISTERED_KEY = "__webmcp_tools_registered__";
   if (!((window as Record<string, unknown>)[REGISTERED_KEY] as boolean)) {
     (window as Record<string, unknown>)[REGISTERED_KEY] = true;
@@ -111,7 +114,7 @@
             return {
               content: [
                 {
-                  type: "text",
+                  type: "text" as const,
                   text: `Unknown page "${params.page}". Valid options: home, news, lernpfade, community.`,
                 },
               ],
@@ -119,17 +122,13 @@
           }
           window.location.href = route;
           return {
-            content: [
-              {
-                type: "text",
-                text: `Navigating to ${route}`,
-              },
-            ],
+            content: [{ type: "text" as const, text: `Navigating to ${route}` }],
           };
         },
       });
 
-      // Tool: subscribe_newsletter (imperative path — complements the declarative form)
+      // Tool: subscribe_newsletter_api — imperative complement to the declarative forms.
+      // Returns a proper WebMCPToolResult (not a plain string) via dispatchAndWait.
       mc.registerTool({
         name: "subscribe_newsletter_api",
         description:
@@ -139,7 +138,6 @@
           properties: {
             email: {
               type: "string",
-              format: "email",
               description: "The email address to subscribe.",
             },
           },
@@ -152,17 +150,17 @@
         },
       });
 
-      // Tool: search_news (navigates to /news with a query hint)
+      // Tool: search_news
       mc.registerTool({
         name: "search_news",
         description:
-          "Navigate to the AI news page and optionally highlight a search term.",
+          "Navigate to the AI news page and optionally filter by a search term.",
         inputSchema: {
           type: "object",
           properties: {
             query: {
               type: "string",
-              description: "Optional search keyword to look for in news articles.",
+              description: "Optional keyword to search for in news articles.",
             },
           },
           required: [],
@@ -175,7 +173,7 @@
           return {
             content: [
               {
-                type: "text",
+                type: "text" as const,
                 text: params.query
                   ? `Navigating to news page and searching for "${params.query}".`
                   : "Navigating to the news page.",
@@ -188,8 +186,8 @@
   }
 
   // ─── 4. Newsletter subscription bridge ──────────────────────────────────────
-  // Listens for the webmcp:subscribe_newsletter event and fulfils it by
-  // targeting the nearest newsletter form on the current page.
+  // Receives the webmcp:subscribe_newsletter event (fired by subscribe_newsletter_api)
+  // and resolves it by filling and submitting the newsletter form on the current page.
   window.addEventListener("webmcp:subscribe_newsletter", (e) => {
     const ev = e as CustomEvent<{ email: string; requestId: string }>;
     const { email, requestId } = ev.detail;
@@ -207,12 +205,7 @@
       input.dispatchEvent(new Event("input", { bubbles: true }));
       input.dispatchEvent(new Event("change", { bubbles: true }));
 
-      // Attempt programmatic submit
-      const submitEvent = new SubmitEvent("submit", {
-        bubbles: true,
-        cancelable: true,
-      });
-      form.dispatchEvent(submitEvent);
+      form.dispatchEvent(new SubmitEvent("submit", { bubbles: true, cancelable: true }));
       submitted = true;
       break;
     }
@@ -222,9 +215,7 @@
       : `Could not find a newsletter form on this page. Please navigate to the home or news page first.`;
 
     window.dispatchEvent(
-      new CustomEvent(`webmcp-completion-${requestId}`, {
-        detail: { result },
-      }),
+      new CustomEvent(`webmcp-completion-${requestId}`, { detail: { result } }),
     );
   });
 </script>
