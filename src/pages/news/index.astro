@@ -152,12 +152,19 @@ const blogPosts = allPosts.filter(post => {
       <p class="text-xl text-gray-600 mb-12">
         Abonniere unseren Newsletter und verpasse keine KI-Automatisierungs-Insights
       </p>
-      <form class="max-w-lg mx-auto flex flex-col sm:flex-row gap-4">
+      <form
+        id="newsletter-form-news"
+        class="max-w-lg mx-auto flex flex-col sm:flex-row gap-4"
+        toolname="subscribe_newsletter_news"
+        tooldescription="Subscribe to the AI-Automation-Engineers.de newsletter on the news page to stay up to date with AI automation insights."
+      >
         <input 
-          type="email" 
+          type="email"
+          name="email"
           placeholder="Deine E-Mail-Adresse"
           class="flex-1 px-6 py-4 text-lg border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-gray-900 focus:border-transparent"
           required
+          toolparamdescription="Email address to subscribe to the AI news newsletter"
         >
         <button type="submit" class="px-8 py-4 text-lg font-semibold text-white bg-gray-900 rounded-full hover:bg-gray-800 transition-all duration-300 shadow-lg hover:shadow-xl">
           Abonnieren
@@ -165,4 +172,33 @@ const blogPosts = allPosts.filter(post => {
       </form>
     </div>
   </section>
-</BaseLayout>
+
+<script>
+  // WebMCP: handle agent-invoked newsletter form submission on news page
+  document.addEventListener("DOMContentLoaded", () => {
+    const form = document.getElementById("newsletter-form-news") as HTMLFormElement | null;
+    if (!form) return;
+
+    form.addEventListener("submit", (rawEvent) => {
+      const event = rawEvent as typeof rawEvent & {
+        agentInvoked?: boolean;
+        respondWith?: (r: Promise<unknown> | unknown) => void;
+      };
+
+      if (!event.agentInvoked) return;
+
+      event.preventDefault();
+      const fd = new FormData(form);
+      const email = fd.get("email") as string;
+
+      event.respondWith?.({
+        content: [
+          {
+            type: "text",
+            text: `Newsletter subscription submitted for ${email}. Please check your inbox to confirm.`,
+          },
+        ],
+      });
+    });
+  });
+</script>

@@ -1,0 +1,43 @@
+{
+  "spec": "webmcp/0.1",
+  "site": {
+    "name": "AI-Automation-Engineers.de",
+    "version": "2026.04",
+    "description": "Community-Portal für KI-Automation-Engineers. Reiseberichte, News und Schulungen rund um KI-Entwicklung und Automatisierung.",
+    "lang": "de",
+    "pages": [
+      {
+        "url": "/",
+        "intents": ["subscribe_newsletter"]
+      },
+      {
+        "url": "/news",
+        "intents": ["search_articles", "subscribe_newsletter"]
+      },
+      {
+        "url": "/lernpfade",
+        "intents": ["browse_learning_paths"]
+      },
+      {
+        "url": "/community",
+        "intents": ["browse_videos", "login"]
+      }
+    ],
+    "flows": [
+      {
+        "id": "newsletter_signup",
+        "description": "Subscribe to the AI automation newsletter to receive travel reports and insights.",
+        "steps": [
+          { "intent": "subscribe_newsletter", "page": "/" }
+        ]
+      },
+      {
+        "id": "browse_news",
+        "description": "Browse and search AI news articles and updates.",
+        "steps": [
+          { "intent": "search_articles", "page": "/news" }
+        ]
+      }
+    ]
+  }
+}

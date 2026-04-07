@@ -307,4 +307,55 @@ const previewVideos = videosData.slice(0, 3);
     }
   }
 </style>
-</BaseLayout>
+
+<script>
+  // WebMCP: page-specific imperative tools for the community page
+  document.addEventListener("DOMContentLoaded", () => {
+    const mc = (navigator as Navigator & { modelContext?: { registerTool: (t: unknown) => void } }).modelContext;
+    if (!mc) return;
+
+    // Avoid duplicate registration if the global provider already ran
+    if ((window as Record<string, unknown>).__webmcp_community_tools__) return;
+    (window as Record<string, unknown>).__webmcp_community_tools__ = true;
+
+    mc.registerTool({
+      name: "open_login_dialog",
+      description:
+        "Open the sign-in dialog on the community page so the user can authenticate with Google to access exclusive AI learning videos.",
+      inputSchema: {
+        type: "object",
+        properties: {},
+        required: [],
+      },
+      execute() {
+        const showModal = (window as Record<string, unknown>).showAuthModal as (() => void) | undefined;
+        if (showModal) {
+          showModal();
+          return {
+            content: [{ type: "text", text: "Sign-in dialog opened. The user can now authenticate with Google." }],
+          };
+        }
+        return {
+          content: [{ type: "text", text: "Could not open the sign-in dialog. Please try refreshing the page." }],
+        };
+      },
+    });
+
+    mc.registerTool({
+      name: "browse_videos",
+      description:
+        "Navigate to the full community video library on AI-Automation-Engineers.de.",
+      inputSchema: {
+        type: "object",
+        properties: {},
+        required: [],
+      },
+      execute() {
+        window.location.href = "/community/videos";
+        return {
+          content: [{ type: "text", text: "Navigating to the community video library." }],
+        };
+      },
+    });
+  });
+</script>
