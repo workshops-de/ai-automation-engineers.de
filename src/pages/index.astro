@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import TelegramCTA from '../components/TelegramCTA.astro';
 
 const title = 'AI Automation Engineers — Reiseberichte aus der KI-Welt';
 const description = 'Robin Böhm berichtet live aus der KI-Entwicklung — Tools, Agenten, Gedanken und Erkenntnisse für Developer. Regelmäßig neue Berichte.';
@@ -230,28 +231,8 @@ const latestBlogPosts = blogPosts.slice(0, 3); // Get only the latest 3 posts
   </section>
   )}
 
-  <!-- Newsletter/Dispatch Section -->
-  <section class="py-32 bg-gray-900 text-white">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-      <h2 class="text-5xl sm:text-6xl font-bold mb-8">
-        Dispatch abonnieren.
-      </h2>
-      <p class="text-xl text-gray-300 mb-12 max-w-3xl mx-auto">
-        Immer wenn ich etwas Relevantes auf meiner KI-Reise entdecke, schreibe ich darüber — neue Tools, ehrliche Einschätzungen, Gedanken die mich beschäftigen. Kein fixer Rhythmus, kein Hype. Nur was wirklich relevant ist.
-      </p>
-      <div class="max-w-lg mx-auto flex flex-col sm:flex-row gap-4">
-        <input 
-          type="email" 
-          placeholder="Deine E-Mail für die Reiseberichte"
-          class="flex-1 px-6 py-4 text-lg border border-gray-600 rounded-full bg-gray-800 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-white focus:border-transparent"
-          required
-        >
-        <button class="px-8 py-4 text-lg font-semibold text-gray-900 bg-white rounded-full hover:bg-gray-100 transition-all duration-300 shadow-lg hover:shadow-xl">
-          Dabei sein
-        </button>
-      </div>
-    </div>
-  </section>
+  <!-- Telegram CTA Section -->
+  <TelegramCTA variant="dark" />
 </BaseLayout>
 
 <style>
