@@ -17,11 +17,11 @@ Diese Woche war wieder vollgepackt mit spannenden Entwicklungen im Bereich AI-Au
 
 ## Mit diesen Themen wollen wir dir die wichtigsten News der Woche zeigen:
 
-- **Anthropic**: Anthropic's Claude kann jetzt deinen Desktop autonom steuern - von der mobilen App aus
-- **GitHub**: Das neue Copilot SDK transformiert GitHub Issue Management durch AI-powered Automation
-- **Google**: Google Stitch revolutioniert UI-Design mit KI: Von Prompt zu Production-Ready Code in Minuten
-- **Karpathy**: Andrej Karpathy präsentiert AutoResearch - AI-Agenten die autonom forschen, optimieren und 11% Effizienzgewinn erzielen
-- **GitHub**: GitHub Advanced Security erweitert mit AI-gestützten Detections die automatisierte Vulnerability-Erkennung
+- **AWS/Amazon**: Nova Canvas VTO-Stack revolutioniert Retail-KI – serverlos, deploybar mit einem Kommando, bis zu 30% Retourenersparnis
+- **OpenAI**: 13-seitiges Policy Paper setzt Agenda für KI-Governance, Compliance und demokratischen KI-Zugang
+- **Anthropic**: Claude Computer Use & Dispatch: Desktop-Automatisierung per Smartphone für autonome Workflows
+- **Open Source**: collabmem gibt KI-Agenten dauerhaftes sitzungsübergreifendes Gedächtnis ohne Cloud-Infrastruktur
+- **GitHub**: AI-powered Security Detection spart 80% Triage-Zeit – Copilot Autofix automatisiert Vulnerability-Remediation
 
 ---
 
@@ -32,11 +32,11 @@ Diese Woche war wieder vollgepackt mit spannenden Entwicklungen im Bereich AI-Au
 **Was ist passiert?** Anthropic's Claude kann jetzt deinen Desktop autonom steuern - von der mobilen App aus. Zeitersparnis von bis zu 80% bei Routine-Tasks ohne API-Integration.
 
 **Warum ist das wichtig?**
-- {{BUSINESS_IMPACT_1_1}}
-- {{AUTOMATION_POTENTIAL_1}}
-- {{ENTERPRISE_RELEVANCE_1}}
+- Unternehmen mit Legacy-Systemen ohne API können Routine-Tasks vollständig automatisieren – ohne 50.000€-RPA-Lizenzkosten
+- 80% Zeitersparnis bei wiederkehrenden Desktop-Tasks wie ERP-Exports, Formular-Ausfüllungen und Daten-Transfers ohne API-Konfiguration
+- Claude Pro/Max-Abonnenten können seit März 2026 Desktop-Workflows vom Smartphone aus per Dispatch delegieren – kein Setup, kein Port-Forwarding
 
-**Für wen?** AI-Automation Engineers, {{TARGET_AUDIENCE_1}}
+**Für wen?** AI-Automation Engineers, Business Process Manager, IT-Abteilungen mit Legacy-System-Herausforderungen
 
 [Weiterlesen →](/blog/2026-03-27-claude-uebernimmt-deinen-mac-computer-use-dispatch-fuer-autonome-workflows/)
 
@@ -47,11 +47,11 @@ Diese Woche war wieder vollgepackt mit spannenden Entwicklungen im Bereich AI-Au
 **Was ist passiert?** GitHub Advanced Security erweitert mit AI-gestützten Detections die automatisierte Vulnerability-Erkennung. Taskflow Agents und Copilot Autofix transformieren DevSecOps-Workflows.
 
 **Warum ist das wichtig?**
-- {{BUSINESS_IMPACT_2_1}}
-- {{AUTOMATION_POTENTIAL_2}}
-- {{ENTERPRISE_RELEVANCE_2}}
+- 60% Reduktion der Mean-Time-to-Remediation (MTTR) durch Copilot Autofix – nachgewiesen über 170.000 Findings in internen Tests
+- Security Campaigns ermöglichen Bulk-Remediation von bis zu 1.000 Code-Scanning-Alerts gleichzeitig mit 80%+ positivem Developer-Feedback
+- Remediation-Rate steigt von 10% auf bis zu 55% durch automatisierte Triage – Public Preview für Q2 2026 geplant
 
-**Für wen?** AI-Automation Engineers, {{TARGET_AUDIENCE_2}}
+**Für wen?** AI-Automation Engineers, DevSecOps-Teams, Security Engineers, Development Leads
 
 [Weiterlesen →](/blog/2026-03-27-github-revolutioniert-security-automation-ai-powered-detection-spart-80-triage-zeit/)
 
@@ -62,11 +62,11 @@ Diese Woche war wieder vollgepackt mit spannenden Entwicklungen im Bereich AI-Au
 **Was ist passiert?** Andrej Karpathy präsentiert AutoResearch - AI-Agenten die autonom forschen, optimieren und 11% Effizienzgewinn erzielen. Das bedeutet die Loop-Ära.
 
 **Warum ist das wichtig?**
-- {{BUSINESS_IMPACT_3_1}}
-- {{AUTOMATION_POTENTIAL_3}}
-- {{ENTERPRISE_RELEVANCE_3}}
+- Was früher 3-4 ML-Engineers über Wochen optimierten, läuft jetzt autonom über Nacht – Shopify erzielte mit demselben Pattern 53% schnellere Rendering-Performance
+- 630 Zeilen Python genügen, um 50+ Experimente über Nacht zu starten und einen nachgewiesenen 11% Effizienzgewinn zu erzielen
+- Das Loop-Pattern gilt für alle scorierebaren Tasks weit über ML-Training hinaus: von Optimierungs-Workflows bis zu DevOps-Pipelines
 
-**Für wen?** AI-Automation Engineers, {{TARGET_AUDIENCE_3}}
+**Für wen?** AI-Automation Engineers, ML-Engineers, KI-Forscher, Teams mit iterativen Optimierungs-Aufgaben
 
 [Weiterlesen →](/blog/2026-03-27-karpathy-zeigt-die-zukunft-50-ai-experimente-ueber-nacht-automatisiert/)
 
@@ -86,46 +86,46 @@ Google Stitch revolutioniert UI-Design mit KI: Von Prompt zu Production-Ready Co
 
 ## 💰 Investment & Infrastruktur
 
-### {{COMPANY}} investiert {{AMOUNT}} in {{AREA}}
+### OpenAI setzt Agenda: Public-Private-Partnerships für KI-Infrastruktur
 
-{{INVESTMENT_DESCRIPTION}}
+OpenAIs 13-seitiges Policy Paper fordert staatlich unterstützte KI-Infrastruktur – von beschleunigten Genehmigungsverfahren für Rechenzentren bis zu Nuclear-Power-Kapazitäten. Das politische Signal: Inference-Kosten werden weiter fallen, während Compliance-Anforderungen steigen. Für Automatisierungs-Teams bedeutet das: günstigere LLM-APIs und mehr regulatorische Klarheit, aber auch verbindliche Audit-Pflichten und Near-Miss-Reporting. Wer heute saubere Audit-Trails implementiert, ist morgen regulatorisch auf der sicheren Seite.
 
-[Weiterlesen →]({{INVESTMENT_ARTICLE_URL}})
+[Weiterlesen →](/news/2026-04-11-openai-legt-13-seitiges-policy-paper-vor-wer-profitiert-und-was-das-fuer-ki-praktiker-bedeutet/)
 
 ---
 
 ## 🎨 Kreative AI-Tools
 
-### {{CREATIVE_TOOL}} für {{APPLICATION}}
+### Virtual Try-On mit AWS Nova Canvas für Retail-Automatisierung
 
-{{CREATIVE_TOOL_DESCRIPTION}}
+Amazon Bedrock Nova Canvas ermöglicht realistische virtuelle Anproben für Online-Shops – vollständig serverlos, per SAM in wenigen Minuten deployed. Kunden sehen, wie Kleidung an realen Körpern aussieht; Händler sparen bis zu 30% Retourenkosten. Das komplette Referenz-Deployment inkl. Rekognition, Titan Multimodal Embeddings, OpenSearch Serverless und Analytics-Dashboard ist als Open Source verfügbar und mit einem einzigen Kommando ausrollbar.
 
-[Weiterlesen →]({{CREATIVE_TOOL_URL}})
+[Weiterlesen →](/news/2026-04-17-virtual-try-on-mit-aws-serverlose-retail-ki-spart-bis-zu-30-retourenquote/)
 
 ---
 
 ## 📊 Quickies: Die Highlights aus der Branche
 
-- **[{{QUICKIE_1}}]({{QUICKIE_URL_1}})**: {{QUICKIE_DESCRIPTION_1}}
-- **[{{QUICKIE_2}}]({{QUICKIE_URL_2}})**: {{QUICKIE_DESCRIPTION_2}}
-- **[{{QUICKIE_3}}]({{QUICKIE_URL_3}})**: {{QUICKIE_DESCRIPTION_3}}
-- **[{{QUICKIE_4}}]({{QUICKIE_URL_4}})**: {{QUICKIE_DESCRIPTION_4}}
+- **[collabmem – dauerhaftes KI-Gedächtnis](/news/2026-04-11-collabmem-das-open-source-memory-system-fuer-dauerhafte-ki-zusammenarbeit/)**: Open-Source Memory-System gibt Claude Code sitzungsübergreifendes Gedächtnis per plain-text Markdown – ohne Datenbank oder Cloud-Abhängigkeit
+- **[Linggen – Rust-basierter KI-Coding-Agent](/news/2026-04-09-linggen-der-open-source-ki-coding-agent-aus-rust-lokal-privat-und-sogar-vom-smartphone-steuerbar/)**: Vollständig lokaler KI-Coding-Agent mit P2P-Fernzugriff per WebRTC – ideal für Compliance-Projekte ohne Cloud-Abhängigkeit
+- **[CacheZero – LLM-Wiki als NPM-Pipeline](/news/2026-04-07-cachezero-karpathys-llm-wiki-idee-wird-zur-fertigen-automatisierungs-pipeline/)**: Karpathys LLM-Wiki-Pattern als fertiges NPM CLI – Webseiten einsaugen, vektorisieren und als persistentes, akkumulierendes Wissens-Wiki aufbauen
+- **[GitHub Copilot SDK – Issue-Triage automatisiert](/news/2026-03-27-github-copilot-sdk-automatisiert-issue-triage-mit-80-zeitersparnis/)**: Neues SDK transformiert GitHub Issue Management mit 80% Zeitersparnis und Remediation-Rate von 10% auf 55%
 
 ---
 
 ## 🎯 Was bedeutet das für dich als AI-Automation Engineer?
 
-Diese Woche zeigt deutlich: **{{MAIN_TREND_OF_WEEK}}**.
+Diese Woche zeigt deutlich: **KI-Agenten werden zu dauerhaften, autonomen Mitarbeitern – mit Gedächtnis, lokaler Ausführung und messbaren Business-Ergebnissen**.
 
-{{ANALYSIS_PARAGRAPH_1}}
+Die Ära der "Einweg-Sessions" mit KI-Assistenten geht zu Ende. Claude Computer Use und Dispatch machen KI zum Desktop-Mitarbeiter, collabmem gibt ihm sitzungsübergreifendes Gedächtnis, und Karpathys AutoResearch zeigt, dass Agenten in geschlossenen Loops bessere Ergebnisse liefern als manuelle Iteration. Der gemeinsame Nenner: Persistenz und Autonomie werden zum neuen Standard.
 
-{{ANALYSIS_PARAGRAPH_2}}
+Gleichzeitig verschärft sich die Frage nach Souveränität und Kontrolle. Linggen setzt auf vollständig lokale Ausführung ohne Cloud-Abhängigkeit, während OpenAIs Policy Paper die regulatorische Richtung vorgibt: Audit-Trails, Near-Miss-Reporting und Compliance werden für Teams, die KI-Systeme deployen, obligatorisch. Wer diese Strukturen heute baut, ist morgen regulatorisch und wettbewerblich im Vorteil.
 
 Die wichtigsten Trends:
-1. **{{TREND_1}}**: {{TREND_1_DESCRIPTION}}
-2. **{{TREND_2}}**: {{TREND_2_DESCRIPTION}}
-3. **{{TREND_3}}**: {{TREND_3_DESCRIPTION}}
-4. **{{TREND_4}}**: {{TREND_4_DESCRIPTION}}
+1. **Persistente KI-Agenten**: Von Session-zu-Session-Amnesie zu dauerhaftem Kontext – collabmem, Computer Use und AutoResearch zeigen drei verschiedene Wege zu Agenten mit Langzeitgedächtnis
+2. **Lokale Ausführung und Datensouveränität**: Linggen und CacheZero repräsentieren den wachsenden Trend zu lokalen, datenschutzkonformen KI-Tools ohne Cloud-Abhängigkeit – besonders relevant für regulierte Branchen
+3. **Loop-basierte Automatisierung**: Karpathys AutoResearch und GitHub Security Campaigns zeigen: Feedback-Loops mit automatischer Iteration übertreffen lineare Workflows deutlich bei scorierebaren Optimierungsaufgaben
+4. **KI-Compliance und Governance**: OpenAIs Policy Paper setzt den Rahmen – Audit-Trails, verbindliche Reporting-Pflichten und Accountability-Strukturen für KI-Deployments werden zur Grundanforderung
 
 ---
 
