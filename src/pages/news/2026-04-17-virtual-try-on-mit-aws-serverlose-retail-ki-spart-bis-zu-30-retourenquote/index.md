@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Automation', 'Technology']
 category: 'Technology'
 readTime: '5 min read'
-image: 'https://images.unsplash.com/photo-1676573284440-61fa6d0c8bce?w=1200&h=600&fit=crop'
+image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&h=600&fit=crop'
 ---
 
 **TL;DR:** AWS zeigt in einem neuen How-To-Guide, wie man mit Amazon Bedrock Nova Canvas, Rekognition, Titan Multimodal Embeddings, OpenSearch Serverless und Lambda eine vollständige Virtual-Try-On-Plattform für den Einzelhandel baut – vollständig serverlos, per SAM deployt und mit integriertem Analytics-Dashboard. Die gesamte Architektur lässt sich mit einem einzigen Kommando ausrollen und skaliert automatisch mit dem Traffic.
