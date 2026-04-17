@@ -2,8 +2,8 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import TelegramCTA from '../components/TelegramCTA.astro';
 
-const title = 'AI Automation Engineers — Reiseberichte aus der KI-Welt';
-const description = 'Robin Böhm berichtet live aus der KI-Entwicklung — Tools, Agenten, Gedanken und Erkenntnisse für Developer. Regelmäßig neue Berichte.';
+const title = 'AI Automation Engineers — Aktuelle AI News aus der KI-Welt';
+const description = 'Robin Böhm liefert aktuelle AI News aus der KI-Entwicklung — Tools, Agenten, Modelle und Erkenntnisse für Developer. Täglich neue Updates.';
 
 // Load latest blog posts
 const modules = import.meta.glob('./news/*/index.md', { eager: true });
@@ -69,17 +69,17 @@ const latestBlogPosts = blogPosts.slice(0, 3); // Get only the latest 3 posts
       <div class="text-center">
         <!-- Main Headline - Very Large Typography -->
         <h1 class="text-6xl sm:text-7xl lg:text-8xl xl:text-9xl font-bold tracking-tight mb-8 animate-fade-in">
-          <span class="block text-gray-900">Unterwegs</span>
-          <span class="block text-gray-900">im</span>
+          <span class="block text-gray-900">Aktuelle</span>
+          <span class="block text-gray-900">AI News</span>
           <span class="block bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-            <span id="typewriter-text">KI-Zeitalter</span><span id="typewriter-cursor" class="typewriter-cursor">_</span>
+            <span id="typewriter-text">aus der KI-Welt</span><span id="typewriter-cursor" class="typewriter-cursor">_</span>
           </span>
         </h1>
         
         <!-- Subtitle -->
         <p class="text-xl sm:text-2xl lg:text-3xl text-gray-600 mb-16 max-w-4xl mx-auto font-light leading-relaxed animate-fade-in animation-delay-300">
-          Ich berichte live aus der Welt der KI-Entwicklung — Tools, Gedanken,<br>
-          Begegnungen und Erkenntnisse von der Reise. Direkt in dein Postfach.
+          Robin Böhm liefert AI News direkt aus der KI-Entwicklung — neue Tools,<br>
+          Modelle und Erkenntnisse. Ungefiltert und aktuell. Direkt in dein Postfach.
         </p>
 
         <!-- CTA Buttons -->
@@ -93,7 +93,7 @@ const latestBlogPosts = blogPosts.slice(0, 3); // Get only the latest 3 posts
           </a>
           <a href="/news" 
              class="inline-flex items-center px-8 py-4 text-lg font-semibold text-gray-900 bg-white border-2 border-gray-200 rounded-full hover:border-gray-900 transition-all duration-300">
-            Reiseberichte lesen
+            AI News lesen
           </a>
         </div>
       </div>
@@ -113,7 +113,7 @@ const latestBlogPosts = blogPosts.slice(0, 3); // Get only the latest 3 posts
       <div class="grid grid-cols-1 md:grid-cols-3 gap-16 text-center">
         <div class="animate-fade-in-up">
           <div class="text-5xl font-bold text-gray-900 mb-4">500+</div>
-          <div class="text-xl text-gray-600">Mitreisende</div>
+          <div class="text-xl text-gray-600">Abonnenten</div>
         </div>
         <div class="animate-fade-in-up animation-delay-200">
           <div class="text-5xl font-bold text-gray-900 mb-4">100+</div>
@@ -121,7 +121,7 @@ const latestBlogPosts = blogPosts.slice(0, 3); // Get only the latest 3 posts
         </div>
         <div class="animate-fade-in-up animation-delay-400">
           <div class="text-5xl font-bold text-gray-900 mb-4">{totalPostsCount}</div>
-          <div class="text-xl text-gray-600">Berichte veröffentlicht</div>
+          <div class="text-xl text-gray-600">News veröffentlicht</div>
         </div>
       </div>
     </div>
@@ -132,10 +132,10 @@ const latestBlogPosts = blogPosts.slice(0, 3); // Get only the latest 3 posts
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-20">
         <h2 class="text-5xl sm:text-6xl font-bold text-gray-900 mb-8">
-          Wie die Reise aussieht.
+          Was dich erwartet.
         </h2>
         <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-          Von unterwegs in der KI-Welt — ehrlich, direkt und immer am Puls der Zeit.
+          AI News direkt aus der KI-Praxis — ehrlich, direkt und immer am Puls der Zeit.
         </p>
       </div>
 
@@ -158,13 +158,13 @@ const latestBlogPosts = blogPosts.slice(0, 3); // Get only the latest 3 posts
           <div class="animate-fade-in-up animation-delay-300">
             <h3 class="text-3xl font-bold text-gray-900 mb-6">Menschen & Gespräche</h3>
             <p class="text-lg text-gray-600 leading-relaxed">
-              Ich treffe interessante Menschen auf dieser Reise — und teile was ich von ihnen lerne. Ungefilterte Einblicke in die KI-Community.
+              Ich treffe interessante Menschen in der KI-Community — und teile was ich von ihnen lerne. Ungefilterte Einblicke und echte Perspektiven.
             </p>
           </div>
           <div class="animate-fade-in-up animation-delay-400">
-            <h3 class="text-3xl font-bold text-gray-900 mb-6">Dein Zugang zur Reise</h3>
+            <h3 class="text-3xl font-bold text-gray-900 mb-6">Dein Zugang zu den News</h3>
             <p class="text-lg text-gray-600 leading-relaxed">
-              Mit einer Subscription bekommst du Zugang zu den tieferen Einblicken — nicht zu einem fertigen Kurs, sondern zur laufenden Expedition.
+              Mit einer Subscription bekommst du Zugang zu den tieferen Einblicken — nicht zu einem fertigen Kurs, sondern zu laufenden AI News direkt aus der Praxis.
             </p>
           </div>
         </div>
@@ -178,10 +178,10 @@ const latestBlogPosts = blogPosts.slice(0, 3); // Get only the latest 3 posts
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-20">
         <h2 class="text-5xl sm:text-6xl font-bold text-gray-900 mb-8">
-          Aktuelle Reiseberichte.
+          Aktuelle AI News.
         </h2>
         <p class="text-xl text-gray-600">
-          Die neuesten Entdeckungen und Erkenntnisse direkt von der KI-Frontend.
+          Die neuesten Entdeckungen und Erkenntnisse direkt aus der KI-Welt.
         </p>
       </div>
 
@@ -221,7 +221,7 @@ const latestBlogPosts = blogPosts.slice(0, 3); // Get only the latest 3 posts
       <div class="text-center mt-16">
         <a href="/news" 
            class="inline-flex items-center px-8 py-4 text-lg font-semibold text-gray-900 bg-white border-2 border-gray-200 rounded-full hover:border-gray-900 transition-all duration-300">
-          Alle Reiseberichte
+          Alle AI News
           <svg class="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
           </svg>
@@ -251,10 +251,10 @@ const latestBlogPosts = blogPosts.slice(0, 3); // Get only the latest 3 posts
   // Typewriter effect
   document.addEventListener('DOMContentLoaded', function() {
     const words = [
-      'KI-Zeitalter',
-      'Unbekannten',
-      'Neuen',
-      'AI-Frontier'
+      'aus der KI-Welt',
+      'zu neuen Modellen',
+      'zu KI-Tools',
+      'zur AI-Frontier'
     ];
     
     let currentWordIndex = 0;
