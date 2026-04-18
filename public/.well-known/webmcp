@@ -8,11 +8,11 @@
     "pages": [
       {
         "url": "/",
-        "intents": ["subscribe_newsletter"]
+        "intents": ["navigate_to_page", "search_news"]
       },
       {
         "url": "/news",
-        "intents": ["search_articles", "subscribe_newsletter"]
+        "intents": ["search_articles", "subscribe_newsletter_news"]
       },
       {
         "url": "/lernpfade",
@@ -26,9 +26,9 @@
     "flows": [
       {
         "id": "newsletter_signup",
-        "description": "Subscribe to the AI automation newsletter to receive travel reports and insights.",
+        "description": "Subscribe to the AI automation newsletter on the news page.",
         "steps": [
-          { "intent": "subscribe_newsletter", "page": "/" }
+          { "intent": "subscribe_newsletter_news", "page": "/news" }
         ]
       },
       {
