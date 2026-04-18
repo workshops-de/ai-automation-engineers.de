@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Automation', 'Technology']
 category: 'Technology'
 readTime: '5 min read'
-image: 'https://images.unsplash.com/photo-1711929639928-c5a06a20e8ed?w=1200&h=600&fit=crop'
+image: 'https://images.unsplash.com/photo-1607798748738-b15c40d33d57?w=1200&h=600&fit=crop'
 ---
 
 **TL;DR:** Anthropic hat mit `claude-plugins-official` ein offizielles, kuratiertes Plugin-Verzeichnis für Claude Code auf GitHub veröffentlicht. Installation per `/plugin install`, MCP-basiert, Python/TypeScript/Shell – ein standardisiertes Ökosystem für wiederverwendbare Claude Code Plugins.
