@@ -1,5 +1,48 @@
 ---
 const utm = 'utm_source=ai-automation-engineers_de&utm_campaign=crossmarketing_permanent&utm_medium=portal&utm_content=article-lernpfade';
+
+const lernpfade = [
+  {
+    id: 'ai-automation-engineer',
+    label: 'AI Automation Engineer',
+    meta: 'n8n + KI-Agenten · 5–11 Tage',
+    icon: '🚀',
+    gradient: 'from-orange-500 to-amber-500',
+    hoverBorder: 'hover:border-orange-300',
+    hoverText: 'group-hover:text-orange-600',
+    url: `https://workshops.de/lernpfade/ai-automation-engineer?${utm}`,
+  },
+  {
+    id: 'n8n-solution-engineer',
+    label: 'n8n Solution Engineer',
+    meta: 'Modul 1 + 2 · 10 Tage',
+    icon: '🔗',
+    gradient: 'from-violet-600 to-purple-600',
+    hoverBorder: 'hover:border-violet-300',
+    hoverText: 'group-hover:text-violet-600',
+    url: `https://workshops.de/lernpfade/n8n-solution-engineer?${utm}`,
+  },
+  {
+    id: 'claude-ai-engineer',
+    label: 'Claude AI Engineer',
+    meta: '3 Module · 15 Tage',
+    icon: '🤖',
+    gradient: 'from-blue-600 to-cyan-500',
+    hoverBorder: 'hover:border-blue-300',
+    hoverText: 'group-hover:text-blue-600',
+    url: `https://workshops.de/lernpfade/claude-ai-engineer?${utm}`,
+  },
+  {
+    id: 'copilot-solution-engineer',
+    label: 'M365 Copilot Solution Engineer',
+    meta: 'Grundlagen + Studio · 10 Tage',
+    icon: '💼',
+    gradient: 'from-teal-500 to-green-500',
+    hoverBorder: 'hover:border-teal-300',
+    hoverText: 'group-hover:text-teal-600',
+    url: `https://workshops.de/lernpfade/microsoft-365-copilot-solution-engineer?${utm}`,
+  },
+];
 ---
 
 <div class="bg-gradient-to-br from-orange-50 via-white to-amber-50 border-t border-orange-100">
@@ -18,57 +61,20 @@ const utm = 'utm_source=ai-automation-engineers_de&utm_campaign=crossmarketing_p
     </div>
 
     <div class="grid sm:grid-cols-2 gap-3 mb-6">
-      <a href={`https://workshops.de/schulungsthemen/kuenstliche-intelligenz?${utm}`}
-         target="_blank"
-         class="flex items-center gap-3 bg-white border border-gray-200 rounded-2xl p-4 hover:border-orange-300 hover:shadow-sm transition-all group">
-        <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-orange-500 to-amber-500 flex items-center justify-center text-lg flex-shrink-0">🚀</div>
-        <div class="min-w-0">
-          <div class="font-semibold text-gray-900 text-sm group-hover:text-orange-600 transition-colors">AI Automation Engineer</div>
-          <div class="text-xs text-gray-500">n8n + KI-Agenten · 5–11 Tage</div>
-        </div>
-        <svg class="w-4 h-4 text-gray-400 ml-auto flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-        </svg>
-      </a>
-
-      <a href={`https://workshops.de/schulungsthemen/kuenstliche-intelligenz?${utm}`}
-         target="_blank"
-         class="flex items-center gap-3 bg-white border border-gray-200 rounded-2xl p-4 hover:border-violet-300 hover:shadow-sm transition-all group">
-        <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-violet-600 to-purple-600 flex items-center justify-center text-lg flex-shrink-0">🔗</div>
-        <div class="min-w-0">
-          <div class="font-semibold text-gray-900 text-sm group-hover:text-violet-600 transition-colors">n8n Solution Engineer</div>
-          <div class="text-xs text-gray-500">Modul 1 + 2 · 10 Tage</div>
-        </div>
-        <svg class="w-4 h-4 text-gray-400 ml-auto flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-        </svg>
-      </a>
-
-      <a href={`https://workshops.de/schulungsthemen/kuenstliche-intelligenz?${utm}`}
-         target="_blank"
-         class="flex items-center gap-3 bg-white border border-gray-200 rounded-2xl p-4 hover:border-blue-300 hover:shadow-sm transition-all group">
-        <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-blue-600 to-cyan-500 flex items-center justify-center text-lg flex-shrink-0">🤖</div>
-        <div class="min-w-0">
-          <div class="font-semibold text-gray-900 text-sm group-hover:text-blue-600 transition-colors">Claude AI Engineer</div>
-          <div class="text-xs text-gray-500">3 Module · 15 Tage</div>
-        </div>
-        <svg class="w-4 h-4 text-gray-400 ml-auto flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-        </svg>
-      </a>
-
-      <a href={`https://workshops.de/schulungsthemen/microsoft-365-copilot?${utm}`}
-         target="_blank"
-         class="flex items-center gap-3 bg-white border border-gray-200 rounded-2xl p-4 hover:border-teal-300 hover:shadow-sm transition-all group">
-        <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-teal-500 to-green-500 flex items-center justify-center text-lg flex-shrink-0">💼</div>
-        <div class="min-w-0">
-          <div class="font-semibold text-gray-900 text-sm group-hover:text-teal-600 transition-colors">M365 Copilot Solution Engineer</div>
-          <div class="text-xs text-gray-500">Grundlagen + Studio · 10 Tage</div>
-        </div>
-        <svg class="w-4 h-4 text-gray-400 ml-auto flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-        </svg>
-      </a>
+      {lernpfade.map(lp => (
+        <a href={lp.url}
+           target="_blank"
+           class={`flex items-center gap-3 bg-white border border-gray-200 rounded-2xl p-4 ${lp.hoverBorder} hover:shadow-sm transition-all group`}>
+          <div class={`w-10 h-10 rounded-xl bg-gradient-to-br ${lp.gradient} flex items-center justify-center text-lg flex-shrink-0`}>{lp.icon}</div>
+          <div class="min-w-0">
+            <div class={`font-semibold text-gray-900 text-sm ${lp.hoverText} transition-colors`}>{lp.label}</div>
+            <div class="text-xs text-gray-500">{lp.meta}</div>
+          </div>
+          <svg class="w-4 h-4 text-gray-400 ml-auto flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+          </svg>
+        </a>
+      ))}
     </div>
 
     <div class="text-center">
