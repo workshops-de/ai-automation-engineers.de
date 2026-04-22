@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Automation', 'Technology']
 category: 'Technology'
 readTime: '5 min read'
-image: 'https://images.unsplash.com/photo-1676573284440-61fa6d0c8bce?w=1200&h=600&fit=crop'
+image: 'https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=1200&h=600&fit=crop&auto=format&q=80'
 ---
 
 **TL;DR:** Anthropic verpflichtet sich laut Axios zu 100 Milliarden Dollar AWS-Spending über 10 Jahre – Amazon sichert sich im Gegenzug 5 Gigawatt Rechenleistung und vertieft seine Stellung als primärer Infrastruktur-Partner für Claude.
