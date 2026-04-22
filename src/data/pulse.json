@@ -1,0 +1,105 @@
+[
+  {
+    "number": 1,
+    "slug": "pulse-1",
+    "title": "HeyGen HyperFrames: Wenn Claude Code Videos baut",
+    "description": "HyperFrames ist ein Open-Source-Framework, das HTML-Kompositionen deterministisch in MP4-Videos rendert — und wurde komplett mit Claude Code gebaut. Ein Proof-of-Concept dafür, wie sich Software-Entwicklung gerade verändert.",
+    "youtubeId": "O3ZNk5HXrmU",
+    "articleUrl": "/news/2026-04-18-heygen-hyperframes-html-schreiben-video-rendern-komplett-mit-claude-code-gebaut/",
+    "publishedAt": "2026-04-21",
+    "topics": [
+      "HeyGen HyperFrames",
+      "Claude Code",
+      "AI-generierte Videos",
+      "HTML-to-MP4",
+      "Agentic Development"
+    ],
+    "links": [
+      {
+        "label": "Artikel auf AI-Automation-Engineers.de",
+        "url": "/news/2026-04-18-heygen-hyperframes-html-schreiben-video-rendern-komplett-mit-claude-code-gebaut/",
+        "type": "article"
+      },
+      {
+        "label": "HeyGen HyperFrames – GitHub Repository",
+        "url": "https://github.com/heygen-com/hyperframes",
+        "type": "github"
+      },
+      {
+        "label": "Offizielle HyperFrames-Dokumentation",
+        "url": "https://hyperframes.heygen.com/introduction",
+        "type": "docs"
+      },
+      {
+        "label": "Prompting Guide für AI-Agents (HyperFrames)",
+        "url": "https://hyperframes.heygen.com/guides/prompting",
+        "type": "docs"
+      }
+    ],
+    "workshopHint": "Du willst tiefer einsteigen in KI-Automatisierung, n8n-Workflows und den Einsatz von AI-Agents in der Praxis? Alle KI-Schulungen gibt es bei workshops.de.",
+    "workshopUrl": "https://workshops.de/schulungsthemen/kuenstliche-intelligenz?utm_source=ai-automation-engineers_de&utm_campaign=pulse&utm_medium=portal&utm_content=pulse-1"
+  },
+  {
+    "number": 2,
+    "slug": "pulse-2",
+    "title": "Wispr Flow: Rede mit deinen Agents, nicht nur tippe",
+    "description": "Wispr Flow setzt als KI-Sprach-Keyboard überall an, wo du tippst — inkl. Chats, Agent-Interfaces und Tools. Wenn dein Stack schon klar ist, ist das oft der schnellste Weg, wirklich mit deinen Workflows zu sprechen.",
+    "youtubeId": "VzjlLlE4nCk",
+    "publishedAt": "2026-04-22",
+    "topics": [
+      "Wispr Flow",
+      "Voice-to-Text",
+      "AI Agents",
+      "Developer-Workflows",
+      "Produktivität"
+    ],
+    "links": [
+      {
+        "label": "Wispr Flow (Website)",
+        "url": "https://wisprflow.ai/",
+        "type": "docs"
+      },
+      {
+        "label": "Wispr Flow — Developer-Referenz",
+        "url": "https://ref.wisprflow.ai/developers",
+        "type": "docs"
+      }
+    ],
+    "workshopHint": "Du willst Voice, Agents und Automatisierung im Team sauber einführen? Schau in die KI- und n8n-Schulungen auf workshops.de.",
+    "workshopUrl": "https://workshops.de/schulungsthemen/kuenstliche-intelligenz?utm_source=ai-automation-engineers_de&utm_campaign=pulse&utm_medium=portal&utm_content=pulse-3"
+  },
+  {
+    "number": 3,
+    "slug": "pulse-3",
+    "title": "Siri, n8n-Webhook & Apple Shortcuts: Voice-Interface fürs eigene Agent-Setup",
+    "description": "Kurz gezeigt: Wie du Siri, einen Apple Shortcut und einen n8n-Webhook so verbindest, dass du deine KI-Automations per Sprache triggern kannst — ohne extra Client, direkt vom iPhone.",
+    "youtubeId": "GSpH5xseC74",
+    "publishedAt": "2026-04-22",
+    "topics": [
+      "Siri & Shortcuts",
+      "n8n Webhook",
+      "Voice-Trigger",
+      "KI-Automation",
+      "Mobile Agents"
+    ],
+    "links": [
+      {
+        "label": "n8n: Webhook-Node (Dokumentation)",
+        "url": "https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.webhook/",
+        "type": "docs"
+      },
+      {
+        "label": "Kurz erklärt: Shortcuts auf dem iPhone (Apple Support)",
+        "url": "https://support.apple.com/guide/shortcuts/welcome/ios",
+        "type": "docs"
+      },
+      {
+        "label": "n8n — Workflow-Automation (Website)",
+        "url": "https://n8n.io/",
+        "type": "docs"
+      }
+    ],
+    "workshopHint": "Du willst tiefer in n8n, Voice-Trigger und KI-Agents? Alle KI- und n8n-Schulungen findest du bei workshops.de.",
+    "workshopUrl": "https://workshops.de/schulungsthemen/kuenstliche-intelligenz?utm_source=ai-automation-engineers_de&utm_campaign=pulse&utm_medium=portal&utm_content=pulse-2"
+  }
+]
