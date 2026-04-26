@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Automation', 'Technology']
 category: 'Technology'
 readTime: '5 min read'
-image: 'https://images.unsplash.com/photo-1676573284440-61fa6d0c8bce?w=1200&h=600&fit=crop'
+image: 'https://images.unsplash.com/photo-1744640326166-433469d102f2?w=1200&h=600&fit=crop'
 ---
 
 **TL;DR:** OX Security hat eine architektonische Schwachstelle im Model Context Protocol (MCP) von Anthropic aufgedeckt, die beliebige OS-Befehle ohne jede Sanitization ausführt – und Anthropic bezeichnet das als „expected behavior".
