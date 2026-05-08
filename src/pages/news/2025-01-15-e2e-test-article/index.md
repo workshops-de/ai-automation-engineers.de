@@ -1,6 +1,6 @@
 ---
 layout: '../../../layouts/BlogLayout.astro'
-title: 'E2E Test Artikel'
+title: 'E2E Test Artikel - Aktualisiert'
 description: 'Dieser Artikel wurde automatisch durch einen E2E-Test erstellt und sollte gelöscht werden.'
 pubDate: '2025-01-15'
 author: 'Robin Böhm'
