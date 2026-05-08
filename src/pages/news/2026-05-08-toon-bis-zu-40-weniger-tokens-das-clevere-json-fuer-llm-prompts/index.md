@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Automation', 'Technology']
 category: 'Technology'
 readTime: '5 min read'
-image: 'https://images.unsplash.com/photo-1726916817036-09ed4feb5bb5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MTM4MjZ8MHwxfHNlYXJjaHw3fHxUT09OJTIwQmlzJTIwenUlMjB3ZW5pZ2VyJTIwVExEUiUyMFRPT04lMjBUb2tlbk9yaWVudGVkfGVufDF8MHx8fDE3NzgyMjI0MjJ8MA&ixlib=rb-4.1.0&q=80&w=1080'
+image: 'https://images.unsplash.com/photo-1627398242454-45a1465c2479?w=1200&h=630&fit=crop&auto=format'
 ---
 
 **TL;DR:** TOON (Token-Oriented Object Notation) ist ein kompaktes, für LLMs optimiertes Datenformat, das JSON lossless ersetzen kann. In Benchmarks erreicht es ~40 % weniger Token-Verbrauch bei gleichzeitig höherer Parsing-Genauigkeit (74 % vs. 70 % bei JSON) – ein direkter Hebel für Kosten und Zuverlässigkeit in KI-Workflows.

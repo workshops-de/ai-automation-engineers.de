@@ -7,7 +7,7 @@ author: 'Robin Böhm'
 tags: ['AI', 'Automation', 'Technology']
 category: 'Technology'
 readTime: '5 min read'
-image: 'https://images.unsplash.com/photo-1752848695999-81b646f30eb5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MTM4MjZ8MHwxfHNlYXJjaHw3fHxXYXJ1bSUyMEtJQ29kaW5nVG9vbHMlMjBrZWluJTIwUkVTVCUyMFRMRFIlMjBLSUNvZGluZ0Fzc2lzdGVudGVuJTIwZ2VuZXJpZXJlbnxlbnwxfDB8fHwxNzc4MjIyNDU1fDA&ixlib=rb-4.1.0&q=80&w=1080'
+image: 'https://images.unsplash.com/photo-1674544362969-a4269ef0ea69?w=1200&h=630&fit=crop&auto=format'
 ---
 
 **TL;DR:** KI-Coding-Assistenten generieren beobachtbar häufiger RPC-artige POST-Endpoints als saubere RESTful APIs – eine HackerNews-Diskussion beleuchtet die wahrscheinlichen Ursachen und was das für AI-unterstützte Projekte bedeutet.
