@@ -1,9 +1,9 @@
 name: 📅 Weekly Newsletter Generation
 
 on:
-  schedule:
-    # Runs every Friday at 9:00 AM CET (8:00 AM UTC)
-    - cron: '0 8 * * 5'
+#  schedule:
+#    # Runs every Friday at 9:00 AM CET (8:00 AM UTC)
+#    - cron: '0 8 * * 5'
   
   # Allow manual trigger
   workflow_dispatch:
